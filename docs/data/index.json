@@ -1,0 +1,34 @@
+{
+ "generated_at": "2026-08-05T23:30:43Z",
+ "tickers": [
+  "AMZN",
+  "GOOG",
+  "NVDA",
+  "META"
+ ],
+ "market_status": {
+  "source": "polygon",
+  "fetched_at": "2026-08-05T23:30:43Z",
+  "market": "extended-hours",
+  "exchanges": {
+   "nasdaq": "extended-hours",
+   "nyse": "extended-hours",
+   "otc": "closed"
+  },
+  "server_time": "2026-08-05T19:30:43-04:00"
+ },
+ "macro": {
+  "source": "alphavantage",
+  "fetched_at": "2026-08-05T23:30:44Z",
+  "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints"
+ },
+ "sources_configured": {
+  "finnhub": true,
+  "twelve": true,
+  "polygon": true,
+  "fmp": true,
+  "av": true
+ },
+ "yfinance_available": true,
+ "alpha_vantage_calls_this_run": 6
+}
