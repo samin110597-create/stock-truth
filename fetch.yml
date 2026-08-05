@@ -1,0 +1,47 @@
+name: Fetch market data
+
+on:
+  schedule:
+    # Every 30 min, 13:30-20:00 UTC = 9:30-16:00 ET, Mon-Fri.
+    # GitHub cron is UTC and doesn't know DST; in winter this runs
+    # 8:30-15:00 ET — adjust the hours if that bothers you.
+    - cron: "0,30 13-20 * * 1-5"
+  workflow_dispatch: {}   # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch and build data
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          TWELVE_KEY: ${{ secrets.TWELVE_KEY }}
+          FMP_KEY: ${{ secrets.FMP_KEY }}
+          POLYGON_KEY: ${{ secrets.POLYGON_KEY }}
+          ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
+        run: python scripts/fetch_data.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "data-bot"
+          git config user.email "actions@github.com"
+          git add docs/data
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
