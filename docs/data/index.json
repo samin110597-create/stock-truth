@@ -1,26 +1,59 @@
 {
- "generated_at": "2026-08-06T00:37:51Z",
+ "generated_at": "2026-08-06T15:04:24Z",
  "tickers": [
   "AMZN",
   "GOOG",
   "NVDA",
   "META"
  ],
+ "summary": [
+  {
+   "symbol": "AMZN",
+   "name": "Amazon.com, Inc.",
+   "fundamentals_source": "yfinance",
+   "fundamentals_ok": true,
+   "candles_ok": true,
+   "confidence": "HIGH",
+   "price": 273.71
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc.",
+   "fundamentals_source": "yfinance",
+   "fundamentals_ok": true,
+   "candles_ok": true,
+   "confidence": "HIGH",
+   "price": 359.33
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA Corporation",
+   "fundamentals_source": "yfinance",
+   "fundamentals_ok": true,
+   "candles_ok": true,
+   "confidence": "HIGH",
+   "price": 218.25
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms, Inc.",
+   "fundamentals_source": "yfinance",
+   "fundamentals_ok": true,
+   "candles_ok": true,
+   "confidence": "HIGH",
+   "price": 591.49
+  }
+ ],
  "market_status": {
   "source": "polygon",
-  "fetched_at": "2026-08-06T00:37:51Z",
-  "market": "closed",
-  "exchanges": {
-   "nasdaq": "closed",
-   "nyse": "closed",
-   "otc": "closed"
-  },
-  "server_time": "2026-08-05T20:37:51-04:00"
+  "fetched_at": "2026-08-06T15:04:24Z",
+  "market": "open",
+  "server_time": "2026-08-06T11:04:24-04:00"
  },
  "macro": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-06T00:37:51Z",
-  "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints"
+  "fetched_at": "2026-08-06T15:04:24Z",
+  "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage"
  },
  "sources_configured": {
   "finnhub": true,
@@ -30,5 +63,5 @@
   "av": true
  },
  "yfinance_available": true,
- "alpha_vantage_calls_this_run": 2
+ "av_calls_this_run": 6
 }
