@@ -85,7 +85,7 @@ summary{cursor:pointer;font-size:11px;color:var(--dim);font-family:var(--mono)}
   <header class="row" style="justify-content:space-between">
     <div class="row" style="gap:12px">
       <h1>Stock Truth</h1>
-      <span class="sub">six sources · verified maths · no simulated numbers</span>
+      <span class="sub">six sources · verified maths · no simulated numbers · <span id="buildTag" class="dim">checking build…</span></span>
     </div>
     <button id="btnBrief" title="Export a verified data pack for your AI engine prompts">AI brief</button>
     <button id="btnLive">Live quote</button>
@@ -859,6 +859,7 @@ const sgn=v=>v>0?"up":v<0?"down":"";
 const agoBars=n=>n===0?"today":n===1?"yesterday":n+" sessions ago";
 
 /* ================= state ================= */
+const BUILD_TAG="v2.4 · 2026-08-06";
 let INDEX=null,D=null,T=null,V=null,L=null,S=null,PAT=null,SIG=null,MODE="direct";
 let TF=localStorage.getItem("tf")||"1day",FRESH=null,candleTimer=null;
 const RANKD={};let RANK_SORT={key:"score",dir:-1},RANK_BUSY=false;
@@ -1213,7 +1214,9 @@ async function boot(){
       <p class="note err">${esc(bad)}.</p>
       <p class="note">The page verifies its own math engine every time it loads. A failure here almost always means the uploaded index.html was truncated or corrupted in transit — it is not a data problem. Re-download index.html and upload it into docs again, then hard-refresh. Nothing will be computed from a damaged engine.</p></div>`;
     $("#modeTag").textContent="DAMAGED FILE";$("#modeTag").classList.add("bad");
+    {const bt2=$("#buildTag");if(bt2){bt2.textContent="build "+BUILD_TAG+" · SELF-TEST FAILED";bt2.classList.add("err");}}
     return;}
+  {const bt2=$("#buildTag");if(bt2){bt2.textContent="build "+BUILD_TAG+" · engine self-test ✓";bt2.classList.remove("dim");bt2.classList.add("up");}}
   loadKeys();bindKeys();
   try{
     INDEX=await(await fetch("./data/index.json",{cache:"no-store"})).json();
