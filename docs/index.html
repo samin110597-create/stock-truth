@@ -87,6 +87,7 @@ summary{cursor:pointer;font-size:11px;color:var(--dim);font-family:var(--mono)}
       <h1>Stock Truth</h1>
       <span class="sub">six sources · verified maths · no simulated numbers</span>
     </div>
+    <button id="btnBrief" title="Export a verified data pack for your AI engine prompts">AI brief</button>
     <button id="btnLive">Live quote</button>
   </header>
 
@@ -1192,7 +1193,27 @@ function pushRecent(s){const r=recents().filter(x=>x!==s);r.unshift(s);
   localStorage.setItem("recents",JSON.stringify(r.slice(0,12)));}
 
 /* ================= boot ================= */
+function selfTest(){
+  try{
+    const cs=[1,2,3,4,5,6,7,8,9,10];
+    const e=ENG.ema(cs,3);if(Math.abs(e[9]-9)>1.5)return"EMA check failed";
+    if(Math.abs(ENG.normCdf(0)-0.5)>1e-9)return"probability check failed";
+    if(ENG.median([1,2,3,4])!==2.5)return"median check failed";
+    const flat=Array(300).fill(100).map((v,i2)=>({date:"2025-01-01",open:v,high:v,low:v,close:v,volume:1}));
+    if(PAT_ENG.chartPatterns(flat,100,1).length>0)return"pattern engine check failed";
+    if(typeof BACKTEST.backtest!=="function")return"backtest module missing";
+    return null;
+  }catch(err){return"engine threw: "+String(err&&err.message||err).slice(0,120);}}
+
 async function boot(){
+  const bad=selfTest();
+  if(bad){
+    $("#app").innerHTML=`<div class="panel" style="border-color:rgba(224,82,82,.6)">
+      <h2>This file is damaged <span class="tag bad">SELF-TEST FAILED</span></h2>
+      <p class="note err">${esc(bad)}.</p>
+      <p class="note">The page verifies its own math engine every time it loads. A failure here almost always means the uploaded index.html was truncated or corrupted in transit — it is not a data problem. Re-download index.html and upload it into docs again, then hard-refresh. Nothing will be computed from a damaged engine.</p></div>`;
+    $("#modeTag").textContent="DAMAGED FILE";$("#modeTag").classList.add("bad");
+    return;}
   loadKeys();bindKeys();
   try{
     INDEX=await(await fetch("./data/index.json",{cache:"no-store"})).json();
@@ -1285,7 +1306,16 @@ function compute(){
 
   const lastClosedT=parseBarTime(raw[raw.length-1].date);
   const ageMin=lastClosedT?Math.max(0,(Date.now()-lastClosedT)/6e4):null;
-  FRESH={tf:TF,label:M.label,lastClosed:raw[raw.length-1].date,ageMin,
+  /* unadjusted-split sniff: a >25% overnight jump that the day does not retrace
+     is almost always a vendor serving unadjusted history — every level computed
+     across it is wrong until the vendor fixes it */
+  let splitFlag=null;
+  const scanSrc=(D.daily&&D.daily.bars)||(M.perDay===1?raw:null);
+  if(scanSrc)for(let k=Math.max(1,scanSrc.length-500);k<scanSrc.length;k++){
+    const pc=scanSrc[k-1].close,o=scanSrc[k].open,cl=scanSrc[k].close;
+    if(pc>0&&o>0&&Math.abs(o/pc-1)>0.25&&Math.abs(cl/pc-1)>0.25){
+      splitFlag={date:scanSrc[k].date,jump:(o/pc-1)*100};}}
+  FRESH={tf:TF,label:M.label,lastClosed:raw[raw.length-1].date,ageMin,splitFlag,
     stale:ageMin!=null&&ageMin>M.staleMin*3,
     forming:sp.forming,quoteAge:q&&q.fetched_at?(Date.now()-Date.parse(q.fetched_at))/6e4:null,
     live:LIVE.price!=null,mode:D.direct?"direct":"pipeline",
@@ -1551,6 +1581,7 @@ function freshPanel(){
       ${st("Live quote polling",FRESH.live?"on":"off",FRESH.live?"up":"dim",FRESH.live?"refreshing every 10 seconds":"press Live quote in the header")}
       ${st("Candles fetched",FRESH.fetchedAt?ago(FRESH.fetchedAt):"—","",FRESH.mode==="direct"?"straight from the vendor":"from the robot's last run")}
     </div>
+    ${FRESH.splitFlag?`<p class="note err">Possible unadjusted split or data break on ${esc(FRESH.splitFlag.date)} (${fmt(FRESH.splitFlag.jump,0)}% overnight jump that held). Every moving average, level and pattern computed across that date is suspect. Cross-check this symbol on the vendor's site; if it is a split, the history usually corrects within a day.</p>`:""}
     ${FRESH.stale?`<p class="note err">The newest bar is far older than this timeframe should allow. On a daily chart that is normal over a weekend or holiday. Intraday it means the market is closed, or the vendor has not published the latest bar yet.</p>`:""}
     <p class="note"><b>What "live" can and cannot mean here.</b> Daily indicators are built from daily closes, so RSI, MACD and the moving averages only change once a day by construction — that is not staleness, it is what a daily indicator is. What was genuinely missing before: today's session was not counted at all until the close. Now, when the live quote is on, today's real open, high, low and last are spliced in as a forming bar and every price indicator recomputes against it${FRESH.forming?"":", which will happen as soon as you press Live quote"}. Volume indicators deliberately keep to closed bars, because a quote carries no volume and inventing one would corrupt them.<br><br>
     For a genuinely faster read, switch the timeframe above. A 15-minute chart recomputes RSI, MACD and the patterns every 15 minutes on real intraday bars.</p>
@@ -2209,6 +2240,119 @@ function drawFund(){
     {type:"line",label:"Free cash flow",data:a.map(x=>x.fcf),borderColor:"#E8A33D",borderWidth:1.8,pointRadius:2}]},
     options:{...baseOpts(),scales:{x:axis(),y:axis({ticks:{color:CH.tick,font:{family:CH.font,size:9},callback:v=>big(v)}})}}});}
 
+/* ---------------- AI brief export ----------------
+   Builds the verified data pack the user's engine prompts demand:
+   their exact DATA HEADER protocol, then every computed figure with
+   its source, then an explicit absent-data section. Paste it into an
+   AI chat together with one of the engine prompts and the model works
+   from verified numbers instead of inventing them. */
+function briefLine(k,v){return (k+" ").padEnd(16,"·")+" "+v;}
+function buildBrief(){
+  if(!D||!T)return null;
+  const f=D.fundamentals||{},q=D.quote||{},x=D.extras||{},pr=D.peers||{},e=D.earnings||{};
+  const L2=[],push=(...a)=>L2.push(...a);
+  const nowET=new Date().toLocaleString("en-US",{timeZone:"America/New_York",hour12:false});
+  const mkt=INDEX?.market_status?.market||"unknown";
+  push("+"+"-".repeat(66)+"+");
+  push("| DATA TIMESTAMP : "+nowET+" ET");
+  push("| MARKET STATUS  : "+mkt+(FRESH?` (newest ${FRESH.label} bar: ${FRESH.lastClosed})`:""));
+  push("| PRICE USED     : $"+fmt(T.price)+(LIVE.price!=null?" (live quote, polling)":q.error?" (last close — quote failed)":" (vendor quote at fetch)"));
+  push("| SOURCES PULLED : candles "+((D.candles||{}).source||"none")+
+       "; fundamentals "+(f.source||"none")+(f.fallback_used?" (fallback)":"")+
+       "; quote finnhub; earnings alphavantage; peers "+(pr.source||"none")+
+       (D.direct?" — fetched directly from browser":" — fetched by GitHub Action"));
+  push("| DATA CONFIDENCE: "+((D.candles||{}).confidence||"NONE")+
+       ((D.candles||{}).cross_check?` — ${D.candles.cross_check.status}, worst gap ${fmt(D.candles.cross_check.worst,3)}% over ${D.candles.cross_check.checked} shared closes vs Polygon`:" — single candle source, no independent cross-check"));
+  push("+"+"-".repeat(66)+"+","");
+  if(FRESH&&FRESH.earningsIn!=null)push("!! EARNINGS IN ~"+Math.max(1,Math.round(FRESH.earningsIn))+" DAY(S) — volatility/target assumptions break across a print","");
+
+  push("== PRICE & STRUCTURE ("+(FRESH?FRESH.label:"daily")+") ==");
+  push(briefLine("price","$"+fmt(T.price)+"  52wk $"+fmt(T.lo52)+"–$"+fmt(T.hi52)+"  ("+pct(T.rangePos,0)+" of range)"));
+  push(briefLine("trend",`monthly ${T.trends.monthly.label}, weekly ${T.trends.weekly.label}, daily ${T.trends.daily.label}`));
+  push(briefLine("EMAs",`9:$${fmt(T.e9[T.i])} 20:$${fmt(T.e20[T.i])} 50:$${fmt(T.e50[T.i])} 100:$${fmt(T.e100[T.i])} 200:$${fmt(T.e200[T.i])}`+(T.goldenCross?` — ${T.goldenCross} cross in force`:"")));
+  push(briefLine("momentum",`RSI ${fmt(T.rsi,1)} · MACD ${fmt(T.macd,3)}/${fmt(T.macdSig,3)} · Stoch ${fmt(T.stochK,1)}/${fmt(T.stochD,1)} · MFI ${fmt(T.mfi,1)} · ADX ${fmt(T.adx,1)} (+DI ${fmt(T.pdi,1)} −DI ${fmt(T.ndi,1)})`));
+  push(briefLine("volatility",`ATR $${fmt(T.atr)} (${pctv(T.atr/T.price*100)}/bar) · annualised ${pctv((T.vol||0)*100)} · BB width ${pctv(T.bbW)} %B ${fmt(T.pctB,2)}`));
+  push(briefLine("volume",`latest ${big(T.lastVol)} = ${fmt(T.relVol,2)}× 20-bar avg · OBV ${T.obvSlope>0?"rising":"falling"}`));
+  push(briefLine("resistance",T.levels.resistance.length?T.levels.resistance.map(v=>"$"+fmt(v)).join(", "):"none in range (at/near highs)"));
+  push(briefLine("support",T.levels.support.length?T.levels.support.map(v=>"$"+fmt(v)).join(", "):"none in range"));
+  push(briefLine("pivots",`P $${fmt(T.pivots.P)} R1 $${fmt(T.pivots.R1)} R2 $${fmt(T.pivots.R2)} S1 $${fmt(T.pivots.S1)} S2 $${fmt(T.pivots.S2)}`));
+  push(briefLine("fib 52wk",Object.entries(T.fib).map(([k,v])=>k+" $"+fmt(v)).join("  ")));
+  if(T.bos)push(briefLine("last BOS",`${T.bos.dir} through $${fmt(T.bos.price)} on ${T.bos.date}`));
+  const fvgTxt=[...T.fvg.above.map(g=>`above $${fmt(g.lo)}–$${fmt(g.hi)}`),...T.fvg.below.map(g=>`below $${fmt(g.lo)}–$${fmt(g.hi)}`)];
+  push(briefLine("open FVGs",fvgTxt.length?fvgTxt.join("; "):"none open"));
+  push("");
+
+  if(SIG&&SIG.length){push("== TRIGGERED SIGNALS (most recent first) ==");
+    for(const s2 of SIG.slice(0,12))push(`  [${s2.dir>0?"BULL":s2.dir<0?"BEAR":"NEUT"}] ${s2.name} — ${agoBars(s2.bars_ago)}${s2.date?" ("+s2.date+")":""}`);push("");}
+  if(PAT&&PAT.chart.length){push("== CHART PATTERNS (mechanical rules) ==");
+    for(const p of PAT.chart)push(`  ${p.name} [${p.status}] trigger $${fmt(p.confirm)} target $${fmt(p.target)} invalidation $${fmt(p.invalidate)} — ${p.detail}`);push("");}
+  else{push("== CHART PATTERNS ==","  none currently satisfies its rule — do not force one","");}
+  if(PAT&&PAT.wyckoff)push("== WYCKOFF PROXY ==",`  ${PAT.wyckoff.phase} — ${PAT.wyckoff.why} (mechanical proxy, not a discretionary Wyckoff read)`,"");
+
+  const sc=score(L);
+  push("== WEIGHTED EVIDENCE ==",
+    `  score ${sc.pts??"—"}/100 → ${sc.edge} (bull weight ${sc.bull} vs bear ${sc.bear}, ${L.filter(z=>z.w).length} factors)`);
+  for(const z of L.filter(z=>z.w).sort((a,b)=>b.w-a.w))push(`  [${z.dir>0?"+":z.dir<0?"-":"0"}${z.w}] ${z.cat} · ${z.label}: ${z.detail}`);
+  push("");
+  if(BT&&!BT.error){push("== BACKTEST OF THIS SCORE, THIS TICKER ("+BT.bars_used+" bars, fwd "+BT.horizon_days+"d) ==");
+    const bb2=BT.buckets;
+    push(`  bullish reads: avg ${fmt(bb2.bull.avg21,2)}% (n=${bb2.bull.n}) · neutral ${fmt(bb2.neutral.avg21,2)}% (n=${bb2.neutral.n}) · bearish ${fmt(bb2.bear.avg21,2)}% (n=${bb2.bear.n}) · baseline ${fmt(BT.baseline.avg21,2)}%`);
+    push("  caveats: "+BT.caveats.join(" "),"");}
+  if(S){push("== SCENARIOS (zero-drift lognormal from measured vol — breaks on news) ==");
+    for(const s2 of S)push(`  ${s2.n}: bear $${fmt(s2.bear.from)}–$${fmt(s2.bear.to)} (${pct(s2.bear.p,0)}) · base $${fmt(s2.base.from)}–$${fmt(s2.base.to)} (${pct(s2.base.p,0)}) · bull $${fmt(s2.bull.from)}–$${fmt(s2.bull.to)} (${pct(s2.bull.p,0)}) · touch R ${s2.pUp?pct(s2.pUp.touch,0):"—"} / S ${s2.pDn?pct(s2.pDn.touch,0):"—"}`);push("");}
+
+  push("== FUNDAMENTALS ("+(f.source||"none")+(f.partial?" — ratios only":"")+") ==");
+  if(f.error)push("  UNAVAILABLE: "+f.error);
+  else if(f.is_etf)push("  fund/ETF — no statements; intrinsic-value models do not apply");
+  else{
+    push(briefLine("business",`${f.name||D.symbol} · ${f.sector||"?"} · mcap ${big(f.mcap)} · ${f.years||"?"} yrs of statements (${f.currency||"USD"})`));
+    push(briefLine("growth",`rev 3y ${pct(f.rev_cagr_3y)} 5y ${pct(f.rev_cagr_5y)} · EPS CAGR ${pct(f.eps_cagr)} · FCF CAGR ${pct(f.fcf_cagr)}`));
+    push(briefLine("margins",`gross ${pct(f.gross_margin)} op ${pct(f.op_margin)} net ${pct(f.net_margin)} FCF ${pct(f.fcf_margin)}`));
+    push(briefLine("returns",`ROE ${pct(f.roe)} ROA ${pct(f.roa)} ROIC ${pct(f.roic)}`));
+    push(briefLine("balance",`D/E ${fmt(f.debt_to_equity)} · current ${fmt(f.current_ratio)} · int cover ${f.interest_coverage!=null?fmt(f.interest_coverage,1)+"x":"—"} · net ${f.net_cash>=0?"cash":"debt"} ${big(Math.abs(f.net_cash??0))}`));
+    push(briefLine("multiples",`P/E ${fmt(f.pe)} fwd ${fmt(f.forward_pe??x.forward_pe)} · P/S ${fmt(f.ps)} · P/B ${fmt(f.pb)} · PEG ${fmt(f.peg)} · EV/EBITDA ${fmt(f.ev_ebitda)}`));
+    if(V){push(briefLine("models",V.models.map(m=>`${m.n}: ${m.v==null?"n/a":"$"+fmt(m.v)}`).join(" | ")));
+      if(V.fair)push(briefLine("blend",`median fair $${fmt(V.fair)} (range $${fmt(V.lo)}–$${fmt(V.hi)}) → price ${V.gap>=0?"+":""}${fmt((V.gap||0)*100,1)}% vs fair · buy@${A.mos}% MOS $${fmt(V.buyAt)}`));
+      if(V.impliedG!=null)push(briefLine("reverse DCF",`price implies ${pct(V.impliedG)}/yr FCF growth for 5y (actual record ${pct(f.fcf_cagr)}) — assumptions: g1 ${A.g1}% g2 ${A.g2}% disc ${A.disc}% term ${A.term}%`));}}
+  push("");
+  if(pr&&!pr.error&&pr.median){push("== VS SECTOR ("+pr.n+" peers: "+(pr.peer_symbols||[]).join(", ")+") ==");
+    const m2=pr.median;
+    push(briefLine("peer medians",`P/E ${fmt(m2.pe)} P/S ${fmt(m2.ps)} P/B ${fmt(m2.pb)} EV/EBITDA ${fmt(m2.ev_ebitda)} · gross ${pct(m2.gross_margin)} op ${pct(m2.op_margin)} ROE ${pct(m2.roe)} D/E ${fmt(m2.debt_to_equity)}`));push("");}
+  if(e&&!e.error&&e.scored)push("== EARNINGS RECORD ==",`  beat ${e.beats}/${e.scored} recent quarters · avg surprise ${pctv(e.avg_surprise)}`+(x&&!x.error&&x.next_earnings?` · next print ${new Date(x.next_earnings*1000).toLocaleDateString()}`:""),"");
+  if(x&&!x.error){push("== STREET & POSITIONING (yfinance) ==",
+    `  target mean $${fmt(x.analyst_target_mean)} (${fmt(x.analyst_count,0)} analysts, $${fmt(x.analyst_target_low)}–$${fmt(x.analyst_target_high)}) · consensus ${x.recommendation||"—"} · short ${pct(x.short_pct_float)} of float · inst ${pct(x.institutions_pct)} insiders ${pct(x.insiders_pct)}`,"");}
+  const ins=D.insiders;
+  if(ins&&!ins.error)push("== INSIDER FILINGS (6mo, SEC) ==",`  ${ins.buys} buys / ${ins.sells} sells · net ${big(Math.abs(ins.net_shares))} shares ${ins.net_shares>=0?"acquired":"disposed"}`,"");
+  const nw=D.news;
+  if(nw&&!nw.error&&nw.rows&&nw.rows.length){push("== NEWS (last "+nw.days+" days, unscored) ==");
+    for(const r of nw.rows)push(`  ${r.ts?new Date(r.ts*1000).toISOString().slice(0,10):""} [${r.source||""}] ${r.headline}`);push("");}
+  const mac2=INDEX?.macro;
+  if(mac2&&!mac2.error)push("== MACRO ==",`  CPI YoY ${mac2.cpi?pctv(mac2.cpi.yoy):"—"} · Fed funds ${mac2.fed?pctv(mac2.fed.value):"—"} · 10y ${mac2.t10?pctv(mac2.t10.value):"—"}`,"");
+
+  push("== ABSENT — DO NOT INVENT (per engine protocol) ==",
+    "  options flow / sweeps / gamma exposure: NOT AVAILABLE (paid institutional feeds)",
+    "  dark-pool prints / block trades: NOT AVAILABLE",
+    "  whisper numbers / buy-side expectations: NOT AVAILABLE",
+    "  real-time 13F positioning: NOT AVAILABLE (quarterly lag only)",
+    "  Elliott Wave count: NOT COMPUTED (discretionary; raw swings/BOS/fib provided above instead)",
+    "  If your engine prompt requests any of the above, state \"Data unavailable\" for that section exactly as the protocol requires. Every figure above is computed from the named sources at the stated timestamp; anything not listed here was not retrieved.");
+  return L2.join("\n");}
+
+function exportBrief(){
+  const txt=buildBrief();
+  if(!txt){const n=$("#modeNote");if(n)n.innerHTML='<span class="err">Nothing to export — analyze a ticker first.</span>';return;}
+  let copied=false;
+  try{if(typeof navigator!=="undefined"&&navigator.clipboard){navigator.clipboard.writeText(txt);copied=true;}}catch(e){}
+  try{
+    const blob=new Blob([txt],{type:"text/plain"});
+    const a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);
+    a.download=`${D.symbol}-brief-${new Date().toISOString().slice(0,10)}.txt`;
+    a.click();
+  }catch(e){}
+  const n=$("#modeNote");
+  if(n)n.innerHTML=`AI brief for <b>${esc(D.symbol)}</b> ${copied?"copied to clipboard and ":""}downloaded. Paste one of your four engine prompts into an AI chat, then paste this brief under it — the model then writes its analysis from these verified numbers instead of inventing its own.`;}
+
 /* ---------------- optional live quote ---------------- */
 const LIVE={price:null,change:null,changePct:null,at:null};
 async function toggleLive(){
@@ -2231,8 +2375,9 @@ async function toggleLive(){
   pollTimer=setInterval(tick,10000);
   $("#btnLive").textContent="Stop live";$("#btnLive").classList.add("on");}
 
-window.load=load;window.run=run;window.setTF=setTF;window.refreshCandles=refreshCandles;window.rankSort=rankSort;window.rankAll=rankAll;window.posCalc=posCalc;window.setTab=setTab;window.recompute=recompute;window.A=A;window.toggleLive=toggleLive;
+window.load=load;window.run=run;window.setTF=setTF;window.refreshCandles=refreshCandles;window.rankSort=rankSort;window.rankAll=rankAll;window.posCalc=posCalc;window.exportBrief=exportBrief;window.buildBrief=buildBrief;window.setTab=setTab;window.recompute=recompute;window.A=A;window.toggleLive=toggleLive;
 $("#btnLive").addEventListener("click",toggleLive);
+$("#btnBrief").addEventListener("click",exportBrief);
 $("#btnGo").addEventListener("click",()=>run());
 $("#btnRefresh").addEventListener("click",()=>refreshCandles(false));
 document.querySelectorAll("#tfbar button.tf").forEach(b=>{
