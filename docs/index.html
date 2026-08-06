@@ -88,11 +88,25 @@ summary{cursor:pointer;font-size:11px;color:var(--dim);font-family:var(--mono)}
   </header>
 
   <div class="panel">
-    <h2>Watchlist <span class="tag">NO API KEY NEEDED — DATA COMES FROM THE PIPELINE</span></h2>
-    <div class="row" id="tickers"></div>
-    <p class="note">Keys live in GitHub repository secrets and never reach this page, so anyone with the link
-    sees the same full dashboard. To add a ticker permanently, edit <span class="mono">watchlist.json</span>
-    in the repository; for a one-off, use Actions &rarr; Fetch market data &rarr; Run workflow.</p>
+    <h2>Analyze <span class="tag" id="modeTag">CHECKING DATA…</span></h2>
+    <div class="row">
+      <div style="flex:1;min-width:180px"><input id="sym" type="text" placeholder="Type any ticker — AAPL, VOO, XIC.TO…" autocomplete="off" spellcheck="false"></div>
+      <button class="go" id="btnGo">Analyze</button>
+    </div>
+    <div class="row" style="margin-top:9px" id="tickers"></div>
+    <details id="keybox">
+      <summary>Direct-mode API keys (only needed for tickers the robot has not cached, or until the robot runs)</summary>
+      <div class="kwrap" style="margin-top:8px">
+        <div><label for="kTwelve">Twelve Data — candles (the essential one)</label><input id="kTwelve" type="password"></div>
+        <div><label for="kFinn">Finnhub — quote, profile, analysts</label><input id="kFinn" type="password"></div>
+        <div><label for="kFmp">FMP — statements</label><input id="kFmp" type="password"></div>
+        <div><label for="kPoly">Polygon — candle cross-check</label><input id="kPoly" type="password"></div>
+        <div><label for="kAv">Alpha Vantage — earnings, macro</label><input id="kAv" type="password"></div>
+      </div>
+      <p class="note">These stay in this browser only and are sent straight to each vendor. Once the GitHub
+      robot runs, watchlist tickers need no keys at all — this box is the fallback and the any-ticker path.</p>
+    </details>
+    <p class="note" id="modeNote"></p>
   </div>
 
   <div id="app"></div>
@@ -751,38 +765,263 @@ const sgn=v=>v>0?"up":v<0?"down":"";
 const agoBars=n=>n===0?"today":n===1?"yesterday":n+" sessions ago";
 
 /* ================= state ================= */
-let INDEX=null,D=null,T=null,V=null,L=null,S=null,PAT=null,SIG=null;
+let INDEX=null,D=null,T=null,V=null,L=null,S=null,PAT=null,SIG=null,MODE="direct";
 let TAB="verdict",charts={},pollTimer=null;
 const A={g1:8,g2:4,disc:10,term:2.5,mos:25};
 const LIVEKEY=()=>localStorage.getItem("live_finnhub")||"";
 
+
+/* ================= direct mode: fetch straight from vendors =================
+   Used when the pipeline JSON is absent, or for any ticker the robot has not
+   cached. Produces D-objects in exactly the pipeline's schema so every tab
+   renders identically. Browser mode cannot reach Yahoo (CORS), so the
+   fundamentals chain here is FMP -> Finnhub ratios -> Alpha Vantage OVERVIEW,
+   and the positioning block honestly reports itself unavailable. */
+const KEYS={finn:"",twelve:"",fmp:"",poly:"",av:""};
+const KMAP={kFinn:["finn","k_finn"],kTwelve:["twelve","k_twelve"],kFmp:["fmp","k_fmp"],
+  kPoly:["poly","k_poly"],kAv:["av","k_av"]};
+function loadKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{
+  KEYS[k]=localStorage.getItem(ls)||"";const e=$("#"+id);if(e)e.value=KEYS[k];});}
+function bindKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{const e=$("#"+id);if(!e)return;
+  e.onchange=ev=>{const v=ev.target.value.trim();KEYS[k]=v;localStorage.setItem(ls,v);};});}
+const nowISO=()=>new Date().toISOString();
+function cacheGet(k,ttlMin){try{const r=JSON.parse(localStorage.getItem("c:"+k)||"null");
+  if(r&&Date.now()-r.t<ttlMin*6e4)return r.v;}catch{}return null;}
+function cacheSet(k,v){try{localStorage.setItem("c:"+k,JSON.stringify({t:Date.now(),v}));}catch{}}
+async function jget(url){
+  const r=await fetch(url,{cache:"no-store"});
+  if(!r.ok)throw new Error("HTTP "+r.status);
+  const j=await r.json();
+  for(const k of["Error Message","Note","Information"])if(j&&j[k])throw new Error(String(j[k]).slice(0,180));
+  if(j&&j.status==="error")throw new Error(j.message||"vendor error");
+  return j;}
+const derr=(source,e)=>({source,fetched_at:nowISO(),error:String(e&&e.message||e).slice(0,200)});
+
+async function dCandles(sym){
+  if(!KEYS.twelve)throw new Error("no Twelve Data key — open the key panel above and paste one");
+  const j=await jget(`https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(sym)}&interval=1day&outputsize=900&order=ASC&apikey=${KEYS.twelve}`);
+  const v=j.values||[];if(!v.length)throw new Error("no candles for "+sym);
+  return v.map(x=>({date:x.datetime,open:+x.open,high:+x.high,low:+x.low,close:+x.close,volume:+(x.volume||0)}));}
+async function dPoly(sym){
+  if(!KEYS.poly)return null;
+  const to=new Date().toISOString().slice(0,10);
+  const from=new Date(Date.now()-500*864e5).toISOString().slice(0,10);
+  const j=await jget(`https://api.polygon.io/v2/aggs/ticker/${encodeURIComponent(sym)}/range/1/day/${from}/${to}?adjusted=true&sort=asc&limit=500&apiKey=${KEYS.poly}`);
+  const r=j.results||[];if(!r.length)return null;
+  return r.map(x=>({date:new Date(x.t).toISOString().slice(0,10),close:x.c}));}
+function dCross(a,b){
+  if(!a||!b)return null;
+  const m=new Map(b.map(x=>[x.date,x.close]));
+  const pr=a.slice(-40).filter(x=>m.has(x.date)).slice(-12);
+  if(pr.length<5)return{checked:pr.length,status:"NO OVERLAP",worst:null};
+  let worst=0;for(const p of pr){const o=m.get(p.date);if(!o)continue;
+    const d=Math.abs(p.close-o)/o*100;if(d>worst)worst=d;}
+  return{checked:pr.length,worst:+worst.toFixed(4),
+    status:worst<0.5?"AGREE":worst<2?"MINOR DIVERGENCE":"DISAGREE"};}
+async function dQuote(sym){
+  if(!KEYS.finn)throw new Error("no Finnhub key");
+  const j=await jget(`https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
+  if(!j||!j.c)throw new Error("no quote for "+sym);
+  return{source:"finnhub",fetched_at:nowISO(),current:j.c,change:j.d,change_pct:j.dp,
+    high:j.h,low:j.l,open:j.o,prev_close:j.pc,ts:j.t};}
+async function dProfile(sym){
+  if(!KEYS.finn)throw new Error("no Finnhub key");
+  const j=await jget(`https://finnhub.io/api/v1/stock/profile2?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
+  if(!j||!j.name)throw new Error("no profile (funds and some non-US listings have none)");
+  return{source:"finnhub",fetched_at:nowISO(),name:j.name,industry:j.finnhubIndustry,
+    exchange:j.exchange,mcap:j.marketCapitalization?j.marketCapitalization*1e6:null};}
+async function dAnalysts(sym){
+  if(!KEYS.finn)throw new Error("no Finnhub key");
+  const j=await jget(`https://finnhub.io/api/v1/stock/recommendation?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
+  if(!Array.isArray(j)||!j.length)throw new Error("no coverage");
+  return{source:"finnhub",fetched_at:nowISO(),trends:j.slice(0,6)};}
+let FMP_MODE=localStorage.getItem("fmp_mode")||"";
+async function fmpGet(name,sym,extra){
+  if(!KEYS.fmp)throw new Error("no FMP key");
+  const q=extra?extra+"&":"";
+  const stable=`https://financialmodelingprep.com/stable/${name}?symbol=${encodeURIComponent(sym)}&${q}apikey=${KEYS.fmp}`;
+  const v3=`https://financialmodelingprep.com/api/v3/${name}/${encodeURIComponent(sym)}?${q}apikey=${KEYS.fmp}`;
+  if(FMP_MODE==="v3")return jget(v3);
+  if(FMP_MODE==="stable")return jget(stable);
+  try{const j=await jget(stable);FMP_MODE="stable";localStorage.setItem("fmp_mode","stable");return j;}
+  catch(e){const j=await jget(v3);FMP_MODE="v3";localStorage.setItem("fmp_mode","v3");return j;}}
+const dnum=v=>{const f=+v;return isFinite(f)?f:null;};
+const ddiv=(a,b)=>(dnum(a)!=null&&dnum(b))?dnum(a)/dnum(b):null;
+const dcagr=(e,s,y)=>(e>0&&s>0&&y>0)?Math.pow(e/s,1/y)-1:null;
+
+async function dFundFMP(sym){
+  const prof=await fmpGet("profile",sym);
+  const P=Array.isArray(prof)?prof[0]:prof;
+  if(P&&P.isEtf)return{source:"fmp",fetched_at:nowISO(),is_etf:true,name:P.companyName};
+  const[inc,bal,cfs,rat]=await Promise.all([
+    fmpGet("income-statement",sym,"period=annual&limit=6"),
+    fmpGet("balance-sheet-statement",sym,"period=annual&limit=6"),
+    fmpGet("cash-flow-statement",sym,"period=annual&limit=6"),
+    fmpGet("ratios-ttm",sym).catch(()=>null)]);
+  if(!inc||!inc.length||!bal||!bal.length||!cfs||!cfs.length)throw new Error("FMP returned no statements");
+  const R=(Array.isArray(rat)?rat[0]:rat)||{};
+  const y0=inc[0],b0=bal[0],c0=cfs[0],nI=inc.length-1;
+  const fcf=cfs.map(x=>x.freeCashFlow!=null?x.freeCashFlow:
+    (dnum(x.operatingCashFlow)||0)-Math.abs(dnum(x.capitalExpenditure)||0));
+  const shares=dnum(y0.weightedAverageShsOutDil)||dnum(y0.weightedAverageShsOut);
+  const eq=dnum(b0.totalStockholdersEquity),debt=dnum(b0.totalDebt)||0,
+    cash=dnum(b0.cashAndShortTermInvestments)||dnum(b0.cashAndCashEquivalents)||0;
+  const ebit=dnum(y0.operatingIncome),rev=dnum(y0.revenue);
+  const tax=Math.min(Math.max(ddiv(y0.incomeTaxExpense,y0.incomeBeforeTax)??0.21,0),0.45);
+  const ic=(eq||0)+debt-cash;
+  const eps=dnum(y0.epsdiluted)??dnum(y0.eps);
+  return{source:"fmp",fetched_at:nowISO(),is_etf:false,name:P?.companyName||sym,
+    sector:P?.sector,industry:P?.industry,period:y0.calendarYear,years:inc.length,
+    currency:y0.reportedCurrency,mcap:dnum(P?.mktCap),shares,
+    annual:inc.slice().reverse().map(r=>({year:r.calendarYear,revenue:dnum(r.revenue),
+      net_income:dnum(r.netIncome),
+      fcf:(()=>{const k=cfs.findIndex(x=>x.calendarYear===r.calendarYear);return k>=0?fcf[k]:null;})(),
+      gross:ddiv(r.grossProfit,r.revenue),op:ddiv(r.operatingIncome,r.revenue),net:ddiv(r.netIncome,r.revenue)})),
+    revenue:rev,net_income:dnum(y0.netIncome),ebit,eps_ttm:eps,bvps:ddiv(eq,shares),
+    fcf_latest:fcf[0],fcf_base:fcf.length>=2&&fcf[1]!=null?(fcf[0]+fcf[1])/2:fcf[0],
+    dividend_ps:dnum(R.dividendPerShareTTM),
+    rev_cagr_3y:dcagr(rev,dnum(inc[Math.min(3,nI)].revenue),Math.min(3,nI)),
+    rev_cagr_5y:dcagr(rev,dnum(inc[nI].revenue),nI),
+    eps_cagr:dcagr(dnum(y0.netIncome),dnum(inc[nI].netIncome),nI),
+    fcf_cagr:dcagr(fcf[0],fcf[fcf.length-1],fcf.length-1),
+    gross_margin:ddiv(y0.grossProfit,rev),op_margin:ddiv(ebit,rev),
+    net_margin:ddiv(y0.netIncome,rev),fcf_margin:ddiv(fcf[0],rev),
+    roe:dnum(R.returnOnEquityTTM)??ddiv(y0.netIncome,eq),roa:ddiv(y0.netIncome,b0.totalAssets),
+    roic:(ic>0&&ebit!=null)?(ebit*(1-tax))/ic:null,
+    debt_to_equity:ddiv(debt,eq),net_cash:cash-debt,total_debt:debt,cash,tax_rate:tax,
+    current_ratio:ddiv(b0.totalCurrentAssets,b0.totalCurrentLiabilities),
+    quick_ratio:ddiv((dnum(b0.totalCurrentAssets)||0)-(dnum(b0.inventory)||0),b0.totalCurrentLiabilities),
+    interest_coverage:y0.interestExpense?ddiv(ebit,Math.abs(dnum(y0.interestExpense))):null,
+    capex:Math.abs(dnum(c0.capitalExpenditure)||0),ocf:dnum(c0.operatingCashFlow),
+    buyback:dnum(c0.commonStockRepurchased),
+    pe:dnum(R.peRatioTTM)??dnum(R.priceEarningsRatioTTM),pb:dnum(R.priceToBookRatioTTM),
+    ps:dnum(R.priceToSalesRatioTTM),peg:dnum(R.pegRatioTTM)??dnum(R.priceEarningsToGrowthRatioTTM)};}
+
+async function dFundFinnhub(sym){
+  if(!KEYS.finn)throw new Error("no Finnhub key");
+  const j=await jget(`https://finnhub.io/api/v1/stock/metric?symbol=${encodeURIComponent(sym)}&metric=all&token=${KEYS.finn}`);
+  const m=(j||{}).metric||{};
+  if(!Object.keys(m).length)throw new Error("no metrics");
+  const p=k=>dnum(m[k])!=null?dnum(m[k])/100:null;
+  return{source:"finnhub",fetched_at:nowISO(),is_etf:false,partial:true,name:sym,years:null,annual:[],
+    eps_ttm:dnum(m.epsTTM),bvps:dnum(m.bookValuePerShareQuarterly),
+    rev_cagr_3y:p("revenueGrowth3Y"),rev_cagr_5y:p("revenueGrowth5Y"),eps_cagr:p("epsGrowth5Y"),
+    gross_margin:p("grossMarginTTM"),op_margin:p("operatingMarginTTM"),net_margin:p("netProfitMarginTTM"),
+    roe:p("roeTTM"),roa:p("roaTTM"),roic:p("roiTTM"),
+    debt_to_equity:dnum(m["totalDebt/totalEquityQuarterly"]),
+    current_ratio:dnum(m.currentRatioQuarterly),quick_ratio:dnum(m.quickRatioQuarterly),
+    interest_coverage:dnum(m.netInterestCoverageTTM),
+    pe:dnum(m.peTTM),pb:dnum(m.pbQuarterly),ps:dnum(m.psTTM),peg:dnum(m.pegTTM),
+    ev_ebitda:dnum(m.evEbitdaTTM),dividend_ps:dnum(m.dividendPerShareTTM),
+    note:"Ratios only — Finnhub's free tier carries no raw statements, so cash-flow models cannot run from this source."};}
+
+async function dFundAV(sym){
+  if(!KEYS.av)throw new Error("no Alpha Vantage key");
+  const j=await jget(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`);
+  if(!j||!j.Symbol)throw new Error("no overview");
+  const f=k=>dnum(j[k]);
+  return{source:"alphavantage",fetched_at:nowISO(),is_etf:j.AssetType==="ETF",partial:true,
+    name:j.Name||sym,sector:j.Sector,years:null,annual:[],
+    mcap:f("MarketCapitalization"),shares:f("SharesOutstanding"),revenue:f("RevenueTTM"),
+    eps_ttm:f("EPS"),bvps:f("BookValue"),dividend_ps:f("DividendPerShare"),
+    gross_margin:ddiv(f("GrossProfitTTM"),f("RevenueTTM")),op_margin:f("OperatingMarginTTM"),
+    net_margin:f("ProfitMargin"),roe:f("ReturnOnEquityTTM"),roa:f("ReturnOnAssetsTTM"),
+    pe:f("PERatio"),forward_pe:f("ForwardPE"),pb:f("PriceToBookRatio"),
+    ps:f("PriceToSalesRatioTTM"),peg:f("PEGRatio"),ev_ebitda:f("EVToEBITDA"),
+    note:"Summary ratios only — no raw statements, so cash-flow models cannot run from this source."};}
+
+async function dFundamentals(sym){
+  const ck="dfund:"+sym,c=cacheGet(ck,60*24);
+  if(c)return c;
+  const attempts=[];
+  for(const[nm,fn]of[["fmp",dFundFMP],["finnhub",dFundFinnhub],["alphavantage",dFundAV]]){
+    try{const out=await fn(sym);out.attempts=attempts;out.fallback_used=nm!=="fmp";
+      cacheSet(ck,out);return out;}
+    catch(e){attempts.push({source:nm,error:String(e.message||e).slice(0,150)});}}
+  return{source:"none",fetched_at:nowISO(),
+    error:"all browser-reachable fundamentals sources failed (yfinance needs the pipeline)",attempts};}
+
+async function dEarnings(sym){
+  const ck="dearn:"+sym,c=cacheGet(ck,60*24*7);
+  if(c)return c;
+  if(!KEYS.av)throw new Error("no Alpha Vantage key");
+  const j=await jget(`https://www.alphavantage.co/query?function=EARNINGS&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`);
+  const q=j.quarterlyEarnings;if(!q||!q.length)throw new Error("no earnings history");
+  const rows=q.slice(0,8).map(r=>({period:r.fiscalDateEnding,reported:r.reportedDate,
+    est:dnum(r.estimatedEPS),act:dnum(r.reportedEPS),surprise:dnum(r.surprisePercentage)}));
+  const sc=rows.filter(r=>r.surprise!=null);
+  const out={source:"alphavantage",fetched_at:nowISO(),rows,
+    beats:sc.filter(r=>r.surprise>0).length,scored:sc.length,
+    avg_surprise:sc.length?sc.reduce((a,r)=>a+r.surprise,0)/sc.length:null};
+  cacheSet(ck,out);return out;}
+
+async function runDirect(sym){
+  $("#app").innerHTML=`<div class="panel"><h2>Fetching ${esc(sym)} directly <span class="tag pulse">DIRECT MODE</span></h2>
+    <p class="note">The robot has not cached this ticker, so this browser is calling the vendors itself with the keys from the panel above. Anything that fails will name itself.</p></div>`;
+  const R=await Promise.allSettled([dCandles(sym),dQuote(sym),dProfile(sym),
+    dFundamentals(sym),dAnalysts(sym),dEarnings(sym),dPoly(sym)]);
+  const g=(i,src)=>R[i].status==="fulfilled"?R[i].value:derr(src,R[i].reason);
+  const bars=R[0].status==="fulfilled"?R[0].value:null;
+  const poly=R[6].status==="fulfilled"?R[6].value:null;
+  const xc=bars?dCross(bars,poly):null;
+  D={symbol:sym,generated_at:nowISO(),direct:true,
+    candles:bars?{source:"twelvedata",fetched_at:nowISO(),bars,n:bars.length,
+      latest:bars[bars.length-1].date,cross_check:xc,
+      confidence:xc?(xc.status==="AGREE"?"HIGH":xc.status==="DISAGREE"?"LOW":"MEDIUM"):"MEDIUM"}
+      :{source:"none",fetched_at:nowISO(),confidence:"NONE",
+        error:String(R[0].reason&&R[0].reason.message||R[0].reason)},
+    quote:g(1,"finnhub"),profile:g(2,"finnhub"),fundamentals:g(3,"none"),
+    analysts:g(4,"finnhub"),earnings:g(5,"alphavantage"),
+    extras:{source:"yfinance",fetched_at:nowISO(),
+      error:"analyst targets, short interest and ownership come from Yahoo, which browsers cannot reach — run the GitHub robot to fill this"}};
+  pushRecent(sym);compute();drawTickerBar();render();}
+
+function recents(){try{return JSON.parse(localStorage.getItem("recents")||"[]");}catch{return[];}}
+function pushRecent(s){const r=recents().filter(x=>x!==s);r.unshift(s);
+  localStorage.setItem("recents",JSON.stringify(r.slice(0,12)));}
+
 /* ================= boot ================= */
 async function boot(){
+  loadKeys();bindKeys();
   try{
     INDEX=await(await fetch("./data/index.json",{cache:"no-store"})).json();
+    if(!INDEX||!Array.isArray(INDEX.tickers)||!INDEX.tickers.length)throw new Error("empty index");
+    MODE="pipeline";
+    $("#modeTag").textContent="PIPELINE MODE — NO KEYS NEEDED FOR WATCHLIST TICKERS";
+    $("#modeNote").textContent="Watchlist tickers load from data the GitHub robot committed. Typing any other ticker fetches it directly, which uses the keys in the panel above.";
   }catch(e){
-    $("#app").innerHTML=`<div class="panel"><h2>No data yet ${tg("SETUP",  "bad")}</h2>
-      <p class="note">This page reads <span class="mono">./data/index.json</span>, which the GitHub Action writes.
-      Run it once — Actions tab → "Fetch market data" → Run workflow — wait for the green tick and the
-      <span class="mono">data:</span> commit, then reload. If Pages is not on yet: Settings → Pages →
-      deploy from branch <span class="mono">main</span>, folder <span class="mono">/docs</span>.</p></div>`;
-    return;}
+    INDEX=null;MODE="direct";
+    $("#modeTag").textContent="DIRECT MODE — ROBOT DATA NOT FOUND";
+    $("#modeTag").classList.add("bad");
+    $("#keybox").open=true;
+    $("#modeNote").innerHTML="The robot's data file (<span class=\"mono\">data/index.json</span>) is not on this site yet, so the page is calling vendors straight from your browser instead. Paste at least a Twelve Data key above, type a ticker, press Analyze — everything works right now. When the GitHub Action runs successfully this banner disappears on its own and watchlist tickers stop needing keys.";
+  }
   drawTickerBar();
-  await load(INDEX.tickers[0]);}
+  const first=INDEX?INDEX.tickers[0]:recents()[0];
+  if(first)await run(first);
+  else $("#app").innerHTML=`<div class="panel"><h2>Ready</h2>
+    <p class="note">Type any ticker above and press Analyze. The Verdict tab gives the weighted read with every factor listed; Technicals holds indicators, triggered signals and patterns with exact levels; Fundamentals holds the six valuation models and pillars; Sources is the audit trail.</p></div>`;}
+
+async function run(symRaw){
+  const sym=(symRaw||$("#sym").value||"").trim().toUpperCase();
+  if(!sym)return;
+  $("#sym").value=sym;TAB="verdict";
+  if(MODE==="pipeline"&&INDEX.tickers.includes(sym))return load(sym);
+  return runDirect(sym);}
 
 async function load(sym){
   $("#app").innerHTML=`<div class="panel"><h2>Loading ${esc(sym)} <span class="tag pulse">CACHED DATA</span></h2></div>`;
   try{D=await(await fetch(`./data/${sym}.json`,{cache:"no-store"})).json();}
   catch(e){D={symbol:sym,load_error:String(e)};}
-  TAB="verdict";compute();drawTickerBar();render();}
+  TAB="verdict";pushRecent(sym);compute();drawTickerBar();render();}
 
 function drawTickerBar(){
   const cur=D?.symbol;
-  $("#tickers").innerHTML=(INDEX?.summary||INDEX?.tickers||[]).map(s=>{
-    const sym=typeof s==="string"?s:s.symbol;
-    const bad=typeof s==="object"&&(!s.fundamentals_ok||!s.candles_ok);
-    return`<button class="${sym===cur?"on":""}" onclick="load('${esc(sym)}')" title="${bad?"some data incomplete":""}">${esc(sym)}${bad?" ·":""}</button>`;
-  }).join("");}
+  const wl=INDEX?INDEX.tickers:[];
+  const rec=recents().filter(x=>!wl.includes(x));
+  const btn=(sym,star)=>`<button class="${sym===cur?"on":""}" onclick="run('${esc(sym)}')" title="${star?"cached by the robot — no keys needed":"direct fetch"}">${star?"\u2605 ":""}${esc(sym)}</button>`;
+  $("#tickers").innerHTML=wl.map(x=>btn(x,true)).join("")+rec.map(x=>btn(x,false)).join("")||
+    `<span class="sub">Analyzed symbols appear here for one tap.</span>`;}
 
 /* ================= compute ================= */
 function compute(){
@@ -980,13 +1219,13 @@ function header(){
   const xc=cd.cross_check;
   return`<div class="hdr">
     <div class="t">DATA HEADER</div>
-    <div>SNAPSHOT&nbsp;&nbsp;&nbsp;: ${ago(D.generated_at)} — pipeline run ${esc(D.generated_at||"—")}</div>
-    <div>MARKET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${INDEX?.market_status?.market?esc(INDEX.market_status.market):"unknown"}</div>
+    <div>SNAPSHOT&nbsp;&nbsp;&nbsp;: ${ago(D.generated_at)} — ${D.direct?"fetched directly from this browser":"pipeline run "+esc(D.generated_at||"—")}</div>
+    <div>MARKET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${INDEX?.market_status?.market?esc(INDEX.market_status.market):"unknown (robot has not reported)"}</div>
     <div>PRICE USED&nbsp;: ${T?`$${fmt(T.price)}`:"—"} — ${LIVE.price!=null?`<span class="up">live quote, ${esc(LIVE.at)}</span>`:q.error?`last close (quote failed: ${esc(q.error)})`:"quote at pipeline run"} <span id="liveNote"></span></div>
     <div>CONFIDENCE&nbsp;: <span class="${cls}">${esc(conf)}</span> — ${xc?`${esc(xc.status)}, largest gap ${fmt(xc.worst,3)}% across ${xc.checked} shared closes`:"single candle source, no independent cross-check"}</div>
     <div>CANDLES&nbsp;&nbsp;&nbsp;&nbsp;: ${cd.error?`<span class="err">${esc(cd.error)}</span>`:`${cd.n} bars from ${esc(cd.source)}, latest ${esc(cd.latest)}`}</div>
     <div>FUNDAMENTALS: ${f.error?`<span class="err">${esc(f.error)}</span>`:`${esc(f.source)}${f.fallback_used?" (fallback)":""}${f.partial?" — ratios only":""}${f.years?`, ${f.years} years`:""}`}</div>
-    <div class="note" style="margin-top:6px">All figures come from the sources named here, fetched by the GitHub Action using keys held in repository secrets. No key is needed to view this page.</div>
+    <div class="note" style="margin-top:6px">${D.direct?"Direct mode: this browser fetched from the vendors itself using your local keys. Once the GitHub robot runs, watchlist tickers switch to its committed data automatically and need no keys.":"All figures come from data the GitHub Action committed using keys held in repository secrets — no key is needed to view this page."}</div>
   </div>`;}
 
 function strip(){
@@ -1481,8 +1720,10 @@ async function toggleLive(){
   pollTimer=setInterval(tick,10000);
   $("#btnLive").textContent="Stop live";$("#btnLive").classList.add("on");}
 
-window.load=load;window.setTab=setTab;window.recompute=recompute;window.A=A;window.toggleLive=toggleLive;
+window.load=load;window.run=run;window.setTab=setTab;window.recompute=recompute;window.A=A;window.toggleLive=toggleLive;
 $("#btnLive").addEventListener("click",toggleLive);
+$("#btnGo").addEventListener("click",()=>run());
+$("#sym").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
 boot();
 
 </script>
