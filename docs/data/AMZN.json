@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-05T23:29:58Z",
+ "generated_at": "2026-08-06T00:37:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-05T23:29:58Z",
+  "fetched_at": "2026-08-06T00:37:09Z",
   "current": 272.65,
   "change": -4.77,
   "change_pct": -1.7194,
@@ -15,7 +15,7 @@
  },
  "technicals": {
   "source": "computed from twelvedata candles",
-  "fetched_at": "2026-08-05T23:29:59Z",
+  "fetched_at": "2026-08-06T00:37:10Z",
   "candle_source": "twelvedata",
   "candle_errors": {
    "twelvedata": null,
@@ -2151,8 +2151,8 @@
  },
  "fundamentals": {
   "source": "fmp",
-  "fetched_at": "2026-08-05T23:29:59Z",
-  "error": "403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/profile/AMZN?apikey=4lbGuqkTIoLfUZlrpUGs7RrhYPSF4wna"
+  "fetched_at": "2026-08-06T00:37:11Z",
+  "error": "402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/income-statement?symbol=AMZN&apikey=4lbGuqkTIoLfUZlrpUGs7RrhYPSF4wna&limit=6"
  },
  "earnings_history": {
   "source": "alphavantage",

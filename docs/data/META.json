@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-05T23:30:33Z",
+ "generated_at": "2026-08-06T00:37:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-05T23:30:33Z",
+  "fetched_at": "2026-08-06T00:37:41Z",
   "current": 588.77,
   "change": 0.83,
   "change_pct": 0.1412,
@@ -15,7 +15,7 @@
  },
  "technicals": {
   "source": "computed from twelvedata candles",
-  "fetched_at": "2026-08-05T23:30:33Z",
+  "fetched_at": "2026-08-06T00:37:41Z",
   "candle_source": "twelvedata",
   "candle_errors": {
    "twelvedata": null,
@@ -2152,8 +2152,8 @@
  },
  "fundamentals": {
   "source": "fmp",
-  "fetched_at": "2026-08-05T23:30:34Z",
-  "error": "403 Client Error: Forbidden for url: https://financialmodelingprep.com/api/v3/profile/META?apikey=4lbGuqkTIoLfUZlrpUGs7RrhYPSF4wna"
+  "fetched_at": "2026-08-06T00:37:42Z",
+  "error": "402 Client Error: Payment Required for url: https://financialmodelingprep.com/stable/income-statement?symbol=META&apikey=4lbGuqkTIoLfUZlrpUGs7RrhYPSF4wna&limit=6"
  },
  "earnings_history": {
   "source": "alphavantage",
