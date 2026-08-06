@@ -585,8 +585,9 @@ function setFTab(t){FTAB=t;render();}
 /* ===================== render ===================== */
 function render(){
   const price=priceNow(),q=RAW.quote||{},cd=RAW.candles||{};
-  const tabs=[["bias","Bias & targets"],["structure","Structure"],["patterns","Patterns"],
-    ["momentum","Momentum"],["tech","Technicals"],["fund","Fundamentals"],["val","Valuation"],["data","Data"]];
+  const tabs=[["verdict","Verdict"],["bias","Bias & targets"],["structure","Structure"],["patterns","Patterns"],
+    ["momentum","Momentum"],["tech","Technicals"],["fund","Fundamentals"],["sector","vs Sector"],
+    ["val","Valuation"],["data","Data"]];
   $("#app").innerHTML=`
   <div class="header-box">
     <div class="hd">DATA HEADER</div>
@@ -618,10 +619,12 @@ function render(){
   bindKeys();loadKeys();
 }
 function renderTab(price){
-  if(!T&&["bias","structure","patterns","momentum","tech"].includes(TAB))
+  if(!T&&["verdict","bias","structure","patterns","momentum","tech"].includes(TAB))
     return `<div class="panel"><h2>Chart analysis unavailable ${tag("NO OHLC",false)}</h2>
       <p class="note">This snapshot has fewer than 80 daily bars under <span class="mono">candles.bars</span>, so structure, order blocks and patterns can't be computed. Check the most recent Fetch market data run in the Actions tab — the vendor errors are listed in the data header above.</p></div>`;
   switch(TAB){
+    case "verdict":return tabVerdict(price);
+    case "sector":return tabSector();
     case "bias":return tabBias(price);
     case "structure":return tabStructure(price);
     case "patterns":return tabPatterns(price);
@@ -960,68 +963,284 @@ function fundBody(f){
     <p class="note">Targets are a crowded, lagging input — useful mainly as a cross-check against the structural targets on the Bias tab. When the two disagree sharply, one of them is anchored to something stale, and it is usually the consensus.</p>`;
 }
 /* ---------- VALUATION ---------- */
+/* Business profile decides which models are even admissible. Averaging a
+   Graham Number into a capex-heavy compounder is how you get $55 for a $273
+   stock — the model isn't wrong, it's inapplicable. */
+function classify(f){
+  const assetLight = (f.total_assets&&f.revenue)? (f.revenue/f.total_assets)>0.7 : null;
+  const capexHeavy = (f.capex&&f.ocf)? (f.capex/f.ocf)>0.35 : false;
+  const growth = f.rev_cagr_3y ?? f.rev_cagr_5y ?? 0;
+  const highGrowth = growth>0.15;
+  const bookMeaningful = (f.bvps&&f.eps_ttm)? (f.bvps/f.eps_ttm)>1.5 : false;
+  const goodwillHeavy = null;
+  const payer = (f.dividend_ps||0)>0;
+  const fcfStable = f.fcf_base>0 && f.fcf_latest>0;
+  const profitable = f.net_income>0 && f.eps_ttm>0;
+  const reinvesting = capexHeavy || highGrowth;   // book value and no-growth
+                                                  // earnings mis-price these
+  let type = capexHeavy&&growth>0.06 ? "Capex-heavy compounder"
+    : highGrowth ? "High-growth / asset-light"
+    : payer&&!highGrowth ? "Mature income"
+    : profitable ? "Mature cash generator" : "Unprofitable / turnaround";
+  return {assetLight,capexHeavy,highGrowth,bookMeaningful,payer,fcfStable,profitable,growth,type,reinvesting};
+}
+function valuation(f,price){
+  const C=classify(f), models=[], excluded=[];
+  const sh=f.shares, nc=f.net_cash||0;
+  const dcf=(fcf,g1,g2,d,tg)=>{let pv=0,fc=fcf;
+    for(let y=1;y<=5;y++){fc*=1+g1;pv+=fc/Math.pow(1+d,y);}
+    for(let y=6;y<=10;y++){fc*=1+g2;pv+=fc/Math.pow(1+d,y);}
+    return pv+(fc*(1+tg))/(d-tg)/Math.pow(1+d,10);};
+
+  /* 1. Two-stage DCF — admissible whenever free cash flow is positive. */
+  if(f.fcf_base>0&&sh>0){
+    const g=Math.max(0,Math.min(C.growth||.08,.25));
+    models.push({name:"Two-stage DCF",v:(dcf(f.fcf_base,g,g/2,.10,.025)+nc)/sh,w:3,
+      why:`FCF base ${big(f.fcf_base)} growing ${pc(g,0)} then half, 10% discount`});
+  } else excluded.push(["Two-stage DCF","free cash flow is not positive — the model has nothing to discount"]);
+
+  /* 2. Owner earnings (net income + D&A − maintenance capex). Better than raw
+        FCF where growth capex is being expensed through the cash flow line. */
+  if(f.net_income>0&&sh>0&&f.ocf>0){
+    const maint=Math.min(f.capex||0,(f.ocf-f.net_income)>0?(f.ocf-f.net_income):(f.capex||0)*.5);
+    const oe=f.ocf-maint;
+    if(oe>0) models.push({name:"Owner earnings DCF",v:(dcf(oe,Math.max(0,Math.min(C.growth||.06,.20)),.03,.10,.025)+nc)/sh,w:3,
+      why:`OCF ${big(f.ocf)} less maintenance capex ${big(maint)} — separates growth spend from upkeep`});
+  }
+
+  /* 3. Graham Number — only where book value actually anchors the business. */
+  if(f.eps_ttm>0&&f.bvps>0&&C.bookMeaningful&&!C.reinvesting)
+    models.push({name:"Graham Number",v:Math.sqrt(22.5*f.eps_ttm*f.bvps),w:1,
+      why:"√(22.5 × EPS × BVPS) — asset-anchored, conservative"});
+  else excluded.push(["Graham Number",
+    C.capexHeavy?"a 1949 formula for asset-heavy industrials — it reads heavy reinvestment as risk rather than as future earnings power"
+    :C.highGrowth?"built for mature industrials; it structurally under-values growth"
+    :"book value is too small relative to earnings to anchor a valuation"]);
+
+  /* 4. Earnings power value — assumes zero growth forever. */
+  if(f.ebit>0&&sh>0){
+    const v=(f.ebit*(1-(f.tax_rate??.21))/.10+nc)/sh;
+    if(C.reinvesting) excluded.push(["Earnings power value",
+      `assumes zero growth forever — a floor ($${fmt(v)}), not a fair value, for a business reinvesting ${f.ocf?pc((f.capex||0)/f.ocf,0):""} of operating cash flow`]);
+    else models.push({name:"Earnings power value",v,w:2,why:"no-growth NOPAT ÷ 10% + net cash"});
+  }
+
+  /* 5. Lynch / PEG=1 */
+  if(f.eps_ttm>0&&C.growth>0)
+    models.push({name:"Lynch (PEG = 1)",v:f.eps_ttm*Math.min(C.growth*100,30),w:2,
+      why:`EPS × growth ${fmt(Math.min(C.growth*100,30),0)} — fair multiple equals growth rate`});
+
+  /* 6. Dividend discount, income names only */
+  if(C.payer&&f.dividend_ps>0)
+    models.push({name:"Dividend discount",v:f.dividend_ps*1.025/(.10-.025),w:1,
+      why:"Gordon growth on the trailing dividend"});
+
+  /* 7. Relative: peer-median multiples applied to this company's own metrics. */
+  const P=RAW.peers, med=P&&!P.error?P.median:null;
+  if(med&&sh>0){
+    if(med.pe>0&&f.eps_ttm>0) models.push({name:"Peer P/E applied",v:med.pe*f.eps_ttm,w:3,
+      why:`sector median P/E ${fmt(med.pe,1)} × EPS ${fmt(f.eps_ttm)}`});
+    if(med.ps>0&&f.revenue>0) models.push({name:"Peer P/S applied",v:med.ps*f.revenue/sh,w:2,
+      why:`sector median P/S ${fmt(med.ps,1)} × revenue per share`});
+  }
+
+  /* Weighted mean of admissible models, then trimmed of extreme outliers. */
+  const good=models.filter(m=>isFinite(m.v)&&m.v>0);
+  let fair=null,lo=null,hi=null,spread=null;
+  if(good.length){
+    const vals=good.map(m=>m.v).sort((a,b)=>a-b);
+    lo=vals[0];hi=vals[vals.length-1];
+    const wsum=good.reduce((s,m)=>s+m.w,0);
+    fair=good.reduce((s,m)=>s+m.v*m.w,0)/wsum;
+    spread=(hi-lo)/fair;
+  }
+  /* Reverse DCF — the single most robust output here. */
+  let implied=null;
+  if(f.fcf_base>0&&sh>0&&price>0){
+    let a=-.4,b=.6;
+    for(let i=0;i<60;i++){const m=(a+b)/2;
+      ((dcf(f.fcf_base,m,m/2,.10,.025)+nc)/sh)<price?a=m:b=m;}
+    implied=(a+b)/2;
+  }
+  return {C,models:good,excluded,fair,lo,hi,spread,implied};
+}
 function tabVal(price){
   const f=RAW.fundamentals||{};
   if(f.error||f.is_etf) return tabFund();
-  const fcf=pick(f,"fcf_base","fcf_latest","fcf"), sh=f.shares;
-  const models=[],notes=[];
-  if(fcf>0&&sh>0){
-    const d=.10,g=Math.max(-.05,Math.min(f.fcf_cagr??.08,.20)),tg=.025;
-    let pv=0,fc=fcf;
-    for(let y=1;y<=10;y++){fc*=1+(y<=5?g:g/2);pv+=fc/Math.pow(1+d,y);}
-    pv+=(fc*(1+tg))/(d-tg)/Math.pow(1+d,10);
-    models.push(["Two-stage DCF",(pv+(f.net_cash||0))/sh,
-      `10y FCF at ${pc(g,1)} then half that, 10% discount, 2.5% terminal, plus net cash`]);
-  } else notes.push("DCF skipped — needs positive free cash flow and a share count.");
-  if(f.eps_ttm>0&&f.bvps>0) models.push(["Graham Number",Math.sqrt(22.5*f.eps_ttm*f.bvps),"√(22.5 × EPS × BVPS)"]);
-  else notes.push("Graham Number skipped — needs positive EPS and book value.");
-  if(f.eps_ttm>0&&f.eps_cagr>0) models.push(["Lynch fair value",f.eps_ttm*Math.min(f.eps_cagr*100,25),
-    `EPS × growth ${fmt(Math.min(f.eps_cagr*100,25),1)}%`]);
-  if(f.ebit>0&&sh>0) models.push(["Earnings power value",
-    (f.ebit*(1-(f.tax_rate??.21))/.10+(f.net_cash||0))/sh,"no-growth NOPAT ÷ 10% + net cash"]);
-  let implied=null;
-  if(fcf>0&&sh>0&&price>0){
-    let lo=-.5,hi=.6;
-    const val=g=>{let pv=0,fc=fcf;
-      for(let y=1;y<=5;y++){fc*=1+g;pv+=fc/Math.pow(1.10,y);}
-      for(let y=6;y<=10;y++){fc*=1+g*.5;pv+=fc/Math.pow(1.10,y);}
-      pv+=(fc*1.025)/(.075)/Math.pow(1.10,10);return (pv+(f.net_cash||0))/sh;};
-    for(let i=0;i<60;i++){const m=(lo+hi)/2;val(m)<price?lo=m:hi=m;}
-    implied=(lo+hi)/2;
-  }
-  const vals=models.map(m=>m[1]).filter(v=>isFinite(v)&&v>0).sort((a,b)=>a-b);
-  const fair=vals.length?(vals.length%2?vals[(vals.length-1)/2]:(vals[vals.length/2-1]+vals[vals.length/2])/2):null;
-  const spread=vals.length>1?(vals[vals.length-1]-vals[0])/fair:null;
-  return `<div class="panel"><h2>Intrinsic value ${tag("FROM PIPELINE STATEMENTS")}</h2>
-    ${fair?`<div class="row" style="gap:24px;align-items:baseline">
-      <div><div style="font-size:11px;color:var(--faint)">Blended fair value (median)</div>
-        <div class="price">$${fmt(fair)}</div></div>
+  const V=valuation(f,price);
+  const gap=V.fair?(price-V.fair)/V.fair:null;
+  return `<div class="panel">
+    <h2>Intrinsic value ${tag(esc(V.C.type.toUpperCase()))}</h2>
+    ${V.fair?`<div class="row" style="gap:24px;align-items:baseline">
+      <div><div style="font-size:11px;color:var(--faint)">Weighted fair value</div>
+        <div class="price">$${fmt(V.fair)}</div></div>
       <div><div style="font-size:11px;color:var(--faint)">Price vs fair</div>
-        <div class="price ${price>fair?"down":"up"}">${pctFrom(price,fair)}</div></div></div>
-    <div class="stats" style="margin-top:12px">
-      ${stat("Buy at 25% margin of safety","$"+fmt(fair*.75),"amber")}
-      ${stat("Models that ran",models.length,"","median used, not mean")}
-      ${stat("Model dispersion",spread!=null?fmt(spread*100,0)+"%":"—",spread>1?"down":"",
-        vals.length>1?`$${fmt(vals[0])} to $${fmt(vals[vals.length-1])}`:"")}
-      ${stat("Growth the price implies",implied!=null?pc(implied):"—","band","reverse DCF at a 10% discount rate")}
+        <div class="price ${gap>=0?"down":"up"}">${gap>=0?"+":""}${fmt(gap*100,1)}%</div></div>
+      <div><div style="font-size:11px;color:var(--faint)">Range across models</div>
+        <div class="mono" style="font-size:18px">$${fmt(V.lo)} – $${fmt(V.hi)}</div></div>
     </div>
-    <div class="tblwrap"><table style="margin-top:12px"><thead><tr><th>Model</th><th class="r">Per share</th>
-      <th class="r">vs price</th><th>Assumes</th></tr></thead><tbody>
-      ${models.map(m=>`<tr><td>${esc(m[0])}</td><td class="r ${m[1]>price?"up":"down"}">$${fmt(m[1])}</td>
-        <td class="r ${m[1]>price?"up":"down"}">${pctFrom(m[1],price)}</td>
-        <td style="color:var(--faint)">${esc(m[2])}</td></tr>`).join("")}
+    <div class="verdict band">● Growth the current price already requires: <strong>${V.implied!=null?pc(V.implied):"—"}</strong> annual free cash flow growth for five years, then half that, discounted at 10%. Judge that number against ${pc(V.C.growth,0)} actual — everything else on this tab is secondary to it.</div>
+    <div class="tblwrap"><table style="margin-top:12px">
+      <thead><tr><th>Model</th><th class="r">Value</th><th class="r">vs price</th><th class="r">Weight</th><th>Basis</th></tr></thead><tbody>
+      ${V.models.map(m=>`<tr><td>${esc(m.name)}</td>
+        <td class="r ${m.v>price?"up":"down"}">$${fmt(m.v)}</td>
+        <td class="r ${m.v>price?"up":"down"}">${pctFrom(m.v,price)}</td>
+        <td class="r">${m.w}</td><td style="color:var(--faint)">${esc(m.why)}</td></tr>`).join("")}
     </tbody></table></div>
-    ${notes.length?`<details><summary>Why ${notes.length} model${notes.length>1?"s":""} didn't run</summary>
-      <p class="note">${notes.map(esc).join("<br>")}</p></details>`:""}
-    <p class="note">Read the dispersion before the median. When the models cluster, valuation isn't the hard part for this business; when they scatter, the median means little and the disagreement is itself the finding. The reverse DCF is the most useful line here — it states what growth the current price already requires, so you only have to judge whether that is believable.</p>`
-    :`<p class="note">Not enough positive inputs in the stored statements to run any model. Shown as unavailable rather than guessed.</p>`}
+    ${V.excluded.length?`<details open><summary>${V.excluded.length} model${V.excluded.length>1?"s":""} deliberately excluded — this is the part that was broken before</summary>
+      <div class="tblwrap"><table style="margin-top:8px"><tbody>
+      ${V.excluded.map(e=>`<tr><td style="width:200px">${esc(e[0])}</td>
+        <td style="color:var(--faint)">${esc(e[1])}</td></tr>`).join("")}
+      </tbody></table></div></details>`:""}
+    <p class="note">Weighted, not averaged, and models that cannot describe this business are dropped rather than diluted in. Weights: cash-flow models and peer-relative carry 3, earnings-power and Lynch carry 2, book-anchored carry 1.</p>
+    ${V.C.capexHeavy?`<div class="verdict amber" style="margin-top:10px">● Capex intensity is ${f.ocf?pc((f.capex||0)/f.ocf,0):"high"} of operating cash flow. Every free-cash-flow model above is therefore measuring a company that is deliberately suppressing its own free cash flow to build capacity. Read the owner-earnings line and the peer multiples ahead of the DCF here, and treat the required-growth figure as an upper bound rather than a literal hurdle.</div>`:""}
+    <p class="note"><strong>Treat the fair value as a range, not a number.</strong> A ${V.spread!=null?fmt(V.spread*100,0)+"%":""} spread across admissible models means the honest answer is "somewhere in $${fmt(V.lo)}–$${fmt(V.hi)}", and the reverse DCF above is the only line here that doesn't depend on my choice of discount rate.</p>`
+    :`<p class="note">No admissible model for this business profile. Nothing shown rather than a number invented from an inapplicable formula.</p>`}
+  </div>
+  <div class="panel"><h2>Business profile ${tag("DRIVES MODEL SELECTION")}</h2>
+    <div class="stats">
+      ${stat("Classified as",esc(V.C.type))}
+      ${stat("Revenue growth",pc(V.C.growth),V.C.growth>0.15?"up":"")}
+      ${stat("Capex intensity",f.ocf?pc((f.capex||0)/f.ocf,0):"—",V.C.capexHeavy?"amber":"","capex ÷ operating cash flow")}
+      ${stat("Book value anchors?",V.C.bookMeaningful?"YES":"NO","",`BVPS $${fmt(f.bvps)} vs EPS $${fmt(f.eps_ttm)}`)}
+      ${stat("Asset turnover",f.total_assets?fmt(f.revenue/f.total_assets,2)+"×":"—","","revenue ÷ total assets")}
+      ${stat("Pays a dividend",V.C.payer?"YES":"NO")}
+    </div>
+  </div>`;
+}
+/* ---------- SECTOR COMPARISON ---------- */
+const SECTOR_ROWS=[
+  ["pe","P/E (trailing)","lower",1],["forward_pe","Forward P/E","lower",1],
+  ["ps","P/S","lower",1],["pb","P/B","lower",1],["ev_ebitda","EV/EBITDA","lower",1],
+  ["peg","PEG","lower",1],
+  ["gross_margin","Gross margin","higher",100],["op_margin","Operating margin","higher",100],
+  ["net_margin","Net margin","higher",100],["fcf_margin","FCF margin","higher",100],
+  ["roe","Return on equity","higher",100],["rev_growth","Revenue growth","higher",100],
+  ["fcf_yield","FCF yield","higher",100],["debt_to_equity","Debt / equity","lower",1]
+];
+function ownMetric(f,k){
+  const map={pe:"pe",forward_pe:"forward_pe",ps:"ps",pb:"pb",ev_ebitda:"ev_ebitda",peg:"peg",
+    gross_margin:"gross_margin",op_margin:"op_margin",net_margin:"net_margin",
+    fcf_margin:"fcf_margin",roe:"roe",debt_to_equity:"debt_to_equity"};
+  if(k==="rev_growth") return f.rev_cagr_3y ?? f.rev_cagr_5y ?? null;
+  if(k==="fcf_yield") return (f.mcap&&f.fcf_latest)? f.fcf_latest/f.mcap : null;
+  const v=f[map[k]]; return (v==null||!isFinite(v))?null:v;
+}
+function tabSector(){
+  const P=RAW.peers,f=RAW.fundamentals||{};
+  if(!P||P.error) return `<div class="panel"><h2>Sector comparison unavailable ${tag("NO PEER DATA",false)}</h2>
+    <p class="note">${esc((P&&P.error)||"This snapshot predates the peer block.")}</p>
+    <p class="note">Peer benchmarking is added by the updated <span class="mono">scripts/fetch_data.py</span>. Upload it and run the workflow once — peers are cached a week, so it costs almost nothing per run.</p></div>`;
+  const med=P.median||{};
+  let better=0,scored=0;
+  const rows=SECTOR_ROWS.map(([k,label,dir,mult])=>{
+    const own=ownMetric(f,k), m=med[k];
+    if(own==null||m==null||!isFinite(m)) return {label,own,m,verdict:null,mult};
+    const win = dir==="higher" ? own>m : own<m;
+    scored++; if(win) better++;
+    const rel = m!==0 ? (own-m)/Math.abs(m) : null;
+    return {label,own,m,verdict:win?"better":"worse",rel,mult,dir};
+  });
+  const pctBetter = scored? better/scored : null;
+  return `<div class="panel">
+    <h2>Versus sector ${tag(`${P.n} PEERS · ${esc((P.peer_symbols||[]).join(" "))}`)}</h2>
+    <div class="price ${pctBetter>0.6?"up":pctBetter<0.4?"down":"blue"}">${better} of ${scored} metrics better than peer median</div>
+    <div class="meter"><i style="left:calc(${(pctBetter||0)*100}% - 1px)"></i></div>
+    <div class="sub">peer set from Finnhub, metrics from yfinance, compared on the median rather than the mean so one distorted peer can't move the bar</div>
+    <div class="tblwrap"><table style="margin-top:14px">
+      <thead><tr><th>Metric</th><th class="r">${esc(RAW.symbol)}</th><th class="r">Peer median</th>
+      <th class="r">Difference</th><th>Read</th></tr></thead><tbody>
+      ${rows.map(r=>{
+        if(r.verdict==null) return `<tr><td>${esc(r.label)}</td>
+          <td class="r">${r.own!=null?fmt(r.own*(r.mult===100?100:1),r.mult===100?1:2)+(r.mult===100?"%":""):"—"}</td>
+          <td class="r">—</td><td class="r">—</td><td style="color:var(--faint)">not comparable</td></tr>`;
+        const fv=v=>fmt(v*(r.mult===100?100:1),r.mult===100?1:2)+(r.mult===100?"%":"");
+        return `<tr><td>${esc(r.label)}</td>
+          <td class="r ${r.verdict==="better"?"up":"down"}">${fv(r.own)}</td>
+          <td class="r">${fv(r.m)}</td>
+          <td class="r ${r.verdict==="better"?"up":"down"}">${r.rel>=0?"+":""}${fmt(r.rel*100,0)}%</td>
+          <td style="color:var(--faint)">${r.verdict==="better"
+            ? (r.dir==="higher"?"above sector":"cheaper than sector")
+            : (r.dir==="higher"?"below sector":"richer than sector")}</td></tr>`;}).join("")}
+    </tbody></table></div>
+    <p class="note">Cheaper is not the same as better. A discount on every multiple alongside below-sector margins and growth usually means the market has priced a real problem, not missed one — read the valuation rows against the quality rows before drawing a conclusion.</p>
+  </div>
+  <div class="panel"><h2>Peer set detail ${tag("RAW COMPARABLES")}</h2>
+    <div class="tblwrap"><table><thead><tr><th>Company</th><th class="r">Mkt cap</th><th class="r">P/E</th>
+      <th class="r">P/S</th><th class="r">EV/EBITDA</th><th class="r">Op margin</th><th class="r">Rev growth</th></tr></thead><tbody>
+      ${(P.peers||[]).map(x=>`<tr><td>${esc(x.symbol)} — ${esc(x.name||"")}</td>
+        <td class="r">${big(x.mcap)}</td><td class="r">${fmt(x.pe,1)}</td><td class="r">${fmt(x.ps,1)}</td>
+        <td class="r">${fmt(x.ev_ebitda,1)}</td><td class="r">${pc(x.op_margin,1)}</td>
+        <td class="r">${pc(x.rev_growth,1)}</td></tr>`).join("")}
+    </tbody></table></div>
+    <p class="note">Finnhub's peer lists are approximate — they group by broad industry, so a conglomerate can pull in comparables that don't really compete. Sanity-check the names above before leaning on the median.</p>
+  </div>`;
+}
+/* ---------- VERDICT (your framework) ---------- */
+function tabVerdict(price){
+  const f=RAW.fundamentals||{},T2=T;
+  if(!T2) return `<div class="panel"><h2>Verdict unavailable</h2><p class="note">No price history.</p></div>`;
+  const n=T2.n;
+  /* Gate 1 — your cash-flow-positive screen. */
+  const fcf=f.fcf_latest ?? f.fcf_base;
+  const cfPass = fcf!=null && fcf>0;
+  /* Gate 2 — technical confluence: MACD, RSI, OBV, MA alignment. */
+  const macdBull=T2.macd.line[n]>T2.macd.signal[n];
+  const rsiOK=T2.rsi[n]>50&&T2.rsi[n]<70;
+  const obvUp=linreg(T2.obv.slice(-30)).b>0;
+  const maStack=price>T2.ema20[n]&&T2.ema20[n]>T2.ema50[n]&&(T2.ema200[n]==null||T2.ema50[n]>T2.ema200[n]);
+  const conf=[["MACD above signal",macdBull],["RSI 50–70 (strength, not extended)",rsiOK],
+    ["OBV rising",obvUp],["Price above stacked 20/50/200 EMAs",maStack]];
+  const confCount=conf.filter(c=>c[1]).length;
+  /* Grade — cash-flow gate is hard; confluence sets the letter. */
+  let grade,note;
+  if(!cfPass){grade="C";note="Fails your cash-flow-positive screen. Speculative trade only, never a confluence position.";}
+  else if(confCount===4){grade="A";note="Cash-flow positive and all four technical conditions align — this is the confluence setup you screen for.";}
+  else if(confCount===3){grade="A−";note="Cash-flow positive with three of four technicals aligned. One condition still missing.";}
+  else if(confCount===2){grade="B";note="Cash-flow positive but the chart is mixed — fundamentals support it, the tape does not yet.";}
+  else {grade="C+";note="Cash-flow positive but technically broken. Wait for a base rather than catching this.";}
+  const a=T2.atr[n],st=T2.st;
+  const entryLo=Math.max(st.eq,T2.ema50[n]||st.eq), entryHi=price;
+  const stop=T2.tgt.invalid;
+  return `<div class="panel">
+    <h2>Verdict ${tag("YOUR SCREEN: CASH FLOW → CONFLUENCE")}</h2>
+    <div class="price ${grade.startsWith("A")?"up":grade==="B"?"blue":"down"}">${esc(grade)}</div>
+    <div class="verdict ${grade.startsWith("A")?"up":grade==="B"?"blue":"down"}">● ${esc(note)}</div>
+    <div class="stats" style="margin-top:14px">
+      ${stat("Cash-flow screen",cfPass?"PASS":"FAIL",cfPass?"up":"down",`free cash flow ${big(fcf)}`)}
+      ${stat("Technical confluence",`${confCount} of 4`,confCount>=3?"up":confCount>=2?"blue":"down")}
+      ${stat("Structure",esc(st.label),st.label==="BULLISH"?"up":st.label==="BEARISH"?"down":"blue")}
+      ${stat("Range position",esc(st.zone),st.zone==="DISCOUNT"?"up":"down",pc(st.posInRange,0)+" of dealing range")}
+    </div>
+    <div class="tblwrap"><table style="margin-top:12px"><tbody>
+      ${conf.map(c=>`<tr><td>${esc(c[0])}</td>
+        <td class="r ${c[1]?"up":"down"}">${c[1]?"✓ met":"✗ not met"}</td></tr>`).join("")}
+    </tbody></table></div>
+  </div>
+  <div class="panel"><h2>Levels ${tag("STRUCTURE-DERIVED · NOT A RECOMMENDATION")}</h2>
+    <div class="stats">
+      ${stat("Entry zone",`$${fmt(Math.min(entryLo,entryHi))}–$${fmt(Math.max(entryLo,entryHi))}`,"amber","equilibrium / EMA50 up to spot")}
+      ${stat("Structural stop",`$${fmt(stop)}`,"down","last break of structure")}
+      ${stat("Target 1",`$${fmt(T2.tgt.horizon[0].lvl)}`,"up",pctFrom(T2.tgt.horizon[0].lvl,price))}
+      ${stat("Target 2",`$${fmt(T2.tgt.horizon[1].lvl)}`,"up",pctFrom(T2.tgt.horizon[1].lvl,price))}
+      ${stat("Target 3",`$${fmt(T2.tgt.horizon[2].lvl)}`,"up",pctFrom(T2.tgt.horizon[2].lvl,price))}
+      ${stat("Risk : reward to T2",
+        (()=>{const r=Math.abs(price-stop),rw=Math.abs(T2.tgt.horizon[1].lvl-price);
+          return r?fmt(rw/r,2)+" : 1":"—";})(),"","against the structural stop")}
+      ${stat("Position size @ 1% risk",
+        (()=>{const r=Math.abs(price-stop);return r?fmt(0.01/(r/price)*100,0)+"% of book":"—";})(),
+        "","risking 1% of capital to the stop")}
+      ${stat("ATR (daily travel)",`$${fmt(a)}`,"",fmt(a/price*100,1)+"% per session")}
+    </div>
+    <p class="note">These are levels the chart implies, not advice on what to do with your capital. The position-size line assumes you risk 1% of the book to the structural stop — if that sizing is uncomfortably large, the stop is too far away and the setup is wrong for the timeframe, not the sizing.</p>
   </div>`;
 }
 /* ---------- DATA ---------- */
 function tabData(){
   const blocks=[["Daily candles",RAW.candles],["Quote",RAW.quote],["Profile",RAW.profile],
     ["Fundamentals",RAW.fundamentals],["Earnings history",RAW.earnings],
-    ["Analyst trends",RAW.analysts],["Positioning (yfinance)",RAW.extras]];
+    ["Analyst trends",RAW.analysts],["Positioning (yfinance)",RAW.extras],
+    ["Peer benchmarks",RAW.peers]];
   return `<div class="panel"><h2>Provenance ${tag("PER BLOCK")}</h2>
     <div class="tblwrap"><table><thead><tr><th>Block</th><th>Source</th><th>State</th><th>Detail</th><th>Age</th></tr></thead><tbody>
     ${blocks.map(([nm,b])=>{b=b||{error:"absent from this snapshot"};
