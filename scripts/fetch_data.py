@@ -586,6 +586,85 @@ def get_macro(prev):
 
 # ------------------------------------------------------------------ assembly
 
+
+# ---------------- peer / sector benchmarking ----------------
+PEER_METRICS = ["pe", "forward_pe", "pb", "ps", "ev_ebitda", "peg", "gross_margin",
+                "op_margin", "net_margin", "fcf_margin", "roe",
+                "debt_to_equity", "rev_growth", "fcf_yield"]
+
+
+def _median(vals):
+    v = sorted(x for x in vals
+               if isinstance(x, (int, float)) and math.isfinite(x))
+    if not v:
+        return None
+    m = len(v) // 2
+    return v[m] if len(v) % 2 else (v[m - 1] + v[m]) / 2
+
+
+def peer_symbols(sym):
+    try:
+        j = get("https://finnhub.io/api/v1/stock/peers",
+                {"symbol": sym, "token": KEYS["finnhub"]})
+        if isinstance(j, list) and len(j) > 1:
+            return [p for p in j if p and p.upper() != sym.upper()][:8]
+    except Exception:
+        pass
+    return []
+
+
+def peer_snapshot(sym):
+    """One yfinance .info pull per peer -> the ratios we benchmark on."""
+    if not HAVE_YF:
+        return None
+    try:
+        info = yf.Ticker(sym).info or {}
+        mcap = num(info.get("marketCap"))
+        fcf = num(info.get("freeCashflow"))
+        rev = num(info.get("totalRevenue"))
+        d2e = num(info.get("debtToEquity"))
+        return {
+            "symbol": sym, "name": info.get("shortName") or sym, "mcap": mcap,
+            "pe": num(info.get("trailingPE")),
+            "forward_pe": num(info.get("forwardPE")),
+            "pb": num(info.get("priceToBook")),
+            "ps": num(info.get("priceToSalesTrailing12Months")),
+            "ev_ebitda": num(info.get("enterpriseToEbitda")),
+            "peg": num(info.get("trailingPegRatio")),
+            "gross_margin": num(info.get("grossMargins")),
+            "op_margin": num(info.get("operatingMargins")),
+            "net_margin": num(info.get("profitMargins")),
+            "fcf_margin": safe_div(fcf, rev),
+            "roe": num(info.get("returnOnEquity")),
+            "debt_to_equity": (d2e / 100 if d2e else None),
+            "rev_growth": num(info.get("revenueGrowth")),
+            "fcf_yield": safe_div(fcf, mcap),
+        }
+    except Exception:
+        return None
+
+
+def get_peers(sym, prev):
+    """Sector reference set, cached a week. Peer multiples move slowly and this
+    is the most call-hungry block here."""
+    if is_fresh(prev, days=7):
+        return prev
+    names = peer_symbols(sym)
+    if not names:
+        return err("finnhub", "no peer list returned for this symbol")
+    rows = []
+    for p in names:
+        snap = peer_snapshot(p)
+        if snap:
+            rows.append(snap)
+        time.sleep(0.4)
+    if not rows:
+        return err("yfinance", "peers found but no metrics resolved")
+    med = {k: _median([r.get(k) for r in rows]) for k in PEER_METRICS}
+    return block("finnhub+yfinance", peers=rows, n=len(rows), median=med,
+                 peer_symbols=[r["symbol"] for r in rows])
+
+
 def build(sym, prev):
     prev = prev or {}
     t = {"symbol": sym, "generated_at": now_iso()}
@@ -615,6 +694,7 @@ def build(sym, prev):
     t["earnings"] = get_earnings(sym, prev.get("earnings"))
     t["analysts"] = get_analysts(sym)
     t["extras"] = get_yf_extras(sym)
+    t["peers"] = get_peers(sym, prev.get("peers"))
     return t
 
 
