@@ -67,6 +67,38 @@ def get(url, params=None, timeout=30):
     return r.json()
 
 
+# FMP moved new accounts to /stable/ (Aug 2025); old keys still use /api/v3/.
+# Try stable first, fall back to v3, and remember which one the key accepts.
+FMP_MODE = {"mode": ""}
+
+
+def fmp_get(name, sym, extra=None):
+    key = KEYS["fmp"]
+    p_stable = {"symbol": sym, "apikey": key, **(extra or {})}
+    p_v3 = {"apikey": key, **(extra or {})}
+
+    def attempt(url, params):
+        j = get(url, params)
+        if isinstance(j, dict) and j.get("Error Message"):
+            raise ValueError(j["Error Message"])
+        return j
+
+    stable = ("https://financialmodelingprep.com/stable/" + name, p_stable)
+    v3 = (f"https://financialmodelingprep.com/api/v3/{name}/{sym}", p_v3)
+    if FMP_MODE["mode"] == "v3":
+        return attempt(*v3)
+    if FMP_MODE["mode"] == "stable":
+        return attempt(*stable)
+    try:
+        j = attempt(*stable)
+        FMP_MODE["mode"] = "stable"
+        return j
+    except Exception:
+        j = attempt(*v3)
+        FMP_MODE["mode"] = "v3"
+        return j
+
+
 def is_fresh(block, hours=None, days=None):
     """True if a previously cached block exists, has no error, and is recent."""
     if not block or block.get("error") or "fetched_at" in block is False:
@@ -298,17 +330,16 @@ def fetch_market_status():
 def fetch_fundamentals(sym):
     if not KEYS["fmp"]:
         return err("fmp", "no key")
-    base = "https://financialmodelingprep.com/api/v3"
     try:
-        prof = get(f"{base}/profile/{sym}", {"apikey": KEYS["fmp"]})
-        prof = prof[0] if prof else {}
+        prof = fmp_get("profile", sym)
+        prof = prof[0] if isinstance(prof, list) and prof else (prof or {})
         if prof.get("isEtf"):
             return block("fmp", is_etf=True, name=prof.get("companyName"))
-        inc = get(f"{base}/income-statement/{sym}", {"limit": 6, "apikey": KEYS["fmp"]})
-        bal = get(f"{base}/balance-sheet-statement/{sym}", {"limit": 2, "apikey": KEYS["fmp"]})
-        cfs = get(f"{base}/cash-flow-statement/{sym}", {"limit": 6, "apikey": KEYS["fmp"]})
-        rat = get(f"{base}/ratios-ttm/{sym}", {"apikey": KEYS["fmp"]})
-        rat = rat[0] if rat else {}
+        inc = fmp_get("income-statement", sym, {"limit": 6})
+        bal = fmp_get("balance-sheet-statement", sym, {"limit": 2})
+        cfs = fmp_get("cash-flow-statement", sym, {"limit": 6})
+        rat = fmp_get("ratios-ttm", sym)
+        rat = rat[0] if isinstance(rat, list) and rat else (rat or {})
         if not inc:
             raise ValueError("no statements (unknown ticker or fund)")
         latest, b0 = inc[0], (bal[0] if bal else {})
@@ -344,7 +375,7 @@ def fetch_fundamentals(sym):
             gross_margin=(latest.get("grossProfit") or 0) / rev if rev else None,
             op_margin=(latest.get("operatingIncome") or 0) / rev if rev else None,
             net_margin=(latest.get("netIncome") or 0) / rev if rev else None,
-            roe=rat.get("returnOnEquityTTM"),
+            roe=rat.get("returnOnEquityTTM") or rat.get("roeTTM"),
             debt_to_equity=(debt / equity) if equity else None,
             current_ratio=rat.get("currentRatioTTM"),
             interest_coverage=((latest.get("operatingIncome") or 0) / latest["interestExpense"])
@@ -353,8 +384,10 @@ def fetch_fundamentals(sym):
             shares=shares,
             book_value_per_share=(equity / shares) if shares else None,
             fcf_base=(sum(fcfs[:2]) / 2) if len(fcfs) >= 2 else (fcfs[0] if fcfs else None),
-            pe_ttm=rat.get("peRatioTTM"), ps_ttm=rat.get("priceToSalesRatioTTM"),
-            pb_ttm=rat.get("priceToBookRatioTTM"), peg_ttm=rat.get("pegRatioTTM"),
+            pe_ttm=rat.get("peRatioTTM") or rat.get("priceEarningsRatioTTM") or rat.get("priceToEarningsRatioTTM"),
+            ps_ttm=rat.get("priceToSalesRatioTTM") or rat.get("psRatioTTM"),
+            pb_ttm=rat.get("priceToBookRatioTTM") or rat.get("pbRatioTTM"),
+            peg_ttm=rat.get("pegRatioTTM") or rat.get("priceEarningsToGrowthRatioTTM"),
         )
     except Exception as e:
         return err("fmp", e)
