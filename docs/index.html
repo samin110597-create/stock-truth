@@ -3,1061 +3,1274 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stock Truth — terminal</title>
+<title>Stock Truth — analyst terminal</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Archivo:wght@400;500;600;700&display=swap');
-:root{
-  --bg:#121417; --panel:#1A1D22; --edge:#2A2E36; --ink:#E7E4DC; --dim:#8B8F98; --faint:#5C606A;
-  --live:#E8A33D; --up:#4CAF7D; --down:#E05252; --blue:#7A9BC4; --band:#9B8AC4;
-  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace; --sans:'Archivo',system-ui,sans-serif;
-}
+:root{--bg:#101216;--panel:#181B21;--edge:#282C34;--ink:#E8E5DD;--dim:#8C909A;
+--faint:#5E626C;--live:#E8A33D;--up:#4CAF7D;--down:#E05252;--blue:#7A9BC4;--violet:#9B87C4;
+--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;--sans:'Archivo',system-ui,sans-serif;}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);padding:20px clamp(12px,4vw,40px) 80px}
-main{max-width:1240px;margin:0 auto;display:grid;gap:14px}
-h1{font-size:20px;margin:0;letter-spacing:-.01em}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+padding:16px clamp(10px,3vw,32px) 60px;font-size:14px}
+main{max-width:1180px;margin:0 auto;display:grid;gap:12px}
+h1{font-size:19px;margin:0;letter-spacing:.01em}
+h2{margin:0 0 10px;font-size:11px;font-weight:600;letter-spacing:.14em;color:var(--dim);
+text-transform:uppercase;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+h3{margin:14px 0 8px;font-size:12px;font-weight:600;letter-spacing:.08em;color:var(--blue);text-transform:uppercase}
+.panel{background:var(--panel);border:1px solid var(--edge);border-radius:6px;padding:14px}
 .sub{font-family:var(--mono);font-size:11px;color:var(--faint)}
-.panel{background:var(--panel);border:1px solid var(--edge);border-radius:6px;padding:16px}
-.panel h2{margin:0 0 12px;font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--dim);
-  text-transform:uppercase;display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
-.tag{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--live);
-  border:1px solid rgba(232,163,61,.27);padding:2px 6px;border-radius:3px;background:rgba(232,163,61,.07);white-space:nowrap}
-.tag.bad{color:var(--down);border-color:rgba(224,82,82,.27);background:rgba(224,82,82,.07)}
-.tag.ok{color:var(--up);border-color:rgba(76,175,125,.27);background:rgba(76,175,125,.07)}
-.header-box{border:1px solid rgba(232,163,61,.4);background:rgba(232,163,61,.05);border-radius:6px;
-  padding:14px;font-family:var(--mono);font-size:12px;line-height:1.8;overflow-x:auto}
-.header-box .hd{color:var(--live);font-size:10px;letter-spacing:.18em;margin-bottom:6px}
+.note{font-size:11px;color:var(--faint);margin:9px 0 0;line-height:1.6}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--live);
+border:1px solid rgba(232,163,61,.3);padding:2px 6px;border-radius:3px;
+background:rgba(232,163,61,.07);white-space:nowrap}
+.tag.bad{color:var(--down);border-color:rgba(224,82,82,.3);background:rgba(224,82,82,.07)}
+.tag.good{color:var(--up);border-color:rgba(76,175,125,.3);background:rgba(76,175,125,.07)}
+.hdr{border:1px solid rgba(232,163,61,.35);background:rgba(232,163,61,.045);border-radius:6px;
+padding:12px;font-family:var(--mono);font-size:11.5px;line-height:1.75}
+.hdr .t{color:var(--live);font-size:10px;letter-spacing:.18em;margin-bottom:5px}
 .err{color:var(--down)}
-.grid{display:grid;gap:14px}
-.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
-.stats{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(132px,1fr))}
-.stat .l{font-size:11px;color:var(--faint);margin-bottom:3px}
-.stat .v{font-family:var(--mono);font-size:15px;font-weight:500}
-.stat .s{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:2px}
-.price{font-family:var(--mono);font-size:34px;font-weight:600}
-.up{color:var(--up)}.down{color:var(--down)}.blue{color:var(--blue)}.amber{color:var(--live)}.band{color:var(--band)}
-button{font-family:var(--mono);font-size:13px;padding:7px 14px;border-radius:4px;border:1px solid var(--edge);
-  background:var(--panel);color:var(--dim);cursor:pointer}
-button:hover{border-color:var(--faint);color:var(--ink)}
-button.on{border-color:var(--live);color:var(--live);background:rgba(232,163,61,.07)}
-button.go{border-color:var(--live);color:var(--live);background:rgba(232,163,61,.1)}
-button:focus-visible,input:focus-visible{outline:2px solid var(--live);outline-offset:2px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.tabbar{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--edge);padding-bottom:10px;margin-bottom:2px}
-.tabbar button{border-radius:4px 4px 0 0}
-.subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
-.subtabs button{font-size:12px;padding:5px 11px}
-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px}
-th{font-family:var(--sans);font-size:10px;color:var(--faint);text-align:left;text-transform:uppercase;
-  letter-spacing:.1em;padding:5px 8px 5px 0}
-td{padding:6px 8px 6px 0;border-top:1px solid var(--edge)}
-td.r,th.r{text-align:right}
-.tblwrap{overflow-x:auto}
-input[type=text],input[type=password]{background:var(--bg);border:1px solid var(--edge);border-radius:4px;
-  color:var(--ink);font-family:var(--mono);font-size:13px;padding:8px 10px}
+.grid{display:grid;gap:12px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}
+.st .l{font-size:10.5px;color:var(--faint);margin-bottom:2px}
+.st .v{font-family:var(--mono);font-size:14.5px;font-weight:500}
+.st .s{font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-top:2px}
+.up{color:var(--up)}.down{color:var(--down)}.blue{color:var(--blue)}.amber{color:var(--live)}
+.violet{color:var(--violet)}.dim{color:var(--dim)}
+.price{font-family:var(--mono);font-size:32px;font-weight:600}
+input[type=text],input[type=password]{background:var(--bg);border:1px solid var(--edge);
+border-radius:4px;color:var(--ink);font-family:var(--mono);font-size:13px;padding:8px 10px;width:100%}
 input:focus{outline:none;border-color:var(--live)}
-input[type=range]{accent-color:var(--live);width:100%}
-.slider .rw{display:flex;justify-content:space-between;font-size:11px}
-.slider .rw span:first-child{color:var(--dim)}
-.slider .rw span:last-child{font-family:var(--mono);color:var(--live)}
-.note{font-size:11px;color:var(--faint);margin:10px 0 0;line-height:1.6}
-.mono{font-family:var(--mono)}
-.chartwrap{position:relative;height:340px}
-.chartwrap.sm{height:150px}
+input[type=range]{accent-color:var(--live);width:100%;padding:0}
+button{font-family:var(--sans);font-size:12.5px;padding:7px 13px;border-radius:4px;
+border:1px solid var(--edge);background:var(--panel);color:var(--dim);cursor:pointer}
+button:hover{border-color:var(--dim)}
+button.go{background:var(--live);color:#17120A;border:none;font-weight:600;padding:8px 18px}
+button.on{border-color:var(--live);color:var(--live);background:rgba(232,163,61,.08)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--live);outline-offset:1px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--edge);padding-bottom:10px}
+.tabs button{font-family:var(--mono);letter-spacing:.06em}
+table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:11.5px}
+th{font-family:var(--sans);font-size:9.5px;color:var(--faint);text-align:left;
+text-transform:uppercase;letter-spacing:.1em;padding:5px 8px 5px 0;font-weight:600}
+td{padding:5px 8px 5px 0;border-top:1px solid var(--edge);vertical-align:top}
+.bar{height:6px;border-radius:3px;background:var(--edge);overflow:hidden;margin-top:5px}
+.bar i{display:block;height:100%;border-radius:3px}
+.big{font-family:var(--mono);font-size:26px;font-weight:600}
+.verdictline{font-family:var(--mono);font-size:15px;padding:9px 0}
+.ev{display:flex;justify-content:space-between;gap:10px;padding:5px 0;
+border-bottom:1px solid var(--edge);font-size:12px;align-items:baseline}
+.ev .w{font-family:var(--mono);font-size:10px;color:var(--faint);white-space:nowrap}
+.pill{font-family:var(--mono);font-size:10px;padding:1px 6px;border-radius:9px;white-space:nowrap}
+.pill.b{background:rgba(76,175,125,.14);color:var(--up)}
+.pill.r{background:rgba(224,82,82,.14);color:var(--down)}
+.pill.n{background:rgba(140,144,154,.14);color:var(--dim)}
 .pulse{animation:pulse 1.6s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
-a{color:var(--blue)}
-.searchbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.searchbar input[type=text]{flex:1;min-width:180px;font-size:16px;letter-spacing:.08em;text-transform:uppercase}
-.keys{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
-.keys label{display:block;font-size:11px;color:var(--faint);margin-bottom:4px}
-.keys input{width:100%}
-.verdict{font-family:var(--mono);font-size:13px;padding:8px 10px;border-radius:4px;border:1px solid var(--edge);margin-top:10px}
-details{margin-top:10px}
+details{border-top:1px solid var(--edge);padding-top:8px;margin-top:8px}
 summary{cursor:pointer;font-size:11px;color:var(--dim);font-family:var(--mono)}
-.quota{font-family:var(--mono);font-size:10px;color:var(--faint)}
+.kwrap{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(155px,1fr))}
+.kwrap label{font-size:10px;color:var(--faint);display:block;margin-bottom:3px}
 </style>
 </head>
 <body>
 <main>
-  <div>
-    <h1>Stock Truth — terminal</h1>
-    <div class="sub">any ticker · five vendors · every number carries its source · nothing simulated</div>
-  </div>
+  <header class="row" style="justify-content:space-between">
+    <div class="row" style="gap:12px">
+      <h1>Stock Truth</h1>
+      <span class="sub">five vendors · verified maths · no simulated numbers</span>
+    </div>
+    <span class="sub" id="quota"></span>
+  </header>
 
   <div class="panel">
     <h2>Keys <span class="tag">STORED IN THIS BROWSER ONLY</span></h2>
-    <div class="keys">
+    <div class="kwrap">
       <div><label for="kFinn">Finnhub — quote, profile, analysts</label><input id="kFinn" type="password" placeholder="finnhub"></div>
-      <div><label for="kTwelve">Twelve Data — daily candles</label><input id="kTwelve" type="password" placeholder="twelve data"></div>
+      <div><label for="kTwelve">Twelve Data — candles</label><input id="kTwelve" type="password" placeholder="twelve data"></div>
       <div><label for="kFmp">FMP — statements</label><input id="kFmp" type="password" placeholder="fmp"></div>
-      <div><label for="kPoly">Polygon — cross-check, status</label><input id="kPoly" type="password" placeholder="polygon"></div>
+      <div><label for="kPoly">Polygon — candle cross-check</label><input id="kPoly" type="password" placeholder="polygon"></div>
       <div><label for="kAv">Alpha Vantage — earnings, macro</label><input id="kAv" type="password" placeholder="alpha vantage"></div>
     </div>
-    <p class="note">Keys live in this browser's localStorage and each is sent only to the vendor it belongs to. This page is served from your own site, so nothing passes through a third party. Any key can be left blank — the panels that need it will say what's missing rather than fill in.</p>
-    <div class="quota" id="quota" style="margin-top:8px"></div>
-  </div>
-
-  <div class="panel">
-    <h2>Symbol</h2>
-    <div class="searchbar">
-      <input id="sym" type="text" placeholder="AAPL, XIC.TO, VOO…" autocomplete="off" spellcheck="false">
+    <div class="row" style="margin-top:10px">
+      <div style="flex:1;min-width:180px"><input id="sym" type="text" placeholder="Any ticker — AAPL, VOO, XIC.TO…" autocomplete="off" spellcheck="false"></div>
       <button class="go" id="btnGo">Analyze</button>
       <button id="btnLive">Go live (10s)</button>
     </div>
-    <div class="row" style="margin-top:10px" id="recents"></div>
-    <div class="sub" id="liveNote" style="margin-top:8px"></div>
+    <div class="row" style="margin-top:9px" id="recents"></div>
+    <p class="note">Each key is sent only to the vendor it belongs to, straight from this browser. Leave any blank — the panels that need it will name what's missing instead of filling in.</p>
   </div>
 
   <div id="app"></div>
 </main>
-
 <script>
-"use strict";
-/* ================= helpers ================= */
-const $ = s => document.querySelector(s);
-const fmt = (v,dp=2) => (v==null||Number.isNaN(+v)||!isFinite(+v)) ? "—"
-  : (+v).toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp});
-const big = v => v==null||!isFinite(v) ? "—"
-  : Math.abs(v)>=1e12?fmt(v/1e12)+"T":Math.abs(v)>=1e9?fmt(v/1e9)+"B"
-  :Math.abs(v)>=1e6?fmt(v/1e6,1)+"M":fmt(v,0);
-const pc = (v,dp=1) => (v==null||!isFinite(v)) ? "—" : fmt(v*100,dp)+"%";
-const esc = s => String(s??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const tag = (t,ok=true) => `<span class="tag ${ok?'':'bad'}">${esc(t)}</span>`;
-const stat = (l,v,cls="",s="") => `<div class="stat"><div class="l">${esc(l)}</div>
-  <div class="v ${cls}">${v}</div>${s?`<div class="s">${s}</div>`:""}</div>`;
-const nowISO = () => new Date().toISOString();
-const ago = iso => { if(!iso) return "unknown"; const m=(Date.now()-Date.parse(iso))/60000;
-  return m<2?"just now":m<60?Math.round(m)+" min ago":m<1440?fmt(m/60,1)+" h ago":fmt(m/1440,1)+" d ago"; };
-const dstr = d => d.toISOString().slice(0,10);
+/* ============================================================
+   ANALYTICS ENGINE — every function takes real candles or real
+   statements and returns numbers. Nothing here invents data;
+   where a value cannot be computed it returns null and the UI
+   says so. Extracted here so it can be unit-tested.
+   ============================================================ */
 
-/* ================= indicator maths ================= */
-const sma = (a,n) => a.map((_,i)=> i<n-1?null:a.slice(i-n+1,i+1).reduce((x,y)=>x+y,0)/n);
-function ema(a,n){ const k=2/(n+1); const out=[]; let prev=null;
-  a.forEach((v,i)=>{ if(i<n-1){out.push(null);return;} if(prev==null){prev=a.slice(0,n).reduce((x,y)=>x+y,0)/n;out.push(prev);return;}
-    prev=v*k+prev*(1-k); out.push(prev); }); return out; }
-function rsi(c,n=14){ const out=Array(c.length).fill(null); if(c.length<=n) return out; let g=0,l=0;
-  for(let i=1;i<=n;i++){const d=c[i]-c[i-1]; d>=0?g+=d:l-=d;} g/=n; l/=n; out[n]=100-100/(1+(l===0?100:g/l));
-  for(let i=n+1;i<c.length;i++){const d=c[i]-c[i-1]; g=(g*(n-1)+(d>0?d:0))/n; l=(l*(n-1)+(d<0?-d:0))/n;
-    out[i]=100-100/(1+(l===0?100:g/l));} return out; }
-function macd(c,f=12,s=26,sig=9){ const ef=ema(c,f),es=ema(c,s);
-  const line=c.map((_,i)=> ef[i]!=null&&es[i]!=null? ef[i]-es[i]:null);
-  const valid=line.filter(v=>v!=null); const sg=ema(valid,sig);
-  const off=line.length-valid.length; const signal=Array(line.length).fill(null);
-  sg.forEach((v,i)=>{ if(v!=null) signal[off+i]=v; });
-  return {line,signal,hist:line.map((v,i)=> v!=null&&signal[i]!=null? v-signal[i]:null)}; }
-function trueRange(h,l,c){ return h.map((_,i)=> i===0? h[i]-l[i]
-  : Math.max(h[i]-l[i], Math.abs(h[i]-c[i-1]), Math.abs(l[i]-c[i-1]))); }
-function atr(h,l,c,n=14){ const tr=trueRange(h,l,c); const out=Array(tr.length).fill(null);
-  if(tr.length<n) return out; let a=tr.slice(0,n).reduce((x,y)=>x+y,0)/n; out[n-1]=a;
-  for(let i=n;i<tr.length;i++){ a=(a*(n-1)+tr[i])/n; out[i]=a; } return out; }
-function adx(h,l,c,n=14){
-  const tr=trueRange(h,l,c), pDM=[], mDM=[];
-  for(let i=0;i<h.length;i++){ if(i===0){pDM.push(0);mDM.push(0);continue;}
-    const up=h[i]-h[i-1], dn=l[i-1]-l[i];
-    pDM.push(up>dn&&up>0?up:0); mDM.push(dn>up&&dn>0?dn:0); }
-  const sm=(arr)=>{ const o=Array(arr.length).fill(null); if(arr.length<n) return o;
-    let s=arr.slice(0,n).reduce((x,y)=>x+y,0); o[n-1]=s;
-    for(let i=n;i<arr.length;i++){ s=s-s/n+arr[i]; o[i]=s; } return o; };
-  const str=sm(tr), sp=sm(pDM), sm_=sm(mDM);
-  const pDI=[],mDI=[],dx=[];
-  for(let i=0;i<h.length;i++){ if(str[i]==null||str[i]===0){pDI.push(null);mDI.push(null);dx.push(null);continue;}
-    const p=100*sp[i]/str[i], m=100*sm_[i]/str[i]; pDI.push(p); mDI.push(m);
-    dx.push(p+m===0?null:100*Math.abs(p-m)/(p+m)); }
-  const out=Array(h.length).fill(null); const first=dx.findIndex(v=>v!=null);
-  if(first>=0 && dx.length>=first+n){ let a=dx.slice(first,first+n).reduce((x,y)=>x+y,0)/n; out[first+n-1]=a;
-    for(let i=first+n;i<dx.length;i++){ if(dx[i]==null) continue; a=(a*(n-1)+dx[i])/n; out[i]=a; } }
-  return {adx:out,pDI,mDI}; }
-function stoch(h,l,c,n=14,d=3){ const k=Array(c.length).fill(null);
-  for(let i=n-1;i<c.length;i++){ const hh=Math.max(...h.slice(i-n+1,i+1)), ll=Math.min(...l.slice(i-n+1,i+1));
-    k[i]= hh===ll?50:100*(c[i]-ll)/(hh-ll); }
-  const kv=k.filter(v=>v!=null); const dv=sma(kv,d); const off=k.length-kv.length;
-  const ds=Array(k.length).fill(null); dv.forEach((v,i)=>{ if(v!=null) ds[off+i]=v; });
-  return {k,d:ds}; }
-function bollinger(c,n=20,m=2){ const mid=sma(c,n); const up=[],lo=[];
-  c.forEach((_,i)=>{ if(i<n-1){up.push(null);lo.push(null);return;}
-    const w=c.slice(i-n+1,i+1), mu=mid[i];
-    const sd=Math.sqrt(w.reduce((s,v)=>s+(v-mu)**2,0)/n);
-    up.push(mu+m*sd); lo.push(mu-m*sd); });
-  return {mid,up,lo}; }
-function obv(c,v){ const o=[0]; for(let i=1;i<c.length;i++) o.push(o[i-1]+(c[i]>c[i-1]?v[i]:c[i]<c[i-1]?-v[i]:0)); return o; }
-function mfi(h,l,c,v,n=14){ const tp=c.map((_,i)=>(h[i]+l[i]+c[i])/3); const out=Array(c.length).fill(null);
-  for(let i=n;i<c.length;i++){ let pos=0,neg=0;
-    for(let j=i-n+1;j<=i;j++){ const f=tp[j]*v[j]; if(tp[j]>tp[j-1])pos+=f; else if(tp[j]<tp[j-1])neg+=f; }
-    out[i]= neg===0?100:100-100/(1+pos/neg); } return out; }
-function cci(h,l,c,n=20){ const tp=c.map((_,i)=>(h[i]+l[i]+c[i])/3); const m=sma(tp,n); const out=Array(c.length).fill(null);
-  for(let i=n-1;i<c.length;i++){ const w=tp.slice(i-n+1,i+1);
-    const md=w.reduce((s,v)=>s+Math.abs(v-m[i]),0)/n; out[i]= md===0?0:(tp[i]-m[i])/(0.015*md); } return out; }
-function willr(h,l,c,n=14){ const out=Array(c.length).fill(null);
-  for(let i=n-1;i<c.length;i++){ const hh=Math.max(...h.slice(i-n+1,i+1)), ll=Math.min(...l.slice(i-n+1,i+1));
-    out[i]= hh===ll?-50:-100*(hh-c[i])/(hh-ll); } return out; }
-function roc(c,n=12){ return c.map((v,i)=> i<n?null:100*(v-c[i-n])/c[i-n]); }
-function fractals(h,l){ const res=[],sup=[];
-  for(let i=2;i<h.length-2;i++){
-    if(h[i]>h[i-1]&&h[i]>h[i-2]&&h[i]>h[i+1]&&h[i]>h[i+2]) res.push(h[i]);
-    if(l[i]<l[i-1]&&l[i]<l[i-2]&&l[i]<l[i+1]&&l[i]<l[i+2]) sup.push(l[i]); }
-  return {res,sup}; }
-function linreg(y){ const n=y.length; let sx=0,sy=0,sxy=0,sxx=0;
-  for(let i=0;i<n;i++){ sx+=i; sy+=y[i]; sxy+=i*y[i]; sxx+=i*i; }
-  const b=(n*sxy-sx*sy)/(n*sxx-sx*sx); const a=(sy-b*sx)/n;
-  let ss=0; for(let i=0;i<n;i++){ ss+=(y[i]-(a+b*i))**2; }
-  return {a,b,se:Math.sqrt(ss/Math.max(1,n-2))}; }
-function pctReturns(c){ const r=[]; for(let i=1;i<c.length;i++) r.push(Math.log(c[i]/c[i-1])); return r; }
-function stdev(a){ const m=a.reduce((x,y)=>x+y,0)/a.length;
-  return Math.sqrt(a.reduce((s,v)=>s+(v-m)**2,0)/Math.max(1,a.length-1)); }
-function maxDrawdown(c){ let peak=c[0],mdd=0; c.forEach(v=>{ if(v>peak)peak=v; const d=(v-peak)/peak; if(d<mdd)mdd=d; }); return mdd; }
-function aggregate(bars,mode){
-  const out=[],key=b=>{ const d=new Date(b.date);
-    if(mode==="w"){ const t=new Date(d); t.setDate(d.getDate()-((d.getDay()+6)%7)); return t.toISOString().slice(0,10); }
-    return b.date.slice(0,7); };
-  let cur=null,k=null;
-  bars.forEach(b=>{ const kk=key(b);
-    if(kk!==k){ if(cur) out.push(cur); k=kk; cur={date:b.date,open:b.open,high:b.high,low:b.low,close:b.close,volume:b.volume}; }
-    else { cur.high=Math.max(cur.high,b.high); cur.low=Math.min(cur.low,b.low); cur.close=b.close;
-      cur.volume+=b.volume; cur.date=b.date; } });
-  if(cur) out.push(cur); return out; }
+/* ---------- moving averages ---------- */
+function sma(v,p){const o=Array(v.length).fill(null);let s=0;
+  for(let i=0;i<v.length;i++){s+=v[i];if(i>=p)s-=v[i-p];if(i>=p-1)o[i]=s/p;}return o;}
+function ema(v,p){const o=Array(v.length).fill(null),k=2/(p+1);let pr=null;
+  for(let i=0;i<v.length;i++){
+    if(i===p-1){pr=v.slice(0,p).reduce((a,b)=>a+b,0)/p;o[i]=pr;}
+    else if(i>=p){pr=v[i]*k+pr*(1-k);o[i]=pr;}}return o;}
+
+/* ---------- oscillators ---------- */
+function rsi(c,p=14){const o=Array(c.length).fill(null);let g=0,l=0;
+  for(let i=1;i<c.length;i++){const d=c[i]-c[i-1];
+    if(i<=p){if(d>0)g+=d;else l-=d;
+      if(i===p){g/=p;l/=p;o[i]=100-100/(1+(l===0?1e9:g/l));}}
+    else{g=(g*(p-1)+Math.max(d,0))/p;l=(l*(p-1)+Math.max(-d,0))/p;
+      o[i]=100-100/(1+(l===0?1e9:g/l));}}return o;}
+
+function macd(c,f=12,s=26,sig=9){const ef=ema(c,f),es=ema(c,s);
+  const line=c.map((_,i)=>ef[i]!=null&&es[i]!=null?ef[i]-es[i]:null);
+  const val=line.filter(x=>x!=null),sv=ema(val,sig);
+  const signal=Array(line.length).fill(null);let j=0;
+  for(let i=0;i<line.length;i++)if(line[i]!=null)signal[i]=sv[j++];
+  const hist=line.map((x,i)=>x!=null&&signal[i]!=null?x-signal[i]:null);
+  return{line,signal,hist};}
+
+function stoch(bars,p=14,sp=3){const k=Array(bars.length).fill(null);
+  for(let i=p-1;i<bars.length;i++){const w=bars.slice(i-p+1,i+1);
+    const hh=Math.max(...w.map(b=>b.high)),ll=Math.min(...w.map(b=>b.low));
+    k[i]=hh===ll?50:((bars[i].close-ll)/(hh-ll))*100;}
+  const kv=k.filter(x=>x!=null),dv=sma(kv,sp);
+  const d=Array(k.length).fill(null);let j=0;
+  for(let i=0;i<k.length;i++)if(k[i]!=null)d[i]=dv[j++];
+  return{k,d};}
+
+function williamsR(bars,p=14){const o=Array(bars.length).fill(null);
+  for(let i=p-1;i<bars.length;i++){const w=bars.slice(i-p+1,i+1);
+    const hh=Math.max(...w.map(b=>b.high)),ll=Math.min(...w.map(b=>b.low));
+    o[i]=hh===ll?-50:((hh-bars[i].close)/(hh-ll))*-100;}return o;}
+
+function cci(bars,p=20){const o=Array(bars.length).fill(null);
+  const tp=bars.map(b=>(b.high+b.low+b.close)/3),m=sma(tp,p);
+  for(let i=p-1;i<bars.length;i++){
+    const md=tp.slice(i-p+1,i+1).reduce((a,v)=>a+Math.abs(v-m[i]),0)/p;
+    o[i]=md===0?0:(tp[i]-m[i])/(0.015*md);}return o;}
+
+function mfi(bars,p=14){const o=Array(bars.length).fill(null);
+  const tp=bars.map(b=>(b.high+b.low+b.close)/3);
+  for(let i=p;i<bars.length;i++){let pos=0,neg=0;
+    for(let j=i-p+1;j<=i;j++){const f=tp[j]*(bars[j].volume||0);
+      if(tp[j]>tp[j-1])pos+=f;else if(tp[j]<tp[j-1])neg+=f;}
+    o[i]=neg===0?100:100-100/(1+pos/neg);}return o;}
+
+function roc(c,p=20){return c.map((v,i)=>i>=p&&c[i-p]?((v-c[i-p])/c[i-p])*100:null);}
+
+/* ---------- volatility / range ---------- */
+function trueRanges(bars){return bars.map((b,i)=>i===0?b.high-b.low:
+  Math.max(b.high-b.low,Math.abs(b.high-bars[i-1].close),Math.abs(b.low-bars[i-1].close)));}
+
+function atr(bars,p=14){const t=trueRanges(bars),o=Array(bars.length).fill(null);let pr=null;
+  for(let i=0;i<t.length;i++){
+    if(i===p-1){pr=t.slice(0,p).reduce((a,b)=>a+b,0)/p;o[i]=pr;}
+    else if(i>=p){pr=(pr*(p-1)+t[i])/p;o[i]=pr;}}return o;}
+
+function adx(bars,p=14){const n=bars.length;
+  const pdm=Array(n).fill(0),ndm=Array(n).fill(0),tr=trueRanges(bars);
+  for(let i=1;i<n;i++){const up=bars[i].high-bars[i-1].high,dn=bars[i-1].low-bars[i].low;
+    pdm[i]=(up>dn&&up>0)?up:0;ndm[i]=(dn>up&&dn>0)?dn:0;}
+  const wilder=(a)=>{const o=Array(n).fill(null);let s=null;
+    for(let i=0;i<n;i++){if(i===p){s=a.slice(1,p+1).reduce((x,y)=>x+y,0);o[i]=s;}
+      else if(i>p){s=s-s/p+a[i];o[i]=s;}}return o;};
+  const str=wilder(tr),sp=wilder(pdm),sn=wilder(ndm);
+  const pdi=Array(n).fill(null),ndi=Array(n).fill(null),dx=Array(n).fill(null);
+  for(let i=0;i<n;i++)if(str[i]&&str[i]!==0){
+    pdi[i]=100*sp[i]/str[i];ndi[i]=100*sn[i]/str[i];
+    const s=pdi[i]+ndi[i];dx[i]=s===0?0:100*Math.abs(pdi[i]-ndi[i])/s;}
+  const out=Array(n).fill(null);const dv=dx.map((x,i)=>({x,i})).filter(o2=>o2.x!=null);
+  if(dv.length>=p){let s=dv.slice(0,p).reduce((a,o2)=>a+o2.x,0)/p;out[dv[p-1].i]=s;
+    for(let j=p;j<dv.length;j++){s=(s*(p-1)+dv[j].x)/p;out[dv[j].i]=s;}}
+  return{adx:out,pdi,ndi};}
+
+function bollinger(c,p=20,m=2){const mid=sma(c,p),n=c.length;
+  const up=Array(n).fill(null),lo=Array(n).fill(null),bw=Array(n).fill(null),pb=Array(n).fill(null);
+  for(let i=p-1;i<n;i++){const w=c.slice(i-p+1,i+1);
+    const sd=Math.sqrt(w.reduce((a,v)=>a+(v-mid[i])**2,0)/p);
+    up[i]=mid[i]+m*sd;lo[i]=mid[i]-m*sd;
+    bw[i]=mid[i]?((up[i]-lo[i])/mid[i])*100:null;
+    pb[i]=up[i]===lo[i]?0.5:(c[i]-lo[i])/(up[i]-lo[i]);}
+  return{mid,upper:up,lower:lo,bandwidth:bw,percentB:pb};}
+
+function obv(bars){const o=[0];
+  for(let i=1;i<bars.length;i++)o.push(o[i-1]+(bars[i].close>bars[i-1].close?(bars[i].volume||0)
+    :bars[i].close<bars[i-1].close?-(bars[i].volume||0):0));return o;}
+
+/* annualised realised volatility from log returns over the last n sessions */
+function realizedVol(c,n=252){
+  const s=c.slice(-(n+1));if(s.length<20)return null;
+  const r=[];for(let i=1;i<s.length;i++)if(s[i-1]>0)r.push(Math.log(s[i]/s[i-1]));
+  if(r.length<15)return null;
+  const m=r.reduce((a,b)=>a+b,0)/r.length;
+  const v=r.reduce((a,b)=>a+(b-m)**2,0)/(r.length-1);
+  return Math.sqrt(v)*Math.sqrt(252);}
+
+function maxDrawdown(c){let peak=c[0],mdd=0;
+  for(const v of c){if(v>peak)peak=v;const d=(peak-v)/peak;if(d>mdd)mdd=d;}return mdd;}
+
+/* ---------- probability maths ----------
+   Normal CDF via Abramowitz & Stegun 7.1.26 (|error| < 7.5e-8). */
+function normCdf(x){
+  const a1=.254829592,a2=-.284496736,a3=1.421413741,a4=-1.453152027,a5=1.061405429,p=.3275911;
+  const s=x<0?-1:1,z=Math.abs(x)/Math.SQRT2,t=1/(1+p*z);
+  const y=1-(((((a5*t+a4)*t)+a3)*t+a2)*t+a1)*t*Math.exp(-z*z);
+  return .5*(1+s*y);}
+
+/* P(close beyond a level at horizon) and P(touching it at any point).
+   Assumes log returns ~ N(0, sigma^2 T): zero drift — no directional
+   edge is assumed, only the stock's own measured volatility. */
+function levelProb(price,level,sigmaAnnual,days){
+  if(!price||!level||!sigmaAnnual||!days)return null;
+  const T=days/252,sd=sigmaAnnual*Math.sqrt(T);
+  if(sd<=0)return null;
+  const z=Math.log(level/price)/sd;
+  const above=1-normCdf(z);
+  const end=level>price?above:1-above;          // P(end beyond the level)
+  const touch=Math.min(1,2*end);                // reflection principle, zero drift
+  return{end,touch,sigmas:Math.abs(z),sd_pct:sd*100};}
+
+/* symmetric expected range at a horizon */
+function volCone(price,sigmaAnnual,days){
+  if(!price||!sigmaAnnual)return null;
+  const sd=sigmaAnnual*Math.sqrt(days/252);
+  return{one:{lo:price*Math.exp(-sd),hi:price*Math.exp(sd)},
+         two:{lo:price*Math.exp(-2*sd),hi:price*Math.exp(2*sd)},sd_pct:sd*100};}
+
+/* least-squares regression on log price, extended forward */
+function regression(c,lookback=120){
+  const s=c.slice(-lookback);if(s.length<20)return null;
+  const n=s.length,y=s.map(v=>Math.log(v));
+  let sx=0,sy=0,sxy=0,sxx=0;
+  for(let i=0;i<n;i++){sx+=i;sy+=y[i];sxy+=i*y[i];sxx+=i*i;}
+  const slope=(n*sxy-sx*sy)/(n*sxx-sx*sx),icpt=(sy-slope*sx)/n;
+  const resid=y.map((v,i)=>v-(icpt+slope*i));
+  const sd=Math.sqrt(resid.reduce((a,b)=>a+b*b,0)/(n-1));
+  return{slope,intercept:icpt,sd,n,
+    at:(i)=>Math.exp(icpt+slope*i),
+    annualDrift:(Math.exp(slope*252)-1)*100};}
+
+/* ---------- structure ---------- */
+function swings(bars,win=5){const hi=[],lo=[];
+  for(let i=win;i<bars.length-win;i++){const w=bars.slice(i-win,i+win+1);
+    if(bars[i].high===Math.max(...w.map(b=>b.high)))hi.push({i,date:bars[i].date,price:bars[i].high});
+    if(bars[i].low===Math.min(...w.map(b=>b.low)))lo.push({i,date:bars[i].date,price:bars[i].low});}
+  return{highs:hi,lows:lo};}
+
+function levels(bars,price,win=5){const s=swings(bars,win);
+  const r=[...new Set(s.highs.filter(h=>h.price>price).map(h=>h.price))].sort((a,b)=>a-b).slice(0,4);
+  const p=[...new Set(s.lows.filter(l=>l.price<price).map(l=>l.price))].sort((a,b)=>b-a).slice(0,4);
+  return{resistance:r,support:p};}
+
+/* Break of structure: most recent close beyond a prior swing extreme */
+function lastBOS(bars,win=5){const s=swings(bars,win);const n=bars.length;
+  let best=null;
+  for(let i=win+1;i<n;i++){
+    const ph=s.highs.filter(h=>h.i<i-win).map(h=>h.price);
+    const pl=s.lows.filter(l=>l.i<i-win).map(l=>l.price);
+    if(ph.length&&bars[i].close>Math.max(...ph))best={dir:"bullish",price:Math.max(...ph),date:bars[i].date,i};
+    if(pl.length&&bars[i].close<Math.min(...pl))best={dir:"bearish",price:Math.min(...pl),date:bars[i].date,i};}
+  return best;}
+
+/* Fair value gaps: 3-bar imbalance where bar1 and bar3 do not overlap */
+function fvgs(bars,price,lookback=120){
+  const out=[],s=Math.max(2,bars.length-lookback);
+  for(let i=s;i<bars.length;i++){
+    const a=bars[i-2],c=bars[i];
+    if(a.high<c.low)out.push({type:"bullish",lo:a.high,hi:c.low,date:c.date,i});
+    if(a.low>c.high)out.push({type:"bearish",lo:c.high,hi:a.low,date:c.date,i});}
+  // keep only gaps price has not yet traded back through
+  const open=out.filter(g=>{
+    for(let j=g.i+1;j<bars.length;j++){
+      if(bars[j].low<=g.lo&&bars[j].high>=g.hi)return false;}
+    return true;});
+  return{above:open.filter(g=>g.lo>price).sort((x,y)=>x.lo-y.lo).slice(0,3),
+         below:open.filter(g=>g.hi<price).sort((x,y)=>y.hi-x.hi).slice(0,3)};}
+
+/* Order block: last opposing candle before an impulsive move */
+function orderBlocks(bars,price,atrVal,lookback=120){
+  const out=[],s=Math.max(1,bars.length-lookback);
+  for(let i=s;i<bars.length-1;i++){
+    const b=bars[i],nx=bars[i+1];
+    const impulse=atrVal?Math.abs(nx.close-nx.open)>1.5*atrVal:false;
+    if(!impulse)continue;
+    if(b.close<b.open&&nx.close>nx.open)out.push({type:"bullish",lo:b.low,hi:b.high,date:b.date});
+    if(b.close>b.open&&nx.close<nx.open)out.push({type:"bearish",lo:b.low,hi:b.high,date:b.date});}
+  const bull=out.filter(o=>o.type==="bullish"&&o.hi<price).slice(-2).reverse();
+  const bear=out.filter(o=>o.type==="bearish"&&o.lo>price).slice(-2).reverse();
+  return{bullish:bull,bearish:bear};}
+
+function fib(hi,lo){const d=hi-lo;
+  return{"78.6%":hi-d*.786,"61.8%":hi-d*.618,"50%":hi-d*.5,"38.2%":hi-d*.382,"23.6%":hi-d*.236};}
+
+function pivots(b){const p=(b.high+b.low+b.close)/3;
+  return{P:p,R1:2*p-b.low,S1:2*p-b.high,R2:p+(b.high-b.low),S2:p-(b.high-b.low)};}
+
+function aggregate(bars,mode){const m=new Map();
+  for(const b of bars){let k;
+    if(mode==="month")k=b.date.slice(0,7);
+    else{const d=new Date(b.date+"T00:00:00Z");
+      d.setUTCDate(d.getUTCDate()-((d.getUTCDay()+6)%7));k=d.toISOString().slice(0,10);}
+    if(!m.has(k))m.set(k,{...b,date:k});
+    else{const x=m.get(k);x.high=Math.max(x.high,b.high);x.low=Math.min(x.low,b.low);
+      x.close=b.close;x.volume=(x.volume||0)+(b.volume||0);}}
+  return[...m.values()];}
+
 function trendOf(bars){
-  const c=bars.map(b=>b.close);
-  if(c.length<60) return {label:"INSUFFICIENT",detail:c.length+" bars — need 60+"};
-  const e20=ema(c,20), e50=ema(c,50), n=c.length-1;
-  const long = c.length>=200 ? ema(c,200)[n] : null;
-  const price=c[n];
-  const above=[price>e20[n], price>e50[n], long!=null?price>long:null].filter(v=>v!=null);
-  const bull=above.filter(Boolean).length, tot=above.length;
-  const stacked = e20[n]>e50[n] && (long==null||e50[n]>long);
-  const label = bull===tot && stacked ? "BULLISH" : bull===0 ? "BEARISH" : "MIXED";
-  const parts=[`price ${price>e20[n]?">":"<"} EMA20`,`${price>e50[n]?">":"<"} EMA50`];
-  if(long!=null) parts.push(`${price>long?">":"<"} EMA200`);
-  parts.push(stacked?"MAs stacked":"MAs crossed");
-  return {label,detail:parts.join(" · ")}; }
+  if(!bars||bars.length<25)return{label:"NO DATA",detail:"not enough bars",score:0};
+  const c=bars.map(b=>b.close),e=ema(c,20),i=c.length-1;
+  const above=e[i]!=null&&c[i]>e[i];
+  const rec=bars.slice(-12),old=bars.slice(-24,-12);
+  const hh=Math.max(...rec.map(b=>b.high))>Math.max(...old.map(b=>b.high));
+  const hl=Math.min(...rec.map(b=>b.low))>Math.min(...old.map(b=>b.low));
+  if(above&&hh&&hl)return{label:"BULLISH",detail:"above EMA20, higher highs and higher lows",score:1};
+  if(!above&&!hh&&!hl)return{label:"BEARISH",detail:"below EMA20, lower highs and lower lows",score:-1};
+  return{label:"MIXED",detail:`${above?"above":"below"} EMA20, HH:${hh?"yes":"no"} HL:${hl?"yes":"no"}`,score:0};}
 
-/* ================= cache + quota ================= */
-const DAY=864e5;
-function cacheGet(k,ttl){ try{ const r=JSON.parse(localStorage.getItem("c:"+k)||"null");
-  if(!r) return null; if(Date.now()-r.t>ttl) return null; return r; }catch{ return null; } }
-function cacheSet(k,v){ try{ localStorage.setItem("c:"+k,JSON.stringify({t:Date.now(),v})); }catch{} }
-function bumpQuota(vendor,n=1){
-  const day=dstr(new Date()); let q={};
-  try{ q=JSON.parse(localStorage.getItem("quota")||"{}"); }catch{}
-  if(q.day!==day) q={day};
-  q[vendor]=(q[vendor]||0)+n; localStorage.setItem("quota",JSON.stringify(q)); drawQuota(); }
-function drawQuota(){
-  let q={}; try{ q=JSON.parse(localStorage.getItem("quota")||"{}"); }catch{}
-  if(q.day!==dstr(new Date())) q={day:dstr(new Date())};
-  const lim={finnhub:"60/min",twelvedata:"800/day",fmp:"250/day",polygon:"5/min",alphavantage:"25/day"};
-  $("#quota").innerHTML = "CALLS TODAY — " + Object.keys(lim).map(k=>
-    `${k} ${q[k]||0} <span style="opacity:.6">(${lim[k]})</span>`).join(" · ");
-}
+/* ---------- valuation ---------- */
+function twoStageDCF({fcf,shares,g1,g2,disc,term,netCash}){
+  if(!(fcf>0)||!(shares>0)||!(disc>term))return null;
+  let pv=0,f=fcf;
+  for(let y=1;y<=5;y++){f*=1+g1;pv+=f/Math.pow(1+disc,y);}
+  for(let y=6;y<=10;y++){f*=1+g2;pv+=f/Math.pow(1+disc,y);}
+  pv+=(f*(1+term))/(disc-term)/Math.pow(1+disc,10);
+  return(pv+(netCash||0))/shares;}
 
-/* ================= vendors ================= */
+/* solve for the year 1-5 growth rate the current price already implies */
+function reverseDCF({price,fcf,shares,disc,term,netCash,g2ratio=0.5}){
+  if(!(fcf>0)||!(shares>0)||!(price>0)||!(disc>term))return null;
+  let lo=-0.5,hi=1.0;
+  const f=(g)=>twoStageDCF({fcf,shares,g1:g,g2:Math.max(term,g*g2ratio),disc,term,netCash})-price;
+  if(f(lo)>0)return lo;if(f(hi)<0)return hi;
+  for(let i=0;i<80;i++){const m=(lo+hi)/2;if(f(m)>0)hi=m;else lo=m;}
+  return(lo+hi)/2;}
+
+function grahamNumber(eps,bvps){return eps>0&&bvps>0?Math.sqrt(22.5*eps*bvps):null;}
+function grahamGrowth(eps,g,aaa=4.4,y=5.0){
+  return eps>0&&g!=null?(eps*(8.5+2*Math.min(Math.max(g*100,0),20))*aaa)/y:null;}
+function lynchValue(eps,g){const gp=g!=null?Math.min(Math.max(g*100,0),25):null;
+  return eps>0&&gp>0?eps*gp:null;}
+function epv(ebit,taxRate,wacc,shares,netCash){
+  if(!(ebit>0)||!(wacc>0)||!(shares>0))return null;
+  return((ebit*(1-(taxRate??0.21))/wacc)+(netCash||0))/shares;}
+function ddm(div,g,req){return div>0&&req>g?div*(1+g)/(req-g):null;}
+
+function median(a){const s=a.slice().sort((x,y)=>x-y),n=s.length;
+  if(!n)return null;return n%2?s[(n-1)/2]:(s[n/2-1]+s[n/2])/2;}
+
+
+
+
+const ENG={sma,ema,rsi,macd,stoch,williamsR,cci,mfi,roc,atr,adx,bollinger,obv,realizedVol,
+maxDrawdown,normCdf,levelProb,volCone,regression,swings,levels,lastBOS,fvgs,orderBlocks,
+fib,pivots,aggregate,trendOf,twoStageDCF,reverseDCF,grahamNumber,grahamGrowth,lynchValue,
+epv,ddm,median};
+
+/* ================= helpers ================= */
+const $=s=>document.querySelector(s);
+const fmt=(v,d=2)=>(v==null||v===""||Number.isNaN(+v)||!isFinite(+v))?"—":
+  (+v).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
+const big=v=>(v==null||!isFinite(v))?"—":Math.abs(v)>=1e12?fmt(v/1e12)+"T":
+  Math.abs(v)>=1e9?fmt(v/1e9)+"B":Math.abs(v)>=1e6?fmt(v/1e6,1)+"M":
+  Math.abs(v)>=1e3?fmt(v/1e3,1)+"K":fmt(v,0);
+const pct=(v,d=1)=>(v==null||!isFinite(v))?"—":fmt(v*100,d)+"%";
+const pctv=(v,d=1)=>(v==null||!isFinite(v))?"—":fmt(v,d)+"%";
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nowISO=()=>new Date().toISOString();
+const ago=iso=>{if(!iso)return"unknown";const m=(Date.now()-Date.parse(iso))/6e4;
+  return m<2?"just now":m<60?Math.round(m)+" min ago":m<1440?fmt(m/60,1)+" h ago":fmt(m/1440,1)+" d ago";};
+const dstr=d=>d.toISOString().slice(0,10);
+const st=(l,v,c="",s="")=>`<div class="st"><div class="l">${esc(l)}</div><div class="v ${c}">${v}</div>${s?`<div class="s">${s}</div>`:""}</div>`;
+const tg=(t,k="")=>`<span class="tag ${k}">${esc(t)}</span>`;
+const sgn=v=>v>0?"up":v<0?"down":"";
+
+/* ================= keys, quota, cache ================= */
 const KEYS={finn:"",twelve:"",fmp:"",poly:"",av:""};
 const KMAP={kFinn:["finn","k_finn"],kTwelve:["twelve","k_twelve"],kFmp:["fmp","k_fmp"],
   kPoly:["poly","k_poly"],kAv:["av","k_av"]};
-function loadKeys(){ Object.entries(KMAP).forEach(([id,[k,ls]])=>{
-  KEYS[k]=localStorage.getItem(ls)||""; const el=$("#"+id); if(el) el.value=KEYS[k]; }); }
-function bindKeys(){ Object.entries(KMAP).forEach(([id,[k,ls]])=>{ const el=$("#"+id); if(!el) return;
-  el.onchange=e=>{ const v=e.target.value.trim(); KEYS[k]=v; localStorage.setItem(ls,v); }; }); }
+function loadKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{
+  KEYS[k]=localStorage.getItem(ls)||"";const e=$("#"+id);if(e)e.value=KEYS[k];});}
+function bindKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{const e=$("#"+id);if(!e)return;
+  e.onchange=ev=>{const v=ev.target.value.trim();KEYS[k]=v;localStorage.setItem(ls,v);};});}
+function cacheGet(k,ttlMin){try{const r=JSON.parse(localStorage.getItem("c:"+k)||"null");
+  if(r&&Date.now()-r.t<ttlMin*6e4)return r.v;}catch{}return null;}
+function cacheSet(k,v){try{localStorage.setItem("c:"+k,JSON.stringify({t:Date.now(),v}));}catch{}}
+function bumpQuota(v,n=1){let q={};const d=new Date().toDateString();
+  try{q=JSON.parse(localStorage.getItem("quota")||"{}");}catch{}
+  if(q.day!==d)q={day:d};q[v]=(q[v]||0)+n;localStorage.setItem("quota",JSON.stringify(q));drawQuota();}
+function drawQuota(){let q={};try{q=JSON.parse(localStorage.getItem("quota")||"{}");}catch{}
+  const lim={finnhub:"60/min",twelvedata:"800/day",fmp:"250/day",polygon:"5/min",alphavantage:"25/day"};
+  const p=Object.keys(lim).filter(k=>q[k]).map(k=>`${k.slice(0,4)} ${q[k]}`).join(" · ");
+  const e=$("#quota");if(e)e.textContent=p?"calls today — "+p:"";}
+
 async function jget(url,vendor){
   const r=await fetch(url,{cache:"no-store"});
-  if(vendor) bumpQuota(vendor);
-  if(!r.ok) throw new Error("HTTP "+r.status+" "+r.statusText);
+  if(vendor)bumpQuota(vendor);
+  if(!r.ok)throw new Error("HTTP "+r.status+" "+r.statusText);
   const j=await r.json();
-  if(j&&j["Error Message"]) throw new Error(j["Error Message"]);
-  if(j&&j.Note) throw new Error(j.Note);
-  if(j&&j.Information) throw new Error(j.Information);
-  if(j&&j.status==="error") throw new Error(j.message||"vendor error");
-  if(j&&j.code&&j.code>=400) throw new Error(j.message||("code "+j.code));
-  return j;
-}
-/* --- Twelve Data: primary candles --- */
+  if(j&&j["Error Message"])throw new Error(j["Error Message"]);
+  if(j&&j.Note)throw new Error(j.Note);
+  if(j&&j.Information)throw new Error(j.Information);
+  if(j&&j.status==="error")throw new Error(j.message||"vendor error");
+  if(j&&j.code&&+j.code>=400)throw new Error(j.message||("code "+j.code));
+  return j;}
+
+/* ================= vendor fetchers ================= */
 async function getCandles(sym){
-  if(!KEYS.twelve) throw new Error("no Twelve Data key entered");
-  const j=await jget(`https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(sym)}&interval=1day&outputsize=800&order=ASC&apikey=${KEYS.twelve}`,"twelvedata");
-  if(!j.values||!j.values.length) throw new Error("no candles returned for "+sym);
-  const bars=j.values.map(v=>({date:v.datetime,open:+v.open,high:+v.high,low:+v.low,close:+v.close,volume:+v.volume||0}))
-    .filter(b=>isFinite(b.close)&&b.close>0);
-  return {bars,source:"twelvedata",fetched_at:nowISO(),currency:j.meta?.currency,exchange:j.meta?.exchange};
-}
-/* --- Polygon: independent candles for cross-check, plus market status --- */
+  if(!KEYS.twelve)throw new Error("no Twelve Data key entered");
+  const j=await jget(`https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(sym)}&interval=1day&outputsize=1200&order=ASC&apikey=${KEYS.twelve}`,"twelvedata");
+  const v=j.values||[];if(!v.length)throw new Error("no candles returned for "+sym);
+  return{bars:v.map(x=>({date:x.datetime,open:+x.open,high:+x.high,low:+x.low,close:+x.close,
+    volume:+(x.volume||0)})),source:"twelvedata",fetched_at:nowISO()};}
+
 async function getPolyCandles(sym){
-  if(!KEYS.poly) throw new Error("no Polygon key entered");
-  const to=dstr(new Date()), from=dstr(new Date(Date.now()-400*DAY));
+  if(!KEYS.poly)throw new Error("no Polygon key entered");
+  const to=dstr(new Date()),from=dstr(new Date(Date.now()-400*864e5));
   const j=await jget(`https://api.polygon.io/v2/aggs/ticker/${encodeURIComponent(sym)}/range/1/day/${from}/${to}?adjusted=true&sort=asc&limit=500&apiKey=${KEYS.poly}`,"polygon");
-  if(!j.results||!j.results.length) throw new Error("Polygon returned no bars (free tier covers US equities only)");
-  return {bars:j.results.map(r=>({date:dstr(new Date(r.t)),open:r.o,high:r.h,low:r.l,close:r.c,volume:r.v})),
-    source:"polygon",fetched_at:nowISO()};
-}
+  const r=j.results||[];if(!r.length)throw new Error("no Polygon results (US listings only)");
+  return{bars:r.map(x=>({date:new Date(x.t).toISOString().slice(0,10),open:x.o,high:x.h,
+    low:x.l,close:x.c,volume:x.v||0})),source:"polygon",fetched_at:nowISO()};}
+
 async function getMarketStatus(){
-  if(!KEYS.poly) throw new Error("no Polygon key entered");
+  if(!KEYS.poly)throw new Error("no Polygon key entered");
   const j=await jget(`https://api.polygon.io/v1/marketstatus/now?apiKey=${KEYS.poly}`,"polygon");
-  return {market:j.market,nasdaq:j.exchanges?.nasdaq,nyse:j.exchanges?.nyse,server_time:j.serverTime,
-    source:"polygon",fetched_at:nowISO()};
-}
-function crossVerify(a,b){
-  if(!a||!b) return null;
-  const m=new Map(b.map(x=>[x.date,x.close]));
-  let checked=0,worst=0,worstDate=null;
-  a.forEach(x=>{ const o=m.get(x.date); if(o==null||!o) return; checked++;
-    const dev=Math.abs(x.close-o)/o*100; if(dev>worst){worst=dev;worstDate=x.date;} });
-  if(!checked) return {checked:0,status:"NO OVERLAP",max_deviation_pct:null};
-  const status = worst<0.5?"AGREE" : worst<2?"MINOR DIVERGENCE" : "DISAGREE";
-  return {checked,max_deviation_pct:worst,worst_date:worstDate,status};
-}
-/* --- Finnhub: quote, profile, analysts, earnings surprises, peers --- */
+  return{market:j.market,server_time:j.serverTime,source:"polygon",fetched_at:nowISO()};}
+
 async function getQuote(sym){
-  if(!KEYS.finn) throw new Error("no Finnhub key entered");
+  if(!KEYS.finn)throw new Error("no Finnhub key entered");
   const j=await jget(`https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`,"finnhub");
-  if(!j.c) throw new Error("Finnhub returned no price (symbol may be outside its free tier)");
-  return {current:j.c,change:j.d,change_pct:j.dp,high:j.h,low:j.l,open:j.o,prev_close:j.pc,
-    source:"finnhub",fetched_at:nowISO()};
-}
+  if(!j||!j.c)throw new Error("no quote for "+sym+" (check the symbol)");
+  return{current:j.c,change:j.d,change_pct:j.dp,high:j.h,low:j.l,open:j.o,prev_close:j.pc,
+    ts:j.t,source:"finnhub",fetched_at:nowISO()};}
+
 async function getProfile(sym){
-  if(!KEYS.finn) throw new Error("no Finnhub key entered");
+  if(!KEYS.finn)throw new Error("no Finnhub key entered");
   const j=await jget(`https://finnhub.io/api/v1/stock/profile2?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`,"finnhub");
-  if(!j.name) throw new Error("no profile returned");
-  return {name:j.name,industry:j.finnhubIndustry,country:j.country,exchange:j.exchange,
-    mcap:j.marketCapitalization?j.marketCapitalization*1e6:null,
-    shares:j.shareOutstanding?j.shareOutstanding*1e6:null,ipo:j.ipo,currency:j.currency,weburl:j.weburl,
-    source:"finnhub",fetched_at:nowISO()};
-}
+  if(!j||!j.name)throw new Error("no profile (ETFs and some non-US listings have none)");
+  return{name:j.name,industry:j.finnhubIndustry,exchange:j.exchange,country:j.country,
+    mcap:j.marketCapitalization?j.marketCapitalization*1e6:null,shares:j.shareOutstanding?j.shareOutstanding*1e6:null,
+    ipo:j.ipo,web:j.weburl,source:"finnhub",fetched_at:nowISO()};}
+
 async function getAnalysts(sym){
-  if(!KEYS.finn) throw new Error("no Finnhub key entered");
-  const [rec,peers]=await Promise.allSettled([
-    jget(`https://finnhub.io/api/v1/stock/recommendation?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`,"finnhub"),
-    jget(`https://finnhub.io/api/v1/stock/peers?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`,"finnhub")]);
-  const r = rec.status==="fulfilled" && Array.isArray(rec.value) ? rec.value.slice(0,6) : [];
-  if(!r.length) throw new Error("no analyst recommendations returned");
-  return {trends:r, peers: peers.status==="fulfilled"&&Array.isArray(peers.value)? peers.value.slice(0,10):[],
-    source:"finnhub",fetched_at:nowISO()};
-}
-/* --- Alpha Vantage: earnings history + macro, cached hard (25/day limit) --- */
-async function getEarnings(sym){
-  if(!KEYS.av) throw new Error("no Alpha Vantage key entered");
-  const ck="av:earn:"+sym, hit=cacheGet(ck,7*DAY);
-  if(hit) return {...hit.v,fetched_at:new Date(hit.t).toISOString(),cached:true};
-  const j=await jget(`https://www.alphavantage.co/query?function=EARNINGS&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`,"alphavantage");
-  if(!j.quarterlyEarnings) throw new Error("no earnings history returned for "+sym);
-  const q=j.quarterlyEarnings.slice(0,8).map(x=>({period:x.fiscalDateEnding,reported:x.reportedDate,
-    eps_estimate:x.estimatedEPS,eps_actual:x.reportedEPS,surprise_pct:x.surprisePercentage}));
-  const beats=q.filter(x=>parseFloat(x.surprise_pct)>0).length;
-  const out={quarters:q,beats,of:q.length,source:"alphavantage"};
-  cacheSet(ck,out); return {...out,fetched_at:nowISO(),cached:false};
-}
-async function getMacro(){
-  if(!KEYS.av) throw new Error("no Alpha Vantage key entered");
-  const ck="av:macro", hit=cacheGet(ck,1*DAY);
-  if(hit) return {...hit.v,fetched_at:new Date(hit.t).toISOString(),cached:true};
-  const [cpi,ff,ty]=await Promise.allSettled([
-    jget(`https://www.alphavantage.co/query?function=CPI&interval=monthly&apikey=${KEYS.av}`,"alphavantage"),
-    jget(`https://www.alphavantage.co/query?function=FEDERAL_FUNDS_RATE&interval=monthly&apikey=${KEYS.av}`,"alphavantage"),
-    jget(`https://www.alphavantage.co/query?function=TREASURY_YIELD&interval=monthly&maturity=10year&apikey=${KEYS.av}`,"alphavantage")]);
-  const pick=r=> r.status==="fulfilled"&&r.value?.data?.length? r.value.data : null;
-  const cd=pick(cpi), fd=pick(ff), td=pick(ty);
-  if(!cd&&!fd&&!td) throw new Error(String(cpi.reason?.message||"Alpha Vantage returned no macro series — daily limit is 25 calls"));
-  let cpiYoY=null;
-  if(cd&&cd.length>12){ const now=+cd[0].value, yr=+cd[12].value;
-    cpiYoY={date:cd[0].date,yoy_pct:(now-yr)/yr*100}; }
-  const out={cpi_yoy:cpiYoY, fed_funds: fd?{date:fd[0].date,value:+fd[0].value}:null,
-    treasury_10y: td?{date:td[0].date,value:+td[0].value}:null, source:"alphavantage"};
-  cacheSet(ck,out); return {...out,fetched_at:nowISO(),cached:false};
-}
-/* --- FMP: statements --- */
-/* FMP moved new accounts to /stable/ (Aug 2025); old keys still use /api/v3/.
-   Try stable first, fall back to v3, then remember which one your key accepts. */
-const FMP_STABLE="https://financialmodelingprep.com/stable";
-const FMP_V3="https://financialmodelingprep.com/api/v3";
+  if(!KEYS.finn)throw new Error("no Finnhub key entered");
+  const j=await jget(`https://finnhub.io/api/v1/stock/recommendation?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`,"finnhub");
+  if(!Array.isArray(j)||!j.length)throw new Error("no analyst coverage returned");
+  return{trends:j.slice(0,6),source:"finnhub",fetched_at:nowISO()};}
+
+/* FMP moved new accounts to /stable/ in Aug 2025; older keys still use /api/v3/.
+   Try stable first, fall back to v3, then remember which one this key accepts. */
 let FMP_MODE=localStorage.getItem("fmp_mode")||"";
 async function fmpGet(name,sym,extra){
-  const k=KEYS.fmp, q=extra?extra+"&":"";
-  const stable=`${FMP_STABLE}/${name}?symbol=${encodeURIComponent(sym)}&${q}apikey=${k}`;
-  const v3=`${FMP_V3}/${name}/${encodeURIComponent(sym)}?${q}apikey=${k}`;
-  if(FMP_MODE==="v3") return jget(v3,"fmp");
-  if(FMP_MODE==="stable") return jget(stable,"fmp");
-  try{ const j=await jget(stable,"fmp"); FMP_MODE="stable"; localStorage.setItem("fmp_mode","stable"); return j; }
-  catch(e){ const j=await jget(v3,"fmp"); FMP_MODE="v3"; localStorage.setItem("fmp_mode","v3"); return j; }
-}
+  if(!KEYS.fmp)throw new Error("no FMP key entered");
+  const q=extra?extra+"&":"";
+  const stable=`https://financialmodelingprep.com/stable/${name}?symbol=${encodeURIComponent(sym)}&${q}apikey=${KEYS.fmp}`;
+  const v3=`https://financialmodelingprep.com/api/v3/${name}/${encodeURIComponent(sym)}?${q}apikey=${KEYS.fmp}`;
+  if(FMP_MODE==="v3")return jget(v3,"fmp");
+  if(FMP_MODE==="stable")return jget(stable,"fmp");
+  try{const j=await jget(stable,"fmp");FMP_MODE="stable";localStorage.setItem("fmp_mode","stable");return j;}
+  catch(e){const j=await jget(v3,"fmp");FMP_MODE="v3";localStorage.setItem("fmp_mode","v3");return j;}}
+
 async function getFundamentals(sym){
-  if(!KEYS.fmp) throw new Error("no FMP key entered");
-  const [prof,inc,bal,cfs,km,rat]=await Promise.all([
-    fmpGet("profile",sym),
-    fmpGet("income-statement",sym,"period=annual&limit=6"),
+  const ck="fund:"+sym,c=cacheGet(ck,60*24);
+  if(c)return{...c,fetched_at:c.fetched_at,cached:true};
+  const [prof,inc,bal,cf,km,rat]=await Promise.all([
+    fmpGet("profile",sym),fmpGet("income-statement",sym,"period=annual&limit=6"),
     fmpGet("balance-sheet-statement",sym,"period=annual&limit=6"),
     fmpGet("cash-flow-statement",sym,"period=annual&limit=6"),
-    fmpGet("key-metrics-ttm",sym),
-    fmpGet("ratios-ttm",sym)]);
-  const p=Array.isArray(prof)?prof[0]:prof;
-  if(p&&p.isEtf) return {is_etf:true,name:p.companyName,source:"fmp",fetched_at:nowISO()};
-  if(!inc.length||!bal.length||!cfs.length) throw new Error("FMP returned no statements for "+sym);
-  const I=inc,B=bal,C=cfs,M=(km&&km[0])||{},R=(rat&&rat[0])||{};
-  const yr=n=>I[n]||{}, bs=n=>B[n]||{}, cf=n=>C[n]||{};
-  const cagr=(end,start,yrs)=> (start>0&&end>0&&yrs>0)? Math.pow(end/start,1/yrs)-1 : null;
-  const nI=I.length-1, revNow=yr(0).revenue, revOld=yr(nI).revenue;
-  const fcfArr=C.map(x=>(x.operatingCashFlow||0)-Math.abs(x.capitalExpenditure||0));
-  const shares=yr(0).weightedAverageShsOutDil || (p?.mktCap&&p?.price? p.mktCap/p.price : null);
-  const eps=yr(0).epsdiluted ?? (shares? yr(0).netIncome/shares : null);
-  const epsOld=I[nI].weightedAverageShsOutDil? I[nI].netIncome/I[nI].weightedAverageShsOutDil : null;
-  const equity=bs(0).totalStockholdersEquity;
-  const debt=(bs(0).totalDebt ?? ((bs(0).shortTermDebt||0)+(bs(0).longTermDebt||0)));
-  const cash=bs(0).cashAndShortTermInvestments||bs(0).cashAndCashEquivalents||0;
-  const ebit=yr(0).operatingIncome;
-  const taxRate=yr(0).incomeBeforeTax? Math.min(Math.max((yr(0).incomeTaxExpense||0)/yr(0).incomeBeforeTax,0),.4):.21;
-  const investedCapital=(equity||0)+(debt||0)-cash;
-  return {
-    is_etf:false, name:p?.companyName||sym, sector:p?.sector, industry:p?.industry, ceo:p?.ceo,
-    employees:p?.fullTimeEmployees, desc:p?.description, period:yr(0).calendarYear, years:I.length,
-    source:"fmp", fetched_at:nowISO(), price_fmp:p?.price, mcap:p?.mktCap, shares,
-    statements:{inc:I,bal:B,cf:C}, fcf_series:fcfArr,
-    revenue:revNow, net_income:yr(0).netIncome, ebit, ebitda:yr(0).ebitda,
-    eps_ttm_diluted:eps, book_value_per_share:(equity&&shares)? equity/shares : null,
-    fcf_base:fcfArr[0], dividend_per_share:R.dividendPerShareTTM ?? M.dividendPerShareTTM ?? null,
-    rev_cagr_3y:cagr(revNow,yr(Math.min(3,nI)).revenue,Math.min(3,nI)),
-    rev_cagr_5y:cagr(revNow,revOld,nI), eps_cagr:cagr(eps,epsOld,nI),
+    fmpGet("key-metrics-ttm",sym),fmpGet("ratios-ttm",sym)]);
+  const P=Array.isArray(prof)?prof[0]:prof;
+  if(P&&P.isEtf){const o={is_etf:true,name:P.companyName,source:"fmp",fetched_at:nowISO()};
+    cacheSet(ck,o);return o;}
+  const I=Array.isArray(inc)?inc:[],B=Array.isArray(bal)?bal:[],C=Array.isArray(cf)?cf:[];
+  if(!I.length||!B.length||!C.length)throw new Error("FMP returned no statements for "+sym);
+  const M=(Array.isArray(km)?km[0]:km)||{},R=(Array.isArray(rat)?rat[0]:rat)||{};
+  const y=n=>I[n]||{},b=n=>B[n]||{},c2=n=>C[n]||{};
+  const nI=I.length-1;
+  const cagr=(end,start,yr)=>(start>0&&end>0&&yr>0)?Math.pow(end/start,1/yr)-1:null;
+  const fcfArr=C.map(x=>(x.freeCashFlow!=null)?x.freeCashFlow:
+    ((x.operatingCashFlow||0)-Math.abs(x.capitalExpenditure||0)));
+  const shares=y(0).weightedAverageShsOutDil||y(0).weightedAverageShsOut||
+    (P?.mktCap&&P?.price?P.mktCap/P.price:null);
+  const eps=y(0).epsdiluted??y(0).eps??(shares?y(0).netIncome/shares:null);
+  const epsOld=(I[nI]?.weightedAverageShsOutDil)?I[nI].netIncome/I[nI].weightedAverageShsOutDil:
+    (I[nI]?.epsdiluted??I[nI]?.eps??null);
+  const eq=b(0).totalStockholdersEquity,
+    debt=b(0).totalDebt??((b(0).shortTermDebt||0)+(b(0).longTermDebt||0)),
+    cash=b(0).cashAndShortTermInvestments||b(0).cashAndCashEquivalents||0,
+    ebit=y(0).operatingIncome,rev=y(0).revenue;
+  const tax=y(0).incomeBeforeTax?Math.min(Math.max((y(0).incomeTaxExpense||0)/y(0).incomeBeforeTax,0),.4):.21;
+  const ic=(eq||0)+(debt||0)-cash;
+  const out={is_etf:false,name:P?.companyName||sym,sector:P?.sector,industry:P?.industry,
+    ceo:P?.ceo,employees:P?.fullTimeEmployees,period:y(0).calendarYear||(y(0).date||"").slice(0,4),
+    years:I.length,currency:y(0).reportedCurrency,source:"fmp",fetched_at:nowISO(),
+    mcap:P?.mktCap,shares,revenue:rev,net_income:y(0).netIncome,ebit,
+    annual:I.slice().reverse().map(r0=>({year:r0.calendarYear||(r0.date||"").slice(0,4),
+      revenue:r0.revenue,net_income:r0.netIncome,eps:r0.epsdiluted??r0.eps,
+      fcf:(C.find(x=>x.calendarYear===r0.calendarYear)||{}).freeCashFlow??null,
+      gross:r0.revenue?r0.grossProfit/r0.revenue:null,op:r0.revenue?r0.operatingIncome/r0.revenue:null,
+      net:r0.revenue?r0.netIncome/r0.revenue:null})),
+    eps_ttm:eps,bvps:(eq&&shares)?eq/shares:null,
+    fcf_latest:fcfArr[0],fcf_base:fcfArr.length>=2?(fcfArr[0]+fcfArr[1])/2:fcfArr[0],
+    dividend_ps:R.dividendPerShareTTM??M.dividendPerShareTTM??null,
+    rev_cagr_3y:cagr(rev,y(Math.min(3,nI)).revenue,Math.min(3,nI)),
+    rev_cagr_5y:cagr(rev,y(nI).revenue,nI),eps_cagr:cagr(eps,epsOld,nI),
     fcf_cagr:cagr(fcfArr[0],fcfArr[fcfArr.length-1],fcfArr.length-1),
-    gross_margin:revNow? yr(0).grossProfit/revNow:null, op_margin:revNow? ebit/revNow:null,
-    net_margin:revNow? yr(0).netIncome/revNow:null, fcf_margin:revNow? fcfArr[0]/revNow:null,
-    roe:equity? yr(0).netIncome/equity:null, roa:bs(0).totalAssets? yr(0).netIncome/bs(0).totalAssets:null,
-    roic:investedCapital>0&&ebit!=null? (ebit*(1-taxRate))/investedCapital:null,
-    debt_to_equity:equity? debt/equity:null,
-    current_ratio:bs(0).totalCurrentLiabilities? bs(0).totalCurrentAssets/bs(0).totalCurrentLiabilities:null,
-    quick_ratio:bs(0).totalCurrentLiabilities? (bs(0).totalCurrentAssets-(bs(0).inventory||0))/bs(0).totalCurrentLiabilities:null,
-    interest_coverage:yr(0).interestExpense? ebit/Math.abs(yr(0).interestExpense):null,
-    net_cash:cash-(debt||0), total_debt:debt, cash, tax_rate:taxRate, equity,
-    total_assets:bs(0).totalAssets, total_liabilities:bs(0).totalLiabilities,
-    pe_ttm:R.priceEarningsRatioTTM??R.peRatioTTM??R.priceToEarningsRatioTTM??null, pb:R.priceToBookRatioTTM??R.pbRatioTTM??null, ps:R.priceToSalesRatioTTM??R.psRatioTTM??null,
-    ev_ebitda:M.enterpriseValueOverEBITDATTM??M.evToEBITDATTM??null, peg:R.priceEarningsToGrowthRatioTTM??R.pegRatioTTM??null,
-    payout:R.payoutRatioTTM??null, buyback:(cf(0).commonStockRepurchased||0),
-    capex:Math.abs(cf(0).capitalExpenditure||0), ocf:cf(0).operatingCashFlow };
-}
+    gross_margin:rev?y(0).grossProfit/rev:null,op_margin:rev?ebit/rev:null,
+    net_margin:rev?y(0).netIncome/rev:null,fcf_margin:rev?fcfArr[0]/rev:null,
+    roe:eq?y(0).netIncome/eq:null,roa:b(0).totalAssets?y(0).netIncome/b(0).totalAssets:null,
+    roic:(ic>0&&ebit!=null)?(ebit*(1-tax))/ic:null,
+    debt_to_equity:eq?debt/eq:null,net_cash:cash-(debt||0),total_debt:debt,cash,tax_rate:tax,
+    current_ratio:b(0).totalCurrentLiabilities?b(0).totalCurrentAssets/b(0).totalCurrentLiabilities:null,
+    quick_ratio:b(0).totalCurrentLiabilities?(b(0).totalCurrentAssets-(b(0).inventory||0))/b(0).totalCurrentLiabilities:null,
+    interest_coverage:y(0).interestExpense?ebit/Math.abs(y(0).interestExpense):null,
+    capex:Math.abs(c2(0).capitalExpenditure||0),ocf:c2(0).operatingCashFlow,
+    buyback:c2(0).commonStockRepurchased||0,
+    pe:R.peRatioTTM??R.priceEarningsRatioTTM??R.priceToEarningsRatioTTM??null,
+    pb:R.priceToBookRatioTTM??R.pbRatioTTM??null,ps:R.priceToSalesRatioTTM??R.psRatioTTM??null,
+    peg:R.pegRatioTTM??R.priceEarningsToGrowthRatioTTM??null,
+    ev_ebitda:M.enterpriseValueOverEBITDATTM??M.evToEBITDATTM??null,
+    payout:R.payoutRatioTTM??null};
+  cacheSet(ck,out);return out;}
 
-/* ================= valuation ================= */
-const A={g1:8,g2:4,disc:10,term:2.5,mos:25,horizon:20};
-function valuation(f,price){
-  const models=[],notes=[];
-  const g1=A.g1/100,g2=A.g2/100,d=A.disc/100,tg=A.term/100;
-  if(f.fcf_base>0&&f.shares>0&&d>tg){
-    let pv=0,fc=f.fcf_base;
-    for(let y=1;y<=5;y++){fc*=1+g1;pv+=fc/Math.pow(1+d,y);}
-    for(let y=6;y<=10;y++){fc*=1+g2;pv+=fc/Math.pow(1+d,y);}
-    pv+=(fc*(1+tg))/(d-tg)/Math.pow(1+d,10);
-    models.push(["Two-stage DCF",(pv+(f.net_cash||0))/f.shares,"10y free cash flow + net cash"]);
-  } else notes.push("DCF skipped — needs positive free cash flow, a share count, and a discount rate above terminal growth.");
-  if(f.eps_ttm_diluted>0&&f.book_value_per_share>0)
-    models.push(["Graham Number",Math.sqrt(22.5*f.eps_ttm_diluted*f.book_value_per_share),"√(22.5 × EPS × BVPS)"]);
-  else notes.push("Graham Number skipped — needs positive EPS and positive book value.");
-  if(f.eps_ttm_diluted>0&&f.eps_cagr!=null){
-    const g=Math.min(Math.max(f.eps_cagr*100,0),20);
-    models.push(["Graham growth formula",f.eps_ttm_diluted*(8.5+2*g),`EPS × (8.5 + 2g), g=${fmt(g,1)}%`]); }
-  if(f.eps_ttm_diluted>0&&f.eps_cagr>0){
-    const g=Math.min(f.eps_cagr*100,25);
-    models.push(["Lynch fair value (PEG 1)",f.eps_ttm_diluted*g,`EPS × growth ${fmt(g,1)}%`]); }
-  if(f.ebit>0&&f.shares>0){
-    const nopat=f.ebit*(1-f.tax_rate);
-    models.push(["Earnings power value",(nopat/d+(f.net_cash||0))/f.shares,`no-growth NOPAT ÷ ${fmt(A.disc,1)}% + net cash`]); }
-  if(f.dividend_per_share>0&&d>tg)
-    models.push(["Dividend discount",f.dividend_per_share*(1+tg)/(d-tg),"Gordon growth on trailing dividend"]);
-  let implied=null;
-  if(f.fcf_base>0&&f.shares>0&&price>0&&d>tg){
-    let lo=-.5,hi=.6;
-    const val=g=>{ let pv=0,fc=f.fcf_base;
-      for(let y=1;y<=5;y++){fc*=1+g;pv+=fc/Math.pow(1+d,y);}
-      for(let y=6;y<=10;y++){fc*=1+g*0.5;pv+=fc/Math.pow(1+d,y);}
-      pv+=(fc*(1+tg))/(d-tg)/Math.pow(1+d,10);
-      return (pv+(f.net_cash||0))/f.shares; };
-    for(let i=0;i<60;i++){ const mid=(lo+hi)/2; val(mid)<price? lo=mid:hi=mid; }
-    implied=(lo+hi)/2; }
-  const vals=models.map(m=>m[1]).filter(v=>isFinite(v)&&v>0).sort((a,b)=>a-b);
-  const med=vals.length? (vals.length%2? vals[(vals.length-1)/2] : (vals[vals.length/2-1]+vals[vals.length/2])/2) : null;
-  const spread=vals.length>1? (vals[vals.length-1]-vals[0])/med : null;
-  return {models,fair:med,spread,implied,notes,lo:vals[0],hi:vals[vals.length-1]};
-}
+async function getEarnings(sym){
+  if(!KEYS.av)throw new Error("no Alpha Vantage key entered");
+  const ck="earn:"+sym,c=cacheGet(ck,60*24*7);
+  if(c)return{...c,cached:true};
+  const j=await jget(`https://www.alphavantage.co/query?function=EARNINGS&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`,"alphavantage");
+  const q=j.quarterlyEarnings;if(!q||!q.length)throw new Error("no earnings history returned");
+  const rows=q.slice(0,8).map(r=>({period:r.fiscalDateEnding,reported:r.reportedDate,
+    est:r.estimatedEPS==="None"?null:+r.estimatedEPS,act:r.reportedEPS==="None"?null:+r.reportedEPS,
+    surprise:r.surprisePercentage==="None"?null:+r.surprisePercentage}));
+  const scored=rows.filter(r=>r.surprise!=null);
+  const out={rows,beats:scored.filter(r=>r.surprise>0).length,scored:scored.length,
+    avg_surprise:scored.length?scored.reduce((a,r)=>a+r.surprise,0)/scored.length:null,
+    source:"alphavantage",fetched_at:nowISO()};
+  cacheSet(ck,out);return out;}
 
-/* ================= projection ================= */
-function project(bars,days){
-  const c=bars.map(b=>b.close), last=c[c.length-1];
-  const r=pctReturns(c.slice(-252));
-  const mu=r.reduce((a,b)=>a+b,0)/r.length, sd=stdev(r);
-  const cone=[];
-  for(let t=1;t<=days;t++){ const s=sd*Math.sqrt(t), drift=mu*t;
-    cone.push({t,mid:last*Math.exp(drift),u1:last*Math.exp(drift+s),d1:last*Math.exp(drift-s),
-      u2:last*Math.exp(drift+2*s),d2:last*Math.exp(drift-2*s)}); }
-  const N=800, ends=[], paths=[];
-  for(let i=0;i<N;i++){ let p=last; const path=[];
-    for(let t=0;t<days;t++){ const u1=Math.random(),u2=Math.random();
-      const z=Math.sqrt(-2*Math.log(u1||1e-9))*Math.cos(2*Math.PI*u2);
-      p*=Math.exp(mu+sd*z); path.push(p); }
-    paths.push(path); ends.push(p); }
-  ends.sort((a,b)=>a-b);
-  const q=p=>ends[Math.floor(p*(ends.length-1))];
-  const mcBands=[];
-  for(let t=0;t<days;t++){ const col=paths.map(p=>p[t]).sort((a,b)=>a-b);
-    mcBands.push({p10:col[Math.floor(.1*col.length)],p50:col[Math.floor(.5*col.length)],p90:col[Math.floor(.9*col.length)]}); }
-  const win=Math.min(120,c.length), seg=c.slice(-win), lr=linreg(seg);
-  const reg=[]; for(let t=1;t<=days;t++) reg.push(lr.a+lr.b*(win-1+t));
-  return {cone,mcBands,reg,se:lr.se,slope:lr.b,ann_vol:sd*Math.sqrt(252),drift:mu*252,
-    q10:q(.1),q50:q(.5),q90:q(.9),last,days}; }
-function futureDates(lastDate,n){
-  const out=[]; const d=new Date(lastDate);
-  while(out.length<n){ d.setDate(d.getDate()+1); const w=d.getDay(); if(w!==0&&w!==6) out.push(new Date(d)); }
-  return out.map(x=>dstr(x)); }
+async function getMacro(){
+  if(!KEYS.av)throw new Error("no Alpha Vantage key entered");
+  const ck="macro",c=cacheGet(ck,60*20);if(c)return{...c,cached:true};
+  const q=f=>jget(`https://www.alphavantage.co/query?function=${f}&interval=monthly&apikey=${KEYS.av}`,"alphavantage");
+  const [cpi,ff,t10]=await Promise.all([q("CPI"),q("FEDERAL_FUNDS_RATE"),
+    jget(`https://www.alphavantage.co/query?function=TREASURY_YIELD&interval=monthly&maturity=10year&apikey=${KEYS.av}`,"alphavantage")]);
+  const cd=cpi.data||[],fd=ff.data||[],td=t10.data||[];
+  let cpiYoY=null;
+  if(cd.length>=13){const n=+cd[0].value,o=+cd[12].value;
+    if(o>0)cpiYoY={date:cd[0].date,yoy:(n/o-1)*100};}
+  const out={cpi:cpiYoY,fed:fd.length?{date:fd[0].date,value:+fd[0].value}:null,
+    t10:td.length?{date:td[0].date,value:+td[0].value}:null,source:"alphavantage",fetched_at:nowISO()};
+  cacheSet(ck,out);return out;}
+
+/* ================= cross-verification ================= */
+function crossCheck(a,b){
+  if(!a||!b)return null;
+  const m=new Map(b.map(x=>[x.date,x.close]));
+  const pairs=a.slice(-40).filter(x=>m.has(x.date)).slice(-12);
+  if(pairs.length<5)return{checked:pairs.length,status:"NO OVERLAP",worst:null};
+  let worst=0,wd=null;
+  for(const p of pairs){const o=m.get(p.date);if(!o)continue;
+    const d=Math.abs(p.close-o)/o*100;if(d>worst){worst=d;wd=p.date;}}
+  return{checked:pairs.length,worst,worst_date:wd,
+    status:worst<0.5?"AGREE":worst<2?"MINOR DIVERGENCE":"DISAGREE"};}
+
+/* ================= analysis assembly ================= */
+function analyze(){
+  const bars=CUR.candles.error?null:CUR.candles.bars;
+  if(!bars||bars.length<60)return null;
+  const c=bars.map(b=>b.close),i=bars.length-1;
+  const price=(!CUR.quote.error&&CUR.quote.current)?CUR.quote.current:c[i];
+  const E=ENG;
+  const e9=E.ema(c,9),e20=E.ema(c,20),e50=E.ema(c,50),e100=E.ema(c,100),e200=E.ema(c,200);
+  const s50=E.sma(c,50),s200=E.sma(c,200);
+  const r=E.rsi(c),m=E.macd(c),stc=E.stoch(bars),wr=E.williamsR(bars),cc=E.cci(bars),
+    mf=E.mfi(bars),rc=E.roc(c),a=E.atr(bars),ax=E.adx(bars),bb=E.bollinger(c),ob=E.obv(bars);
+  const vol=E.realizedVol(c),cone=E.volCone(price,vol,21);
+  const reg=E.regression(c,120);
+  const lv=E.levels(bars,price),bos=E.lastBOS(bars),fv=E.fvgs(bars,price),
+    obk=E.orderBlocks(bars,price,a[i]);
+  const yr=bars.slice(-252),hi52=Math.max(...yr.map(b=>b.high)),lo52=Math.min(...yr.map(b=>b.low));
+  const vol20=bars.slice(-21,-1).reduce((s,b)=>s+(b.volume||0),0)/20;
+  const obvSlope=ob[i]-ob[Math.max(0,i-20)];
+  const rangePos=(hi52>lo52)?(price-lo52)/(hi52-lo52):null;
+  const trends={monthly:E.trendOf(E.aggregate(bars,"month")),
+    weekly:E.trendOf(E.aggregate(bars,"week")),daily:E.trendOf(bars.slice(-120))};
+  const goldenCross=(s50[i]!=null&&s200[i]!=null)?(s50[i]>s200[i]?"golden (50 above 200)":"death (50 below 200)"):null;
+  return{price,bars,i,c,e9,e20,e50,e100,e200,s50,s200,goldenCross,
+    rsi:r[i],rsiPrev:r[i-5],macd:m.line[i],macdSig:m.signal[i],macdHist:m.hist[i],
+    stochK:stc.k[i],stochD:stc.d[i],wr:wr[i],cci:cc[i],mfi:mf[i],roc:rc[i],
+    atr:a[i],adx:ax.adx[i],pdi:ax.pdi[i],ndi:ax.ndi[i],
+    bbU:bb.upper[i],bbL:bb.lower[i],bbMid:bb.mid[i],bbW:bb.bandwidth[i],pctB:bb.percentB[i],
+    bbSqueeze:(()=>{const w=bb.bandwidth.slice(-120).filter(x=>x!=null).sort((x,y)=>x-y);
+      return w.length>20&&bb.bandwidth[i]<=w[Math.floor(w.length*0.2)];})(),
+    obvSlope,vol20,lastVol:bars[i].volume,relVol:vol20?bars[i].volume/vol20:null,
+    vol,cone,reg,levels:lv,bos,fvg:fv,ob:obk,hi52,lo52,rangePos,trends,
+    mdd:E.maxDrawdown(c.slice(-504)),
+    fib:E.fib(hi52,lo52),pivots:E.pivots(bars[i]),
+    chart:bars.slice(-200).map((b,k,arr)=>{const gi=bars.length-arr.length+k;
+      return{date:b.date,close:b.close,volume:b.volume,ema20:e20[gi],ema50:e50[gi],
+        ema200:e200[gi],bbU:bb.upper[gi],bbL:bb.lower[gi]};})};}
+
+/* ---- valuation with the user's assumptions ---- */
+function valuate(){
+  const f=CUR.fund,T=T_,E=ENG;
+  if(!f||f.error||f.is_etf||!T)return null;
+  const price=T.price;
+  const g1=A.g1/100,g2=A.g2/100,disc=A.disc/100,term=A.term/100;
+  const models=[];
+  const dcf=E.twoStageDCF({fcf:f.fcf_base,shares:f.shares,g1,g2,disc,term,netCash:f.net_cash});
+  models.push({n:"Two-stage DCF",v:dcf,
+    why:dcf==null?"needs positive free cash flow and share count":
+    `10 years of FCF from a ${big(f.fcf_base)} base, growing ${A.g1}% then ${A.g2}%, discounted at ${A.disc}%, plus ${big(f.net_cash)} net cash`});
+  const gn=E.grahamNumber(f.eps_ttm,f.bvps);
+  models.push({n:"Graham Number",v:gn,why:gn==null?"needs positive EPS and book value":
+    `√(22.5 × EPS ${fmt(f.eps_ttm)} × book ${fmt(f.bvps)}) — Graham's defensive ceiling`});
+  const gg=E.grahamGrowth(f.eps_ttm,f.eps_cagr);
+  models.push({n:"Graham growth formula",v:gg,why:gg==null?"needs positive EPS":
+    `EPS × (8.5 + 2 × ${fmt(Math.min(Math.max((f.eps_cagr||0)*100,0),20),1)}% growth), bond-yield adjusted`});
+  const ly=E.lynchValue(f.eps_ttm,f.eps_cagr);
+  models.push({n:"Lynch fair value",v:ly,why:ly==null?"needs positive EPS and growth":
+    `EPS ${fmt(f.eps_ttm)} × growth rate ${fmt(Math.min(Math.max((f.eps_cagr||0)*100,0),25),0)} (Lynch's PEG=1 rule)`});
+  const ep=E.epv(f.ebit,f.tax_rate,disc,f.shares,f.net_cash);
+  models.push({n:"Earnings power value",v:ep,why:ep==null?"needs positive operating income":
+    `after-tax EBIT ${big(f.ebit*(1-f.tax_rate))} capitalised at ${A.disc}%, no growth assumed`});
+  const dd=E.ddm(f.dividend_ps,Math.min(g2,disc-0.005),disc);
+  models.push({n:"Dividend discount",v:dd,why:dd==null?"no dividend, or growth exceeds discount rate":
+    `dividend ${fmt(f.dividend_ps)} growing ${A.g2}%, discounted at ${A.disc}%`});
+  const good=models.filter(x=>x.v!=null&&x.v>0&&isFinite(x.v));
+  const vals=good.map(x=>x.v);
+  const fair=E.median(vals);
+  const lo=vals.length?Math.min(...vals):null,hi=vals.length?Math.max(...vals):null;
+  const dispersion=(fair&&lo!=null)?(hi-lo)/fair:null;
+  const gap=(fair&&price)?(price-fair)/fair:null;
+  const buyAt=fair?fair*(1-A.mos/100):null;
+  const impliedG=E.reverseDCF({price,fcf:f.fcf_base,shares:f.shares,disc,term,netCash:f.net_cash});
+  return{models,good,fair,lo,hi,dispersion,gap,buyAt,impliedG,price};}
+
+/* ---- evidence ledger: every factor is a measured fact ---- */
+function ledger(){
+  const T=T_,f=CUR.fund,V=V_,out=[];
+  const add=(cat,label,w,dir,detail)=>out.push({cat,label,w,dir,detail});
+  if(T){
+    add("Trend","Price vs 200-day EMA",3,T.price>T.e200?1:-1,
+      `$${fmt(T.price)} vs $${fmt(T.e200)} — ${pctv((T.price/T.e200-1)*100)} ${T.price>T.e200?"above":"below"}`);
+    if(T.goldenCross)add("Trend","50/200 moving-average cross",2,T.goldenCross.startsWith("golden")?1:-1,T.goldenCross);
+    add("Trend","Monthly structure",3,T.trends.monthly.score,T.trends.monthly.label+" — "+T.trends.monthly.detail);
+    add("Trend","Weekly structure",2,T.trends.weekly.score,T.trends.weekly.label+" — "+T.trends.weekly.detail);
+    add("Trend","Daily structure",1,T.trends.daily.score,T.trends.daily.label+" — "+T.trends.daily.detail);
+    if(T.adx!=null)add("Trend","ADX trend strength",1,T.adx>25?(T.pdi>T.ndi?1:-1):0,
+      `ADX ${fmt(T.adx,1)} ${T.adx>25?"(trending)":"(no strong trend — direction carries little weight)"}, +DI ${fmt(T.pdi,1)} vs −DI ${fmt(T.ndi,1)}`);
+    add("Momentum","RSI (14)",2,T.rsi>55?1:T.rsi<45?-1:0,
+      `${fmt(T.rsi,1)} — ${T.rsi>70?"overbought, stretched":T.rsi>55?"positive momentum":T.rsi<30?"oversold":T.rsi<45?"weak momentum":"neutral"}`);
+    add("Momentum","MACD vs signal",2,T.macd>T.macdSig?1:-1,
+      `${fmt(T.macd,3)} vs ${fmt(T.macdSig,3)} — histogram ${fmt(T.macdHist,3)}`);
+    if(T.roc!=null)add("Momentum","20-day rate of change",1,T.roc>0?1:-1,`${pctv(T.roc)} over 20 sessions`);
+    if(T.mfi!=null)add("Momentum","Money flow index",1,T.mfi>55?1:T.mfi<45?-1:0,
+      `${fmt(T.mfi,1)} — volume-weighted; ${T.mfi>80?"heavy buying, extended":T.mfi<20?"heavy selling":"mid-range"}`);
+    add("Volume","On-balance volume, 20 sessions",2,T.obvSlope>0?1:-1,
+      `${T.obvSlope>0?"rising":"falling"} — volume is ${T.obvSlope>0?"accumulating on up days":"heavier on down days"}`);
+    if(T.relVol!=null)add("Volume","Latest volume vs 20-day average",1,T.relVol>1.2?1:T.relVol<0.7?-1:0,
+      `${fmt(T.relVol,2)}× — ${T.relVol>1.5?"unusually heavy participation":T.relVol<0.7?"thin, low conviction":"normal"}`);
+    if(T.rangePos!=null)add("Structure","Position in 52-week range",2,T.rangePos>0.7?1:T.rangePos<0.3?-1:0,
+      `${pct(T.rangePos,0)} of the range — ${T.rangePos>0.5?"premium half (strength, but less room)":"discount half (value, but proving weakness)"}`);
+    if(T.bos)add("Structure","Last break of structure",2,T.bos.dir==="bullish"?1:-1,
+      `${T.bos.dir} break through $${fmt(T.bos.price)} on ${T.bos.date}`);
+    if(T.bbSqueeze)add("Structure","Bollinger squeeze",0,0,
+      `bandwidth ${pctv(T.bbW)} sits in the lowest fifth of 120 sessions — a move is being coiled, direction unknown`);
+  }
+  if(f&&!f.error&&!f.is_etf){
+    add("Business","Revenue growth (3-year)",2,f.rev_cagr_3y>0.05?1:f.rev_cagr_3y<0?-1:0,
+      `${pct(f.rev_cagr_3y)} compound — 5-year ${pct(f.rev_cagr_5y)}`);
+    add("Business","Free cash flow trend",3,f.fcf_latest>0?(f.fcf_cagr>0?1:0):-1,
+      f.fcf_latest>0?`${big(f.fcf_latest)} latest, compounding ${pct(f.fcf_cagr)}`:`negative free cash flow (${big(f.fcf_latest)}) — burning cash`);
+    if(f.roic!=null)add("Business","Return on invested capital",3,f.roic>0.12?1:f.roic<0.06?-1:0,
+      `${pct(f.roic)} — ${f.roic>0.15?"excellent, a genuine compounder":f.roic>0.10?"solid":"below the cost of most capital"}`);
+    if(f.op_margin!=null)add("Business","Operating margin",1,f.op_margin>0.15?1:f.op_margin<0.05?-1:0,pct(f.op_margin));
+    if(f.debt_to_equity!=null)add("Balance sheet","Debt to equity",2,f.debt_to_equity<0.5?1:f.debt_to_equity>2?-1:0,
+      `${fmt(f.debt_to_equity)} — ${f.debt_to_equity<0.5?"fortress":f.debt_to_equity>2?"heavily levered":"manageable"}`);
+    if(f.interest_coverage!=null)add("Balance sheet","Interest coverage",1,f.interest_coverage>5?1:f.interest_coverage<2?-1:0,
+      `${fmt(f.interest_coverage,1)}× operating income covers interest`);
+    add("Balance sheet","Net cash position",1,f.net_cash>0?1:-1,
+      `${big(f.net_cash)} ${f.net_cash>0?"net cash":"net debt"}`);
+  }
+  if(V&&V.gap!=null)add("Valuation","Price vs blended fair value",3,V.gap<-0.15?1:V.gap>0.15?-1:0,
+    `trading ${pctv(Math.abs(V.gap*100))} ${V.gap<0?"below":"above"} the median of ${V.good.length} models ($${fmt(V.fair)})`);
+  if(V&&V.impliedG!=null)add("Valuation","Growth the price already assumes",2,
+    V.impliedG<0.05?1:V.impliedG>0.15?-1:0,
+    `reverse DCF: today's price requires ${pct(V.impliedG)} FCF growth for 5 years — ${V.impliedG>0.15?"a demanding bar":V.impliedG<0.05?"a low bar the business may clear easily":"a moderate bar"}`);
+  const e=CUR.earnings;
+  if(e&&!e.error&&e.scored)add("Execution","Earnings versus estimates",2,
+    e.beats/e.scored>=0.75?1:e.beats/e.scored<=0.4?-1:0,
+    `beat in ${e.beats} of the last ${e.scored} quarters, average surprise ${pctv(e.avg_surprise)}`);
+  const an=CUR.analysts;
+  if(an&&!an.error&&an.trends.length){const t=an.trends[0];
+    const bull=(t.strongBuy||0)+(t.buy||0),bear=(t.sell||0)+(t.strongSell||0),tot=bull+bear+(t.hold||0);
+    if(tot)add("Analysts","Sell-side consensus",1,bull/tot>0.6?1:bear/tot>0.25?-1:0,
+      `${bull} buy · ${t.hold||0} hold · ${bear} sell (${esc(t.period||"")})`);}
+  return out;}
+
+function score(L){
+  let bull=0,bear=0;
+  for(const x of L){if(x.w===0)continue;
+    if(x.dir>0)bull+=x.w;else if(x.dir<0)bear+=x.w;}
+  const tot=bull+bear;
+  const net=tot?(bull-bear)/tot:0;
+  const pts=tot?Math.round((bull/tot)*100):null;
+  const edge=Math.abs(net)<0.15?"NO EDGE":net>0.45?"STRONG BULL":net>0.15?"LEAN BULL":
+    net<-0.45?"STRONG BEAR":"LEAN BEAR";
+  return{bull,bear,tot,net,pts,edge,
+    grade:pts==null?"—":pts>=80?"A":pts>=70?"B":pts>=60?"C":pts>=45?"D":"F"};}
+
+/* ---- scenarios: real levels, probabilities from measured volatility ---- */
+function scenarios(){
+  const T=T_,E=ENG;if(!T||!T.vol)return null;
+  const price=T.price;
+  const horizons=[{n:"1 week",d:5},{n:"1 month",d:21},{n:"3 months",d:63}];
+  const res=T.levels.resistance[0]??T.hi52,sup=T.levels.support[0]??T.lo52;
+  return horizons.map(h=>{
+    const cone=E.volCone(price,T.vol,h.d);
+    const pUp=E.levelProb(price,res,T.vol,h.d),pDn=E.levelProb(price,sup,T.vol,h.d);
+    // base band = ±0.5σ around today's price; bull/bear are the tails beyond it
+    const half=T.vol*Math.sqrt(h.d/252)*0.5;
+    const bandHi=price*Math.exp(half),bandLo=price*Math.exp(-half);
+    const pBull=1-E.normCdf(half/(T.vol*Math.sqrt(h.d/252)));
+    const pBear=pBull,pBase=1-pBull-pBear;
+    return{...h,cone,res,sup,pUp,pDn,bandHi,bandLo,
+      bull:{lo:bandHi,target:cone.one.hi,p:pBull},
+      base:{lo:bandLo,hi:bandHi,p:pBase},
+      bear:{hi:bandLo,target:cone.one.lo,p:pBear}};});}
 
 /* ================= state ================= */
-let CUR=null, T=null, V=null, charts={}, pollTimer=null;
-let TAB="tech", FTAB="pillars";
-function recents(){ try{ return JSON.parse(localStorage.getItem("recents")||"[]"); }catch{ return []; } }
-function pushRecent(s){ const r=recents().filter(x=>x!==s); r.unshift(s);
-  localStorage.setItem("recents",JSON.stringify(r.slice(0,10))); drawRecents(); }
-let WATCHLIST=[];
-function drawRecents(){ const r=recents().filter(s=>!WATCHLIST.includes(s));
-  const w=WATCHLIST.map(s=>`<button onclick="run('${esc(s)}')" title="from your pipeline watchlist">★ ${esc(s)}</button>`).join("");
-  const rec=r.map(s=>`<button onclick="run('${esc(s)}')">${esc(s)}</button>`).join("");
-  $("#recents").innerHTML = (w+rec) || `<span class="sub">Recent symbols appear here.</span>`; }
+let CUR=null,T_=null,V_=null,L_=null,S_=null,charts={},pollTimer=null,TAB="verdict";
+const A={g1:8,g2:4,disc:10,term:2.5,mos:25};
+
+function recents(){try{return JSON.parse(localStorage.getItem("recents")||"[]");}catch{return[];}}
+function pushRecent(s){const r=recents().filter(x=>x!==s);r.unshift(s);
+  localStorage.setItem("recents",JSON.stringify(r.slice(0,12)));drawRecents();}
+function drawRecents(){const r=recents();
+  $("#recents").innerHTML=r.length?r.map(s=>`<button onclick="run('${esc(s)}')">${esc(s)}</button>`).join("")
+    :`<span class="sub">Analyzed symbols appear here for one tap.</span>`;}
 
 /* ================= run ================= */
 async function run(symRaw){
   const sym=(symRaw||$("#sym").value||"").trim().toUpperCase();
-  if(!sym){ $("#app").innerHTML=`<div class="panel"><h2>Nothing to analyze</h2>
-    <p class="note">Type a ticker above and press Analyze. Exchange suffixes work — XIC.TO, BNS.TO, SHOP.TO.</p></div>`; return; }
-  $("#sym").value=sym; TAB="tech"; FTAB="pillars";
-  $("#app").innerHTML=`<div class="panel"><h2>Fetching ${esc(sym)} <span class="tag pulse">FIVE VENDORS</span></h2>
-    <p class="note">Candles from Twelve Data, cross-checked against Polygon. Quote, profile and analyst trends from Finnhub. Statements from FMP. Earnings history and macro from Alpha Vantage, served from cache where it's fresh so its 25-call daily limit isn't burned. Anything that fails will name itself.</p></div>`;
+  if(!sym){$("#app").innerHTML=`<div class="panel"><h2>Nothing to analyze</h2>
+    <p class="note">Type any ticker and press Analyze. Exchange suffixes work — XIC.TO, BNS.TO, SHOP.TO.</p></div>`;return;}
+  $("#sym").value=sym;TAB="verdict";
+  if(pollTimer){clearInterval(pollTimer);pollTimer=null;$("#btnLive").textContent="Go live (10s)";$("#btnLive").classList.remove("on");}
+  $("#app").innerHTML=`<div class="panel"><h2>Analyzing ${esc(sym)} <span class="tag pulse">FIVE VENDORS</span></h2>
+    <p class="note">Candles from Twelve Data, cross-checked against Polygon. Quote, profile and analyst trends from Finnhub. Statements from FMP. Earnings history and macro from Alpha Vantage, served from local cache where it is still fresh so the 25-call daily limit is not burned. Anything that fails will name itself rather than go quiet.</p></div>`;
   const R=await Promise.allSettled([getCandles(sym),getQuote(sym),getProfile(sym),getFundamentals(sym),
     getPolyCandles(sym),getMarketStatus(),getAnalysts(sym),getEarnings(sym),getMacro()]);
-  const g=(i,src)=> R[i].status==="fulfilled"? R[i].value : {error:String(R[i].reason?.message||R[i].reason),source:src};
-  CUR={sym,candles:g(0,"twelvedata"),quote:g(1,"finnhub"),profile:g(2,"finnhub"),fund:g(3,"fmp"),
-    poly:g(4,"polygon"),status:g(5,"polygon"),analysts:g(6,"finnhub"),earnings:g(7,"alphavantage"),
-    macro:g(8,"alphavantage"),at:nowISO()};
-  CUR.xcheck = (!CUR.candles.error&&!CUR.poly.error)? crossVerify(CUR.candles.bars,CUR.poly.bars) : null;
-  compute(); pushRecent(sym); render();
-}
-function compute(){
-  const cd=CUR.candles; T=null; V=null;
-  if(!cd.error && cd.bars.length>60){
-    const bars=cd.bars, c=bars.map(b=>b.close),h=bars.map(b=>b.high),l=bars.map(b=>b.low),v=bars.map(b=>b.volume);
-    const n=c.length-1, last=bars[n], pp=(last.high+last.low+last.close)/3;
-    T={bars,c,h,l,v,n,
-      ema9:ema(c,9),ema20:ema(c,20),ema50:ema(c,50),ema100:ema(c,100),ema200:ema(c,200),
-      sma50:sma(c,50),sma200:sma(c,200),rsi:rsi(c),macd:macd(c),bb:bollinger(c),
-      stoch:stoch(h,l,c),adx:adx(h,l,c),atr:atr(h,l,c),obv:obv(c,v),
-      mfi:mfi(h,l,c,v),cci:cci(h,l,c),willr:willr(h,l,c),roc:roc(c),
-      volavg20:sma(v,20)[n],fr:fractals(h,l),
-      hi52:Math.max(...h.slice(-252)),lo52:Math.min(...l.slice(-252)),
-      annvol:stdev(pctReturns(c.slice(-252)))*Math.sqrt(252),mdd:maxDrawdown(c.slice(-252)),
-      pivot:{p:pp,r1:2*pp-last.low,s1:2*pp-last.high,r2:pp+(last.high-last.low),s2:pp-(last.high-last.low)},
-      trend:{daily:trendOf(bars),weekly:trendOf(aggregate(bars,"w")),monthly:trendOf(aggregate(bars,"m"))}};
-    T.proj=project(bars,A.horizon);
-  }
-  const f=CUR.fund;
-  if(!f.error && !f.is_etf) V=valuation(f,priceNow());
-}
-function priceNow(){ const q=CUR.quote, cd=CUR.candles;
-  return !q.error? q.current : (!cd.error? cd.bars[cd.bars.length-1].close : null); }
-function setTab(t){ TAB=t; render(); }
-function setFTab(t){ FTAB=t; render(); }
+  const g=(i,src)=>R[i].status==="fulfilled"?R[i].value:{error:String(R[i].reason?.message||R[i].reason),source:src};
+  CUR={sym,fetched_at:nowISO(),candles:g(0,"twelvedata"),quote:g(1,"finnhub"),profile:g(2,"finnhub"),
+    fund:g(3,"fmp"),poly:g(4,"polygon"),status:g(5,"polygon"),analysts:g(6,"finnhub"),
+    earnings:g(7,"alphavantage"),macro:g(8,"alphavantage")};
+  CUR.xcheck=(!CUR.candles.error&&!CUR.poly.error)?crossCheck(CUR.candles.bars,CUR.poly.bars):null;
+  T_=analyze();V_=valuate();L_=ledger();S_=scenarios();
+  pushRecent(sym);render();}
+
+function recompute(){V_=valuate();L_=ledger();render();}
+function setTab(t){TAB=t;render();}
 
 /* ================= render ================= */
 function render(){
-  const t=CUR, q=t.quote, cd=t.candles, pf=t.profile, f=t.fund, ms=t.status, xc=t.xcheck;
-  const price=priceNow();
-  const tabs=[["tech","Technicals"],["proj","Projection"],["fund","Fundamentals"],["val","Intrinsic value"],
-    ["earn","Earnings"],["analyst","Analysts"],["macro","Macro"],["src","Sources"]];
-
+  if(!CUR)return;
+  const T=T_,conf=confidence();
   $("#app").innerHTML=`
-  <div class="header-box">
-    <div class="hd">DATA HEADER</div>
-    <div>SYMBOL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${esc(t.sym)}${!pf.error?` — ${esc(pf.name)}`:""}${!f.error&&f.sector?` · ${esc(f.sector)}`:""}</div>
-    <div>FETCHED &nbsp;&nbsp;&nbsp;&nbsp;: ${ago(t.at)} (${esc(t.at)})</div>
-    <div>MARKET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${ms.error?`<span class="err">unknown — ${esc(ms.error)}</span>`:`${esc(ms.market)} · nasdaq ${esc(ms.nasdaq)} · nyse ${esc(ms.nyse)}`}</div>
-    <div>PRICE USED &nbsp;&nbsp;: ${price!=null?`$${fmt(price)}`:"unavailable"} — ${q.error?"last candle close (quote failed)":"Finnhub real-time"}</div>
-    <div>CANDLES &nbsp;&nbsp;&nbsp;&nbsp;: ${cd.error?`<span class="err">FAILED</span>`:`${cd.bars.length} daily bars from twelvedata, latest ${esc(cd.bars[cd.bars.length-1].date)}`}</div>
-    <div>CROSS-CHECK &nbsp;: ${xc? `${esc(xc.status)} — max deviation ${fmt(xc.max_deviation_pct,3)}% across ${xc.checked} shared closes vs polygon${xc.worst_date?` (worst ${esc(xc.worst_date)})`:""}`
-      : `<span class="err">single source, no independent verification</span>`}</div>
-    <div>SOURCES &nbsp;&nbsp;&nbsp;&nbsp;: ${tag(`QUOTE ${q.error?"FAIL":"OK"}`,!q.error)} ${tag(`CANDLES ${cd.error?"FAIL":"OK"}`,!cd.error)} ${tag(`POLYGON ${t.poly.error?"FAIL":"OK"}`,!t.poly.error)} ${tag(`FMP ${f.error?"FAIL":"OK"}`,!f.error)} ${tag(`ANALYSTS ${t.analysts.error?"FAIL":"OK"}`,!t.analysts.error)} ${tag(`AV EARNINGS ${t.earnings.error?"FAIL":"OK"}`,!t.earnings.error)} ${tag(`AV MACRO ${t.macro.error?"FAIL":"OK"}`,!t.macro.error)}</div>
-  </div>
-
-  ${price!=null?`
-  <div class="panel">
-    <h2>${esc(t.sym)} ${tag(q.error?"LAST CLOSE":"REAL-TIME")}</h2>
-    <div class="price ${!q.error&&q.change>=0?"up":!q.error?"down":""}" id="pxNow">$${fmt(price)}</div>
-    ${!q.error?`<div class="mono" id="pxChg" style="color:${q.change>=0?"var(--up)":"var(--down)"}">
-      ${q.change>=0?"+":""}${fmt(q.change)} (${q.change>=0?"+":""}${fmt(q.change_pct)}%) · day range $${fmt(q.low)}–$${fmt(q.high)}</div>`:""}
-    ${T?`<div class="stats" style="margin-top:14px">
-      ${["daily","weekly","monthly"].map(k=>{const tr=T.trend[k];
-        const cls=tr.label==="BULLISH"?"up":tr.label==="BEARISH"?"down":"blue";
-        return stat(k+" trend",esc(tr.label),cls,esc(tr.detail));}).join("")}
-      ${stat("52-week range",`$${fmt(T.lo52)}–$${fmt(T.hi52)}`,"",
-        `${fmt((price-T.hi52)/T.hi52*100,1)}% from high · ${fmt((price-T.lo52)/T.lo52*100,1)}% off low`)}
-    </div>`:""}
-  </div>`:""}
-
-  <div class="tabbar">${tabs.map(([k,l])=>
-    `<button class="${TAB===k?"on":""}" onclick="setTab('${k}')">${l}</button>`).join("")}</div>
-  <div id="tabbody">${renderTab(price)}</div>`;
-
-  if(TAB==="tech") drawTechCharts();
-  if(TAB==="proj") drawProjChart();
-  if(TAB==="earn") drawEarnChart();
-  bindKeys(); drawQuota();
-}
-
-function renderTab(price){
-  switch(TAB){
-    case "tech": return tabTech(price);
-    case "proj": return tabProj();
-    case "fund": return tabFund();
-    case "val": return tabVal(price);
-    case "earn": return tabEarn();
-    case "analyst": return tabAnalyst();
-    case "macro": return tabMacro();
-    case "src": return tabSources();
-  }
-  return "";
-}
-
-/* ---- technicals ---- */
-function tabTech(price){
-  if(!T) return `<div class="panel"><h2>Technicals unavailable ${tag("NO CANDLES",false)}</h2>
-    <p class="note">${esc(CUR.candles.error||"Fewer than 60 daily bars returned — not enough history to compute indicators.")}</p></div>`;
-  const n=T.n;
-  return `
-  <div class="panel">
-    <h2>Price, moving averages &amp; Bollinger ${tag("TWELVE DATA CANDLES")}</h2>
-    <div class="chartwrap"><canvas id="cvMain"></canvas></div>
-  </div>
-  <div class="grid g2">
-    <div class="panel"><h2>Momentum ${tag("RSI · STOCH · MACD")}</h2>
-      <div class="chartwrap sm"><canvas id="cvRsi"></canvas></div>
-      <div class="chartwrap sm" style="margin-top:8px"><canvas id="cvMacd"></canvas></div></div>
-    <div class="panel"><h2>Volume &amp; flow ${tag("OBV · MFI")}</h2>
-      <div class="chartwrap sm"><canvas id="cvVol"></canvas></div>
-      <div class="chartwrap sm" style="margin-top:8px"><canvas id="cvObv"></canvas></div></div>
-  </div>
-  <div class="panel">
-    <h2>Full indicator readout ${tag("FACTUAL STATE — NO SCORES")}</h2>
-    <div class="stats">
-      ${stat("RSI (14)",fmt(T.rsi[n],1),T.rsi[n]>70?"down":T.rsi[n]<30?"up":"",
-        T.rsi[n]>70?"overbought zone":T.rsi[n]<30?"oversold zone":"neutral zone")}
-      ${stat("Stochastic %K/%D",`${fmt(T.stoch.k[n],1)} / ${fmt(T.stoch.d[n],1)}`,"",
-        T.stoch.k[n]>80?"overbought":T.stoch.k[n]<20?"oversold":"mid-range")}
-      ${stat("MACD / signal",`${fmt(T.macd.line[n])} / ${fmt(T.macd.signal[n])}`,
-        T.macd.line[n]>T.macd.signal[n]?"up":"down",
-        `histogram ${fmt(T.macd.hist[n])} · ${T.macd.line[n]>T.macd.signal[n]?"bullish":"bearish"} cross state`)}
-      ${stat("ADX (14)",fmt(T.adx.adx[n],1),T.adx.adx[n]>25?"amber":"",
-        `+DI ${fmt(T.adx.pDI[n],1)} / −DI ${fmt(T.adx.mDI[n],1)} · ${T.adx.adx[n]>25?"trending":"no trend"}`)}
-      ${stat("ATR (14)",`$${fmt(T.atr[n])}`,"",`${fmt(T.atr[n]/T.c[n]*100,1)}% of price per day`)}
-      ${stat("Bollinger %B",fmt((T.c[n]-T.bb.lo[n])/(T.bb.up[n]-T.bb.lo[n]),2),"",
-        `band width ${fmt((T.bb.up[n]-T.bb.lo[n])/T.bb.mid[n]*100,1)}% of mid`)}
-      ${stat("MFI (14)",fmt(T.mfi[n],1),T.mfi[n]>80?"down":T.mfi[n]<20?"up":"","money flow index")}
-      ${stat("CCI (20)",fmt(T.cci[n],0),Math.abs(T.cci[n])>100?"amber":"",Math.abs(T.cci[n])>100?"outside ±100":"inside ±100")}
-      ${stat("Williams %R",fmt(T.willr[n],1),"",T.willr[n]>-20?"overbought":T.willr[n]<-80?"oversold":"mid")}
-      ${stat("ROC (12)",fmt(T.roc[n],1)+"%",T.roc[n]>=0?"up":"down","12-day rate of change")}
-      ${stat("EMA 9/20/50",`${fmt(T.ema9[n])} / ${fmt(T.ema20[n])} / ${fmt(T.ema50[n])}`)}
-      ${stat("EMA 100/200",`${fmt(T.ema100[n])} / ${fmt(T.ema200[n])}`,"",
-        T.ema200[n]!=null?(T.c[n]>T.ema200[n]?"price above EMA 200":"price below EMA 200"):"insufficient history")}
-      ${stat("Golden / death cross",T.sma50[n]!=null&&T.sma200[n]!=null?(T.sma50[n]>T.sma200[n]?"GOLDEN":"DEATH"):"—",
-        T.sma50[n]>T.sma200[n]?"up":"down","SMA50 vs SMA200")}
-      ${stat("Volume vs 20d avg",fmt(T.v[n]/T.volavg20,2)+"×",T.v[n]>=T.volavg20?"up":"",big(T.v[n])+" shares")}
-      ${stat("Realized volatility",pc(T.annvol),"","annualized, trailing 252d")}
-      ${stat("Max drawdown (1y)",pc(T.mdd),"down","peak to trough")}
+    ${dataHeader(conf)}
+    ${priceStrip()}
+    <div class="tabs">
+      ${[["verdict","VERDICT"],["tech","TECHNICALS"],["fund","FUNDAMENTALS"],["src","SOURCES"]]
+        .map(([k,l])=>`<button class="${TAB===k?"on":""}" onclick="setTab('${k}')">${l}</button>`).join("")}
     </div>
-  </div>
-  <div class="grid g2">
-    <div class="panel"><h2>Support &amp; resistance ${tag("5-BAR FRACTALS")}</h2>
-      <table><thead><tr><th>Resistance above</th><th class="r">Distance</th></tr></thead><tbody>
-      ${T.fr.res.filter(x=>x>price).sort((a,b)=>a-b).slice(0,5).map(x=>
-        `<tr><td class="down">▲ $${fmt(x)}</td><td class="r">${fmt((x-price)/price*100,1)}%</td></tr>`).join("")
-        ||`<tr><td style="color:var(--faint)">none in history — at or near highs</td><td></td></tr>`}
-      </tbody></table>
-      <table style="margin-top:12px"><thead><tr><th>Support below</th><th class="r">Distance</th></tr></thead><tbody>
-      ${T.fr.sup.filter(x=>x<price).sort((a,b)=>b-a).slice(0,5).map(x=>
-        `<tr><td class="up">▼ $${fmt(x)}</td><td class="r">${fmt((x-price)/price*100,1)}%</td></tr>`).join("")
-        ||`<tr><td style="color:var(--faint)">none in history</td><td></td></tr>`}
-      </tbody></table></div>
-    <div class="panel"><h2>Pivot levels ${tag("CLASSIC · FROM LAST BAR")}</h2>
-      <table><tbody>
-        <tr><td class="down">R2</td><td class="r">$${fmt(T.pivot.r2)}</td><td class="r">${fmt((T.pivot.r2-price)/price*100,1)}%</td></tr>
-        <tr><td class="down">R1</td><td class="r">$${fmt(T.pivot.r1)}</td><td class="r">${fmt((T.pivot.r1-price)/price*100,1)}%</td></tr>
-        <tr><td class="amber">Pivot</td><td class="r">$${fmt(T.pivot.p)}</td><td class="r">${fmt((T.pivot.p-price)/price*100,1)}%</td></tr>
-        <tr><td class="up">S1</td><td class="r">$${fmt(T.pivot.s1)}</td><td class="r">${fmt((T.pivot.s1-price)/price*100,1)}%</td></tr>
-        <tr><td class="up">S2</td><td class="r">$${fmt(T.pivot.s2)}</td><td class="r">${fmt((T.pivot.s2-price)/price*100,1)}%</td></tr>
-      </tbody></table>
-      <p class="note">Pivots are arithmetic on the previous bar's high, low and close. They matter mostly because a lot of desks watch them, not because they predict anything.</p></div>
-  </div>`;
-}
+    <div id="tabbody">${TAB==="verdict"?tabVerdict():TAB==="tech"?tabTech():TAB==="fund"?tabFund():tabSrc()}</div>`;
+  if(TAB==="tech"&&T)drawPriceChart();
+  if(TAB==="verdict"&&T)drawScenarioChart();
+  if(TAB==="fund"&&CUR.fund&&!CUR.fund.error&&!CUR.fund.is_etf)drawFundChart();}
 
-/* ---- projection ---- */
-function tabProj(){
-  if(!T) return `<div class="panel"><h2>Projection unavailable ${tag("NO CANDLES",false)}</h2>
-    <p class="note">${esc(CUR.candles.error||"Not enough history.")}</p></div>`;
-  const p=T.proj, e=p.cone[A.horizon-1];
-  return `
-  <div class="panel">
-    <h2>Forward distribution ${tag("VOLATILITY CONE · MONTE CARLO · REGRESSION")}</h2>
-    <div class="chartwrap"><canvas id="cvProj"></canvas></div>
-    <div class="slider" style="margin-top:12px;max-width:380px">
-      <div class="rw"><span>Horizon</span><span>${A.horizon} trading days</span></div>
-      <input type="range" min="5" max="60" step="5" value="${A.horizon}"
-        oninput="A.horizon=+this.value;compute();render()"></div>
-    <div class="stats" style="margin-top:12px">
-      ${stat("Realized volatility",pc(p.ann_vol),"","annualized, trailing 252d")}
-      ${stat(`${A.horizon}d range (±1σ)`,`$${fmt(e.d1)}–$${fmt(e.u1)}`,"band","~68% of outcomes")}
-      ${stat(`${A.horizon}d range (±2σ)`,`$${fmt(e.d2)}–$${fmt(e.u2)}`,"band","~95% of outcomes")}
-      ${stat("Monte Carlo median",`$${fmt(p.q50)}`,"","800 paths · p10 $"+fmt(p.q10)+" / p90 $"+fmt(p.q90))}
-      ${stat("Regression slope",`$${fmt(p.slope,3)}/day`,p.slope>=0?"up":"down","120-day least squares")}
-      ${stat("Implied 1-day move",`±$${fmt(T.atr[T.n])}`,"","from ATR(14)")}
-    </div>
-    <p class="note"><strong>This is a distribution, not a forecast.</strong> The cone is what your own realized volatility implies about the spread of outcomes; the Monte Carlo fan draws paths from that same historical drift and volatility; the regression line simply extends the recent slope. None of the three knows direction, and all three assume the next few weeks resemble the last year — the exact assumption that fails at earnings, guidance changes and rate shocks. Read the width, not the midline. If you want one number from this tab, take the ±1σ band and use it for position sizing.</p>
-  </div>`;
-}
+function confidence(){
+  const x=CUR.xcheck;
+  if(CUR.candles.error)return{level:"NONE",cls:"down",why:"no candle data at all"};
+  if(!x)return{level:"MEDIUM",cls:"amber",why:"single source — Polygon unavailable for an independent check"};
+  if(x.status==="AGREE")return{level:"HIGH",cls:"up",why:`two vendors agree within ${fmt(x.worst,3)}%`};
+  if(x.status==="MINOR DIVERGENCE")return{level:"MEDIUM",cls:"amber",why:`vendors differ by up to ${fmt(x.worst,2)}%`};
+  if(x.status==="DISAGREE")return{level:"LOW",cls:"down",why:`vendors differ by ${fmt(x.worst,2)}% — likely a split or dividend adjustment mismatch`};
+  return{level:"MEDIUM",cls:"amber",why:"insufficient overlap between vendors"};}
 
-/* ---- fundamentals, sub-tabbed ---- */
-function tabFund(){
-  const f=CUR.fund;
-  if(f.error) return `<div class="panel"><h2>Fundamentals unavailable ${tag("FMP FAIL",false)}</h2>
-    <p class="note">${esc(f.error)}</p></div>`;
-  if(f.is_etf) return `<div class="panel"><h2>Fund detected ${tag("NOT APPLICABLE",false)}</h2>
-    <p class="note">${esc(f.name||CUR.sym)} is an ETF or fund. Income statements, DCF and Graham don't apply — a fund's intrinsic value is its net asset value, and holdings aren't on the free tiers. Nothing is shown rather than something invented. Use the Technicals and Projection tabs for funds.</p></div>`;
-  const subs=[["pillars","Four pillars"],["income","Income &amp; growth"],["balance","Balance sheet"],
-    ["cash","Cash flow"],["profile","Company"]];
-  return `<div class="panel">
-    <h2>${esc(f.name)} ${tag("FMP · FISCAL "+esc(f.period||"—")+" · "+f.years+"Y ANNUAL")}</h2>
-    <div class="subtabs">${subs.map(([k,l])=>
-      `<button class="${FTAB===k?"on":""}" onclick="setFTab('${k}')">${l}</button>`).join("")}</div>
-    ${fundBody(f)}
-  </div>`;
-}
-function fundBody(f){
-  const I=f.statements.inc, B=f.statements.bal, C=f.statements.cf;
-  const yrs=I.map(x=>x.calendarYear);
-  const rowsOf=(rows,src)=>`<div class="tblwrap"><table>
-    <thead><tr><th>Line</th>${yrs.map(y=>`<th class="r">${esc(y)}</th>`).join("")}</tr></thead><tbody>
-    ${rows.map(([lbl,fn,f2])=>`<tr><td>${lbl}</td>${src.map(x=>{
-      const v=fn(x); return `<td class="r ${f2&&v<0?"down":""}">${f2==="pct"?pc(v):big(v)}</td>`;}).join("")}</tr>`).join("")}
-    </tbody></table></div>`;
-  if(FTAB==="pillars") return `
-    <div class="stats">
-      ${stat("Revenue CAGR 3y / 5y",`${pc(f.rev_cagr_3y)} / ${pc(f.rev_cagr_5y)}`)}
-      ${stat("EPS / FCF CAGR",`${pc(f.eps_cagr)} / ${pc(f.fcf_cagr)}`)}
-      ${stat("Margins G / O / N",`${pc(f.gross_margin,0)} / ${pc(f.op_margin,0)} / ${pc(f.net_margin,0)}`)}
-      ${stat("FCF margin",pc(f.fcf_margin),f.fcf_margin>0?"up":"down")}
-      ${stat("ROE / ROA / ROIC",`${pc(f.roe,0)} / ${pc(f.roa,0)} / ${pc(f.roic,0)}`,f.roic>0.12?"up":"",
-        "ROIC above ~12% suggests a moat")}
-      ${stat("Debt / equity",fmt(f.debt_to_equity),f.debt_to_equity>2?"down":"")}
-      ${stat("Current / quick",`${fmt(f.current_ratio)} / ${fmt(f.quick_ratio)}`,f.current_ratio<1?"down":"up")}
-      ${stat("Interest coverage",f.interest_coverage?fmt(f.interest_coverage,1)+"×":"—",
-        f.interest_coverage<3?"down":"up","EBIT ÷ interest expense")}
-      ${stat("Net cash (debt)",big(f.net_cash),f.net_cash>=0?"up":"down",`debt ${big(f.total_debt)} · cash ${big(f.cash)}`)}
-      ${stat("P/E · P/B · P/S",`${fmt(f.pe_ttm)} · ${fmt(f.pb)} · ${fmt(f.ps)}`)}
-      ${stat("EV/EBITDA · PEG",`${fmt(f.ev_ebitda)} · ${fmt(f.peg)}`)}
-      ${stat("FCF yield",f.mcap&&f.fcf_base?pc(f.fcf_base/f.mcap):"—",f.fcf_base/f.mcap>0.05?"up":"",
-        "free cash flow ÷ market cap")}
-    </div>
-    <p class="note">Check these before the fair value on the next tab. A discounted cash flow built on erratic or negative free cash flow is arithmetic dressed as analysis — the pillars tell you whether the model deserves to be believed at all. Return on invested capital is the one that separates a business with a moat from one that merely grew.</p>`;
-  if(FTAB==="income") return rowsOf([
-    ["Revenue",x=>x.revenue],["Gross profit",x=>x.grossProfit],["Operating income",x=>x.operatingIncome],
-    ["EBITDA",x=>x.ebitda],["Net income",x=>x.netIncome,"neg"],["Diluted EPS",x=>x.epsdiluted],
-    ["R&amp;D",x=>x.researchAndDevelopmentExpenses],["SG&amp;A",x=>x.sellingGeneralAndAdministrativeExpenses],
-    ["Diluted shares",x=>x.weightedAverageShsOutDil]],I)
-    +`<p class="note">Watch the diluted share count across years alongside net income — earnings per share can rise on buybacks alone while the business stands still.</p>`;
-  if(FTAB==="balance") return rowsOf([
-    ["Total assets",x=>x.totalAssets],["Cash &amp; equivalents",x=>x.cashAndShortTermInvestments],
-    ["Inventory",x=>x.inventory],["Total liabilities",x=>x.totalLiabilities],
-    ["Short-term debt",x=>x.shortTermDebt],["Long-term debt",x=>x.longTermDebt],
-    ["Total debt",x=>x.totalDebt],["Shareholders' equity",x=>x.totalStockholdersEquity,"neg"],
-    ["Goodwill &amp; intangibles",x=>x.goodwillAndIntangibleAssets]],B)
-    +`<p class="note">Equity inflated mostly by goodwill is a different thing from equity backed by cash and plant — which is exactly why the Graham Number can flatter an acquisitive company.</p>`;
-  if(FTAB==="cash") return rowsOf([
-    ["Operating cash flow",x=>x.operatingCashFlow,"neg"],["Capital expenditure",x=>x.capitalExpenditure],
-    ["Free cash flow",x=>(x.operatingCashFlow||0)-Math.abs(x.capitalExpenditure||0),"neg"],
-    ["Acquisitions",x=>x.acquisitionsNet],["Buybacks",x=>x.commonStockRepurchased],
-    ["Dividends paid",x=>x.dividendsPaid],["Net debt issued",x=>x.debtRepayment],
-    ["Stock compensation",x=>x.stockBasedCompensation]],C)
-    +`<p class="note">Free cash flow here is operating cash flow minus capital expenditure — the same series that feeds the DCF on the Intrinsic value tab. If it swings between positive and negative across these years, treat every fair value on that tab with suspicion.</p>`;
-  return `<div class="stats">
-      ${stat("Sector",esc(f.sector||"—"))}${stat("Industry",esc(f.industry||"—"))}
-      ${stat("CEO",esc(f.ceo||"—"))}${stat("Employees",f.employees?big(+f.employees):"—")}
-      ${stat("Market cap",big(f.mcap))}${stat("Shares outstanding",big(f.shares))}
-    </div>${f.desc?`<p class="note" style="max-width:70ch">${esc(f.desc).slice(0,700)}…</p>`:""}`;
-}
+function dataHeader(conf){
+  const q=CUR.quote,T=T_,x=CUR.xcheck,errs=[];
+  for(const[k,v] of Object.entries(CUR))if(v&&v.error)errs.push([k,v.error]);
+  return`<div class="hdr">
+    <div class="t">DATA HEADER</div>
+    <div>TIMESTAMP&nbsp;&nbsp;: ${new Date(CUR.fetched_at).toLocaleString()} — ${ago(CUR.fetched_at)}</div>
+    <div>MARKET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${CUR.status.error?`<span class="err">unknown (${esc(CUR.status.error)})</span>`:esc(CUR.status.market||"unknown")}</div>
+    <div>PRICE USED&nbsp;: ${T?`$${fmt(T.price)}`:"—"} — ${q.error?`<span class="err">last daily close; live quote failed: ${esc(q.error)}</span>`:"real-time Finnhub quote"} <span id="liveNote"></span></div>
+    <div>CONFIDENCE&nbsp;: <span class="${conf.cls}">${conf.level}</span> — ${esc(conf.why)}${x&&x.worst_date?` (worst on ${esc(x.worst_date)})`:""}</div>
+    <div>CANDLES&nbsp;&nbsp;&nbsp;&nbsp;: ${CUR.candles.error?`<span class="err">${esc(CUR.candles.error)}</span>`:`${CUR.candles.bars.length} daily bars, latest ${esc(CUR.candles.bars.at(-1).date)}`}</div>
+    ${errs.length?`<div style="margin-top:5px">${errs.map(([k,e])=>`<div class="err">⚠ ${esc(k)}: ${esc(e)}</div>`).join("")}</div>`:""}
+    <div class="note" style="margin-top:6px">Every number below is computed from the data named here. Where a vendor failed, the panel says so — nothing is estimated to fill a gap.</div>
+  </div>`;}
 
-/* ---- intrinsic value ---- */
-function tabVal(price){
-  const f=CUR.fund;
-  if(f.error||f.is_etf) return tabFund();
-  if(!V) return `<div class="panel"><h2>Valuation unavailable</h2><p class="note">No usable statement data.</p></div>`;
-  const gap=V.fair&&price? (price-V.fair)/V.fair : null;
-  const ideal=V.fair? V.fair*(1-A.mos/100) : null;
-  const verdict = gap==null?null
-    : gap<=-.3?["DEEP DISCOUNT to blended fair value","up"]
-    : gap<=-.1?["MODEST DISCOUNT to blended fair value","up"]
-    : gap<.1?["NEAR blended fair value","blue"]
-    : gap<.3?["MODEST PREMIUM to blended fair value","down"]
-    : ["SIGNIFICANT PREMIUM to blended fair value","down"];
-  const slider=(label,key,min,max,step)=>`<div class="slider" style="margin-bottom:10px">
-    <div class="rw"><span>${label}</span><span>${fmt(A[key],step<1?1:0)}%</span></div>
-    <input type="range" min="${min}" max="${max}" step="${step}" value="${A[key]}"
-      oninput="A.${key}=+this.value;compute();render()"></div>`;
-  return `
-  <div class="panel">
-    <h2>Intrinsic value ${tag("VISIBLE MATH · FMP "+ago(f.fetched_at))}</h2>
-    ${V.fair?`
-    <div class="row" style="gap:24px;align-items:baseline">
-      <div><div style="font-size:11px;color:var(--faint)">Blended fair value (median)</div>
-        <div class="price">$${fmt(V.fair)}</div></div>
-      <div><div style="font-size:11px;color:var(--faint)">Price vs fair</div>
-        <div class="price ${gap>=0?"down":"up"}">${gap>=0?"+":""}${fmt(gap*100,1)}%</div></div>
+function priceStrip(){
+  const q=CUR.quote,T=T_,p=CUR.profile,f=CUR.fund;
+  const name=(!p.error&&p.name)||(f&&!f.error&&f.name)||CUR.sym;
+  const chg=!q.error?q.change:null;
+  if(!T)return`<div class="panel"><h2>${esc(CUR.sym)}</h2>
+    <p class="note err">No usable price history, so no analysis can be run. ${esc(CUR.candles.error||"")}</p></div>`;
+  return`<div class="panel">
+    <h2>${esc(CUR.sym)} — ${esc(name)} ${!p.error&&p.exchange?tg(p.exchange):""}${!p.error&&p.industry?tg(p.industry):""}</h2>
+    <div class="row" style="gap:14px;align-items:baseline">
+      <span class="price" id="pxNow">$${fmt(T.price)}</span>
+      ${chg!=null?`<span class="${sgn(chg)}" style="font-family:var(--mono);font-size:15px" id="pxChg">${chg>=0?"+":""}${fmt(chg)} (${chg>=0?"+":""}${fmt(q.change_pct)}%)</span>`:""}
+      <span class="sub">day range $${fmt(q.error?T.bars.at(-1).low:q.low)}–$${fmt(q.error?T.bars.at(-1).high:q.high)}</span>
     </div>
-    ${verdict?`<div class="verdict ${verdict[1]}">● ${verdict[0]}</div>`:""}
     <div class="stats" style="margin-top:14px">
-      ${stat(`Buy price @ ${A.mos}% margin of safety`,"$"+fmt(ideal),"amber","median fair × (1 − MoS)")}
-      ${stat("Models that ran",V.models.length,"","median used, not mean — one broken model can't drag it")}
-      ${stat("Model dispersion",V.spread!=null?fmt(V.spread*100,0)+"%":"—",V.spread>1?"down":"",
-        V.lo?`$${fmt(V.lo)} to $${fmt(V.hi)}`:"")}
-      ${stat("Growth the price implies",V.implied!=null?pc(V.implied):"—","band","reverse DCF at your discount rate")}
+      ${st("52-week range",`$${fmt(T.lo52)} – $${fmt(T.hi52)}`,"",`${pctv((T.price/T.hi52-1)*100)} from the high`)}
+      ${st("Position in range",pct(T.rangePos,0),T.rangePos>0.5?"blue":"dim",T.rangePos>0.5?"premium half":"discount half")}
+      ${st("Annualised volatility",pctv(T.vol*100),"",`${pctv(T.vol*100/Math.sqrt(252))} on a typical day`)}
+      ${st("Deepest 2-year drawdown",pct(T.mdd),"down","peak to trough")}
+      ${f&&!f.error&&!f.is_etf?st("Market cap",big(f.mcap)):(!p.error&&p.mcap?st("Market cap",big(p.mcap)):"")}
+    </div></div>`;}
+
+/* ---------------- VERDICT ---------------- */
+function tabVerdict(){
+  const T=T_,L=L_,V=V_;
+  if(!T)return`<div class="panel"><p class="note">No price history — nothing to judge.</p></div>`;
+  const S=score(L);
+  const cats=[...new Set(L.map(x=>x.cat))];
+  const bulls=L.filter(x=>x.dir>0).sort((a,b)=>b.w-a.w);
+  const bears=L.filter(x=>x.dir<0).sort((a,b)=>b.w-a.w);
+  const neut=L.filter(x=>x.dir===0);
+  const edgeCls=S.edge.includes("BULL")?"up":S.edge.includes("BEAR")?"down":"amber";
+  const inval=T.levels.support[0]??T.bos?.price??T.e200;
+
+  return`<div class="grid">
+    <div class="panel">
+      <h2>The read ${tg("SYNTHESIS OF EVERY MEASURED FACTOR")}</h2>
+      <div class="row" style="gap:26px;align-items:flex-end">
+        <div><div class="l sub">Weighted evidence score</div>
+          <div class="big ${edgeCls}">${S.pts==null?"—":S.pts}<span style="font-size:14px;color:var(--faint)">/100</span></div>
+          <div class="bar"><i style="width:${S.pts||0}%;background:var(--${S.pts>=60?"up":S.pts>=45?"live":"down"})"></i></div></div>
+        <div><div class="l sub">Direction</div><div class="big ${edgeCls}" style="font-size:19px">${S.edge}</div></div>
+        <div><div class="l sub">Bull vs bear weight</div>
+          <div style="font-family:var(--mono);font-size:15px"><span class="up">${S.bull}</span> vs <span class="down">${S.bear}</span></div></div>
+      </div>
+      <div class="verdictline ${edgeCls}">${plainRead(S,T,V)}</div>
+      <p class="note">The score is the share of total factor weight pointing bullish. It is a summary of what is measurably true right now — not a forecast, and not advice. Every factor behind it is listed below, so you can disagree with any one of them.</p>
     </div>
-    <div class="tblwrap"><table style="margin-top:14px">
-      <thead><tr><th>Model</th><th class="r">Per share</th><th class="r">vs price</th><th>What it assumes</th></tr></thead><tbody>
-      ${V.models.map(m=>`<tr><td>${esc(m[0])}</td><td class="r ${m[1]>price?"up":"down"}">$${fmt(m[1])}</td>
-        <td class="r ${m[1]>price?"up":"down"}">${fmt((m[1]-price)/price*100,0)}%</td>
-        <td style="color:var(--faint)">${esc(m[2])}</td></tr>`).join("")}
-    </tbody></table></div>
-    ${V.notes.length?`<details><summary>Why ${V.notes.length} model${V.notes.length>1?"s":""} didn't run</summary>
-      <p class="note">${V.notes.map(esc).join("<br>")}</p></details>`:""}
-    <p class="note"><strong>Read the dispersion before the median.</strong> When the models cluster tightly, valuation isn't the hard part for this business. When they're far apart, the median means very little and the disagreement itself is the finding — usually it means the company's value sits in growth that hasn't happened yet, which no model settles. The reverse DCF is the most useful number here: it tells you what the market already assumes, so you only have to decide whether you believe that.</p>
-    `:`<p class="note">Not enough positive inputs (EPS, free cash flow, book value) to run any model. Shown as unavailable rather than guessed.</p>`}
-  </div>
-  <div class="panel">
-    <h2>Assumptions ${tag("YOURS — DRAG THEM")}</h2>
+
     <div class="grid g2">
-      <div>
-        ${slider("FCF growth, years 1–5","g1",-5,30,1)}
-        ${slider("FCF growth, years 6–10","g2",-5,20,1)}
-        ${slider("Discount rate","disc",6,16,0.5)}
+      <div class="panel"><h2>What argues up <span class="pill b">${bulls.reduce((a,b)=>a+b.w,0)} weight</span></h2>
+        ${bulls.length?bulls.map(evRow).join(""):`<p class="note">Nothing measured is currently pointing up.</p>`}</div>
+      <div class="panel"><h2>What argues down <span class="pill r">${bears.reduce((a,b)=>a+b.w,0)} weight</span></h2>
+        ${bears.length?bears.map(evRow).join(""):`<p class="note">Nothing measured is currently pointing down.</p>`}</div>
+    </div>
+    ${neut.length?`<div class="panel"><h2>Neutral or context-only</h2>${neut.map(evRow).join("")}</div>`:""}
+
+    <div class="panel">
+      <h2>Scenarios ${tg("LEVELS FROM THE CHART · PROBABILITIES FROM MEASURED VOLATILITY")}</h2>
+      ${S_?`<div style="height:250px;margin-bottom:10px"><canvas id="cvScen"></canvas></div>`:""}
+      ${S_?`<table>
+        <tr><th>Horizon</th><th>Bear case</th><th>Base case</th><th>Bull case</th><th>Reach resistance $${fmt(S_[0].res)}</th><th>Reach support $${fmt(S_[0].sup)}</th></tr>
+        ${S_.map(s=>`<tr>
+          <td>${s.n}</td>
+          <td class="down">below $${fmt(s.bear.hi)} · ${pct(s.bear.p,0)}</td>
+          <td class="blue">$${fmt(s.base.lo)}–$${fmt(s.base.hi)} · ${pct(s.base.p,0)}</td>
+          <td class="up">above $${fmt(s.bull.lo)} · ${pct(s.bull.p,0)}</td>
+          <td>${s.pUp?pct(s.pUp.touch,0)+" touch":"—"}</td>
+          <td>${s.pDn?pct(s.pDn.touch,0)+" touch":"—"}</td></tr>`).join("")}
+      </table>
+      <p class="note"><b>How to read this.</b> The base case is where price sits if nothing unusual happens — it is the most likely single outcome purely because it is the widest band, not because the stock is "going sideways". The bull and bear columns are the tails beyond it. The last two columns answer a different and more useful question: what are the odds price <i>touches</i> the nearest real resistance or support at any point in the window, computed from this stock's own ${pctv((T.vol||0)*100)} annualised volatility.<br><br>
+      <b>The assumption that could break this.</b> These probabilities assume the next period behaves like the last year, and assume no directional drift. Earnings, a guidance change, or a macro shock all violate that — which is exactly why the evidence ledger above, not this table, carries the actual argument for direction.</p>`
+      :`<p class="note err">Volatility could not be measured, so no scenario table.</p>`}
+    </div>
+
+    <div class="panel">
+      <h2>Invalidation ${tg("WHAT WOULD PROVE THIS READ WRONG")}</h2>
+      <div class="stats">
+        ${st("Structural invalidation",`$${fmt(inval)}`,"down",`a daily close below this breaks ${T.levels.support[0]?"the nearest support shelf":"the trend reference"}`)}
+        ${st("200-day EMA",`$${fmt(T.e200)}`,T.price>T.e200?"up":"down",`${pctv((T.price/T.e200-1)*100)} away — the long-term trend line`)}
+        ${st("Nearest resistance",T.levels.resistance[0]?`$${fmt(T.levels.resistance[0])}`:"none in range","up",T.levels.resistance[0]?`${pctv((T.levels.resistance[0]/T.price-1)*100)} above — a close through it strengthens the bull case`:"price is at or near its highs")}
+        ${V&&V.buyAt?st(`Your margin-of-safety price`,`$${fmt(V.buyAt)}`,"amber",`${A.mos}% below the blended fair value`):""}
       </div>
-      <div>
-        ${slider("Terminal growth","term",0,4,0.5)}
-        ${slider("Margin of safety","mos",0,50,5)}
+      <p class="note">Every thesis needs a level at which you admit it was wrong. These are the ones the data marks out — not opinions, just where the structure changes.</p>
+    </div>
+
+    ${honestyPanel()}
+  </div>`;}
+
+function evRow(x){
+  const p=x.dir>0?`<span class="pill b">bull</span>`:x.dir<0?`<span class="pill r">bear</span>`:`<span class="pill n">context</span>`;
+  return`<div class="ev"><div><b style="font-weight:600">${esc(x.label)}</b>
+    <div class="sub" style="margin-top:2px">${esc(x.detail)}</div></div>
+    <div style="text-align:right;white-space:nowrap">${p}<div class="w">${x.w?"weight "+x.w:"no weight"}</div></div></div>`;}
+
+function plainRead(S,T,V){
+  const bits=[];
+  if(S.edge==="NO EDGE")bits.push("Signals are genuinely mixed — no edge currently.");
+  else bits.push(`Evidence leans ${S.edge.toLowerCase().replace("_"," ")}.`);
+  const t=T.trends;
+  bits.push(`Monthly ${t.monthly.label.toLowerCase()}, weekly ${t.weekly.label.toLowerCase()}, daily ${t.daily.label.toLowerCase()}.`);
+  if(V&&V.gap!=null)bits.push(`Price is ${pctv(Math.abs(V.gap*100))} ${V.gap<0?"below":"above"} the median of ${V.good.length} valuation models.`);
+  return bits.join(" ");}
+
+function honestyPanel(){
+  return`<div class="panel"><h2>Deliberately absent ${tg("NOT AVAILABLE — SO NOT SHOWN","bad")}</h2>
+    <div class="grid g3" style="font-family:var(--mono);font-size:11.5px;color:var(--dim)">
+      <div>✕ Live options flow, sweeps, gamma exposure</div>
+      <div>✕ Dark-pool prints and block trades</div>
+      <div>✕ Whisper numbers, buy-side expectations</div>
+      <div>✕ Intraday insider activity</div>
+      <div>✕ Real-time 13F institutional positioning</div>
+      <div>✕ Elliott Wave count</div>
+    </div>
+    <p class="note">The first five need paid institutional feeds; any dashboard showing them on free keys is inventing them. Elliott Wave is left out for a different reason — a wave count is a discretionary judgement, and two competent analysts routinely label the same chart differently. Rather than print a fake count, the Technicals tab gives you the raw structure a wave count would be built from: swing points, breaks of structure, Fibonacci levels, and open imbalances.</p></div>`;}
+
+/* ---------------- TECHNICALS ---------------- */
+function tabTech(){
+  const T=T_;if(!T)return`<div class="panel"><p class="note">No candles.</p></div>`;
+  const stack=[["EMA 9",T.e9],["EMA 20",T.e20],["EMA 50",T.e50],["EMA 100",T.e100],["EMA 200",T.e200]];
+  return`<div class="grid">
+    <div class="panel"><h2>Price, moving averages and Bollinger band ${tg("TWELVE DATA CANDLES")}</h2>
+      <div style="height:340px"><canvas id="cvPrice"></canvas></div></div>
+
+    <div class="grid g2">
+      <div class="panel"><h2>Trend</h2>
+        <div class="stats">
+          ${["monthly","weekly","daily"].map(k=>st(k+" structure",T.trends[k].label,
+            T.trends[k].label==="BULLISH"?"up":T.trends[k].label==="BEARISH"?"down":"blue",T.trends[k].detail)).join("")}
+        </div>
+        <h3>Moving average stack</h3>
+        <table>${stack.map(([n,v])=>`<tr><td>${n}</td><td>${v==null?"—":"$"+fmt(v)}</td>
+          <td class="${T.price>v?"up":"down"}">${v==null?"":T.price>v?"price above":"price below"}</td>
+          <td class="dim">${v==null?"":pctv((T.price/v-1)*100)}</td></tr>`).join("")}
+          ${T.goldenCross?`<tr><td>50/200 SMA</td><td colspan="3" class="${T.goldenCross.startsWith("golden")?"up":"down"}">${esc(T.goldenCross)}</td></tr>`:""}
+        </table>
+        <h3>Trend strength</h3>
+        <div class="stats">
+          ${st("ADX (14)",fmt(T.adx,1),T.adx>25?"up":"dim",T.adx>25?"a real trend is present":T.adx>20?"trend forming":"no trend — range conditions")}
+          ${st("+DI / −DI",`${fmt(T.pdi,1)} / ${fmt(T.ndi,1)}`,T.pdi>T.ndi?"up":"down",T.pdi>T.ndi?"buyers control":"sellers control")}
+        </div>
+      </div>
+
+      <div class="panel"><h2>Momentum and participation</h2>
+        <div class="stats">
+          ${st("RSI (14)",fmt(T.rsi,1),T.rsi>70?"down":T.rsi<30?"up":"",T.rsi>70?"overbought":T.rsi<30?"oversold":"neutral zone")}
+          ${st("Stochastic %K/%D",`${fmt(T.stochK,1)}/${fmt(T.stochD,1)}`,T.stochK>80?"down":T.stochK<20?"up":"",T.stochK>T.stochD?"turning up":"turning down")}
+          ${st("MACD / signal",`${fmt(T.macd,3)} / ${fmt(T.macdSig,3)}`,T.macd>T.macdSig?"up":"down",`histogram ${fmt(T.macdHist,3)}`)}
+          ${st("Money flow (14)",fmt(T.mfi,1),T.mfi>80?"down":T.mfi<20?"up":"","volume-weighted RSI")}
+          ${st("CCI (20)",fmt(T.cci,0),T.cci>100?"down":T.cci<-100?"up":"",Math.abs(T.cci)>100?"extended":"normal")}
+          ${st("Williams %R",fmt(T.wr,1),T.wr>-20?"down":T.wr<-80?"up":"")}
+          ${st("Rate of change (20d)",pctv(T.roc),sgn(T.roc))}
+          ${st("Volume vs 20-day avg",fmt(T.relVol,2)+"×",T.relVol>1.2?"up":"dim",`OBV 20d ${T.obvSlope>0?"rising":"falling"}`)}
+        </div>
       </div>
     </div>
-    <p class="note">Defaults are conventional, not correct. The useful exercise is to drag growth and discount until the model agrees with today's price, then ask whether those numbers are believable for this business. If a name only looks cheap at 20% growth and an 8% discount rate, you've learned the market is pricing near-perfection — a more useful conclusion than any single fair value.</p>
-  </div>`;
-}
 
-/* ---- earnings ---- */
-function tabEarn(){
+    <div class="grid g2">
+      <div class="panel"><h2>Volatility</h2>
+        <div class="stats">
+          ${st("ATR (14)","$"+fmt(T.atr),"",`${pctv(T.atr/T.price*100)} of price per day`)}
+          ${st("Annualised volatility",pctv(T.vol*100))}
+          ${st("Bollinger bandwidth",pctv(T.bbW),T.bbSqueeze?"amber":"",T.bbSqueeze?"SQUEEZE — lowest fifth of 120 days":"normal")}
+          ${st("%B position",fmt(T.pctB,2),T.pctB>1?"down":T.pctB<0?"up":"",T.pctB>1?"above upper band":T.pctB<0?"below lower band":"inside bands")}
+        </div>
+        <h3>Expected range (1 month, from this stock's own volatility)</h3>
+        ${T.cone?`<table><tr><th>Band</th><th>Low</th><th>High</th></tr>
+          <tr><td>1σ — about 68% of outcomes</td><td>$${fmt(T.cone.one.lo)}</td><td>$${fmt(T.cone.one.hi)}</td></tr>
+          <tr><td>2σ — about 95% of outcomes</td><td>$${fmt(T.cone.two.lo)}</td><td>$${fmt(T.cone.two.hi)}</td></tr></table>`
+        :`<p class="note err">This symbol shows no measurable price variation over the sampled window — it may be halted, newly listed, or very thinly traded. Volatility-based ranges are meaningless here, so none are shown.</p>`}
+      </div>
+
+      <div class="panel"><h2>Levels</h2>
+        <h3>Swing resistance above</h3>
+        ${T.levels.resistance.length?T.levels.resistance.map(v=>`<div style="font-family:var(--mono);font-size:12.5px" class="down">▲ $${fmt(v)} <span class="dim">${pctv((v/T.price-1)*100)} away</span></div>`).join(""):`<div class="sub">none in range — price is at or near its highs</div>`}
+        <h3>Swing support below</h3>
+        ${T.levels.support.length?T.levels.support.map(v=>`<div style="font-family:var(--mono);font-size:12.5px" class="up">▼ $${fmt(v)} <span class="dim">${pctv((v/T.price-1)*100)} away</span></div>`).join(""):`<div class="sub">none in range</div>`}
+        <h3>Fibonacci retracement of the 52-week range</h3>
+        <table>${Object.entries(T.fib).map(([k,v])=>`<tr><td>${k}</td><td>$${fmt(v)}</td>
+          <td class="${v<T.price?"up":"down"}">${v<T.price?"below price":"above price"}</td></tr>`).join("")}</table>
+        <h3>Classic pivots (from the latest session)</h3>
+        <table><tr><td>R2 $${fmt(T.pivots.R2)}</td><td>R1 $${fmt(T.pivots.R1)}</td><td>P $${fmt(T.pivots.P)}</td>
+          <td>S1 $${fmt(T.pivots.S1)}</td><td>S2 $${fmt(T.pivots.S2)}</td></tr></table>
+      </div>
+    </div>
+
+    <div class="panel"><h2>Market structure ${tg("MECHANICALLY DEFINED, NOT INTERPRETED")}</h2>
+      <div class="grid g2">
+        <div>
+          <h3>Break of structure</h3>
+          ${T.bos?`<div style="font-family:var(--mono);font-size:12.5px" class="${T.bos.dir==="bullish"?"up":"down"}">
+            ${T.bos.dir} break through $${fmt(T.bos.price)} on ${esc(T.bos.date)}</div>`:`<div class="sub">no clean break detected in range</div>`}
+          <h3>Premium / discount</h3>
+          <div style="font-family:var(--mono);font-size:12.5px">${pct(T.rangePos,0)} of the 52-week range — ${T.rangePos>0.5?"premium half":"discount half"}</div>
+          <h3>Order blocks (last opposing candle before an impulse)</h3>
+          ${T.ob.bullish.length?T.ob.bullish.map(o=>`<div class="up" style="font-family:var(--mono);font-size:12px">bullish $${fmt(o.lo)}–$${fmt(o.hi)} <span class="dim">${esc(o.date)}</span></div>`).join(""):`<div class="sub">none below price</div>`}
+          ${T.ob.bearish.length?T.ob.bearish.map(o=>`<div class="down" style="font-family:var(--mono);font-size:12px">bearish $${fmt(o.lo)}–$${fmt(o.hi)} <span class="dim">${esc(o.date)}</span></div>`).join(""):`<div class="sub">none above price</div>`}
+        </div>
+        <div>
+          <h3>Open fair value gaps (3-bar imbalances price has not filled)</h3>
+          ${T.fvg.above.length?T.fvg.above.map(g=>`<div class="down" style="font-family:var(--mono);font-size:12px">above · $${fmt(g.lo)}–$${fmt(g.hi)} <span class="dim">${esc(g.date)}</span></div>`).join(""):`<div class="sub">none open above</div>`}
+          ${T.fvg.below.length?T.fvg.below.map(g=>`<div class="up" style="font-family:var(--mono);font-size:12px">below · $${fmt(g.lo)}–$${fmt(g.hi)} <span class="dim">${esc(g.date)}</span></div>`).join(""):`<div class="sub">none open below</div>`}
+          <h3>Regression channel (120 sessions, log price)</h3>
+          ${T.reg?`<div style="font-family:var(--mono);font-size:12px">trend drift ${pctv(T.reg.annualDrift)} annualised · residual σ ${pct(T.reg.sd,1)}</div>
+          <p class="note">This describes the slope price has actually travelled, not a forecast that it continues.</p>`:`<div class="sub">not enough history</div>`}
+        </div>
+      </div>
+      <p class="note">Order blocks, fair value gaps and breaks of structure are printed only where the candles meet an explicit rule — an unfilled 3-bar imbalance, or a close beyond a prior swing extreme. Where no pattern meets the rule, the row says none rather than stretching to find one.</p>
+    </div>
+  </div>`;}
+
+/* ---------------- FUNDAMENTALS ---------------- */
+function tabFund(){
+  const f=CUR.fund,V=V_,T=T_;
+  if(f.error)return`<div class="panel"><h2>Fundamentals unavailable</h2>
+    <p class="note err">${esc(f.error)}</p>
+    <p class="note">If this says the endpoint is legacy, your FMP key is a newer one — the page retries automatically on the new address, so a repeated failure usually means the free tier does not cover this symbol.</p></div>`;
+  if(f.is_etf)return`<div class="panel"><h2>${esc(CUR.sym)} is a fund ${tg("HONEST STOP","bad")}</h2>
+    <p class="note">A fund has no revenue, no margins and no free cash flow, so intrinsic value models simply do not apply — its fair value is its net asset value, and holdings-level data is not on any free tier. Rather than print DCF numbers that would be meaningless, this tab stops here. The Technicals and Verdict tabs work fully for ETFs.</p></div>`;
+  const sl=(l,k,mn,mx,sp,suf="%")=>`<div><div class="row" style="justify-content:space-between;font-size:11px">
+    <span class="dim">${l}</span><span style="font-family:var(--mono);color:var(--live)">${fmt(A[k],sp<1?1:0)}${suf}</span></div>
+    <input type="range" min="${mn}" max="${mx}" step="${sp}" value="${A[k]}" oninput="A.${k}=+this.value;recompute()"></div>`;
+  const verdict=V&&V.gap!=null?(V.gap<=-0.3?["DEEP DISCOUNT","up"]:V.gap<=-0.1?["DISCOUNT","up"]:
+    V.gap<0.1?["ROUGHLY FAIR","blue"]:V.gap<0.3?["PREMIUM","down"]:["RICH PREMIUM","down"]):null;
+
+  return`<div class="grid">
+    <div class="panel"><h2>${esc(f.name)} ${f.sector?tg(f.sector):""} ${f.cached?tg("CACHED "+ago(f.fetched_at)):tg("FMP · FRESH")}</h2>
+      <p class="note" style="margin:0 0 10px">Annual statements, fiscal ${esc(f.period||"—")}, ${f.years} years available, reported in ${esc(f.currency||"USD")}.${f.employees?` ${big(f.employees)} employees.`:""}${f.ceo?` CEO ${esc(f.ceo)}.`:""}</p>
+      ${V&&V.fair?`<div class="row" style="gap:26px;align-items:flex-end">
+        <div><div class="l sub">Blended fair value (median of ${V.good.length} models)</div><div class="big">$${fmt(V.fair)}</div></div>
+        <div><div class="l sub">Today's price</div><div class="big ${verdict[1]}">$${fmt(V.price)}</div></div>
+        <div><div class="l sub">Gap</div><div class="big ${verdict[1]}" style="font-size:19px">${V.gap>=0?"+":""}${fmt(V.gap*100,1)}%</div></div>
+        <div><div class="l sub">Verdict</div><div class="big ${verdict[1]}" style="font-size:19px">${verdict[0]}</div></div>
+      </div>
+      <div class="stats" style="margin-top:14px">
+        ${st(`Your buy price (${A.mos}% margin of safety)`,"$"+fmt(V.buyAt),"amber","fair value minus your cushion")}
+        ${st("Model spread",V.dispersion!=null?pct(V.dispersion,0):"—",V.dispersion>1?"down":"",V.dispersion>1?"models disagree badly — the median means little here":"models broadly agree")}
+        ${st("Range across models",`$${fmt(V.lo)} – $${fmt(V.hi)}`)}
+        ${st("Growth the price implies",V.impliedG!=null?pct(V.impliedG):"—",V.impliedG>0.15?"down":V.impliedG<0.05?"up":"","reverse DCF — see below")}
+      </div>`:`<p class="note err">No valuation model could run on this company's numbers — see the model table for why each one was skipped.</p>`}
+    </div>
+
+    <div class="grid g2">
+      <div class="panel"><h2>Intrinsic value models ${tg("EVERY FORMULA SHOWN")}</h2>
+        <table><tr><th>Model</th><th>Value</th><th>Why that number</th></tr>
+        ${V?V.models.map(m=>`<tr><td>${esc(m.n)}</td>
+          <td class="${m.v==null?"dim":m.v>V.price?"up":"down"}">${m.v==null?"n/a":"$"+fmt(m.v)}</td>
+          <td class="dim" style="font-size:10.5px">${esc(m.why)}</td></tr>`).join(""):""}</table>
+        <p class="note">The blend uses the <b>median</b>, not the average, so one broken model cannot drag the answer. Models that cannot run return n/a rather than a placeholder.</p>
+      </div>
+
+      <div class="panel"><h2>Your assumptions ${tg("MOVE THEM AND EVERYTHING RECOMPUTES")}</h2>
+        <div class="grid" style="gap:12px">
+          ${sl("Free cash flow growth, years 1–5","g1",-5,30,1)}
+          ${sl("Free cash flow growth, years 6–10","g2",-5,20,1)}
+          ${sl("Discount rate (your required return)","disc",5,20,0.5)}
+          ${sl("Terminal growth after year 10","term",0,4,0.5)}
+          ${sl("Margin of safety","mos",0,50,5)}
+        </div>
+        ${V&&V.impliedG!=null?`<h3>Reverse DCF — the most useful number here</h3>
+        <p class="note" style="margin-top:0">At $${fmt(V.price)}, the market is already assuming free cash flow grows <b class="${V.impliedG>0.15?"down":"up"}">${pct(V.impliedG)} a year for five years</b> (then half that for five more). The company's actual recent record is ${pct(f.fcf_cagr)}. Your job is not to guess the price — it is to decide whether that assumed growth is too optimistic or too cheap. That is a question you can actually answer.</p>`:""}
+      </div>
+    </div>
+
+    <div class="panel"><h2>Revenue, earnings and free cash flow ${tg("ANNUAL, FROM FILINGS")}</h2>
+      <div style="height:250px"><canvas id="cvFund"></canvas></div></div>
+
+    <div class="grid g2">
+      <div class="panel"><h2>Pillar 1 — growth</h2><div class="stats">
+        ${st("Revenue CAGR 3-year",pct(f.rev_cagr_3y),sgn(f.rev_cagr_3y))}
+        ${st("Revenue CAGR 5-year",pct(f.rev_cagr_5y),sgn(f.rev_cagr_5y))}
+        ${st("EPS CAGR",pct(f.eps_cagr),sgn(f.eps_cagr),`EPS now ${fmt(f.eps_ttm)}`)}
+        ${st("Free cash flow CAGR",pct(f.fcf_cagr),sgn(f.fcf_cagr),`${big(f.fcf_latest)} latest`)}
+      </div></div>
+      <div class="panel"><h2>Pillar 2 — profitability</h2><div class="stats">
+        ${st("Gross margin",pct(f.gross_margin))}
+        ${st("Operating margin",pct(f.op_margin),f.op_margin>0.15?"up":f.op_margin<0.05?"down":"")}
+        ${st("Net margin",pct(f.net_margin))}
+        ${st("Free cash flow margin",pct(f.fcf_margin),f.fcf_margin>0.1?"up":"")}
+        ${st("Return on equity",pct(f.roe),f.roe>0.15?"up":"")}
+        ${st("Return on invested capital",pct(f.roic),f.roic>0.12?"up":f.roic<0.06?"down":"","above 10% is strong")}
+      </div></div>
+      <div class="panel"><h2>Pillar 3 — balance sheet</h2><div class="stats">
+        ${st("Debt to equity",fmt(f.debt_to_equity),f.debt_to_equity<0.5?"up":f.debt_to_equity>2?"down":"","under 0.5 is a fortress")}
+        ${st("Current ratio",fmt(f.current_ratio),f.current_ratio>1.5?"up":f.current_ratio<1?"down":"")}
+        ${st("Quick ratio",fmt(f.quick_ratio))}
+        ${st("Interest coverage",f.interest_coverage!=null?fmt(f.interest_coverage,1)+"×":"—",f.interest_coverage>5?"up":f.interest_coverage<2?"down":"","above 5× is safe")}
+        ${st("Net cash or debt",big(f.net_cash),f.net_cash>0?"up":"down")}
+        ${st("Cash on hand",big(f.cash))}
+      </div></div>
+      <div class="panel"><h2>Pillar 4 — multiples and capital use</h2><div class="stats">
+        ${st("P/E (TTM)",fmt(f.pe))}
+        ${st("P/B · P/S",`${fmt(f.pb)} · ${fmt(f.ps)}`)}
+        ${st("PEG",fmt(f.peg),f.peg<1&&f.peg>0?"up":f.peg>2?"down":"","under 1 is Lynch's bar")}
+        ${st("EV / EBITDA",fmt(f.ev_ebitda))}
+        ${st("Operating cash flow",big(f.ocf),"",`capex ${big(f.capex)}`)}
+        ${st("Buybacks (latest year)",big(Math.abs(f.buyback)),f.buyback?"up":"dim",f.dividend_ps?`dividend ${fmt(f.dividend_ps)}/share`:"no dividend")}
+      </div></div>
+    </div>
+
+    ${earningsPanel()}
+    ${macroPanel()}
+  </div>`;}
+
+function earningsPanel(){
   const e=CUR.earnings;
-  if(e.error) return `<div class="panel"><h2>Earnings history unavailable ${tag("ALPHA VANTAGE FAIL",false)}</h2>
-    <p class="note">${esc(e.error)}</p>
-    <p class="note">Alpha Vantage allows 25 calls a day on the free tier. This page caches earnings for seven days per symbol, so a failure usually means the daily budget is spent — try again tomorrow and it will fill in.</p></div>`;
-  return `<div class="panel">
-    <h2>Estimate vs actual ${tag("ALPHA VANTAGE · "+(e.cached?"CACHED "+ago(e.fetched_at):"FRESH"))}</h2>
-    <div class="chartwrap sm" style="height:190px"><canvas id="cvEarn"></canvas></div>
-    <div class="tblwrap"><table style="margin-top:12px">
-      <thead><tr><th>Fiscal period</th><th>Reported</th><th class="r">EPS estimate</th><th class="r">EPS actual</th><th class="r">Surprise</th></tr></thead>
-      <tbody>${e.quarters.map(r=>{const sp=parseFloat(r.surprise_pct);
-        return `<tr><td>${esc(r.period)}</td><td>${esc(r.reported||"—")}</td>
-          <td class="r">${esc(r.eps_estimate??"—")}</td><td class="r">${esc(r.eps_actual??"—")}</td>
-          <td class="r ${sp>=0?"up":"down"}">${isFinite(sp)?(sp>=0?"+":"")+fmt(sp,1)+"%":"—"}</td></tr>`;}).join("")}
-      </tbody></table></div>
-    <p class="note">Beat in ${e.beats} of the last ${e.of} quarters shown. Estimate-versus-actual is the one dataset only Alpha Vantage gives away free, which is why it's cached hard here. A long streak of small beats usually says more about how guidance is managed than about the business accelerating.</p>
-  </div>`;
-}
+  if(e.error)return`<div class="panel"><h2>Earnings history <span class="tag bad">UNAVAILABLE</span></h2>
+    <p class="note err">${esc(e.error)}</p></div>`;
+  return`<div class="panel"><h2>Earnings versus estimates ${tg("ALPHA VANTAGE"+(e.cached?" · CACHED "+ago(e.fetched_at):""))}</h2>
+    <table><tr><th>Fiscal period</th><th>Reported</th><th>Estimate</th><th>Actual</th><th>Surprise</th></tr>
+    ${e.rows.map(r=>`<tr><td>${esc(r.period)}</td><td>${esc(r.reported||"—")}</td>
+      <td>${r.est==null?"—":fmt(r.est)}</td><td>${r.act==null?"—":fmt(r.act)}</td>
+      <td class="${r.surprise==null?"":r.surprise>=0?"up":"down"}">${r.surprise==null?"—":(r.surprise>=0?"+":"")+fmt(r.surprise,1)+"%"}</td></tr>`).join("")}</table>
+    <p class="note">Beat in <b>${e.beats} of ${e.scored}</b> quarters, average surprise ${pctv(e.avg_surprise)}. A high beat rate means management guides conservatively and delivers — it is one of the few honest reads on credibility available free. Estimate-versus-actual history is the one dataset only Alpha Vantage provides at no cost, so it is cached for a week to protect the 25-call daily limit.</p></div>`;}
 
-/* ---- analysts ---- */
-function tabAnalyst(){
-  const a=CUR.analysts;
-  if(a.error) return `<div class="panel"><h2>Analyst view unavailable ${tag("FINNHUB FAIL",false)}</h2>
-    <p class="note">${esc(a.error)}</p></div>`;
-  const t0=a.trends[0], tot=t0.strongBuy+t0.buy+t0.hold+t0.sell+t0.strongSell;
-  return `<div class="panel">
-    <h2>Analyst recommendations ${tag("FINNHUB · "+esc(t0.period))}</h2>
-    <div class="stats">
-      ${stat("Strong buy",t0.strongBuy,"up",pc(t0.strongBuy/tot,0)+" of "+tot)}
-      ${stat("Buy",t0.buy,"up",pc(t0.buy/tot,0))}
-      ${stat("Hold",t0.hold,"blue",pc(t0.hold/tot,0))}
-      ${stat("Sell",t0.sell,"down",pc(t0.sell/tot,0))}
-      ${stat("Strong sell",t0.strongSell,"down",pc(t0.strongSell/tot,0))}
-    </div>
-    <div class="tblwrap"><table style="margin-top:14px">
-      <thead><tr><th>Period</th><th class="r">Strong buy</th><th class="r">Buy</th><th class="r">Hold</th><th class="r">Sell</th><th class="r">Strong sell</th></tr></thead>
-      <tbody>${a.trends.map(t=>`<tr><td>${esc(t.period)}</td><td class="r up">${t.strongBuy}</td>
-        <td class="r up">${t.buy}</td><td class="r blue">${t.hold}</td><td class="r down">${t.sell}</td>
-        <td class="r down">${t.strongSell}</td></tr>`).join("")}</tbody></table></div>
-    ${a.peers.length?`<p class="note">Peers: ${a.peers.map(p=>
-      `<a href="#" onclick="run('${esc(p)}');return false">${esc(p)}</a>`).join(" · ")}</p>`:""}
-    <p class="note">The direction of change across these months is worth more than the current tally. Consensus is a lagging, crowded input — treat it as a description of positioning rather than an argument.</p>
-  </div>`;
-}
-
-/* ---- macro ---- */
-function tabMacro(){
+function macroPanel(){
   const m=CUR.macro;
-  if(m.error) return `<div class="panel"><h2>Macro unavailable ${tag("ALPHA VANTAGE FAIL",false)}</h2>
-    <p class="note">${esc(m.error)}</p>
-    <p class="note">Macro is cached for a day, so this usually clears on its own once the 25-call budget resets.</p></div>`;
-  return `<div class="panel">
-    <h2>Macro regime ${tag("ALPHA VANTAGE · "+(m.cached?"CACHED "+ago(m.fetched_at):"FRESH"))}</h2>
+  if(m.error)return"";
+  return`<div class="panel"><h2>Macro backdrop ${tg("ALPHA VANTAGE"+(m.cached?" · CACHED "+ago(m.fetched_at):""))}</h2>
     <div class="stats">
-      ${m.cpi_yoy?stat("CPI year over year",fmt(m.cpi_yoy.yoy_pct,1)+"%",
-        m.cpi_yoy.yoy_pct>3?"down":"up",m.cpi_yoy.date):""}
-      ${m.fed_funds?stat("Fed funds rate",fmt(m.fed_funds.value)+"%","",m.fed_funds.date):""}
-      ${m.treasury_10y?stat("10-year treasury",fmt(m.treasury_10y.value)+"%","",m.treasury_10y.date):""}
-      ${m.treasury_10y&&m.fed_funds?stat("10y minus fed funds",
-        fmt(m.treasury_10y.value-m.fed_funds.value)+"%",
-        (m.treasury_10y.value-m.fed_funds.value)<0?"down":"up",
-        (m.treasury_10y.value-m.fed_funds.value)<0?"inverted":"positive"):""}
+      ${m.cpi?st("CPI year over year",pctv(m.cpi.yoy),m.cpi.yoy>3?"down":"up",esc(m.cpi.date)):""}
+      ${m.fed?st("Fed funds rate",pctv(m.fed.value),"",esc(m.fed.date)):""}
+      ${m.t10?st("10-year Treasury",pctv(m.t10.value),"",esc(m.t10.date)):""}
     </div>
-    <p class="note">The 10-year yield is the single macro number that most directly touches the tab next door: it is the closest market proxy for the discount rate in a DCF. When it moves a percentage point, long-duration growth names reprice hardest, and your fair value should move with it rather than stay pinned at the 10% default.</p>
-  </div>`;
-}
+    <p class="note">Rates are the discount rate the whole market applies to future cash flows — when they rise, every valuation model above produces a lower number, growth stocks most of all.</p></div>`;}
 
-/* ---- sources ---- */
-function tabSources(){
-  const t=CUR;
-  const row=(name,vendor,blk,what)=>`<tr><td>${name}</td><td>${vendor}</td>
-    <td>${blk.error?`<span class="err">FAIL</span>`:`<span class="up">OK</span>`}</td>
-    <td>${blk.error?`<span class="err">${esc(blk.error)}</span>`:esc(what)}</td>
-    <td>${blk.fetched_at?ago(blk.fetched_at):"—"}</td></tr>`;
-  return `<div class="panel">
-    <h2>Where every number came from ${tag("PROVENANCE")}</h2>
-    <div class="tblwrap"><table><thead><tr><th>Block</th><th>Vendor</th><th>State</th><th>Detail</th><th>Age</th></tr></thead><tbody>
-      ${row("Daily candles","twelvedata",t.candles,!t.candles.error?`${t.candles.bars.length} bars to ${t.candles.bars[t.candles.bars.length-1].date}`:"")}
-      ${row("Verification candles","polygon",t.poly,!t.poly.error?`${t.poly.bars.length} bars`:"")}
-      ${row("Real-time quote","finnhub",t.quote,!t.quote.error?`$${fmt(t.quote.current)}`:"")}
-      ${row("Company profile","finnhub",t.profile,!t.profile.error?t.profile.name:"")}
-      ${row("Market status","polygon",t.status,!t.status.error?t.status.market:"")}
-      ${row("Statements","fmp",t.fund,!t.fund.error?(t.fund.is_etf?"ETF — not applicable":`${t.fund.years} annual years`):"")}
-      ${row("Analyst trends","finnhub",t.analysts,!t.analysts.error?`${t.analysts.trends.length} months`:"")}
-      ${row("Earnings history","alphavantage",t.earnings,!t.earnings.error?`${t.earnings.of} quarters${t.earnings.cached?" (cached)":""}`:"")}
-      ${row("Macro series","alphavantage",t.macro,!t.macro.error?`CPI, fed funds, 10y${t.macro.cached?" (cached)":""}`:"")}
-    </tbody></table></div>
-    ${t.xcheck?`<div class="verdict ${t.xcheck.status==="AGREE"?"up":t.xcheck.status==="DISAGREE"?"down":"amber"}">
-      ● CANDLE CROSS-CHECK: ${esc(t.xcheck.status)} — ${fmt(t.xcheck.max_deviation_pct,3)}% maximum deviation across ${t.xcheck.checked} shared closes</div>`
-      :`<div class="verdict down">● NO CROSS-CHECK — candles come from a single vendor and nothing independent confirms them</div>`}
-    <p class="note">Two vendors agreeing to within a fraction of a percent is not proof, but disagreement is a real warning — it usually means a split, dividend adjustment or listing change that one of them has handled differently. Polygon's free tier covers US equities only, so Canadian and other non-US listings will show no cross-check rather than a false pass.</p>
-    <p class="note">One gap worth naming: yfinance supplied short interest, institutional ownership and forward estimates in the scheduled pipeline, and it cannot be called from a browser. Those fields are absent here rather than approximated from something else.</p>
-  </div>`;
-}
+/* ---------------- SOURCES ---------------- */
+function tabSrc(){
+  const rows=[["Daily candles","twelvedata",CUR.candles,CUR.candles.error?"":`${CUR.candles.bars.length} bars`],
+    ["Cross-check candles","polygon",CUR.poly,CUR.poly.error?"":`${CUR.poly.bars.length} bars`],
+    ["Real-time quote","finnhub",CUR.quote,CUR.quote.error?"":`$${fmt(CUR.quote.current)}`],
+    ["Company profile","finnhub",CUR.profile,CUR.profile.error?"":esc(CUR.profile.name)],
+    ["Market status","polygon",CUR.status,CUR.status.error?"":esc(CUR.status.market)],
+    ["Statements & ratios","fmp",CUR.fund,CUR.fund.error?"":(CUR.fund.is_etf?"fund — no statements":`${CUR.fund.years} years`)],
+    ["Analyst trends","finnhub",CUR.analysts,CUR.analysts.error?"":`${CUR.analysts.trends.length} months`],
+    ["Earnings history","alphavantage",CUR.earnings,CUR.earnings.error?"":`${CUR.earnings.rows.length} quarters`],
+    ["Macro series","alphavantage",CUR.macro,CUR.macro.error?"":"CPI, fed funds, 10-year"]];
+  const x=CUR.xcheck;
+  return`<div class="grid">
+    <div class="panel"><h2>Audit trail for this scan</h2>
+      <table><tr><th>Data</th><th>Vendor</th><th>Status</th><th>Fetched</th><th>Detail</th></tr>
+      ${rows.map(([n,v,o,d])=>`<tr><td>${n}</td><td class="dim">${v}</td>
+        <td class="${o.error?"down":"up"}">${o.error?"FAIL":o.cached?"OK (cached)":"OK"}</td>
+        <td class="dim">${o.error?"—":ago(o.fetched_at)}</td>
+        <td class="dim">${o.error?`<span class="err">${esc(o.error)}</span>`:d}</td></tr>`).join("")}</table>
+    </div>
+    <div class="panel"><h2>Candle cross-verification</h2>
+      ${x?`<div class="verdictline ${x.status==="AGREE"?"up":x.status==="DISAGREE"?"down":"amber"}">
+        ● ${esc(x.status)} — largest gap ${fmt(x.worst,3)}% across ${x.checked} shared closes${x.worst_date?`, worst on ${esc(x.worst_date)}`:""}</div>
+        <p class="note">Twelve Data and Polygon are independent vendors. When their closes agree, the indicators built on them can be trusted. When they diverge by more than about 2%, one of them has usually not adjusted for a split or a dividend — treat every level on the Technicals tab as suspect until it clears.</p>`
+      :`<p class="note">No cross-check ran — Polygon covers US listings only, and does not carry this symbol. Indicators still compute from Twelve Data alone, but nothing independently confirms them.</p>`}
+    </div>
+    <div class="panel"><h2>Free-tier budgets</h2>
+      <table><tr><th>Vendor</th><th>Free limit</th><th>Used by one scan</th></tr>
+        <tr><td>Finnhub</td><td>60 per minute</td><td>3 calls</td></tr>
+        <tr><td>Twelve Data</td><td>800 per day</td><td>1 call</td></tr>
+        <tr><td>FMP</td><td>250 per day</td><td>6 calls, then cached 24 hours</td></tr>
+        <tr><td>Polygon</td><td>5 per minute</td><td>2 calls</td></tr>
+        <tr><td>Alpha Vantage</td><td>25 per day</td><td>3 calls, cached a week (earnings) and a day (macro)</td></tr></table>
+      <p class="note">FMP is the binding constraint at roughly 40 fresh companies a day. Re-analyzing a symbol you have already looked at today costs no FMP calls at all.</p>
+    </div>
+  </div>`;}
 
-/* ================= charts ================= */
-const GRID="#2A2E36", TICK="#5C606A", MONO={family:"IBM Plex Mono",size:9};
-function baseOpts(extra={}){ return Object.assign({responsive:true,maintainAspectRatio:false,
+/* ---------------- charts ---------------- */
+const CH={grid:"#282C34",tick:"#5E626C",font:"IBM Plex Mono"};
+function axis(extra){return{ticks:{color:CH.tick,font:{family:CH.font,size:9},maxTicksLimit:10},
+  grid:{color:CH.grid},...extra};}
+function baseOpts(){return{responsive:true,maintainAspectRatio:false,
   interaction:{mode:"index",intersect:false},
-  plugins:{legend:{labels:{color:"#8B8F98",font:{family:"IBM Plex Mono",size:10},boxWidth:10}}},
-  scales:{x:{ticks:{color:TICK,font:MONO,maxTicksLimit:10},grid:{color:GRID}},
-          y:{ticks:{color:TICK,font:MONO},grid:{color:GRID}}}},extra); }
-function destroy(k){ if(charts[k]){ charts[k].destroy(); delete charts[k]; } }
-function slice180(){ const bars=T.bars.slice(-180); return {bars,off:T.bars.length-bars.length}; }
+  plugins:{legend:{labels:{color:"#8C909A",font:{family:CH.font,size:10},boxWidth:10}}},
+  scales:{x:axis(),y:axis()}};}
 
-function drawTechCharts(){
-  if(!T||!$("#cvMain")) return;
-  const {bars,off}=slice180(), cut=a=>a.slice(off), labels=bars.map(b=>b.date.slice(5));
-  destroy("main");
-  charts.main=new Chart($("#cvMain"),{type:"line",data:{labels,datasets:[
-    {label:"Close",data:bars.map(b=>b.close),borderColor:"#E7E4DC",borderWidth:1.7,pointRadius:0},
-    {label:"EMA 20",data:cut(T.ema20),borderColor:"#4CAF7D",borderWidth:1,pointRadius:0},
-    {label:"EMA 50",data:cut(T.ema50),borderColor:"#7A9BC4",borderWidth:1,pointRadius:0},
-    {label:"EMA 200",data:cut(T.ema200),borderColor:"#E8A33D",borderWidth:1.2,pointRadius:0},
-    {label:"BB upper",data:cut(T.bb.up),borderColor:"rgba(139,143,152,.45)",borderWidth:.8,pointRadius:0,borderDash:[3,3]},
-    {label:"BB lower",data:cut(T.bb.lo),borderColor:"rgba(139,143,152,.45)",borderWidth:.8,pointRadius:0,
-      borderDash:[3,3],fill:"-1",backgroundColor:"rgba(139,143,152,.05)"}
-  ]},options:baseOpts()});
-  destroy("rsi");
-  charts.rsi=new Chart($("#cvRsi"),{type:"line",data:{labels,datasets:[
-    {label:"RSI 14",data:cut(T.rsi),borderColor:"#7A9BC4",borderWidth:1.3,pointRadius:0},
-    {label:"Stoch %K",data:cut(T.stoch.k),borderColor:"rgba(232,163,61,.6)",borderWidth:1,pointRadius:0}
-  ]},options:baseOpts({scales:{x:{display:false,grid:{color:GRID}},
-    y:{min:0,max:100,ticks:{color:TICK,font:MONO,stepSize:25},grid:{color:GRID}}}})});
-  destroy("macd");
-  charts.macd=new Chart($("#cvMacd"),{data:{labels,datasets:[
-    {type:"bar",label:"Histogram",data:cut(T.macd.hist),
-      backgroundColor:cut(T.macd.hist).map(v=>v>=0?"rgba(76,175,125,.5)":"rgba(224,82,82,.5)")},
-    {type:"line",label:"MACD",data:cut(T.macd.line),borderColor:"#E7E4DC",borderWidth:1.2,pointRadius:0},
-    {type:"line",label:"Signal",data:cut(T.macd.signal),borderColor:"#E8A33D",borderWidth:1,pointRadius:0}
-  ]},options:baseOpts({scales:{x:{display:false,grid:{color:GRID}},y:{ticks:{color:TICK,font:MONO},grid:{color:GRID}}}})});
-  destroy("vol");
-  charts.vol=new Chart($("#cvVol"),{type:"bar",data:{labels,datasets:[
-    {label:"Volume",data:bars.map(b=>b.volume),
-      backgroundColor:bars.map((b,i)=> i>0&&b.close>=bars[i-1].close?"rgba(76,175,125,.45)":"rgba(224,82,82,.45)")}
-  ]},options:baseOpts({scales:{x:{display:false,grid:{color:GRID}},
-    y:{ticks:{color:TICK,font:MONO,callback:v=>big(v)},grid:{color:GRID}}}})});
-  destroy("obv");
-  charts.obv=new Chart($("#cvObv"),{type:"line",data:{labels,datasets:[
-    {label:"OBV",data:cut(T.obv),borderColor:"#4CAF7D",borderWidth:1.2,pointRadius:0,yAxisID:"y"},
-    {label:"MFI 14",data:cut(T.mfi),borderColor:"rgba(122,155,196,.7)",borderWidth:1,pointRadius:0,yAxisID:"y1"}
-  ]},options:baseOpts({scales:{x:{display:false,grid:{color:GRID}},
-    y:{ticks:{color:TICK,font:MONO,callback:v=>big(v)},grid:{color:GRID}},
-    y1:{position:"right",min:0,max:100,ticks:{color:TICK,font:MONO,stepSize:50},grid:{display:false}}}})});
-}
-function drawProjChart(){
-  if(!T||!$("#cvProj")) return;
-  const bars=T.bars.slice(-120), labels=bars.map(b=>b.date.slice(5));
-  const fut=futureDates(bars[bars.length-1].date,A.horizon).map(d=>d.slice(5));
-  const anchor=Array(labels.length-1).fill(null).concat([bars[bars.length-1].close]);
-  const link=a=>anchor.concat(a);
-  const padEnd=a=>a.concat(Array(A.horizon).fill(null));
-  destroy("proj");
-  charts.proj=new Chart($("#cvProj"),{type:"line",data:{labels:labels.concat(fut),datasets:[
-    {label:"Close",data:padEnd(bars.map(b=>b.close)),borderColor:"#E7E4DC",borderWidth:1.7,pointRadius:0},
-    {label:"+2σ",data:link(T.proj.cone.map(x=>x.u2)),borderColor:"rgba(155,138,196,.35)",borderWidth:1,pointRadius:0,borderDash:[2,3]},
-    {label:"−2σ",data:link(T.proj.cone.map(x=>x.d2)),borderColor:"rgba(155,138,196,.35)",borderWidth:1,pointRadius:0,
-      borderDash:[2,3],fill:"-1",backgroundColor:"rgba(155,138,196,.06)"},
-    {label:"+1σ",data:link(T.proj.cone.map(x=>x.u1)),borderColor:"rgba(155,138,196,.7)",borderWidth:1,pointRadius:0},
-    {label:"−1σ",data:link(T.proj.cone.map(x=>x.d1)),borderColor:"rgba(155,138,196,.7)",borderWidth:1,pointRadius:0,
-      fill:"-1",backgroundColor:"rgba(155,138,196,.10)"},
-    {label:"Monte Carlo median",data:link(T.proj.mcBands.map(x=>x.p50)),borderColor:"#9B8AC4",borderWidth:1.4,pointRadius:0,borderDash:[5,3]},
-    {label:"Regression",data:link(T.proj.reg),borderColor:"rgba(232,163,61,.55)",borderWidth:1,pointRadius:0,borderDash:[6,4]}
-  ]},options:baseOpts({plugins:{legend:{labels:{color:"#8B8F98",font:{family:"IBM Plex Mono",size:9},boxWidth:8,
-    filter:i=>!["−2σ","−1σ"].includes(i.text)}}}})});
-}
-function drawEarnChart(){
-  const e=CUR.earnings; if(e.error||!$("#cvEarn")) return;
-  const q=e.quarters.slice().reverse();
-  destroy("earn");
-  charts.earn=new Chart($("#cvEarn"),{type:"bar",data:{labels:q.map(x=>x.period),datasets:[
-    {label:"Estimate",data:q.map(x=>+x.eps_estimate),backgroundColor:"rgba(139,143,152,.5)"},
-    {label:"Actual",data:q.map(x=>+x.eps_actual),
-      backgroundColor:q.map(x=>parseFloat(x.surprise_pct)>=0?"rgba(76,175,125,.7)":"rgba(224,82,82,.7)")}
-  ]},options:baseOpts({scales:{x:{ticks:{color:TICK,font:MONO},grid:{display:false}},
-    y:{ticks:{color:TICK,font:MONO},grid:{color:GRID}}}})});
-}
+function drawPriceChart(){
+  const el=$("#cvPrice");if(!el||typeof Chart==="undefined")return;
+  if(charts.price)charts.price.destroy();
+  const d=T_.chart;
+  charts.price=new Chart(el,{type:"line",data:{labels:d.map(x=>x.date.slice(5)),datasets:[
+    {label:"BB upper",data:d.map(x=>x.bbU),borderColor:"rgba(140,144,154,.35)",borderWidth:1,pointRadius:0,fill:false},
+    {label:"BB lower",data:d.map(x=>x.bbL),borderColor:"rgba(140,144,154,.35)",borderWidth:1,pointRadius:0,fill:"-1",backgroundColor:"rgba(140,144,154,.05)"},
+    {label:"Close",data:d.map(x=>x.close),borderColor:"#E8E5DD",borderWidth:1.8,pointRadius:0},
+    {label:"EMA 20",data:d.map(x=>x.ema20),borderColor:"#4CAF7D",borderWidth:1,pointRadius:0},
+    {label:"EMA 50",data:d.map(x=>x.ema50),borderColor:"#7A9BC4",borderWidth:1,pointRadius:0},
+    {label:"EMA 200",data:d.map(x=>x.ema200),borderColor:"#E8A33D",borderWidth:1.3,pointRadius:0}]},
+    options:baseOpts()});}
 
-/* ================= live polling ================= */
+function drawScenarioChart(){
+  const el=$("#cvScen");if(!el||typeof Chart==="undefined"||!S_||!T_||!T_.vol)return;
+  if(charts.scen)charts.scen.destroy();
+  const T=T_,hist=T.chart.slice(-60);
+  const labels=hist.map(x=>x.date.slice(5));
+  const fwd=["+1w","+2w","+1m","+2m","+3m"],fwdDays=[5,10,21,42,63];
+  labels.push(...fwd);
+  const n=hist.length;
+  const pad=Array(n).fill(null);
+  const E=ENG;
+  const mk=(mult)=>{const a=pad.slice();a[n-1]=T.price;
+    for(const d of fwdDays){const sd=T.vol*Math.sqrt(d/252);a.push(T.price*Math.exp(mult*sd));}return a;};
+  const flat=pad.slice();flat[n-1]=T.price;fwdDays.forEach(()=>flat.push(T.price));
+  charts.scen=new Chart(el,{type:"line",data:{labels,datasets:[
+    {label:"Close",data:[...hist.map(x=>x.close),...fwd.map(()=>null)],borderColor:"#E8E5DD",borderWidth:1.8,pointRadius:0},
+    {label:"+2σ",data:mk(2),borderColor:"rgba(76,175,125,.4)",borderDash:[4,4],borderWidth:1,pointRadius:0},
+    {label:"+1σ",data:mk(1),borderColor:"rgba(76,175,125,.8)",borderWidth:1.2,pointRadius:0},
+    {label:"today's price held",data:flat,borderColor:"rgba(122,155,196,.7)",borderDash:[2,3],borderWidth:1,pointRadius:0},
+    {label:"−1σ",data:mk(-1),borderColor:"rgba(224,82,82,.8)",borderWidth:1.2,pointRadius:0},
+    {label:"−2σ",data:mk(-2),borderColor:"rgba(224,82,82,.4)",borderDash:[4,4],borderWidth:1,pointRadius:0}]},
+    options:baseOpts()});}
+
+function drawFundChart(){
+  const el=$("#cvFund");if(!el||typeof Chart==="undefined")return;
+  if(charts.fund)charts.fund.destroy();
+  const a=CUR.fund.annual;
+  charts.fund=new Chart(el,{data:{labels:a.map(x=>x.year),datasets:[
+    {type:"bar",label:"Revenue",data:a.map(x=>x.revenue),backgroundColor:"rgba(122,155,196,.4)"},
+    {type:"line",label:"Net income",data:a.map(x=>x.net_income),borderColor:"#4CAF7D",borderWidth:1.8,pointRadius:2},
+    {type:"line",label:"Free cash flow",data:a.map(x=>x.fcf),borderColor:"#E8A33D",borderWidth:1.8,pointRadius:2}]},
+    options:{...baseOpts(),scales:{x:axis(),y:axis({ticks:{color:CH.tick,font:{family:CH.font,size:9},
+      callback:v=>big(v)}})}}});}
+
+/* ---------------- live polling ---------------- */
 async function toggleLive(){
-  if(pollTimer){ clearInterval(pollTimer); pollTimer=null;
-    $("#btnLive").textContent="Go live (10s)"; $("#btnLive").classList.remove("on"); $("#liveNote").innerHTML=""; return; }
-  if(!CUR){ $("#liveNote").innerHTML=`<span class="err">Analyze a symbol first.</span>`; return; }
-  if(!KEYS.finn){ $("#liveNote").innerHTML=`<span class="err">Live polling needs a Finnhub key.</span>`; return; }
+  if(pollTimer){clearInterval(pollTimer);pollTimer=null;
+    $("#btnLive").textContent="Go live (10s)";$("#btnLive").classList.remove("on");
+    const n=$("#liveNote");if(n)n.innerHTML="";return;}
+  if(!CUR){alert("Analyze a ticker first.");return;}
+  if(!KEYS.finn){alert("A Finnhub key is needed for live quotes.");return;}
   let ok=true;
   const tick=async()=>{
     try{
       const q=await getQuote(CUR.sym);
-      const px=$("#pxNow"); if(px){ px.textContent="$"+fmt(q.current); px.className="price "+(q.change>=0?"up":"down"); }
-      const ch=$("#pxChg"); if(ch){ ch.style.color=q.change>=0?"var(--up)":"var(--down)";
-        ch.textContent=`${q.change>=0?"+":""}${fmt(q.change)} (${q.change>=0?"+":""}${fmt(q.change_pct)}%) · day range $${fmt(q.low)}–$${fmt(q.high)}`; }
-      $("#liveNote").innerHTML=`<span class="amber">● LIVE</span> $${fmt(q.current)} at ${new Date().toLocaleTimeString()} — indicators still reflect the last daily close.`;
-    }catch(e){ ok=false;
-      if(pollTimer){ clearInterval(pollTimer); pollTimer=null; }
-      $("#btnLive").textContent="Go live (10s)"; $("#btnLive").classList.remove("on");
-      $("#liveNote").innerHTML=`<span class="err">Live polling stopped — ${esc(e.message||e)}</span>`; }};
-  await tick();
-  if(!ok) return;
+      CUR.quote=q;T_=analyze();V_=valuate();
+      const p=$("#pxNow");if(p)p.textContent="$"+fmt(q.current);
+      const c=$("#pxChg");if(c){c.textContent=`${q.change>=0?"+":""}${fmt(q.change)} (${q.change>=0?"+":""}${fmt(q.change_pct)}%)`;
+        c.className=sgn(q.change);}
+      const n=$("#liveNote");if(n)n.innerHTML=`<span class="up pulse">● LIVE ${new Date().toLocaleTimeString()}</span>`;
+    }catch(e){ok=false;clearInterval(pollTimer);pollTimer=null;
+      $("#btnLive").textContent="Go live (10s)";$("#btnLive").classList.remove("on");
+      const n=$("#liveNote");if(n)n.innerHTML=`<span class="err">live polling stopped — ${esc(e.message||e)}</span>`;}};
+  await tick();if(!ok)return;
   pollTimer=setInterval(tick,10000);
-  $("#btnLive").textContent="Stop live"; $("#btnLive").classList.add("on");
-}
+  $("#btnLive").textContent="Stop live";$("#btnLive").classList.add("on");}
 
-/* ================= boot ================= */
-loadKeys(); bindKeys(); drawRecents(); drawQuota();
-fetch("./data/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null)
-  .then(j=>{ if(j&&Array.isArray(j.tickers)&&j.tickers.length){ WATCHLIST=j.tickers; drawRecents(); } })
-  .catch(()=>{});
+/* ---------------- boot ---------------- */
+loadKeys();bindKeys();drawRecents();drawQuota();
 $("#btnGo").addEventListener("click",()=>run());
 $("#btnLive").addEventListener("click",toggleLive);
-$("#sym").addEventListener("keydown",e=>{ if(e.key==="Enter") run(); });
-window.run=run; window.A=A; window.render=render; window.compute=compute;
-window.setTab=setTab; window.setFTab=setFTab;
+$("#sym").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
+window.run=run;window.setTab=setTab;window.recompute=recompute;window.A=A;
 $("#app").innerHTML=`<div class="panel"><h2>Ready</h2>
-  <p class="note">Paste your five keys above, then type a ticker. Every tab names the vendor behind it and the moment it was fetched; anything that fails says so rather than showing a stale or invented number. The Sources tab is the audit trail for a whole scan.</p></div>`;
+  <p class="note">Paste your five keys above, then type any ticker and press Analyze.<br><br>
+  The <b>Verdict</b> tab is the answer: a weighted score built from every measurable factor, split into what argues up and what argues down, with scenario bands and the exact levels that would prove the read wrong. <b>Technicals</b> and <b>Fundamentals</b> hold the full detail behind it, and <b>Sources</b> is the audit trail showing which vendor supplied what and when.</p></div>`;
+
 </script>
 </body>
 </html>
