@@ -546,45 +546,54 @@ def get_earnings(sym, prev):
         return prev if prev and not prev.get("error") else err("alphavantage", e)
 
 
-def get_market_status():
-    if not KEYS["polygon"]:
-        return err("polygon", "no key")
+def get_news(sym):
+    if not KEYS["finnhub"]:
+        return err("finnhub", "no key")
     try:
-        j = get("https://api.polygon.io/v1/marketstatus/now", {"apiKey": KEYS["polygon"]})
-        return block("polygon", market=j.get("market"), server_time=j.get("serverTime"))
+        frm = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
+        to = NOW.strftime("%Y-%m-%d")
+        j = get("https://finnhub.io/api/v1/company-news",
+                {"symbol": sym, "from": frm, "to": to, "token": KEYS["finnhub"]})
+        if not isinstance(j, list) or not j:
+            raise ValueError("no news in the last 14 days")
+        rows = [{"ts": r.get("datetime"), "headline": (r.get("headline") or "")[:180],
+                 "source": r.get("source"), "url": r.get("url")}
+                for r in j[:8] if r.get("headline")]
+        return block("finnhub", rows=rows, days=14)
     except Exception as e:
-        return err("polygon", e)
+        return err("finnhub", e)
 
 
-def get_macro(prev):
-    global av_calls
-    if is_fresh(prev, hours=20):
-        return prev
-    if not KEYS["av"]:
-        return err("alphavantage", "no key")
-    out = {}
+def get_insiders(sym):
+    if not KEYS["finnhub"]:
+        return err("finnhub", "no key")
     try:
-        for name, params in [("cpi", {"function": "CPI", "interval": "monthly"}),
-                             ("fed", {"function": "FEDERAL_FUNDS_RATE", "interval": "monthly"}),
-                             ("t10", {"function": "TREASURY_YIELD", "interval": "monthly",
-                                      "maturity": "10year"})]:
-            if av_calls >= AV_BUDGET:
-                raise ValueError("budget reached")
-            av_calls += 1
-            j = get("https://www.alphavantage.co/query", {**params, "apikey": KEYS["av"]})
-            d = j.get("data")
-            if not d:
-                raise ValueError(f"no data for {name}")
-            e = {"date": d[0]["date"], "value": num(d[0]["value"])}
-            if name == "cpi" and len(d) >= 13 and num(d[12]["value"]):
-                e["yoy"] = round((e["value"] / num(d[12]["value"]) - 1) * 100, 2)
-            out[name] = e
-        return block("alphavantage", **out)
+        frm = (NOW - timedelta(days=183)).strftime("%Y-%m-%d")
+        j = get("https://finnhub.io/api/v1/stock/insider-transactions",
+                {"symbol": sym, "from": frm, "token": KEYS["finnhub"]})
+        data = (j or {}).get("data") or []
+        if not data:
+            raise ValueError("no insider filings in six months")
+        buys = sells = 0
+        net = 0.0
+        recent = []
+        for r in data:
+            ch = num(r.get("change"))
+            if ch is None:
+                continue
+            if ch > 0:
+                buys += 1
+            elif ch < 0:
+                sells += 1
+            net += ch
+            if len(recent) < 5:
+                recent.append({"name": (r.get("name") or "")[:60],
+                               "date": r.get("transactionDate"),
+                               "change": ch, "price": num(r.get("transactionPrice"))})
+        return block("finnhub", buys=buys, sells=sells, net_shares=net,
+                     months=6, recent=recent)
     except Exception as e:
-        return prev if prev and not prev.get("error") else err("alphavantage", e)
-
-
-# ------------------------------------------------------------------ assembly
+        return err("finnhub", e)
 
 
 # ---------------- peer / sector benchmarking ----------------
@@ -665,6 +674,47 @@ def get_peers(sym, prev):
                  peer_symbols=[r["symbol"] for r in rows])
 
 
+
+def get_market_status():
+    if not KEYS["polygon"]:
+        return err("polygon", "no key")
+    try:
+        j = get("https://api.polygon.io/v1/marketstatus/now", {"apiKey": KEYS["polygon"]})
+        return block("polygon", market=j.get("market"), server_time=j.get("serverTime"))
+    except Exception as e:
+        return err("polygon", e)
+
+
+def get_macro(prev):
+    global av_calls
+    if is_fresh(prev, hours=20):
+        return prev
+    if not KEYS["av"]:
+        return err("alphavantage", "no key")
+    out = {}
+    try:
+        for name, params in [("cpi", {"function": "CPI", "interval": "monthly"}),
+                             ("fed", {"function": "FEDERAL_FUNDS_RATE", "interval": "monthly"}),
+                             ("t10", {"function": "TREASURY_YIELD", "interval": "monthly",
+                                      "maturity": "10year"})]:
+            if av_calls >= AV_BUDGET:
+                raise ValueError("budget reached")
+            av_calls += 1
+            j = get("https://www.alphavantage.co/query", {**params, "apikey": KEYS["av"]})
+            d = j.get("data")
+            if not d:
+                raise ValueError(f"no data for {name}")
+            e = {"date": d[0]["date"], "value": num(d[0]["value"])}
+            if name == "cpi" and len(d) >= 13 and num(d[12]["value"]):
+                e["yoy"] = round((e["value"] / num(d[12]["value"]) - 1) * 100, 2)
+            out[name] = e
+        return block("alphavantage", **out)
+    except Exception as e:
+        return prev if prev and not prev.get("error") else err("alphavantage", e)
+
+
+# ------------------------------------------------------------------ assembly
+
 def build(sym, prev):
     prev = prev or {}
     t = {"symbol": sym, "generated_at": now_iso()}
@@ -694,6 +744,8 @@ def build(sym, prev):
     t["earnings"] = get_earnings(sym, prev.get("earnings"))
     t["analysts"] = get_analysts(sym)
     t["extras"] = get_yf_extras(sym)
+    t["news"] = get_news(sym)
+    t["insiders"] = get_insiders(sym)
     t["peers"] = get_peers(sym, prev.get("peers"))
     return t
 
