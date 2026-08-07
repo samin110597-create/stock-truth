@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T17:13:16Z",
+ "generated_at": "2026-08-07T18:08:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T17:13:16Z",
-  "current": 275.09,
-  "change": 2.83,
-  "change_pct": 1.0394,
+  "fetched_at": "2026-08-07T18:08:08Z",
+  "current": 275.11,
+  "change": 2.85,
+  "change_pct": 1.0468,
   "high": 278.31,
   "low": 272.72,
   "open": 272.72,
   "prev_close": 272.26,
-  "ts": 1786122771
+  "ts": 1786126046
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T17:13:16Z",
+  "fetched_at": "2026-08-07T18:08:08Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T17:13:17Z",
+  "fetched_at": "2026-08-07T18:08:09Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 272.75,
     "high": 278.31,
     "low": 272.75,
-    "close": 275.04,
-    "volume": 3661404.0
+    "close": 275.12,
+    "volume": 4196376.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T17:13:17Z",
+  "fetched_at": "2026-08-07T18:08:09Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T17:13:18Z",
+  "fetched_at": "2026-08-07T18:08:10Z",
   "analyst_target_mean": 325.81232,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.625166,
+  "forward_pe": 26.621292,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T17:13:18Z",
+  "fetched_at": "2026-08-07T18:08:11Z",
   "rows": [
    {
     "ts": 1786120804,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T17:13:18Z",
+  "fetched_at": "2026-08-07T18:08:11Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
