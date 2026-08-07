@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T19:26:20Z",
+ "generated_at": "2026-08-07T20:04:14Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T19:26:20Z",
-  "current": 222.85,
-  "change": 3.86,
-  "change_pct": 1.7626,
+  "fetched_at": "2026-08-07T20:04:14Z",
+  "current": 223.96,
+  "change": 4.97,
+  "change_pct": 2.2695,
   "high": 224.76,
   "low": 220.66,
-  "open": 220.67,
+  "open": 221.54,
   "prev_close": 218.99,
-  "ts": 1786130746
+  "ts": 1786132800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T19:26:20Z",
+  "fetched_at": "2026-08-07T20:04:14Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T19:26:21Z",
+  "fetched_at": "2026-08-07T20:04:15Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 221.575,
     "high": 224.76,
     "low": 220.69,
-    "close": 222.79,
-    "volume": 15519516.0
+    "close": 223.89,
+    "volume": 18074203.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T19:26:21Z",
+  "fetched_at": "2026-08-07T20:04:15Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T19:26:22Z",
+  "fetched_at": "2026-08-07T20:04:15Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.285692,
+  "forward_pe": 17.37413,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T19:26:22Z",
+  "fetched_at": "2026-08-07T20:04:15Z",
   "rows": [
+   {
+    "ts": 1786129806,
+    "headline": "These dow jones stocks are moving in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a3d83ebddc2c112fffe1432302800858660d0afdb1fc35fdbb5ae7bdc724b5ac"
+   },
    {
     "ts": 1786125902,
     "headline": "Most active S&P500 stocks in Friday's session",
@@ -7515,19 +7521,13 @@
     "headline": "Fluor Corporation Q2 2026 Earnings Call Summary",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=912d2d51b12784814eaaeb6f1ba33b6cef8b7d06e38c094695c9884896193ccb"
-   },
-   {
-    "ts": 1786122672,
-    "headline": "AdvanSix Inc. Q2 2026 Earnings Call Summary",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=926149ce4c27c72582b3b76f15336fc8d0a8b896a67ef6411eb898d2a8861a5b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T19:26:22Z",
+  "fetched_at": "2026-08-07T20:04:15Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
