@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T16:13:17Z",
+ "generated_at": "2026-08-07T17:13:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:17Z",
-  "current": 354.57,
-  "change": -2.05,
-  "change_pct": -0.5748,
+  "fetched_at": "2026-08-07T17:13:27Z",
+  "current": 353.78,
+  "change": -2.84,
+  "change_pct": -0.7964,
   "high": 357.55,
   "low": 353.1,
   "open": 356.39,
   "prev_close": 356.62,
-  "ts": 1786119175
+  "ts": 1786122794
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:18Z",
+  "fetched_at": "2026-08-07T17:13:28Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T16:13:18Z",
+  "fetched_at": "2026-08-07T17:13:28Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 355.195,
     "high": 357.455,
     "low": 353.12,
-    "close": 354.575,
-    "volume": 1248780.0
+    "close": 353.92,
+    "volume": 1503332.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:18Z",
+  "fetched_at": "2026-08-07T17:13:28Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T16:13:18Z",
+  "fetched_at": "2026-08-07T17:13:29Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.060314,
+  "forward_pe": 24.00901,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:18Z",
+  "fetched_at": "2026-08-07T17:13:29Z",
   "rows": [
    {
-    "ts": 1786108800,
-    "headline": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
+    "ts": 1786117620,
+    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc0a385eddec39e6454a77f77ef1a753d42a583e89598823d20e8e2c09297652"
+    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
    },
    {
-    "ts": 1786106436,
-    "headline": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
+    "ts": 1786116630,
+    "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a94d36d20efed6f057e959b2548b02b0c6f181b7c8572cb703625795715ab22"
+    "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
    },
    {
-    "ts": 1786105343,
-    "headline": "Just How Wide Is the Risk Priced Into Adobe Stock?",
+    "ts": 1786116617,
+    "headline": "Price Prediction: Google Will Hit $400 on This Date",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a6db8a164cc7fdc44fc8087fa2990e971edf8365914efdd10c32b490e6f1ac2b"
+    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
    },
    {
-    "ts": 1786104078,
-    "headline": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield",
+    "ts": 1786116098,
+    "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f20092961ed1f4bca4df14606100558016cfa1e6010cae0c0cfdd379a815a6d0"
+    "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
    },
    {
-    "ts": 1786098601,
-    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
+    "ts": 1786115241,
+    "headline": "Microsoft Stock's Peak Margin And Its Azure Bill Are The Same Story",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
+    "url": "https://finnhub.io/api/news?id=85d69e978d8d45189fb1ac302c1bdbab625a224b6320fc2aec8a95faa83f2181"
    },
    {
-    "ts": 1786098180,
-    "headline": "Thryve.Earth Announces First Corporate Offtake Commitments to Restore 6,000 Hectares in Sulawesi, Indonesia",
+    "ts": 1786114304,
+    "headline": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6d1f7125d9a32d17f69c01cbf8e53441dc02566c0a93e731d2a4cffd53888977"
+    "url": "https://finnhub.io/api/news?id=56a4fd13d8835d2961a60928459cc9c809684a34038b7ae78bc24c8938a4e55d"
    },
    {
-    "ts": 1786097642,
-    "headline": "Why Is Rackspace Technology (RXT) Hiring A New AI Infrastructure Leader?",
+    "ts": 1786114270,
+    "headline": "Alphabet Is Borrowing $25 Billion to Keep the AI Buildout Going",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=60d2ca734f97d0e3234a6ea951287eb502d6910afe6b975f24b46decf1719d47"
+    "url": "https://finnhub.io/api/news?id=514d7199561237fbe319a57b024a432ffb7c65b04050729288fd1330a446697c"
    },
    {
-    "ts": 1786096800,
-    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
+    "ts": 1786113498,
+    "headline": "How AI Is Making Cybersecurity A Critical Tech Battlefield",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
+    "url": "https://finnhub.io/api/news?id=f8d3388930c0e6505d0cbd000f8bb4d60b31c4e06034ece14de1895465da342c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:19Z",
+  "fetched_at": "2026-08-07T17:13:29Z",
   "error": "no insider filings in six months"
  },
  "peers": {

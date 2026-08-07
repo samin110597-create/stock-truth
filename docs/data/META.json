@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T16:13:38Z",
+ "generated_at": "2026-08-07T17:13:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:38Z",
-  "current": 594.67,
-  "change": 4.77,
-  "change_pct": 0.8086,
+  "fetched_at": "2026-08-07T17:13:49Z",
+  "current": 591.54,
+  "change": 1.64,
+  "change_pct": 0.278,
   "high": 598.7399,
   "low": 585.62,
   "open": 587.465,
   "prev_close": 589.9,
-  "ts": 1786119199
+  "ts": 1786122795
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:38Z",
+  "fetched_at": "2026-08-07T17:13:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T16:13:38Z",
+  "fetched_at": "2026-08-07T17:13:50Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 585.63,
     "high": 598.64,
     "low": 585.62,
-    "close": 594.63,
-    "volume": 746976.0
+    "close": 591.57,
+    "volume": 854940.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:38Z",
+  "fetched_at": "2026-08-07T17:13:50Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T16:13:38Z",
+  "fetched_at": "2026-08-07T17:13:50Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.922268,
+  "forward_pe": 16.834751,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:39Z",
+  "fetched_at": "2026-08-07T17:13:50Z",
   "rows": [
+   {
+    "ts": 1786117620,
+    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
+   },
+   {
+    "ts": 1786117147,
+    "headline": "CoreWeave Faces a 15.5% Earnings Swing as AI Spending Gets Tested",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=bfc6c1c81e5a718b6165dbf210fb9b91ecfa35e3bf95e88eb71d2076ec691571"
+   },
+   {
+    "ts": 1786116617,
+    "headline": "Price Prediction: Google Will Hit $400 on This Date",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
+   },
+   {
+    "ts": 1786113650,
+    "headline": "Digitalbox targets 500 videos a month as Creator Network scales up, says CEO Carter",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=47c16391f2cf1a3446be8f889dfffd687af2e1ac990ed5cda693f5a7412c6d5d"
+   },
+   {
+    "ts": 1786113059,
+    "headline": "AppLovin Grows 53% and Beats on Profit. Here\u2019s Why We\u2019re Bullish.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=67617ae33dc1fed5d50e6ba585e9bf1234e140f7deb8eb5d39f27dfe9f23477c"
+   },
+   {
+    "ts": 1786111367,
+    "headline": "What we know about OpenAI's upcoming handheld device: Bloomberg",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=967b3561fa5591a1d7f13cbe22cde31fcb1b8768dd740d10fb82ee3df7fce16b"
+   },
    {
     "ts": 1786110754,
     "headline": "Meta ordered to pay $942M: Why the judge compared the company to 'noxious pollution'",
@@ -7485,49 +7521,13 @@
     "headline": "AMD Buys AI Chip Startup Taalas\u2014Here's Why It Matters To NVDA Investors",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b8cd12a80a0cfbab131f06af9535aa84f77246034875dec8c288a597e06147e7"
-   },
-   {
-    "ts": 1786105586,
-    "headline": "Meta Stock in Focus -- Judge Orders $567 Million Child Safety Payment",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=deaa7e2ebc11d89132cc1602c732b9ff90562baf68e86187f1f9dafdcc22b430"
-   },
-   {
-    "ts": 1786104549,
-    "headline": "5 Things to Know Before the Stock Market Opens on Friday",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d0a059539a3554b98e4037943eeadb7e2911ae3d1efcfcc7d9bd926cc89f5d6e"
-   },
-   {
-    "ts": 1786104023,
-    "headline": "Chamath Palihapitiya Says Meta Is Playing 'Scorched Earth' With AI Pricing\u2014 Its $0.69 Model Just Proved It Works",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ee81c7fe1695d9eaa273874e279a2f55b819b3d41b725f07be84204b7438b3ce"
-   },
-   {
-    "ts": 1786101822,
-    "headline": "British data centre operator to snub London for \u00a319bn stock market listing",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=01d268999be4728963a708090b17b4901a23d2e9d3aa85e88c46ff390068a719"
-   },
-   {
-    "ts": 1786099680,
-    "headline": "Where Will Meta Platforms Stock Be in 5 Years?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=97c22f3ca026ce1d2d3d0ab12133ab55abf0ea64d9279c92974285175ffba86f"
-   },
-   {
-    "ts": 1786098601,
-    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:39Z",
+  "fetched_at": "2026-08-07T17:13:51Z",
   "buys": 140,
   "sells": 262,
   "net_shares": 3201353.0,

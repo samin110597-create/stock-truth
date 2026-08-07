@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T16:13:28Z",
+ "generated_at": "2026-08-07T17:13:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:28Z",
-  "current": 223.58,
-  "change": 4.59,
-  "change_pct": 2.096,
+  "fetched_at": "2026-08-07T17:13:38Z",
+  "current": 221.85,
+  "change": 2.86,
+  "change_pct": 1.306,
   "high": 224.76,
   "low": 220.66,
   "open": 220.67,
   "prev_close": 218.99,
-  "ts": 1786119199
+  "ts": 1786122796
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:28Z",
+  "fetched_at": "2026-08-07T17:13:38Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T16:13:28Z",
+  "fetched_at": "2026-08-07T17:13:39Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 221.575,
     "high": 224.76,
     "low": 220.69,
-    "close": 223.59,
-    "volume": 10227852.0
+    "close": 221.82,
+    "volume": 12333016.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:28Z",
+  "fetched_at": "2026-08-07T17:13:39Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T16:13:29Z",
+  "fetched_at": "2026-08-07T17:13:39Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.336504,
+  "forward_pe": 17.208115,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:29Z",
+  "fetched_at": "2026-08-07T17:13:40Z",
   "rows": [
    {
-    "ts": 1786110924,
-    "headline": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=de8a0c6e7528c605679f714dfb5ae73fd5df6ceddfe17c24db932549b8437233"
+    "ts": 1786120804,
+    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
    },
    {
-    "ts": 1786109447,
-    "headline": "Prediction: After a Blowout Quarter, Shopify Will End The Year at This Price",
+    "ts": 1786117620,
+    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0e41d834879a0544c3539a2f87449a513cd03b7b28384759988db045686169e0"
+    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
    },
    {
-    "ts": 1786108800,
-    "headline": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
+    "ts": 1786117537,
+    "headline": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc0a385eddec39e6454a77f77ef1a753d42a583e89598823d20e8e2c09297652"
+    "url": "https://finnhub.io/api/news?id=0aea9636d79d1cb88c5b9e5e1ecdae685821d015ef5c60b52ef05611d780a249"
    },
    {
-    "ts": 1786108600,
-    "headline": "AMD Buys AI Chip Startup Taalas\u2014Here's Why It Matters To NVDA Investors",
+    "ts": 1786117354,
+    "headline": "Why The Trade Desk Stock Plunged to a New 7-Year Low Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b8cd12a80a0cfbab131f06af9535aa84f77246034875dec8c288a597e06147e7"
+    "url": "https://finnhub.io/api/news?id=60612b50ab9e9963c43e66e82f58f6c47680a623177ae40c27d0c6c6c2fa25c6"
    },
    {
-    "ts": 1786108560,
-    "headline": "Data Center Solutions Market to Reach US$1.33 Trillion by 2031 as AI and Hyperscale Investments Accelerate - Dell Technologies, Broadcom, NVIDIA, HPE, and Super Micro Computer Domi",
+    "ts": 1786117127,
+    "headline": "Here's Why Tower Semiconductor Stock Is Rocketing Higher Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8af7de367e1a4816a5a35d07546be5919128f3370d18e10e49b00a509916d64e"
+    "url": "https://finnhub.io/api/news?id=aeeaaa2ea75a3a5076de286b17f58a9b8cfacfdae7c5dbe60e1f60b18440947f"
    },
    {
-    "ts": 1786107812,
-    "headline": "Tom Lee Thinks 2027 Will Be \u201cOne of the Best Years\u201d for Stocks\u2014Why He\u2019s Got a Strong Case",
+    "ts": 1786116768,
+    "headline": "2 Stocks Positioned for the Rise as AI Self\u2011Healing Systems Move From Concept to Core Infrastructure",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c73526055ee9f51bb70dcf1d2b033e7a5aa4be0dcf8f44556c88019fbb41b2c9"
+    "url": "https://finnhub.io/api/news?id=db68eb39b2458cabcec00fe9ef2d25969741c9c659f837108c2fec70b07f2644"
    },
    {
-    "ts": 1786107650,
-    "headline": "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
+    "ts": 1786116637,
+    "headline": "The U.S. Didn\u2019t Buy a Drop of Saudi Oil in July \u2014 the First Time in 41 Years",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5fe19559f9d1e45e21cebe1df56fd30905886d747344df8b2034c80c3a89ec51"
+    "url": "https://finnhub.io/api/news?id=88af86372e33bd0ac9e93ed63bb8a914db36867e2a26f65ec837cad2c5db0126"
    },
    {
-    "ts": 1786107621,
-    "headline": "Wall Street Cheers Disney\u2019s Report. Here\u2019s Our New Price Target",
+    "ts": 1786116617,
+    "headline": "Price Prediction: Google Will Hit $400 on This Date",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1e3c7a8ba24e08e898ed4d2f26a7a8b65cfc07dd5788eea6442b923a4839387b"
+    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:29Z",
+  "fetched_at": "2026-08-07T17:13:40Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

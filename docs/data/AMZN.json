@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T16:13:07Z",
+ "generated_at": "2026-08-07T17:13:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:07Z",
-  "current": 277.47,
-  "change": 5.21,
-  "change_pct": 1.9136,
+  "fetched_at": "2026-08-07T17:13:16Z",
+  "current": 275.09,
+  "change": 2.83,
+  "change_pct": 1.0394,
   "high": 278.31,
   "low": 272.72,
   "open": 272.72,
   "prev_close": 272.26,
-  "ts": 1786119174
+  "ts": 1786122771
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:07Z",
+  "fetched_at": "2026-08-07T17:13:16Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T16:13:08Z",
+  "fetched_at": "2026-08-07T17:13:17Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 272.75,
     "high": 278.31,
     "low": 272.75,
-    "close": 277.405,
-    "volume": 2918456.0
+    "close": 275.04,
+    "volume": 3661404.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:08Z",
+  "fetched_at": "2026-08-07T17:13:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T16:13:08Z",
+  "fetched_at": "2026-08-07T17:13:18Z",
   "analyst_target_mean": 325.81232,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.850744,
+  "forward_pe": 26.625166,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:08Z",
+  "fetched_at": "2026-08-07T17:13:18Z",
   "rows": [
+   {
+    "ts": 1786120804,
+    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+   },
    {
     "ts": 1786117620,
     "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
@@ -7506,19 +7512,13 @@
     "headline": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=56a4fd13d8835d2961a60928459cc9c809684a34038b7ae78bc24c8938a4e55d"
-   },
-   {
-    "ts": 1786114270,
-    "headline": "Alphabet Is Borrowing $25 Billion to Keep the AI Buildout Going",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=514d7199561237fbe319a57b024a432ffb7c65b04050729288fd1330a446697c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T16:13:08Z",
+  "fetched_at": "2026-08-07T17:13:18Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
