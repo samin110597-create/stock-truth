@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T14:02:32Z",
+ "generated_at": "2026-08-07T15:14:52Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:32Z",
-  "current": 277.12,
-  "change": 4.86,
-  "change_pct": 1.7851,
+  "fetched_at": "2026-08-07T15:14:52Z",
+  "current": 276.8,
+  "change": 4.54,
+  "change_pct": 1.6675,
   "high": 277.86,
   "low": 272.72,
   "open": 272.72,
   "prev_close": 272.26,
-  "ts": 1786111323
+  "ts": 1786115666
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:32Z",
+  "fetched_at": "2026-08-07T15:14:52Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T14:02:33Z",
+  "fetched_at": "2026-08-07T15:14:53Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 272.75,
     "high": 277.86,
     "low": 272.75,
-    "close": 277.07,
-    "volume": 1289404.0
+    "close": 276.73,
+    "volume": 2374372.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:34Z",
+  "fetched_at": "2026-08-07T15:14:53Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T14:02:34Z",
+  "fetched_at": "2026-08-07T15:14:53Z",
   "analyst_target_mean": 325.81232,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.809114,
+  "forward_pe": 26.81202,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:34Z",
+  "fetched_at": "2026-08-07T15:14:54Z",
   "rows": [
+   {
+    "ts": 1786110924,
+    "headline": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=de8a0c6e7528c605679f714dfb5ae73fd5df6ceddfe17c24db932549b8437233"
+   },
+   {
+    "ts": 1786110263,
+    "headline": "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4929b051a5fc77de30dee4a55524465dacec0c18fe2e853ceb51a299bfe6bf22"
+   },
+   {
+    "ts": 1786109447,
+    "headline": "Prediction: After a Blowout Quarter, Shopify Will End The Year at This Price",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0e41d834879a0544c3539a2f87449a513cd03b7b28384759988db045686169e0"
+   },
    {
     "ts": 1786100700,
     "headline": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
@@ -7494,31 +7512,13 @@
     "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
-   },
-   {
-    "ts": 1786096800,
-    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
-   },
-   {
-    "ts": 1786094400,
-    "headline": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a25c345a2bf581d92f29fbaf7cd5d7a98754e33684e5a86739134b34e9233be1"
-   },
-   {
-    "ts": 1786094146,
-    "headline": "AMD: Buy The Dip - Market Is Mispricing Its Supply Leverage",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b6c0e20f791a8fefc10daa30a579f9ab3f7bd0a51b036b3374ac42872bcb74a4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:35Z",
+  "fetched_at": "2026-08-07T15:14:54Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

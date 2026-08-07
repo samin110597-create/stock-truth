@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T14:03:06Z",
+ "generated_at": "2026-08-07T15:15:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:03:06Z",
-  "current": 589.14,
-  "change": -0.76,
-  "change_pct": -0.1288,
-  "high": 597.0,
+  "fetched_at": "2026-08-07T15:15:33Z",
+  "current": 597.32,
+  "change": 7.42,
+  "change_pct": 1.2578,
+  "high": 598.7399,
   "low": 585.62,
   "open": 587.465,
   "prev_close": 589.9,
-  "ts": 1786111371
+  "ts": 1786115714
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:03:06Z",
+  "fetched_at": "2026-08-07T15:15:33Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T14:03:08Z",
+  "fetched_at": "2026-08-07T15:15:35Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-07",
     "open": 585.63,
-    "high": 596.91,
+    "high": 598.64,
     "low": 585.62,
-    "close": 589.43,
-    "volume": 334224.0
+    "close": 597.34,
+    "volume": 615628.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:03:08Z",
+  "fetched_at": "2026-08-07T15:15:35Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T14:03:08Z",
+  "fetched_at": "2026-08-07T15:15:35Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.761103,
+  "forward_pe": 16.9984,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:03:09Z",
+  "fetched_at": "2026-08-07T15:15:35Z",
   "rows": [
+   {
+    "ts": 1786110754,
+    "headline": "Meta ordered to pay $942M: Why the judge compared the company to 'noxious pollution'",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a0f17a50fed70e384689e1a766a7ec1188d84de58686e450ad27a312c9efd382"
+   },
+   {
+    "ts": 1786108600,
+    "headline": "AMD Buys AI Chip Startup Taalas\u2014Here's Why It Matters To NVDA Investors",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b8cd12a80a0cfbab131f06af9535aa84f77246034875dec8c288a597e06147e7"
+   },
+   {
+    "ts": 1786105586,
+    "headline": "Meta Stock in Focus -- Judge Orders $567 Million Child Safety Payment",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=deaa7e2ebc11d89132cc1602c732b9ff90562baf68e86187f1f9dafdcc22b430"
+   },
+   {
+    "ts": 1786104549,
+    "headline": "5 Things to Know Before the Stock Market Opens on Friday",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d0a059539a3554b98e4037943eeadb7e2911ae3d1efcfcc7d9bd926cc89f5d6e"
+   },
+   {
+    "ts": 1786104023,
+    "headline": "Chamath Palihapitiya Says Meta Is Playing 'Scorched Earth' With AI Pricing\u2014 Its $0.69 Model Just Proved It Works",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ee81c7fe1695d9eaa273874e279a2f55b819b3d41b725f07be84204b7438b3ce"
+   },
    {
     "ts": 1786101822,
     "headline": "British data centre operator to snub London for \u00a319bn stock market listing",
@@ -7491,43 +7521,13 @@
     "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
-   },
-   {
-    "ts": 1786097179,
-    "headline": "Meta Ordered to Pay $567 Million in Landmark Child Safety Ruling",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ed1fccea47cf171ae8afd93a22b9735819a81a82d7cadccb701db6ddf95fdd6"
-   },
-   {
-    "ts": 1786096800,
-    "headline": "embecta Announces Quarterly Cash Dividend",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fde715bf2f5e90ef1b7edb5897cbdd624755998a06f39b75b115cf25dee8f27d"
-   },
-   {
-    "ts": 1786096800,
-    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
-   },
-   {
-    "ts": 1786096800,
-    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
-   },
-   {
-    "ts": 1786096020,
-    "headline": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57c2d7e0e7d8d3ac0f97689890a2a38a03e8fc6079ea60f2c480bebac2e06c64"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:03:11Z",
+  "fetched_at": "2026-08-07T15:15:35Z",
   "buys": 140,
   "sells": 262,
   "net_shares": 3201353.0,

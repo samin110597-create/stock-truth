@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T14:02:44Z",
+ "generated_at": "2026-08-07T15:15:03Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:44Z",
-  "current": 353.99,
-  "change": -2.63,
-  "change_pct": -0.7375,
+  "fetched_at": "2026-08-07T15:15:03Z",
+  "current": 356.04,
+  "change": -0.58,
+  "change_pct": -0.1626,
   "high": 357.55,
-  "low": 353.5,
+  "low": 353.1,
   "open": 356.39,
   "prev_close": 356.62,
-  "ts": 1786111347
+  "ts": 1786115691
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:44Z",
+  "fetched_at": "2026-08-07T15:15:03Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T14:02:45Z",
+  "fetched_at": "2026-08-07T15:15:12Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-07",
     "open": 355.195,
     "high": 357.455,
-    "low": 353.56,
-    "close": 354.96,
-    "volume": 506576.0
+    "low": 353.12,
+    "close": 356.095,
+    "volume": 993380.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:45Z",
+  "fetched_at": "2026-08-07T15:15:12Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T14:02:46Z",
+  "fetched_at": "2026-08-07T15:15:12Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.03147,
+  "forward_pe": 24.161097,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,13 +7463,43 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:46Z",
+  "fetched_at": "2026-08-07T15:15:12Z",
   "rows": [
+   {
+    "ts": 1786108800,
+    "headline": "Not Micron, Not Nvidia. This Artificial Intelligence (AI) Giant Could Be the Ultimate Winner of the AI Arms Race.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=bc0a385eddec39e6454a77f77ef1a753d42a583e89598823d20e8e2c09297652"
+   },
+   {
+    "ts": 1786106436,
+    "headline": "Cloud AI Update - Fortude Revolutionizes ERP with AI-Driven Delivery Model",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0a94d36d20efed6f057e959b2548b02b0c6f181b7c8572cb703625795715ab22"
+   },
+   {
+    "ts": 1786105343,
+    "headline": "Just How Wide Is the Risk Priced Into Adobe Stock?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a6db8a164cc7fdc44fc8087fa2990e971edf8365914efdd10c32b490e6f1ac2b"
+   },
+   {
+    "ts": 1786104078,
+    "headline": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f20092961ed1f4bca4df14606100558016cfa1e6010cae0c0cfdd379a815a6d0"
+   },
    {
     "ts": 1786098601,
     "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
+   },
+   {
+    "ts": 1786098180,
+    "headline": "Thryve.Earth Announces First Corporate Offtake Commitments to Restore 6,000 Hectares in Sulawesi, Indonesia",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6d1f7125d9a32d17f69c01cbf8e53441dc02566c0a93e731d2a4cffd53888977"
    },
    {
     "ts": 1786097642,
@@ -7482,43 +7512,13 @@
     "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
-   },
-   {
-    "ts": 1786096800,
-    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
-   },
-   {
-    "ts": 1786096020,
-    "headline": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57c2d7e0e7d8d3ac0f97689890a2a38a03e8fc6079ea60f2c480bebac2e06c64"
-   },
-   {
-    "ts": 1786094400,
-    "headline": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a25c345a2bf581d92f29fbaf7cd5d7a98754e33684e5a86739134b34e9233be1"
-   },
-   {
-    "ts": 1786094146,
-    "headline": "AMD: Buy The Dip - Market Is Mispricing Its Supply Leverage",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b6c0e20f791a8fefc10daa30a579f9ab3f7bd0a51b036b3374ac42872bcb74a4"
-   },
-   {
-    "ts": 1786081682,
-    "headline": "Michael Burry Shares 'Three Great Charts' That Show Big AI Capex Could Unwind As Badly As Housing Did In 2008",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ace76c22af42fc5516268dd0f9a0a2bfce4c87a2ca22404fd54b8594cd824027"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T14:02:46Z",
+  "fetched_at": "2026-08-07T15:15:12Z",
   "error": "no insider filings in six months"
  },
  "peers": {
