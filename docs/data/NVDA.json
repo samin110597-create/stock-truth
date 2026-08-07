@@ -1,32 +1,32 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-06T15:03:59Z",
+ "generated_at": "2026-08-07T00:35:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:03:59Z",
-  "current": 218.25,
-  "change": -0.97,
-  "change_pct": -0.4425,
+  "fetched_at": "2026-08-07T00:35:36Z",
+  "current": 218.99,
+  "change": -0.23,
+  "change_pct": -0.1049,
   "high": 223.63,
-  "low": 218.15,
-  "open": 220.405,
+  "low": 217.0,
+  "open": 221.53,
   "prev_close": 219.22,
-  "ts": 1786028619
+  "ts": 1786046400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:03:59Z",
+  "fetched_at": "2026-08-07T00:35:36Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5305124061111.428,
+  "mcap": 5299558029510.006,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-06T15:04:03Z",
+  "fetched_at": "2026-08-07T00:35:36Z",
   "bars": [
    {
     "date": "2023-01-04",
@@ -7218,15 +7218,15 @@
     "high": 222.22,
     "low": 216.39999,
     "close": 219.22,
-    "volume": 156378175.0
+    "volume": 158187400.0
    },
    {
     "date": "2026-08-06",
     "open": 221.53,
-    "high": 223.61,
-    "low": 218.14,
-    "close": 218.16,
-    "volume": 6180816.0
+    "high": 223.6275,
+    "low": 217.27,
+    "close": 218.99001,
+    "volume": 113051990.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:04:04Z",
+  "fetched_at": "2026-08-07T00:35:36Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:04:04Z",
+  "fetched_at": "2026-08-07T00:35:36Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.907892,
+  "forward_pe": 16.988571,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7469,5 +7469,285 @@
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
+ },
+ "news": {
+  "source": "finnhub",
+  "fetched_at": "2026-08-07T00:35:36Z",
+  "rows": [
+   {
+    "ts": 1786060117,
+    "headline": "Why Occidental Stock Is Up Today",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5897de7a9f14126b2be0a7fabda0af77b65ddea1e65b985a71244332eb0b4b41"
+   },
+   {
+    "ts": 1786058400,
+    "headline": "Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ae536c97f62ba4c6946830706f4df90d764fd25dd62cc54469511d244f0869fc"
+   },
+   {
+    "ts": 1786058199,
+    "headline": "Brookfield (TSX:BN) Completed The Oaktree Acquisition",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7efe6485fb01ae4c33de469bde91cecc9497a02a426741fd45e9548c46b714df"
+   },
+   {
+    "ts": 1786057497,
+    "headline": "Why Dave Stock Got Thrashed on Thursday",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8b3b1d920a9366266ce6d57ec173ba86bbb82b27161bc245af26882c014f5a81"
+   },
+   {
+    "ts": 1786056851,
+    "headline": "Why Joby Aviation Stock Flew Higher Today",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=23207dbabed900c295af2d103b3fa5243d5db0358cdb79b64854e84f61f28a76"
+   },
+   {
+    "ts": 1786056837,
+    "headline": "Nuveen Churchill Direct Lending Corp. Q2 2026 Earnings Call Summary",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=badf1941152c2b36f10597a25757bd5f78572737ba18b5acc15d51756e167403"
+   },
+   {
+    "ts": 1786056397,
+    "headline": "Haemonetics Corporation Q1 2027 Earnings Call Summary",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e8e3fcced1a4876ff91714e616b8aa00875fdbd039cb88e2ae4c588c1ef00bf7"
+   },
+   {
+    "ts": 1786056270,
+    "headline": "Ralph Lauren Corporation Q1 2027 Earnings Call Summary",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=2db12284c0c8a1fad8fd296d8fcb3c5872b9e512865ff4ea10f1dfb8cc35e0b7"
+   }
+  ],
+  "days": 14
+ },
+ "insiders": {
+  "source": "finnhub",
+  "fetched_at": "2026-08-07T00:35:36Z",
+  "buys": 17,
+  "sells": 62,
+  "net_shares": -3344164.0,
+  "months": 6,
+  "recent": [
+   {
+    "name": "COXE TENCH",
+    "date": "2026-07-01",
+    "change": -500000.0,
+    "price": 0.0
+   },
+   {
+    "name": "STEVENS MARK A",
+    "date": "2026-06-18",
+    "change": -565615.0,
+    "price": 210.4372
+   },
+   {
+    "name": "STEVENS MARK A",
+    "date": "2026-06-18",
+    "change": -319385.0,
+    "price": 209.6952
+   },
+   {
+    "name": "Teter Timothy S.",
+    "date": "2026-06-17",
+    "change": -35742.0,
+    "price": 207.41
+   },
+   {
+    "name": "Kress Colette",
+    "date": "2026-06-17",
+    "change": -40746.0,
+    "price": 207.41
+   }
+  ]
+ },
+ "peers": {
+  "source": "finnhub+yfinance",
+  "fetched_at": "2026-08-07T00:35:41Z",
+  "peers": [
+   {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc.",
+    "mcap": 2000871751680.0,
+    "pe": 69.8613,
+    "forward_pe": 21.576332,
+    "pb": 22.819588,
+    "ps": 26.513905,
+    "ev_ebitda": 48.621,
+    "peg": 0.4376,
+    "gross_margin": 0.76284,
+    "op_margin": 0.48988,
+    "net_margin": 0.38848,
+    "fcf_margin": 0.3605943083591944,
+    "roe": 0.37280998,
+    "debt_to_equity": 0.7401800000000001,
+    "rev_growth": 0.479,
+    "fcf_yield": 0.013600196546905953
+   },
+   {
+    "symbol": "MU",
+    "name": "Micron Technology, Inc.",
+    "mcap": null,
+    "pe": 19.897743,
+    "forward_pe": 5.6663194,
+    "pb": 9.880289,
+    "ps": null,
+    "ev_ebitda": 14.499,
+    "peg": 0.1209,
+    "gross_margin": 0.72569,
+    "op_margin": 0.80370003,
+    "net_margin": 0.55906,
+    "fcf_margin": 0.08462569562445695,
+    "roe": 0.66638,
+    "debt_to_equity": 0.0633,
+    "rev_growth": 3.457,
+    "fcf_yield": null
+   },
+   {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "mcap": null,
+    "pe": 125.456406,
+    "forward_pe": 35.15564,
+    "pb": 11.878323,
+    "ps": null,
+    "ev_ebitda": 82.584,
+    "peg": 1.116,
+    "gross_margin": 0.55724,
+    "op_margin": 0.1725,
+    "net_margin": 0.15577,
+    "fcf_margin": 0.21405396981762315,
+    "roe": 0.10196,
+    "debt_to_equity": 0.06361,
+    "rev_growth": 0.501,
+    "fcf_yield": null
+   },
+   {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "mcap": 503441588224.0,
+    "pe": null,
+    "forward_pe": 48.460632,
+    "pb": 5.7497554,
+    "ps": 8.827353,
+    "ev_ebitda": 32.058,
+    "peg": null,
+    "gross_margin": 0.38873002,
+    "op_margin": 0.12189999,
+    "net_margin": -0.19794,
+    "fcf_margin": 0.0853271007800441,
+    "roe": -0.10715,
+    "debt_to_equity": 0.48997,
+    "rev_growth": 0.254,
+    "fcf_yield": 0.009666216065238471
+   },
+   {
+    "symbol": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "mcap": 254248140800.0,
+    "pe": 42.310028,
+    "forward_pe": 26.756752,
+    "pb": 14.1154995,
+    "ps": 13.069868,
+    "ev_ebitda": 27.382,
+    "peg": 1.2506,
+    "gross_margin": 0.58325,
+    "op_margin": 0.42576998,
+    "net_margin": 0.31111,
+    "fcf_margin": 0.18224695966272694,
+    "roe": 0.35176,
+    "debt_to_equity": 0.78036,
+    "rev_growth": 0.228,
+    "fcf_yield": 0.013944054956880928
+   },
+   {
+    "symbol": "MRVL",
+    "name": "Marvell Technology, Inc.",
+    "mcap": 188969009152.0,
+    "pe": 72.35051,
+    "forward_pe": 33.735302,
+    "pb": 10.120169,
+    "ps": 21.677967,
+    "ev_ebitda": 68.442,
+    "peg": 1.06,
+    "gross_margin": 0.51502997,
+    "op_margin": 0.14479999,
+    "net_margin": 0.28986,
+    "fcf_margin": 0.2603732993390066,
+    "roe": 0.16028,
+    "debt_to_equity": 0.2897,
+    "rev_growth": 0.276,
+    "fcf_yield": 0.012010964687730004
+   },
+   {
+    "symbol": "ADI",
+    "name": "Analog Devices, Inc.",
+    "mcap": null,
+    "pe": 56.063892,
+    "forward_pe": 25.049843,
+    "pb": 5.4467106,
+    "ps": null,
+    "ev_ebitda": 30.773,
+    "peg": 0.6724,
+    "gross_margin": 0.64491,
+    "op_margin": 0.38076,
+    "net_margin": 0.26007998,
+    "fcf_margin": 0.30368099910019575,
+    "roe": 0.09639,
+    "debt_to_equity": 0.2581,
+    "rev_growth": 0.372,
+    "fcf_yield": null
+   },
+   {
+    "symbol": "QCOM",
+    "name": "QUALCOMM Incorporated",
+    "mcap": 168409497600.0,
+    "pe": 18.35126,
+    "forward_pe": 15.576456,
+    "pb": 6.129476,
+    "ps": 3.8214958,
+    "ev_ebitda": 14.619,
+    "peg": 0.6905,
+    "gross_margin": 0.54226,
+    "op_margin": 0.18528,
+    "net_margin": 0.21013,
+    "fcf_margin": 0.23238559171628156,
+    "roe": 0.33754003,
+    "debt_to_equity": 0.5521,
+    "rev_growth": -0.04,
+    "fcf_yield": 0.0608101122201792
+   }
+  ],
+  "n": 8,
+  "median": {
+   "pe": 56.063892,
+   "forward_pe": 25.9032975,
+   "pb": 10.000229000000001,
+   "ps": 13.069868,
+   "ev_ebitda": 31.4155,
+   "peg": 0.6905,
+   "gross_margin": 0.570245,
+   "op_margin": 0.28302,
+   "net_margin": 0.27496999,
+   "fcf_margin": 0.22321978076695237,
+   "roe": 0.24891001499999998,
+   "debt_to_equity": 0.38983500000000004,
+   "rev_growth": 0.324,
+   "fcf_yield": 0.013600196546905953
+  },
+  "peer_symbols": [
+   "AVGO",
+   "MU",
+   "AMD",
+   "INTC",
+   "TXN",
+   "MRVL",
+   "ADI",
+   "QCOM"
+  ]
  }
 }

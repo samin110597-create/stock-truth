@@ -1,32 +1,32 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-06T15:03:36Z",
+ "generated_at": "2026-08-07T00:35:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:03:36Z",
-  "current": 273.71,
-  "change": 1.06,
-  "change_pct": 0.3888,
+  "fetched_at": "2026-08-07T00:35:05Z",
+  "current": 272.26,
+  "change": -0.39,
+  "change_pct": -0.143,
   "high": 275.48,
-  "low": 272.26,
-  "open": 272.9675,
+  "low": 271.061,
+  "open": 272.765,
   "prev_close": 272.65,
-  "ts": 1786028594
+  "ts": 1786046400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:03:36Z",
+  "fetched_at": "2026-08-07T00:35:05Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2940888777990.2607,
+  "mcap": 2936681907267.451,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-06T15:03:38Z",
+  "fetched_at": "2026-08-07T00:35:06Z",
   "bars": [
    {
     "date": "2023-01-04",
@@ -7216,17 +7216,17 @@
     "date": "2026-08-05",
     "open": 281.59,
     "high": 282.79001,
-    "low": 270.73999,
+    "low": 270.73001,
     "close": 272.64999,
-    "volume": 42366662.0
+    "volume": 45119800.0
    },
    {
     "date": "2026-08-06",
-    "open": 272.825,
-    "high": 275.475,
-    "low": 272.28,
-    "close": 273.67,
-    "volume": 1692304.0
+    "open": 272.76501,
+    "high": 275.48001,
+    "low": 271.084503,
+    "close": 272.26001,
+    "volume": 27906615.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-06T15:03:39Z",
+  "fetched_at": "2026-08-07T00:35:06Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:03:39Z",
-  "analyst_target_mean": 323.29083,
+  "fetched_at": "2026-08-07T00:35:06Z",
+  "analyst_target_mean": 323.24164,
   "analyst_target_low": 207.0,
   "analyst_target_high": 400.0,
   "analyst_count": 61.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.503178,
+  "forward_pe": 26.358925,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7460,5 +7460,285 @@
   "insiders_pct": 0.0888,
   "beta": 1.454,
   "next_earnings": 1785441600
+ },
+ "news": {
+  "source": "finnhub",
+  "fetched_at": "2026-08-07T00:35:06Z",
+  "rows": [
+   {
+    "ts": 1786056369,
+    "headline": "Bezos\u2019s $4 Billion Amazon Sale Was Scheduled Before the Earnings Beat",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ad63021994872e2f13565ecfef0e9243af7f071fc83de04ea82acd9b305ec342"
+   },
+   {
+    "ts": 1786052922,
+    "headline": "The Unspoken Agreement You've Made Holding Meta Platforms Stock",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d"
+   },
+   {
+    "ts": 1786050429,
+    "headline": "$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb"
+   },
+   {
+    "ts": 1786045052,
+    "headline": "Microsoft is starting to show its payoff on major AI plays",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=bc6a2e0d97633493aadf2f6bf9ac9b9d6a67ef55a61aa4f595063544326de6db"
+   },
+   {
+    "ts": 1786044480,
+    "headline": "Sandisk Earnings Were So Much Better Than Expected. Why the Stock Is Dropping Anyway.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3e2eb514a202224b5ca002d894a99a1c1c384ceb759e0ec03c183e700f51ddad"
+   },
+   {
+    "ts": 1786043880,
+    "headline": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=57603d1a020e2b3568d6c0b3107417d3444e02235d9135af613c004098080a3d"
+   },
+   {
+    "ts": 1786043700,
+    "headline": "The Fed\u2019s Next Rate Move Might Actually Be a Cut. How the Market Would React.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1ce8a62aa27bcdfbd19b52897e3533d61c1ea6495f24ac57fd10c00027a7df4a"
+   },
+   {
+    "ts": 1786041396,
+    "headline": "What Microsoft Stock's Thin Earnings Premium Is Actually Buying",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=051e1810bc53937f396e29f6b8f45d646c87f577e447bd9753a4c648b23042d2"
+   }
+  ],
+  "days": 14
+ },
+ "insiders": {
+  "source": "finnhub",
+  "fetched_at": "2026-08-07T00:35:07Z",
+  "buys": 43,
+  "sells": 112,
+  "net_shares": -2107473.0,
+  "months": 6,
+  "recent": [
+   {
+    "name": "Herrington Douglas J",
+    "date": "2026-08-03",
+    "change": -1000.0,
+    "price": 278.39
+   },
+   {
+    "name": "BEZOS JEFFREY P",
+    "date": "2026-08-03",
+    "change": -1209649.0,
+    "price": 286.4083
+   },
+   {
+    "name": "Herrington Douglas J",
+    "date": "2026-07-01",
+    "change": -1000.0,
+    "price": 239.77
+   },
+   {
+    "name": "Herrington Douglas J",
+    "date": "2026-06-01",
+    "change": -1000.0,
+    "price": 266.19
+   },
+   {
+    "name": "Zapolsky David",
+    "date": "2026-05-22",
+    "change": -9270.0,
+    "price": 268.53
+   }
+  ]
+ },
+ "peers": {
+  "source": "finnhub+yfinance",
+  "fetched_at": "2026-08-07T00:35:12Z",
+  "peers": [
+   {
+    "symbol": "EBAY",
+    "name": "eBay Inc.",
+    "mcap": 48902160384.0,
+    "pe": 25.43649,
+    "forward_pe": 16.44126,
+    "pb": 10.716093,
+    "ps": 4.2142506,
+    "ev_ebitda": 17.677,
+    "peg": 1.7092,
+    "gross_margin": 0.71786004,
+    "op_margin": 0.23146999,
+    "net_margin": 0.17615,
+    "fcf_margin": 0.10344493851102243,
+    "roe": 0.42875,
+    "debt_to_equity": 1.63327,
+    "rev_growth": 0.195,
+    "fcf_yield": 0.02454646237659356
+   },
+   {
+    "symbol": "CPNG",
+    "name": "Coupang, Inc.",
+    "mcap": 29389316096.0,
+    "pe": null,
+    "forward_pe": 65.1758,
+    "pb": 9.808039,
+    "ps": 0.82875514,
+    "ev_ebitda": -614.852,
+    "peg": 0.4477,
+    "gross_margin": 0.28354,
+    "op_margin": -0.06278,
+    "net_margin": -0.02163,
+    "fcf_margin": -0.006947577789000909,
+    "roe": -0.19995001,
+    "debt_to_equity": 1.88584,
+    "rev_growth": 0.039,
+    "fcf_yield": -0.008383148733206915
+   },
+   {
+    "symbol": "DDS",
+    "name": "Dillard's, Inc.",
+    "mcap": null,
+    "pe": 14.674673,
+    "forward_pe": 18.11183,
+    "pb": 4.7583685,
+    "ps": null,
+    "ev_ebitda": 10.261,
+    "peg": null,
+    "gross_margin": 0.40506,
+    "op_margin": 0.13981,
+    "net_margin": 0.09946,
+    "fcf_margin": 0.07725041341859915,
+    "roe": 0.33832002,
+    "debt_to_equity": 0.27417,
+    "rev_growth": 0.027,
+    "fcf_yield": null
+   },
+   {
+    "symbol": "ETSY",
+    "name": "Etsy, Inc.",
+    "mcap": 7806164480.0,
+    "pe": 31.517244,
+    "forward_pe": 12.319018,
+    "pb": -6.865871,
+    "ps": 2.6893938,
+    "ev_ebitda": 22.318,
+    "peg": 0.797,
+    "gross_margin": 0.71554,
+    "op_margin": 0.18985,
+    "net_margin": 0.09811,
+    "fcf_margin": 0.05707192975415808,
+    "roe": null,
+    "debt_to_equity": null,
+    "rev_growth": 0.031,
+    "fcf_yield": 0.02122111370115532
+   },
+   {
+    "symbol": "M",
+    "name": "Macy's Inc",
+    "mcap": 6610143744.0,
+    "pe": 10.384296,
+    "forward_pe": 10.790779,
+    "pb": 1.3665779,
+    "ps": 0.29093942,
+    "ev_ebitda": 7.404,
+    "peg": 3.2445,
+    "gross_margin": 0.40308,
+    "op_margin": 0.01758,
+    "net_margin": 0.029360002,
+    "fcf_margin": 0.032961047887323944,
+    "roe": 0.14363,
+    "debt_to_equity": 1.05623,
+    "rev_growth": 0.021,
+    "fcf_yield": 0.11329178865130592
+   },
+   {
+    "symbol": "OLLI",
+    "name": "Ollie's Bargain Outlet Holdings",
+    "mcap": 4713543168.0,
+    "pe": 19.299505,
+    "forward_pe": 15.437892,
+    "pb": 2.501845,
+    "ps": 1.7257135,
+    "ev_ebitda": 14.115,
+    "peg": null,
+    "gross_margin": 0.40708,
+    "op_margin": 0.10556,
+    "net_margin": 0.09132,
+    "fcf_margin": 0.04970291243035789,
+    "roe": 0.13781,
+    "debt_to_equity": 0.37579999999999997,
+    "rev_growth": 0.142,
+    "fcf_yield": 0.028801368983240424
+   },
+   {
+    "symbol": "PTRN",
+    "name": "Pattern Group Inc. - Series A",
+    "mcap": 4384179200.0,
+    "pe": null,
+    "forward_pe": 29.567266,
+    "pb": 6.399189,
+    "ps": 1.6032039,
+    "ev_ebitda": 71.94,
+    "peg": null,
+    "gross_margin": 0.43694,
+    "op_margin": 0.05114,
+    "net_margin": 0.00829,
+    "fcf_margin": 0.032936466478914586,
+    "roe": 0.04479,
+    "debt_to_equity": 0.05096,
+    "rev_growth": 0.432,
+    "fcf_yield": 0.02054415293973385
+   },
+   {
+    "symbol": "KSS",
+    "name": "Kohl's Corporation",
+    "mcap": null,
+    "pe": 7.752101,
+    "forward_pe": 12.4512415,
+    "pb": 0.51809835,
+    "ps": null,
+    "ev_ebitda": 6.859,
+    "peg": 2.0952,
+    "gross_margin": 0.40521,
+    "op_margin": 0.014520001,
+    "net_margin": 0.01766,
+    "fcf_margin": 0.05220393130954305,
+    "roe": 0.069970004,
+    "debt_to_equity": 1.62351,
+    "rev_growth": -0.02,
+    "fcf_yield": null
+   }
+  ],
+  "n": 8,
+  "median": {
+   "pe": 16.987089,
+   "forward_pe": 15.939575999999999,
+   "pb": 3.6301067499999995,
+   "ps": 1.6644587,
+   "ev_ebitda": 12.187999999999999,
+   "peg": 1.7092,
+   "gross_margin": 0.406145,
+   "op_margin": 0.07835,
+   "net_margin": 0.060340001,
+   "fcf_margin": 0.05095342186995047,
+   "roe": 0.13781,
+   "debt_to_equity": 1.05623,
+   "rev_growth": 0.035,
+   "fcf_yield": 0.02288378803887444
+  },
+  "peer_symbols": [
+   "EBAY",
+   "CPNG",
+   "DDS",
+   "ETSY",
+   "M",
+   "OLLI",
+   "PTRN",
+   "KSS"
+  ]
  }
 }
