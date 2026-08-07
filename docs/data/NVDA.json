@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T20:04:14Z",
+ "generated_at": "2026-08-07T21:05:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:14Z",
+  "fetched_at": "2026-08-07T21:05:40Z",
   "current": 223.96,
   "change": 4.97,
   "change_pct": 2.2695,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:14Z",
+  "fetched_at": "2026-08-07T21:05:40Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T20:04:15Z",
+  "fetched_at": "2026-08-07T21:05:41Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:15Z",
+  "fetched_at": "2026-08-07T21:05:41Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T20:04:15Z",
+  "fetched_at": "2026-08-07T21:05:41Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:15Z",
+  "fetched_at": "2026-08-07T21:05:41Z",
   "rows": [
    {
-    "ts": 1786129806,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a3d83ebddc2c112fffe1432302800858660d0afdb1fc35fdbb5ae7bdc724b5ac"
-   },
-   {
-    "ts": 1786125902,
-    "headline": "Most active S&P500 stocks in Friday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=21ae4947413e462bde9ae3d01a07161031a4fd3833a2d40315510d88e2728fba"
-   },
-   {
-    "ts": 1786125600,
-    "headline": "Curious about the most active stocks on Friday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=6f4edb3908e5710aaecd62be546b7e42e4c7cdae0fbc8a9b3ec03b42a0b4cd21"
-   },
-   {
-    "ts": 1786124561,
-    "headline": "Why Palantir Technologies Stock Skyrocketed (Again) Today",
+    "ts": 1786132167,
+    "headline": "Nvidia Faces New Pressure From U.S. Government",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d8080581772b2a9e4bcb2b806f1fc0bd2be65075ccd3e9d4e345f18f05965e58"
+    "url": "https://finnhub.io/api/news?id=a8dd001fa7bb111253999c4c6ae39e618ce9d380cb4757de2e33efedfc865dbd"
    },
    {
-    "ts": 1786123858,
-    "headline": "Spotify and Pinterest Delivered the Growth. Investors Wanted More",
+    "ts": 1786132080,
+    "headline": "Pfizer's Next Weight-Loss Weapon: How Berobenatide Stacks Up Against Novo Nordisk's Wegovy and Eli Lilly's Zepbound",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4dd3db877db44bd08a6f00438fda683a2a143a5af76a1a6a33f29212331d90c8"
+    "url": "https://finnhub.io/api/news?id=95eb0a6e7ed26b9db1538aa2bc11fd40ec517b5700ac99dccdad84c6f0f2e0c1"
    },
    {
-    "ts": 1786123500,
-    "headline": "This Power Stock Could Be a Big Winner From the Data Center Boom",
+    "ts": 1786132058,
+    "headline": "Michael Burry Sounds Alarm on Major AI Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2124e566c525e93159091027d5978ea1ab9815fceee190c4d5262e798c84c2a1"
+    "url": "https://finnhub.io/api/news?id=d04af52a3bc24c58728b3319f664d3fea346fd5f124519418e432fc3ebe9ebf8"
    },
    {
-    "ts": 1786123201,
-    "headline": "Oklo's Groves Reactor Just Achieved First Criticality. Here's What It Means for OKLO Stock.",
+    "ts": 1786131760,
+    "headline": "Why Rocket Lab Stock Took Flight on Friday",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7310388a23bc723fb39bdc988afa59325ad018c854cddd82951d2e068d52105c"
+    "url": "https://finnhub.io/api/news?id=ce56f659586a82d67e427dd676ca63a202afcf134cb9bcb943ee308f81dfb0e8"
    },
    {
-    "ts": 1786122693,
-    "headline": "Fluor Corporation Q2 2026 Earnings Call Summary",
+    "ts": 1786131601,
+    "headline": "U.S. Economy Unexpectedly Lost 23,000 Jobs in July, Signaling a Weakening Labor Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=912d2d51b12784814eaaeb6f1ba33b6cef8b7d06e38c094695c9884896193ccb"
+    "url": "https://finnhub.io/api/news?id=462380997e2673ebc08bef958c0dfa5cbedf3568ed4d705c7bcfe2799cd667cf"
+   },
+   {
+    "ts": 1786130700,
+    "headline": "3 High-Yield Dividend Stocks Worth Buying Now",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=599bedfd59c36de3a7070d932a4f7ea18acf40ec6930ac0f2e4c9243051778f6"
+   },
+   {
+    "ts": 1786130511,
+    "headline": "Nvidia Stock Rises 2.2% as SpaceX Commits to Its Chips",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e1e9714ff169664d3fbe8c4fa5dfddb6309ce3115f715f86cb177d165422b081"
+   },
+   {
+    "ts": 1786129993,
+    "headline": "MARA Holdings Falls 7%, Cipher Mining Drops 6%, TeraWulf Slides 4% as Q2 Losses Outweigh Bitcoin\u2019s $65K Push",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9a53bc85fcc9cd8d873b33ef2ca33a68c344081d39f8ae8e636bf52edfae97f0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:15Z",
+  "fetched_at": "2026-08-07T21:05:42Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

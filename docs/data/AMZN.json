@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T20:03:51Z",
+ "generated_at": "2026-08-07T21:05:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:03:52Z",
+  "fetched_at": "2026-08-07T21:05:18Z",
   "current": 274.48,
   "change": 2.22,
   "change_pct": 0.8154,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:03:52Z",
+  "fetched_at": "2026-08-07T21:05:18Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T20:03:53Z",
+  "fetched_at": "2026-08-07T21:05:19Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:03:53Z",
+  "fetched_at": "2026-08-07T21:05:19Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T20:03:53Z",
+  "fetched_at": "2026-08-07T21:05:20Z",
   "analyst_target_mean": 325.81232,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:03:53Z",
+  "fetched_at": "2026-08-07T21:05:20Z",
   "rows": [
+   {
+    "ts": 1786129132,
+    "headline": "Trade Desk's Downbeat Guidance Indicates Macro, Structural Issues, Wedbush Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=81d5c259f7f8b00c343b2490a3f5740583512833338b960504acfc44001f48ea"
+   },
+   {
+    "ts": 1786128600,
+    "headline": "\u2018Your refund: $0\u2019: Companies claim billions in tariff refunds, months after Trump floated $2,000 checks",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b9e0d0522cd492921f47b9424e5ec45c72a30455df7feadfc95d99831fa41e97"
+   },
+   {
+    "ts": 1786127594,
+    "headline": "Jim Cramer Reveals How Alphabet Inc (NASDAQ:GOOGL) Can Reverse Recent Weakness",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c1f1e83c52fe4185959089c65c45865e9ab18a9f0d62ce6eb6de20abc7ff77e3"
+   },
+   {
+    "ts": 1786125633,
+    "headline": "Amazon vs MercadoLibre: Two E-Commerce Titans, Only One is The Smarter Buy Now",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=930d3845552a8237a39e2137001b50aa4f60211ad8e5481657650372ab423f78"
+   },
+   {
+    "ts": 1786123824,
+    "headline": "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery\u2014 'Hope You...'",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=21473c8117dc411f18b6d6caf548a149f11730784ae31cd1f876fbf5e179d06c"
+   },
+   {
+    "ts": 1786123560,
+    "headline": "AI Boom: Top Stocks to Consider for Your Portfolio",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df"
+   },
+   {
+    "ts": 1786120980,
+    "headline": "This AI Stock Is Surging. Can It Shake the \u2018Meme Stock\u2019 Label?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6d940044b03631c8863a412c808f0033a63813cedbde67cf5f31e4aa9ddf3c30"
+   },
    {
     "ts": 1786120804,
     "headline": "Exploring the top movers within the dow jones index during today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
-   },
-   {
-    "ts": 1786120712,
-    "headline": "Microsoft Is Winning the AI Cash Flow Test",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
-   },
-   {
-    "ts": 1786120500,
-    "headline": "Amazon's $220 billion AI bet hits a snag: Trainium 2 chips are only 20 months old and already being replaced",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4bd99db423abcc1ab517a6122033da4db790f2332b31a51f41e778c03deec110"
-   },
-   {
-    "ts": 1786117920,
-    "headline": "LaFontaine Automotive Group Joins Amazon Autos Marketplace with More Than 40 Retail Locations in Michigan",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7f322373c76f17361af4294f78169c914d9abc17f2471e0c69e4391a80f2c192"
-   },
-   {
-    "ts": 1786117620,
-    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
-   },
-   {
-    "ts": 1786117537,
-    "headline": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0aea9636d79d1cb88c5b9e5e1ecdae685821d015ef5c60b52ef05611d780a249"
-   },
-   {
-    "ts": 1786116630,
-    "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
-   },
-   {
-    "ts": 1786116098,
-    "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:03:53Z",
+  "fetched_at": "2026-08-07T21:05:20Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

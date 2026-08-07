@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T20:04:24Z",
+ "generated_at": "2026-08-07T21:05:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:24Z",
+  "fetched_at": "2026-08-07T21:05:51Z",
   "current": 592.1,
   "change": 2.2,
   "change_pct": 0.3729,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:24Z",
+  "fetched_at": "2026-08-07T21:05:51Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T20:04:25Z",
+  "fetched_at": "2026-08-07T21:05:51Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:25Z",
+  "fetched_at": "2026-08-07T21:05:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T20:04:25Z",
+  "fetched_at": "2026-08-07T21:05:52Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:26Z",
+  "fetched_at": "2026-08-07T21:05:52Z",
   "rows": [
+   {
+    "ts": 1786132574,
+    "headline": "Meta Faces New Risk After Major Court Ruling",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d98352a8aab6059ea711ec2b6f49026a2671a0b82cb471f6bfe1b16cf5c6626a"
+   },
+   {
+    "ts": 1786132397,
+    "headline": "Meta Stock Rises 1.2% Despite $942 Million Child-Safety Judgment",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3c98bb29285deb70a7ac4d247034a233888a660561c8441f9df0cac8f844b088"
+   },
+   {
+    "ts": 1786131340,
+    "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d"
+   },
+   {
+    "ts": 1786127637,
+    "headline": "Jim Cramer Believes Meta Platforms, Inc. (NASDAQ:META) Can Do Better",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3cb1361ff8f8bc66ac9ffc3e422d7749358173a7d02c1bc22dcb62eb7a892b22"
+   },
+   {
+    "ts": 1786126316,
+    "headline": "What Does Meta (META) Have To Change After The $942 Million Teen Safety Ruling?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=390018fee8a3475111caf865cfd24563b3a80a59905f24b4c8233776f457b0f8"
+   },
    {
     "ts": 1786124100,
     "headline": "Meta was just slapped with a $942-million bill for harming kids \u2014 it makes that back in roughly five days",
@@ -7481,53 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=58dcb86bc7b5685028396d7e11008dc9fda1f7f29b813f75edbe48fd009de0fd"
    },
    {
+    "ts": 1786123560,
+    "headline": "AI Boom: Top Stocks to Consider for Your Portfolio",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df"
+   },
+   {
     "ts": 1786122904,
     "headline": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=8a04b188f365233da442517ab5957903f315805ccb9c5708dc0b6fc567677663"
-   },
-   {
-    "ts": 1786122049,
-    "headline": "Alphabet\u2019s Cloud vs Meta\u2019s Superintelligence: Who Wins Q2?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4ba5304c5624927085ae5daf141a012ca78fba3ef410f8caa1526f80f42a30bd"
-   },
-   {
-    "ts": 1786121222,
-    "headline": "Meta's Legal Bill Just Climbed to $942 Million",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1926a2801c647b54591d07a9fe1a7b05e26b4b022d330b3a33017cb3bee9604a"
-   },
-   {
-    "ts": 1786120712,
-    "headline": "Microsoft Is Winning the AI Cash Flow Test",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
-   },
-   {
-    "ts": 1786119959,
-    "headline": "Meta Ruling Could Become a Blueprint for More Child-Safety Suits",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3b81c07395fc7752dd4edc1ab2efcb683421516a9af739dd10ff3a3fc899da43"
-   },
-   {
-    "ts": 1786118100,
-    "headline": "Meta\u2019s $942 Million Penalty Is Small, but the Legal Risk Is Growing",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=18faacea08776f6fbf9ab7d7183d6a4d6d795041fe2fe73c16174e9ed757a2f8"
-   },
-   {
-    "ts": 1786117620,
-    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:26Z",
+  "fetched_at": "2026-08-07T21:05:52Z",
   "buys": 140,
   "sells": 262,
   "net_shares": 3201353.0,

@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T20:04:02Z",
+ "generated_at": "2026-08-07T21:05:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:03Z",
+  "fetched_at": "2026-08-07T21:05:29Z",
   "current": 353.47,
   "change": -3.15,
   "change_pct": -0.8833,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:03Z",
+  "fetched_at": "2026-08-07T21:05:30Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T20:04:04Z",
+  "fetched_at": "2026-08-07T21:05:30Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:04Z",
+  "fetched_at": "2026-08-07T21:05:30Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T20:04:04Z",
+  "fetched_at": "2026-08-07T21:05:31Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:04Z",
+  "fetched_at": "2026-08-07T21:05:31Z",
   "rows": [
+   {
+    "ts": 1786131340,
+    "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d"
+   },
+   {
+    "ts": 1786127594,
+    "headline": "Jim Cramer Reveals How Alphabet Inc (NASDAQ:GOOGL) Can Reverse Recent Weakness",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c1f1e83c52fe4185959089c65c45865e9ab18a9f0d62ce6eb6de20abc7ff77e3"
+   },
+   {
+    "ts": 1786126311,
+    "headline": "Alphabet (GOOGL) Lines Up $25 Billion Bond Offering For AI Expansion",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8f16e943b11995110e06086b5426dc888af777a8abe47588e791db0ca417056b"
+   },
    {
     "ts": 1786124501,
     "headline": "Whatnot raises $545M Series G at $20 billion valuation",
@@ -7494,31 +7512,13 @@
     "headline": "Microsoft Is Winning the AI Cash Flow Test",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
-   },
-   {
-    "ts": 1786120251,
-    "headline": "Prediction: Can Apple Stock Reach $400 This Year?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=29ab2cb310108052c37f125dd9c00f6912f6b7902c5c4f2eb07997898669f2e0"
-   },
-   {
-    "ts": 1786117620,
-    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
-   },
-   {
-    "ts": 1786116630,
-    "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T20:04:05Z",
+  "fetched_at": "2026-08-07T21:05:31Z",
   "error": "no insider filings in six months"
  },
  "peers": {
