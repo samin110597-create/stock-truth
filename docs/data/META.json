@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T18:08:41Z",
+ "generated_at": "2026-08-07T19:26:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:41Z",
-  "current": 592.0,
-  "change": 2.1,
-  "change_pct": 0.356,
+  "fetched_at": "2026-08-07T19:26:31Z",
+  "current": 593.23,
+  "change": 3.33,
+  "change_pct": 0.5645,
   "high": 598.7399,
   "low": 585.62,
   "open": 587.465,
   "prev_close": 589.9,
-  "ts": 1786126086
+  "ts": 1786130768
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:42Z",
+  "fetched_at": "2026-08-07T19:26:31Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T18:08:42Z",
+  "fetched_at": "2026-08-07T19:26:32Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 585.63,
     "high": 598.64,
     "low": 585.62,
-    "close": 591.945,
-    "volume": 933496.0
+    "close": 593.19,
+    "volume": 1083872.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:42Z",
+  "fetched_at": "2026-08-07T19:26:32Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T18:08:42Z",
+  "fetched_at": "2026-08-07T19:26:32Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.854958,
+  "forward_pe": 16.875023,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:43Z",
+  "fetched_at": "2026-08-07T19:26:33Z",
   "rows": [
+   {
+    "ts": 1786124100,
+    "headline": "Meta was just slapped with a $942-million bill for harming kids \u2014 it makes that back in roughly five days",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=58dcb86bc7b5685028396d7e11008dc9fda1f7f29b813f75edbe48fd009de0fd"
+   },
+   {
+    "ts": 1786122904,
+    "headline": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8a04b188f365233da442517ab5957903f315805ccb9c5708dc0b6fc567677663"
+   },
+   {
+    "ts": 1786122049,
+    "headline": "Alphabet\u2019s Cloud vs Meta\u2019s Superintelligence: Who Wins Q2?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4ba5304c5624927085ae5daf141a012ca78fba3ef410f8caa1526f80f42a30bd"
+   },
+   {
+    "ts": 1786121222,
+    "headline": "Meta's Legal Bill Just Climbed to $942 Million",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1926a2801c647b54591d07a9fe1a7b05e26b4b022d330b3a33017cb3bee9604a"
+   },
+   {
+    "ts": 1786120712,
+    "headline": "Microsoft Is Winning the AI Cash Flow Test",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
+   },
+   {
+    "ts": 1786119959,
+    "headline": "Meta Ruling Could Become a Blueprint for More Child-Safety Suits",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3b81c07395fc7752dd4edc1ab2efcb683421516a9af739dd10ff3a3fc899da43"
+   },
+   {
+    "ts": 1786118100,
+    "headline": "Meta\u2019s $942 Million Penalty Is Small, but the Legal Risk Is Growing",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=18faacea08776f6fbf9ab7d7183d6a4d6d795041fe2fe73c16174e9ed757a2f8"
+   },
    {
     "ts": 1786117620,
     "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
-   },
-   {
-    "ts": 1786117147,
-    "headline": "CoreWeave Faces a 15.5% Earnings Swing as AI Spending Gets Tested",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bfc6c1c81e5a718b6165dbf210fb9b91ecfa35e3bf95e88eb71d2076ec691571"
-   },
-   {
-    "ts": 1786116617,
-    "headline": "Price Prediction: Google Will Hit $400 on This Date",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
-   },
-   {
-    "ts": 1786113650,
-    "headline": "Digitalbox targets 500 videos a month as Creator Network scales up, says CEO Carter",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47c16391f2cf1a3446be8f889dfffd687af2e1ac990ed5cda693f5a7412c6d5d"
-   },
-   {
-    "ts": 1786113059,
-    "headline": "AppLovin Grows 53% and Beats on Profit. Here\u2019s Why We\u2019re Bullish.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=67617ae33dc1fed5d50e6ba585e9bf1234e140f7deb8eb5d39f27dfe9f23477c"
-   },
-   {
-    "ts": 1786111367,
-    "headline": "What we know about OpenAI's upcoming handheld device: Bloomberg",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=967b3561fa5591a1d7f13cbe22cde31fcb1b8768dd740d10fb82ee3df7fce16b"
-   },
-   {
-    "ts": 1786110754,
-    "headline": "Meta ordered to pay $942M: Why the judge compared the company to 'noxious pollution'",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a0f17a50fed70e384689e1a766a7ec1188d84de58686e450ad27a312c9efd382"
-   },
-   {
-    "ts": 1786108600,
-    "headline": "AMD Buys AI Chip Startup Taalas\u2014Here's Why It Matters To NVDA Investors",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b8cd12a80a0cfbab131f06af9535aa84f77246034875dec8c288a597e06147e7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:43Z",
+  "fetched_at": "2026-08-07T19:26:33Z",
   "buys": 140,
   "sells": 262,
   "net_shares": 3201353.0,

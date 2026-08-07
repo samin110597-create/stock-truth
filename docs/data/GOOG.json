@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T18:08:20Z",
+ "generated_at": "2026-08-07T19:26:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:20Z",
-  "current": 353.74,
-  "change": -2.88,
-  "change_pct": -0.8076,
+  "fetched_at": "2026-08-07T19:26:09Z",
+  "current": 354.07,
+  "change": -2.55,
+  "change_pct": -0.715,
   "high": 357.55,
-  "low": 353.1,
+  "low": 352.82,
   "open": 356.39,
   "prev_close": 356.62,
-  "ts": 1786126085
+  "ts": 1786130739
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:20Z",
+  "fetched_at": "2026-08-07T19:26:09Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T18:08:21Z",
+  "fetched_at": "2026-08-07T19:26:10Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-07",
     "open": 355.195,
     "high": 357.455,
-    "low": 353.12,
-    "close": 353.73,
-    "volume": 1630172.0
+    "low": 352.86,
+    "close": 354.04,
+    "volume": 1898124.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:21Z",
+  "fetched_at": "2026-08-07T19:26:10Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T18:08:21Z",
+  "fetched_at": "2026-08-07T19:26:11Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.009073,
+  "forward_pe": 24.029432,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,8 +7463,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:21Z",
+  "fetched_at": "2026-08-07T19:26:11Z",
   "rows": [
+   {
+    "ts": 1786124501,
+    "headline": "Whatnot raises $545M Series G at $20 billion valuation",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c9c0d47c4670097c56464e13109efeb20fbdbee25b50923186953b81be78b284"
+   },
+   {
+    "ts": 1786123324,
+    "headline": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ad587f616e3440cc360f0ff35dfea0b6b74fe3d149384b71c46c2afc9e0ca425"
+   },
+   {
+    "ts": 1786122049,
+    "headline": "Alphabet\u2019s Cloud vs Meta\u2019s Superintelligence: Who Wins Q2?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4ba5304c5624927085ae5daf141a012ca78fba3ef410f8caa1526f80f42a30bd"
+   },
+   {
+    "ts": 1786121929,
+    "headline": "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=2790d6a94055343648890b542acffbd953045d6d64894eb7eb0028733acf359e"
+   },
+   {
+    "ts": 1786120712,
+    "headline": "Microsoft Is Winning the AI Cash Flow Test",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
+   },
+   {
+    "ts": 1786120251,
+    "headline": "Prediction: Can Apple Stock Reach $400 This Year?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=29ab2cb310108052c37f125dd9c00f6912f6b7902c5c4f2eb07997898669f2e0"
+   },
    {
     "ts": 1786117620,
     "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
@@ -7476,49 +7512,13 @@
     "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
-   },
-   {
-    "ts": 1786116617,
-    "headline": "Price Prediction: Google Will Hit $400 on This Date",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
-   },
-   {
-    "ts": 1786116098,
-    "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
-   },
-   {
-    "ts": 1786115241,
-    "headline": "Microsoft Stock's Peak Margin And Its Azure Bill Are The Same Story",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=85d69e978d8d45189fb1ac302c1bdbab625a224b6320fc2aec8a95faa83f2181"
-   },
-   {
-    "ts": 1786114304,
-    "headline": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=56a4fd13d8835d2961a60928459cc9c809684a34038b7ae78bc24c8938a4e55d"
-   },
-   {
-    "ts": 1786114270,
-    "headline": "Alphabet Is Borrowing $25 Billion to Keep the AI Buildout Going",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=514d7199561237fbe319a57b024a432ffb7c65b04050729288fd1330a446697c"
-   },
-   {
-    "ts": 1786113498,
-    "headline": "How AI Is Making Cybersecurity A Critical Tech Battlefield",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f8d3388930c0e6505d0cbd000f8bb4d60b31c4e06034ece14de1895465da342c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:22Z",
+  "fetched_at": "2026-08-07T19:26:11Z",
   "error": "no insider filings in six months"
  },
  "peers": {

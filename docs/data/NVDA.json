@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T18:08:31Z",
+ "generated_at": "2026-08-07T19:26:20Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:31Z",
-  "current": 222.3,
-  "change": 3.31,
-  "change_pct": 1.5115,
+  "fetched_at": "2026-08-07T19:26:20Z",
+  "current": 222.85,
+  "change": 3.86,
+  "change_pct": 1.7626,
   "high": 224.76,
   "low": 220.66,
   "open": 220.67,
   "prev_close": 218.99,
-  "ts": 1786126086
+  "ts": 1786130746
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:31Z",
+  "fetched_at": "2026-08-07T19:26:20Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T18:08:32Z",
+  "fetched_at": "2026-08-07T19:26:21Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7225,8 +7225,8 @@
     "open": 221.575,
     "high": 224.76,
     "low": 220.69,
-    "close": 222.255,
-    "volume": 13529296.0
+    "close": 222.79,
+    "volume": 15519516.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:32Z",
+  "fetched_at": "2026-08-07T19:26:21Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T18:08:32Z",
+  "fetched_at": "2026-08-07T19:26:22Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.247679,
+  "forward_pe": 17.285692,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:32Z",
+  "fetched_at": "2026-08-07T19:26:22Z",
   "rows": [
    {
-    "ts": 1786120804,
-    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "ts": 1786125902,
+    "headline": "Most active S&P500 stocks in Friday's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+    "url": "https://finnhub.io/api/news?id=21ae4947413e462bde9ae3d01a07161031a4fd3833a2d40315510d88e2728fba"
    },
    {
-    "ts": 1786117620,
-    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
+    "ts": 1786125600,
+    "headline": "Curious about the most active stocks on Friday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=6f4edb3908e5710aaecd62be546b7e42e4c7cdae0fbc8a9b3ec03b42a0b4cd21"
    },
    {
-    "ts": 1786117537,
-    "headline": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
+    "ts": 1786124561,
+    "headline": "Why Palantir Technologies Stock Skyrocketed (Again) Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0aea9636d79d1cb88c5b9e5e1ecdae685821d015ef5c60b52ef05611d780a249"
+    "url": "https://finnhub.io/api/news?id=d8080581772b2a9e4bcb2b806f1fc0bd2be65075ccd3e9d4e345f18f05965e58"
    },
    {
-    "ts": 1786117354,
-    "headline": "Why The Trade Desk Stock Plunged to a New 7-Year Low Today",
+    "ts": 1786123858,
+    "headline": "Spotify and Pinterest Delivered the Growth. Investors Wanted More",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=60612b50ab9e9963c43e66e82f58f6c47680a623177ae40c27d0c6c6c2fa25c6"
+    "url": "https://finnhub.io/api/news?id=4dd3db877db44bd08a6f00438fda683a2a143a5af76a1a6a33f29212331d90c8"
    },
    {
-    "ts": 1786117127,
-    "headline": "Here's Why Tower Semiconductor Stock Is Rocketing Higher Today",
+    "ts": 1786123500,
+    "headline": "This Power Stock Could Be a Big Winner From the Data Center Boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=aeeaaa2ea75a3a5076de286b17f58a9b8cfacfdae7c5dbe60e1f60b18440947f"
+    "url": "https://finnhub.io/api/news?id=2124e566c525e93159091027d5978ea1ab9815fceee190c4d5262e798c84c2a1"
    },
    {
-    "ts": 1786116768,
-    "headline": "2 Stocks Positioned for the Rise as AI Self\u2011Healing Systems Move From Concept to Core Infrastructure",
+    "ts": 1786123201,
+    "headline": "Oklo's Groves Reactor Just Achieved First Criticality. Here's What It Means for OKLO Stock.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db68eb39b2458cabcec00fe9ef2d25969741c9c659f837108c2fec70b07f2644"
+    "url": "https://finnhub.io/api/news?id=7310388a23bc723fb39bdc988afa59325ad018c854cddd82951d2e068d52105c"
    },
    {
-    "ts": 1786116637,
-    "headline": "The U.S. Didn\u2019t Buy a Drop of Saudi Oil in July \u2014 the First Time in 41 Years",
+    "ts": 1786122693,
+    "headline": "Fluor Corporation Q2 2026 Earnings Call Summary",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=88af86372e33bd0ac9e93ed63bb8a914db36867e2a26f65ec837cad2c5db0126"
+    "url": "https://finnhub.io/api/news?id=912d2d51b12784814eaaeb6f1ba33b6cef8b7d06e38c094695c9884896193ccb"
    },
    {
-    "ts": 1786116617,
-    "headline": "Price Prediction: Google Will Hit $400 on This Date",
+    "ts": 1786122672,
+    "headline": "AdvanSix Inc. Q2 2026 Earnings Call Summary",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cd0e741477c373895f0f4fcbb049d869092949a13b3e792cbaf7c9abb46fc0d6"
+    "url": "https://finnhub.io/api/news?id=926149ce4c27c72582b3b76f15336fc8d0a8b896a67ef6411eb898d2a8861a5b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T18:08:32Z",
+  "fetched_at": "2026-08-07T19:26:22Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
