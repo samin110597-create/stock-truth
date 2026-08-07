@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T00:35:21Z",
+ "generated_at": "2026-08-07T14:02:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:21Z",
-  "current": 356.62,
-  "change": -3.51,
-  "change_pct": -0.9746,
-  "high": 361.96,
-  "low": 355.83,
-  "open": 358.792,
-  "prev_close": 360.13,
-  "ts": 1786046400
+  "fetched_at": "2026-08-07T14:02:44Z",
+  "current": 353.99,
+  "change": -2.63,
+  "change_pct": -0.7375,
+  "high": 357.55,
+  "low": 353.5,
+  "open": 356.39,
+  "prev_close": 356.62,
+  "ts": 1786111347
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:44Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:45Z",
   "bars": [
-   {
-    "date": "2023-01-04",
-    "open": 91.010002,
-    "high": 91.24,
-    "low": 87.8,
-    "close": 88.71,
-    "volume": 27046500.0
-   },
    {
     "date": "2023-01-05",
     "open": 88.07,
@@ -7227,10 +7219,18 @@
     "low": 355.82999,
     "close": 356.62,
     "volume": 16219703.0
+   },
+   {
+    "date": "2026-08-07",
+    "open": 355.195,
+    "high": 357.455,
+    "low": 353.56,
+    "close": 354.96,
+    "volume": 506576.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-06",
+  "latest": "2026-08-07",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:45Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:46Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.203175,
+  "forward_pe": 24.03147,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
   "short_asof": 1784073600,
-  "institutions_pct": 0.60368997,
+  "institutions_pct": 0.60343,
   "insiders_pct": 0.06598,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:46Z",
   "rows": [
    {
-    "ts": 1786058854,
-    "headline": "Alphabet\u2019s stock buybacks: History & investor impact explained",
+    "ts": 1786098601,
+    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9dcbc7de79d2bb68c5e561a1f6120c09b59e609b938cfda3787704694f289701"
+    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
    },
    {
-    "ts": 1786058268,
-    "headline": "Marqeta (MQ) Expands Google Wallet Payments, Is The Stock Fully Valued?",
+    "ts": 1786097642,
+    "headline": "Why Is Rackspace Technology (RXT) Hiring A New AI Infrastructure Leader?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e98ce3a53d709371fb0ccbff526423a78157d8b56294b28150601980e90ce53b"
+    "url": "https://finnhub.io/api/news?id=60d2ca734f97d0e3234a6ea951287eb502d6910afe6b975f24b46decf1719d47"
    },
    {
-    "ts": 1786054405,
-    "headline": "Toast (TOST) Beat Q2 Estimates And Raised Guidance, Has The Valuation Story Run Ahead?",
+    "ts": 1786096800,
+    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fb29d9baf0a4fdf779f953605733286f7cfd65c411eb4d1aad3d81f9aacb7217"
+    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
    },
    {
-    "ts": 1786052922,
-    "headline": "The Unspoken Agreement You've Made Holding Meta Platforms Stock",
+    "ts": 1786096800,
+    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d"
+    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
    },
    {
-    "ts": 1786050429,
-    "headline": "$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off",
+    "ts": 1786096020,
+    "headline": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb"
+    "url": "https://finnhub.io/api/news?id=57c2d7e0e7d8d3ac0f97689890a2a38a03e8fc6079ea60f2c480bebac2e06c64"
    },
    {
-    "ts": 1786050279,
-    "headline": "S&P 500, Dow, Nasdaq End Lower Amid Hormuz Uncertainty As Investors Await Jobs Data To Judge Fed Rate Course \u2014 SOUN, GOOGL, SPCX, NVDA In Focus",
+    "ts": 1786094400,
+    "headline": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=51972e89f837da50d6b9d834fcb567a9de412b836b839200b393bd74f5d571f3"
+    "url": "https://finnhub.io/api/news?id=a25c345a2bf581d92f29fbaf7cd5d7a98754e33684e5a86739134b34e9233be1"
    },
    {
-    "ts": 1786049782,
-    "headline": "Microsoft\u2019s (MSFT) Record Rally Puts Alphabet (GOOGL) Rivalry Back In Focus",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5e94d5a04c61f06bd0c0e0e4b28f78040a5c62411795f16e4875f766f7af061f"
+    "ts": 1786094146,
+    "headline": "AMD: Buy The Dip - Market Is Mispricing Its Supply Leverage",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b6c0e20f791a8fefc10daa30a579f9ab3f7bd0a51b036b3374ac42872bcb74a4"
    },
    {
-    "ts": 1786047883,
-    "headline": "Microsoft (MSFT) vs. Alphabet (GOOGL): Which AI Giant Has the Edge in Next-Gen Cybersecurity?",
+    "ts": 1786081682,
+    "headline": "Michael Burry Shares 'Three Great Charts' That Show Big AI Capex Could Unwind As Badly As Housing Did In 2008",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f5f80a2d4c3f83426f5d518812c1fe72cc1e29d43cebeab1a4c2677f637c9d18"
+    "url": "https://finnhub.io/api/news?id=ace76c22af42fc5516268dd0f9a0a2bfce4c87a2ca22404fd54b8594cd824027"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:21Z",
+  "fetched_at": "2026-08-07T14:02:46Z",
   "error": "no insider filings in six months"
  },
  "peers": {

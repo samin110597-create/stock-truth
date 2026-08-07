@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T00:35:36Z",
+ "generated_at": "2026-08-07T14:02:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:36Z",
-  "current": 218.99,
-  "change": -0.23,
-  "change_pct": -0.1049,
-  "high": 223.63,
-  "low": 217.0,
-  "open": 221.53,
-  "prev_close": 219.22,
-  "ts": 1786046400
+  "fetched_at": "2026-08-07T14:02:55Z",
+  "current": 222.26,
+  "change": 3.27,
+  "change_pct": 1.4932,
+  "high": 223.17,
+  "low": 220.66,
+  "open": 220.67,
+  "prev_close": 218.99,
+  "ts": 1786111347
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:55Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:57Z",
   "bars": [
-   {
-    "date": "2023-01-04",
-    "open": 14.567,
-    "high": 14.853,
-    "low": 14.241,
-    "close": 14.749,
-    "volume": 431324000.0
-   },
    {
     "date": "2023-01-05",
     "open": 14.491,
@@ -7227,10 +7219,18 @@
     "low": 217.27,
     "close": 218.99001,
     "volume": 113051990.0
+   },
+   {
+    "date": "2026-08-07",
+    "open": 221.575,
+    "high": 223.17,
+    "low": 220.69,
+    "close": 222.32,
+    "volume": 2335100.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-06",
+  "latest": "2026-08-07",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:57Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:57Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.988571,
+  "forward_pe": 17.274054,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
   "short_asof": 1784073600,
-  "institutions_pct": 0.70495003,
+  "institutions_pct": 0.70478994,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:57Z",
   "rows": [
    {
-    "ts": 1786060117,
-    "headline": "Why Occidental Stock Is Up Today",
+    "ts": 1786102763,
+    "headline": "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5897de7a9f14126b2be0a7fabda0af77b65ddea1e65b985a71244332eb0b4b41"
+    "url": "https://finnhub.io/api/news?id=14470c7fe676a501eb55e25a464e454ea42ad2fcf7ed94d61e2717b1eb0b071b"
    },
    {
-    "ts": 1786058400,
-    "headline": "Nuclear Wipeout: These 5 Nuclear Stocks Are Now Down 44.3% to 82.2%. Time to Buy?",
+    "ts": 1786102200,
+    "headline": "2 Space Stocks to Buy in August",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae536c97f62ba4c6946830706f4df90d764fd25dd62cc54469511d244f0869fc"
+    "url": "https://finnhub.io/api/news?id=177452f580e4cfda37e8c73dfc04faf13ee8c23ec4e390d7ad9ddbcae9d7ca69"
    },
    {
-    "ts": 1786058199,
-    "headline": "Brookfield (TSX:BN) Completed The Oaktree Acquisition",
+    "ts": 1786101614,
+    "headline": "Honeywell Aerospace Tumbles on Disappointing Debut Report, but Bull Case Remains Intact",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7efe6485fb01ae4c33de469bde91cecc9497a02a426741fd45e9548c46b714df"
+    "url": "https://finnhub.io/api/news?id=c8182d2a0c7f4531ca045ccd8f2b486ecd2b42819eb3781cd5bc249ff1831f23"
    },
    {
-    "ts": 1786057497,
-    "headline": "Why Dave Stock Got Thrashed on Thursday",
+    "ts": 1786101600,
+    "headline": "The S&P 500 Index Just Did Something for Only the 3rd Time in the Past 30 Years. Here's What History Says Comes Next.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8b3b1d920a9366266ce6d57ec173ba86bbb82b27161bc245af26882c014f5a81"
+    "url": "https://finnhub.io/api/news?id=9daad70f96b5b3a90a8570da0ca847e83dd4c4ac255538de117e98400b99d7a2"
    },
    {
-    "ts": 1786056851,
-    "headline": "Why Joby Aviation Stock Flew Higher Today",
+    "ts": 1786100700,
+    "headline": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=23207dbabed900c295af2d103b3fa5243d5db0358cdb79b64854e84f61f28a76"
+    "url": "https://finnhub.io/api/news?id=2f997011994a30ca69a2f8f4716b927c5b379be401f28dff110f3f168d2b6099"
    },
    {
-    "ts": 1786056837,
-    "headline": "Nuveen Churchill Direct Lending Corp. Q2 2026 Earnings Call Summary",
+    "ts": 1786099800,
+    "headline": "In a Down Crypto Market, Does Investing in Prediction Markets Make Sense?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=badf1941152c2b36f10597a25757bd5f78572737ba18b5acc15d51756e167403"
+    "url": "https://finnhub.io/api/news?id=fd446beaebf5e8effa908f5355498ab35bbc4ddc735c78fecdd48fd5179eed7a"
    },
    {
-    "ts": 1786056397,
-    "headline": "Haemonetics Corporation Q1 2027 Earnings Call Summary",
+    "ts": 1786099680,
+    "headline": "Where Will Meta Platforms Stock Be in 5 Years?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e8e3fcced1a4876ff91714e616b8aa00875fdbd039cb88e2ae4c588c1ef00bf7"
+    "url": "https://finnhub.io/api/news?id=97c22f3ca026ce1d2d3d0ab12133ab55abf0ea64d9279c92974285175ffba86f"
    },
    {
-    "ts": 1786056270,
-    "headline": "Ralph Lauren Corporation Q1 2027 Earnings Call Summary",
+    "ts": 1786099298,
+    "headline": "The Week in Numbers: BP's huge profit, Toyota moves fast",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2db12284c0c8a1fad8fd296d8fcb3c5872b9e512865ff4ea10f1dfb8cc35e0b7"
+    "url": "https://finnhub.io/api/news?id=78d8cc8b4190df006f300d310d42b621adb3a7a8cfc9be75e4fd3397142f27c4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:36Z",
+  "fetched_at": "2026-08-07T14:02:57Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

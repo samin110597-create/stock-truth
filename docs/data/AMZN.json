@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T00:35:05Z",
+ "generated_at": "2026-08-07T14:02:32Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:05Z",
-  "current": 272.26,
-  "change": -0.39,
-  "change_pct": -0.143,
-  "high": 275.48,
-  "low": 271.061,
-  "open": 272.765,
-  "prev_close": 272.65,
-  "ts": 1786046400
+  "fetched_at": "2026-08-07T14:02:32Z",
+  "current": 277.12,
+  "change": 4.86,
+  "change_pct": 1.7851,
+  "high": 277.86,
+  "low": 272.72,
+  "open": 272.72,
+  "prev_close": 272.26,
+  "ts": 1786111323
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:05Z",
+  "fetched_at": "2026-08-07T14:02:32Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T00:35:06Z",
+  "fetched_at": "2026-08-07T14:02:33Z",
   "bars": [
-   {
-    "date": "2023-01-04",
-    "open": 86.55,
-    "high": 86.98,
-    "low": 83.36,
-    "close": 85.14,
-    "volume": 68885100.0
-   },
    {
     "date": "2023-01-05",
     "open": 85.33,
@@ -7227,10 +7219,18 @@
     "low": 271.084503,
     "close": 272.26001,
     "volume": 27906615.0
+   },
+   {
+    "date": "2026-08-07",
+    "open": 272.75,
+    "high": 277.86,
+    "low": 272.75,
+    "close": 277.07,
+    "volume": 1289404.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-06",
+  "latest": "2026-08-07",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:06Z",
+  "fetched_at": "2026-08-07T14:02:34Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T00:35:06Z",
-  "analyst_target_mean": 323.24164,
-  "analyst_target_low": 207.0,
+  "fetched_at": "2026-08-07T14:02:34Z",
+  "analyst_target_mean": 325.81232,
+  "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
-  "analyst_count": 61.0,
+  "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.358925,
+  "forward_pe": 26.809114,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
   "short_asof": 1784073600,
-  "institutions_pct": 0.67623,
-  "insiders_pct": 0.0888,
+  "institutions_pct": 0.67626,
+  "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:06Z",
+  "fetched_at": "2026-08-07T14:02:34Z",
   "rows": [
    {
-    "ts": 1786056369,
-    "headline": "Bezos\u2019s $4 Billion Amazon Sale Was Scheduled Before the Earnings Beat",
+    "ts": 1786100700,
+    "headline": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad63021994872e2f13565ecfef0e9243af7f071fc83de04ea82acd9b305ec342"
+    "url": "https://finnhub.io/api/news?id=2f997011994a30ca69a2f8f4716b927c5b379be401f28dff110f3f168d2b6099"
    },
    {
-    "ts": 1786052922,
-    "headline": "The Unspoken Agreement You've Made Holding Meta Platforms Stock",
+    "ts": 1786100091,
+    "headline": "Cloudflare shares jump after forecast raise on AI-driven demand",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d"
+    "url": "https://finnhub.io/api/news?id=0c120d2af266f336db626816675dcc8f6df59b6ad0ebad6a92485b7085786a26"
    },
    {
-    "ts": 1786050429,
-    "headline": "$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off",
+    "ts": 1786098601,
+    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb"
+    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
    },
    {
-    "ts": 1786045052,
-    "headline": "Microsoft is starting to show its payoff on major AI plays",
+    "ts": 1786098000,
+    "headline": "Why Amazon Stock Jumped 14% in July While the Market Was Flat",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc6a2e0d97633493aadf2f6bf9ac9b9d6a67ef55a61aa4f595063544326de6db"
+    "url": "https://finnhub.io/api/news?id=be6ebee1012596c1066655425cd2a9f325df8b04f737376e6952d1fb5fc91022"
    },
    {
-    "ts": 1786044480,
-    "headline": "Sandisk Earnings Were So Much Better Than Expected. Why the Stock Is Dropping Anyway.",
+    "ts": 1786096800,
+    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3e2eb514a202224b5ca002d894a99a1c1c384ceb759e0ec03c183e700f51ddad"
+    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
    },
    {
-    "ts": 1786043880,
-    "headline": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
+    "ts": 1786096800,
+    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57603d1a020e2b3568d6c0b3107417d3444e02235d9135af613c004098080a3d"
+    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
    },
    {
-    "ts": 1786043700,
-    "headline": "The Fed\u2019s Next Rate Move Might Actually Be a Cut. How the Market Would React.",
+    "ts": 1786094400,
+    "headline": "Amazon CEO Andy Jassy Just Gave Investors 220 Billion Reasons to Buy Micron Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ce8a62aa27bcdfbd19b52897e3533d61c1ea6495f24ac57fd10c00027a7df4a"
+    "url": "https://finnhub.io/api/news?id=a25c345a2bf581d92f29fbaf7cd5d7a98754e33684e5a86739134b34e9233be1"
    },
    {
-    "ts": 1786041396,
-    "headline": "What Microsoft Stock's Thin Earnings Premium Is Actually Buying",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=051e1810bc53937f396e29f6b8f45d646c87f577e447bd9753a4c648b23042d2"
+    "ts": 1786094146,
+    "headline": "AMD: Buy The Dip - Market Is Mispricing Its Supply Leverage",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b6c0e20f791a8fefc10daa30a579f9ab3f7bd0a51b036b3374ac42872bcb74a4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:07Z",
+  "fetched_at": "2026-08-07T14:02:35Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

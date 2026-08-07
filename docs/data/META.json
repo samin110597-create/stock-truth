@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T00:35:50Z",
+ "generated_at": "2026-08-07T14:03:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:50Z",
-  "current": 589.9,
-  "change": 1.13,
-  "change_pct": 0.1919,
-  "high": 595.31,
-  "low": 585.995,
-  "open": 586.95,
-  "prev_close": 588.77,
-  "ts": 1786046400
+  "fetched_at": "2026-08-07T14:03:06Z",
+  "current": 589.14,
+  "change": -0.76,
+  "change_pct": -0.1288,
+  "high": 597.0,
+  "low": 585.62,
+  "open": 587.465,
+  "prev_close": 589.9,
+  "ts": 1786111371
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:50Z",
+  "fetched_at": "2026-08-07T14:03:06Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T00:35:51Z",
+  "fetched_at": "2026-08-07T14:03:08Z",
   "bars": [
-   {
-    "date": "2023-01-04",
-    "open": 127.38,
-    "high": 129.050003,
-    "low": 125.85,
-    "close": 127.37,
-    "volume": 32397100.0
-   },
    {
     "date": "2023-01-05",
     "open": 126.13,
@@ -7227,10 +7219,18 @@
     "low": 585.995,
     "close": 589.90002,
     "volume": 11663468.0
+   },
+   {
+    "date": "2026-08-07",
+    "open": 585.63,
+    "high": 596.91,
+    "low": 585.62,
+    "close": 589.43,
+    "volume": 334224.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-06",
+  "latest": "2026-08-07",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:51Z",
+  "fetched_at": "2026-08-07T14:03:08Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T00:35:51Z",
+  "fetched_at": "2026-08-07T14:03:08Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.788929,
+  "forward_pe": 16.761103,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
   "short_asof": 1784073600,
-  "institutions_pct": 0.78653,
+  "institutions_pct": 0.78609,
   "insiders_pct": 0.00145,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:51Z",
+  "fetched_at": "2026-08-07T14:03:09Z",
   "rows": [
    {
-    "ts": 1786052922,
-    "headline": "The Unspoken Agreement You've Made Holding Meta Platforms Stock",
+    "ts": 1786101822,
+    "headline": "British data centre operator to snub London for \u00a319bn stock market listing",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=56b0fb68ec51c927b6ff45195935469ba69eba2bfa3fe4577b872cfc4003c98d"
+    "url": "https://finnhub.io/api/news?id=01d268999be4728963a708090b17b4901a23d2e9d3aa85e88c46ff390068a719"
    },
    {
-    "ts": 1786051570,
-    "headline": "Meta's AI Safety Test Just Escaped the Lab",
+    "ts": 1786099680,
+    "headline": "Where Will Meta Platforms Stock Be in 5 Years?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dd0cad678537d970863a51b92f6d23b65c8ced4655eda7a06d0ec5167dcdccbf"
+    "url": "https://finnhub.io/api/news?id=97c22f3ca026ce1d2d3d0ab12133ab55abf0ea64d9279c92974285175ffba86f"
    },
    {
-    "ts": 1786050429,
-    "headline": "$2.9 Billion In Payouts, A Lagging Stock: The SNAP Trade-Off",
+    "ts": 1786098601,
+    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8206ec0143975facf0368e2c2e36063820241351141604e981b25c49323245cb"
+    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
    },
    {
-    "ts": 1786050240,
-    "headline": "FouAnalytics announces global availability of FouAnalytics Unlimited",
+    "ts": 1786097179,
+    "headline": "Meta Ordered to Pay $567 Million in Landmark Child Safety Ruling",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5bc0e194a03c2bf58b1cba3f94932432fccffa1f933388b2a80a7320cf13e1d4"
+    "url": "https://finnhub.io/api/news?id=6ed1fccea47cf171ae8afd93a22b9735819a81a82d7cadccb701db6ddf95fdd6"
    },
    {
-    "ts": 1786045052,
-    "headline": "Microsoft is starting to show its payoff on major AI plays",
+    "ts": 1786096800,
+    "headline": "embecta Announces Quarterly Cash Dividend",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc6a2e0d97633493aadf2f6bf9ac9b9d6a67ef55a61aa4f595063544326de6db"
+    "url": "https://finnhub.io/api/news?id=fde715bf2f5e90ef1b7edb5897cbdd624755998a06f39b75b115cf25dee8f27d"
    },
    {
-    "ts": 1786044480,
-    "headline": "Sandisk Earnings Were So Much Better Than Expected. Why the Stock Is Dropping Anyway.",
+    "ts": 1786096800,
+    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3e2eb514a202224b5ca002d894a99a1c1c384ceb759e0ec03c183e700f51ddad"
+    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
    },
    {
-    "ts": 1786043880,
-    "headline": "Alphabet's $25B debt sale underscores hyperscalers' AI arms race",
+    "ts": 1786096800,
+    "headline": "AI Debt Indigestion Forces Wall Street to Rethink Bond Sales",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57603d1a020e2b3568d6c0b3107417d3444e02235d9135af613c004098080a3d"
+    "url": "https://finnhub.io/api/news?id=c6e47cf7f7cfbde61b8e0078877c32146c6b8f3cfdc026c4a9ce571b12569e9b"
    },
    {
-    "ts": 1786043700,
-    "headline": "The Fed\u2019s Next Rate Move Might Actually Be a Cut. How the Market Would React.",
+    "ts": 1786096020,
+    "headline": "Tech Stocks Under Pressure: 1 Magnificent ETF to Buy on the Dip",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ce8a62aa27bcdfbd19b52897e3533d61c1ea6495f24ac57fd10c00027a7df4a"
+    "url": "https://finnhub.io/api/news?id=57c2d7e0e7d8d3ac0f97689890a2a38a03e8fc6079ea60f2c480bebac2e06c64"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T00:35:51Z",
+  "fetched_at": "2026-08-07T14:03:11Z",
   "buys": 140,
   "sells": 262,
   "net_shares": 3201353.0,
