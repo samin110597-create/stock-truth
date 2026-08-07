@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T15:14:52Z",
+ "generated_at": "2026-08-07T16:13:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T15:14:52Z",
-  "current": 276.8,
-  "change": 4.54,
-  "change_pct": 1.6675,
-  "high": 277.86,
+  "fetched_at": "2026-08-07T16:13:07Z",
+  "current": 277.47,
+  "change": 5.21,
+  "change_pct": 1.9136,
+  "high": 278.31,
   "low": 272.72,
   "open": 272.72,
   "prev_close": 272.26,
-  "ts": 1786115666
+  "ts": 1786119174
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T15:14:52Z",
+  "fetched_at": "2026-08-07T16:13:07Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T15:14:53Z",
+  "fetched_at": "2026-08-07T16:13:08Z",
   "bars": [
    {
     "date": "2023-01-05",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-07",
     "open": 272.75,
-    "high": 277.86,
+    "high": 278.31,
     "low": 272.75,
-    "close": 276.73,
-    "volume": 2374372.0
+    "close": 277.405,
+    "volume": 2918456.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T15:14:53Z",
+  "fetched_at": "2026-08-07T16:13:08Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T15:14:53Z",
+  "fetched_at": "2026-08-07T16:13:08Z",
   "analyst_target_mean": 325.81232,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.81202,
+  "forward_pe": 26.850744,
   "forward_eps": 10.32895,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T15:14:54Z",
+  "fetched_at": "2026-08-07T16:13:08Z",
   "rows": [
    {
-    "ts": 1786110924,
-    "headline": "Stock Market Today: Dow Down After Surprise July Jobs Reading; AI Stock Cloudflare Soars (Live Coverage)",
+    "ts": 1786117620,
+    "headline": "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom. Here's Why It's Still a Top Buy Now.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=de8a0c6e7528c605679f714dfb5ae73fd5df6ceddfe17c24db932549b8437233"
+    "url": "https://finnhub.io/api/news?id=db0ba1c411e5ec9d8da5abf6b148d9dde7b9fe63bd018c5db2927e8205f7137b"
    },
    {
-    "ts": 1786110263,
-    "headline": "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening",
+    "ts": 1786117537,
+    "headline": "Top Midday Stories: Stocks Rise on Dismal Jobs Report; Doximity Shares Soar After CEO Touts New AI Search Tool",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4929b051a5fc77de30dee4a55524465dacec0c18fe2e853ceb51a299bfe6bf22"
+    "url": "https://finnhub.io/api/news?id=0aea9636d79d1cb88c5b9e5e1ecdae685821d015ef5c60b52ef05611d780a249"
    },
    {
-    "ts": 1786109447,
-    "headline": "Prediction: After a Blowout Quarter, Shopify Will End The Year at This Price",
+    "ts": 1786116630,
+    "headline": "Alphabet Taps the Bond Market Again for Up to $25 Billion",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0e41d834879a0544c3539a2f87449a513cd03b7b28384759988db045686169e0"
+    "url": "https://finnhub.io/api/news?id=d83a60fcf74ed7bd52103d63a79bc3ebf64db5b8e35610ae3f4b3b8973f24dac"
    },
    {
-    "ts": 1786100700,
-    "headline": "Amazon CEO Andy Jassy Just Made a Shocking Trillion-Dollar Prediction",
+    "ts": 1786116098,
+    "headline": "Microsoft, Amazon, Meta, Google Are 'Collectively Overinvesting' In AI: 'That's Betting, Not Investing,' Says 'Dean of Valuation'",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2f997011994a30ca69a2f8f4716b927c5b379be401f28dff110f3f168d2b6099"
+    "url": "https://finnhub.io/api/news?id=cc38c4453abb22c5e7fbe1db1716b356a0a19897a010289d815ab76bed172d40"
    },
    {
-    "ts": 1786100091,
-    "headline": "Cloudflare shares jump after forecast raise on AI-driven demand",
+    "ts": 1786115241,
+    "headline": "Microsoft Stock's Peak Margin And Its Azure Bill Are The Same Story",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0c120d2af266f336db626816675dcc8f6df59b6ad0ebad6a92485b7085786a26"
+    "url": "https://finnhub.io/api/news?id=85d69e978d8d45189fb1ac302c1bdbab625a224b6320fc2aec8a95faa83f2181"
    },
    {
-    "ts": 1786098601,
-    "headline": "Big Tech Stocks Storm Back as AI Fears Fade and Euphoria Resumes",
+    "ts": 1786114646,
+    "headline": "AWS Reportedly Tells Engineers To Conserve CPU Capacity Amid AI Compute Crunch",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1b7221e0dd94f8062dba63201381fd4dc40e13af17bccf05ee5bf0aeea06f32f"
+    "url": "https://finnhub.io/api/news?id=922683ae2a36957cecd4036ed649f5bbad4e2f367bbccbe2ef896e95a1bbed85"
    },
    {
-    "ts": 1786098000,
-    "headline": "Why Amazon Stock Jumped 14% in July While the Market Was Flat",
+    "ts": 1786114304,
+    "headline": "Oracle Stock Fell While Its Operating Margin Climbed For A Third Straight Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=be6ebee1012596c1066655425cd2a9f325df8b04f737376e6952d1fb5fc91022"
+    "url": "https://finnhub.io/api/news?id=56a4fd13d8835d2961a60928459cc9c809684a34038b7ae78bc24c8938a4e55d"
    },
    {
-    "ts": 1786096800,
-    "headline": "Big Tech is borrowing its way through the AI boom: Chart of the Day",
+    "ts": 1786114270,
+    "headline": "Alphabet Is Borrowing $25 Billion to Keep the AI Buildout Going",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28901c1286a03d569a4a65fefb832eeedb2b84ccdae084af064a8743efa656cb"
+    "url": "https://finnhub.io/api/news?id=514d7199561237fbe319a57b024a432ffb7c65b04050729288fd1330a446697c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T15:14:54Z",
+  "fetched_at": "2026-08-07T16:13:08Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
