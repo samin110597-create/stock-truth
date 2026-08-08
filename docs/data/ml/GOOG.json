@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "model_version": "stock-truth-ml-v1",
+  "library": "scikit-learn",
+  "library_version": "1.9.0",
+  "symbol": "GOOG",
+  "generated_at": "2026-08-08T20:42:12Z",
+  "source_snapshot_generated_at": "2026-08-07T21:05:29Z",
+  "closed_bars_only": true,
+  "features": [
+    "ret_1",
+    "ret_5",
+    "ret_21",
+    "ret_63",
+    "gap_1",
+    "range_pct",
+    "body_pct",
+    "sma20_rel",
+    "sma50_rel",
+    "sma200_rel",
+    "rsi14",
+    "atr14_pct",
+    "vol20",
+    "vol60",
+    "volume_ratio20",
+    "volume_z20",
+    "drawdown63",
+    "range_pos252",
+    "trend_spread",
+    "bench_ret_5",
+    "bench_ret_21",
+    "bench_vol20",
+    "relative_ret_5",
+    "relative_ret_21",
+    "beta60",
+    "corr60"
+  ],
+  "warnings": [
+    "This model estimates conditional probabilities from historical closed bars; it cannot know future news, earnings surprises, macro shocks, or order flow.",
+    "A probability is not a guarantee and NO_VERIFIED_EDGE is a valid model outcome."
+  ],
+  "benchmark": "SPY",
+  "last_signal_date": "2026-08-07",
+  "bars_used": 900,
+  "horizons": {
+    "5d": {
+      "horizon_sessions": 5,
+      "status": "INSUFFICIENT_DATA",
+      "reason": "0 labelled rows; at least 350 are required"
+    },
+    "21d": {
+      "horizon_sessions": 21,
+      "status": "INSUFFICIENT_DATA",
+      "reason": "0 labelled rows; at least 350 are required"
+    }
+  },
+  "status": "INSUFFICIENT_DATA"
+}
