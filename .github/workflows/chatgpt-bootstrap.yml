@@ -5,6 +5,11 @@ name: ChatGPT bootstrap prepared files
     branches: [chatgpt/institutional-ml-v3]
     paths:
       - '.github/workflows/chatgpt-bootstrap.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.chatgpt/**'
+      - '.github/workflows/chatgpt-bootstrap.yml'
 
 permissions:
   contents: write
