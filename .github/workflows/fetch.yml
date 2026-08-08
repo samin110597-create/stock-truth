@@ -1,27 +1,21 @@
-name: Fetch market data + deploy Pages
+name: Fetch market data
 
 "on":
   schedule:
     # Frequent snapshots during the U.S. trading-day window, Mon-Fri.
-    # GitHub cron is UTC; the script still reports actual market status.
     - cron: "0,30 13-20 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: stock-truth-fetch-pages
+  group: stock-truth-fetch
   cancel-in-progress: true
 
 jobs:
-  fetch-and-deploy:
+  fetch:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -58,15 +52,3 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs
-
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
