@@ -1,0 +1,46 @@
+name: Split legacy and v2 sites once
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/split-sites-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preserve upgraded site under /v2 and restore original root site
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs/v2
+          cp docs/index.html docs/v2/index.html
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('docs/v2/index.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace("./data/", "../data/")
+          s = s.replace("'./data/", "'../data/")
+          s = s.replace('"./data/', '"../data/')
+          p.write_text(s, encoding='utf-8')
+          PY
+          git show aed85826530b05affc7eaee6265a14d2eb7ef546:docs/index.html > docs/index.html
+          git rm .github/workflows/split-sites-once.yml
+
+      - name: Commit split
+        run: |
+          git config user.name 'stock-truth-maintenance-bot'
+          git config user.email 'stock-truth-maintenance-bot@users.noreply.github.com'
+          git add docs/index.html docs/v2/index.html .github/workflows/split-sites-once.yml
+          git commit -m 'fix: restore original site and publish upgraded v2 separately'
+          git pull --rebase origin main
+          git push origin HEAD:main
