@@ -1,7 +1,7 @@
-name: ML prediction + GitHub Pages
+name: ML prediction
 
 "on":
-  workflow_dispatch:
+  workflow_dispatch: {}
   push:
     branches: [main]
     paths:
@@ -17,24 +17,24 @@ name: ML prediction + GitHub Pages
       - 'requirements-ml.txt'
       - '.github/workflows/ml-prediction.yml'
   schedule:
-    # 00:30 UTC Tue-Sat, after the prior U.S. regular session.
+    # After the prior U.S. regular session, Tue-Sat.
     - cron: '30 0 * * 2-6'
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: stock-truth-ml-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  validate-model:
+  build-model:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -60,7 +60,7 @@ jobs:
           assert files, 'no ML JSON files were generated'
           for p in files:
               json.loads(p.read_text())
-          print(f'validated {len(files)} JSON files')
+          print(f'validated {len(files)} ML JSON files')
           PY
 
       - name: Security scan dashboard
@@ -68,63 +68,32 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-          s=Path('docs/index.html').read_text(encoding='utf-8')
-          banned=[
-            r'type=["\']password["\']', r'api\.twelvedata\.com', r'finnhub\.io/api',
-            r'api\.polygon\.io', r'alphavantage\.co/query', r'financialmodelingprep\.com',
-            r'localStorage[^\n]{0,120}(key|token)', r'prompt\([^\n]{0,120}(key|token)'
+          s = Path('docs/index.html').read_text(encoding='utf-8')
+          banned = [
+              r'type=["\']password["\']',
+              r'api\.twelvedata\.com',
+              r'finnhub\.io/api',
+              r'api\.polygon\.io',
+              r'alphavantage\.co/query',
+              r'financialmodelingprep\.com',
+              r'localStorage[^\n]{0,120}(key|token)',
+              r'prompt\([^\n]{0,120}(key|token)',
           ]
-          hits=[p for p in banned if re.search(p,s,re.I)]
+          hits = [p for p in banned if re.search(p, s, re.I)]
           assert not hits, f'public dashboard contains browser-side secret/API paths: {hits}'
           print('dashboard security scan passed')
           PY
 
-  deploy:
-    if: github.event_name != 'pull_request'
-    needs: validate-model
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-          cache-dependency-path: requirements-ml.txt
-
-      - name: Install ML dependencies
-        run: python -m pip install --upgrade pip && pip install -r requirements-ml.txt
-
-      - name: Build final ML snapshots
-        run: python scripts/ml_predict.py --data-dir docs/data --output-dir docs/data/ml
-
-      - name: Commit changed prediction snapshots
+      - name: Commit prediction snapshots to main
+        if: github.event_name != 'pull_request'
         run: |
-          if git diff --quiet -- docs/data/ml; then
+          git config user.name 'stock-truth-ml-bot'
+          git config user.email 'stock-truth-ml-bot@users.noreply.github.com'
+          git add docs/data/ml
+          if git diff --cached --quiet; then
             echo 'No ML changes to commit.'
           else
-            git config user.name 'stock-truth-robot'
-            git config user.email 'stock-truth-robot@users.noreply.github.com'
-            git add docs/data/ml
             git commit -m 'data: update walk-forward ML snapshots'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: docs
-
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
