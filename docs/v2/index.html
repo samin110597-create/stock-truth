@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Loading Stock Truth v2…</title>
+<style>body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}.box{max-width:560px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}</style>
+</head>
+<body>
+<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Full analyst terminal · any-ticker backend · completed-bar technical signals</div></div>
+<script>
+(async()=>{
+  const root='https://raw.githubusercontent.com/samin110597-create/stock-truth-v2/main/';
+  const [hr,jr]=await Promise.all([
+    fetch(root+'docs/index.html',{cache:'no-store'}),
+    fetch(root+'v2-enhance.js',{cache:'no-store'})
+  ]);
+  if(!hr.ok) throw new Error('v2 terminal file HTTP '+hr.status);
+  if(!jr.ok) throw new Error('v2 enhancement file HTTP '+jr.status);
+  let html=await hr.text();
+  const enhance=await jr.text();
+  const inline='<'+'script>'+enhance+'<'+'/script>';
+  html=html.replace(/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i,inline);
+  document.open();
+  document.write(html);
+  document.close();
+})().catch(err=>{
+  document.body.innerHTML='<div class="box"><h2>Stock Truth v2 could not load</h2><div class="muted">'+String(err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]))+'</div></div>';
+});
+</script>
+</body>
+</html>
