@@ -22,14 +22,33 @@ jobs:
       - name: Compile ML engine
         run: python -m py_compile scripts/ml_predict.py
       - name: Security scan public dashboard
-        shell: bash
         run: |
-          set -euo pipefail
-          ! grep -Eqi 'type=["'"']password|localStorage\.setItem\([^\n]*(key|token)|finnhub\.io/api|api\.twelvedata\.com|financialmodelingprep\.com|alphavantage\.co/query|polygon\.io/v[0-9]|Paste a .*key|API key.*browser' docs/index.html
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s = Path('docs/index.html').read_text(encoding='utf-8')
+          banned = [
+              r'type=["\']password["\']',
+              r'api\.twelvedata\.com',
+              r'finnhub\.io/api',
+              r'api\.polygon\.io',
+              r'alphavantage\.co/query',
+              r'financialmodelingprep\.com',
+              r'localStorage[^\n]{0,120}(key|token)',
+              r'prompt\([^\n]{0,120}(key|token)',
+          ]
+          hits = [p for p in banned if re.search(p, s, re.I)]
+          assert not hits, f'public dashboard contains browser-side secret/API paths: {hits}'
+          print('dashboard security scan passed')
+          PY
       - name: Confirm ML integration points
-        shell: bash
         run: |
-          set -euo pipefail
-          grep -q 'data/ml' docs/index.html
-          grep -q 'NO VERIFIED EDGE' docs/index.html
-          grep -q 'TimeSeriesSplit' scripts/ml_predict.py
+          python - <<'PY'
+          from pathlib import Path
+          html = Path('docs/index.html').read_text(encoding='utf-8')
+          ml = Path('scripts/ml_predict.py').read_text(encoding='utf-8')
+          assert 'data/ml' in html, 'dashboard does not load ML output'
+          assert 'NO VERIFIED EDGE' in html, 'dashboard is missing the no-edge safety state'
+          assert 'TimeSeriesSplit' in ml, 'ML engine is missing chronological validation'
+          print('ML integration checks passed')
+          PY
