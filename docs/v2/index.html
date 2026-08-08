@@ -7,7 +7,7 @@
 <style>body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}.box{max-width:560px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}</style>
 </head>
 <body>
-<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Full analyst terminal · any-ticker backend · completed-bar technical signals</div></div>
+<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Full analyst terminal · SEC-backed fundamentals · 1-week / 1-month walk-forward forecasts · completed-bar technical signals</div></div>
 <script>
 (async()=>{
   const root='https://raw.githubusercontent.com/samin110597-create/stock-truth-v2/main/';
@@ -19,6 +19,8 @@
   if(!jr.ok) throw new Error('v2 enhancement file HTTP '+jr.status);
   let html=await hr.text();
   const enhance=await jr.text();
+  html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=','https://stock-truth-v2.vercel.app/api/stock-v4?symbol=');
+  html=html.replace('/api/stock?symbol=','https://stock-truth-v2.vercel.app/api/stock-v4?symbol=');
   const inline='<'+'script>'+enhance+'<'+'/script>';
   html=html.replace(/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i,inline);
   document.open();
