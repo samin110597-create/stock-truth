@@ -18,9 +18,14 @@
   if(!hr.ok) throw new Error('v2 terminal file HTTP '+hr.status);
   if(!jr.ok) throw new Error('v2 enhancement file HTTP '+jr.status);
   let html=await hr.text();
-  const enhance=await jr.text();
-  html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=','https://stock-truth-v2.vercel.app/api/stock-v4?symbol=');
-  html=html.replace('/api/stock?symbol=','https://stock-truth-v2.vercel.app/api/stock-v4?symbol=');
+  let enhance=await jr.text();
+  const v5='https://stock-truth-v2.vercel.app/api/stock-v5';
+  html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4?symbol=',v5+'?symbol=');
+  html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=',v5+'?symbol=');
+  html=html.replaceAll('/api/stock-v4?symbol=',v5+'?symbol=');
+  html=html.replaceAll('/api/stock?symbol=',v5+'?symbol=');
+  enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4',v5);
+  enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock',v5);
   const inline='<'+'script>'+enhance+'<'+'/script>';
   html=html.replace(/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i,inline);
   document.open();
