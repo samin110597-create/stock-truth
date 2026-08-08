@@ -78,49 +78,127 @@ summary{cursor:pointer;font-size:11px;color:var(--dim);font-family:var(--mono)}
   #tfbar button.tf{padding:5px 11px;font-size:11px}
   #tfbar button.tf.on{border-color:var(--amber);color:var(--amber)}
   #btnRefresh{padding:5px 11px;font-size:11px}
+
+
+/* ============================================================
+   INSTITUTIONAL INTERFACE LAYER
+   The analytics engine below is unchanged. This layer improves
+   hierarchy, legibility and decision workflow without inventing data.
+   ============================================================ */
+:root{
+  --bg:#090D12;--panel:#111720;--panel2:#151D28;--edge:#263140;--edge2:#334154;
+  --ink:#F2F0E9;--dim:#A5ADBA;--faint:#717B89;--live:#D6A756;--up:#3DB982;
+  --down:#E26767;--blue:#78A7D8;--violet:#A58AD7;--shadow:0 14px 40px rgba(0,0,0,.22);
+}
+body{padding:20px clamp(12px,2.4vw,34px) 72px;font-size:14px;line-height:1.45;
+  background:radial-gradient(circle at 70% -20%,rgba(120,167,216,.08),transparent 35%),var(--bg)}
+main{max-width:1380px;gap:14px}
+h1{font-size:22px;letter-spacing:-.02em}
+h2{font-size:11px;letter-spacing:.11em;margin-bottom:12px;color:var(--dim)}
+h3{font-size:11px;letter-spacing:.07em;color:var(--blue)}
+.panel{background:linear-gradient(180deg,rgba(255,255,255,.012),transparent 34%),var(--panel);
+  border-color:var(--edge);border-radius:10px;padding:17px;box-shadow:0 1px 0 rgba(255,255,255,.02)}
+.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:2px 2px 4px}
+.brand-lockup{min-width:0}.brand-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand-sub{font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-top:3px}
+.terminal-chip{font-family:var(--mono);font-size:9px;letter-spacing:.13em;color:var(--live);
+  border:1px solid rgba(214,167,86,.35);background:rgba(214,167,86,.07);padding:3px 7px;border-radius:999px}
+.top-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+button{border-color:var(--edge2);background:#121924;color:var(--dim);border-radius:6px;transition:.18s ease}
+button:hover{border-color:#55647A;color:var(--ink);transform:translateY(-1px)}
+button.go{background:var(--live);color:#17120A;padding:10px 18px;border-radius:6px}
+.command-panel{padding:14px 16px}.command-head{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.eyebrow,.mini-label{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.13em;color:var(--faint)}
+.command-title{font-size:15px;font-weight:600;margin-top:2px}.command-row{display:grid;grid-template-columns:1fr auto;gap:9px;margin-top:11px}
+.command-row input{min-width:0}input[type=text],input[type=password],input[type=number]{background:#0B1017;border-color:var(--edge2);border-radius:6px;padding:10px 11px}
+.toolbar-row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-top:10px;flex-wrap:wrap}
+.timeframe-group,.ticker-shortcuts{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.toolbar-label{font-family:var(--mono);font-size:10px;color:var(--faint);margin-right:2px}
+.settings-drawer{margin-top:10px;border-top:1px solid var(--edge);padding-top:9px}.settings-drawer summary{font-size:10.5px}
+.mode-note:empty{display:none}
+.data-ribbon{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:#0E141C;border:1px solid var(--edge);border-radius:9px;padding:10px 13px}
+.ribbon-item{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+.status-dot{width:7px;height:7px;border-radius:50%;background:var(--faint);box-shadow:0 0 0 3px rgba(113,123,137,.1)}
+.status-dot.good{background:var(--up);box-shadow:0 0 0 3px rgba(61,185,130,.12)}
+.status-dot.warn{background:var(--live);box-shadow:0 0 0 3px rgba(214,167,86,.12)}
+.status-dot.bad{background:var(--down);box-shadow:0 0 0 3px rgba(226,103,103,.12)}
+.data-ribbon details{margin:0 0 0 auto;padding:0;border:0}.data-ribbon summary{font-size:10.5px}.audit-popover{width:min(100%,1000px);flex-basis:100%;margin-top:7px!important;padding-top:10px!important;border-top:1px solid var(--edge)!important}
+.audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:7px 16px;font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+.instrument-card{padding:18px}.instrument-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.instrument-name{font-size:17px;font-weight:650;letter-spacing:-.01em}.instrument-meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.price-block{text-align:right}.price{font-size:34px;letter-spacing:-.04em}.price-change{font-family:var(--mono);font-size:13px;margin-top:2px}
+.market-strip{display:grid;grid-template-columns:repeat(5,minmax(120px,1fr));gap:0;margin-top:15px;border-top:1px solid var(--edge)}
+.market-strip .st{padding:12px 14px 0 0}.market-strip .st:not(:last-child){border-right:1px solid var(--edge);margin-right:14px}
+.tabs{position:sticky;top:0;z-index:10;background:rgba(9,13,18,.93);backdrop-filter:blur(12px);padding:9px 0;border-bottom:1px solid var(--edge);gap:4px}
+.tabs button{border:0;background:transparent;border-radius:0;padding:8px 10px;color:var(--faint);font-size:10.5px}
+.tabs button:hover{transform:none;color:var(--ink)}.tabs button.on{border:0;border-bottom:2px solid var(--live);color:var(--ink);background:transparent}
+.overview-grid{display:grid;gap:14px}.decision-hero{border-color:rgba(214,167,86,.36);background:linear-gradient(120deg,rgba(214,167,86,.075),transparent 42%),var(--panel)}
+.decision-layout{display:grid;grid-template-columns:minmax(230px,.75fr) minmax(0,2fr);gap:22px;align-items:stretch}
+.score-stack{display:flex;flex-direction:column;justify-content:space-between;border-right:1px solid var(--edge);padding-right:20px}
+.status-badge{display:inline-flex;width:max-content;align-items:center;gap:7px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;padding:5px 9px;border-radius:999px;border:1px solid var(--edge2)}
+.status-badge.good{color:var(--up);border-color:rgba(61,185,130,.38);background:rgba(61,185,130,.07)}
+.status-badge.bad{color:var(--down);border-color:rgba(226,103,103,.38);background:rgba(226,103,103,.07)}
+.status-badge.warn{color:var(--live);border-color:rgba(214,167,86,.38);background:rgba(214,167,86,.07)}
+.composite-score{font-family:var(--mono);font-size:48px;line-height:1;font-weight:600;letter-spacing:-.06em;margin-top:15px}.composite-score small{font-size:14px;color:var(--faint);letter-spacing:0}
+.direction-read{font-size:18px;font-weight:650;margin-top:7px}.decision-summary{font-size:13px;color:var(--dim);line-height:1.6;margin-top:10px}
+.decision-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}.decision-field{padding:10px 0;border-bottom:1px solid var(--edge)}
+.decision-field .value{font-size:13px;font-weight:600;margin-top:3px}.decision-field .detail{font-family:var(--mono);font-size:10px;color:var(--faint);margin-top:3px;line-height:1.45}
+.pillar-grid{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:9px}.pillar{border:1px solid var(--edge);background:#0E141C;border-radius:8px;padding:12px}
+.pillar-top{display:flex;align-items:baseline;justify-content:space-between;gap:8px}.pillar-name{font-size:11px;color:var(--dim)}.pillar-score{font-family:var(--mono);font-size:17px;font-weight:600}
+.pillar .bar{height:4px;margin-top:9px}.pillar-note{font-family:var(--mono);font-size:9px;color:var(--faint);margin-top:7px}
+.two-col{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(320px,.8fr);gap:14px}.equal-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.chart-card{min-height:390px}.chart-frame{height:325px}.risk-list{display:grid;gap:0}.risk-row{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--edge)}
+.risk-row:last-child{border-bottom:0}.risk-row .rk{font-size:11.5px;color:var(--dim)}.risk-row .rv{text-align:right;font-family:var(--mono);font-size:11.5px}.risk-row .subv{font-size:9px;color:var(--faint);margin-top:2px}
+.evidence-shortlist{display:grid;gap:0}.evidence-item{display:grid;grid-template-columns:24px 1fr;gap:9px;padding:10px 0;border-bottom:1px solid var(--edge)}.evidence-item:last-child{border-bottom:0}
+.evidence-rank{font-family:var(--mono);font-size:10px;color:var(--faint);padding-top:2px}.evidence-title{font-size:12px;font-weight:600}.evidence-detail{font-family:var(--mono);font-size:10px;color:var(--faint);line-height:1.5;margin-top:3px}
+.levels-grid{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:9px}.level-card{border:1px solid var(--edge);border-radius:8px;padding:12px;background:#0E141C}.level-card .lv{font-family:var(--mono);font-size:17px;margin-top:5px}.level-card .ls{font-family:var(--mono);font-size:9px;color:var(--faint);margin-top:4px}
+.callout{border-left:3px solid var(--live);background:rgba(214,167,86,.055);padding:11px 13px;border-radius:0 7px 7px 0;font-size:12px;color:var(--dim);line-height:1.55}
+.action-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px}.text-button{background:transparent;border-color:var(--edge2)}
+.compact-table th,.compact-table td{padding-top:8px;padding-bottom:8px}.panel-link{color:var(--blue);cursor:pointer;text-decoration:none}
+.note{font-size:11.5px}.sub{font-size:10.5px}.st .l{font-size:10px}.st .s{font-size:10px}.ev{font-size:12.5px;padding:7px 0}table{font-size:11.5px}th{font-size:9.5px}
+@media(max-width:1050px){.pillar-grid{grid-template-columns:repeat(3,1fr)}.decision-layout{grid-template-columns:1fr}.score-stack{border-right:0;border-bottom:1px solid var(--edge);padding:0 0 18px}.two-col,.equal-col{grid-template-columns:1fr}.market-strip{grid-template-columns:repeat(3,1fr)}.market-strip .st{border-right:0!important}}
+@media(max-width:680px){body{padding-left:9px;padding-right:9px}.topbar{align-items:flex-start}.brand-sub{display:none}.command-row{grid-template-columns:1fr}.command-row .go{width:100%}.decision-fields{grid-template-columns:1fr}.pillar-grid{grid-template-columns:repeat(2,1fr)}.levels-grid{grid-template-columns:repeat(2,1fr)}.market-strip{grid-template-columns:repeat(2,1fr)}.price-block{text-align:left}.instrument-top{display:block}.price-block{margin-top:12px}.tabs{overflow-x:auto;flex-wrap:nowrap}.tabs button{white-space:nowrap}.data-ribbon details{margin-left:0}}
+
 </style>
 </head>
 <body>
 <main>
-  <header class="row" style="justify-content:space-between">
-    <div class="row" style="gap:12px">
-      <h1>Stock Truth</h1>
-      <span class="sub">six sources · verified maths · no simulated numbers · <span id="buildTag" class="dim">checking build…</span></span>
+  <header class="topbar">
+    <div class="brand-lockup">
+      <div class="brand-row"><h1>Stock Truth</h1><span class="terminal-chip">INSTITUTIONAL VIEW</span></div>
+      <div class="brand-sub">Evidence-led market intelligence · transparent assumptions · no simulated numbers · <span id="buildTag">checking build…</span></div>
     </div>
-    <button id="btnBrief" title="Export a verified data pack for your AI engine prompts">AI brief</button>
-    <button id="btnLive">Live quote</button>
+    <div class="top-actions">
+      <button id="btnBrief" title="Export a verified evidence pack">Export brief</button>
+      <button id="btnLive" title="Reload the latest committed pipeline snapshot">Reload snapshot</button>
+    </div>
   </header>
 
-  <div class="panel">
-    <h2>Analyze <span class="tag" id="modeTag">CHECKING DATA…</span></h2>
-    <div class="row">
-      <div style="flex:1;min-width:180px"><input id="sym" type="text" placeholder="Type any ticker — AAPL, VOO, XIC.TO…" autocomplete="off" spellcheck="false"></div>
-      <button class="go" id="btnGo">Analyze</button>
-    </div>
-    <div class="row" style="margin-top:9px" id="tfbar">
-      <span class="sub" style="align-self:center">Timeframe</span>
-      <button class="tf on" data-tf="1day">Daily</button>
-      <button class="tf" data-tf="1h">1 hour</button>
-      <button class="tf" data-tf="30min">30 min</button>
-      <button class="tf" data-tf="15min">15 min</button>
-      <button class="tf" data-tf="5min">5 min</button>
-      <button id="btnRefresh" title="Re-fetch candles now">Refresh</button>
-    </div>
-    <div class="row" style="margin-top:9px" id="tickers"></div>
-    <details id="keybox">
-      <summary>Direct-mode API keys (only needed for tickers the robot has not cached, or until the robot runs)</summary>
-      <div class="kwrap" style="margin-top:8px">
-        <div><label for="kTwelve">Twelve Data — candles (the essential one)</label><input id="kTwelve" type="password"></div>
-        <div><label for="kFinn">Finnhub — quote, profile, analysts</label><input id="kFinn" type="password"></div>
-        <div><label for="kFmp">FMP — statements</label><input id="kFmp" type="password"></div>
-        <div><label for="kPoly">Polygon — candle cross-check</label><input id="kPoly" type="password"></div>
-        <div><label for="kAv">Alpha Vantage — earnings, macro</label><input id="kAv" type="password"></div>
+  <section class="panel command-panel">
+    <div class="command-head">
+      <div>
+        <div class="eyebrow">Security workspace</div>
+        <div class="command-title">Analyze a pipeline-cached stock, ETF or index</div>
       </div>
-      <p class="note">These stay in this browser only and are sent straight to each vendor. Once the GitHub
-      robot runs, watchlist tickers need no keys at all — this box is the fallback and the any-ticker path.</p>
+      <span class="tag" id="modeTag">CHECKING DATA…</span>
+    </div>
+    <div class="command-row">
+      <input id="sym" type="text" placeholder="Cached ticker — AAPL, NVDA, VOO, XIC.TO…" autocomplete="off" spellcheck="false">
+      <button class="go" id="btnGo">Run analysis</button>
+    </div>
+    <div class="toolbar-row">
+      <div class="timeframe-group" id="tfbar">
+        <span class="toolbar-label">Signal basis</span>
+        <button class="tf on" data-tf="1day" disabled>Daily closed bars</button>
+        <button id="btnRefresh" title="Reload the latest JSON produced by GitHub Actions">Reload snapshot</button>
+      </div>
+      <div class="ticker-shortcuts" id="tickers"></div>
+    </div>
+    <details class="settings-drawer">
+      <summary>Secure data architecture</summary>
+      <p class="note">This public page never accepts, stores, or sends API keys. GitHub Actions reads repository secrets, fetches the market data on the runner, validates it, and commits only non-secret JSON into <span class="mono">docs/data</span>. Visitors can read the resulting snapshots but cannot recover the secrets.</p>
     </details>
-    <p class="note" id="modeNote"></p>
-  </div>
+    <p class="note mode-note" id="modeNote"></p>
+  </section>
 
   <div id="app"></div>
 </main>
@@ -859,9 +937,9 @@ const sgn=v=>v>0?"up":v<0?"down":"";
 const agoBars=n=>n===0?"today":n===1?"yesterday":n+" sessions ago";
 
 /* ================= state ================= */
-const BUILD_TAG="v2.4 · 2026-08-06";
-let INDEX=null,D=null,T=null,V=null,L=null,S=null,PAT=null,SIG=null,MODE="direct";
-let TF=localStorage.getItem("tf")||"1day",FRESH=null,candleTimer=null;
+const BUILD_TAG="v4.0 · secure pipeline · walk-forward ML · closed-bar signals · 2026-08-08";
+let INDEX=null,D=null,ML=null,T=null,V=null,L=null,S=null,PAT=null,SIG=null,MODE="pipeline";
+let TF="1day",FRESH=null;
 const RANKD={};let RANK_SORT={key:"score",dir:-1},RANK_BUSY=false;
 const BT_CACHE={};let BT=null;
 const TFM={"1day":{ppy:252,perDay:1,label:"Daily",intraday:false,staleMin:24*60},
@@ -870,324 +948,60 @@ const TFM={"1day":{ppy:252,perDay:1,label:"Daily",intraday:false,staleMin:24*60}
   "15min":{ppy:252*26,perDay:26,label:"15 min",intraday:true,staleMin:22},
   "5min":{ppy:252*78,perDay:78,label:"5 min",intraday:true,staleMin:10}};
 const tfm=()=>TFM[TF]||TFM["1day"];
-let TAB="verdict",charts={},pollTimer=null;
+let TAB="verdict",charts={};
 const A={g1:8,g2:4,disc:10,term:2.5,mos:25};
-const LIVEKEY=()=>localStorage.getItem("live_finnhub")||"";
 
 
-/* ================= direct mode: fetch straight from vendors =================
-   Used when the pipeline JSON is absent, or for any ticker the robot has not
-   cached. Produces D-objects in exactly the pipeline's schema so every tab
-   renders identically. Browser mode cannot reach Yahoo (CORS), so the
-   fundamentals chain here is FMP -> Finnhub ratios -> Alpha Vantage OVERVIEW,
-   and the positioning block honestly reports itself unavailable. */
-const KEYS={finn:"",twelve:"",fmp:"",poly:"",av:""};
-const KMAP={kFinn:["finn","k_finn"],kTwelve:["twelve","k_twelve"],kFmp:["fmp","k_fmp"],
-  kPoly:["poly","k_poly"],kAv:["av","k_av"]};
-function loadKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{
-  KEYS[k]=localStorage.getItem(ls)||"";const e=$("#"+id);if(e)e.value=KEYS[k];});}
-function bindKeys(){Object.entries(KMAP).forEach(([id,[k,ls]])=>{const e=$("#"+id);if(!e)return;
-  e.onchange=ev=>{const v=ev.target.value.trim();KEYS[k]=v;localStorage.setItem(ls,v);};});}
-const nowISO=()=>new Date().toISOString();
-function cacheGet(k,ttlMin){try{const r=JSON.parse(localStorage.getItem("c:"+k)||"null");
-  if(r&&Date.now()-r.t<ttlMin*6e4)return r.v;}catch{}return null;}
-function cacheSet(k,v){try{localStorage.setItem("c:"+k,JSON.stringify({t:Date.now(),v}));}catch{}}
-async function jget(url){
-  const r=await fetch(url,{cache:"no-store"});
-  if(!r.ok)throw new Error("HTTP "+r.status);
-  const j=await r.json();
-  for(const k of["Error Message","Note","Information"])if(j&&j[k])throw new Error(String(j[k]).slice(0,180));
-  if(j&&j.status==="error")throw new Error(j.message||"vendor error");
-  return j;}
-const derr=(source,e)=>({source,fetched_at:nowISO(),error:String(e&&e.message||e).slice(0,200)});
+/* ================= secure pipeline mode =================
+   The browser reads only JSON produced by GitHub Actions. API credentials stay
+   in repository secrets and are never embedded in HTML, localStorage, URLs, or
+   network requests made by visitors. */
+function validateSnapshot(obj){
+  const critical=[],warnings=[];
+  if(!obj||typeof obj!=="object")return{critical:["snapshot is not a JSON object"],warnings};
+  const bars=obj.candles&&obj.candles.bars;
+  if(!Array.isArray(bars)){critical.push("candles.bars is missing");return{critical,warnings};}
+  if(bars.length<200)warnings.push(`only ${bars.length} bars supplied; 200-day statistics may be unstable`);
+  let prev=null;const dates=new Set();
+  for(let i=0;i<bars.length;i++){
+    const b=bars[i]||{},d=String(b.date||"");
+    if(!d){critical.push(`bar ${i} has no date`);break;}
+    if(dates.has(d)){critical.push(`duplicate candle date ${d}`);break;}dates.add(d);
+    if(prev&&d<=prev){critical.push(`candles are not strictly chronological at ${d}`);break;}prev=d;
+    const nums=[b.open,b.high,b.low,b.close].map(Number);
+    if(nums.some(v=>!Number.isFinite(v)||v<=0)){critical.push(`invalid OHLC values on ${d}`);break;}
+    const[o,h,l,c]=nums;
+    if(h<Math.max(o,c)||l>Math.min(o,c)||h<l){critical.push(`inconsistent OHLC range on ${d}`);break;}
+    if(b.volume!=null&&(!Number.isFinite(Number(b.volume))||Number(b.volume)<0)){
+      warnings.push(`invalid volume on ${d}; volume analytics may be incomplete`);break;}
+  }
+  const q=obj.quote;
+  if(q&&!q.error&&q.current!=null&&(!Number.isFinite(Number(q.current))||Number(q.current)<=0))
+    warnings.push("quote.current is invalid; the closed candle will be used instead");
+  if(obj.candles&&obj.candles.cross_check&&obj.candles.cross_check.status==="DISAGREE")
+    warnings.push("independent candle sources disagree; price-derived levels should be treated as low confidence");
+  if(obj.generated_at&&Number.isNaN(Date.parse(obj.generated_at)))warnings.push("generated_at is not a valid timestamp");
+  return{critical,warnings};
+}
 
-async function dCandles(sym,interval="1day"){
-  if(!KEYS.twelve)throw new Error("no Twelve Data key — open the key panel above and paste one");
-  const j=await jget(`https://api.twelvedata.com/time_series?symbol=${encodeURIComponent(sym)}&interval=${interval}&outputsize=900&order=ASC&apikey=${KEYS.twelve}`);
-  const v=j.values||[];if(!v.length)throw new Error("no candles for "+sym+" at "+interval);
-  return v.map(x=>({date:x.datetime,open:+x.open,high:+x.high,low:+x.low,close:+x.close,volume:+(x.volume||0)}));}
-async function dPoly(sym){
-  if(!KEYS.poly)return null;
-  const to=new Date().toISOString().slice(0,10);
-  const from=new Date(Date.now()-500*864e5).toISOString().slice(0,10);
-  const j=await jget(`https://api.polygon.io/v2/aggs/ticker/${encodeURIComponent(sym)}/range/1/day/${from}/${to}?adjusted=true&sort=asc&limit=500&apiKey=${KEYS.poly}`);
-  const r=j.results||[];if(!r.length)return null;
-  return r.map(x=>({date:new Date(x.t).toISOString().slice(0,10),close:x.c}));}
-function dCross(a,b){
-  if(!a||!b)return null;
-  const m=new Map(b.map(x=>[x.date,x.close]));
-  const pr=a.slice(-40).filter(x=>m.has(x.date)).slice(-12);
-  if(pr.length<5)return{checked:pr.length,status:"NO OVERLAP",worst:null};
-  let worst=0;for(const p of pr){const o=m.get(p.date);if(!o)continue;
-    const d=Math.abs(p.close-o)/o*100;if(d>worst)worst=d;}
-  return{checked:pr.length,worst:+worst.toFixed(4),
-    status:worst<0.5?"AGREE":worst<2?"MINOR DIVERGENCE":"DISAGREE"};}
-async function dQuote(sym){
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const j=await jget(`https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
-  if(!j||!j.c)throw new Error("no quote for "+sym);
-  return{source:"finnhub",fetched_at:nowISO(),current:j.c,change:j.d,change_pct:j.dp,
-    high:j.h,low:j.l,open:j.o,prev_close:j.pc,ts:j.t};}
-async function dProfile(sym){
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const j=await jget(`https://finnhub.io/api/v1/stock/profile2?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
-  if(!j||!j.name)throw new Error("no profile (funds and some non-US listings have none)");
-  return{source:"finnhub",fetched_at:nowISO(),name:j.name,industry:j.finnhubIndustry,
-    exchange:j.exchange,mcap:j.marketCapitalization?j.marketCapitalization*1e6:null};}
-async function dAnalysts(sym){
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const j=await jget(`https://finnhub.io/api/v1/stock/recommendation?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
-  if(!Array.isArray(j)||!j.length)throw new Error("no coverage");
-  return{source:"finnhub",fetched_at:nowISO(),trends:j.slice(0,6)};}
-let FMP_MODE=localStorage.getItem("fmp_mode")||"";
-async function fmpGet(name,sym,extra){
-  if(!KEYS.fmp)throw new Error("no FMP key");
-  const q=extra?extra+"&":"";
-  const stable=`https://financialmodelingprep.com/stable/${name}?symbol=${encodeURIComponent(sym)}&${q}apikey=${KEYS.fmp}`;
-  const v3=`https://financialmodelingprep.com/api/v3/${name}/${encodeURIComponent(sym)}?${q}apikey=${KEYS.fmp}`;
-  if(FMP_MODE==="v3")return jget(v3);
-  if(FMP_MODE==="stable")return jget(stable);
-  try{const j=await jget(stable);FMP_MODE="stable";localStorage.setItem("fmp_mode","stable");return j;}
-  catch(e){const j=await jget(v3);FMP_MODE="v3";localStorage.setItem("fmp_mode","v3");return j;}}
-const dnum=v=>{const f=+v;return isFinite(f)?f:null;};
-const ddiv=(a,b)=>(dnum(a)!=null&&dnum(b))?dnum(a)/dnum(b):null;
-const dcagr=(e,s,y)=>(e>0&&s>0&&y>0)?Math.pow(e/s,1/y)-1:null;
+async function fetchJSON(path){
+  const r=await fetch(path,{cache:"no-store"});
+  if(!r.ok)throw new Error(`${path} returned HTTP ${r.status}`);
+  return r.json();
+}
 
-async function dFundFMP(sym){
-  const prof=await fmpGet("profile",sym);
-  const P=Array.isArray(prof)?prof[0]:prof;
-  if(P&&P.isEtf)return{source:"fmp",fetched_at:nowISO(),is_etf:true,name:P.companyName};
-  const[inc,bal,cfs,rat]=await Promise.all([
-    fmpGet("income-statement",sym,"period=annual&limit=6"),
-    fmpGet("balance-sheet-statement",sym,"period=annual&limit=6"),
-    fmpGet("cash-flow-statement",sym,"period=annual&limit=6"),
-    fmpGet("ratios-ttm",sym).catch(()=>null)]);
-  if(!inc||!inc.length||!bal||!bal.length||!cfs||!cfs.length)throw new Error("FMP returned no statements");
-  const R=(Array.isArray(rat)?rat[0]:rat)||{};
-  const y0=inc[0],b0=bal[0],c0=cfs[0],nI=inc.length-1;
-  const fcf=cfs.map(x=>x.freeCashFlow!=null?x.freeCashFlow:
-    (dnum(x.operatingCashFlow)||0)-Math.abs(dnum(x.capitalExpenditure)||0));
-  const shares=dnum(y0.weightedAverageShsOutDil)||dnum(y0.weightedAverageShsOut);
-  const eq=dnum(b0.totalStockholdersEquity),debt=dnum(b0.totalDebt)||0,
-    cash=dnum(b0.cashAndShortTermInvestments)||dnum(b0.cashAndCashEquivalents)||0;
-  const ebit=dnum(y0.operatingIncome),rev=dnum(y0.revenue);
-  const tax=Math.min(Math.max(ddiv(y0.incomeTaxExpense,y0.incomeBeforeTax)??0.21,0),0.45);
-  const ic=(eq||0)+debt-cash;
-  const eps=dnum(y0.epsdiluted)??dnum(y0.eps);
-  return{source:"fmp",fetched_at:nowISO(),is_etf:false,name:P?.companyName||sym,
-    sector:P?.sector,industry:P?.industry,period:y0.calendarYear,years:inc.length,
-    currency:y0.reportedCurrency,mcap:dnum(P?.mktCap),shares,
-    annual:inc.slice().reverse().map(r=>({year:r.calendarYear,revenue:dnum(r.revenue),
-      net_income:dnum(r.netIncome),
-      fcf:(()=>{const k=cfs.findIndex(x=>x.calendarYear===r.calendarYear);return k>=0?fcf[k]:null;})(),
-      gross:ddiv(r.grossProfit,r.revenue),op:ddiv(r.operatingIncome,r.revenue),net:ddiv(r.netIncome,r.revenue)})),
-    revenue:rev,net_income:dnum(y0.netIncome),ebit,eps_ttm:eps,bvps:ddiv(eq,shares),
-    fcf_latest:fcf[0],fcf_base:fcf.length>=2&&fcf[1]!=null?(fcf[0]+fcf[1])/2:fcf[0],
-    dividend_ps:dnum(R.dividendPerShareTTM),
-    rev_cagr_3y:dcagr(rev,dnum(inc[Math.min(3,nI)].revenue),Math.min(3,nI)),
-    rev_cagr_5y:dcagr(rev,dnum(inc[nI].revenue),nI),
-    eps_cagr:dcagr(dnum(y0.netIncome),dnum(inc[nI].netIncome),nI),
-    fcf_cagr:dcagr(fcf[0],fcf[fcf.length-1],fcf.length-1),
-    gross_margin:ddiv(y0.grossProfit,rev),op_margin:ddiv(ebit,rev),
-    net_margin:ddiv(y0.netIncome,rev),fcf_margin:ddiv(fcf[0],rev),
-    roe:dnum(R.returnOnEquityTTM)??ddiv(y0.netIncome,eq),roa:ddiv(y0.netIncome,b0.totalAssets),
-    roic:(ic>0&&ebit!=null)?(ebit*(1-tax))/ic:null,
-    debt_to_equity:ddiv(debt,eq),net_cash:cash-debt,total_debt:debt,cash,tax_rate:tax,
-    current_ratio:ddiv(b0.totalCurrentAssets,b0.totalCurrentLiabilities),
-    quick_ratio:ddiv((dnum(b0.totalCurrentAssets)||0)-(dnum(b0.inventory)||0),b0.totalCurrentLiabilities),
-    interest_coverage:y0.interestExpense?ddiv(ebit,Math.abs(dnum(y0.interestExpense))):null,
-    capex:Math.abs(dnum(c0.capitalExpenditure)||0),ocf:dnum(c0.operatingCashFlow),
-    buyback:dnum(c0.commonStockRepurchased),
-    pe:dnum(R.peRatioTTM)??dnum(R.priceEarningsRatioTTM),pb:dnum(R.priceToBookRatioTTM),
-    ps:dnum(R.priceToSalesRatioTTM),peg:dnum(R.pegRatioTTM)??dnum(R.priceEarningsToGrowthRatioTTM)};}
-
-async function dFundFinnhub(sym){
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const j=await jget(`https://finnhub.io/api/v1/stock/metric?symbol=${encodeURIComponent(sym)}&metric=all&token=${KEYS.finn}`);
-  const m=(j||{}).metric||{};
-  if(!Object.keys(m).length)throw new Error("no metrics");
-  const p=k=>dnum(m[k])!=null?dnum(m[k])/100:null;
-  return{source:"finnhub",fetched_at:nowISO(),is_etf:false,partial:true,name:sym,years:null,annual:[],
-    eps_ttm:dnum(m.epsTTM),bvps:dnum(m.bookValuePerShareQuarterly),
-    rev_cagr_3y:p("revenueGrowth3Y"),rev_cagr_5y:p("revenueGrowth5Y"),eps_cagr:p("epsGrowth5Y"),
-    gross_margin:p("grossMarginTTM"),op_margin:p("operatingMarginTTM"),net_margin:p("netProfitMarginTTM"),
-    roe:p("roeTTM"),roa:p("roaTTM"),roic:p("roiTTM"),
-    debt_to_equity:dnum(m["totalDebt/totalEquityQuarterly"]),
-    current_ratio:dnum(m.currentRatioQuarterly),quick_ratio:dnum(m.quickRatioQuarterly),
-    interest_coverage:dnum(m.netInterestCoverageTTM),
-    pe:dnum(m.peTTM),pb:dnum(m.pbQuarterly),ps:dnum(m.psTTM),peg:dnum(m.pegTTM),
-    ev_ebitda:dnum(m.evEbitdaTTM),dividend_ps:dnum(m.dividendPerShareTTM),
-    note:"Ratios only — Finnhub's free tier carries no raw statements, so cash-flow models cannot run from this source."};}
-
-async function dFundAV(sym){
-  if(!KEYS.av)throw new Error("no Alpha Vantage key");
-  const j=await jget(`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`);
-  if(!j||!j.Symbol)throw new Error("no overview");
-  const f=k=>dnum(j[k]);
-  return{source:"alphavantage",fetched_at:nowISO(),is_etf:j.AssetType==="ETF",partial:true,
-    name:j.Name||sym,sector:j.Sector,years:null,annual:[],
-    mcap:f("MarketCapitalization"),shares:f("SharesOutstanding"),revenue:f("RevenueTTM"),
-    eps_ttm:f("EPS"),bvps:f("BookValue"),dividend_ps:f("DividendPerShare"),
-    gross_margin:ddiv(f("GrossProfitTTM"),f("RevenueTTM")),op_margin:f("OperatingMarginTTM"),
-    net_margin:f("ProfitMargin"),roe:f("ReturnOnEquityTTM"),roa:f("ReturnOnAssetsTTM"),
-    pe:f("PERatio"),forward_pe:f("ForwardPE"),pb:f("PriceToBookRatio"),
-    ps:f("PriceToSalesRatioTTM"),peg:f("PEGRatio"),ev_ebitda:f("EVToEBITDA"),
-    note:"Summary ratios only — no raw statements, so cash-flow models cannot run from this source."};}
-
-async function dFundamentals(sym){
-  const ck="dfund:"+sym,c=cacheGet(ck,60*24);
-  if(c)return c;
-  const attempts=[];
-  for(const[nm,fn]of[["fmp",dFundFMP],["finnhub",dFundFinnhub],["alphavantage",dFundAV]]){
-    try{const out=await fn(sym);out.attempts=attempts;out.fallback_used=nm!=="fmp";
-      cacheSet(ck,out);return out;}
-    catch(e){attempts.push({source:nm,error:String(e.message||e).slice(0,150)});}}
-  return{source:"none",fetched_at:nowISO(),
-    error:"all browser-reachable fundamentals sources failed (yfinance needs the pipeline)",attempts};}
-
-async function dEarnings(sym){
-  const ck="dearn:"+sym,c=cacheGet(ck,60*24*7);
-  if(c)return c;
-  if(!KEYS.av)throw new Error("no Alpha Vantage key");
-  const j=await jget(`https://www.alphavantage.co/query?function=EARNINGS&symbol=${encodeURIComponent(sym)}&apikey=${KEYS.av}`);
-  const q=j.quarterlyEarnings;if(!q||!q.length)throw new Error("no earnings history");
-  const rows=q.slice(0,8).map(r=>({period:r.fiscalDateEnding,reported:r.reportedDate,
-    est:dnum(r.estimatedEPS),act:dnum(r.reportedEPS),surprise:dnum(r.surprisePercentage)}));
-  const sc=rows.filter(r=>r.surprise!=null);
-  const out={source:"alphavantage",fetched_at:nowISO(),rows,
-    beats:sc.filter(r=>r.surprise>0).length,scored:sc.length,
-    avg_surprise:sc.length?sc.reduce((a,r)=>a+r.surprise,0)/sc.length:null};
-  cacheSet(ck,out);return out;}
-
-async function dNews(sym){
-  const ck="dnews:"+sym,c=cacheGet(ck,45);if(c)return c;
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const to=new Date().toISOString().slice(0,10);
-  const frm=new Date(Date.now()-14*864e5).toISOString().slice(0,10);
-  const j=await jget(`https://finnhub.io/api/v1/company-news?symbol=${encodeURIComponent(sym)}&from=${frm}&to=${to}&token=${KEYS.finn}`);
-  if(!Array.isArray(j)||!j.length)throw new Error("no news in the last 14 days");
-  const out={source:"finnhub",fetched_at:nowISO(),days:14,
-    rows:j.slice(0,8).filter(r=>r.headline).map(r=>({ts:r.datetime,
-      headline:String(r.headline).slice(0,180),source:r.source,url:r.url}))};
-  cacheSet(ck,out);return out;}
-async function dInsiders(sym){
-  const ck="dins:"+sym,c=cacheGet(ck,60*24);if(c)return c;
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const frm=new Date(Date.now()-183*864e5).toISOString().slice(0,10);
-  const j=await jget(`https://finnhub.io/api/v1/stock/insider-transactions?symbol=${encodeURIComponent(sym)}&from=${frm}&token=${KEYS.finn}`);
-  const data=(j||{}).data||[];
-  if(!data.length)throw new Error("no insider filings in six months");
-  let buys=0,sells=0,net=0;const recent=[];
-  for(const r of data){const ch=dnum(r.change);if(ch==null)continue;
-    if(ch>0)buys++;else if(ch<0)sells++;net+=ch;
-    if(recent.length<5)recent.push({name:String(r.name||"").slice(0,60),
-      date:r.transactionDate,change:ch,price:dnum(r.transactionPrice)});}
-  const out={source:"finnhub",fetched_at:nowISO(),buys,sells,net_shares:net,months:6,recent};
-  cacheSet(ck,out);return out;}
-
-async function dPeers(sym){
-  const ck="dpeers:"+sym,c=cacheGet(ck,60*24*7);if(c)return c;
-  if(!KEYS.finn)throw new Error("no Finnhub key");
-  const list=await jget(`https://finnhub.io/api/v1/stock/peers?symbol=${encodeURIComponent(sym)}&token=${KEYS.finn}`);
-  const names=(Array.isArray(list)?list:[]).filter(p=>p&&p.toUpperCase()!==sym.toUpperCase()).slice(0,8);
-  if(!names.length)throw new Error("no peer list returned for this symbol");
-  const rows=[];
-  for(const p of names){
-    try{
-      const j=await jget(`https://finnhub.io/api/v1/stock/metric?symbol=${encodeURIComponent(p)}&metric=all&token=${KEYS.finn}`);
-      const m=(j||{}).metric||{};if(!Object.keys(m).length)continue;
-      const pc=k=>dnum(m[k])!=null?dnum(m[k])/100:null;
-      rows.push({symbol:p,name:p,mcap:dnum(m.marketCapitalization)!=null?dnum(m.marketCapitalization)*1e6:null,
-        pe:dnum(m.peTTM),forward_pe:null,pb:dnum(m.pbQuarterly),ps:dnum(m.psTTM),
-        ev_ebitda:dnum(m.evEbitdaTTM),peg:dnum(m.pegTTM),
-        gross_margin:pc("grossMarginTTM"),op_margin:pc("operatingMarginTTM"),
-        net_margin:pc("netProfitMarginTTM"),fcf_margin:null,roe:pc("roeTTM"),
-        debt_to_equity:dnum(m["totalDebt/totalEquityQuarterly"]),
-        rev_growth:pc("revenueGrowthTTMYoy")??pc("revenueGrowth3Y"),fcf_yield:null});
-    }catch(e){}}
-  if(!rows.length)throw new Error("peers found but no metrics resolved");
-  const med={};
-  for(const k of["pe","forward_pe","pb","ps","ev_ebitda","peg","gross_margin","op_margin",
-    "net_margin","fcf_margin","roe","debt_to_equity","rev_growth","fcf_yield"]){
-    const v=rows.map(r=>r[k]).filter(x=>x!=null&&isFinite(x)).sort((a,b)=>a-b);
-    med[k]=v.length?(v.length%2?v[(v.length-1)/2]:(v[v.length/2-1]+v[v.length/2])/2):null;}
-  const out={source:"finnhub",fetched_at:nowISO(),peers:rows,n:rows.length,median:med,
-    peer_symbols:rows.map(r=>r.symbol),
-    note:"Direct mode uses Finnhub ratios per peer; the robot's version adds forward P/E, FCF margin and FCF yield from fuller statements."};
-  cacheSet(ck,out);return out;}
-
-async function runDirect(sym){
-  const M=tfm();
-  $("#app").innerHTML=`<div class="panel"><h2>Fetching ${esc(sym)} · ${esc(M.label)} <span class="tag pulse">DIRECT MODE</span></h2>
-    <p class="note">Calling the vendors from this browser with the keys in the panel above. Anything that fails will name itself.</p></div>`;
-  const jobs=[dCandles(sym,TF),dQuote(sym),dProfile(sym),dFundamentals(sym),
-    dAnalysts(sym),dEarnings(sym),dPoly(sym)];
-  jobs.push(dNews(sym).catch(e=>derr("finnhub",e)));
-  jobs.push(dInsiders(sym).catch(e=>derr("finnhub",e)));
-  jobs.push(dPeers(sym).catch(e=>derr("finnhub",e)));
-  /* an intraday view still needs a daily series for 52-week levels and the
-     higher-timeframe trend read, so fetch both rather than mislabel one as the other */
-  const NEWS_I=jobs.length-3,INS_I=jobs.length-2,PEER_I=jobs.length-1;
-  jobs.push(M.intraday?dCandles(sym,"1day"):Promise.resolve(null));
-  const R=await Promise.allSettled(jobs);
-  const g=(i,src)=>R[i].status==="fulfilled"?R[i].value:derr(src,R[i].reason);
-  const bars=R[0].status==="fulfilled"?R[0].value:null;
-  const poly=R[6].status==="fulfilled"?R[6].value:null;
-  const dailyBars=R[R.length-1].status==="fulfilled"?R[R.length-1].value:null;
-  const xc=(bars&&!M.intraday)?dCross(bars,poly):null;
-  D={symbol:sym,generated_at:nowISO(),direct:true,timeframe:TF,
-    candles:bars?{source:"twelvedata",fetched_at:nowISO(),bars,n:bars.length,
-      interval:TF,latest:bars[bars.length-1].date,cross_check:xc,
-      confidence:xc?(xc.status==="AGREE"?"HIGH":xc.status==="DISAGREE"?"LOW":"MEDIUM"):"MEDIUM"}
-      :{source:"none",fetched_at:nowISO(),confidence:"NONE",
-        error:String(R[0].reason&&R[0].reason.message||R[0].reason)},
-    daily:dailyBars?{source:"twelvedata",fetched_at:nowISO(),bars:dailyBars}:null,
-    quote:g(1,"finnhub"),profile:g(2,"finnhub"),fundamentals:g(3,"none"),
-    analysts:g(4,"finnhub"),earnings:g(5,"alphavantage"),
-    peers:R[PEER_I].status==="fulfilled"?R[PEER_I].value:derr("finnhub",R[PEER_I].reason),
-    news:R[NEWS_I].status==="fulfilled"?R[NEWS_I].value:derr("finnhub",R[NEWS_I].reason),
-    insiders:R[INS_I].status==="fulfilled"?R[INS_I].value:derr("finnhub",R[INS_I].reason),
-    extras:{source:"yfinance",fetched_at:nowISO(),
-      error:"analyst targets, short interest and ownership come from Yahoo, which browsers cannot reach — run the GitHub robot to fill this"}};
-  pushRecent(sym);compute();drawTickerBar();render();startAutoRefresh();}
-
-/* re-fetch just the candles and quote, keeping everything else, so a refresh
-   costs two API credits instead of seven */
-async function refreshCandles(silent){
+/* Reload committed JSON only. A visitor refresh never calls a market-data API. */
+async function refreshCandles(silent=false){
   if(!D||!D.symbol)return;
-  if(!D.direct){await load(D.symbol);return;}
-  const btn=$("#btnRefresh");if(btn&&!silent)btn.textContent="…";
-  try{
-    const[bars,q]=await Promise.all([dCandles(D.symbol,TF),dQuote(D.symbol).catch(e=>derr("finnhub",e))]);
-    D.candles={source:"twelvedata",fetched_at:nowISO(),bars,n:bars.length,interval:TF,
-      latest:bars[bars.length-1].date,cross_check:D.candles?.cross_check||null,
-      confidence:D.candles?.confidence||"MEDIUM"};
-    D.quote=q;D.generated_at=nowISO();
-    compute();render();
-  }catch(e){
-    const n=$("#modeNote");if(n)n.innerHTML=`<span class="err">Refresh failed — ${esc(e.message||e)}</span>`;
-  }finally{const b2=$("#btnRefresh");if(b2)b2.textContent="Refresh";}}
-
-function startAutoRefresh(){
-  if(candleTimer)clearInterval(candleTimer);
-  const M=tfm();
-  /* Twelve Data's free tier allows 800 calls a day, so poll conservatively and
-     only while the tab is actually being looked at */
-  const everyMin=M.intraday?Math.max(2,Math.round(M.staleMin/3)):15;
-  candleTimer=setInterval(()=>{
-    if(typeof document!=="undefined"&&document.visibilityState==="hidden")return;
-    refreshCandles(true);},everyMin*6e4);}
-
-async function setTF(tf){
-  if(!TFM[tf]||tf===TF)return;
-  TF=tf;localStorage.setItem("tf",tf);
-  document.querySelectorAll("#tfbar button.tf").forEach(b=>
-    b.classList[b.getAttribute("data-tf")===tf?"add":"remove"]("on"));
-  if(!D||!D.symbol)return;
-  if(TFM[tf].intraday&&!KEYS.twelve){
-    $("#modeNote").innerHTML=`<span class="err">Intraday candles need a Twelve Data key — open the key panel above.</span>`;
-    return;}
-  await runDirect(D.symbol);}
+  const btn=$("#btnRefresh");if(btn&&!silent)btn.textContent="Reloading…";
+  try{await load(D.symbol);}
+  catch(e){const n=$("#modeNote");if(n)n.innerHTML=`<span class="err">Snapshot reload failed — ${esc(e.message||e)}</span>`;}
+  finally{const b=$("#btnRefresh");if(b)b.textContent="Reload snapshot";}
+}
+async function setTF(){
+  TF="1day";
+  const n=$("#modeNote");if(n)n.textContent="Signals intentionally use daily closed bars. Add intraday JSON to the secure pipeline before exposing intraday controls.";
+}
 
 function recents(){try{return JSON.parse(localStorage.getItem("recents")||"[]");}catch{return[];}}
 function pushRecent(s){const r=recents().filter(x=>x!==s);r.unshift(s);
@@ -1212,51 +1026,68 @@ async function boot(){
     $("#app").innerHTML=`<div class="panel" style="border-color:rgba(224,82,82,.6)">
       <h2>This file is damaged <span class="tag bad">SELF-TEST FAILED</span></h2>
       <p class="note err">${esc(bad)}.</p>
-      <p class="note">The page verifies its own math engine every time it loads. A failure here almost always means the uploaded index.html was truncated or corrupted in transit — it is not a data problem. Re-download index.html and upload it into docs again, then hard-refresh. Nothing will be computed from a damaged engine.</p></div>`;
+      <p class="note">The page verifies its math engine on load and will not calculate from a corrupted file.</p></div>`;
     $("#modeTag").textContent="DAMAGED FILE";$("#modeTag").classList.add("bad");
-    {const bt2=$("#buildTag");if(bt2){bt2.textContent="build "+BUILD_TAG+" · SELF-TEST FAILED";bt2.classList.add("err");}}
-    return;}
-  {const bt2=$("#buildTag");if(bt2){bt2.textContent="build "+BUILD_TAG+" · engine self-test ✓";bt2.classList.remove("dim");bt2.classList.add("up");}}
-  loadKeys();bindKeys();
+    const bt=$("#buildTag");if(bt){bt.textContent="build "+BUILD_TAG+" · SELF-TEST FAILED";bt.classList.add("err");}
+    return;
+  }
+  const bt=$("#buildTag");if(bt){bt.textContent="build "+BUILD_TAG+" · engine self-test ✓";bt.classList.add("up");}
   try{
-    INDEX=await(await fetch("./data/index.json",{cache:"no-store"})).json();
-    if(!INDEX||!Array.isArray(INDEX.tickers)||!INDEX.tickers.length)throw new Error("empty index");
+    INDEX=await fetchJSON("./data/index.json");
+    if(!INDEX||!Array.isArray(INDEX.tickers)||!INDEX.tickers.length)throw new Error("data/index.json contains no tickers");
     MODE="pipeline";
-    $("#modeTag").textContent="PIPELINE MODE — NO KEYS NEEDED FOR WATCHLIST TICKERS";
-    $("#modeNote").textContent="Watchlist tickers load from data the GitHub robot committed. Typing any other ticker fetches it directly, which uses the keys in the panel above.";
+    $("#modeTag").textContent="SECURE PIPELINE · SECRETS STAY IN GITHUB ACTIONS";
+    $("#modeTag").classList.remove("bad");
+    $("#modeNote").textContent="Only watchlist snapshots generated by GitHub Actions can be opened. To add a symbol, update watchlist.json and run the workflow.";
   }catch(e){
-    INDEX=null;MODE="direct";
-    $("#modeTag").textContent="DIRECT MODE — ROBOT DATA NOT FOUND";
-    $("#modeTag").classList.add("bad");
-    $("#keybox").open=true;
-    $("#modeNote").innerHTML="The robot's data file (<span class=\"mono\">data/index.json</span>) is not on this site yet, so the page is calling vendors straight from your browser instead. Paste at least a Twelve Data key above, type a ticker, press Analyze — everything works right now. When the GitHub Action runs successfully this banner disappears on its own and watchlist tickers stop needing keys.";
+    INDEX=null;
+    $("#modeTag").textContent="PIPELINE DATA NOT FOUND";$("#modeTag").classList.add("bad");
+    $("#modeNote").innerHTML='No browser-side fallback is allowed. Configure repository secrets, run the market-data workflow, and confirm <span class="mono">docs/data/index.json</span> exists.';
+    $("#app").innerHTML=`<div class="panel"><h2>Secure pipeline is not ready ${tg("NO PUBLIC API KEYS","bad")}</h2>
+      <p class="note err">${esc(e.message||e)}</p>
+      <p class="note">The dashboard is intentionally refusing to call vendors from the browser. Run the GitHub Action once, then reload this page.</p></div>`;
+    return;
   }
   drawTickerBar();
-  const first=INDEX?INDEX.tickers[0]:recents()[0];
-  if(first)await run(first);
-  else $("#app").innerHTML=`<div class="panel"><h2>Ready</h2>
-    <p class="note">Type any ticker above and press Analyze. The Verdict tab gives the weighted read with every factor listed; Technicals holds indicators, triggered signals and patterns with exact levels; Fundamentals holds the six valuation models and pillars; Sources is the audit trail.</p></div>`;}
+  await run(INDEX.tickers[0]);
+}
 
 async function run(symRaw){
   const sym=(symRaw||$("#sym").value||"").trim().toUpperCase();
-  if(!sym)return;
+  if(!sym||!INDEX)return;
   $("#sym").value=sym;TAB="verdict";
-  if(MODE==="pipeline"&&INDEX.tickers.includes(sym))return load(sym);
-  return runDirect(sym);}
+  if(!INDEX.tickers.includes(sym)){
+    $("#app").innerHTML=`<div class="panel"><h2>${esc(sym)} is not in the secure cache ${tg("NOT FETCHED","bad")}</h2>
+      <p class="note">Add <span class="mono">${esc(sym)}</span> to <span class="mono">watchlist.json</span>, run the GitHub Action, and reload. The public page will never ask for an API key or query a vendor directly.</p></div>`;
+    return;
+  }
+  return load(sym);
+}
 
 async function load(sym){
-  $("#app").innerHTML=`<div class="panel"><h2>Loading ${esc(sym)} <span class="tag pulse">CACHED DATA</span></h2></div>`;
-  try{D=await(await fetch(`./data/${sym}.json`,{cache:"no-store"})).json();}
-  catch(e){D={symbol:sym,load_error:String(e)};}
-  TAB="verdict";pushRecent(sym);compute();drawTickerBar();render();}
+  $("#app").innerHTML=`<div class="panel"><h2>Loading ${esc(sym)} <span class="tag pulse">SECURE SNAPSHOT</span></h2></div>`;
+  ML=null;
+  try{
+    const snap=await fetchJSON(`./data/${encodeURIComponent(sym)}.json`);
+    D=snap;
+    D.symbol=D.symbol||sym;
+    D.validation=validateSnapshot(D);
+    if(D.validation.critical.length)D.load_error="Data-integrity failure: "+D.validation.critical.join("; ");
+    try{
+      ML=await fetchJSON(`./data/ml/${encodeURIComponent(sym)}.json`);
+      if(ML&&ML.symbol&&String(ML.symbol).toUpperCase()!==sym)ML={status:"ERROR",error:"ML snapshot symbol does not match requested ticker"};
+    }catch(mlErr){
+      ML={status:"UNAVAILABLE",error:"ML snapshot not generated yet",detail:String(mlErr&&mlErr.message||mlErr)};
+    }
+  }catch(e){D={symbol:sym,load_error:String(e&&e.message||e)};ML=null;}
+  TAB="verdict";pushRecent(sym);compute();drawTickerBar();render();
+}
 
 function drawTickerBar(){
-  const cur=D?.symbol;
-  const wl=INDEX?INDEX.tickers:[];
-  const rec=recents().filter(x=>!wl.includes(x));
-  const btn=(sym,star)=>`<button class="${sym===cur?"on":""}" onclick="run('${esc(sym)}')" title="${star?"cached by the robot — no keys needed":"direct fetch"}">${star?"\u2605 ":""}${esc(sym)}</button>`;
-  $("#tickers").innerHTML=wl.map(x=>btn(x,true)).join("")+rec.map(x=>btn(x,false)).join("")||
-    `<span class="sub">Analyzed symbols appear here for one tap.</span>`;}
+  const cur=D&&D.symbol,wl=INDEX?INDEX.tickers:[];
+  const btn=sym=>`<button class="${sym===cur?"on":""}" onclick="run('${esc(sym)}')" title="Generated by the GitHub Actions pipeline">★ ${esc(sym)}</button>`;
+  $("#tickers").innerHTML=wl.map(btn).join("")||`<span class="sub">No cached symbols are available.</span>`;
+}
 
 /* ================= compute ================= */
 /* ---- freshness: how old is the newest bar, and is a live bar spliced in? ---- */
@@ -1274,26 +1105,8 @@ function todayKey(ts){
    exchange data, not an estimate. Volume is left null because a quote carries
    none, so volume indicators keep using closed bars only. */
 function spliceForming(raw,q){
-  const out=raw.slice();
-  const last=out[out.length-1];
-  if(!last)return{bars:out,forming:false};
-  if(tfm().intraday){
-    if(LIVE.price!=null){
-      const b={...last};
-      b.close=LIVE.price;b.high=Math.max(b.high,LIVE.price);b.low=Math.min(b.low,LIVE.price);
-      out[out.length-1]=b;return{bars:out,forming:true};}
-    return{bars:out,forming:false};}
-  const px=LIVE.price??(q&&!q.error?q.current:null);
-  if(px==null)return{bars:out,forming:false};
-  const tk=todayKey(q&&q.ts);
-  if(last.date>=tk){
-    const b={...last};
-    b.close=px;b.high=Math.max(b.high,px);b.low=Math.min(b.low,px);
-    out[out.length-1]=b;return{bars:out,forming:true};}
-  const o=(q&&!q.error&&q.open)||px;
-  out.push({date:tk,open:o,high:(q&&q.high)||Math.max(o,px),
-    low:(q&&q.low)||Math.min(o,px),close:px,volume:null});
-  return{bars:out,forming:true};}
+  return{bars:raw.slice(),forming:false};
+}
 
 function compute(){
   T=null;V=null;L=null;S=null;PAT=null;SIG=null;FRESH=null;
@@ -1321,7 +1134,7 @@ function compute(){
   FRESH={tf:TF,label:M.label,lastClosed:raw[raw.length-1].date,ageMin,splitFlag,
     stale:ageMin!=null&&ageMin>M.staleMin*3,
     forming:sp.forming,quoteAge:q&&q.fetched_at?(Date.now()-Date.parse(q.fetched_at))/6e4:null,
-    live:LIVE.price!=null,mode:D.direct?"direct":"pipeline",
+    live:false,mode:"pipeline",
     fetchedAt:D.candles.fetched_at,dailyAvailable:!!daily};
 
   const E=ENG;
@@ -1533,32 +1346,44 @@ function render(){
   if(!D)return;
   if(D.load_error){$("#app").innerHTML=`<div class="panel"><h2>Could not load ${esc(D.symbol)}</h2>
     <p class="note err">${esc(D.load_error)}</p></div>`;return;}
+  const tabs=[["verdict","OVERVIEW"],["ml","MODEL"],["evidence","EVIDENCE"],["tech","PRICE & STRUCTURE"],
+    ["fund","FINANCIALS"],["rank","WATCHLIST"],["src","AUDIT"]];
   $("#app").innerHTML=`${header()}${strip()}
-    <div class="tabs">${[["verdict","VERDICT"],["tech","TECHNICALS"],["fund","FUNDAMENTALS"],["rank","RANK"],["src","SOURCES"]]
-      .map(([k,l])=>`<button class="${TAB===k?"on":""}" onclick="setTab('${k}')">${l}</button>`).join("")}</div>
-    <div>${TAB==="verdict"?tabVerdict():TAB==="tech"?tabTech():TAB==="fund"?tabFund():TAB==="rank"?tabRank():tabSrc()}</div>`;
-  if(TAB==="tech"&&T)drawPrice();
-  if(TAB==="verdict"&&T&&S)drawScen();
-  if(TAB==="verdict"&&window.__ps)posCalc(localStorage.getItem("riskusd")||100);
+    <div class="tabs">${tabs.map(([k,l])=>`<button class="${TAB===k?"on":""}" onclick="setTab('${k}')">${l}</button>`).join("")}</div>
+    <div>${TAB==="verdict"?tabVerdict():TAB==="ml"?tabML():TAB==="evidence"?tabEvidence():TAB==="tech"?tabTech():TAB==="fund"?tabFund():TAB==="rank"?tabRank():tabSrc()}</div>`;
+  if((TAB==="tech"||TAB==="verdict")&&T)drawPrice();
+  if(TAB==="evidence"&&T&&S)drawScen();
+  if(TAB==="evidence"&&window.__ps)posCalc(localStorage.getItem("riskusd")||100);
   if(TAB==="fund"&&D.fundamentals&&!D.fundamentals.error&&(D.fundamentals.annual||[]).length)drawFund();}
 
 function header(){
   const cd=D.candles||{},q=D.quote||{},f=D.fundamentals||{};
-  const conf=cd.confidence||"NONE";
-  const cls=conf==="HIGH"?"up":conf==="LOW"?"down":conf==="NONE"?"down":"amber";
-  const xc=cd.cross_check;
-  return`<div class="hdr">
-    <div class="t">DATA HEADER</div>
-    <div>SNAPSHOT&nbsp;&nbsp;&nbsp;: ${ago(D.generated_at)} — ${D.direct?"fetched directly from this browser":"pipeline run "+esc(D.generated_at||"—")}</div>
-    <div>MARKET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ${INDEX?.market_status?.market?esc(INDEX.market_status.market):"unknown (robot has not reported)"}</div>
-    <div>PRICE USED&nbsp;: ${T?`$${fmt(T.price)}`:"—"} — ${LIVE.price!=null?`<span class="up">live quote, ${esc(LIVE.at)}</span>`:q.error?`last close (quote failed: ${esc(q.error)})`:"quote at pipeline run"} <span id="liveNote"></span></div>
-    <div>CONFIDENCE&nbsp;: <span class="${cls}">${esc(conf)}</span> — ${xc?`${esc(xc.status)}, largest gap ${fmt(xc.worst,3)}% across ${xc.checked} shared closes`:"single candle source, no independent cross-check"}</div>
-    <div>CANDLES&nbsp;&nbsp;&nbsp;&nbsp;: ${cd.error?`<span class="err">${esc(cd.error)}</span>`:`${cd.n} bars from ${esc(cd.source)}, latest ${esc(cd.latest)}`}</div>
-    <div>FUNDAMENTALS: ${f.error?`<span class="err">${esc(f.error)}</span>`:`${esc(f.source)}${f.fallback_used?" (fallback)":""}${f.partial?" — ratios only":""}${f.years?`, ${f.years} years`:""}`}</div>
-    <div>TIMEFRAME&nbsp;&nbsp;: ${FRESH?esc(FRESH.label)+(FRESH.forming?" — today's forming bar is included from the live quote":" — closed bars only"):"—"}</div>
-    ${freshLine()}
-    ${FRESH&&FRESH.earningsIn!=null?`<div class="err">EARNINGS&nbsp;&nbsp;&nbsp;: in ${FRESH.earningsIn===0?"less than a day":Math.round(FRESH.earningsIn)+" day"+(FRESH.earningsIn>=1.5?"s":"")} — every volatility, scenario and target figure on this page assumes normal conditions and breaks across a print</div>`:""}
-    <div class="note" style="margin-top:6px">${D.direct?"Direct mode: this browser fetched from the vendors itself using your local keys. Once the GitHub robot runs, watchlist tickers switch to its committed data automatically and need no keys.":"All figures come from data the GitHub Action committed using keys held in repository secrets — no key is needed to view this page."}</div>
+  const conf=cd.confidence||"NONE",xc=cd.cross_check;
+  const confCls=conf==="HIGH"?"good":conf==="LOW"||conf==="NONE"?"bad":"warn";
+  const age=FRESH&&FRESH.ageMin!=null?(FRESH.ageMin<90?Math.round(FRESH.ageMin)+"m":FRESH.ageMin<2160?fmt(FRESH.ageMin/60,1)+"h":fmt(FRESH.ageMin/1440,1)+"d"):"unknown";
+  const freshCls=FRESH&&FRESH.stale?"bad":FRESH&&FRESH.ageMin!=null&&FRESH.ageMin<tfm().staleMin*1.5?"good":"warn";
+  const sources=[cd&&!cd.error,f&&!f.error,D.quote&&!D.quote.error,D.earnings&&!D.earnings.error,D.peers&&!D.peers.error,D.insiders&&!D.insiders.error].filter(Boolean).length;
+  const integrity=D.validation||{critical:[],warnings:[]};
+  return`<div class="data-ribbon">
+    <div class="ribbon-item"><span class="status-dot ${confCls}"></span><b>${esc(conf)}</b> data confidence</div>
+    <div class="ribbon-item"><span class="status-dot ${freshCls}"></span>${esc(tfm().label)} bar · ${esc(age)} old</div>
+    <div class="ribbon-item">${sources}/6 research modules available</div>
+    <div class="ribbon-item"><span class="status-dot ${integrity.critical.length?"bad":integrity.warnings.length?"warn":"good"}"></span>${integrity.critical.length?"integrity failed":integrity.warnings.length?(integrity.warnings.length+" integrity warning"+(integrity.warnings.length===1?"":"s")):"schema checks passed"}</div>
+    <div class="ribbon-item">closed bars only</div>
+    ${FRESH&&FRESH.earningsIn!=null?`<div class="ribbon-item err">Earnings in ${Math.max(1,Math.round(FRESH.earningsIn))}d</div>`:""}
+    <details class="audit-popover"><summary>Open data audit</summary>
+      <div class="audit-grid">
+        <div><b>Snapshot</b><br>${ago(D.generated_at)} · GitHub Actions pipeline</div>
+        <div><b>Price used</b><br>${T?"$"+fmt(T.price):"—"} · closed candle used for signals; quote shown separately when available</div>
+        <div><b>Candles</b><br>${cd.error?`<span class="err">${esc(cd.error)}</span>`:`${cd.n} bars · ${esc(cd.source)} · latest ${esc(cd.latest)}`}</div>
+        <div><b>Cross-check</b><br>${xc?`${esc(xc.status)} · largest gap ${fmt(xc.worst,3)}% across ${xc.checked} closes`:"single source only"}</div>
+        <div><b>Fundamentals</b><br>${f.error?`<span class="err">${esc(f.error)}</span>`:`${esc(f.source)}${f.fallback_used?" fallback":""}${f.partial?" · ratios only":""}${f.years?" · "+f.years+" years":""}`}</div>
+        <div><b>Market</b><br>${INDEX?.market_status?.market?esc(INDEX.market_status.market):"not reported"}</div>
+      </div>
+      ${FRESH&&FRESH.stale?`<p class="note err">The newest bar is stale for this timeframe. Treat every live conclusion cautiously.</p>`:""}
+      ${FRESH&&FRESH.splitFlag?`<p class="note err">Possible split or data break on ${esc(FRESH.splitFlag.date)}. Levels spanning that date may be unreliable.</p>`:""}
+      ${integrity.warnings.length?`<p class="note amber"><b>Integrity warnings:</b> ${integrity.warnings.map(esc).join(" · ")}</p>`:""}
+    </details>
   </div>`;}
 
 function freshLine(){
@@ -1574,20 +1399,18 @@ function freshPanel(){
   const a=FRESH.ageMin;
   const good=!FRESH.stale;
   return`<div class="panel" style="border-color:${FRESH.stale?"rgba(224,82,82,.45)":"rgba(76,175,125,.3)"}">
-    <h2>How current is this? ${tg(FRESH.forming?"LIVE BAR INCLUDED":"CLOSED BARS ONLY",FRESH.stale?"bad":"")}</h2>
+    <h2>How current is this? ${tg("CLOSED BARS ONLY",FRESH.stale?"bad":"")}</h2>
     <div class="stats">
-      ${st("Timeframe",esc(M.label),"",M.intraday?"intraday bars from Twelve Data":"end-of-day bars")}
+      ${st("Timeframe",esc(M.label),"",M.intraday?"pipeline-provided intraday bars":"end-of-day bars")}
       ${st("Newest closed bar",esc(FRESH.lastClosed),good?"up":"down",
         a==null?"":a<90?`${Math.round(a)} minutes ago`:a<60*36?`${fmt(a/60,1)} hours ago`:`${fmt(a/1440,1)} days ago`)}
-      ${st("Today's forming bar",FRESH.forming?"included":"not included",FRESH.forming?"up":"dim",
-        FRESH.forming?"open, high, low and last from the live quote":"every indicator reflects the last close only")}
-      ${st("Live quote polling",FRESH.live?"on":"off",FRESH.live?"up":"dim",FRESH.live?"refreshing every 10 seconds":"press Live quote in the header")}
-      ${st("Candles fetched",FRESH.fetchedAt?ago(FRESH.fetchedAt):"—","",FRESH.mode==="direct"?"straight from the vendor":"from the robot's last run")}
+      ${st("Signal candle","last completed session","up","forming sessions never enter RSI, MACD, patterns or levels")}
+      ${st("Quote treatment","display only","blue","the latest quote never mutates a completed candle")}
+      ${st("Candles fetched",FRESH.fetchedAt?ago(FRESH.fetchedAt):"—","","from the GitHub Actions run")}
     </div>
     ${FRESH.splitFlag?`<p class="note err">Possible unadjusted split or data break on ${esc(FRESH.splitFlag.date)} (${fmt(FRESH.splitFlag.jump,0)}% overnight jump that held). Every moving average, level and pattern computed across that date is suspect. Cross-check this symbol on the vendor's site; if it is a split, the history usually corrects within a day.</p>`:""}
     ${FRESH.stale?`<p class="note err">The newest bar is far older than this timeframe should allow. On a daily chart that is normal over a weekend or holiday. Intraday it means the market is closed, or the vendor has not published the latest bar yet.</p>`:""}
-    <p class="note"><b>What "live" can and cannot mean here.</b> Daily indicators are built from daily closes, so RSI, MACD and the moving averages only change once a day by construction — that is not staleness, it is what a daily indicator is. What was genuinely missing before: today's session was not counted at all until the close. Now, when the live quote is on, today's real open, high, low and last are spliced in as a forming bar and every price indicator recomputes against it${FRESH.forming?"":", which will happen as soon as you press Live quote"}. Volume indicators deliberately keep to closed bars, because a quote carries no volume and inventing one would corrupt them.<br><br>
-    For a genuinely faster read, switch the timeframe above. A 15-minute chart recomputes RSI, MACD and the patterns every 15 minutes on real intraday bars.</p>
+    <p class="note"><b>Precision rule.</b> Every technical signal is calculated from completed candles only. The latest quote can be newer than the last close, but it is displayed as context rather than inserted into RSI, MACD, moving averages, patterns or volatility. This prevents unstable intraday values from being presented as confirmed daily signals.</p>
   </div>`;}
 
 function strip(){
@@ -1595,23 +1418,317 @@ function strip(){
   const name=(!p.error&&p.name)||(!f.error&&f.name)||D.symbol;
   if(!T)return`<div class="panel"><h2>${esc(D.symbol)} — ${esc(name)}</h2>
     <p class="note err">No usable price history, so nothing can be computed. ${esc((D.candles||{}).error||"")}</p></div>`;
-  const chg=LIVE.change??(!q.error?q.change:null),chgP=LIVE.changePct??(!q.error?q.change_pct:null);
-  return`<div class="panel">
-    <h2>${esc(D.symbol)} — ${esc(name)} ${!p.error&&p.exchange?tg(p.exchange):""}${f.sector?tg(f.sector):""}</h2>
-    <div class="row" style="gap:14px;align-items:baseline">
-      <span class="price" id="pxNow">$${fmt(T.price)}</span>
-      ${chg!=null?`<span class="${sgn(chg)}" style="font-family:var(--mono);font-size:15px" id="pxChg">${chg>=0?"+":""}${fmt(chg)} (${chg>=0?"+":""}${fmt(chgP)}%)</span>`:""}
+  const prevClose=T.rawBars&&T.rawBars.length>1?T.rawBars[T.rawBars.length-2].close:null;
+  const chg=prevClose?T.price-prevClose:null,chgP=prevClose?chg/prevClose*100:null;
+  const quotePx=!q.error&&q.current!=null&&isFinite(+q.current)?+q.current:null;
+  const dollarVol=T.vol20&&T.price?T.vol20*T.price:null;
+  return`<div class="panel instrument-card">
+    <div class="instrument-top">
+      <div>
+        <div class="instrument-name">${esc(D.symbol)} <span class="dim">· ${esc(name)}</span></div>
+        <div class="instrument-meta">${!p.error&&p.exchange?tg(p.exchange):""}${f.sector?tg(f.sector):""}${f.industry?tg(f.industry):""}</div>
+      </div>
+      <div class="price-block">
+        <div class="price" id="pxNow">$${fmt(T.price)}</div>
+        <div class="sub">last completed close used by every signal</div>
+        ${chg!=null?`<div class="price-change ${sgn(chg)}" id="pxChg">${chg>=0?"+":""}${fmt(chg)} · ${chg>=0?"+":""}${fmt(chgP)}% close-to-close</div>`:""}
+      </div>
     </div>
-    <div class="stats" style="margin-top:14px">
-      ${st("52-week range",`$${fmt(T.lo52)} – $${fmt(T.hi52)}`,"",`${pctv((T.price/T.hi52-1)*100)} from the high`)}
-      ${st("Position in range",pct(T.rangePos,0),T.rangePos>0.5?"blue":"dim",T.rangePos>0.5?"premium half":"discount half")}
-      ${st("Annualised volatility",pctv((T.vol||0)*100),"",`${pctv((T.vol||0)*100/Math.sqrt(252))} on a typical day`)}
-      ${st("Deepest 2-year drawdown",pct(T.mdd),"down","peak to trough")}
-      ${f.mcap?st("Market cap",big(f.mcap)):(p.mcap?st("Market cap",big(p.mcap)):"")}
-    </div></div>`;}
+    <div class="market-strip">
+      ${st("52-week position",pct(T.rangePos,0),T.rangePos>.7?"up":T.rangePos<.3?"down":"blue",`$${fmt(T.lo52)} – $${fmt(T.hi52)}`)}
+      ${st("Pipeline quote",quotePx!=null?"$"+fmt(quotePx):"—",quotePx!=null?sgn(quotePx-T.price):"",quotePx!=null?`${pctv((quotePx/T.price-1)*100)} vs signal close · ${q.fetched_at?ago(q.fetched_at):"timestamp unavailable"}`:"quote unavailable")}
+      ${st("Realized volatility",pctv((T.vol||0)*100),T.vol>.5?"down":"",`${pctv((T.vol||0)*100/Math.sqrt(252))} typical day`)}
+      ${st("Maximum drawdown",pct(T.mdd),"down","two-year peak to trough")}
+      ${st("Average dollar volume",dollarVol?big(dollarVol):"—","",T.vol20?big(T.vol20)+" shares / day":"liquidity unavailable")}
+      ${f.mcap?st("Market capitalization",big(f.mcap)):p.mcap?st("Market capitalization",big(p.mcap)):st("Data mode","Secure pipeline")}
+    </div>
+  </div>`;}
 
-/* ---------------- VERDICT ---------------- */
+/* ---------------- OVERVIEW / EVIDENCE ---------------- */
+
+function pillarModel(){
+  const defs=[
+    ["Quality",x=>["Business","Balance sheet","Execution"].includes(x.cat)],
+    ["Valuation",x=>x.cat==="Valuation"],
+    ["Trend",x=>x.cat==="Trend"],
+    ["Momentum",x=>x.cat==="Momentum"||x.cat==="Volume"],
+    ["Structure",x=>x.cat==="Structure"||x.cat==="Pattern"],
+    ["Positioning",x=>x.cat==="Positioning"||x.cat==="Analysts"]];
+  return defs.map(([name,test])=>{
+    const rows=(L||[]).filter(test),bull=rows.filter(x=>x.w&&x.dir>0).reduce((a,b)=>a+b.w,0),
+      bear=rows.filter(x=>x.w&&x.dir<0).reduce((a,b)=>a+b.w,0),tot=bull+bear;
+    const val=tot?Math.round(100*bull/tot):null;
+    const note=val==null?"not enough data":val>=65?"supportive":val>=55?"slightly positive":val>45?"balanced":val>=35?"cautious":"weak";
+    return{name,val,note,count:rows.length};});}
+
+function coverageModel(){
+  const checks=[
+    ["Price",D.candles&&!D.candles.error],
+    ["Quote",D.quote&&!D.quote.error],
+    ["Fundamentals",D.fundamentals&&!D.fundamentals.error],
+    ["Earnings",D.earnings&&!D.earnings.error],
+    ["Peers",D.peers&&!D.peers.error],
+    ["Positioning",D.insiders&&!D.insiders.error||D.extras&&!D.extras.error],
+    ["Catalysts",D.news&&!D.news.error]];
+  const available=checks.filter(x=>x[1]).length;
+  return{checks,available,total:checks.length,pct:Math.round(100*available/checks.length)};}
+
+function peerRelative(){
+  const f=D.fundamentals,pr=D.peers;
+  if(!f||f.error||!pr||pr.error||!pr.median)return null;
+  const vals=[];
+  for(const k of ["pe","ps","ev_ebitda"]){const a=f[k],b=pr.median[k];if(a>0&&b>0)vals.push((a-b)/b);}
+  if(!vals.length)return null;
+  const gap=vals.reduce((a,b)=>a+b,0)/vals.length;
+  return{gap,n:pr.n||0,metrics:vals.length};}
+
+function setupSnapshot(){
+  const sc=score(L||[]),dir=sc.net>.15?1:sc.net<-.15?-1:0;
+  const conf=(D.candles||{}).confidence||"NONE";
+  const matching=(PAT&&PAT.chart||[]).filter(p=>p.dir===dir).sort((a,b)=>(a.status==="CONFIRMED"?0:1)-(b.status==="CONFIRMED"?0:1));
+  const pattern=matching[0]||null;
+  let invalidation=null,target=null;
+  if(dir>0){invalidation=pattern?.invalidate??T.levels.support[0]??T.e200;target=pattern?.target??T.levels.resistance[0]??T.hi52;}
+  else if(dir<0){invalidation=pattern?.invalidate??T.levels.resistance[0]??T.e200;target=pattern?.target??T.levels.support[0]??T.lo52;}
+  else{invalidation=T.levels.support[0]??T.e200;target=T.levels.resistance[0]??T.hi52;}
+  const risk=invalidation!=null?Math.abs(T.price-invalidation):null;
+  const reward=target!=null?Math.abs(target-T.price):null;
+  const rr=risk>0&&reward!=null?reward/risk:null;
+  const eventRisk=FRESH&&FRESH.earningsIn!=null;
+  let status="OBSERVE",tone="warn";
+  if(FRESH&&FRESH.stale||conf==="LOW"||conf==="NONE"){status="DATA CHECK";tone="bad";}
+  else if(eventRisk&&FRESH.earningsIn<=3){status="EVENT RISK";tone="bad";}
+  else if(dir===0){status="NO EDGE";tone="warn";}
+  else if((sc.pts>=65||sc.pts<=35)&&pattern&&pattern.status==="CONFIRMED"&&rr!=null&&rr>=1.5){status="QUALIFIED SETUP";tone="good";}
+  else if(sc.pts>=60||sc.pts<=40){status="QUALIFIED WATCH";tone="good";}
+  const strongest=(L||[]).filter(x=>x.w&&x.dir===dir).sort((a,b)=>b.w-a.w)[0];
+  const opposing=(L||[]).filter(x=>x.w&&x.dir===-dir).sort((a,b)=>b.w-a.w)[0];
+  const why=pattern?`${pattern.name} ${pattern.status.toLowerCase()} · trigger $${fmt(pattern.confirm)}`:
+    SIG&&SIG.length?`${SIG[0].name} · ${agoBars(SIG[0].bars_ago)}`:strongest?strongest.detail:"No fresh technical event";
+  const nextE=D.extras&&!D.extras.error&&D.extras.next_earnings?new Date(D.extras.next_earnings*1000):null;
+  return{sc,dir,pattern,invalidation,target,rr,status,tone,strongest,opposing,why,nextE};}
+
+function evidenceShortlist(rows,dir,n=3){
+  const use=(rows||[]).filter(x=>x.w&&x.dir===dir).sort((a,b)=>b.w-a.w).slice(0,n);
+  if(!use.length)return`<p class="note">No measured evidence currently qualifies.</p>`;
+  return`<div class="evidence-shortlist">${use.map((x,i)=>`<div class="evidence-item">
+    <div class="evidence-rank">0${i+1}</div><div><div class="evidence-title">${esc(x.label)}</div>
+    <div class="evidence-detail">${esc(x.detail)} · weight ${x.w}</div></div></div>`).join("")}</div>`;}
+
+function positioningOverview(){
+  const x=D.extras&&!D.extras.error?D.extras:null,ins=D.insiders&&!D.insiders.error?D.insiders:null;
+  if(!x&&!ins)return`<p class="note">Reported ownership and insider data are unavailable for this symbol.</p>`;
+  const rows=[];
+  if(x&&x.institutions_pct!=null)rows.push(["Institutional ownership",pct(x.institutions_pct),"reported ownership percentage"]);
+  if(x&&x.insiders_pct!=null)rows.push(["Insider ownership",pct(x.insiders_pct),"reported ownership percentage"]);
+  if(x&&x.short_pct_float!=null)rows.push(["Short interest",pct(x.short_pct_float),x.short_ratio?fmt(x.short_ratio,1)+" days to cover":"percentage of float"]);
+  if(ins)rows.push(["Insider filings · 6 months",`${ins.buys} buys / ${ins.sells} sells`,`${big(Math.abs(ins.net_shares))} net shares ${ins.net_shares>=0?"acquired":"disposed"}`]);
+  if(x&&x.analyst_target_mean)rows.push(["Consensus target","$"+fmt(x.analyst_target_mean),`${fmt(x.analyst_count,0)} analysts · ${pctv((x.analyst_target_mean/T.price-1)*100)} from price`]);
+  return`<div class="risk-list">${rows.map(r=>`<div class="risk-row"><div class="rk">${esc(r[0])}</div><div class="rv">${r[1]}<div class="subv">${esc(r[2])}</div></div></div>`).join("")}</div>
+    <p class="note">This is reported positioning, not live order flow. Real-time 13F changes, dark-pool prints and options sweeps are not available and are not inferred.</p>`;}
+
+
+function mlHorizon(key){return ML&&ML.horizons&&ML.horizons[key]?ML.horizons[key]:null;}
+function mlPercent(v,d=1){return v==null||!isFinite(+v)?"—":fmt(+v*100,d)+"%";}
+function mlTone(h){if(!h)return"dim";if(h.status!=="OK")return h.status==="NO_VERIFIED_EDGE"?"amber":"down";return h.prob_up>=.57?"up":h.prob_up<=.43?"down":"amber";}
+function mlStatusText(h){if(!h)return"Unavailable";return h.prediction||h.status||"Unavailable";}
+function mlMetric(h,k){return h&&h.metrics&&h.metrics[k]!=null?h.metrics[k]:null;}
+function mlPrice(ret){return T&&ret!=null&&isFinite(+ret)?"$"+fmt(T.price*(1+(+ret))):"—";}
+
+function mlOverview(){
+  const h5=mlHorizon("5d"),h21=mlHorizon("21d");
+  if(!ML||ML.status==="UNAVAILABLE"||ML.status==="ERROR")return`<section class="panel">
+    <h2>Machine-learning forecast ${tg("NOT GENERATED YET","bad")}</h2>
+    <p class="note">The dashboard is ready to read <span class="mono">docs/data/ml/${esc(D.symbol)}.json</span>, but the ML workflow has not produced it yet. The public browser does not train or download a model. Training runs inside GitHub Actions against committed closed-bar history.</p>
+    <div class="action-row"><span class="note">After the ML workflow runs once, this card will show walk-forward-tested 5-session and 21-session probabilities.</span><button class="text-button" onclick="setTab('ml')">Open model details →</button></div>
+  </section>`;
+  const latest=ML.last_signal_date||"—",age=ML.generated_at?ago(ML.generated_at):"timestamp unavailable";
+  const hBest=[h5,h21].filter(Boolean).sort((a,b)=>(b.metrics?.brier_skill||-99)-(a.metrics?.brier_skill||-99))[0];
+  return`<section class="panel">
+    <h2>Machine-learning forecast ${tg(ML.status==="OK"?"WALK-FORWARD VERIFIED":"MODEL PRESENT · EDGE NOT ASSUMED",ML.status==="OK"?"good":"warn")}</h2>
+    <div class="market-strip">
+      ${st("5-session upside probability",h5?mlPercent(h5.prob_up,0):"—",mlTone(h5),h5?mlStatusText(h5):"model unavailable")}
+      ${st("21-session upside probability",h21?mlPercent(h21.prob_up,0):"—",mlTone(h21),h21?mlStatusText(h21):"model unavailable")}
+      ${st("Best OOS balanced accuracy",hBest?mlPercent(mlMetric(hBest,"balanced_accuracy"),1):"—",hBest&&mlMetric(hBest,"balanced_accuracy")>=.55?"up":"",hBest?`${hBest.horizon_sessions} sessions · ${mlMetric(hBest,"oos_samples")||0} OOS samples`:"no OOS test")}
+      ${st("Prediction interval",h21?`${mlPrice(h21.expected_return_p20)} – ${mlPrice(h21.expected_return_p80)}`:"—","",h21?"21-session 20th–80th ML quantiles":"not generated")}
+      ${st("Signal date",esc(latest),"",`trained ${age}`)}
+    </div>
+    <p class="note"><b>Important:</b> the model is not allowed to turn ordinary fit into certainty. If its expanding time-series tests fail to beat a naive historical-probability baseline, it reports <b>NO VERIFIED EDGE</b>. It uses completed bars only and cannot anticipate earnings surprises, news, macro shocks or hidden order flow.</p>
+    <div class="action-row"><span class="note">Probability, expected-return range, test metrics and feature audit are available in the dedicated model page.</span><button class="text-button" onclick="setTab('ml')">Open model details →</button></div>
+  </section>`;
+}
+
+function mlHorizonPanel(key,title){
+  const h=mlHorizon(key);
+  if(!h)return`<section class="panel"><h2>${esc(title)} ${tg("NO MODEL","bad")}</h2><p class="note">No horizon output exists in the current ML snapshot.</p></section>`;
+  if(h.status!=="OK"&&h.status!=="NO_VERIFIED_EDGE")return`<section class="panel"><h2>${esc(title)} ${tg(esc(h.status||"UNAVAILABLE"),"bad")}</h2><p class="note">${esc(h.reason||"The model could not be evaluated with the available history.")}</p></section>`;
+  const m=h.metrics||{},verified=!!h.edge_verified;
+  const interval=`${mlPrice(h.expected_return_p20)} – ${mlPrice(h.expected_return_p80)}`;
+  const top=(h.top_features||[]).slice(0,5);
+  return`<section class="panel">
+    <h2>${esc(title)} ${tg(verified?"VERIFIED EDGE":"NO VERIFIED EDGE",verified?"good":"warn")}</h2>
+    <div class="decision-shell">
+      <div class="decision-score">
+        <div class="mini-label">Probability of positive return</div>
+        <div class="decision-number ${mlTone(h)}">${mlPercent(h.prob_up,0)}</div>
+        <div class="decision-read ${mlTone(h)}">${esc(mlStatusText(h))}</div>
+        <div class="decision-sub">Confidence ${esc(h.confidence||"LOW")} · ${esc(h.reason||"")}</div>
+      </div>
+      <div class="decision-fields">
+        <div class="decision-field"><div class="mini-label">Median ML return</div><div class="value ${h.expected_return_median>0?"up":h.expected_return_median<0?"down":""}">${mlPercent(h.expected_return_median)}</div><div class="detail">Implied median price ${mlPrice(h.expected_return_median)}</div></div>
+        <div class="decision-field"><div class="mini-label">20th–80th interval</div><div class="value">${interval}</div><div class="detail">${mlPercent(h.expected_return_p20)} to ${mlPercent(h.expected_return_p80)}</div></div>
+        <div class="decision-field"><div class="mini-label">OOS balanced accuracy</div><div class="value ${m.balanced_accuracy>=.55?"up":m.balanced_accuracy<.50?"down":"amber"}">${mlPercent(m.balanced_accuracy)}</div><div class="detail">${m.oos_samples||0} genuinely out-of-sample rows · ${m.walk_forward_splits||0} expanding splits</div></div>
+        <div class="decision-field"><div class="mini-label">Probability skill</div><div class="value ${m.brier_skill>0?"up":"down"}">${mlPercent(m.brier_skill)}</div><div class="detail">Brier skill vs historical positive-rate baseline · model ${fmt(m.brier,3)} vs baseline ${fmt(m.baseline_brier,3)}</div></div>
+        <div class="decision-field"><div class="mini-label">ROC AUC</div><div class="value">${m.roc_auc!=null?fmt(m.roc_auc,3):"—"}</div><div class="detail">0.50 is random ranking; this metric alone never qualifies an edge</div></div>
+        <div class="decision-field"><div class="mini-label">Regression MAE</div><div class="value">${mlPercent(m.median_return_mae)}</div><div class="detail">zero-return baseline ${mlPercent(m.zero_return_mae)}</div></div>
+      </div>
+    </div>
+    ${top.length?`<h3>Out-of-sample feature sensitivity</h3><div class="risk-list">${top.map((x,i)=>`<div class="risk-row"><div class="rk">0${i+1} · ${esc(x.feature)}</div><div class="rv">${fmt(x.importance,4)}<div class="subv">permutation decrease in Brier score on the most recent test fold</div></div></div>`).join("")}</div>`:`<p class="note">Feature sensitivity could not be estimated reliably for this horizon.</p>`}
+  </section>`;
+}
+
+function tabML(){
+  if(!T)return`<div class="panel"><p class="note">No price history.</p></div>`;
+  if(!ML||ML.status==="UNAVAILABLE"||ML.status==="ERROR")return`<div class="grid">
+    <section class="panel"><h2>Prediction model ${tg("WAITING FOR GITHUB ACTION","bad")}</h2>
+      <p class="note">The UI integration is installed, but <span class="mono">docs/data/ml/${esc(D.symbol)}.json</span> is not available yet. Add the supplied <span class="mono">scripts/ml_predict.py</span>, <span class="mono">requirements-ml.txt</span>, and <span class="mono">.github/workflows/ml-prediction.yml</span> to the repository, then run the workflow once.</p>
+      ${ML&&ML.detail?`<p class="note dim">Browser fetch detail: ${esc(ML.detail)}</p>`:""}
+    </section>
+    <section class="panel"><h2>What this model predicts ${tg("RESEARCH · NOT CERTAINTY")}</h2>
+      <p class="note">It estimates the probability that the completed closing price will be higher after 5 and 21 trading sessions, plus a conditional return interval. It deliberately does not claim an exact future price, and it publishes <b>NO VERIFIED EDGE</b> when walk-forward tests do not beat a naive historical baseline.</p>
+    </section></div>`;
+  return`<div class="grid">
+    <section class="panel">
+      <h2>Prediction model audit ${tg("FREE · OPEN-SOURCE SCIKIT-LEARN")}</h2>
+      <div class="market-strip">
+        ${st("Model version",esc(ML.model_version||"—"))}
+        ${st("Library",`${esc(ML.library||"scikit-learn")} ${esc(ML.library_version||"")}`)}
+        ${st("Bars supplied",ML.bars_used!=null?String(ML.bars_used):"—","","closed daily bars")}
+        ${st("Signal date",esc(ML.last_signal_date||"—"),"","no forming candle included")}
+        ${st("Features",Array.isArray(ML.features)?String(ML.features.length):"—","","price, trend, momentum, volatility and volume")}
+        ${st("Training snapshot",ML.generated_at?ago(ML.generated_at):"—")}
+      </div>
+      <p class="note">The model uses an ensemble of histogram gradient boosting and regularized logistic regression for direction. Probabilities are calibrated from predictions that were already out-of-sample. Expected-return bands use gradient-boosted quantile regressors. Validation uses expanding <span class="mono">TimeSeriesSplit</span> folds with a horizon-sized gap to reduce target overlap and future leakage.</p>
+    </section>
+    ${mlHorizonPanel("5d","5-session forecast")}
+    ${mlHorizonPanel("21d","21-session forecast")}
+    <section class="panel">
+      <h2>Model discipline ${tg("WHAT IT CAN · CANNOT KNOW")}</h2>
+      <div class="equal-col">
+        <div><h3>Inputs it can learn from</h3><div class="risk-list">
+          <div class="risk-row"><div class="rk">Trend</div><div class="rv">1 / 5 / 21 / 63-session returns<div class="subv">plus distance from 20 / 50 / 200-day averages</div></div></div>
+          <div class="risk-row"><div class="rk">Momentum</div><div class="rv">RSI + trend spread<div class="subv">computed from completed history only</div></div></div>
+          <div class="risk-row"><div class="rk">Volatility</div><div class="rv">ATR + 20 / 60-day realized vol<div class="subv">regime and recent range expansion</div></div></div>
+          <div class="risk-row"><div class="rk">Participation</div><div class="rv">volume ratio + z-score<div class="subv">when reliable volume exists</div></div></div>
+          <div class="risk-row"><div class="rk">Location</div><div class="rv">63-day drawdown + 52-week range position<div class="subv">where price sits inside its own history</div></div></div>
+        </div>
+        <div><h3>Inputs it cannot know</h3><div class="risk-list">
+          <div class="risk-row"><div class="rk">Future news</div><div class="rv down">Unknown<div class="subv">product, legal, geopolitical and management surprises</div></div></div>
+          <div class="risk-row"><div class="rk">Earnings surprise</div><div class="rv down">Unknown<div class="subv">the model sees price history, not tomorrow's unreleased numbers</div></div></div>
+          <div class="risk-row"><div class="rk">Hidden institutional flow</div><div class="rv down">Unknown<div class="subv">no dark pools, options sweeps or real-time 13F data</div></div></div>
+          <div class="risk-row"><div class="rk">Structural regime breaks</div><div class="rv down">Unknown<div class="subv">historical relationships can stop working</div></div></div>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:12px"><b>Use the model as one evidence layer, not as an oracle.</b> The dashboard's fundamentals, valuation, price structure, event risk and data-integrity checks remain separate because a statistically decent historical model can still be wrong on the next observation.</div>
+    </section>
+  </div>`;
+}
+
 function tabVerdict(){
+  if(!T)return`<div class="panel"><p class="note">No price history.</p></div>`;
+  const snap=setupSnapshot(),sc=snap.sc,cov=coverageModel(),pillars=pillarModel(),rel=peerRelative();
+  const cls=sc.edge.includes("BULL")?"up":sc.edge.includes("BEAR")?"down":"amber";
+  const nextEvent=snap.nextE?`Earnings · ${snap.nextE.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})}`:
+    FRESH&&FRESH.earningsIn!=null?`Earnings in ${Math.max(1,Math.round(FRESH.earningsIn))} days`:"No dated event in current feed";
+  const f=D.fundamentals||{};
+  const valuation=V&&V.gap!=null?`${pctv(Math.abs(V.gap*100))} ${V.gap>0?"above":"below"} model median`:
+    f.is_etf?"Not applicable to fund":"Insufficient model inputs";
+  const regime=`${T.trends.monthly.label.toLowerCase()} monthly · ${T.trends.weekly.label.toLowerCase()} weekly · ${T.trends.daily.label.toLowerCase()} daily`;
+  const stopDist=snap.invalidation?Math.abs(T.price-snap.invalidation)/T.price:null;
+  const avgDollar=T.vol20&&T.price?T.vol20*T.price:null;
+  const oneMonth=S&&S[1]?S[1]:null;
+  return`<div class="overview-grid">
+    <section class="panel decision-hero">
+      <h2>Portfolio-manager brief ${tg("EVIDENCE FIRST")}</h2>
+      <div class="decision-layout">
+        <div class="score-stack">
+          <div>
+            <span class="status-badge ${snap.tone}"><span class="status-dot ${snap.tone}"></span>${snap.status}</span>
+            <div class="composite-score ${cls}">${sc.pts??"—"}<small>/100</small></div>
+            <div class="direction-read ${cls}">${esc(sc.edge)}</div>
+          </div>
+          <div class="decision-summary">${narrative(sc)}</div>
+        </div>
+        <div class="decision-fields">
+          <div class="decision-field"><div class="mini-label">Market regime</div><div class="value">${esc(regime)}</div><div class="detail">ADX ${fmt(T.adx,1)} · RSI ${fmt(T.rsi,1)}</div></div>
+          <div class="decision-field"><div class="mini-label">Valuation posture</div><div class="value">${esc(valuation)}</div><div class="detail">${V&&V.fair?`fair-value median $${fmt(V.fair)} · ${V.good.length} models`:"no fabricated fair value"}</div></div>
+          <div class="decision-field"><div class="mini-label">Why now</div><div class="value">${esc(snap.why)}</div><div class="detail">${snap.strongest?esc(snap.strongest.label+" carries weight "+snap.strongest.w):"fresh setup evidence is limited"}</div></div>
+          <div class="decision-field"><div class="mini-label">What changes the view</div><div class="value">${snap.invalidation?`$${fmt(snap.invalidation)} invalidation`:"No clean invalidation"}</div><div class="detail">${snap.opposing?esc(snap.opposing.label+": "+snap.opposing.detail):"no material opposing factor measured"}</div></div>
+          <div class="decision-field"><div class="mini-label">Next known event</div><div class="value ${FRESH&&FRESH.earningsIn!=null?"err":""}">${esc(nextEvent)}</div><div class="detail">Normal-volatility scenarios are unreliable across major events.</div></div>
+          <div class="decision-field"><div class="mini-label">Research coverage</div><div class="value">${cov.pct}% · ${cov.available}/${cov.total} modules</div><div class="detail">${esc((D.candles||{}).confidence||"NONE")} candle confidence · ${FRESH&&FRESH.stale?"stale":"current for timeframe"}</div></div>
+        </div>
+      </div>
+    </section>
+
+    ${mlOverview()}
+
+    <section class="panel">
+      <h2>Evidence pillars ${tg("0 = BEARISH · 50 = BALANCED · 100 = BULLISH")}</h2>
+      <div class="pillar-grid">${pillars.map(p=>{
+        const pc=p.val==null?"dim":p.val>=60?"up":p.val<=40?"down":"amber";
+        const bg=p.val==null?"var(--faint)":p.val>=60?"var(--up)":p.val<=40?"var(--down)":"var(--live)";
+        return`<div class="pillar"><div class="pillar-top"><div class="pillar-name">${esc(p.name)}</div><div class="pillar-score ${pc}">${p.val??"—"}</div></div>
+          <div class="bar"><i style="width:${p.val??0}%;background:${bg}"></i></div><div class="pillar-note">${esc(p.note)} · ${p.count} inputs</div></div>`;}).join("")}</div>
+      <p class="note">Pillars summarize only the evidence already present in this dashboard. A missing pillar stays unavailable instead of being filled with a neutral-looking invented score.</p>
+    </section>
+
+    <div class="two-col">
+      <section class="panel chart-card"><h2>Price context ${tg(esc(tfm().label)+" · EMA 20 / 50 / 200")}</h2><div class="chart-frame"><canvas id="cvPrice"></canvas></div></section>
+      <section class="panel"><h2>Risk desk ${tg("SIZE THE RISK BEFORE THE STORY")}</h2>
+        <div class="risk-list">
+          <div class="risk-row"><div class="rk">Structural invalidation</div><div class="rv down">${snap.invalidation?"$"+fmt(snap.invalidation):"—"}<div class="subv">${stopDist!=null?pct(stopDist)+" from price":"no clean level"}</div></div></div>
+          <div class="risk-row"><div class="rk">Defined target</div><div class="rv up">${snap.target?"$"+fmt(snap.target):"—"}<div class="subv">${snap.pattern?esc(snap.pattern.name):"nearest chart level"}</div></div></div>
+          <div class="risk-row"><div class="rk">Reward / risk</div><div class="rv ${snap.rr!=null&&snap.rr>=2?"up":snap.rr!=null&&snap.rr<1?"down":"amber"}">${snap.rr!=null?fmt(snap.rr,1)+" : 1":"—"}<div class="subv">from current price to defined levels</div></div></div>
+          <div class="risk-row"><div class="rk">Realized volatility</div><div class="rv">${pctv((T.vol||0)*100)}<div class="subv">${pctv((T.vol||0)*100/Math.sqrt(252))} typical daily move</div></div></div>
+          <div class="risk-row"><div class="rk">Maximum drawdown</div><div class="rv down">${pct(T.mdd)}<div class="subv">two-year peak to trough</div></div></div>
+          <div class="risk-row"><div class="rk">Average dollar volume</div><div class="rv">${avgDollar?big(avgDollar):"—"}<div class="subv">20-session liquidity proxy</div></div></div>
+          <div class="risk-row"><div class="rk">Event / gap risk</div><div class="rv ${FRESH&&FRESH.earningsIn!=null?"down":T.vol>.5?"amber":"up"}">${FRESH&&FRESH.earningsIn!=null?"Elevated":T.vol>.5?"Above normal":"Normal"}<div class="subv">${esc(nextEvent)}</div></div></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="equal-col">
+      <section class="panel"><h2>Investment case ${tg("TOP WEIGHTED SUPPORT")}</h2>${evidenceShortlist(L,snap.dir||1,3)}</section>
+      <section class="panel"><h2>Principal risks ${tg("TOP WEIGHTED OPPOSITION","bad")}</h2>${evidenceShortlist(L,snap.dir? -snap.dir:-1,3)}</section>
+    </div>
+
+    <div class="equal-col">
+      <section class="panel"><h2>Reported positioning ${tg("NOT REAL-TIME FLOW")}</h2>${positioningOverview()}</section>
+      <section class="panel"><h2>Relative context ${tg("PEERS · RANGE · FAIR VALUE")}</h2>
+        <div class="risk-list">
+          <div class="risk-row"><div class="rk">52-week range position</div><div class="rv">${pct(T.rangePos,0)}<div class="subv">${T.rangePos>.7?"upper range · strength with less room":T.rangePos<.3?"lower range · discount with weaker tape":"middle of range"}</div></div></div>
+          <div class="risk-row"><div class="rk">Sector multiples</div><div class="rv ${rel?rel.gap<0?"up":"down":"dim"}">${rel?`${pctv(Math.abs(rel.gap*100),0)} ${rel.gap<0?"cheaper":"richer"}`:"—"}<div class="subv">${rel?`${rel.metrics} multiples vs ${rel.n} peers`:"peer comparison unavailable"}</div></div></div>
+          <div class="risk-row"><div class="rk">Blended fair value</div><div class="rv ${V&&V.gap!=null?V.gap<0?"up":"down":"dim"}">${V&&V.fair?"$"+fmt(V.fair):"—"}<div class="subv">${V&&V.gap!=null?`${pctv(Math.abs(V.gap*100))} ${V.gap<0?"discount":"premium"}`:"insufficient model inputs"}</div></div></div>
+          <div class="risk-row"><div class="rk">One-month measured range</div><div class="rv">${oneMonth?`$${fmt(oneMonth.cone.one.lo)} – $${fmt(oneMonth.cone.one.hi)}`:"—"}<div class="subv">one standard deviation · zero drift</div></div></div>
+          <div class="risk-row"><div class="rk">Backtest context</div><div class="rv">${BT&&!BT.error?BT.bars_used+" bars":"—"}<div class="subv">${BT&&!BT.error?"ticker-specific historical replay":"not enough history"}</div></div></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel">
+      <h2>Action map ${tg("TRIGGER · TARGET · INVALIDATION")}</h2>
+      <div class="levels-grid">
+        <div class="level-card"><div class="mini-label">Trigger</div><div class="lv">${snap.pattern?"$"+fmt(snap.pattern.confirm):"—"}</div><div class="ls">${snap.pattern?esc(snap.pattern.status.toLowerCase()+" "+snap.pattern.name):"no pattern trigger"}</div></div>
+        <div class="level-card"><div class="mini-label">Target</div><div class="lv up">${snap.target?"$"+fmt(snap.target):"—"}</div><div class="ls">measured or nearest chart level</div></div>
+        <div class="level-card"><div class="mini-label">Invalidation</div><div class="lv down">${snap.invalidation?"$"+fmt(snap.invalidation):"—"}</div><div class="ls">level that breaks the current read</div></div>
+        <div class="level-card"><div class="mini-label">Reward / risk</div><div class="lv ${snap.rr!=null&&snap.rr>=2?"up":snap.rr!=null&&snap.rr<1?"down":"amber"}">${snap.rr!=null?fmt(snap.rr,1)+" : 1":"—"}</div><div class="ls">from today's price</div></div>
+      </div>
+      <div class="callout" style="margin-top:12px"><b>Institutional discipline:</b> a strong company is not automatically a good entry, a strong chart is not automatically a durable business, and a high score is not actionable without a defined invalidation. The Overview keeps those decisions separate.</div>
+      <div class="action-row"><span class="note">Need the complete factor ledger, scenarios, pattern rules and position-size calculator?</span><button class="text-button" onclick="setTab('evidence')">Open full evidence book →</button></div>
+    </section>
+  </div>`;}
+
+function tabEvidence(){
   if(!T)return`<div class="panel"><p class="note">No price history.</p></div>`;
   const S2=score(L),cls=S2.edge.includes("BULL")?"up":S2.edge.includes("BEAR")?"down":"amber";
   const bulls=L.filter(x=>x.dir>0&&x.w).sort((a,b)=>b.w-a.w);
@@ -1622,7 +1739,7 @@ function tabVerdict(){
   const form=PAT?PAT.chart.filter(p=>p.status==="FORMING"):[];
   return`<div class="grid">
     <div class="panel">
-      <h2>The read ${tg("EVERY MEASURED FACTOR, WEIGHTED")}</h2>
+      <h2>Evidence book ${tg("EVERY MEASURED FACTOR, WEIGHTED")}</h2>
       <div class="row" style="gap:26px;align-items:flex-end">
         <div><div class="l sub">Weighted evidence</div>
           <div class="big ${cls}">${S2.pts??"—"}<span style="font-size:14px;color:var(--faint)">/100</span></div>
@@ -1752,7 +1869,7 @@ function catalystPanel(){
     <div class="grid g2"><div>
       <h3>Company news, last ${hasN?nw.days:14} days</h3>
       ${hasN?nw.rows.map(r=>`<div class="ev" style="padding:6px 0"><div>
-        <div style="font-size:12px">${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener" style="color:var(--fg)">${esc(r.headline)}</a>`:esc(r.headline)}</div>
+        <div style="font-size:12px">${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener" style="color:var(--ink)">${esc(r.headline)}</a>`:esc(r.headline)}</div>
         <div class="sub">${esc(r.source||"")} · ${r.ts?new Date(r.ts*1000).toLocaleDateString():""}</div></div></div>`).join("")
       :`<p class="note">${esc((nw&&nw.error)||"not fetched")}</p>`}
       <p class="note">Headlines are context for WHY a level broke — a breakdown on an earnings miss and one on sector rotation are different trades. The dashboard does not score sentiment; read them yourself.</p>
@@ -1776,7 +1893,7 @@ function tabRank(){
     const av=a[k]??-1e18,bv=b[k]??-1e18;
     return av===bv?0:(av>bv?-d:d);});
   const TH=(label,key,tip)=>`<th style="cursor:pointer" title="${esc(tip||"click to sort")}" onclick="rankSort('${key}')">${label}${RANK_SORT.key===key?(RANK_SORT.dir===-1?" ▾":" ▴"):""}</th>`;
-  const canLoadAll=MODE==="pipeline"&&INDEX&&INDEX.tickers.some(t=>!RANKD[t]);
+  const canLoadAll=INDEX&&INDEX.tickers.some(t=>!RANKD[t]);
   return`<div class="grid"><div class="panel">
     <h2>Watchlist ranked ${tg(rows.length+" ANALYZED")}</h2>
     ${canLoadAll?`<p class="note"><button onclick="rankAll()" ${RANK_BUSY?"disabled":""}>${RANK_BUSY?"Scoring watchlist…":"Score the whole watchlist"}</button>
@@ -1799,7 +1916,7 @@ function tabRank(){
         <td class="${r.conf==="HIGH"?"up":r.conf==="LOW"?"down":"dim"}" style="font-size:10.5px">${esc(r.conf)}</td></tr>`).join("")}
     </table>
     <p class="note">Every column comes from the same engine as the single-ticker tabs — click any row to open it. Sort by clicking a header. The comparison is only as fresh as each row's data: pipeline rows update when the robot runs, direct rows when you re-analyze.</p>`
-    :`<p class="note">Nothing analyzed yet. ${MODE==="pipeline"?"Press the button above to score the whole watchlist, or":"Type tickers above to analyze them —"} each one you look at joins this table.</p>`}
+    :`<p class="note">Nothing analyzed yet. Press the button above to score the whole watchlist, or each one you look at joins this table.</p>`}
   </div></div>`;}
 
 function rankSort(key){
@@ -1808,7 +1925,7 @@ function rankSort(key){
   render();}
 
 async function rankAll(){
-  if(RANK_BUSY||MODE!=="pipeline")return;
+  if(RANK_BUSY||!INDEX)return;
   RANK_BUSY=true;render();
   const keep={D,T,V,L,S,PAT,SIG,BT,FRESH};
   for(const sym of INDEX.tickers){
@@ -1935,7 +2052,7 @@ function tabTech(){
       </div>
     </div>
 
-    <div class="panel"><h2>Smart-money structure ${tg("MECHANICAL RULES ONLY")}</h2>
+    <div class="panel"><h2>Market structure · price derived ${tg("MECHANICAL RULES ONLY")}</h2>
       <div class="grid g2"><div>
         <h3>Break of structure</h3>
         ${T.bos?`<div class="mono ${T.bos.dir==="bullish"?"up":"down"}" style="font-size:12.5px">${T.bos.dir} break through $${fmt(T.bos.price)} on ${esc(T.bos.date)}</div>`:`<div class="sub">no clean break in range</div>`}
@@ -2069,7 +2186,7 @@ function sectorPanel(){
   if(!pr)return"";
   if(pr.error)return`<div class="panel"><h2>Versus its sector ${tg("UNAVAILABLE","bad")}</h2>
     <p class="note err">${esc(pr.error)}</p>
-    <p class="note">${MODE==="pipeline"||!D.direct?"The robot builds the peer set on its weekly cycle — it appears after the next successful run.":"Direct mode builds peers from Finnhub, which needs a Finnhub key in the panel above."}</p></div>`;
+    <p class="note">The pipeline builds the peer set on its scheduled cycle. It appears after the next successful run.</p></div>`;
   if(!f||f.error||f.is_etf||!pr.median)return"";
   const m=pr.median;
   const row=(label,ov,mv,lowerBetter,fmtFn)=>{
@@ -2180,7 +2297,7 @@ function tabSrc(){
         :`<p class="note">No cross-check ran. Polygon covers US listings only and does not carry this symbol, so indicators come from a single source with nothing independently confirming them.</p>`}</div>
 
     <div class="panel"><h2>How this page gets its data</h2>
-      <p class="note" style="margin-top:0">A GitHub Action runs every 30 minutes during market hours. It holds all five API keys in repository secrets, fetches from six sources, and commits the result as JSON. This page reads those files — which is why it needs no key from you, and why anyone you share the link with sees the same full dashboard.</p>
+      <p class="note" style="margin-top:0">A GitHub Action runs on the repository schedule. API credentials are supplied only through GitHub Secrets to the runner, never to this page. The runner fetches and validates the sources, then commits non-secret JSON. This page reads only those files, so visitors cannot inspect an API key in HTML, localStorage, DevTools, or request URLs.</p>
       <table><tr><th>Data</th><th>Source order</th><th>Refresh</th></tr>
         <tr><td>Candles</td><td>Twelve Data → yfinance → Polygon</td><td>every run</td></tr>
         <tr><td>Cross-check</td><td>Polygon</td><td>every run</td></tr>
@@ -2193,7 +2310,7 @@ function tabSrc(){
   </div>`;}
 
 /* ---------------- charts ---------------- */
-const CH={grid:"#282C34",tick:"#5E626C",font:"IBM Plex Mono"};
+const CH={grid:"#263140",tick:"#717B89",font:"IBM Plex Mono"};
 const axis=e=>({ticks:{color:CH.tick,font:{family:CH.font,size:9},maxTicksLimit:10},grid:{color:CH.grid},...e});
 const baseOpts=()=>({responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},
   plugins:{legend:{labels:{color:"#8C909A",font:{family:CH.font,size:10},boxWidth:10}}},
@@ -2206,10 +2323,10 @@ function drawPrice(){
   charts.price=new Chart(el,{type:"line",data:{labels:d.map(x=>x.date.slice(5)),datasets:[
     {label:"BB upper",data:d.map(x=>x.bbU),borderColor:"rgba(140,144,154,.3)",borderWidth:1,pointRadius:0},
     {label:"BB lower",data:d.map(x=>x.bbL),borderColor:"rgba(140,144,154,.3)",borderWidth:1,pointRadius:0,fill:"-1",backgroundColor:"rgba(140,144,154,.05)"},
-    {label:"Close",data:d.map(x=>x.close),borderColor:"#E8E5DD",borderWidth:1.8,pointRadius:0},
-    {label:"EMA 20",data:d.map(x=>x.ema20),borderColor:"#4CAF7D",borderWidth:1,pointRadius:0},
-    {label:"EMA 50",data:d.map(x=>x.ema50),borderColor:"#7A9BC4",borderWidth:1,pointRadius:0},
-    {label:"EMA 200",data:d.map(x=>x.ema200),borderColor:"#E8A33D",borderWidth:1.3,pointRadius:0}]},
+    {label:"Close",data:d.map(x=>x.close),borderColor:"#F2F0E9",borderWidth:1.8,pointRadius:0},
+    {label:"EMA 20",data:d.map(x=>x.ema20),borderColor:"#3DB982",borderWidth:1,pointRadius:0},
+    {label:"EMA 50",data:d.map(x=>x.ema50),borderColor:"#78A7D8",borderWidth:1,pointRadius:0},
+    {label:"EMA 200",data:d.map(x=>x.ema200),borderColor:"#D6A756",borderWidth:1.3,pointRadius:0}]},
     options:baseOpts()});}
 
 function drawScen(){
@@ -2222,7 +2339,7 @@ function drawScen(){
   const mk=m=>{const a=pad.slice();a[n-1]=T.price;
     for(const d of days)a.push(T.price*Math.exp(m*T.vol*Math.sqrt(d/252)));return a;};
   const flat=pad.slice();flat[n-1]=T.price;days.forEach(()=>flat.push(T.price));
-  const ds=[{label:"Close",data:[...hist.map(x=>x.close),...fwd.map(()=>null)],borderColor:"#E8E5DD",borderWidth:1.8,pointRadius:0},
+  const ds=[{label:"Close",data:[...hist.map(x=>x.close),...fwd.map(()=>null)],borderColor:"#F2F0E9",borderWidth:1.8,pointRadius:0},
     {label:"+2σ",data:mk(2),borderColor:"rgba(76,175,125,.35)",borderDash:[4,4],borderWidth:1,pointRadius:0},
     {label:"+1σ",data:mk(1),borderColor:"rgba(76,175,125,.85)",borderWidth:1.2,pointRadius:0},
     {label:"price held",data:flat,borderColor:"rgba(122,155,196,.7)",borderDash:[2,3],borderWidth:1,pointRadius:0},
@@ -2239,8 +2356,8 @@ function drawFund(){
   const a=D.fundamentals.annual;
   charts.fund=new Chart(el,{data:{labels:a.map(x=>x.year),datasets:[
     {type:"bar",label:"Revenue",data:a.map(x=>x.revenue),backgroundColor:"rgba(122,155,196,.4)"},
-    {type:"line",label:"Net income",data:a.map(x=>x.net_income),borderColor:"#4CAF7D",borderWidth:1.8,pointRadius:2},
-    {type:"line",label:"Free cash flow",data:a.map(x=>x.fcf),borderColor:"#E8A33D",borderWidth:1.8,pointRadius:2}]},
+    {type:"line",label:"Net income",data:a.map(x=>x.net_income),borderColor:"#3DB982",borderWidth:1.8,pointRadius:2},
+    {type:"line",label:"Free cash flow",data:a.map(x=>x.fcf),borderColor:"#D6A756",borderWidth:1.8,pointRadius:2}]},
     options:{...baseOpts(),scales:{x:axis(),y:axis({ticks:{color:CH.tick,font:{family:CH.font,size:9},callback:v=>big(v)}})}}});}
 
 /* ---------------- AI brief export ----------------
@@ -2259,11 +2376,11 @@ function buildBrief(){
   push("+"+"-".repeat(66)+"+");
   push("| DATA TIMESTAMP : "+nowET+" ET");
   push("| MARKET STATUS  : "+mkt+(FRESH?` (newest ${FRESH.label} bar: ${FRESH.lastClosed})`:""));
-  push("| PRICE USED     : $"+fmt(T.price)+(LIVE.price!=null?" (live quote, polling)":q.error?" (last close — quote failed)":" (vendor quote at fetch)"));
+  push("| SIGNAL PRICE   : $"+fmt(T.price)+" (last completed candle; quote is display-only)");
   push("| SOURCES PULLED : candles "+((D.candles||{}).source||"none")+
        "; fundamentals "+(f.source||"none")+(f.fallback_used?" (fallback)":"")+
        "; quote finnhub; earnings alphavantage; peers "+(pr.source||"none")+
-       (D.direct?" — fetched directly from browser":" — fetched by GitHub Action"));
+       " — fetched by GitHub Action");
   push("| DATA CONFIDENCE: "+((D.candles||{}).confidence||"NONE")+
        ((D.candles||{}).cross_check?` — ${D.candles.cross_check.status}, worst gap ${fmt(D.candles.cross_check.worst,3)}% over ${D.candles.cross_check.checked} shared closes vs Polygon`:" — single candle source, no independent cross-check"));
   push("+"+"-".repeat(66)+"+","");
@@ -2303,6 +2420,14 @@ function buildBrief(){
     push("  caveats: "+BT.caveats.join(" "),"");}
   if(S){push("== SCENARIOS (zero-drift lognormal from measured vol — breaks on news) ==");
     for(const s2 of S)push(`  ${s2.n}: bear $${fmt(s2.bear.from)}–$${fmt(s2.bear.to)} (${pct(s2.bear.p,0)}) · base $${fmt(s2.base.from)}–$${fmt(s2.base.to)} (${pct(s2.base.p,0)}) · bull $${fmt(s2.bull.from)}–$${fmt(s2.bull.to)} (${pct(s2.bull.p,0)}) · touch R ${s2.pUp?pct(s2.pUp.touch,0):"—"} / S ${s2.pDn?pct(s2.pDn.touch,0):"—"}`);push("");}
+
+  if(ML&&ML.horizons){
+    push("== MACHINE-LEARNING FORECAST (walk-forward tested, closed bars only) ==");
+    for(const key of ["5d","21d"]){const h=ML.horizons[key];if(!h)continue;const m=h.metrics||{};
+      push(`  ${key}: ${h.prediction||h.status} · P(up) ${h.prob_up!=null?fmt(h.prob_up*100,1)+"%":"—"} · median ${h.expected_return_median!=null?fmt(h.expected_return_median*100,1)+"%":"—"} · 20–80% ${h.expected_return_p20!=null?fmt(h.expected_return_p20*100,1)+"%":"—"} to ${h.expected_return_p80!=null?fmt(h.expected_return_p80*100,1)+"%":"—"} · OOS balanced accuracy ${m.balanced_accuracy!=null?fmt(m.balanced_accuracy*100,1)+"%":"—"} · Brier skill ${m.brier_skill!=null?fmt(m.brier_skill*100,1)+"%":"—"}`);
+    }
+    push("  ML caveat: probability is conditional on historical closed-bar patterns; future news, earnings surprises, macro shocks and hidden order flow are unknowable.","");
+  }
 
   push("== FUNDAMENTALS ("+(f.source||"none")+(f.partial?" — ratios only":"")+") ==");
   if(f.error)push("  UNAVAILABLE: "+f.error);
@@ -2356,36 +2481,18 @@ function exportBrief(){
   const n=$("#modeNote");
   if(n)n.innerHTML=`AI brief for <b>${esc(D.symbol)}</b> ${copied?"copied to clipboard and ":""}downloaded. Paste one of your four engine prompts into an AI chat, then paste this brief under it — the model then writes its analysis from these verified numbers instead of inventing its own.`;}
 
-/* ---------------- optional live quote ---------------- */
-const LIVE={price:null,change:null,changePct:null,at:null};
+/* ---------------- snapshot reload ---------------- */
 async function toggleLive(){
-  if(pollTimer){clearInterval(pollTimer);pollTimer=null;LIVE.price=null;
-    $("#btnLive").textContent="Live quote";$("#btnLive").classList.remove("on");compute();render();return;}
-  let k=KEYS.finn||LIVEKEY();
-  if(!k){k=(prompt("Paste a Finnhub key to poll the live quote. It stays in this browser only.")||"").trim();
-    if(!k)return;localStorage.setItem("live_finnhub",k);KEYS.finn=KEYS.finn||k;}
-  const tick=async()=>{
-    try{
-      const r=await fetch(`https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(D.symbol)}&token=${k}`);
-      const j=await r.json();if(!j||!j.c)throw new Error("no quote returned");
-      LIVE.price=j.c;LIVE.change=j.d;LIVE.changePct=j.dp;LIVE.at=new Date().toLocaleTimeString();
-      compute();render();
-    }catch(e){clearInterval(pollTimer);pollTimer=null;LIVE.price=null;
-      $("#btnLive").textContent="Live quote";$("#btnLive").classList.remove("on");
-      const n=$("#liveNote");if(n)n.innerHTML=`<span class="err">live polling stopped — ${esc(e.message||e)}</span>`;}};
-  await tick();
-  if(LIVE.price==null)return;
-  pollTimer=setInterval(tick,10000);
-  $("#btnLive").textContent="Stop live";$("#btnLive").classList.add("on");}
+  $("#btnLive").textContent="Reloading…";
+  await refreshCandles(false);
+  $("#btnLive").textContent="Reload snapshot";
+}
 
 window.load=load;window.run=run;window.setTF=setTF;window.refreshCandles=refreshCandles;window.rankSort=rankSort;window.rankAll=rankAll;window.posCalc=posCalc;window.exportBrief=exportBrief;window.buildBrief=buildBrief;window.setTab=setTab;window.recompute=recompute;window.A=A;window.toggleLive=toggleLive;
 $("#btnLive").addEventListener("click",toggleLive);
 $("#btnBrief").addEventListener("click",exportBrief);
 $("#btnGo").addEventListener("click",()=>run());
 $("#btnRefresh").addEventListener("click",()=>refreshCandles(false));
-document.querySelectorAll("#tfbar button.tf").forEach(b=>{
-  if(b.getAttribute("data-tf")===TF)b.classList.add("on");else b.classList.remove("on");
-  b.addEventListener("click",()=>setTF(b.getAttribute("data-tf")));});
 $("#sym").addEventListener("keydown",e=>{if(e.key==="Enter")run();});
 boot();
 

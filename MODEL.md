@@ -1,32 +1,66 @@
-# Stock Truth ML model
+# Stock Truth — model, accuracy and security
 
-The dashboard uses a deliberately conservative, open-source machine-learning layer built with scikit-learn. It trains only on completed daily OHLCV bars already produced by the repository pipeline; API credentials stay in GitHub Actions secrets and never reach the browser.
+Stock Truth is an evidence dashboard, not an automated trading system. The public browser reads committed JSON snapshots only. API credentials stay in GitHub Actions Secrets and are never requested from visitors or stored in browser JavaScript/localStorage.
 
-## What it predicts
+## What the ML model does
 
-For 5-session and 21-session horizons the model estimates:
+`scripts/ml_predict.py` trains from completed daily candles and writes `docs/data/ml/<TICKER>.json`.
 
-- probability that the forward return is positive;
-- a median forward return estimate;
-- a lower and upper quantile range;
-- out-of-sample validation metrics and a model status.
+It estimates two horizons:
 
-The dashboard must not present the forecast as certainty. When the walk-forward validation does not demonstrate sufficient improvement over a naive baseline, the public result is **NO VERIFIED EDGE**.
+- 5 trading sessions
+- 21 trading sessions
 
-## Validation design
+For each horizon it reports probability of a positive return, median expected return, a 20th–80th percentile return interval, walk-forward metrics, and feature importance/sensitivity.
 
-The model uses chronological expanding-window validation (`TimeSeriesSplit`) with a gap equal to the forecast horizon. This reduces leakage from overlapping forward-return labels. The model reports sample count, balanced accuracy, ROC-AUC, Brier score, and Brier skill relative to the historical positive-return rate.
+The direction ensemble uses scikit-learn histogram gradient boosting plus regularized logistic regression. Return ranges use quantile histogram gradient boosting. The model uses expanding `TimeSeriesSplit` validation with a gap equal to the forecast horizon to reduce label leakage.
 
-A forecast becomes `VERIFIED EDGE` only when the holdout sample and skill thresholds in `scripts/ml_predict.py` are met. Otherwise it remains `NO VERIFIED EDGE`. This gate is intentionally strict because financial series are noisy and regime-dependent.
+## Edge gate
 
-## Features
+A forecast is not promoted merely because a model produced a number. The dashboard can deliberately display **NO VERIFIED EDGE**. The current gate requires enough out-of-sample observations and improvement over a naive historical-probability baseline, including minimum balanced accuracy and Brier skill.
 
-Features are derived from point-in-time market history, including multi-horizon returns, moving-average distances, RSI, ATR, realized volatility, volume behavior, gap/range structure, drawdown, and 52-week position. When `docs/data/SPY.json` exists, benchmark-relative returns, beta, correlation and benchmark volatility are also used.
+This is important: a model that fails its holdout test is evidence that the current feature set has not demonstrated usable predictive skill for that ticker/horizon.
 
-## Important limitations
+## Inputs
 
-This is a research aid, not a guarantee of future returns. Historical validation can degrade after regime changes. Earnings, corporate actions, macro shocks, data revisions and unusual liquidity can invalidate a forecast. The model should be interpreted together with the dashboard's data-integrity, valuation, fundamental and risk sections.
+Core features include multi-horizon returns, moving-average distance, RSI, ATR, realized volatility, volume behavior, drawdown and 52-week range position.
 
-## Data integrity priorities
+If a committed `SPY.json` is available, it is used as the benchmark. Otherwise the GitHub Action makes a best-effort public yfinance SPY history request. Benchmark features include relative strength, beta and correlation. No benchmark API key is required.
 
-For best results, keep several years of split-adjusted daily OHLCV, use closed bars only, retain an independent candle cross-check, and avoid point-in-time leakage from fundamentals or analyst data. If those datasets are later added to the ML model, only values that were actually known on each historical date should be used.
+## Accuracy rules
+
+- Technical calculations use closed daily bars, never a forming daily candle.
+- A newer quote may be displayed as a snapshot but is not injected into closed-bar RSI/MACD/pattern calculations.
+- Candle-source disagreement lowers confidence.
+- Missing data is displayed as missing rather than filled with invented values.
+- Model validation is time-ordered, not random train/test shuffling.
+- Predictions do not know future earnings surprises, macro shocks, news or order flow.
+
+## Security architecture
+
+Market-data keys are expected only as repository Actions secrets:
+
+- `FINNHUB_KEY`
+- `TWELVE_KEY`
+- `FMP_KEY`
+- `POLYGON_KEY`
+- `ALPHAVANTAGE_KEY`
+
+The public dashboard contains no vendor API endpoints, password fields or key prompts. `.github/workflows/ml-prediction.yml` also runs a static security scan on pull requests.
+
+## Deployment
+
+`fetch.yml` refreshes market snapshots and deploys `docs/` to GitHub Pages. `ml-prediction.yml` retrains the ML model after completed sessions and deploys the model snapshots.
+
+One repository setting may still require a manual one-time choice because GitHub does not expose it through this integration: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+
+## Interpretation
+
+The dashboard is designed to answer:
+
+1. What is true now? — price, trend, momentum, fundamentals, valuation, ownership and risk.
+2. What would invalidate the setup? — structural levels and risk context.
+3. What has historically happened after similar measurable states? — walk-forward backtests and ML probabilities.
+4. Has the prediction method demonstrated out-of-sample skill? — explicit validation metrics and the NO VERIFIED EDGE gate.
+
+It should not be interpreted as certainty, personalized financial advice, or a guarantee of future returns.
