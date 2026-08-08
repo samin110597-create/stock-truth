@@ -4,7 +4,7 @@
   "library": "scikit-learn",
   "library_version": "1.9.0",
   "symbol": "NVDA",
-  "generated_at": "2026-08-08T20:42:12Z",
+  "generated_at": "2026-08-08T21:07:16Z",
   "source_snapshot_generated_at": "2026-08-07T21:05:40Z",
   "closed_bars_only": true,
   "features": [
@@ -45,14 +45,100 @@
   "horizons": {
     "5d": {
       "horizon_sessions": 5,
-      "status": "INSUFFICIENT_DATA",
-      "reason": "0 labelled rows; at least 350 are required"
+      "status": "NO_VERIFIED_EDGE",
+      "edge_verified": false,
+      "prediction": "NO VERIFIED EDGE",
+      "prob_up": 0.5954385378522803,
+      "expected_return_median": 0.001441995603096618,
+      "expected_return_p20": -0.05421142969886683,
+      "expected_return_p80": 0.0261913349145563,
+      "confidence": "LOW",
+      "metrics": {
+        "oos_samples": 580,
+        "walk_forward_splits": 5,
+        "accuracy": 0.5706896551724138,
+        "balanced_accuracy": 0.502984748662323,
+        "roc_auc": 0.5396935172715029,
+        "brier": 0.24317348875522257,
+        "baseline_accuracy": 0.5706896551724138,
+        "baseline_brier": 0.24500297265160517,
+        "brier_skill": 0.007467190608271233,
+        "positive_rate": 0.5706896551724138,
+        "median_return_mae": 0.054776104842868344,
+        "zero_return_mae": 0.050234042724211996
+      },
+      "top_features": [
+        {
+          "feature": "sma20_rel",
+          "importance": 0.037009184566269754
+        },
+        {
+          "feature": "beta60",
+          "importance": 0.010174218088713181
+        },
+        {
+          "feature": "corr60",
+          "importance": 0.008769115408561082
+        },
+        {
+          "feature": "trend_spread",
+          "importance": 0.005916064400418225
+        },
+        {
+          "feature": "relative_ret_21",
+          "importance": 0.0030571467357714474
+        }
+      ],
+      "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"
     },
     "21d": {
       "horizon_sessions": 21,
-      "status": "INSUFFICIENT_DATA",
-      "reason": "0 labelled rows; at least 350 are required"
+      "status": "NO_VERIFIED_EDGE",
+      "edge_verified": false,
+      "prediction": "NO VERIFIED EDGE",
+      "prob_up": 0.6406096471848262,
+      "expected_return_median": -0.04058683527340506,
+      "expected_return_p20": -0.05397911081597388,
+      "expected_return_p80": 0.011969421003214544,
+      "confidence": "LOW",
+      "metrics": {
+        "oos_samples": 565,
+        "walk_forward_splits": 5,
+        "accuracy": 0.6035398230088496,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.5651445328864684,
+        "brier": 0.23870188731050257,
+        "baseline_accuracy": 0.6035398230088496,
+        "baseline_brier": 0.23927950505129614,
+        "brier_skill": 0.002413987527555858,
+        "positive_rate": 0.6035398230088496,
+        "median_return_mae": 0.1489506361254653,
+        "zero_return_mae": 0.09466657893144875
+      },
+      "top_features": [
+        {
+          "feature": "atr14_pct",
+          "importance": 0.02012299466822657
+        },
+        {
+          "feature": "ret_63",
+          "importance": 0.017698770931300727
+        },
+        {
+          "feature": "drawdown63",
+          "importance": 0.011958324474208325
+        },
+        {
+          "feature": "rsi14",
+          "importance": 0.009464499039189299
+        },
+        {
+          "feature": "bench_ret_5",
+          "importance": 0.004472103913938617
+        }
+      ],
+      "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"
     }
   },
-  "status": "INSUFFICIENT_DATA"
+  "status": "NO_VERIFIED_EDGE"
 }
