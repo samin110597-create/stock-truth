@@ -1,0 +1,35 @@
+name: Validate dashboard and ML
+
+"on":
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ML dependencies
+        run: pip install -r requirements-ml.txt
+      - name: Compile ML engine
+        run: python -m py_compile scripts/ml_predict.py
+      - name: Security scan public dashboard
+        shell: bash
+        run: |
+          set -euo pipefail
+          ! grep -Eqi 'type=["'"']password|localStorage\.setItem\([^\n]*(key|token)|finnhub\.io/api|api\.twelvedata\.com|financialmodelingprep\.com|alphavantage\.co/query|polygon\.io/v[0-9]|Paste a .*key|API key.*browser' docs/index.html
+      - name: Confirm ML integration points
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'data/ml' docs/index.html
+          grep -q 'NO VERIFIED EDGE' docs/index.html
+          grep -q 'TimeSeriesSplit' scripts/ml_predict.py
