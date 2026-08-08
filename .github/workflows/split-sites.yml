@@ -1,0 +1,60 @@
+name: One-time split legacy and v2 sites
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/split-sites.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Preserve upgraded site at /v2 and restore original root
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p docs/v2
+          cp docs/index.html docs/v2/index.html
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('docs/v2/index.html')
+          s=p.read_text(encoding='utf-8')
+          if '<base href="../">' not in s:
+              s=s.replace('<head>', '<head>\n<base href="../">', 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+          git show aed85826530b05affc7eaee6265a14d2eb7ef546:docs/index.html > docs/index.html
+
+      - name: Point v2 validation and ML triggers at the upgraded site
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          for name in ['.github/workflows/validate.yml','.github/workflows/ml-prediction.yml']:
+              p=Path(name)
+              s=p.read_text(encoding='utf-8')
+              s=s.replace("'docs/index.html'", "'docs/v2/index.html'")
+              s=s.replace("Path('docs/index.html')", "Path('docs/v2/index.html')")
+              p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Commit split and remove one-time workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'stock-truth-maintenance-bot'
+          git config user.email 'stock-truth-maintenance-bot@users.noreply.github.com'
+          git rm .github/workflows/split-sites.yml
+          git add docs/index.html docs/v2/index.html .github/workflows/validate.yml .github/workflows/ml-prediction.yml
+          git commit -m 'feat: restore legacy site and publish upgraded v2 separately'
+          git pull --rebase origin main
+          git push origin HEAD:main
