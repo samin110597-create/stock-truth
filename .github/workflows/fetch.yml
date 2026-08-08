@@ -1,32 +1,41 @@
-name: Fetch market data
+name: Fetch market data + deploy Pages
 
-on:
+"on":
   schedule:
-    # Every 30 min, 13:30-20:00 UTC = 9:30-16:00 ET, Mon-Fri.
-    # GitHub cron is UTC and doesn't know DST; in winter this runs
-    # 8:30-15:00 ET — adjust the hours if that bothers you.
+    # Frequent snapshots during the U.S. trading-day window, Mon-Fri.
+    # GitHub cron is UTC; the script still reports actual market status.
     - cron: "0,30 13-20 * * 1-5"
-  workflow_dispatch: {}   # manual "Run workflow" button
+  workflow_dispatch: {}
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: fetch
+  group: stock-truth-fetch-pages
   cancel-in-progress: true
 
 jobs:
-  fetch:
+  fetch-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - name: Install data dependencies
+        run: pip install -r requirements.txt
 
       - name: Fetch and build data
         env:
@@ -37,11 +46,27 @@ jobs:
           ALPHAVANTAGE_KEY: ${{ secrets.ALPHAVANTAGE_KEY }}
         run: python scripts/fetch_data.py
 
-      - name: Commit updated data
+      - name: Commit updated public snapshots
         run: |
-          git config user.name "data-bot"
-          git config user.email "actions@github.com"
+          git config user.name "stock-truth-data-bot"
+          git config user.email "stock-truth-data-bot@users.noreply.github.com"
           git add docs/data
-          git diff --cached --quiet && echo "No changes" && exit 0
-          git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
