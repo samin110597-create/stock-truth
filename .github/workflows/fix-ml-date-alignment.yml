@@ -1,0 +1,53 @@
+name: One-time ML date alignment fix
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-ml-date-alignment.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch benchmark join to calendar dates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/ml_predict.py')
+          s = p.read_text(encoding='utf-8')
+          old = '''        b = benchmark_df[["date", "close"]].copy().rename(columns={"close": "bench_close"})
+        aligned = df[["date"]].merge(b, on="date", how="left")
+'''
+          new = '''        b = benchmark_df[["date", "close"]].copy().rename(columns={"close": "bench_close"})
+        # Match by trading calendar date rather than exact timestamp. Repository
+        # candles are midnight UTC, while yfinance may carry an exchange-local
+        # midnight converted to a non-zero UTC time on the same session date.
+        left = df[["date"]].copy()
+        left["date"] = pd.to_datetime(left["date"], errors="coerce", utc=True).dt.normalize()
+        b["date"] = pd.to_datetime(b["date"], errors="coerce", utc=True).dt.normalize()
+        aligned = left.merge(b, on="date", how="left")
+'''
+          if old not in s:
+              raise SystemExit('expected benchmark join block not found; refusing blind edit')
+          p.write_text(s.replace(old, new, 1), encoding='utf-8')
+          PY
+          python -m py_compile scripts/ml_predict.py
+
+      - name: Commit fix and remove one-time workflow
+        run: |
+          git config user.name 'stock-truth-maintenance-bot'
+          git config user.email 'stock-truth-maintenance-bot@users.noreply.github.com'
+          git rm .github/workflows/fix-ml-date-alignment.yml
+          git add scripts/ml_predict.py
+          git commit -m 'fix: align benchmark and stock bars by session date'
+          git pull --rebase origin main
+          git push origin HEAD:main
