@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stock Truth V3.1 — precision institutional terminal</title>
+<style>
+body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}
+.box{max-width:680px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}.err{color:#E05252;white-space:pre-wrap}
+</style>
+</head>
+<body>
+<div class="box"><h2>Loading Stock Truth V3.1…</h2><div class="muted">Completed-bar precision technicals · separate 4H / 1D / 1W / 1Y models · purged walk-forward validation · Model Lab · 10-quarter fundamentals</div></div>
+<script>
+(async()=>{
+  const stamp=Date.now();
+  const src='https://raw.githubusercontent.com/samin110597-create/stock-truth/main/docs/v2/index.html?v='+stamp;
+  const r=await fetch(src,{cache:'no-store'});
+  if(!r.ok)throw new Error('V3 base loader HTTP '+r.status);
+  let page=await r.text();
+  page=page.replaceAll('Loading Stock Truth v2…','Loading Stock Truth V3.1…');
+  page=page.replaceAll('Stock Truth v2 could not load','Stock Truth V3.1 could not load');
+  page=page.replaceAll('v3-upgrade.js','v3-upgrade-precision.js');
+  page=page.replace(
+    "html=html.replaceAll('./data/',pipelineData);",
+    "html=html.replaceAll('./data/',pipelineData);\\n  html=html.replace('const BUILD_TAG=\\\"v2.6 · 2026-08-06\\\";','const BUILD_TAG=\\\"v3.1 · 2026-08-09\\\";');"
+  );
+  page=page.replaceAll('Institutional technical terminal · secure any-ticker data · 10-quarter fundamentals · walk-forward forecasts','V3.1 precision institutional terminal · completed bars · purged horizon models · 10-quarter fundamentals · Model Lab');
+  document.open();document.write(page);document.close();
+})().catch(err=>{
+  const msg=String(err&&err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
+  document.body.innerHTML='<div class="box"><h2>Stock Truth V3.1 could not load</h2><div class="muted err">'+msg+'</div></div>';
+});
+</script>
+</body>
+</html>
