@@ -21,10 +21,6 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
   page=page.replaceAll('Loading Stock Truth v2…','Loading Stock Truth V3.1…');
   page=page.replaceAll('Stock Truth v2 could not load','Stock Truth V3.1 could not load');
   page=page.replaceAll('v3-upgrade.js','v3-upgrade-precision.js');
-  page=page.replace(
-    "html=html.replaceAll('./data/',pipelineData);",
-    "html=html.replaceAll('./data/',pipelineData);\\n  html=html.replace('const BUILD_TAG=\\\"v2.6 · 2026-08-06\\\";','const BUILD_TAG=\\\"v3.1 · 2026-08-09\\\";');"
-  );
   page=page.replaceAll('Institutional technical terminal · secure any-ticker data · 10-quarter fundamentals · walk-forward forecasts','V3.1 precision institutional terminal · completed bars · purged horizon models · 10-quarter fundamentals · Model Lab');
   document.open();document.write(page);document.close();
 })().catch(err=>{
