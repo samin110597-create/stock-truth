@@ -6,13 +6,11 @@
 <title>Loading Stock Truth v2…</title>
 <style>
 body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}
-.box{max-width:620px;padding:28px}
-.muted{color:#8C909A;font-size:14px;line-height:1.6}
-.err{color:#E05252;white-space:pre-wrap}
+.box{max-width:620px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}.err{color:#E05252;white-space:pre-wrap}
 </style>
 </head>
 <body>
-<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Full analyst terminal · SEC-backed fundamentals · 1-week / 1-month walk-forward forecasts · completed-bar technical signals</div></div>
+<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Secure any-ticker terminal · SEC-backed fundamentals · walk-forward forecasts · completed-bar technical signals</div></div>
 <script>
 (async()=>{
   const stamp=Date.now();
@@ -21,34 +19,102 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
     fetch(root+'docs/index.html?v='+stamp,{cache:'no-store'}),
     fetch(root+'v2-enhance.js?v='+stamp,{cache:'no-store'})
   ]);
-  if(!hr.ok) throw new Error('v2 terminal file HTTP '+hr.status);
-  if(!jr.ok) throw new Error('v2 enhancement file HTTP '+jr.status);
+  if(!hr.ok)throw new Error('v2 terminal file HTTP '+hr.status);
+  if(!jr.ok)throw new Error('v2 enhancement file HTTP '+jr.status);
 
   let html=await hr.text();
   let enhance=await jr.text();
   const v5='https://stock-truth-v2.vercel.app/api/stock-v5';
+  const intraday='https://stock-truth-v2.vercel.app/api/stock-intraday';
   const pipelineData='https://samin110597-create.github.io/stock-truth/data/';
 
-  // The base terminal was authored to live at /docs/ and uses ./data/*.json.
-  // V2 is served from /stock-truth/v2/, so without this rewrite the browser
-  // incorrectly requests /stock-truth/v2/data/*.json and falls into direct mode.
+  // Correct the imported base terminal's relative cache paths.
   html=html.replaceAll('./data/',pipelineData);
 
-  // Force every legacy API reference onto the current backend.
+  // The browser-key panel is no longer part of the normal V2 architecture.
+  html=html.replace('<details id="keybox">','<details id="keybox" style="display:none">');
+  html=html.replaceAll('PIPELINE MODE — NO KEYS NEEDED FOR WATCHLIST TICKERS','SECURE SERVER MODE — ANY TICKER');
+  html=html.replaceAll('DIRECT MODE — ROBOT DATA NOT FOUND','SECURE SERVER MODE — ANY TICKER');
+  html=html.replace('$("#keybox").open=true;','$("#keybox").open=false;');
+  html=html.replace(
+    '$("#modeNote").textContent="Watchlist tickers load from data the GitHub robot committed. Typing any other ticker fetches it directly, which uses the keys in the panel above.";',
+    '$("#modeNote").textContent="Type any ticker. V2 fetches it through the secure server backend; no browser API keys are required. Watchlist symbols are shortcuts only.";'
+  );
+  html=html.replace(
+    '$("#modeNote").innerHTML="The robot\'s data file (<span class=\\"mono\\">data/index.json</span>) is not on this site yet, so the page is calling vendors straight from your browser instead. Paste at least a Twelve Data key above, type a ticker, press Analyze — everything works right now. When the GitHub Action runs successfully this banner disappears on its own and watchlist tickers stop needing keys.";',
+    '$("#modeNote").textContent="Secure any-ticker backend active. Cached watchlist data is optional; analysis does not require browser keys.";'
+  );
+
+  // Route every typed symbol through the secure Vercel backend instead of runDirect().
+  html=html.replace(
+    'if(MODE==="pipeline"&&INDEX.tickers.includes(sym))return load(sym);\n  return runDirect(sym);}',
+    'return runSecure(sym);}'
+  );
+
+  // Timeframe changes also use the secure server. No Twelve Data key gate.
+  html=html.replace(
+`async function setTF(tf){
+  if(!TFM[tf]||tf===TF)return;
+  TF=tf;localStorage.setItem("tf",tf);
+  document.querySelectorAll("#tfbar button.tf").forEach(b=>
+    b.classList[b.getAttribute("data-tf")===tf?"add":"remove"]("on"));
+  if(!D||!D.symbol)return;
+  if(TFM[tf].intraday&&!KEYS.twelve){
+    $("#modeNote").innerHTML=\`<span class="err">Intraday candles need a Twelve Data key — open the key panel above.</span>\`;
+    return;}
+  await runDirect(D.symbol);}`,
+`async function setTF(tf){
+  if(!TFM[tf]||tf===TF)return;
+  TF=tf;localStorage.setItem("tf",tf);
+  document.querySelectorAll("#tfbar button.tf").forEach(b=>
+    b.classList[b.getAttribute("data-tf")===tf?"add":"remove"]("on"));
+  if(!D||!D.symbol)return;
+  await runSecure(D.symbol);}`
+  );
+
+  // Secure snapshots refresh from the secure backend as well.
+  html=html.replace('if(!D.direct){await load(D.symbol);return;}','if(!D.direct){await runSecure(D.symbol);return;}');
+
+  const secureFn=`
+async function runSecure(sym){
+  const M=tfm();
+  const secureBase='${v5}',secureIntra='${intraday}';
+  $("#app").innerHTML=\`<div class="panel"><h2>Fetching \${esc(sym)} · \${esc(M.label)} <span class="tag pulse">SECURE SERVER</span></h2><p class="note">Any-ticker request. API credentials are not exposed to this browser.</p></div>\`;
+  try{
+    const br=await fetch(secureBase+'?symbol='+encodeURIComponent(sym),{cache:'no-store'});
+    const base=await br.json().catch(()=>({error:'Invalid server response'}));
+    if(!br.ok||base.error)throw new Error(base.error||('secure backend HTTP '+br.status));
+    D=base;D.direct=false;D.timeframe=TF;
+    if(!D.daily&&D.candles)D.daily={source:D.candles.source,fetched_at:D.candles.fetched_at,bars:D.candles.bars};
+    if(M.intraday){
+      const ir=await fetch(secureIntra+'?symbol='+encodeURIComponent(sym)+'&tf='+encodeURIComponent(TF),{cache:'no-store'});
+      const ij=await ir.json().catch(()=>({error:'Invalid intraday server response'}));
+      if(!ir.ok||ij.error)throw new Error(ij.error||('intraday backend HTTP '+ir.status));
+      D.candles=ij.candles;
+      if(ij.quote&&ij.quote.current!=null)D.quote={...(D.quote||{}),current:ij.quote.current,currency:ij.quote.currency||D.quote?.currency};
+      D.generated_at=ij.generated_at||D.generated_at;
+    }
+    MODE='secure';TAB='verdict';pushRecent(sym);compute();drawTickerBar();render();startAutoRefresh();
+    const mn=$("#modeNote");if(mn)mn.textContent='Secure server mode · any ticker · '+M.label+' · no browser API keys.';
+  }catch(e){
+    D={symbol:sym,load_error:String(e&&e.message||e)};
+    $("#app").innerHTML=\`<div class="panel" style="border-color:rgba(224,82,82,.55)"><h2>Could not load \${esc(sym)} <span class="tag bad">SERVER ERROR</span></h2><p class="note err">\${esc(e&&e.message||e)}</p><p class="note">The request stayed server-side; do not paste API keys into the page.</p></div>\`;
+  }
+}
+`;
+  html=html.replace('async function load(sym){',secureFn+'\nasync function load(sym){');
+
+  // Force legacy enhancement references onto v5.
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4?symbol=',v5+'?symbol=');
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=',v5+'?symbol=');
   html=html.replaceAll('/api/stock-v4?symbol=',v5+'?symbol=');
   html=html.replaceAll('/api/stock?symbol=',v5+'?symbol=');
   enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4',v5);
   enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock',v5);
-
-  // Protect the generated inline script from accidental HTML parser termination.
   enhance=enhance.replace(/<\/script/gi,'<\\/script');
   const inline='<'+'script>'+enhance+'<'+'/script>';
 
-  // V2 enhancer listens for stocktruth:v2data. The base terminal predates that
-  // event, so bridge its global lexical D object into the enhancer whenever
-  // ticker/timeframe/data changes.
+  // Publish base-terminal data to the V2 forecast/research layer.
   const bridge='<'+'script>'+`(()=>{
     let lastKey='';
     function publishV2(){
@@ -56,28 +122,22 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
         if(typeof D==='undefined'||!D||D.load_error)return;
         const key=[D.symbol||'',D.generated_at||'',D.timeframe||'',D.candles&&D.candles.fetched_at||'',D.candles&&D.candles.latest||''].join('|');
         if(!key||key===lastKey)return;
-        lastKey=key;
-        window.V2DATA=D;
+        lastKey=key;window.V2DATA=D;
         window.dispatchEvent(new CustomEvent('stocktruth:v2data',{detail:D}));
       }catch(e){console.warn('V2 data bridge:',e);}
     }
-    setTimeout(publishV2,0);
-    setInterval(publishV2,750);
+    setTimeout(publishV2,0);setInterval(publishV2,750);
   })();`+'<'+'/script>';
 
-  // Old loader only replaced a /v2-enhance.js tag that is no longer present
-  // in the base file. Always append the enhancer + bridge before </body>.
   const oldTag=/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i;
-  if(oldTag.test(html)) html=html.replace(oldTag,inline+bridge);
-  else if(/<\/body>/i.test(html)) html=html.replace(/<\/body>/i,inline+bridge+'</body>');
+  if(oldTag.test(html))html=html.replace(oldTag,inline+bridge);
+  else if(/<\/body>/i.test(html))html=html.replace(/<\/body>/i,inline+bridge+'</body>');
   else html+=inline+bridge;
 
-  document.open();
-  document.write(html);
-  document.close();
+  document.open();document.write(html);document.close();
 })().catch(err=>{
   const msg=String(err&&err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
-  document.body.innerHTML='<div class="box"><h2>Stock Truth v2 could not load</h2><div class="muted err">'+msg+'</div><div class="muted" style="margin-top:14px">Reload once. If this remains, the upstream V2 source or API is unavailable and the message above identifies which request failed.</div></div>';
+  document.body.innerHTML='<div class="box"><h2>Stock Truth v2 could not load</h2><div class="muted err">'+msg+'</div><div class="muted" style="margin-top:14px">The loader could not reach the V2 source. No browser API keys are required.</div></div>';
 });
 </script>
 </body>
