@@ -4,35 +4,74 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Loading Stock Truth v2…</title>
-<style>body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}.box{max-width:560px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}</style>
+<style>
+body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}
+.box{max-width:620px;padding:28px}
+.muted{color:#8C909A;font-size:14px;line-height:1.6}
+.err{color:#E05252;white-space:pre-wrap}
+</style>
 </head>
 <body>
 <div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Full analyst terminal · SEC-backed fundamentals · 1-week / 1-month walk-forward forecasts · completed-bar technical signals</div></div>
 <script>
 (async()=>{
+  const stamp=Date.now();
   const root='https://raw.githubusercontent.com/samin110597-create/stock-truth-v2/main/';
   const [hr,jr]=await Promise.all([
-    fetch(root+'docs/index.html',{cache:'no-store'}),
-    fetch(root+'v2-enhance.js',{cache:'no-store'})
+    fetch(root+'docs/index.html?v='+stamp,{cache:'no-store'}),
+    fetch(root+'v2-enhance.js?v='+stamp,{cache:'no-store'})
   ]);
   if(!hr.ok) throw new Error('v2 terminal file HTTP '+hr.status);
   if(!jr.ok) throw new Error('v2 enhancement file HTTP '+jr.status);
+
   let html=await hr.text();
   let enhance=await jr.text();
   const v5='https://stock-truth-v2.vercel.app/api/stock-v5';
+
+  // Force every legacy API reference onto the current backend.
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4?symbol=',v5+'?symbol=');
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=',v5+'?symbol=');
   html=html.replaceAll('/api/stock-v4?symbol=',v5+'?symbol=');
   html=html.replaceAll('/api/stock?symbol=',v5+'?symbol=');
   enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4',v5);
   enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock',v5);
+
+  // Protect the generated inline script from accidental HTML parser termination.
+  enhance=enhance.replace(/<\/script/gi,'<\\/script');
   const inline='<'+'script>'+enhance+'<'+'/script>';
-  html=html.replace(/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i,inline);
+
+  // V2 enhancer listens for stocktruth:v2data. The base terminal predates that
+  // event, so bridge its global lexical D object into the enhancer whenever
+  // ticker/timeframe/data changes.
+  const bridge='<'+'script>'+`(()=>{
+    let lastKey='';
+    function publishV2(){
+      try{
+        if(typeof D==='undefined'||!D||D.load_error)return;
+        const key=[D.symbol||'',D.generated_at||'',D.timeframe||'',D.candles&&D.candles.fetched_at||'',D.candles&&D.candles.latest||''].join('|');
+        if(!key||key===lastKey)return;
+        lastKey=key;
+        window.V2DATA=D;
+        window.dispatchEvent(new CustomEvent('stocktruth:v2data',{detail:D}));
+      }catch(e){console.warn('V2 data bridge:',e);}
+    }
+    setTimeout(publishV2,0);
+    setInterval(publishV2,750);
+  })();`+'<'+'/script>';
+
+  // Old loader only replaced a /v2-enhance.js tag that is no longer present
+  // in the base file. Always append the enhancer + bridge before </body>.
+  const oldTag=/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i;
+  if(oldTag.test(html)) html=html.replace(oldTag,inline+bridge);
+  else if(/<\/body>/i.test(html)) html=html.replace(/<\/body>/i,inline+bridge+'</body>');
+  else html+=inline+bridge;
+
   document.open();
   document.write(html);
   document.close();
 })().catch(err=>{
-  document.body.innerHTML='<div class="box"><h2>Stock Truth v2 could not load</h2><div class="muted">'+String(err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]))+'</div></div>';
+  const msg=String(err&&err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
+  document.body.innerHTML='<div class="box"><h2>Stock Truth v2 could not load</h2><div class="muted err">'+msg+'</div><div class="muted" style="margin-top:14px">Reload once. If this remains, the upstream V2 source or API is unavailable and the message above identifies which request failed.</div></div>';
 });
 </script>
 </body>
