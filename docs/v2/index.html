@@ -27,6 +27,12 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
   let html=await hr.text();
   let enhance=await jr.text();
   const v5='https://stock-truth-v2.vercel.app/api/stock-v5';
+  const pipelineData='https://samin110597-create.github.io/stock-truth/data/';
+
+  // The base terminal was authored to live at /docs/ and uses ./data/*.json.
+  // V2 is served from /stock-truth/v2/, so without this rewrite the browser
+  // incorrectly requests /stock-truth/v2/data/*.json and falls into direct mode.
+  html=html.replaceAll('./data/',pipelineData);
 
   // Force every legacy API reference onto the current backend.
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4?symbol=',v5+'?symbol=');
