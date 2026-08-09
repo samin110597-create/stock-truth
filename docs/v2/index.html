@@ -10,23 +10,26 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
 </style>
 </head>
 <body>
-<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Institutional technical terminal · secure any-ticker data · 10-quarter fundamentals · walk-forward forecasts</div></div>
+<div class="box"><h2>Loading Stock Truth v2…</h2><div class="muted">Institutional technical terminal · 4H / 1D / 1W / 1Y models · AVWAP chart workspace · 10-quarter fundamentals · model lab</div></div>
 <script>
 (async()=>{
   const stamp=Date.now();
   const root='https://raw.githubusercontent.com/samin110597-create/stock-truth-v2/main/';
-  const [hr,jr,ir]=await Promise.all([
+  const [hr,jr,ir,vr]=await Promise.all([
     fetch(root+'docs/index.html?v='+stamp,{cache:'no-store'}),
     fetch(root+'v2-enhance.js?v='+stamp,{cache:'no-store'}),
-    fetch(root+'v2-institutional.js?v='+stamp,{cache:'no-store'})
+    fetch(root+'v2-institutional.js?v='+stamp,{cache:'no-store'}),
+    fetch(root+'v3-upgrade.js?v='+stamp,{cache:'no-store'})
   ]);
   if(!hr.ok)throw new Error('v2 terminal file HTTP '+hr.status);
   if(!jr.ok)throw new Error('v2 enhancement file HTTP '+jr.status);
   if(!ir.ok)throw new Error('v2 institutional file HTTP '+ir.status);
+  if(!vr.ok)throw new Error('v3 upgrade file HTTP '+vr.status);
 
   let html=await hr.text();
   let enhance=await jr.text();
   let institutional=await ir.text();
+  let upgrade=await vr.text();
   const v5='https://stock-truth-v2.vercel.app/api/stock-v5';
   const intraday='https://stock-truth-v2.vercel.app/api/stock-intraday';
   const pipelineData='https://samin110597-create.github.io/stock-truth/data/';
@@ -46,11 +49,9 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
     '$("#modeNote").textContent="Secure any-ticker backend active. Cached watchlist data is optional; analysis does not require browser keys.";'
   );
 
-  // Make institutional technical analysis the primary landing tab without removing Verdict.
   html=html.replaceAll('TAB="verdict"','TAB="tech"');
   html=html.replace('[['+'"verdict","VERDICT"'+'],['+'"tech","TECHNICALS"'+'],['+'"fund","FUNDAMENTALS"'+'],['+'"rank","RANK"'+'],['+'"src","SOURCES"'+']]','[["tech","TECHNICALS · INSTITUTIONAL"],["verdict","VERDICT"],["fund","FUNDAMENTALS"],["rank","RANK"],["src","SOURCES"]]');
 
-  // Audit must report the actual source returned by the secure backend, not old hardcoded vendors.
   html=html.replace('["Quote","finnhub",D.quote||{},','["Quote",(D.quote||{}).source,D.quote||{},');
   html=html.replace('["Profile","finnhub",D.profile||{},','["Profile",(D.profile||{}).source,D.profile||{},');
   html=html.replace('["Analyst trends","finnhub",D.analysts||{},','["Analyst trends",(D.analysts||{}).source,D.analysts||{},');
@@ -106,7 +107,7 @@ async function runSecure(sym){
       D.generated_at=ij.generated_at||D.generated_at;
     }
     MODE='secure';TAB='tech';pushRecent(sym);compute();drawTickerBar();render();startAutoRefresh();
-    const mn=$("#modeNote");if(mn)mn.textContent='Secure server mode · any ticker · '+M.label+' · institutional technicals primary · no browser API keys.';
+    const mn=$("#modeNote");if(mn)mn.textContent='Secure server mode · any ticker · '+M.label+' · V3 institutional models active · no browser API keys.';
   }catch(e){
     D={symbol:sym,load_error:String(e&&e.message||e)};
     $("#app").innerHTML=\`<div class="panel" style="border-color:rgba(224,82,82,.55)"><h2>Could not load \${esc(sym)} <span class="tag bad">SERVER ERROR</span></h2><p class="note err">\${esc(e&&e.message||e)}</p><p class="note">The request stayed server-side; do not paste API keys into the page.</p></div>\`;
@@ -123,8 +124,10 @@ async function runSecure(sym){
   enhance=enhance.replaceAll('https://stock-truth-v2.vercel.app/api/stock',v5);
   enhance=enhance.replace(/<\/script/gi,'<\\/script');
   institutional=institutional.replace(/<\/script/gi,'<\\/script');
+  upgrade=upgrade.replace(/<\/script/gi,'<\\/script');
   const inline='<'+'script>'+enhance+'<'+'/script>';
   const instInline='<'+'script>'+institutional+'<'+'/script>';
+  const v3Inline='<'+'script>'+upgrade+'<'+'/script>';
 
   const bridge='<'+'script>'+`(()=>{
     let lastKey='';
@@ -141,9 +144,9 @@ async function runSecure(sym){
   })();`+'<'+'/script>';
 
   const oldTag=/<script\s+src=["']\/v2-enhance\.js["']\s*><\/script>/i;
-  if(oldTag.test(html))html=html.replace(oldTag,inline+instInline+bridge);
-  else if(/<\/body>/i.test(html))html=html.replace(/<\/body>/i,inline+instInline+bridge+'</body>');
-  else html+=inline+instInline+bridge;
+  if(oldTag.test(html))html=html.replace(oldTag,inline+instInline+v3Inline+bridge);
+  else if(/<\/body>/i.test(html))html=html.replace(/<\/body>/i,inline+instInline+v3Inline+bridge+'</body>');
+  else html+=inline+instInline+v3Inline+bridge;
 
   document.open();document.write(html);document.close();
 })().catch(err=>{
