@@ -28,10 +28,8 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
   const intraday='https://stock-truth-v2.vercel.app/api/stock-intraday';
   const pipelineData='https://samin110597-create.github.io/stock-truth/data/';
 
-  // Correct the imported base terminal's relative cache paths.
   html=html.replaceAll('./data/',pipelineData);
 
-  // The browser-key panel is no longer part of the normal V2 architecture.
   html=html.replace('<details id="keybox">','<details id="keybox" style="display:none">');
   html=html.replaceAll('PIPELINE MODE — NO KEYS NEEDED FOR WATCHLIST TICKERS','SECURE SERVER MODE — ANY TICKER');
   html=html.replaceAll('DIRECT MODE — ROBOT DATA NOT FOUND','SECURE SERVER MODE — ANY TICKER');
@@ -45,13 +43,20 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
     '$("#modeNote").textContent="Secure any-ticker backend active. Cached watchlist data is optional; analysis does not require browser keys.";'
   );
 
-  // Route every typed symbol through the secure Vercel backend instead of runDirect().
+  // Audit must report the actual source returned by the secure backend, not old hardcoded vendors.
+  html=html.replace('["Quote","finnhub",D.quote||{},','["Quote",(D.quote||{}).source,D.quote||{},');
+  html=html.replace('["Profile","finnhub",D.profile||{},','["Profile",(D.profile||{}).source,D.profile||{},');
+  html=html.replace('["Analyst trends","finnhub",D.analysts||{},','["Analyst trends",(D.analysts||{}).source,D.analysts||{},');
+  html=html.replace('["Positioning","yfinance",D.extras||{},','["Positioning",(D.extras||{}).source,D.extras||{},');
+  html=html.replace('["Earnings history","alphavantage",D.earnings||{},','["Earnings history",(D.earnings||{}).source,D.earnings||{},');
+  html=html.replace('<td class="${o.error?"down":"up"}">${o.error?"FAIL":"OK"}</td>','<td class="${o.error?"down":o.partial?"amber":"up"}">${o.error?"FAIL":o.partial?"PARTIAL":"OK"}</td>');
+  html=html.replace('<td class="dim">${o.error?`<span class="err">${esc(o.error)}</span>`:d}</td>','<td class="dim">${o.error?`<span class="err">${esc(o.error)}</span>`:(o.partial&&o.note?esc(o.note):d)}</td>');
+
   html=html.replace(
     'if(MODE==="pipeline"&&INDEX.tickers.includes(sym))return load(sym);\n  return runDirect(sym);}',
     'return runSecure(sym);}'
   );
 
-  // Timeframe changes also use the secure server. No Twelve Data key gate.
   html=html.replace(
 `async function setTF(tf){
   if(!TFM[tf]||tf===TF)return;
@@ -72,7 +77,6 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
   await runSecure(D.symbol);}`
   );
 
-  // Secure snapshots refresh from the secure backend as well.
   html=html.replace('if(!D.direct){await load(D.symbol);return;}','if(!D.direct){await runSecure(D.symbol);return;}');
 
   const secureFn=`
@@ -104,7 +108,6 @@ async function runSecure(sym){
 `;
   html=html.replace('async function load(sym){',secureFn+'\nasync function load(sym){');
 
-  // Force legacy enhancement references onto v5.
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock-v4?symbol=',v5+'?symbol=');
   html=html.replaceAll('https://stock-truth-v2.vercel.app/api/stock?symbol=',v5+'?symbol=');
   html=html.replaceAll('/api/stock-v4?symbol=',v5+'?symbol=');
@@ -114,7 +117,6 @@ async function runSecure(sym){
   enhance=enhance.replace(/<\/script/gi,'<\\/script');
   const inline='<'+'script>'+enhance+'<'+'/script>';
 
-  // Publish base-terminal data to the V2 forecast/research layer.
   const bridge='<'+'script>'+`(()=>{
     let lastKey='';
     function publishV2(){
