@@ -20,7 +20,7 @@ body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;
   let page=await r.text();
   page=page.replaceAll('Loading Stock Truth v2…','Loading Stock Truth V3.1…');
   page=page.replaceAll('Stock Truth v2 could not load','Stock Truth V3.1 could not load');
-  page=page.replaceAll('v3-upgrade.js','v3-upgrade-precision.js');
+  page=page.replaceAll('v3-upgrade.js','v3-upgrade-precision2.js');
   page=page.replaceAll('Institutional technical terminal · secure any-ticker data · 10-quarter fundamentals · walk-forward forecasts','V3.1 precision institutional terminal · completed bars · purged horizon models · 10-quarter fundamentals · Model Lab');
   document.open();document.write(page);document.close();
 })().catch(err=>{
