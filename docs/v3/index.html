@@ -3,9 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="0; url=../v36g/?from=v3">
-<title>Stock Truth V3.6G</title>
-<script>location.replace('../v36g/?from=v3&v='+Date.now()+location.hash)</script>
+<title>Stock Truth V3.4.1 — clean priority-setup terminal</title>
+<style>
+body{margin:0;background:#101216;color:#E8E5DD;font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}
+.box{max-width:760px;padding:28px}.muted{color:#8C909A;font-size:14px;line-height:1.6}.err{color:#E05252;white-space:pre-wrap}
+</style>
 </head>
-<body style="background:#0b0e13;color:#f1eee6;font-family:system-ui,sans-serif;padding:32px">Opening Stock Truth V3.6G standalone…</body>
+<body>
+<div class="box"><h2>Loading Stock Truth V3.4.1…</h2><div class="muted">Split-safe technicals · one highest-priority setup · clean support/resistance chart · target/invalidation · secondary ICT/Wyckoff/Elliott evidence kept off-chart · 4H / 1D / 1W / 1Y Model Lab · SEC filing integrity</div></div>
+<script>
+(async()=>{
+  const stamp=Date.now();
+  const src='https://raw.githubusercontent.com/samin110597-create/stock-truth/main/docs/v2/index.html?v='+stamp;
+  const r=await fetch(src,{cache:'no-store'});
+  if(!r.ok)throw new Error('V3 base loader HTTP '+r.status);
+  let page=await r.text();
+  page=page.replaceAll('Loading Stock Truth v2…','Loading Stock Truth V3.4.1…');
+  page=page.replaceAll('Stock Truth v2 could not load','Stock Truth V3.4.1 could not load');
+  page=page.replaceAll('v3-upgrade.js','v3-upgrade-precision3.js');
+  page=page.replaceAll('Institutional technical terminal · secure any-ticker data · 10-quarter fundamentals · walk-forward forecasts','V3.4.1 clean priority-setup terminal · split integrity · highest-priority setup only · targets + invalidation · Model Lab');
+  document.open();document.write(page);document.close();
+})().catch(err=>{
+  const msg=String(err&&err.message||err).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
+  document.body.innerHTML='<div class="box"><h2>Stock Truth V3.4.1 could not load</h2><div class="muted err">'+msg+'</div></div>';
+});
+</script>
+</body>
 </html>
