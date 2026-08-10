@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T15:27:40Z",
+ "generated_at": "2026-08-10T16:14:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:40Z",
-  "current": 279.42,
-  "change": 4.94,
-  "change_pct": 1.7998,
-  "high": 279.73,
+  "fetched_at": "2026-08-10T16:14:12Z",
+  "current": 279.28,
+  "change": 4.8,
+  "change_pct": 1.7488,
+  "high": 280.14,
   "low": 273.6001,
   "open": 274.25,
   "prev_close": 274.48,
-  "ts": 1786375635
+  "ts": 1786378439
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:40Z",
+  "fetched_at": "2026-08-10T16:14:12Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T15:27:42Z",
+  "fetched_at": "2026-08-10T16:14:15Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-10",
     "open": 274.18,
-    "high": 279.73,
+    "high": 279.91,
     "low": 273.655,
-    "close": 279.35,
-    "volume": 1956796.0
+    "close": 279.34,
+    "volume": 2227164.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:42Z",
+  "fetched_at": "2026-08-10T16:14:15Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T15:27:42Z",
+  "fetched_at": "2026-08-10T16:14:16Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 27.04602,
+  "forward_pe": 27.017948,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:42Z",
+  "fetched_at": "2026-08-10T16:14:16Z",
   "rows": [
    {
-    "ts": 1786366549,
-    "headline": "China uses capital markets to fund AI and chip race against U.S.",
+    "ts": 1786376314,
+    "headline": "European Stocks Close Mixed in Monday Trading as Investors Monitor Middle East War Developments",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f3e46eec3893ff37f71fd97b87fefec73a88f59361eb49ad374333d6f6870344"
+    "url": "https://finnhub.io/api/news?id=586b57921d5f947943397457a97f46eea8f50555302b3e52e72c807bb7350b2c"
    },
    {
-    "ts": 1786365903,
-    "headline": "Oracle\u2019s Rebound Is All But Assured So I Keep Buying",
+    "ts": 1786376179,
+    "headline": "Jeff Bezos Nears Major Liverpool Move",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
+    "url": "https://finnhub.io/api/news?id=e9bd36adaf492d382d06f8039305eaf89451581dc2d9bde91655ba8f405fd68a"
    },
    {
-    "ts": 1786364937,
-    "headline": "Amazon Back Near $3 Trillion as Jeff Bezos Reportedly Eyes a Third of Liverpool",
+    "ts": 1786375520,
+    "headline": "Consumers Seek Value, Deal With Stress During Back-to-School Shopping Season",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eb8e1f82c0137a592c86d769942b3f52d3d330b9ee76dcd221f5c3b353be604c"
+    "url": "https://finnhub.io/api/news?id=9e65b10f1c6670229032fd62e401bb3a611414ac16519a96dda23ea762ba7bd1"
    },
    {
-    "ts": 1786364460,
-    "headline": "Amazon Texas gas plant could be biggest U.S. climate polluter",
+    "ts": 1786374789,
+    "headline": "Why The Trade Desk Was Sliding Again Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7778eae485f4e70977852ab7394154b99d4bd90ecf70e6d00cd3ef2abf94aecc"
+    "url": "https://finnhub.io/api/news?id=c491415ddf5dea3053d2eaaa86e38bd6fc9419eda72fa6639b32a2cbbf426ece"
    },
    {
-    "ts": 1786364366,
-    "headline": "Meta shares rise on Muse Glimmer launch and a radical AI vision",
+    "ts": 1786373870,
+    "headline": "Cathie Wood Ignores AI Panic \u2014 Buys More Nvidia, Sells This Gaming Stock Instead",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=237d496bea6bff611d38c5b172c48f1466348288c62b5b6a7583ebe3f0ab6e89"
+    "url": "https://finnhub.io/api/news?id=7b78d70bcf93fa15f30072959d9f7fc9391cad7fa402d88afc830ee2ad22d96f"
    },
    {
-    "ts": 1786364073,
-    "headline": "Amazon Stock Hits a New All-Time High: Is It Still a Buy?",
+    "ts": 1786372376,
+    "headline": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e4fcea5790160e45333e7c53a8ea21946571465a6e71cd68adb7e720c578312e"
+    "url": "https://finnhub.io/api/news?id=038da88ff34b940d25a078c589f616721a3898e7b6fde11612f66bfa7a5ed932"
    },
    {
-    "ts": 1786363189,
-    "headline": "Apple Cut at Jefferies on iPhone Worries as Sell Ratings Pile Up",
+    "ts": 1786370857,
+    "headline": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cd1d4ef57dc1235a6377046c17eadab527861b3f53eb6a05047bf5d22ac5f918"
+    "url": "https://finnhub.io/api/news?id=ae1735d30b923f113572cc8ba3eb77a8cb60a1881146a194470189bfd824737d"
    },
    {
-    "ts": 1786362680,
-    "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+    "ts": 1786370436,
+    "headline": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
+    "url": "https://finnhub.io/api/news?id=25549fb70cdb2d9cded67abe032db6db0620002f22a1cff64120f7895d481ee2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:42Z",
+  "fetched_at": "2026-08-10T16:14:16Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

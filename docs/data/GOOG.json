@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-10T15:27:51Z",
+ "generated_at": "2026-08-10T16:14:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:51Z",
-  "current": 352.65,
-  "change": -0.82,
-  "change_pct": -0.232,
+  "fetched_at": "2026-08-10T16:14:25Z",
+  "current": 353.32,
+  "change": -0.15,
+  "change_pct": -0.0424,
   "high": 355.77,
   "low": 351.47,
   "open": 354.755,
   "prev_close": 353.47,
-  "ts": 1786375658
+  "ts": 1786378439
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:51Z",
+  "fetched_at": "2026-08-10T16:14:26Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T15:27:52Z",
+  "fetched_at": "2026-08-10T16:14:26Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 354.99,
     "high": 355.73,
     "low": 351.5,
-    "close": 352.54,
-    "volume": 872140.0
+    "close": 352.39,
+    "volume": 918740.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:52Z",
+  "fetched_at": "2026-08-10T16:14:26Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T15:27:52Z",
+  "fetched_at": "2026-08-10T16:14:27Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.93354,
+  "forward_pe": 23.960884,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:52Z",
+  "fetched_at": "2026-08-10T16:14:27Z",
   "rows": [
    {
-    "ts": 1786367484,
-    "headline": "Anthropic partners with Macquarie and GIC to build data centers",
+    "ts": 1786377180,
+    "headline": "Berkshire is buying stocks under Greg Abel, but who\u2019s really in charge?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=859a6b11c3d09375ab531aa12aa40057b6d1d075c84980fbd919434a5492a3c3"
+    "url": "https://finnhub.io/api/news?id=b880921bbf48f5b11bdc72ba3a1a97a603ad26bd71474cc95b6cee14613bb227"
    },
    {
-    "ts": 1786367085,
-    "headline": "TSMC Revenue Surges as AI Chip Demand Hold",
+    "ts": 1786376704,
+    "headline": "Analyst Warns Alphabet (GOOG) Faces Two Major AI Problems; SpaceX (SPCX) a Better AI Bet?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=119a903cb9c10c1a7bddf51ab9a115e05fc4f0a5b69628d48f532c5da1edd90c"
+    "url": "https://finnhub.io/api/news?id=b390bec627dae5c24764f028064394fd43002d07ea4f3e7c1da6cff7ee90acf2"
    },
    {
-    "ts": 1786366800,
-    "headline": "PubMatic Appoints Megan Ramm as Global Chief Revenue Officer to Accelerate Growth as AI Transforms Digital Advertising",
+    "ts": 1786374789,
+    "headline": "Why The Trade Desk Was Sliding Again Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8709ea02feaa161410d182c1407d799e44ef6e83fa1c2bb3de9684febae82a96"
+    "url": "https://finnhub.io/api/news?id=c491415ddf5dea3053d2eaaa86e38bd6fc9419eda72fa6639b32a2cbbf426ece"
    },
    {
-    "ts": 1786366549,
-    "headline": "China uses capital markets to fund AI and chip race against U.S.",
+    "ts": 1786373870,
+    "headline": "Cathie Wood Ignores AI Panic \u2014 Buys More Nvidia, Sells This Gaming Stock Instead",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f3e46eec3893ff37f71fd97b87fefec73a88f59361eb49ad374333d6f6870344"
+    "url": "https://finnhub.io/api/news?id=7b78d70bcf93fa15f30072959d9f7fc9391cad7fa402d88afc830ee2ad22d96f"
    },
    {
-    "ts": 1786366527,
-    "headline": "Is Alphabet (GOOGL) Still One of the Best AI Stocks to Own?",
+    "ts": 1786372800,
+    "headline": "Alphabet's Higher AI Spending Could Boost These ETFs",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=40f34552daaf4d8fa6209bab9cbd09a4f722cf2f436f2299515a53765e6a8369"
+    "url": "https://finnhub.io/api/news?id=5b1bf41cefd0322176926e3ba3b4ee928b28ddb1e44421b329ec53cfe5f3bea1"
    },
    {
-    "ts": 1786365903,
-    "headline": "Oracle\u2019s Rebound Is All But Assured So I Keep Buying",
+    "ts": 1786372500,
+    "headline": "Warren Buffett Personally Initiated Berkshire's $30 Billion Alphabet Stake, a Sign He's Still Making Calls Despite Stepping Back as Chairman",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
+    "url": "https://finnhub.io/api/news?id=307e0e30c2c9ff79d9a9127b7933f1ec9d1d3e0678aa388862f5588d2405be0f"
    },
    {
-    "ts": 1786365077,
-    "headline": "Anthropic, Macquarie and GIC Form Venture for AI Data Centers",
+    "ts": 1786372376,
+    "headline": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1d110bedb3d993b1cede23a9f33de46722a36162685da41b8fe5e457368b2f98"
+    "url": "https://finnhub.io/api/news?id=038da88ff34b940d25a078c589f616721a3898e7b6fde11612f66bfa7a5ed932"
    },
    {
-    "ts": 1786364366,
-    "headline": "Meta shares rise on Muse Glimmer launch and a radical AI vision",
+    "ts": 1786371360,
+    "headline": "JPMorgan\u2019s S&P 500 8,000 target: Is the market getting too expensive?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=237d496bea6bff611d38c5b172c48f1466348288c62b5b6a7583ebe3f0ab6e89"
+    "url": "https://finnhub.io/api/news?id=e71e89019656c9534ab9fe9ec55f7db0324cc7fa5450b8b42602e8bead21ecd0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T15:27:53Z",
+  "fetched_at": "2026-08-10T16:14:27Z",
   "error": "no insider filings in six months"
  },
  "peers": {

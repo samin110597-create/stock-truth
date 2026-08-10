@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T15:28:23Z",
+ "generated_at": "2026-08-10T16:14:57Z",
  "tickers": [
   "AMZN",
   "GOOG",
@@ -14,7 +14,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 279.42
+   "price": 279.28
   },
   {
    "symbol": "GOOG",
@@ -23,7 +23,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 352.65
+   "price": 353.32
   },
   {
    "symbol": "NVDA",
@@ -32,7 +32,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 219.18
+   "price": 219.76
   },
   {
    "symbol": "META",
@@ -41,18 +41,18 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 598.48
+   "price": 599.74
   }
  ],
  "market_status": {
   "source": "polygon",
-  "fetched_at": "2026-08-10T15:28:23Z",
+  "fetched_at": "2026-08-10T16:14:57Z",
   "market": "open",
-  "server_time": "2026-08-10T11:28:23-04:00"
+  "server_time": "2026-08-10T12:14:57-04:00"
  },
  "macro": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-10T15:28:24Z",
+  "fetched_at": "2026-08-10T16:14:58Z",
   "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage"
  },
  "sources_configured": {
