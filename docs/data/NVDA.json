@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T18:09:42Z",
+ "generated_at": "2026-08-10T19:26:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:42Z",
-  "current": 218.7,
-  "change": -5.26,
-  "change_pct": -2.3486,
+  "fetched_at": "2026-08-10T19:26:54Z",
+  "current": 219.13,
+  "change": -4.83,
+  "change_pct": -2.1566,
   "high": 224.1379,
   "low": 216.77,
   "open": 224.115,
   "prev_close": 223.96,
-  "ts": 1786385353
+  "ts": 1786390005
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:42Z",
+  "fetched_at": "2026-08-10T19:26:54Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T18:09:42Z",
+  "fetched_at": "2026-08-10T19:26:55Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-10",
     "open": 223.39,
     "high": 224.12,
-    "low": 217.25,
-    "close": 218.67,
-    "volume": 7744859.0
+    "low": 216.775,
+    "close": 219.1,
+    "volume": 8052517.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:42Z",
+  "fetched_at": "2026-08-10T19:26:55Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T18:09:43Z",
+  "fetched_at": "2026-08-10T19:26:55Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.960644,
+  "forward_pe": 17.003296,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:43Z",
+  "fetched_at": "2026-08-10T19:26:55Z",
   "rows": [
    {
-    "ts": 1786380004,
-    "headline": "These dow jones stocks are moving in today's session",
+    "ts": 1786385101,
+    "headline": "Most active S&P500 stocks in Monday's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=215d57159ac550eaecc53a55f0b8bce07ef790c46ea7ddd57f4536b07ae4ddab"
+    "url": "https://finnhub.io/api/news?id=e70d1226589f0903ccae81f7dfc28a84486a4791d7a36b439ddaadc5b167af77"
    },
    {
-    "ts": 1786376615,
-    "headline": "Why CPI Card Group Stock Keeps Going Up",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=07c51ae5bd48f98149a5d88f870b669354788363d62ac09ee484298dab369121"
+    "ts": 1786384800,
+    "headline": "Check out the stocks that are attracting the most attention and driving market activity.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=6c7594f5c417a73d4ed5cef7aec8a6f761c498d618f96ee8fce41eac0911394d"
    },
    {
-    "ts": 1786376396,
-    "headline": "How Monday.com Stock Gained 20.4% In July",
+    "ts": 1786383996,
+    "headline": "Sector Update: Financial Stocks Mixed Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2a493df258ab514225d41399c50a36b8651801fe2182296a3bded686770a9e94"
+    "url": "https://finnhub.io/api/news?id=98ea62e4345e1d03581067048d264b0af25c304dfbe5d2d3194edfcd62321e39"
    },
    {
-    "ts": 1786376053,
-    "headline": "Microsoft's Nvidia Alternative Is Getting Much Bigger",
+    "ts": 1786383742,
+    "headline": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d7235609f83a06ff23cb0f98ffbb59aa104566916b7ab03f58ea08b084bb2ae3"
+    "url": "https://finnhub.io/api/news?id=1e50c6e6eb0ccc9e554104ef1a83c0cc7ef86ec9222d8ca6486b5fb8f0f8a5c2"
    },
    {
-    "ts": 1786375999,
-    "headline": "Samsung Just Raised Pressure on Micron",
+    "ts": 1786383114,
+    "headline": "Sector Update: Tech Stocks Decline Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ef190ca7f60d758af78b22207911bc79e45caf6a22776940763f92636c476eee"
+    "url": "https://finnhub.io/api/news?id=94f80c0bfac132841c8a93b2054dee2c11d9ed9c5211a57c1207a09b66cda794"
    },
    {
-    "ts": 1786375831,
-    "headline": "Scott Bessent Calls the Strait of Hormuz \u201cIrrelevant.\u201d Chevron Shows Exactly How It Happens",
+    "ts": 1786383085,
+    "headline": "CAVA Group's Next Earnings Report on Aug. 11 Could Send the Stock Soaring. Here's Why.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=62eefde540a6915d193813a1c74d96186fd3b29c0370181648de3de0e1c37913"
+    "url": "https://finnhub.io/api/news?id=267344edadd670fe13fa5ba28b3b732a7d6e6773fa4b739aa68dde747b4818d5"
    },
    {
-    "ts": 1786375822,
-    "headline": "The Mag 7 Face-Off: Only 2 Come Out on Top",
+    "ts": 1786383001,
+    "headline": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2156926b0d02c5ce61f4ef09b20a9e7ee19a6269de16399bb6acee8a6997b3d9"
+    "url": "https://finnhub.io/api/news?id=4eb7d4a9b29fb0c719c0acfdc515c275c3c0534cfdbef2854b18325b3607d1c5"
    },
    {
-    "ts": 1786375653,
-    "headline": "Universal Corp (UVV) Stock Is Falling Today: What\u2019s Behind the Drop, and Are Other Tobacco Stocks Plummeting Today?",
+    "ts": 1786383000,
+    "headline": "Archer Aviation Is Under Pressure: Here Is What Investors Should Consider Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7fe2fcf905d77c13b7e544dbd42187b19a69115fb9302dcef85e75719ba468d5"
+    "url": "https://finnhub.io/api/news?id=a4905af965d67547315d44a1d3c4cc070823648b3aa7c7efd9de6f1392fdfc63"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:43Z",
+  "fetched_at": "2026-08-10T19:26:55Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

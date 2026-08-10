@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-10T18:09:31Z",
+ "generated_at": "2026-08-10T19:26:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:31Z",
-  "current": 352.77,
-  "change": -0.7,
-  "change_pct": -0.198,
+  "fetched_at": "2026-08-10T19:26:44Z",
+  "current": 353.89,
+  "change": 0.42,
+  "change_pct": 0.1188,
   "high": 355.77,
   "low": 351.47,
   "open": 354.755,
   "prev_close": 353.47,
-  "ts": 1786385353
+  "ts": 1786389981
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:31Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T18:09:32Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 354.99,
     "high": 355.73,
     "low": 351.5,
-    "close": 352.66,
-    "volume": 957384.0
+    "close": 353.85,
+    "volume": 988268.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:32Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T18:09:32Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.93883,
+  "forward_pe": 24.012465,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:32Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "rows": [
    {
-    "ts": 1786377180,
-    "headline": "Berkshire is buying stocks under Greg Abel, but who\u2019s really in charge?",
+    "ts": 1786383114,
+    "headline": "Sector Update: Tech Stocks Decline Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b880921bbf48f5b11bdc72ba3a1a97a603ad26bd71474cc95b6cee14613bb227"
+    "url": "https://finnhub.io/api/news?id=94f80c0bfac132841c8a93b2054dee2c11d9ed9c5211a57c1207a09b66cda794"
    },
    {
-    "ts": 1786376704,
-    "headline": "Analyst Warns Alphabet (GOOG) Faces Two Major AI Problems; SpaceX (SPCX) a Better AI Bet?",
+    "ts": 1786381048,
+    "headline": "Intel Plans $15 Billion Stock Offering as AI Demand Requires Higher Capital Spending",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b390bec627dae5c24764f028064394fd43002d07ea4f3e7c1da6cff7ee90acf2"
+    "url": "https://finnhub.io/api/news?id=663cb01e575e69a4fef90fad0b1c6c07b61764e2f7e1e26f97ddd24154c6a9fb"
    },
    {
-    "ts": 1786374789,
-    "headline": "Why The Trade Desk Was Sliding Again Today",
+    "ts": 1786380913,
+    "headline": "Nvidia Poised for Second-Quarter Sales Beat, Upbeat Guidance, BofA Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c491415ddf5dea3053d2eaaa86e38bd6fc9419eda72fa6639b32a2cbbf426ece"
+    "url": "https://finnhub.io/api/news?id=d54c522773cdea2e5462eb15eafeecc8ff81fb937fe9cb17d5ad706a5247c761"
    },
    {
-    "ts": 1786373870,
-    "headline": "Cathie Wood Ignores AI Panic \u2014 Buys More Nvidia, Sells This Gaming Stock Instead",
+    "ts": 1786379744,
+    "headline": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7b78d70bcf93fa15f30072959d9f7fc9391cad7fa402d88afc830ee2ad22d96f"
+    "url": "https://finnhub.io/api/news?id=a2b524fcd3e744651892eb540606a53fdb958eaa3d4a35fb9bda1292c1043b36"
    },
    {
-    "ts": 1786372800,
-    "headline": "Alphabet's Higher AI Spending Could Boost These ETFs",
+    "ts": 1786379411,
+    "headline": "The Options Market Says Adobe Stock Can Fall Over A Third Or Rise More Than Half",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5b1bf41cefd0322176926e3ba3b4ee928b28ddb1e44421b329ec53cfe5f3bea1"
+    "url": "https://finnhub.io/api/news?id=b2ce8bd2c5ab7b00d0ac1472c0f830d8e91bca9c9872ba99a9dd59100ddc67c8"
    },
    {
-    "ts": 1786372500,
-    "headline": "Warren Buffett Personally Initiated Berkshire's $30 Billion Alphabet Stake, a Sign He's Still Making Calls Despite Stepping Back as Chairman",
+    "ts": 1786378730,
+    "headline": "Intel Stock Drops After $15 Billion Share Sale. Is AI Spending Getting Too Expensive?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=307e0e30c2c9ff79d9a9127b7933f1ec9d1d3e0678aa388862f5588d2405be0f"
+    "url": "https://finnhub.io/api/news?id=89c6938b091b924d706865aa66a1242d70e62a545852667ad6e5be4016763e0e"
    },
    {
-    "ts": 1786372376,
-    "headline": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
+    "ts": 1786378560,
+    "headline": "Taalas Buyout Boosts AMD's AI Inference Abilities Against NVDA & GOOGL",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=038da88ff34b940d25a078c589f616721a3898e7b6fde11612f66bfa7a5ed932"
+    "url": "https://finnhub.io/api/news?id=93c38cc8fd76eff5aa2b540a68c16eb322ad3d1f690000661d232676713e5c49"
    },
    {
-    "ts": 1786371360,
-    "headline": "JPMorgan\u2019s S&P 500 8,000 target: Is the market getting too expensive?",
+    "ts": 1786378421,
+    "headline": "US court rules Meta, other tech companies must face thousands of lawsuits over social media addiction",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e71e89019656c9534ab9fe9ec55f7db0324cc7fa5450b8b42602e8bead21ecd0"
+    "url": "https://finnhub.io/api/news?id=5b6a4b6e1a1067d814bae9c63f22da8a3300e2f4ecb49308e0cc083c9ca97e27"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:33Z",
+  "fetched_at": "2026-08-10T19:26:45Z",
   "error": "no insider filings in six months"
  },
  "peers": {

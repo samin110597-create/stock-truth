@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-10T18:09:52Z",
+ "generated_at": "2026-08-10T19:27:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:52Z",
-  "current": 593.3,
-  "change": 1.2,
-  "change_pct": 0.2027,
+  "fetched_at": "2026-08-10T19:27:04Z",
+  "current": 592.92,
+  "change": 0.82,
+  "change_pct": 0.1385,
   "high": 608.21,
   "low": 592.33,
   "open": 596.205,
   "prev_close": 592.1,
-  "ts": 1786385376
+  "ts": 1786390005
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:52Z",
+  "fetched_at": "2026-08-10T19:27:04Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T18:09:53Z",
+  "fetched_at": "2026-08-10T19:27:05Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-10",
     "open": 599.13,
     "high": 608.16,
-    "low": 592.55,
-    "close": 593.485,
-    "volume": 941699.0
+    "low": 592.39,
+    "close": 592.98,
+    "volume": 921476.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:53Z",
+  "fetched_at": "2026-08-10T19:27:05Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T18:09:53Z",
+  "fetched_at": "2026-08-10T19:27:05Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.894518,
+  "forward_pe": 16.868952,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:53Z",
+  "fetched_at": "2026-08-10T19:27:05Z",
   "rows": [
+   {
+    "ts": 1786383114,
+    "headline": "Sector Update: Tech Stocks Decline Monday Afternoon",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=94f80c0bfac132841c8a93b2054dee2c11d9ed9c5211a57c1207a09b66cda794"
+   },
+   {
+    "ts": 1786381021,
+    "headline": "Meta CEO Mark Zuckerberg Just Published a 6,500 Word Essay Taking Direct Aim at OpenAI and Anthropic",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=96a9745fe58106a846e0bddacad758a7b37e98b112a446055ae116c24a804230"
+   },
+   {
+    "ts": 1786379744,
+    "headline": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a2b524fcd3e744651892eb540606a53fdb958eaa3d4a35fb9bda1292c1043b36"
+   },
+   {
+    "ts": 1786378421,
+    "headline": "US court rules Meta, other tech companies must face thousands of lawsuits over social media addiction",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5b6a4b6e1a1067d814bae9c63f22da8a3300e2f4ecb49308e0cc083c9ca97e27"
+   },
+   {
+    "ts": 1786377969,
+    "headline": "Meta (META) Unveils Muse Glimmer as Open-Source AI Spending Debate Intensifies",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f57c5bc2f989beea953ffba5a269c0e38da1b82aeeea4a3e3d82e6fae35a1b93"
+   },
+   {
+    "ts": 1786377300,
+    "headline": "Meta CEO Mark Zuckerberg outlines AI vision",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=efb2a49a213ea4468e640f4083f6aa302c2cf505bf05613a20d208307d626c43"
+   },
    {
     "ts": 1786376241,
     "headline": "Meta's Latest AI Move Turns Heads",
@@ -7485,49 +7521,13 @@
     "headline": "Jeff Bezos Nears Major Liverpool Move",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=e9bd36adaf492d382d06f8039305eaf89451581dc2d9bde91655ba8f405fd68a"
-   },
-   {
-    "ts": 1786375822,
-    "headline": "The Mag 7 Face-Off: Only 2 Come Out on Top",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2156926b0d02c5ce61f4ef09b20a9e7ee19a6269de16399bb6acee8a6997b3d9"
-   },
-   {
-    "ts": 1786375365,
-    "headline": "Meta's Zuckerberg reveals AI plans in lengthy manifesto, derides rivals for concentrating power",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=78a402b837b7ccd836158e5b5fd1ec1d54d9ce48bd37ae8147db929fb26ffee0"
-   },
-   {
-    "ts": 1786373870,
-    "headline": "Cathie Wood Ignores AI Panic \u2014 Buys More Nvidia, Sells This Gaming Stock Instead",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7b78d70bcf93fa15f30072959d9f7fc9391cad7fa402d88afc830ee2ad22d96f"
-   },
-   {
-    "ts": 1786372440,
-    "headline": "Memory chip crunch could last 2 more years, JPMorgan says",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=60e80a3422931a02e8b8c642a968d5f4571becd13efae605837f153f31993d8b"
-   },
-   {
-    "ts": 1786371626,
-    "headline": "Why Meta shareholders should be 'alarmed' right now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c085d84b94a20734f09d02b8a10976db96f67fa108bfc33ff1b4a8d91c2c699"
-   },
-   {
-    "ts": 1786370857,
-    "headline": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae1735d30b923f113572cc8ba3eb77a8cb60a1881146a194470189bfd824737d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:54Z",
+  "fetched_at": "2026-08-10T19:27:05Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,

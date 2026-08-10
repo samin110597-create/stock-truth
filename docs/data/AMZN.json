@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T18:09:19Z",
+ "generated_at": "2026-08-10T19:26:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:20Z",
-  "current": 276.67,
-  "change": 2.19,
-  "change_pct": 0.7979,
+  "fetched_at": "2026-08-10T19:26:34Z",
+  "current": 277.03,
+  "change": 2.55,
+  "change_pct": 0.929,
   "high": 280.14,
   "low": 273.6001,
   "open": 274.25,
   "prev_close": 274.48,
-  "ts": 1786385327
+  "ts": 1786389980
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:20Z",
+  "fetched_at": "2026-08-10T19:26:34Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T18:09:20Z",
+  "fetched_at": "2026-08-10T19:26:35Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-10",
     "open": 274.18,
-    "high": 279.91,
+    "high": 280.14,
     "low": 273.655,
-    "close": 276.7,
-    "volume": 2400426.0
+    "close": 277.02,
+    "volume": 2312283.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:20Z",
+  "fetched_at": "2026-08-10T19:26:35Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T18:09:21Z",
+  "fetched_at": "2026-08-10T19:26:35Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.79531,
+  "forward_pe": 26.812733,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,8 +7463,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:21Z",
+  "fetched_at": "2026-08-10T19:26:35Z",
   "rows": [
+   {
+    "ts": 1786382400,
+    "headline": "Amazon Just Joined the $3 Trillion Club. Here's Why It Could Reach $5 Trillion by 2029.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=47a4ad74211b65b0632e9a0352bdba6484a15d99354719129ba9b817b3f80c96"
+   },
+   {
+    "ts": 1786381048,
+    "headline": "Intel Plans $15 Billion Stock Offering as AI Demand Requires Higher Capital Spending",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=663cb01e575e69a4fef90fad0b1c6c07b61764e2f7e1e26f97ddd24154c6a9fb"
+   },
+   {
+    "ts": 1786380966,
+    "headline": "Elon Musk Joked About Buying Manchester United \u2014 Now Jeff Bezos Is Buying Into Its Biggest Rival",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=02aac9c041959e06b762a0f5c2a502bbb3261bb001b5a95a0ecb488acdb38821"
+   },
+   {
+    "ts": 1786380913,
+    "headline": "Nvidia Poised for Second-Quarter Sales Beat, Upbeat Guidance, BofA Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d54c522773cdea2e5462eb15eafeecc8ff81fb937fe9cb17d5ad706a5247c761"
+   },
    {
     "ts": 1786380004,
     "headline": "These dow jones stocks are moving in today's session",
@@ -7472,53 +7496,29 @@
     "url": "https://finnhub.io/api/news?id=215d57159ac550eaecc53a55f0b8bce07ef790c46ea7ddd57f4536b07ae4ddab"
    },
    {
-    "ts": 1786376314,
-    "headline": "European Stocks Close Mixed in Monday Trading as Investors Monitor Middle East War Developments",
+    "ts": 1786379744,
+    "headline": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=586b57921d5f947943397457a97f46eea8f50555302b3e52e72c807bb7350b2c"
+    "url": "https://finnhub.io/api/news?id=a2b524fcd3e744651892eb540606a53fdb958eaa3d4a35fb9bda1292c1043b36"
    },
    {
-    "ts": 1786376179,
-    "headline": "Jeff Bezos Nears Major Liverpool Move",
+    "ts": 1786377860,
+    "headline": "Embraer-Empresa Brasileira de Aeronautica Q2 Earnings Call Highlights",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e9bd36adaf492d382d06f8039305eaf89451581dc2d9bde91655ba8f405fd68a"
+    "url": "https://finnhub.io/api/news?id=b9808450033cf5f842a312172bdd4dfad9a6108a842cb91a2fb919c33ae85ebd"
    },
    {
-    "ts": 1786375520,
-    "headline": "Consumers Seek Value, Deal With Stress During Back-to-School Shopping Season",
+    "ts": 1786377618,
+    "headline": "Amazon, IBD Stock Of The Day, Rides Cloud Momentum To $3 Trillion Milestone",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9e65b10f1c6670229032fd62e401bb3a611414ac16519a96dda23ea762ba7bd1"
-   },
-   {
-    "ts": 1786374789,
-    "headline": "Why The Trade Desk Was Sliding Again Today",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c491415ddf5dea3053d2eaaa86e38bd6fc9419eda72fa6639b32a2cbbf426ece"
-   },
-   {
-    "ts": 1786373870,
-    "headline": "Cathie Wood Ignores AI Panic \u2014 Buys More Nvidia, Sells This Gaming Stock Instead",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7b78d70bcf93fa15f30072959d9f7fc9391cad7fa402d88afc830ee2ad22d96f"
-   },
-   {
-    "ts": 1786372376,
-    "headline": "Why Google and Amazon rank top among Cloud hyperscalers for AI",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=038da88ff34b940d25a078c589f616721a3898e7b6fde11612f66bfa7a5ed932"
-   },
-   {
-    "ts": 1786370857,
-    "headline": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae1735d30b923f113572cc8ba3eb77a8cb60a1881146a194470189bfd824737d"
+    "url": "https://finnhub.io/api/news?id=e35b82efe188059f4ae492fd34f70dc353d42aec8fc744a2a09bef8264f087b0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T18:09:22Z",
+  "fetched_at": "2026-08-10T19:26:35Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
