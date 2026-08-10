@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-07T21:05:29Z",
+ "generated_at": "2026-08-10T14:09:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:29Z",
-  "current": 353.47,
-  "change": -3.15,
-  "change_pct": -0.8833,
-  "high": 357.55,
-  "low": 352.82,
-  "open": 355.28,
-  "prev_close": 356.62,
-  "ts": 1786132800
+  "fetched_at": "2026-08-10T14:09:30Z",
+  "current": 353.11,
+  "change": -0.36,
+  "change_pct": -0.1018,
+  "high": 355.77,
+  "low": 351.47,
+  "open": 354.755,
+  "prev_close": 353.47,
+  "ts": 1786370943
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:30Z",
+  "fetched_at": "2026-08-10T14:09:30Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4375282500000.0,
+  "mcap": 4333089000000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T21:05:30Z",
+  "fetched_at": "2026-08-10T14:09:31Z",
   "bars": [
-   {
-    "date": "2023-01-05",
-    "open": 88.07,
-    "high": 88.21,
-    "low": 86.56,
-    "close": 86.77,
-    "volume": 23136100.0
-   },
    {
     "date": "2023-01-06",
     "open": 87.36,
@@ -7218,19 +7210,27 @@
     "high": 361.95999,
     "low": 355.82999,
     "close": 356.62,
-    "volume": 16219703.0
+    "volume": 16513400.0
    },
    {
     "date": "2026-08-07",
-    "open": 355.195,
-    "high": 357.455,
-    "low": 352.86,
-    "close": 353.42,
-    "volume": 2106600.0
+    "open": 355.28,
+    "high": 357.54999,
+    "low": 352.82001,
+    "close": 353.47,
+    "volume": 14480400.0
+   },
+   {
+    "date": "2026-08-10",
+    "open": 354.99,
+    "high": 355.73,
+    "low": 351.5,
+    "close": 352.13,
+    "volume": 372620.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-07",
+  "latest": "2026-08-10",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:03:50Z",
+  "fetched_at": "2026-08-10T14:09:32Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4390546571264.0,
+  "mcap": 4319246286848.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.92,
+  "eps_ttm": 19.94,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 18.022089,
-  "forward_pe": 24.364702,
-  "pb": 7.0535994,
-  "ps": 9.847234,
-  "peg": 1.0172,
-  "ev_ebitda": 24.836,
+  "pe": 17.711636,
+  "forward_pe": 23.96903,
+  "pb": 6.9390526,
+  "ps": 9.68732,
+  "peg": 0.9579,
+  "ev_ebitda": 24.366,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:30Z",
+  "fetched_at": "2026-08-10T14:09:32Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T21:05:31Z",
+  "fetched_at": "2026-08-10T14:09:32Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.989391,
+  "forward_pe": 23.96903,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
   "short_asof": 1784073600,
-  "institutions_pct": 0.60343,
+  "institutions_pct": 0.60645,
   "insiders_pct": 0.06598,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:31Z",
+  "fetched_at": "2026-08-10T14:09:32Z",
   "rows": [
    {
-    "ts": 1786131340,
-    "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+    "ts": 1786362680,
+    "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d"
+    "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
    },
    {
-    "ts": 1786127594,
-    "headline": "Jim Cramer Reveals How Alphabet Inc (NASDAQ:GOOGL) Can Reverse Recent Weakness",
+    "ts": 1786354381,
+    "headline": "These 40-something founders say they have something the AI kids don't",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c1f1e83c52fe4185959089c65c45865e9ab18a9f0d62ce6eb6de20abc7ff77e3"
+    "url": "https://finnhub.io/api/news?id=9abc740031b336d05461d7588de9bc72856634edbcb966928b62bda8adc6b04f"
    },
    {
-    "ts": 1786126311,
-    "headline": "Alphabet (GOOGL) Lines Up $25 Billion Bond Offering For AI Expansion",
+    "ts": 1786354100,
+    "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8f16e943b11995110e06086b5426dc888af777a8abe47588e791db0ca417056b"
+    "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
    },
    {
-    "ts": 1786124501,
-    "headline": "Whatnot raises $545M Series G at $20 billion valuation",
+    "ts": 1786351800,
+    "headline": "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c9c0d47c4670097c56464e13109efeb20fbdbee25b50923186953b81be78b284"
+    "url": "https://finnhub.io/api/news?id=f57ea8afd003855794d9688fc464e2bfb653eef4e346159a988aeb19b0ed7213"
    },
    {
-    "ts": 1786123324,
-    "headline": "Greg Abel concentrates 63% of Berkshire's $355B portfolio in 5 stocks",
+    "ts": 1786351788,
+    "headline": "Why Is TSM Stock Rising Premarket?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad587f616e3440cc360f0ff35dfea0b6b74fe3d149384b71c46c2afc9e0ca425"
+    "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
    },
    {
-    "ts": 1786122049,
-    "headline": "Alphabet\u2019s Cloud vs Meta\u2019s Superintelligence: Who Wins Q2?",
+    "ts": 1786349520,
+    "headline": "Mobile Wallet Market Report, Till 2035 Now Available \u2014 Forecasts Growth from $15.65B to $177.31B, Profiles Apple, Google, PayPal, and 15 Other Key Players",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4ba5304c5624927085ae5daf141a012ca78fba3ef410f8caa1526f80f42a30bd"
+    "url": "https://finnhub.io/api/news?id=71720474347ac40dd302e32b4cd18c4bcfa9afbcf82b9f424e25cebf77a38af0"
    },
    {
-    "ts": 1786121929,
-    "headline": "Lyft Q2 Rides, Gross Bookings Growth Support Higher Estimates, RBC Says",
+    "ts": 1786340151,
+    "headline": "Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2790d6a94055343648890b542acffbd953045d6d64894eb7eb0028733acf359e"
+    "url": "https://finnhub.io/api/news?id=d298a5220b40641c678eff9604c5eb557105f440d0bcf084ce2449bc3259ba43"
    },
    {
-    "ts": 1786120712,
-    "headline": "Microsoft Is Winning the AI Cash Flow Test",
+    "ts": 1786337919,
+    "headline": "Apple\u2019s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae0b99b8ef1003cc825dd5163f680bc35b431691d87680d182d39a88390e3d3a"
+    "url": "https://finnhub.io/api/news?id=16ce403bfb8fa073cbd36a8de2c0f9f2c315ecb480a9cc53c26f553fc546a37c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:31Z",
+  "fetched_at": "2026-08-10T14:09:32Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-07T21:05:40Z",
+ "generated_at": "2026-08-10T14:09:41Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:40Z",
-  "current": 223.96,
-  "change": 4.97,
-  "change_pct": 2.2695,
-  "high": 224.76,
-  "low": 220.66,
-  "open": 221.54,
-  "prev_close": 218.99,
-  "ts": 1786132800
+  "fetched_at": "2026-08-10T14:09:42Z",
+  "current": 221.82,
+  "change": -2.14,
+  "change_pct": -0.9555,
+  "high": 224.1379,
+  "low": 221.45,
+  "open": 224.115,
+  "prev_close": 223.96,
+  "ts": 1786370966
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:40Z",
+  "fetched_at": "2026-08-10T14:09:42Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5299558029510.006,
+  "mcap": 5419832135951.973,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T21:05:41Z",
+  "fetched_at": "2026-08-10T14:09:43Z",
   "bars": [
-   {
-    "date": "2023-01-05",
-    "open": 14.491,
-    "high": 14.564,
-    "low": 14.148,
-    "close": 14.265,
-    "volume": 389168000.0
-   },
    {
     "date": "2023-01-06",
     "open": 14.474,
@@ -7215,22 +7207,30 @@
    {
     "date": "2026-08-06",
     "open": 221.53,
-    "high": 223.6275,
-    "low": 217.27,
+    "high": 223.63,
+    "low": 217.0,
     "close": 218.99001,
-    "volume": 113051990.0
+    "volume": 113940600.0
    },
    {
     "date": "2026-08-07",
-    "open": 221.575,
-    "high": 224.76,
-    "low": 220.69,
-    "close": 223.89,
-    "volume": 18074203.0
+    "open": 221.53999,
+    "high": 224.75999,
+    "low": 220.66,
+    "close": 223.96001,
+    "volume": 105473700.0
+   },
+   {
+    "date": "2026-08-10",
+    "open": 223.39,
+    "high": 224.12,
+    "low": 221.45,
+    "close": 221.77,
+    "volume": 2337632.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-07",
+  "latest": "2026-08-10",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:04:04Z",
+  "fetched_at": "2026-08-10T14:09:43Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5278966743040.0,
+  "mcap": 5374152802304.0,
   "shares": 24221000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 6.53,
+  "eps_ttm": 6.54,
   "bvps": 6.49407538912514,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 33.37672,
-  "forward_pe": 16.907892,
-  "pb": 27.007435,
-  "ps": 20.825066,
-  "peg": 0.5529,
-  "ev_ebitda": 31.809,
+  "pe": 33.92659,
+  "forward_pe": 17.21276,
+  "pb": 27.494411,
+  "ps": 21.200565,
+  "peg": 0.6168,
+  "ev_ebitda": 32.502,
   "payout": 0.0061000003,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:41Z",
+  "fetched_at": "2026-08-10T14:09:44Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T21:05:41Z",
+  "fetched_at": "2026-08-10T14:09:44Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.37413,
+  "forward_pe": 17.21276,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
   "short_asof": 1784073600,
-  "institutions_pct": 0.70478994,
+  "institutions_pct": 0.65789,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:41Z",
+  "fetched_at": "2026-08-10T14:09:44Z",
   "rows": [
    {
-    "ts": 1786132167,
-    "headline": "Nvidia Faces New Pressure From U.S. Government",
+    "ts": 1786361100,
+    "headline": "Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a8dd001fa7bb111253999c4c6ae39e618ce9d380cb4757de2e33efedfc865dbd"
+    "url": "https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7"
    },
    {
-    "ts": 1786132080,
-    "headline": "Pfizer's Next Weight-Loss Weapon: How Berobenatide Stacks Up Against Novo Nordisk's Wegovy and Eli Lilly's Zepbound",
+    "ts": 1786360800,
+    "headline": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=95eb0a6e7ed26b9db1538aa2bc11fd40ec517b5700ac99dccdad84c6f0f2e0c1"
+    "url": "https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3"
    },
    {
-    "ts": 1786132058,
-    "headline": "Michael Burry Sounds Alarm on Major AI Stocks",
+    "ts": 1786360200,
+    "headline": "Does Jamie Dimon Know Something That Wall Street Doesn't? He Just Sent the Market a Clear Warning Shot.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d04af52a3bc24c58728b3319f664d3fea346fd5f124519418e432fc3ebe9ebf8"
+    "url": "https://finnhub.io/api/news?id=a1e0875ca7bcb0cb4ea79193e84a22a20528ac46c273260a9fa2d715171bb4d5"
    },
    {
-    "ts": 1786131760,
-    "headline": "Why Rocket Lab Stock Took Flight on Friday",
+    "ts": 1786359958,
+    "headline": "Wall Street Says Hold but Hedge Funds Are Circling NSC\u2019s $85 Billion Merger",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ce56f659586a82d67e427dd676ca63a202afcf134cb9bcb943ee308f81dfb0e8"
+    "url": "https://finnhub.io/api/news?id=bcf17f56f2c8a13f018fcd7d08c9c5f7f0f91f5781d9baca328803bead2f954e"
    },
    {
-    "ts": 1786131601,
-    "headline": "U.S. Economy Unexpectedly Lost 23,000 Jobs in July, Signaling a Weakening Labor Market",
+    "ts": 1786359057,
+    "headline": "25-Year-Old Lost $35 Billion of His Investors\u2019 Money. 2 Weeks Later, Silicon Valley Insiders Are Lining Up to Give Him More Cash.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=462380997e2673ebc08bef958c0dfa5cbedf3568ed4d705c7bcfe2799cd667cf"
+    "url": "https://finnhub.io/api/news?id=04aacb14bde83c30a9d3ece918993f9307462fde0d75dcd15698b302df0919ef"
    },
    {
-    "ts": 1786130700,
-    "headline": "3 High-Yield Dividend Stocks Worth Buying Now",
+    "ts": 1786359000,
+    "headline": "1 Reason Lowe's May Be a Smarter Buy Than Home Depot Before Aug. 19",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=599bedfd59c36de3a7070d932a4f7ea18acf40ec6930ac0f2e4c9243051778f6"
+    "url": "https://finnhub.io/api/news?id=feade174a5a6c2a6ab28e342518364cd5fc09de70a00afbb7e8e244e08c6e002"
    },
    {
-    "ts": 1786130511,
-    "headline": "Nvidia Stock Rises 2.2% as SpaceX Commits to Its Chips",
+    "ts": 1786358520,
+    "headline": "3 Stocks to Buy and Hold Even If There's a Stock Market Sell-Off in August",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e1e9714ff169664d3fbe8c4fa5dfddb6309ce3115f715f86cb177d165422b081"
+    "url": "https://finnhub.io/api/news?id=613f8b7f7c757e5ae9b1e4e356667de4b042e605b5c98a90741f5a1b82aef7e5"
    },
    {
-    "ts": 1786129993,
-    "headline": "MARA Holdings Falls 7%, Cipher Mining Drops 6%, TeraWulf Slides 4% as Q2 Losses Outweigh Bitcoin\u2019s $65K Push",
+    "ts": 1786358100,
+    "headline": "The Part of the AI Power Story Everyone's Ignoring -- and the Stock Cashing in on It",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9a53bc85fcc9cd8d873b33ef2ca33a68c344081d39f8ae8e636bf52edfae97f0"
+    "url": "https://finnhub.io/api/news?id=ea8d1d58084a4ea10a2567ff56bafd439d7c86709f42323d904a4261315b0766"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:42Z",
+  "fetched_at": "2026-08-10T14:09:44Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-07T21:05:18Z",
+ "generated_at": "2026-08-10T14:09:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:18Z",
-  "current": 274.48,
-  "change": 2.22,
-  "change_pct": 0.8154,
-  "high": 278.31,
-  "low": 272.75,
-  "open": 272.87,
-  "prev_close": 272.26,
-  "ts": 1786132800
+  "fetched_at": "2026-08-10T14:09:15Z",
+  "current": 275.54,
+  "change": 1.06,
+  "change_pct": 0.3862,
+  "high": 276.81,
+  "low": 273.6001,
+  "open": 274.25,
+  "prev_close": 274.48,
+  "ts": 1786370918
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:18Z",
+  "fetched_at": "2026-08-10T14:09:15Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2936681907267.451,
+  "mcap": 2960627697287.8374,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T21:05:19Z",
+  "fetched_at": "2026-08-10T14:09:19Z",
   "bars": [
-   {
-    "date": "2023-01-05",
-    "open": 85.33,
-    "high": 85.42,
-    "low": 83.07,
-    "close": 83.12,
-    "volume": 67930800.0
-   },
    {
     "date": "2023-01-06",
     "open": 83.029999,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-06",
-    "open": 272.76501,
+    "open": 272.76999,
     "high": 275.48001,
-    "low": 271.084503,
+    "low": 271.059998,
     "close": 272.26001,
-    "volume": 27906615.0
+    "volume": 30672900.0
    },
    {
     "date": "2026-08-07",
-    "open": 272.75,
+    "open": 272.87,
     "high": 278.31,
     "low": 272.75,
-    "close": 274.44,
-    "volume": 6034297.0
+    "close": 274.48001,
+    "volume": 33833300.0
+   },
+   {
+    "date": "2026-08-10",
+    "open": 274.18,
+    "high": 276.74,
+    "low": 273.655,
+    "close": 275.86,
+    "volume": 772912.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-07",
+  "latest": "2026-08-10",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:03:39Z",
+  "fetched_at": "2026-08-10T14:09:20Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2952753315840.0,
+  "mcap": 2975174754304.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.44,
+  "eps_ttm": 12.43,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 22.005629,
-  "forward_pe": 26.503178,
-  "pb": 5.351279,
-  "ps": 3.806664,
-  "peg": 1.8867,
-  "ev_ebitda": 18.172,
+  "pe": 22.190563,
+  "forward_pe": 26.70032,
+  "pb": 5.3919134,
+  "ps": 3.8355696,
+  "peg": 1.4612,
+  "ev_ebitda": 18.289,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:19Z",
+  "fetched_at": "2026-08-10T14:09:20Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T21:05:20Z",
-  "analyst_target_mean": 325.81232,
+  "fetched_at": "2026-08-10T14:09:20Z",
+  "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
-  "analyst_count": 60.0,
+  "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.569765,
+  "forward_pe": 26.70032,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
   "short_asof": 1784073600,
-  "institutions_pct": 0.67626,
+  "institutions_pct": 0.68084,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:20Z",
+  "fetched_at": "2026-08-10T14:09:20Z",
   "rows": [
    {
-    "ts": 1786129132,
-    "headline": "Trade Desk's Downbeat Guidance Indicates Macro, Structural Issues, Wedbush Says",
+    "ts": 1786362680,
+    "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=81d5c259f7f8b00c343b2490a3f5740583512833338b960504acfc44001f48ea"
+    "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
    },
    {
-    "ts": 1786128600,
-    "headline": "\u2018Your refund: $0\u2019: Companies claim billions in tariff refunds, months after Trump floated $2,000 checks",
+    "ts": 1786360678,
+    "headline": "US Treasury, IRS set out initial framework for Saver\u2019s Match rollout",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b9e0d0522cd492921f47b9424e5ec45c72a30455df7feadfc95d99831fa41e97"
+    "url": "https://finnhub.io/api/news?id=f33118d510c11f497d05d3f2856cb01530507dc82913cd7df77d8b67d31eac11"
    },
    {
-    "ts": 1786127594,
-    "headline": "Jim Cramer Reveals How Alphabet Inc (NASDAQ:GOOGL) Can Reverse Recent Weakness",
+    "ts": 1786358613,
+    "headline": "Amazon\u2019s New Texas Data Center On Track To Be Biggest Polluter In America",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c1f1e83c52fe4185959089c65c45865e9ab18a9f0d62ce6eb6de20abc7ff77e3"
+    "url": "https://finnhub.io/api/news?id=4c3e890032cab9642f29bd0f7a19cfd78b85a93e38b31a38242196e6b62281ac"
    },
    {
-    "ts": 1786125633,
-    "headline": "Amazon vs MercadoLibre: Two E-Commerce Titans, Only One is The Smarter Buy Now",
+    "ts": 1786356000,
+    "headline": "MONDAY: O'BRIEN, ZUCKERMAN, AMAZON TEAMSTERS RALLY FOR DELIVERY PROTECTION ACT",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=930d3845552a8237a39e2137001b50aa4f60211ad8e5481657650372ab423f78"
+    "url": "https://finnhub.io/api/news?id=3ff6de9d2f0842ddd76c70ae2e29c37ba06c5270fdacfe849c24d89e0653d7a5"
    },
    {
-    "ts": 1786123824,
-    "headline": "Elon Musk Has a Message for Jeff Bezos' Blue Origin After It Solved the New Glenn Mystery\u2014 'Hope You...'",
+    "ts": 1786356000,
+    "headline": "Airbnb CEO: Why AI is the best thing to happen to us",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=21473c8117dc411f18b6d6caf548a149f11730784ae31cd1f876fbf5e179d06c"
+    "url": "https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea"
    },
    {
-    "ts": 1786123560,
-    "headline": "AI Boom: Top Stocks to Consider for Your Portfolio",
+    "ts": 1786354100,
+    "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df"
+    "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
    },
    {
-    "ts": 1786120980,
-    "headline": "This AI Stock Is Surging. Can It Shake the \u2018Meme Stock\u2019 Label?",
+    "ts": 1786351788,
+    "headline": "Why Is TSM Stock Rising Premarket?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6d940044b03631c8863a412c808f0033a63813cedbde67cf5f31e4aa9ddf3c30"
+    "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
    },
    {
-    "ts": 1786120804,
-    "headline": "Exploring the top movers within the dow jones index during today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a"
+    "ts": 1786341900,
+    "headline": "S&P 500 EPS / Revenue Growth, And Amazon Earnings",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ff9824b98e93926be236b9e7ccf0de379a4897178560f20f0f910b32ff5479ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:20Z",
+  "fetched_at": "2026-08-10T14:09:21Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

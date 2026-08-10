@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-07T21:05:51Z",
+ "generated_at": "2026-08-10T14:09:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:51Z",
-  "current": 592.1,
-  "change": 2.2,
-  "change_pct": 0.3729,
-  "high": 598.7399,
-  "low": 585.62,
-  "open": 585.64,
-  "prev_close": 589.9,
-  "ts": 1786132800
+  "fetched_at": "2026-08-10T14:09:53Z",
+  "current": 597.38,
+  "change": 5.28,
+  "change_pct": 0.8917,
+  "high": 604.4699,
+  "low": 593.6501,
+  "open": 596.205,
+  "prev_close": 592.1,
+  "ts": 1786370966
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:51Z",
+  "fetched_at": "2026-08-10T14:09:53Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1502773918279.8796,
+  "mcap": 1508378444349.6836,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-07T21:05:51Z",
+  "fetched_at": "2026-08-10T14:09:54Z",
   "bars": [
-   {
-    "date": "2023-01-05",
-    "open": 126.13,
-    "high": 128.52,
-    "low": 124.54,
-    "close": 126.94,
-    "volume": 25447100.0
-   },
    {
     "date": "2023-01-06",
     "open": 128.97,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-06",
-    "open": 586.33502,
+    "open": 586.95001,
     "high": 595.31,
-    "low": 585.995,
+    "low": 586.0,
     "close": 589.90002,
-    "volume": 11663468.0
+    "volume": 11811500.0
    },
    {
     "date": "2026-08-07",
-    "open": 585.63,
-    "high": 598.64,
+    "open": 585.64001,
+    "high": 598.73999,
     "low": 585.62,
-    "close": 591.97,
-    "volume": 1446027.0
+    "close": 592.099976,
+    "volume": 11226700.0
+   },
+   {
+    "date": "2026-08-10",
+    "open": 599.13,
+    "high": 603.89,
+    "low": 593.83,
+    "close": 597.43,
+    "volume": 280088.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-07",
+  "latest": "2026-08-10",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-06T15:04:15Z",
+  "fetched_at": "2026-08-10T14:09:55Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1507091808256.0,
+  "mcap": 1524236681216.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.56,
+  "eps_ttm": 26.53,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 22.273907,
-  "forward_pe": 16.83717,
-  "pb": 6.161613,
-  "ps": 6.6028986,
-  "peg": 0.8311,
-  "ev_ebitda": 13.879,
+  "pe": 22.55277,
+  "forward_pe": 17.02871,
+  "pb": 6.2317085,
+  "ps": 6.6780143,
+  "peg": 0.8839,
+  "ev_ebitda": 13.957,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:52Z",
+  "fetched_at": "2026-08-10T14:09:55Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,114 +7454,114 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-07T21:05:52Z",
+  "fetched_at": "2026-08-10T14:09:55Z",
   "analyst_target_mean": 756.94946,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.851542,
+  "forward_pe": 17.02871,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
   "short_asof": 1784073600,
-  "institutions_pct": 0.78609,
+  "institutions_pct": 0.79004997,
   "insiders_pct": 0.00145,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:52Z",
+  "fetched_at": "2026-08-10T14:09:55Z",
   "rows": [
    {
-    "ts": 1786132574,
-    "headline": "Meta Faces New Risk After Major Court Ruling",
+    "ts": 1786358059,
+    "headline": "Meta unveils Muse Glimmer as Zuckerberg backs stronger U.S. open-weight AI push",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d98352a8aab6059ea711ec2b6f49026a2671a0b82cb471f6bfe1b16cf5c6626a"
+    "url": "https://finnhub.io/api/news?id=85f35833689b394c99ab55be51e7904283e8a4a99431fc99ffb6b79ff986b3d7"
    },
    {
-    "ts": 1786132397,
-    "headline": "Meta Stock Rises 1.2% Despite $942 Million Child-Safety Judgment",
+    "ts": 1786356000,
+    "headline": "Airbnb CEO: Why AI is the best thing to happen to us",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3c98bb29285deb70a7ac4d247034a233888a660561c8441f9df0cac8f844b088"
+    "url": "https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea"
    },
    {
-    "ts": 1786131340,
-    "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d"
+    "ts": 1786347000,
+    "headline": "Meta: FCF Crash Concerning, But I Expect Higher Spending To Pay Off",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e14b8ddd357c9abc48b38a97e9b15470d608e0d7f0c1461ffdd2e2e8ccee6162"
    },
    {
-    "ts": 1786127637,
-    "headline": "Jim Cramer Believes Meta Platforms, Inc. (NASDAQ:META) Can Do Better",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3cb1361ff8f8bc66ac9ffc3e422d7749358173a7d02c1bc22dcb62eb7a892b22"
+    "ts": 1786344300,
+    "headline": "Wall Street Breakfast Podcast: Burry Turns On Berkshire",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c2f18c979677dee8536016df9c1997200d848b9f84f0061030eab5f30878fb05"
    },
    {
-    "ts": 1786126316,
-    "headline": "What Does Meta (META) Have To Change After The $942 Million Teen Safety Ruling?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=390018fee8a3475111caf865cfd24563b3a80a59905f24b4c8233776f457b0f8"
+    "ts": 1786339800,
+    "headline": "Meta's Free Cash Flow Will Surge, Just Give Zuckerberg Time",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=460de89e287e3946a4e2a4bf3fac61e337f76ae6b8de3681943c789add45e39c"
    },
    {
-    "ts": 1786124100,
-    "headline": "Meta was just slapped with a $942-million bill for harming kids \u2014 it makes that back in roughly five days",
+    "ts": 1786320300,
+    "headline": "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=58dcb86bc7b5685028396d7e11008dc9fda1f7f29b813f75edbe48fd009de0fd"
+    "url": "https://finnhub.io/api/news?id=66ace6a5e5c05f09c695fa39ef91f09fd32b2d7c937d9fdf45fe41fdc43a8a72"
    },
    {
-    "ts": 1786123560,
-    "headline": "AI Boom: Top Stocks to Consider for Your Portfolio",
+    "ts": 1786304204,
+    "headline": "Meta adds more incentives for paying users",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df"
+    "url": "https://finnhub.io/api/news?id=f7dde7c6e3b1932bdbe16ff7d04382190290b94df96d9eae312905aa0f6588f5"
    },
    {
-    "ts": 1786122904,
-    "headline": "OpenAI Pauses Some Work on New Astra Model Over Cyber Concerns",
+    "ts": 1786303200,
+    "headline": "Here's Why Iren Has an Edge in the Neocloud Market, According to Meta's Mark Zuckerberg",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8a04b188f365233da442517ab5957903f315805ccb9c5708dc0b6fc567677663"
+    "url": "https://finnhub.io/api/news?id=2c59f9d0a41beb6571a36c57215fcc896ef0e8d4a3976d5ba27adab2213926c7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-07T21:05:52Z",
+  "fetched_at": "2026-08-10T14:09:56Z",
   "buys": 140,
-  "sells": 262,
-  "net_shares": 3201353.0,
+  "sells": 266,
+  "net_shares": 3200927.0,
   "months": 6,
   "recent": [
+   {
+    "name": "Andreessen Marc L",
+    "date": "2026-08-04",
+    "change": -45.0,
+    "price": 591.69
+   },
+   {
+    "name": "Andreessen Marc L",
+    "date": "2026-08-04",
+    "change": -44.0,
+    "price": 590.39
+   },
+   {
+    "name": "Andreessen Marc L",
+    "date": "2026-08-04",
+    "change": -87.0,
+    "price": 589.24
+   },
+   {
+    "name": "Andreessen Marc L",
+    "date": "2026-08-04",
+    "change": -250.0,
+    "price": 588.16
+   },
    {
     "name": "KIMMITT ROBERT M",
     "date": "2026-08-03",
     "change": -500.0,
     "price": 561.56
-   },
-   {
-    "name": "Alford Peggy",
-    "date": "2026-07-31",
-    "change": -464.0,
-    "price": 543.56
-   },
-   {
-    "name": "Zuckerberg Mark",
-    "date": "2026-07-31",
-    "change": -591690.0,
-    "price": 0.0
-   },
-   {
-    "name": "Zuckerberg Mark",
-    "date": "2026-07-31",
-    "change": 591690.0,
-    "price": 0.0
-   },
-   {
-    "name": "Zuckerberg Mark",
-    "date": "2026-07-31",
-    "change": -591690.0,
-    "price": 0.0
    }
   ]
  },
