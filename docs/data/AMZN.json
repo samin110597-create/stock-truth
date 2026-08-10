@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T20:06:22Z",
+ "generated_at": "2026-08-10T21:07:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:22Z",
+  "fetched_at": "2026-08-10T21:07:51Z",
   "current": 278.09,
   "change": 3.61,
   "change_pct": 1.3152,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:22Z",
+  "fetched_at": "2026-08-10T21:07:52Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T20:06:23Z",
+  "fetched_at": "2026-08-10T21:07:52Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-10",
-    "open": 274.18,
-    "high": 280.14,
-    "low": 273.655,
-    "close": 278.05,
-    "volume": 2523180.0
+    "open": 274.20001,
+    "high": 280.14001,
+    "low": 273.6001,
+    "close": 278.079987,
+    "volume": 28529934.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:23Z",
+  "fetched_at": "2026-08-10T21:07:52Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T20:06:23Z",
+  "fetched_at": "2026-08-10T21:07:53Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:23Z",
+  "fetched_at": "2026-08-10T21:07:53Z",
   "rows": [
+   {
+    "ts": 1786390853,
+    "headline": "Nvidia Just Added $562 Billion in a Week",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d9cdbfe7b7b6f269d9da16b4dc88ab0e76c2d0c2e7f77d0016e6753d3aeb1180"
+   },
+   {
+    "ts": 1786390623,
+    "headline": "Microsoft Stock Rises 1.7% as JPMorgan Backs AI Payoff",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=eaec0ca9403e5d7c7f1381d26f60cd8dd620444f801dc833a690d1f9ffc68424"
+   },
+   {
+    "ts": 1786389692,
+    "headline": "Apollo Economist Drops Stark Take On AI Boom",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=071c96b91ea6851709fc3bcf8485d69806d24608dce33a515ac66748fe54ba4f"
+   },
    {
     "ts": 1786389005,
     "headline": "Stay informed with the top movers within the dow jones index on Monday.",
@@ -7472,53 +7490,35 @@
     "url": "https://finnhub.io/api/news?id=2f75049ab7be9065daa72677147eb7c5f80eb38c8674a895383a372bc4e3f887"
    },
    {
+    "ts": 1786387938,
+    "headline": "Microsoft Rethinks Its Nvidia Reliance",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=dff1d54336f0699cb873f9ab1a36fd8c5ddd88f82b75c2186dfdb43d6c34e179"
+   },
+   {
+    "ts": 1786384920,
+    "headline": "Amazon: A Post-Earnings Drift Candidate",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c2508f489d5d2b680a70de11fcf29fc7b052fbac990ef2186fab044d32fbea38"
+   },
+   {
+    "ts": 1786383813,
+    "headline": "IBM Stock Options Price A Band Half Above Today's Price And A Third Below",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c200acc5fb303a23e92d331f80afe380c75e8c24b935d7a152a0745874b906a0"
+   },
+   {
     "ts": 1786382400,
     "headline": "Amazon Just Joined the $3 Trillion Club. Here's Why It Could Reach $5 Trillion by 2029.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=47a4ad74211b65b0632e9a0352bdba6484a15d99354719129ba9b817b3f80c96"
-   },
-   {
-    "ts": 1786381048,
-    "headline": "Intel Plans $15 Billion Stock Offering as AI Demand Requires Higher Capital Spending",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=663cb01e575e69a4fef90fad0b1c6c07b61764e2f7e1e26f97ddd24154c6a9fb"
-   },
-   {
-    "ts": 1786380966,
-    "headline": "Elon Musk Joked About Buying Manchester United \u2014 Now Jeff Bezos Is Buying Into Its Biggest Rival",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=02aac9c041959e06b762a0f5c2a502bbb3261bb001b5a95a0ecb488acdb38821"
-   },
-   {
-    "ts": 1786380913,
-    "headline": "Nvidia Poised for Second-Quarter Sales Beat, Upbeat Guidance, BofA Says",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d54c522773cdea2e5462eb15eafeecc8ff81fb937fe9cb17d5ad706a5247c761"
-   },
-   {
-    "ts": 1786380004,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=215d57159ac550eaecc53a55f0b8bce07ef790c46ea7ddd57f4536b07ae4ddab"
-   },
-   {
-    "ts": 1786379744,
-    "headline": "Tech stocks still have plenty of believers on Wall Street, inflow data shows",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a2b524fcd3e744651892eb540606a53fdb958eaa3d4a35fb9bda1292c1043b36"
-   },
-   {
-    "ts": 1786377860,
-    "headline": "Embraer-Empresa Brasileira de Aeronautica Q2 Earnings Call Highlights",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b9808450033cf5f842a312172bdd4dfad9a6108a842cb91a2fb919c33ae85ebd"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:24Z",
+  "fetched_at": "2026-08-10T21:07:53Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

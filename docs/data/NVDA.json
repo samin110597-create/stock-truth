@@ -1,12 +1,12 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T20:06:43Z",
+ "generated_at": "2026-08-10T21:08:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:43Z",
-  "current": 217.541,
-  "change": -6.419,
-  "change_pct": -2.8661,
+  "fetched_at": "2026-08-10T21:08:15Z",
+  "current": 217.55,
+  "change": -6.41,
+  "change_pct": -2.8621,
   "high": 224.1379,
   "low": 216.77,
   "open": 223.4,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:43Z",
+  "fetched_at": "2026-08-10T21:08:15Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T20:06:43Z",
+  "fetched_at": "2026-08-10T21:08:16Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-10",
-    "open": 223.39,
-    "high": 224.12,
-    "low": 216.775,
-    "close": 217.59,
-    "volume": 8679282.0
+    "open": 223.45,
+    "high": 224.13789,
+    "low": 216.77,
+    "close": 217.56,
+    "volume": 95472742.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:44Z",
+  "fetched_at": "2026-08-10T21:08:16Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T20:06:44Z",
+  "fetched_at": "2026-08-10T21:08:16Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:44Z",
+  "fetched_at": "2026-08-10T21:08:17Z",
   "rows": [
    {
-    "ts": 1786389005,
-    "headline": "Stay informed with the top movers within the dow jones index on Monday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=2f75049ab7be9065daa72677147eb7c5f80eb38c8674a895383a372bc4e3f887"
-   },
-   {
-    "ts": 1786385101,
-    "headline": "Most active S&P500 stocks in Monday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=e70d1226589f0903ccae81f7dfc28a84486a4791d7a36b439ddaadc5b167af77"
-   },
-   {
-    "ts": 1786384800,
-    "headline": "Check out the stocks that are attracting the most attention and driving market activity.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=6c7594f5c417a73d4ed5cef7aec8a6f761c498d618f96ee8fce41eac0911394d"
-   },
-   {
-    "ts": 1786383996,
-    "headline": "Sector Update: Financial Stocks Mixed Monday Afternoon",
+    "ts": 1786391494,
+    "headline": "Sector Update: Tech Stocks Decline Late Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=98ea62e4345e1d03581067048d264b0af25c304dfbe5d2d3194edfcd62321e39"
+    "url": "https://finnhub.io/api/news?id=726dec967f312df0761d5640414c3e0682e72dc874c0b75fb09674733cba9848"
    },
    {
-    "ts": 1786383742,
-    "headline": "Micron Technology's Earnings Outlook Strengthens on Higher Memory Pricing, UBS Says",
+    "ts": 1786391349,
+    "headline": "Iovance Biotherapeutics Stock Soars After the Company Posts Strong Q2 Earnings. Is It Heading Even Higher?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1e50c6e6eb0ccc9e554104ef1a83c0cc7ef86ec9222d8ca6486b5fb8f0f8a5c2"
+    "url": "https://finnhub.io/api/news?id=edefa2cf6fdd60bba70576fc90995cb5e22c4bb92929d20986ab97083494aa14"
    },
    {
-    "ts": 1786383114,
-    "headline": "Sector Update: Tech Stocks Decline Monday Afternoon",
+    "ts": 1786391192,
+    "headline": "Why Trump Media Stock Just Sank 9.4%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=94f80c0bfac132841c8a93b2054dee2c11d9ed9c5211a57c1207a09b66cda794"
+    "url": "https://finnhub.io/api/news?id=127ba38789c92d7145c7b6e57012aed62d533b072d680cd4e4e53e17472a9e73"
    },
    {
-    "ts": 1786383085,
-    "headline": "CAVA Group's Next Earnings Report on Aug. 11 Could Send the Stock Soaring. Here's Why.",
+    "ts": 1786391158,
+    "headline": "AMD Brings Meta's New AI Model to PCs",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=267344edadd670fe13fa5ba28b3b732a7d6e6773fa4b739aa68dde747b4818d5"
+    "url": "https://finnhub.io/api/news?id=ddfd4d2552b69b55aca34eaa5d0b4977ac7aa8ea9a71c6fb6c835e0f60cd3e44"
    },
    {
-    "ts": 1786383001,
-    "headline": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
+    "ts": 1786390853,
+    "headline": "Nvidia Just Added $562 Billion in a Week",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4eb7d4a9b29fb0c719c0acfdc515c275c3c0534cfdbef2854b18325b3607d1c5"
+    "url": "https://finnhub.io/api/news?id=d9cdbfe7b7b6f269d9da16b4dc88ab0e76c2d0c2e7f77d0016e6753d3aeb1180"
+   },
+   {
+    "ts": 1786390740,
+    "headline": "Berkshire's Biggest Repurchase in Nearly Two Years Shrank the Share Count by 0.4%",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3a21023f6f7758ec2218d4515460717385d44cb28a18995cc025e6898bb261d4"
+   },
+   {
+    "ts": 1786390500,
+    "headline": "Is SoundHound AI Stock a Buy After Posting Massive Growth in Q2?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=568014499cb0a786479e167c6d48b92d9c0ebacd343f480e5f2847a3214e7c8d"
+   },
+   {
+    "ts": 1786389971,
+    "headline": "Nvidia Stock Falls. A $3 Billion AI Infrastructure Bet Could Be Next",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6e35fc514f78d8e8092c31998882af3ce551e3a7f8f03035e954f066efa6efc1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T20:06:44Z",
+  "fetched_at": "2026-08-10T21:08:17Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
