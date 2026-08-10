@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T16:14:36Z",
+ "generated_at": "2026-08-10T17:15:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:36Z",
-  "current": 219.76,
-  "change": -4.2,
-  "change_pct": -1.8753,
+  "fetched_at": "2026-08-10T17:15:34Z",
+  "current": 218.69,
+  "change": -5.27,
+  "change_pct": -2.3531,
   "high": 224.1379,
-  "low": 218.76,
+  "low": 216.77,
   "open": 224.115,
   "prev_close": 223.96,
-  "ts": 1786378439
+  "ts": 1786382123
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:36Z",
+  "fetched_at": "2026-08-10T17:15:34Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T16:14:37Z",
+  "fetched_at": "2026-08-10T17:15:37Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-10",
     "open": 223.39,
     "high": 224.12,
-    "low": 218.9,
-    "close": 219.21,
-    "volume": 7103744.0
+    "low": 217.25,
+    "close": 218.645,
+    "volume": 7310494.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:37Z",
+  "fetched_at": "2026-08-10T17:15:38Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T16:14:37Z",
+  "fetched_at": "2026-08-10T17:15:38Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.04376,
+  "forward_pe": 16.961807,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:37Z",
+  "fetched_at": "2026-08-10T17:15:38Z",
   "rows": [
    {
-    "ts": 1786368900,
-    "headline": "How Many High-Yield Financial Stocks Does an Income Portfolio Actually Need?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f56be2b566654dcba299052ae54121b80ecad33d0319914edeaa99446fb5196c"
+    "ts": 1786380004,
+    "headline": "These dow jones stocks are moving in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=215d57159ac550eaecc53a55f0b8bce07ef790c46ea7ddd57f4536b07ae4ddab"
    },
    {
-    "ts": 1786368868,
-    "headline": "Tilray Brands Expects to Hit a Major Milestone for the Current Fiscal Year: $1 Billion in Annual Revenue. Here's How it Plans to Get There",
+    "ts": 1786376615,
+    "headline": "Why CPI Card Group Stock Keeps Going Up",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e057218f4b8174d8ee0fc89ae7d214318858d2ee8f18cd63562b6c97f1cc7786"
+    "url": "https://finnhub.io/api/news?id=07c51ae5bd48f98149a5d88f870b669354788363d62ac09ee484298dab369121"
    },
    {
-    "ts": 1786368621,
-    "headline": "Price Prediction: Archer Aviation Will Trade at $10 on This Date",
+    "ts": 1786376396,
+    "headline": "How Monday.com Stock Gained 20.4% In July",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b6d1a111b06605784e964b165c8dfde17783b6b94bc989a4b95d7831cf7d8fdf"
+    "url": "https://finnhub.io/api/news?id=2a493df258ab514225d41399c50a36b8651801fe2182296a3bded686770a9e94"
    },
    {
-    "ts": 1786368000,
-    "headline": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
+    "ts": 1786376053,
+    "headline": "Microsoft's Nvidia Alternative Is Getting Much Bigger",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1802ba0297e4af3f2e567f2fdfa30f9a66390c39194ccf05741ee02202da3a34"
+    "url": "https://finnhub.io/api/news?id=d7235609f83a06ff23cb0f98ffbb59aa104566916b7ab03f58ea08b084bb2ae3"
    },
    {
-    "ts": 1786367960,
-    "headline": "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
+    "ts": 1786375999,
+    "headline": "Samsung Just Raised Pressure on Micron",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=927f79fb8197c08718fbf9047d543896d51722a6794ed50f2089efd239681b44"
+    "url": "https://finnhub.io/api/news?id=ef190ca7f60d758af78b22207911bc79e45caf6a22776940763f92636c476eee"
    },
    {
-    "ts": 1786367388,
-    "headline": "Why This Investor Just Bought Nvidia (NVDA)",
+    "ts": 1786375831,
+    "headline": "Scott Bessent Calls the Strait of Hormuz \u201cIrrelevant.\u201d Chevron Shows Exactly How It Happens",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9036e31b954a519136986f615662f6d04fd8967ed60a83684d0ee4f5027102ba"
+    "url": "https://finnhub.io/api/news?id=62eefde540a6915d193813a1c74d96186fd3b29c0370181648de3de0e1c37913"
    },
    {
-    "ts": 1786367280,
-    "headline": "Billionaire Mark Cuban Just Warned Nvidia's AI Financing Could \"Crumble\" the Market. Should Investors Be Worried?",
+    "ts": 1786375822,
+    "headline": "The Mag 7 Face-Off: Only 2 Come Out on Top",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=43ac90d09c3202da1e1f0e047e3fa38be9b83ba2d3a2c001522f8fa03ba0a770"
+    "url": "https://finnhub.io/api/news?id=2156926b0d02c5ce61f4ef09b20a9e7ee19a6269de16399bb6acee8a6997b3d9"
    },
    {
-    "ts": 1786367200,
-    "headline": "Nvidia investing up to $3 billion in Lancium for Stargate",
+    "ts": 1786375653,
+    "headline": "Universal Corp (UVV) Stock Is Falling Today: What\u2019s Behind the Drop, and Are Other Tobacco Stocks Plummeting Today?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=259e4639219df0b720556b00ff19e8c4dfe014935b296e6be9a0cf6f7ca257fe"
+    "url": "https://finnhub.io/api/news?id=7fe2fcf905d77c13b7e544dbd42187b19a69115fb9302dcef85e75719ba468d5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:37Z",
+  "fetched_at": "2026-08-10T17:15:38Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

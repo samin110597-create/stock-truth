@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T16:14:12Z",
+ "generated_at": "2026-08-10T17:15:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:12Z",
-  "current": 279.28,
-  "change": 4.8,
-  "change_pct": 1.7488,
+  "fetched_at": "2026-08-10T17:15:08Z",
+  "current": 277.63,
+  "change": 3.15,
+  "change_pct": 1.1476,
   "high": 280.14,
   "low": 273.6001,
   "open": 274.25,
   "prev_close": 274.48,
-  "ts": 1786378439
+  "ts": 1786382074
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:12Z",
+  "fetched_at": "2026-08-10T17:15:08Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T16:14:15Z",
+  "fetched_at": "2026-08-10T17:15:10Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 274.18,
     "high": 279.91,
     "low": 273.655,
-    "close": 279.34,
-    "volume": 2227164.0
+    "close": 277.61,
+    "volume": 2281479.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:15Z",
+  "fetched_at": "2026-08-10T17:15:10Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T16:14:16Z",
+  "fetched_at": "2026-08-10T17:15:11Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 27.017948,
+  "forward_pe": 26.868877,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:16Z",
+  "fetched_at": "2026-08-10T17:15:11Z",
   "rows": [
+   {
+    "ts": 1786380004,
+    "headline": "These dow jones stocks are moving in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=215d57159ac550eaecc53a55f0b8bce07ef790c46ea7ddd57f4536b07ae4ddab"
+   },
    {
     "ts": 1786376314,
     "headline": "European Stocks Close Mixed in Monday Trading as Investors Monitor Middle East War Developments",
@@ -7506,19 +7512,13 @@
     "headline": "Meta shares gain as Muse Glimmer launch highlights broader AI ambitions",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=ae1735d30b923f113572cc8ba3eb77a8cb60a1881146a194470189bfd824737d"
-   },
-   {
-    "ts": 1786370436,
-    "headline": "Nvidia Scores 12% Weekly Gain As Taiwan Semiconductor Sales Soars; Is Nvidia A Buy Now?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=25549fb70cdb2d9cded67abe032db6db0620002f22a1cff64120f7895d481ee2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T16:14:16Z",
+  "fetched_at": "2026-08-10T17:15:12Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
