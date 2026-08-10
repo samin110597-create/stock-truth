@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-10T14:09:30Z",
+ "generated_at": "2026-08-10T15:27:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:30Z",
-  "current": 353.11,
-  "change": -0.36,
-  "change_pct": -0.1018,
+  "fetched_at": "2026-08-10T15:27:51Z",
+  "current": 352.65,
+  "change": -0.82,
+  "change_pct": -0.232,
   "high": 355.77,
   "low": 351.47,
   "open": 354.755,
   "prev_close": 353.47,
-  "ts": 1786370943
+  "ts": 1786375658
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:30Z",
+  "fetched_at": "2026-08-10T15:27:51Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T14:09:31Z",
+  "fetched_at": "2026-08-10T15:27:52Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 354.99,
     "high": 355.73,
     "low": 351.5,
-    "close": 352.13,
-    "volume": 372620.0
+    "close": 352.54,
+    "volume": 872140.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:32Z",
+  "fetched_at": "2026-08-10T15:27:52Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:32Z",
+  "fetched_at": "2026-08-10T15:27:52Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.96903,
+  "forward_pe": 23.93354,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:32Z",
+  "fetched_at": "2026-08-10T15:27:52Z",
   "rows": [
    {
-    "ts": 1786362680,
-    "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
+    "ts": 1786367484,
+    "headline": "Anthropic partners with Macquarie and GIC to build data centers",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
+    "url": "https://finnhub.io/api/news?id=859a6b11c3d09375ab531aa12aa40057b6d1d075c84980fbd919434a5492a3c3"
    },
    {
-    "ts": 1786354381,
-    "headline": "These 40-something founders say they have something the AI kids don't",
+    "ts": 1786367085,
+    "headline": "TSMC Revenue Surges as AI Chip Demand Hold",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9abc740031b336d05461d7588de9bc72856634edbcb966928b62bda8adc6b04f"
+    "url": "https://finnhub.io/api/news?id=119a903cb9c10c1a7bddf51ab9a115e05fc4f0a5b69628d48f532c5da1edd90c"
    },
    {
-    "ts": 1786354100,
-    "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
+    "ts": 1786366800,
+    "headline": "PubMatic Appoints Megan Ramm as Global Chief Revenue Officer to Accelerate Growth as AI Transforms Digital Advertising",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
+    "url": "https://finnhub.io/api/news?id=8709ea02feaa161410d182c1407d799e44ef6e83fa1c2bb3de9684febae82a96"
    },
    {
-    "ts": 1786351800,
-    "headline": "Warren Buffett Bought Alphabet Stock Last Year. He Might Buy This Megacap Stock Next, Says a Wall Street Expert.",
+    "ts": 1786366549,
+    "headline": "China uses capital markets to fund AI and chip race against U.S.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f57ea8afd003855794d9688fc464e2bfb653eef4e346159a988aeb19b0ed7213"
+    "url": "https://finnhub.io/api/news?id=f3e46eec3893ff37f71fd97b87fefec73a88f59361eb49ad374333d6f6870344"
    },
    {
-    "ts": 1786351788,
-    "headline": "Why Is TSM Stock Rising Premarket?",
+    "ts": 1786366527,
+    "headline": "Is Alphabet (GOOGL) Still One of the Best AI Stocks to Own?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
+    "url": "https://finnhub.io/api/news?id=40f34552daaf4d8fa6209bab9cbd09a4f722cf2f436f2299515a53765e6a8369"
    },
    {
-    "ts": 1786349520,
-    "headline": "Mobile Wallet Market Report, Till 2035 Now Available \u2014 Forecasts Growth from $15.65B to $177.31B, Profiles Apple, Google, PayPal, and 15 Other Key Players",
+    "ts": 1786365903,
+    "headline": "Oracle\u2019s Rebound Is All But Assured So I Keep Buying",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=71720474347ac40dd302e32b4cd18c4bcfa9afbcf82b9f424e25cebf77a38af0"
+    "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
    },
    {
-    "ts": 1786340151,
-    "headline": "Ross Gerber Cites Data to Make a Point: Take Out Alphabet and Amazon, S&P 500 Earnings Growth Looks Far Less Impressive",
+    "ts": 1786365077,
+    "headline": "Anthropic, Macquarie and GIC Form Venture for AI Data Centers",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d298a5220b40641c678eff9604c5eb557105f440d0bcf084ce2449bc3259ba43"
+    "url": "https://finnhub.io/api/news?id=1d110bedb3d993b1cede23a9f33de46722a36162685da41b8fe5e457368b2f98"
    },
    {
-    "ts": 1786337919,
-    "headline": "Apple\u2019s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
+    "ts": 1786364366,
+    "headline": "Meta shares rise on Muse Glimmer launch and a radical AI vision",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=16ce403bfb8fa073cbd36a8de2c0f9f2c315ecb480a9cc53c26f553fc546a37c"
+    "url": "https://finnhub.io/api/news?id=237d496bea6bff611d38c5b172c48f1466348288c62b5b6a7583ebe3f0ab6e89"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:32Z",
+  "fetched_at": "2026-08-10T15:27:53Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T14:09:15Z",
+ "generated_at": "2026-08-10T15:27:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:15Z",
-  "current": 275.54,
-  "change": 1.06,
-  "change_pct": 0.3862,
-  "high": 276.81,
+  "fetched_at": "2026-08-10T15:27:40Z",
+  "current": 279.42,
+  "change": 4.94,
+  "change_pct": 1.7998,
+  "high": 279.73,
   "low": 273.6001,
   "open": 274.25,
   "prev_close": 274.48,
-  "ts": 1786370918
+  "ts": 1786375635
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:15Z",
+  "fetched_at": "2026-08-10T15:27:40Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T14:09:19Z",
+  "fetched_at": "2026-08-10T15:27:42Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-10",
     "open": 274.18,
-    "high": 276.74,
+    "high": 279.73,
     "low": 273.655,
-    "close": 275.86,
-    "volume": 772912.0
+    "close": 279.35,
+    "volume": 1956796.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:20Z",
+  "fetched_at": "2026-08-10T15:27:42Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:20Z",
+  "fetched_at": "2026-08-10T15:27:42Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.70032,
+  "forward_pe": 27.04602,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:20Z",
+  "fetched_at": "2026-08-10T15:27:42Z",
   "rows": [
+   {
+    "ts": 1786366549,
+    "headline": "China uses capital markets to fund AI and chip race against U.S.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f3e46eec3893ff37f71fd97b87fefec73a88f59361eb49ad374333d6f6870344"
+   },
+   {
+    "ts": 1786365903,
+    "headline": "Oracle\u2019s Rebound Is All But Assured So I Keep Buying",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=57244ca2b8e728e60e6dde28bb296029af9883adc4d6e0e409e8af0ee409a565"
+   },
+   {
+    "ts": 1786364937,
+    "headline": "Amazon Back Near $3 Trillion as Jeff Bezos Reportedly Eyes a Third of Liverpool",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=eb8e1f82c0137a592c86d769942b3f52d3d330b9ee76dcd221f5c3b353be604c"
+   },
+   {
+    "ts": 1786364460,
+    "headline": "Amazon Texas gas plant could be biggest U.S. climate polluter",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7778eae485f4e70977852ab7394154b99d4bd90ecf70e6d00cd3ef2abf94aecc"
+   },
+   {
+    "ts": 1786364366,
+    "headline": "Meta shares rise on Muse Glimmer launch and a radical AI vision",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=237d496bea6bff611d38c5b172c48f1466348288c62b5b6a7583ebe3f0ab6e89"
+   },
+   {
+    "ts": 1786364073,
+    "headline": "Amazon Stock Hits a New All-Time High: Is It Still a Buy?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e4fcea5790160e45333e7c53a8ea21946571465a6e71cd68adb7e720c578312e"
+   },
+   {
+    "ts": 1786363189,
+    "headline": "Apple Cut at Jefferies on iPhone Worries as Sell Ratings Pile Up",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=cd1d4ef57dc1235a6377046c17eadab527861b3f53eb6a05047bf5d22ac5f918"
+   },
    {
     "ts": 1786362680,
     "headline": "48% of Google Cloud Revenue Next Year Could Come From Just 2 Companies That Have Still Never Turned a Profit",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=c4850ef1efb39f4b0971e18e6c4b001c66613a10f13b47d07a2080b23900b2a2"
-   },
-   {
-    "ts": 1786360678,
-    "headline": "US Treasury, IRS set out initial framework for Saver\u2019s Match rollout",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f33118d510c11f497d05d3f2856cb01530507dc82913cd7df77d8b67d31eac11"
-   },
-   {
-    "ts": 1786358613,
-    "headline": "Amazon\u2019s New Texas Data Center On Track To Be Biggest Polluter In America",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4c3e890032cab9642f29bd0f7a19cfd78b85a93e38b31a38242196e6b62281ac"
-   },
-   {
-    "ts": 1786356000,
-    "headline": "MONDAY: O'BRIEN, ZUCKERMAN, AMAZON TEAMSTERS RALLY FOR DELIVERY PROTECTION ACT",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3ff6de9d2f0842ddd76c70ae2e29c37ba06c5270fdacfe849c24d89e0653d7a5"
-   },
-   {
-    "ts": 1786356000,
-    "headline": "Airbnb CEO: Why AI is the best thing to happen to us",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c005ebb5e28e93e02bece76d0716840853d520f449164ea57d4a1cfb545f02ea"
-   },
-   {
-    "ts": 1786354100,
-    "headline": "JPMorgan Strategists Raise S&P 500 Target as AI Capex Pays Off",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9b3b40e6c9c7f9bcbfb95bb22942c5e34ce410b02a047edf8656e7f2c4f3029b"
-   },
-   {
-    "ts": 1786351788,
-    "headline": "Why Is TSM Stock Rising Premarket?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bd94b5ad0b888efd62fb078b7d338e52c2dc8409a8fc693ab261e36cc440c5e1"
-   },
-   {
-    "ts": 1786341900,
-    "headline": "S&P 500 EPS / Revenue Growth, And Amazon Earnings",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ff9824b98e93926be236b9e7ccf0de379a4897178560f20f0f910b32ff5479ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:21Z",
+  "fetched_at": "2026-08-10T15:27:42Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

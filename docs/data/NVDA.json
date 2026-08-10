@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T14:09:41Z",
+ "generated_at": "2026-08-10T15:28:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:42Z",
-  "current": 221.82,
-  "change": -2.14,
-  "change_pct": -0.9555,
+  "fetched_at": "2026-08-10T15:28:02Z",
+  "current": 219.18,
+  "change": -4.78,
+  "change_pct": -2.1343,
   "high": 224.1379,
-  "low": 221.45,
+  "low": 218.93,
   "open": 224.115,
   "prev_close": 223.96,
-  "ts": 1786370966
+  "ts": 1786375659
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:42Z",
+  "fetched_at": "2026-08-10T15:28:02Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T14:09:43Z",
+  "fetched_at": "2026-08-10T15:28:03Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-10",
     "open": 223.39,
     "high": 224.12,
-    "low": 221.45,
-    "close": 221.77,
-    "volume": 2337632.0
+    "low": 218.93,
+    "close": 219.16,
+    "volume": 6518160.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:44Z",
+  "fetched_at": "2026-08-10T15:28:03Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:44Z",
+  "fetched_at": "2026-08-10T15:28:03Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.21276,
+  "forward_pe": 17.021542,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:44Z",
+  "fetched_at": "2026-08-10T15:28:03Z",
   "rows": [
    {
-    "ts": 1786361100,
-    "headline": "Peter Beck's Rocket Lab Fell 30% in a Month While Revenue Grew 63%",
+    "ts": 1786368900,
+    "headline": "How Many High-Yield Financial Stocks Does an Income Portfolio Actually Need?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=511ee12fc559875a463f826632b56e801b25bdb971af1f43bc742d0a67a0fcf7"
+    "url": "https://finnhub.io/api/news?id=f56be2b566654dcba299052ae54121b80ecad33d0319914edeaa99446fb5196c"
    },
    {
-    "ts": 1786360800,
-    "headline": "Why Micron Stock Plummeted 28.7% in July But Is Rebounding in August",
+    "ts": 1786368868,
+    "headline": "Tilray Brands Expects to Hit a Major Milestone for the Current Fiscal Year: $1 Billion in Annual Revenue. Here's How it Plans to Get There",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06d896163777df42b836f237380644a24032771f3b8c0a1c96ac345ce3a9e3b3"
+    "url": "https://finnhub.io/api/news?id=e057218f4b8174d8ee0fc89ae7d214318858d2ee8f18cd63562b6c97f1cc7786"
    },
    {
-    "ts": 1786360200,
-    "headline": "Does Jamie Dimon Know Something That Wall Street Doesn't? He Just Sent the Market a Clear Warning Shot.",
+    "ts": 1786368621,
+    "headline": "Price Prediction: Archer Aviation Will Trade at $10 on This Date",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a1e0875ca7bcb0cb4ea79193e84a22a20528ac46c273260a9fa2d715171bb4d5"
+    "url": "https://finnhub.io/api/news?id=b6d1a111b06605784e964b165c8dfde17783b6b94bc989a4b95d7831cf7d8fdf"
    },
    {
-    "ts": 1786359958,
-    "headline": "Wall Street Says Hold but Hedge Funds Are Circling NSC\u2019s $85 Billion Merger",
+    "ts": 1786368000,
+    "headline": "Prediction: Micron and Taiwan Semiconductor Manufacturing Stocks Will Both Rebound to Fresh Highs Before 2026 Ends",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bcf17f56f2c8a13f018fcd7d08c9c5f7f0f91f5781d9baca328803bead2f954e"
+    "url": "https://finnhub.io/api/news?id=1802ba0297e4af3f2e567f2fdfa30f9a66390c39194ccf05741ee02202da3a34"
    },
    {
-    "ts": 1786359057,
-    "headline": "25-Year-Old Lost $35 Billion of His Investors\u2019 Money. 2 Weeks Later, Silicon Valley Insiders Are Lining Up to Give Him More Cash.",
+    "ts": 1786367960,
+    "headline": "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=04aacb14bde83c30a9d3ece918993f9307462fde0d75dcd15698b302df0919ef"
+    "url": "https://finnhub.io/api/news?id=927f79fb8197c08718fbf9047d543896d51722a6794ed50f2089efd239681b44"
    },
    {
-    "ts": 1786359000,
-    "headline": "1 Reason Lowe's May Be a Smarter Buy Than Home Depot Before Aug. 19",
+    "ts": 1786367388,
+    "headline": "Why This Investor Just Bought Nvidia (NVDA)",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=feade174a5a6c2a6ab28e342518364cd5fc09de70a00afbb7e8e244e08c6e002"
+    "url": "https://finnhub.io/api/news?id=9036e31b954a519136986f615662f6d04fd8967ed60a83684d0ee4f5027102ba"
    },
    {
-    "ts": 1786358520,
-    "headline": "3 Stocks to Buy and Hold Even If There's a Stock Market Sell-Off in August",
+    "ts": 1786367280,
+    "headline": "Billionaire Mark Cuban Just Warned Nvidia's AI Financing Could \"Crumble\" the Market. Should Investors Be Worried?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=613f8b7f7c757e5ae9b1e4e356667de4b042e605b5c98a90741f5a1b82aef7e5"
+    "url": "https://finnhub.io/api/news?id=43ac90d09c3202da1e1f0e047e3fa38be9b83ba2d3a2c001522f8fa03ba0a770"
    },
    {
-    "ts": 1786358100,
-    "headline": "The Part of the AI Power Story Everyone's Ignoring -- and the Stock Cashing in on It",
+    "ts": 1786367200,
+    "headline": "Nvidia investing up to $3 billion in Lancium for Stargate",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ea8d1d58084a4ea10a2567ff56bafd439d7c86709f42323d904a4261315b0766"
+    "url": "https://finnhub.io/api/news?id=259e4639219df0b720556b00ff19e8c4dfe014935b296e6be9a0cf6f7ca257fe"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T14:09:44Z",
+  "fetched_at": "2026-08-10T15:28:03Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
