@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T19:26:34Z",
+ "generated_at": "2026-08-10T20:06:22Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:34Z",
-  "current": 277.03,
-  "change": 2.55,
-  "change_pct": 0.929,
+  "fetched_at": "2026-08-10T20:06:22Z",
+  "current": 278.09,
+  "change": 3.61,
+  "change_pct": 1.3152,
   "high": 280.14,
   "low": 273.6001,
-  "open": 274.25,
+  "open": 274.01,
   "prev_close": 274.48,
-  "ts": 1786389980
+  "ts": 1786392000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:34Z",
+  "fetched_at": "2026-08-10T20:06:22Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T19:26:35Z",
+  "fetched_at": "2026-08-10T20:06:23Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 274.18,
     "high": 280.14,
     "low": 273.655,
-    "close": 277.02,
-    "volume": 2312283.0
+    "close": 278.05,
+    "volume": 2523180.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:35Z",
+  "fetched_at": "2026-08-10T20:06:23Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T19:26:35Z",
+  "fetched_at": "2026-08-10T20:06:23Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.812733,
+  "forward_pe": 26.919212,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:35Z",
+  "fetched_at": "2026-08-10T20:06:23Z",
   "rows": [
+   {
+    "ts": 1786389005,
+    "headline": "Stay informed with the top movers within the dow jones index on Monday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2f75049ab7be9065daa72677147eb7c5f80eb38c8674a895383a372bc4e3f887"
+   },
    {
     "ts": 1786382400,
     "headline": "Amazon Just Joined the $3 Trillion Club. Here's Why It Could Reach $5 Trillion by 2029.",
@@ -7506,19 +7512,13 @@
     "headline": "Embraer-Empresa Brasileira de Aeronautica Q2 Earnings Call Highlights",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b9808450033cf5f842a312172bdd4dfad9a6108a842cb91a2fb919c33ae85ebd"
-   },
-   {
-    "ts": 1786377618,
-    "headline": "Amazon, IBD Stock Of The Day, Rides Cloud Momentum To $3 Trillion Milestone",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e35b82efe188059f4ae492fd34f70dc353d42aec8fc744a2a09bef8264f087b0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:35Z",
+  "fetched_at": "2026-08-10T20:06:24Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

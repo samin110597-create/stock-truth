@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T19:26:54Z",
+ "generated_at": "2026-08-10T20:06:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:54Z",
-  "current": 219.13,
-  "change": -4.83,
-  "change_pct": -2.1566,
+  "fetched_at": "2026-08-10T20:06:43Z",
+  "current": 217.541,
+  "change": -6.419,
+  "change_pct": -2.8661,
   "high": 224.1379,
   "low": 216.77,
-  "open": 224.115,
+  "open": 223.4,
   "prev_close": 223.96,
-  "ts": 1786390005
+  "ts": 1786392000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:54Z",
+  "fetched_at": "2026-08-10T20:06:43Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T19:26:55Z",
+  "fetched_at": "2026-08-10T20:06:43Z",
   "bars": [
    {
     "date": "2023-01-06",
@@ -7225,8 +7225,8 @@
     "open": 223.39,
     "high": 224.12,
     "low": 216.775,
-    "close": 219.1,
-    "volume": 8052517.0
+    "close": 217.59,
+    "volume": 8679282.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:55Z",
+  "fetched_at": "2026-08-10T20:06:44Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T19:26:55Z",
+  "fetched_at": "2026-08-10T20:06:44Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.003296,
+  "forward_pe": 16.876862,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:55Z",
+  "fetched_at": "2026-08-10T20:06:44Z",
   "rows": [
+   {
+    "ts": 1786389005,
+    "headline": "Stay informed with the top movers within the dow jones index on Monday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2f75049ab7be9065daa72677147eb7c5f80eb38c8674a895383a372bc4e3f887"
+   },
    {
     "ts": 1786385101,
     "headline": "Most active S&P500 stocks in Monday's session",
@@ -7515,19 +7521,13 @@
     "headline": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=4eb7d4a9b29fb0c719c0acfdc515c275c3c0534cfdbef2854b18325b3607d1c5"
-   },
-   {
-    "ts": 1786383000,
-    "headline": "Archer Aviation Is Under Pressure: Here Is What Investors Should Consider Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a4905af965d67547315d44a1d3c4cc070823648b3aa7c7efd9de6f1392fdfc63"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T19:26:55Z",
+  "fetched_at": "2026-08-10T20:06:44Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
