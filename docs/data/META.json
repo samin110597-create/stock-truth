@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T15:26:56Z",
+ "generated_at": "2026-08-11T16:15:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T15:26:56Z",
-  "current": 610.53,
-  "change": 15.61,
-  "change_pct": 2.6239,
+  "fetched_at": "2026-08-11T16:15:56Z",
+  "current": 605.66,
+  "change": 10.74,
+  "change_pct": 1.8053,
   "high": 612.43,
   "low": 593.4,
   "open": 596.365,
   "prev_close": 594.92,
-  "ts": 1786462004
+  "ts": 1786464942
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T15:26:56Z",
+  "fetched_at": "2026-08-11T16:15:56Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T15:26:57Z",
+  "fetched_at": "2026-08-11T16:15:56Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 597.755,
     "high": 612.31,
     "low": 593.41,
-    "close": 610.545,
-    "volume": 236230.0
+    "close": 605.62,
+    "volume": 288819.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T15:26:57Z",
+  "fetched_at": "2026-08-11T16:15:56Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T15:26:57Z",
+  "fetched_at": "2026-08-11T16:15:56Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.38034,
+  "forward_pe": 17.241167,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T15:26:57Z",
+  "fetched_at": "2026-08-11T16:15:56Z",
   "rows": [
+   {
+    "ts": 1786448383,
+    "headline": "Meta: The Mispriced Embedded AI Call Options",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a34e2896def789fe1225b991fc41d19cad86b20b72f19b52626a3c3c3f22c980"
+   },
    {
     "ts": 1786434385,
     "headline": "Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout",
@@ -7487,6 +7493,24 @@
     "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
    },
    {
+    "ts": 1786432347,
+    "headline": "Meta, TikTok, Google and Snap Just Lost a Major Court Battle\u2014 and Must Face More Than 3,000 Lawsuits Over Addictive Platforms Targeting Young Users",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=58988733d04deb8eae00a1bbfda622ed0a2d6cb962329f2464b4589cbe6a3df3"
+   },
+   {
+    "ts": 1786432272,
+    "headline": "Gavin Newsom Launches AI Cyber Defense Program: \u2018AI-Enabled Cybersecurity Threats Are No Longer Hypothetical\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=cda16bdb5a3e4c3236d1e6242ea2e8e615e1c249f5e8308381ad7fd879e11378"
+   },
+   {
+    "ts": 1786431568,
+    "headline": "The AI Mexican Standoff: Who Blinks First in the $1 Trillion Market?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4ad3594e07c5b0d622cc037619300be1e461e15f43928be05101067c46649340"
+   },
+   {
     "ts": 1786431540,
     "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
     "source": "Yahoo",
@@ -7497,37 +7521,13 @@
     "headline": "Meta Platforms: Additional AI Revenue Preferred, But Not Essential",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=03e16992c8a1584ddc66f49181306d05234b9499cd9cbcd1bcc3527ff9de4375"
-   },
-   {
-    "ts": 1786406633,
-    "headline": "As Trump Media scraps some businesses, it's doubling down on Truth Social and the president",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b96fd1a3edaa98841f4d69f3cf9f18a83be64c30aedf4ebcf702c7c2637d9303"
-   },
-   {
-    "ts": 1786406611,
-    "headline": "Nvidia, Wall Street firms plan $500 billion AI infrastructure push",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ec30c87fc0de235dd20224c2abb5029f534e0b9f34206dd993e489fbf8a18924"
-   },
-   {
-    "ts": 1786402077,
-    "headline": "Amazon Stock And The Profit Signal Everyone Is Chasing",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ef8bf9beed7f6643ed155c5b0b9106cc42a3358657037aad5fa6a82a8e7f533"
-   },
-   {
-    "ts": 1786398318,
-    "headline": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3bdc105ee3048d988d6a714bb05bf22da8fc2f7478087d8f02c6188b3d174cfc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T15:26:57Z",
+  "fetched_at": "2026-08-11T16:15:58Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,
