@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-11T16:15:46Z",
+ "generated_at": "2026-08-11T17:24:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:46Z",
-  "current": 218.5,
-  "change": 0.95,
-  "change_pct": 0.4367,
+  "fetched_at": "2026-08-11T17:24:09Z",
+  "current": 217.33,
+  "change": -0.22,
+  "change_pct": -0.1011,
   "high": 222.2,
-  "low": 218.25,
+  "low": 216.72,
   "open": 220.4,
   "prev_close": 217.55,
-  "ts": 1786464921
+  "ts": 1786469016
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:46Z",
+  "fetched_at": "2026-08-11T17:24:09Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T16:15:46Z",
+  "fetched_at": "2026-08-11T17:24:09Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-11",
     "open": 222.15,
     "high": 222.15,
-    "low": 218.25,
-    "close": 218.44,
-    "volume": 2223871.0
+    "low": 216.72,
+    "close": 217.29,
+    "volume": 2819823.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:46Z",
+  "fetched_at": "2026-08-11T17:24:09Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T16:15:47Z",
+  "fetched_at": "2026-08-11T17:24:10Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.94668,
+  "forward_pe": 16.852812,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:47Z",
+  "fetched_at": "2026-08-11T17:24:10Z",
   "rows": [
+   {
+    "ts": 1786452577,
+    "headline": "Burry Vs. Jensen: The Number That Breaks The AI Boom",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=478590cf2ffd425a5e1d19cdd3bfa4cf77ae442ef402eded0ba252a47a5e26be"
+   },
+   {
+    "ts": 1786451877,
+    "headline": "AI Capex To Hit $1 Trillion - And Estimates Are Still Too Low",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3f01b3e455947a274b18e95b4d53060b9481c11ccd76a45083b3e7a4729e7e3e"
+   },
+   {
+    "ts": 1786449699,
+    "headline": "Irrational Exuberance On Overdrive",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
+   },
    {
     "ts": 1786448274,
     "headline": "Nvidia: Not Cheap Enough, Yet",
@@ -7503,31 +7521,13 @@
     "headline": "Wall Street's Latest Blockbuster Stock Split Has Arrived -- and This Industry Titan Has Rallied 337,000% Over the Last 32 Years",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=5d869b1d12e1ae5f556057e919fee888ec2199ab372f8838b3e462b6e6ef64c0"
-   },
-   {
-    "ts": 1786440000,
-    "headline": "Canopy Growth: Penny Stock Purgatory -- or Cannabis Rebound in the Making?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fc963e934b5b198b4f70787f85846bbf6aa80ef686b0bde27234fd87036096ff"
-   },
-   {
-    "ts": 1786439280,
-    "headline": "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ce7d18ce98da7ab2d239b46479045ac991c3d566bec64b4051ead40727c00ca3"
-   },
-   {
-    "ts": 1786439220,
-    "headline": "1 No-Brainer Growth ETF to Buy Right Now for Less Than $1,000",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ded5df88b9cb79d2ba44fa03f2d038ede67d4216632a74d425b1e3c4e9d8811"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:47Z",
+  "fetched_at": "2026-08-11T17:24:10Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

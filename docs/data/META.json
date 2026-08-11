@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T16:15:56Z",
+ "generated_at": "2026-08-11T17:24:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:56Z",
-  "current": 605.66,
-  "change": 10.74,
-  "change_pct": 1.8053,
+  "fetched_at": "2026-08-11T17:24:19Z",
+  "current": 603.5,
+  "change": 8.58,
+  "change_pct": 1.4422,
   "high": 612.43,
   "low": 593.4,
   "open": 596.365,
   "prev_close": 594.92,
-  "ts": 1786464942
+  "ts": 1786469037
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:56Z",
+  "fetched_at": "2026-08-11T17:24:19Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T16:15:56Z",
+  "fetched_at": "2026-08-11T17:24:19Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 597.755,
     "high": 612.31,
     "low": 593.41,
-    "close": 605.62,
-    "volume": 288819.0
+    "close": 603.475,
+    "volume": 342479.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:56Z",
+  "fetched_at": "2026-08-11T17:24:19Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T16:15:56Z",
+  "fetched_at": "2026-08-11T17:24:20Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.241167,
+  "forward_pe": 17.182056,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:56Z",
+  "fetched_at": "2026-08-11T17:24:20Z",
   "rows": [
+   {
+    "ts": 1786449699,
+    "headline": "Irrational Exuberance On Overdrive",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
+   },
    {
     "ts": 1786448383,
     "headline": "Meta: The Mispriced Embedded AI Call Options",
@@ -7515,19 +7521,13 @@
     "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
-   },
-   {
-    "ts": 1786422587,
-    "headline": "Meta Platforms: Additional AI Revenue Preferred, But Not Essential",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=03e16992c8a1584ddc66f49181306d05234b9499cd9cbcd1bcc3527ff9de4375"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:58Z",
+  "fetched_at": "2026-08-11T17:24:20Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,

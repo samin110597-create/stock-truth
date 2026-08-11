@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-11T16:15:26Z",
+ "generated_at": "2026-08-11T17:23:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:26Z",
-  "current": 272.47,
-  "change": -5.62,
-  "change_pct": -2.0209,
+  "fetched_at": "2026-08-11T17:23:49Z",
+  "current": 271.69,
+  "change": -6.4,
+  "change_pct": -2.3014,
   "high": 278.84,
-  "low": 271.95,
+  "low": 271.42,
   "open": 278.095,
   "prev_close": 278.09,
-  "ts": 1786464897
+  "ts": 1786469013
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:26Z",
+  "fetched_at": "2026-08-11T17:23:49Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T16:15:26Z",
+  "fetched_at": "2026-08-11T17:23:49Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-11",
     "open": 278.695,
     "high": 278.71,
-    "low": 271.985,
-    "close": 272.36,
-    "volume": 393121.0
+    "low": 271.43,
+    "close": 271.64,
+    "volume": 580527.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:26Z",
+  "fetched_at": "2026-08-11T17:23:49Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,38 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T16:15:27Z",
-  "error": "Too Many Requests. Rate limited. Try after a while."
+  "fetched_at": "2026-08-11T17:23:50Z",
+  "analyst_target_mean": 325.19492,
+  "analyst_target_low": 230.0,
+  "analyst_target_high": 400.0,
+  "analyst_count": 59.0,
+  "recommendation": "strong_buy",
+  "forward_pe": 26.286137,
+  "forward_eps": 10.33054,
+  "short_pct_float": 0.0109,
+  "short_ratio": 1.78,
+  "short_asof": 1784073600,
+  "institutions_pct": 0.68117994,
+  "insiders_pct": 0.088690005,
+  "beta": 1.454,
+  "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:27Z",
+  "fetched_at": "2026-08-11T17:23:50Z",
   "rows": [
+   {
+    "ts": 1786466406,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
+   },
+   {
+    "ts": 1786449699,
+    "headline": "Irrational Exuberance On Overdrive",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
+   },
    {
     "ts": 1786449327,
     "headline": "The Trade Desk: Buying In The Middle Of An Existential Crisis",
@@ -7487,25 +7512,13 @@
     "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
-   },
-   {
-    "ts": 1786431568,
-    "headline": "The AI Mexican Standoff: Who Blinks First in the $1 Trillion Market?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4ad3594e07c5b0d622cc037619300be1e461e15f43928be05101067c46649340"
-   },
-   {
-    "ts": 1786431540,
-    "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T16:15:27Z",
+  "fetched_at": "2026-08-11T17:23:50Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
