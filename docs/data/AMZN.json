@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-11T19:31:10Z",
+ "generated_at": "2026-08-11T20:30:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:12Z",
-  "current": 272.72,
-  "change": -5.37,
-  "change_pct": -1.931,
+  "fetched_at": "2026-08-11T20:30:07Z",
+  "current": 272.27,
+  "change": -5.82,
+  "change_pct": -2.0928,
   "high": 278.84,
   "low": 271.36,
-  "open": 278.095,
+  "open": 278.69,
   "prev_close": 278.09,
-  "ts": 1786476660
+  "ts": 1786478400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:12Z",
+  "fetched_at": "2026-08-11T20:30:08Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T19:31:13Z",
+  "fetched_at": "2026-08-11T20:30:13Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 278.695,
     "high": 278.71,
     "low": 271.38,
-    "close": 272.505,
-    "volume": 857802.0
+    "close": 272.23,
+    "volume": 1060690.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:13Z",
+  "fetched_at": "2026-08-11T20:30:13Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T19:31:14Z",
+  "fetched_at": "2026-08-11T20:30:13Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.388494,
+  "forward_pe": 26.355833,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
@@ -7463,19 +7463,31 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:14Z",
+  "fetched_at": "2026-08-11T20:30:13Z",
   "rows": [
    {
-    "ts": 1786466406,
+    "ts": 1786475405,
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=dc7b678c7dd4cd6a3402643873b5496c8607351731d4b73f311288116d81b5e8"
+    "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
+   },
+   {
+    "ts": 1786463827,
+    "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
    },
    {
     "ts": 1786459101,
     "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
+   },
+   {
+    "ts": 1786455498,
+    "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data \u2014 And Warning Signs",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c"
    },
    {
     "ts": 1786453142,
@@ -7500,25 +7512,13 @@
     "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'\u2014 The Smoke Incident That Prompted a Recall Explains Why",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
-   },
-   {
-    "ts": 1786438500,
-    "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
-   },
-   {
-    "ts": 1786437900,
-    "headline": "Behind AI Investment, U.S. Trade Deficit Grows 4th Consecutive Month",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=97266ac649cf852f084780ba4da523061c75fc6f30e2f3e68c46be61a81d018f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:14Z",
+  "fetched_at": "2026-08-11T20:30:14Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-11T19:31:23Z",
+ "generated_at": "2026-08-11T20:30:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:23Z",
-  "current": 343.59,
-  "change": -12.25,
-  "change_pct": -3.4426,
+  "fetched_at": "2026-08-11T20:30:24Z",
+  "current": 343.0,
+  "change": -12.84,
+  "change_pct": -3.6084,
   "high": 355.0,
-  "low": 343.43,
-  "open": 354.5,
+  "low": 342.57,
+  "open": 354.0,
   "prev_close": 355.84,
-  "ts": 1786476660
+  "ts": 1786478400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:23Z",
+  "fetched_at": "2026-08-11T20:30:24Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T19:31:23Z",
+  "fetched_at": "2026-08-11T20:30:25Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-11",
     "open": 354.305,
     "high": 354.98,
-    "low": 343.42,
-    "close": 343.705,
-    "volume": 560866.0
+    "low": 342.6,
+    "close": 343.01,
+    "volume": 711461.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:24Z",
+  "fetched_at": "2026-08-11T20:30:25Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T19:31:24Z",
+  "fetched_at": "2026-08-11T20:30:25Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.29238,
+  "forward_pe": 23.271687,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:24Z",
+  "fetched_at": "2026-08-11T20:30:25Z",
   "rows": [
    {
     "ts": 1786459101,
@@ -7476,6 +7476,12 @@
     "headline": "Dividends Are Sending A Signal",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095"
+   },
+   {
+    "ts": 1786455313,
+    "headline": "10 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e3705f8e4e9c844f75e946e503a812964812718092e8ba35aa2e9784acfd9d9a"
    },
    {
     "ts": 1786453142,
@@ -7502,23 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=4fdcf24aa820c3eab3735e7e23db01551d8b1f85b4f2f07b05dd3fa803eaf540"
    },
    {
-    "ts": 1786439748,
-    "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'\u2014 The Smoke Incident That Prompted a Recall Explains Why",
+    "ts": 1786446598,
+    "headline": "\u2018White House Lifts Ban on TikTok From US Government Devices\u2019 - Bloomberg",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
-   },
-   {
-    "ts": 1786439341,
-    "headline": "Abbott Partners With Google Health To Combine Glucose Insights From Abbott's Lingo Biowearable With Google's Expertise In AI To Make Personalized Metabolic Insights More Actionable",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8e3ec80fd74ce35e77aac90235b0e7d528c318608293f82275d21fffb259acf7"
+    "url": "https://finnhub.io/api/news?id=3f9720a2c4dff684b3776f1f558b3c3e09a3ddb41330b9474b9911cbb77e31c1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:24Z",
+  "fetched_at": "2026-08-11T20:30:26Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T19:31:43Z",
+ "generated_at": "2026-08-11T20:30:46Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:43Z",
-  "current": 601.38,
-  "change": 6.46,
-  "change_pct": 1.0859,
+  "fetched_at": "2026-08-11T20:30:46Z",
+  "current": 599.12,
+  "change": 4.2,
+  "change_pct": 0.706,
   "high": 612.43,
   "low": 593.4,
-  "open": 596.365,
+  "open": 598.0,
   "prev_close": 594.92,
-  "ts": 1786476684
+  "ts": 1786478400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:43Z",
+  "fetched_at": "2026-08-11T20:30:46Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T19:31:43Z",
+  "fetched_at": "2026-08-11T20:30:47Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 597.755,
     "high": 612.31,
     "low": 593.41,
-    "close": 601.34,
-    "volume": 447586.0
+    "close": 599.165,
+    "volume": 512298.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:44Z",
+  "fetched_at": "2026-08-11T20:30:47Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T19:31:44Z",
+  "fetched_at": "2026-08-11T20:30:47Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.252401,
+  "forward_pe": 17.174145,
   "forward_eps": 34.885,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:44Z",
+  "fetched_at": "2026-08-11T20:30:47Z",
   "rows": [
+   {
+    "ts": 1786463827,
+    "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
+   },
+   {
+    "ts": 1786462146,
+    "headline": "Meta Q2: Strong Growth, But The AI Bill Is Becoming Hard To Ignore",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=13b752eec1ad83d7e70d346d0da86fb4a7b307615f74fa1940e9b05d3d982754"
+   },
    {
     "ts": 1786460454,
     "headline": "Meta Platforms: The Most Disrespected Name In Big Tech",
@@ -7493,41 +7505,29 @@
     "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
    },
    {
+    "ts": 1786455498,
+    "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data \u2014 And Warning Signs",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c"
+   },
+   {
+    "ts": 1786455313,
+    "headline": "10 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e3705f8e4e9c844f75e946e503a812964812718092e8ba35aa2e9784acfd9d9a"
+   },
+   {
     "ts": 1786453393,
     "headline": "Zuckerberg Wants AI for All \u2014 This CEO Says Open Models Are Making It Real",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=7ad4bb150fd973c42c700cf0d926954b58e4e24a66f70f872aec23bc3ad2aadc"
-   },
-   {
-    "ts": 1786453142,
-    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
-   },
-   {
-    "ts": 1786450347,
-    "headline": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=722f18cbd4f88f8eccb88965a68e3248d9d14ef0d9d13a9695f97d0bf0978786"
-   },
-   {
-    "ts": 1786449699,
-    "headline": "Irrational Exuberance On Overdrive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
-   },
-   {
-    "ts": 1786448383,
-    "headline": "Meta: The Mispriced Embedded AI Call Options",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a34e2896def789fe1225b991fc41d19cad86b20b72f19b52626a3c3c3f22c980"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T19:31:44Z",
+  "fetched_at": "2026-08-11T20:30:47Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,
