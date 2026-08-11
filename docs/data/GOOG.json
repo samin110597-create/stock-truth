@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-10T21:08:02Z",
+ "generated_at": "2026-08-11T14:09:17Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:02Z",
-  "current": 355.84,
-  "change": 2.37,
-  "change_pct": 0.6705,
-  "high": 355.93,
-  "low": 351.47,
-  "open": 354.24,
-  "prev_close": 353.47,
-  "ts": 1786392000
+  "fetched_at": "2026-08-11T14:09:17Z",
+  "current": 349.88,
+  "change": -5.96,
+  "change_pct": -1.6749,
+  "high": 355.0,
+  "low": 348.35,
+  "open": 354.5,
+  "prev_close": 355.84,
+  "ts": 1786457344
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:03Z",
+  "fetched_at": "2026-08-11T14:09:17Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4333089000000.0,
+  "mcap": 4372469599999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T21:08:05Z",
+  "fetched_at": "2026-08-11T14:09:17Z",
   "bars": [
-   {
-    "date": "2023-01-06",
-    "open": 87.36,
-    "high": 88.47,
-    "low": 85.57,
-    "close": 88.16,
-    "volume": 26612600.0
-   },
    {
     "date": "2023-01-09",
     "open": 89.195,
@@ -7218,19 +7210,27 @@
     "high": 357.54999,
     "low": 352.82001,
     "close": 353.47,
-    "volume": 14480400.0
+    "volume": 14516700.0
    },
    {
     "date": "2026-08-10",
     "open": 354.23999,
     "high": 355.92999,
     "low": 351.47,
-    "close": 355.89999,
-    "volume": 10051227.0
+    "close": 355.84,
+    "volume": 12243315.0
+   },
+   {
+    "date": "2026-08-11",
+    "open": 354.305,
+    "high": 354.98,
+    "low": 348.36,
+    "close": 349.79,
+    "volume": 92675.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-10",
+  "latest": "2026-08-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:05Z",
+  "fetched_at": "2026-08-11T14:09:17Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T21:08:06Z",
+  "fetched_at": "2026-08-11T14:09:18Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.150238,
+  "forward_pe": 23.744385,
   "forward_eps": 14.73443,
   "short_pct_float": null,
   "short_ratio": 2.47,
   "short_asof": 1784073600,
-  "institutions_pct": 0.60645,
+  "institutions_pct": 0.60636,
   "insiders_pct": 0.06598,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:06Z",
+  "fetched_at": "2026-08-11T14:09:18Z",
   "rows": [
    {
-    "ts": 1786390623,
-    "headline": "Microsoft Stock Rises 1.7% as JPMorgan Backs AI Payoff",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eaec0ca9403e5d7c7f1381d26f60cd8dd620444f801dc833a690d1f9ffc68424"
+    "ts": 1786452657,
+    "headline": "Alphabet (NASDAQ:GOOG) Combines Strong Growth with a Timely Technical Setup",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=338113e79c1915462acd6c617c2623fe235ec701004ecfb0a6a1647bfaed1c21"
    },
    {
-    "ts": 1786389692,
-    "headline": "Apollo Economist Drops Stark Take On AI Boom",
+    "ts": 1786438500,
+    "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=071c96b91ea6851709fc3bcf8485d69806d24608dce33a515ac66748fe54ba4f"
+    "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
    },
    {
-    "ts": 1786387938,
-    "headline": "Microsoft Rethinks Its Nvidia Reliance",
+    "ts": 1786437900,
+    "headline": "Behind AI Investment, U.S. Trade Deficit Grows 4th Consecutive Month",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dff1d54336f0699cb873f9ab1a36fd8c5ddd88f82b75c2186dfdb43d6c34e179"
+    "url": "https://finnhub.io/api/news?id=97266ac649cf852f084780ba4da523061c75fc6f30e2f3e68c46be61a81d018f"
    },
    {
-    "ts": 1786386633,
-    "headline": "Social media platforms still facing thousands of user addiction lawsuits after failed appeals",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4fdc34972b38765b69e29862f8d09d6854785fd769675fdaffdd222e26fc08ab"
+    "ts": 1786433400,
+    "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
    },
    {
-    "ts": 1786384364,
-    "headline": "9th Circuit rejects Meta bid to toss youth addiction lawsuits",
+    "ts": 1786431540,
+    "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=997733360b7050676e1f683005ee56dac36a32c640dc1f465fca392cd30ca2e9"
+    "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
    },
    {
-    "ts": 1786383813,
-    "headline": "IBM Stock Options Price A Band Half Above Today's Price And A Third Below",
+    "ts": 1786429997,
+    "headline": "INTC Stock Gains Overnight: Chipmaker Raising Share Sale To Over $20B?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c200acc5fb303a23e92d331f80afe380c75e8c24b935d7a152a0745874b906a0"
+    "url": "https://finnhub.io/api/news?id=5e29172080e17e9282980d67c7496fbcfc806b3084cdb528b7ad0f1fe2fee945"
    },
    {
-    "ts": 1786383114,
-    "headline": "Sector Update: Tech Stocks Decline Monday Afternoon",
+    "ts": 1786428621,
+    "headline": "Cloudflare Wants to Control the Identity and Money Layer for Agent Commerce",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=94f80c0bfac132841c8a93b2054dee2c11d9ed9c5211a57c1207a09b66cda794"
+    "url": "https://finnhub.io/api/news?id=3cd6d0cb18a0a4fe691f1f4798303e5d327a04e9ae62f42f200a1ce189183a1d"
    },
    {
-    "ts": 1786381048,
-    "headline": "Intel Plans $15 Billion Stock Offering as AI Demand Requires Higher Capital Spending",
+    "ts": 1786424504,
+    "headline": "Anthropic, OpenAI Said To Be Racing For Public Markets: Reports Of Pre-IPO Moves Tell Very Different Stories",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=663cb01e575e69a4fef90fad0b1c6c07b61764e2f7e1e26f97ddd24154c6a9fb"
+    "url": "https://finnhub.io/api/news?id=49fb6e5f7d9c985dfcfe26a9f99a424aa06015081a0f241885345366d77d0680"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:06Z",
+  "fetched_at": "2026-08-11T14:09:18Z",
   "error": "no insider filings in six months"
  },
  "peers": {

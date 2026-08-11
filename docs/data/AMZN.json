@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-10T21:07:51Z",
+ "generated_at": "2026-08-11T14:09:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:07:51Z",
-  "current": 278.09,
-  "change": 3.61,
-  "change_pct": 1.3152,
-  "high": 280.14,
-  "low": 273.6001,
-  "open": 274.01,
-  "prev_close": 274.48,
-  "ts": 1786392000
+  "fetched_at": "2026-08-11T14:09:06Z",
+  "current": 275.35,
+  "change": -2.74,
+  "change_pct": -0.9853,
+  "high": 278.84,
+  "low": 273.26,
+  "open": 278.095,
+  "prev_close": 278.09,
+  "ts": 1786457319
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:07:52Z",
+  "fetched_at": "2026-08-11T14:09:06Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2960627697287.8374,
+  "mcap": 2999566146769.0,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T21:07:52Z",
+  "fetched_at": "2026-08-11T14:09:07Z",
   "bars": [
-   {
-    "date": "2023-01-06",
-    "open": 83.029999,
-    "high": 86.4,
-    "low": 81.43,
-    "close": 86.080002,
-    "volume": 83303400.0
-   },
    {
     "date": "2023-01-09",
     "open": 87.46,
@@ -7218,19 +7210,27 @@
     "high": 278.31,
     "low": 272.75,
     "close": 274.48001,
-    "volume": 33833300.0
+    "volume": 33861400.0
    },
    {
     "date": "2026-08-10",
     "open": 274.20001,
     "high": 280.14001,
     "low": 273.6001,
-    "close": 278.079987,
-    "volume": 28529934.0
+    "close": 278.089996,
+    "volume": 34530747.0
+   },
+   {
+    "date": "2026-08-11",
+    "open": 278.695,
+    "high": 278.71,
+    "low": 273.27,
+    "close": 275.37,
+    "volume": 133209.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-10",
+  "latest": "2026-08-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:07:52Z",
+  "fetched_at": "2026-08-11T14:09:07Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T21:07:53Z",
+  "fetched_at": "2026-08-11T14:09:08Z",
   "analyst_target_mean": 324.94067,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.919212,
+  "forward_pe": 26.65398,
   "forward_eps": 10.33054,
   "short_pct_float": 0.0109,
   "short_ratio": 1.78,
   "short_asof": 1784073600,
-  "institutions_pct": 0.68084,
+  "institutions_pct": 0.68117994,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:07:53Z",
+  "fetched_at": "2026-08-11T14:09:08Z",
   "rows": [
    {
-    "ts": 1786390853,
-    "headline": "Nvidia Just Added $562 Billion in a Week",
+    "ts": 1786438500,
+    "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d9cdbfe7b7b6f269d9da16b4dc88ab0e76c2d0c2e7f77d0016e6753d3aeb1180"
+    "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
    },
    {
-    "ts": 1786390623,
-    "headline": "Microsoft Stock Rises 1.7% as JPMorgan Backs AI Payoff",
+    "ts": 1786437900,
+    "headline": "Behind AI Investment, U.S. Trade Deficit Grows 4th Consecutive Month",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eaec0ca9403e5d7c7f1381d26f60cd8dd620444f801dc833a690d1f9ffc68424"
+    "url": "https://finnhub.io/api/news?id=97266ac649cf852f084780ba4da523061c75fc6f30e2f3e68c46be61a81d018f"
    },
    {
-    "ts": 1786389692,
-    "headline": "Apollo Economist Drops Stark Take On AI Boom",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=071c96b91ea6851709fc3bcf8485d69806d24608dce33a515ac66748fe54ba4f"
+    "ts": 1786433400,
+    "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
    },
    {
-    "ts": 1786389005,
-    "headline": "Stay informed with the top movers within the dow jones index on Monday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=2f75049ab7be9065daa72677147eb7c5f80eb38c8674a895383a372bc4e3f887"
+    "ts": 1786431540,
+    "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
    },
    {
-    "ts": 1786387938,
-    "headline": "Microsoft Rethinks Its Nvidia Reliance",
+    "ts": 1786425900,
+    "headline": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dff1d54336f0699cb873f9ab1a36fd8c5ddd88f82b75c2186dfdb43d6c34e179"
+    "url": "https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44"
    },
    {
-    "ts": 1786384920,
-    "headline": "Amazon: A Post-Earnings Drift Candidate",
+    "ts": 1786422985,
+    "headline": "AMZN Stock to Close Above $300 by August End? Crypto Punters Bet on the Possibility Following Amazon's Impressive Q2 Performance",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c2508f489d5d2b680a70de11fcf29fc7b052fbac990ef2186fab044d32fbea38"
+    "url": "https://finnhub.io/api/news?id=b9b235447a8f31e2a0b64f6c2b9aaab8ea02e7021526cac689f0c43ff58ca623"
    },
    {
-    "ts": 1786383813,
-    "headline": "IBM Stock Options Price A Band Half Above Today's Price And A Third Below",
+    "ts": 1786414131,
+    "headline": "Is FedEx (FDX) Using Robotics To Sharpen Its Cost Edge Or Just Keep Pace With Rivals?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c200acc5fb303a23e92d331f80afe380c75e8c24b935d7a152a0745874b906a0"
+    "url": "https://finnhub.io/api/news?id=c59fcc9f4e9677563701370752cd48d371e54493fc7f0373acf499cf9bdde757"
    },
    {
-    "ts": 1786382400,
-    "headline": "Amazon Just Joined the $3 Trillion Club. Here's Why It Could Reach $5 Trillion by 2029.",
+    "ts": 1786414114,
+    "headline": "Dow Jones Futures: Trump Claims 'Control' Of Strait Of Hormuz; SpaceX Rival Rocket Lab Dives On Earnings",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47a4ad74211b65b0632e9a0352bdba6484a15d99354719129ba9b817b3f80c96"
+    "url": "https://finnhub.io/api/news?id=5ef4b2b2c7acca96aa82b9012e9994ee7882df64bd05adaa359f627b3a89dbda"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:07:53Z",
+  "fetched_at": "2026-08-11T14:09:08Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

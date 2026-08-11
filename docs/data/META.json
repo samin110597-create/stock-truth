@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-10T21:08:26Z",
+ "generated_at": "2026-08-11T14:09:37Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:26Z",
-  "current": 594.92,
-  "change": 2.82,
-  "change_pct": 0.4763,
-  "high": 608.21,
-  "low": 592.0301,
-  "open": 599.13,
-  "prev_close": 592.1,
-  "ts": 1786392000
+  "fetched_at": "2026-08-11T14:09:37Z",
+  "current": 608.87,
+  "change": 13.95,
+  "change_pct": 2.3449,
+  "high": 609.59,
+  "low": 593.4,
+  "open": 596.365,
+  "prev_close": 594.92,
+  "ts": 1786457345
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:26Z",
+  "fetched_at": "2026-08-11T14:09:37Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1508378444349.6836,
+  "mcap": 1515562305684.0,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T21:08:27Z",
+  "fetched_at": "2026-08-11T14:09:37Z",
   "bars": [
-   {
-    "date": "2023-01-06",
-    "open": 128.97,
-    "high": 130.33,
-    "low": 126.040001,
-    "close": 130.020004,
-    "volume": 27584500.0
-   },
    {
     "date": "2023-01-09",
     "open": 131.16,
@@ -7218,7 +7210,7 @@
     "high": 598.73999,
     "low": 585.62,
     "close": 592.099976,
-    "volume": 11226700.0
+    "volume": 11250300.0
    },
    {
     "date": "2026-08-10",
@@ -7227,10 +7219,18 @@
     "low": 592.03009,
     "close": 594.91998,
     "volume": 14317252.0
+   },
+   {
+    "date": "2026-08-11",
+    "open": 597.755,
+    "high": 609.58,
+    "low": 593.41,
+    "close": 608.59,
+    "volume": 86310.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-10",
+  "latest": "2026-08-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:27Z",
+  "fetched_at": "2026-08-11T14:09:37Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T21:08:27Z",
-  "analyst_target_mean": 756.94946,
+  "fetched_at": "2026-08-11T14:09:37Z",
+  "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.9318,
+  "forward_pe": 17.30976,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
   "short_asof": 1784073600,
-  "institutions_pct": 0.79004997,
-  "insiders_pct": 0.00145,
+  "institutions_pct": 0.79168,
+  "insiders_pct": 0.0014599999,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:28Z",
+  "fetched_at": "2026-08-11T14:09:37Z",
   "rows": [
    {
-    "ts": 1786391494,
-    "headline": "Sector Update: Tech Stocks Decline Late Afternoon",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=726dec967f312df0761d5640414c3e0682e72dc874c0b75fb09674733cba9848"
+    "ts": 1786434385,
+    "headline": "Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6"
    },
    {
-    "ts": 1786391158,
-    "headline": "AMD Brings Meta's New AI Model to PCs",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ddfd4d2552b69b55aca34eaa5d0b4977ac7aa8ea9a71c6fb6c835e0f60cd3e44"
+    "ts": 1786433400,
+    "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
    },
    {
-    "ts": 1786390467,
-    "headline": "Meta Stock Rises as $1 Billion AI Strategy Unfolds",
+    "ts": 1786431540,
+    "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=da47d3bf1ffab68ea35bb1033cf0756eb17b5e039b2f5cc6bd2a6a546b8802bb"
+    "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
    },
    {
-    "ts": 1786390236,
-    "headline": "CoreWeave to report second quarter results amid spending, margin concerns",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eca285e1c81e6871acd955ea350cd1fd7d1248ff0f43f4160c5d143b0650fc1c"
+    "ts": 1786422587,
+    "headline": "Meta Platforms: Additional AI Revenue Preferred, But Not Essential",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=03e16992c8a1584ddc66f49181306d05234b9499cd9cbcd1bcc3527ff9de4375"
    },
    {
-    "ts": 1786390200,
-    "headline": "Mark Zuckerberg says his daughter, 8, already codes and makes videos that would have been 'impossible previously'",
+    "ts": 1786406633,
+    "headline": "As Trump Media scraps some businesses, it's doubling down on Truth Social and the president",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=66152815a57f75ceaec7ff94d84e15d87475db7bf686572e17948d5fc5d7057e"
+    "url": "https://finnhub.io/api/news?id=b96fd1a3edaa98841f4d69f3cf9f18a83be64c30aedf4ebcf702c7c2637d9303"
    },
    {
-    "ts": 1786389692,
-    "headline": "Apollo Economist Drops Stark Take On AI Boom",
+    "ts": 1786406611,
+    "headline": "Nvidia, Wall Street firms plan $500 billion AI infrastructure push",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=071c96b91ea6851709fc3bcf8485d69806d24608dce33a515ac66748fe54ba4f"
+    "url": "https://finnhub.io/api/news?id=ec30c87fc0de235dd20224c2abb5029f534e0b9f34206dd993e489fbf8a18924"
    },
    {
-    "ts": 1786389300,
-    "headline": "Meta dangles $1 billion fund for \u2018customized investments and programs\u2019 in its data center towns",
+    "ts": 1786402077,
+    "headline": "Amazon Stock And The Profit Signal Everyone Is Chasing",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=709a1a9451fddcc867d52d9ecf4294faadb677a5171b4b0f6bcecb7513bf5b2a"
+    "url": "https://finnhub.io/api/news?id=1ef8bf9beed7f6643ed155c5b0b9106cc42a3358657037aad5fa6a82a8e7f533"
    },
    {
-    "ts": 1786389279,
-    "headline": "Mark Zuckerberg Is Borrowing Facebook's Old Playbook to Win the AI Race",
+    "ts": 1786398318,
+    "headline": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b3045d3f0f5ad7d9983e81278f51776369278e745825f23154a104624c2b10d0"
+    "url": "https://finnhub.io/api/news?id=3bdc105ee3048d988d6a714bb05bf22da8fc2f7478087d8f02c6188b3d174cfc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:28Z",
+  "fetched_at": "2026-08-11T14:09:38Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,

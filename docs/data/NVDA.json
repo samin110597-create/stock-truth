@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-10T21:08:15Z",
+ "generated_at": "2026-08-11T14:09:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:15Z",
-  "current": 217.55,
-  "change": -6.41,
-  "change_pct": -2.8621,
-  "high": 224.1379,
-  "low": 216.77,
-  "open": 223.4,
-  "prev_close": 223.96,
-  "ts": 1786392000
+  "fetched_at": "2026-08-11T14:09:27Z",
+  "current": 220.09,
+  "change": 2.54,
+  "change_pct": 1.1675,
+  "high": 222.2,
+  "low": 218.83,
+  "open": 220.4,
+  "prev_close": 217.55,
+  "ts": 1786457345
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:15Z",
+  "fetched_at": "2026-08-11T14:09:27Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5419832135951.973,
+  "mcap": 5264710073852.999,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-10T21:08:16Z",
+  "fetched_at": "2026-08-11T14:09:27Z",
   "bars": [
-   {
-    "date": "2023-01-06",
-    "open": 14.474,
-    "high": 15.01,
-    "low": 14.034,
-    "close": 14.859,
-    "volume": 405044000.0
-   },
    {
     "date": "2023-01-09",
     "open": 15.284,
@@ -7218,19 +7210,27 @@
     "high": 224.75999,
     "low": 220.66,
     "close": 223.96001,
-    "volume": 105473700.0
+    "volume": 105669400.0
    },
    {
     "date": "2026-08-10",
     "open": 223.45,
     "high": 224.13789,
     "low": 216.77,
-    "close": 217.56,
-    "volume": 95472742.0
+    "close": 217.55,
+    "volume": 108135773.0
+   },
+   {
+    "date": "2026-08-11",
+    "open": 222.15,
+    "high": 222.15,
+    "low": 218.84,
+    "close": 220.01,
+    "volume": 716237.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-10",
+  "latest": "2026-08-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:16Z",
+  "fetched_at": "2026-08-11T14:09:27Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T21:08:16Z",
+  "fetched_at": "2026-08-11T14:09:28Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.876862,
+  "forward_pe": 17.050632,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
   "short_asof": 1784073600,
-  "institutions_pct": 0.65789,
-  "insiders_pct": 0.03991,
+  "institutions_pct": 0.65872,
+  "insiders_pct": 0.039920002,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:17Z",
+  "fetched_at": "2026-08-11T14:09:28Z",
   "rows": [
    {
-    "ts": 1786391494,
-    "headline": "Sector Update: Tech Stocks Decline Late Afternoon",
+    "ts": 1786441500,
+    "headline": "Got $200 per Month? This ETF Could Turn It Into $455,865 With Minimal Effort on Your Part.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=726dec967f312df0761d5640414c3e0682e72dc874c0b75fb09674733cba9848"
+    "url": "https://finnhub.io/api/news?id=067ce25bcd54c989024e92b4738c929564c5e2cdb826f3a7a8eb374d1a5706b9"
    },
    {
-    "ts": 1786391349,
-    "headline": "Iovance Biotherapeutics Stock Soars After the Company Posts Strong Q2 Earnings. Is It Heading Even Higher?",
+    "ts": 1786440720,
+    "headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=edefa2cf6fdd60bba70576fc90995cb5e22c4bb92929d20986ab97083494aa14"
+    "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd"
    },
    {
-    "ts": 1786391192,
-    "headline": "Why Trump Media Stock Just Sank 9.4%",
+    "ts": 1786440600,
+    "headline": "A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Dividend Stock Down 45% to Buy Right Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=127ba38789c92d7145c7b6e57012aed62d533b072d680cd4e4e53e17472a9e73"
+    "url": "https://finnhub.io/api/news?id=e1ef89212091804c11309814f9fde46719b67b0d8e3bafb8780da4adf1dd9f60"
    },
    {
-    "ts": 1786391158,
-    "headline": "AMD Brings Meta's New AI Model to PCs",
+    "ts": 1786440360,
+    "headline": "Wall Street's Latest Blockbuster Stock Split Has Arrived -- and This Industry Titan Has Rallied 337,000% Over the Last 32 Years",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ddfd4d2552b69b55aca34eaa5d0b4977ac7aa8ea9a71c6fb6c835e0f60cd3e44"
+    "url": "https://finnhub.io/api/news?id=5d869b1d12e1ae5f556057e919fee888ec2199ab372f8838b3e462b6e6ef64c0"
    },
    {
-    "ts": 1786390853,
-    "headline": "Nvidia Just Added $562 Billion in a Week",
+    "ts": 1786440000,
+    "headline": "Canopy Growth: Penny Stock Purgatory -- or Cannabis Rebound in the Making?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d9cdbfe7b7b6f269d9da16b4dc88ab0e76c2d0c2e7f77d0016e6753d3aeb1180"
+    "url": "https://finnhub.io/api/news?id=fc963e934b5b198b4f70787f85846bbf6aa80ef686b0bde27234fd87036096ff"
    },
    {
-    "ts": 1786390740,
-    "headline": "Berkshire's Biggest Repurchase in Nearly Two Years Shrank the Share Count by 0.4%",
+    "ts": 1786439280,
+    "headline": "Should You Really Buy Stocks Right Now With the S&P 500 Near Its Record High? Warren Buffett Has Good Advice for Investors.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3a21023f6f7758ec2218d4515460717385d44cb28a18995cc025e6898bb261d4"
+    "url": "https://finnhub.io/api/news?id=ce7d18ce98da7ab2d239b46479045ac991c3d566bec64b4051ead40727c00ca3"
    },
    {
-    "ts": 1786390500,
-    "headline": "Is SoundHound AI Stock a Buy After Posting Massive Growth in Q2?",
+    "ts": 1786439220,
+    "headline": "1 No-Brainer Growth ETF to Buy Right Now for Less Than $1,000",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=568014499cb0a786479e167c6d48b92d9c0ebacd343f480e5f2847a3214e7c8d"
+    "url": "https://finnhub.io/api/news?id=1ded5df88b9cb79d2ba44fa03f2d038ede67d4216632a74d425b1e3c4e9d8811"
    },
    {
-    "ts": 1786389971,
-    "headline": "Nvidia Stock Falls. A $3 Billion AI Infrastructure Bet Could Be Next",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6e35fc514f78d8e8092c31998882af3ce551e3a7f8f03035e954f066efa6efc1"
+    "ts": 1786438872,
+    "headline": "Priced For Perfection: Why AMD's Growth Thesis Faces A Structural Ceiling",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=0444eb16d34d5a7b98ca37e5cd17f9d65eb0a7bf0bca32d4b46727d4ffb493e6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-10T21:08:17Z",
+  "fetched_at": "2026-08-11T14:09:28Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
