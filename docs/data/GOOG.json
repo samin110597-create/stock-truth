@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-11T20:30:23Z",
+ "generated_at": "2026-08-11T21:22:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T20:30:24Z",
+  "fetched_at": "2026-08-11T21:22:05Z",
   "current": 343.0,
   "change": -12.84,
   "change_pct": -3.6084,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T20:30:24Z",
+  "fetched_at": "2026-08-11T21:22:05Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T20:30:25Z",
+  "fetched_at": "2026-08-11T21:22:05Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-11",
-    "open": 354.305,
-    "high": 354.98,
-    "low": 342.6,
-    "close": 343.01,
-    "volume": 711461.0
+    "open": 354.22,
+    "high": 355.0,
+    "low": 342.57001,
+    "close": 343.029999,
+    "volume": 14058423.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T20:30:25Z",
+  "fetched_at": "2026-08-11T21:22:06Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T20:30:25Z",
+  "fetched_at": "2026-08-11T21:22:06Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T20:30:25Z",
+  "fetched_at": "2026-08-11T21:22:06Z",
   "rows": [
+   {
+    "ts": 1786467145,
+    "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
+   },
    {
     "ts": 1786459101,
     "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
@@ -7506,19 +7512,13 @@
     "headline": "Alphabet Is Poised to Be an AI Winner, Analyst Says",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=4fdcf24aa820c3eab3735e7e23db01551d8b1f85b4f2f07b05dd3fa803eaf540"
-   },
-   {
-    "ts": 1786446598,
-    "headline": "\u2018White House Lifts Ban on TikTok From US Government Devices\u2019 - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3f9720a2c4dff684b3776f1f558b3c3e09a3ddb41330b9474b9911cbb77e31c1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T20:30:26Z",
+  "fetched_at": "2026-08-11T21:22:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {
