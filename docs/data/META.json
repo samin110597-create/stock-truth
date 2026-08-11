@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T18:13:04Z",
+ "generated_at": "2026-08-11T19:31:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:13:04Z",
-  "current": 604.29,
-  "change": 9.37,
-  "change_pct": 1.575,
+  "fetched_at": "2026-08-11T19:31:43Z",
+  "current": 601.38,
+  "change": 6.46,
+  "change_pct": 1.0859,
   "high": 612.43,
   "low": 593.4,
   "open": 596.365,
   "prev_close": 594.92,
-  "ts": 1786471965
+  "ts": 1786476684
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:13:04Z",
+  "fetched_at": "2026-08-11T19:31:43Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T18:13:04Z",
+  "fetched_at": "2026-08-11T19:31:43Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 597.755,
     "high": 612.31,
     "low": 593.41,
-    "close": 604.08,
-    "volume": 383525.0
+    "close": 601.34,
+    "volume": 447586.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:13:04Z",
+  "fetched_at": "2026-08-11T19:31:44Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T18:13:05Z",
+  "fetched_at": "2026-08-11T19:31:44Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.203032,
-  "forward_eps": 35.13625,
+  "forward_pe": 17.252401,
+  "forward_eps": 34.885,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
   "short_asof": 1784073600,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:13:05Z",
+  "fetched_at": "2026-08-11T19:31:44Z",
   "rows": [
+   {
+    "ts": 1786460454,
+    "headline": "Meta Platforms: The Most Disrespected Name In Big Tech",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3200b87a086fa449fae825fe8204ed3785929e8a5f9670204b1462537ea0bb5d"
+   },
+   {
+    "ts": 1786459140,
+    "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53"
+   },
+   {
+    "ts": 1786459101,
+    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
+   },
+   {
+    "ts": 1786453393,
+    "headline": "Zuckerberg Wants AI for All \u2014 This CEO Says Open Models Are Making It Real",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7ad4bb150fd973c42c700cf0d926954b58e4e24a66f70f872aec23bc3ad2aadc"
+   },
+   {
+    "ts": 1786453142,
+    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
+   },
    {
     "ts": 1786450347,
     "headline": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
@@ -7491,43 +7521,13 @@
     "headline": "Meta: The Mispriced Embedded AI Call Options",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=a34e2896def789fe1225b991fc41d19cad86b20b72f19b52626a3c3c3f22c980"
-   },
-   {
-    "ts": 1786434385,
-    "headline": "Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6"
-   },
-   {
-    "ts": 1786433400,
-    "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
-   },
-   {
-    "ts": 1786432347,
-    "headline": "Meta, TikTok, Google and Snap Just Lost a Major Court Battle\u2014 and Must Face More Than 3,000 Lawsuits Over Addictive Platforms Targeting Young Users",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=58988733d04deb8eae00a1bbfda622ed0a2d6cb962329f2464b4589cbe6a3df3"
-   },
-   {
-    "ts": 1786432272,
-    "headline": "Gavin Newsom Launches AI Cyber Defense Program: \u2018AI-Enabled Cybersecurity Threats Are No Longer Hypothetical\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=cda16bdb5a3e4c3236d1e6242ea2e8e615e1c249f5e8308381ad7fd879e11378"
-   },
-   {
-    "ts": 1786431568,
-    "headline": "The AI Mexican Standoff: Who Blinks First in the $1 Trillion Market?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4ad3594e07c5b0d622cc037619300be1e461e15f43928be05101067c46649340"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:13:05Z",
+  "fetched_at": "2026-08-11T19:31:44Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-11T18:12:54Z",
+ "generated_at": "2026-08-11T19:31:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:54Z",
-  "current": 217.21,
-  "change": -0.34,
-  "change_pct": -0.1563,
+  "fetched_at": "2026-08-11T19:31:33Z",
+  "current": 217.94,
+  "change": 0.39,
+  "change_pct": 0.1793,
   "high": 222.2,
-  "low": 216.72,
+  "low": 216.2,
   "open": 220.4,
   "prev_close": 217.55,
-  "ts": 1786471944
+  "ts": 1786476684
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:54Z",
+  "fetched_at": "2026-08-11T19:31:33Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T18:12:54Z",
+  "fetched_at": "2026-08-11T19:31:34Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-11",
     "open": 222.15,
     "high": 222.15,
-    "low": 216.72,
-    "close": 217.18,
-    "volume": 3139664.0
+    "low": 216.2,
+    "close": 217.925,
+    "volume": 3675594.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:54Z",
+  "fetched_at": "2026-08-11T19:31:34Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T18:12:54Z",
+  "fetched_at": "2026-08-11T19:31:34Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.843517,
+  "forward_pe": 16.906727,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:55Z",
+  "fetched_at": "2026-08-11T19:31:34Z",
   "rows": [
+   {
+    "ts": 1786471501,
+    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26"
+   },
+   {
+    "ts": 1786459140,
+    "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53"
+   },
+   {
+    "ts": 1786459101,
+    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
+   },
    {
     "ts": 1786455178,
     "headline": "This Is A Market Of High Expectations",
@@ -7487,6 +7505,12 @@
     "url": "https://finnhub.io/api/news?id=f847afba36db398499a2001b95b9eb0a543bb254217d503204ec6c0eca665057"
    },
    {
+    "ts": 1786453142,
+    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
+   },
+   {
     "ts": 1786453097,
     "headline": "Nvidia's $500 billion financing deal: How to trade it",
     "source": "CNBC",
@@ -7497,37 +7521,13 @@
     "headline": "Burry Vs. Jensen: The Number That Breaks The AI Boom",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=478590cf2ffd425a5e1d19cdd3bfa4cf77ae442ef402eded0ba252a47a5e26be"
-   },
-   {
-    "ts": 1786451877,
-    "headline": "AI Capex To Hit $1 Trillion - And Estimates Are Still Too Low",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3f01b3e455947a274b18e95b4d53060b9481c11ccd76a45083b3e7a4729e7e3e"
-   },
-   {
-    "ts": 1786449699,
-    "headline": "Irrational Exuberance On Overdrive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
-   },
-   {
-    "ts": 1786448274,
-    "headline": "Nvidia: Not Cheap Enough, Yet",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=79a60b39d45bf63ac557e5e9bdd03cb1c96d950b46c554f6fd4941e27d81828a"
-   },
-   {
-    "ts": 1786444531,
-    "headline": "Bessemer\u2019s Deeter on Nvidia's $500 billion Wall Street deal: \u2018A great maturation of the ecosystem\u2019",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=08dba4da34529e2d85ea49d8c32eece71695568bdf9474b55a33731ac364ee3f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:55Z",
+  "fetched_at": "2026-08-11T19:31:34Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

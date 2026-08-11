@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-11T18:12:43Z",
+ "generated_at": "2026-08-11T19:31:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:44Z",
-  "current": 345.71,
-  "change": -10.13,
-  "change_pct": -2.8468,
+  "fetched_at": "2026-08-11T19:31:23Z",
+  "current": 343.59,
+  "change": -12.25,
+  "change_pct": -3.4426,
   "high": 355.0,
-  "low": 345.61,
+  "low": 343.43,
   "open": 354.5,
   "prev_close": 355.84,
-  "ts": 1786471943
+  "ts": 1786476660
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:44Z",
+  "fetched_at": "2026-08-11T19:31:23Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T18:12:44Z",
+  "fetched_at": "2026-08-11T19:31:23Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-11",
     "open": 354.305,
     "high": 354.98,
-    "low": 345.64,
-    "close": 345.68,
-    "volume": 416097.0
+    "low": 343.42,
+    "close": 343.705,
+    "volume": 560866.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:44Z",
+  "fetched_at": "2026-08-11T19:31:24Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T18:12:44Z",
+  "fetched_at": "2026-08-11T19:31:24Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.45805,
+  "forward_pe": 23.29238,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.47,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:45Z",
+  "fetched_at": "2026-08-11T19:31:24Z",
   "rows": [
+   {
+    "ts": 1786459101,
+    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
+   },
+   {
+    "ts": 1786456982,
+    "headline": "Dividends Are Sending A Signal",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095"
+   },
+   {
+    "ts": 1786453142,
+    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
+   },
    {
     "ts": 1786452657,
     "headline": "Alphabet (NASDAQ:GOOG) Combines Strong Growth with a Timely Technical Setup",
@@ -7478,6 +7496,12 @@
     "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
    },
    {
+    "ts": 1786448740,
+    "headline": "Alphabet Is Poised to Be an AI Winner, Analyst Says",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4fdcf24aa820c3eab3735e7e23db01551d8b1f85b4f2f07b05dd3fa803eaf540"
+   },
+   {
     "ts": 1786439748,
     "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'\u2014 The Smoke Incident That Prompted a Recall Explains Why",
     "source": "Benzinga",
@@ -7488,37 +7512,13 @@
     "headline": "Abbott Partners With Google Health To Combine Glucose Insights From Abbott's Lingo Biowearable With Google's Expertise In AI To Make Personalized Metabolic Insights More Actionable",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=8e3ec80fd74ce35e77aac90235b0e7d528c318608293f82275d21fffb259acf7"
-   },
-   {
-    "ts": 1786438500,
-    "headline": "This AI Cloud Stock Is Obliterating Amazon, Microsoft, and Alphabet With a 1-Year Return of 275%. Is It Still a Buy?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8ebe30cd8b7dc05c7c9e8a6b162056fbf75580e6b037e11f3f877315b7f675aa"
-   },
-   {
-    "ts": 1786437900,
-    "headline": "Behind AI Investment, U.S. Trade Deficit Grows 4th Consecutive Month",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=97266ac649cf852f084780ba4da523061c75fc6f30e2f3e68c46be61a81d018f"
-   },
-   {
-    "ts": 1786433400,
-    "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3fdd8e6cedbdfd6d69208ce3df11f071f2d801b79b60a4325f8e6e15b558f252"
-   },
-   {
-    "ts": 1786432347,
-    "headline": "Meta, TikTok, Google and Snap Just Lost a Major Court Battle\u2014 and Must Face More Than 3,000 Lawsuits Over Addictive Platforms Targeting Young Users",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=58988733d04deb8eae00a1bbfda622ed0a2d6cb962329f2464b4589cbe6a3df3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T18:12:45Z",
+  "fetched_at": "2026-08-11T19:31:24Z",
   "error": "no insider filings in six months"
  },
  "peers": {
