@@ -4,8 +4,8 @@
   "library": "scikit-learn",
   "library_version": "1.9.0",
   "symbol": "NVDA",
-  "generated_at": "2026-08-08T21:07:16Z",
-  "source_snapshot_generated_at": "2026-08-07T21:05:40Z",
+  "generated_at": "2026-08-11T02:34:19Z",
+  "source_snapshot_generated_at": "2026-08-10T21:08:15Z",
   "closed_bars_only": true,
   "features": [
     "ret_1",
@@ -40,7 +40,7 @@
     "A probability is not a guarantee and NO_VERIFIED_EDGE is a valid model outcome."
   ],
   "benchmark": "SPY",
-  "last_signal_date": "2026-08-07",
+  "last_signal_date": "2026-08-10",
   "bars_used": 900,
   "horizons": {
     "5d": {
@@ -48,45 +48,45 @@
       "status": "NO_VERIFIED_EDGE",
       "edge_verified": false,
       "prediction": "NO VERIFIED EDGE",
-      "prob_up": 0.5954385378522803,
-      "expected_return_median": 0.001441995603096618,
-      "expected_return_p20": -0.05421142969886683,
-      "expected_return_p80": 0.0261913349145563,
+      "prob_up": 0.5968735806346335,
+      "expected_return_median": -0.009573118215664096,
+      "expected_return_p20": -0.03437937267538389,
+      "expected_return_p80": 0.026356746726834492,
       "confidence": "LOW",
       "metrics": {
         "oos_samples": 580,
         "walk_forward_splits": 5,
         "accuracy": 0.5706896551724138,
-        "balanced_accuracy": 0.502984748662323,
-        "roc_auc": 0.5396935172715029,
-        "brier": 0.24317348875522257,
+        "balanced_accuracy": 0.5,
+        "roc_auc": 0.51365583178636,
+        "brier": 0.24448119893388956,
         "baseline_accuracy": 0.5706896551724138,
         "baseline_brier": 0.24500297265160517,
-        "brier_skill": 0.007467190608271233,
+        "brier_skill": 0.0021296628039594273,
         "positive_rate": 0.5706896551724138,
-        "median_return_mae": 0.054776104842868344,
-        "zero_return_mae": 0.050234042724211996
+        "median_return_mae": 0.05673515195890038,
+        "zero_return_mae": 0.05028412509473169
       },
       "top_features": [
         {
           "feature": "sma20_rel",
-          "importance": 0.037009184566269754
+          "importance": 0.025201219039887354
         },
         {
           "feature": "beta60",
-          "importance": 0.010174218088713181
+          "importance": 0.011175620320421402
+        },
+        {
+          "feature": "sma200_rel",
+          "importance": 0.008976583800675855
         },
         {
           "feature": "corr60",
-          "importance": 0.008769115408561082
+          "importance": 0.007851087603411924
         },
         {
-          "feature": "trend_spread",
-          "importance": 0.005916064400418225
-        },
-        {
-          "feature": "relative_ret_21",
-          "importance": 0.0030571467357714474
+          "feature": "atr14_pct",
+          "importance": 0.005324898220611579
         }
       ],
       "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"
@@ -96,45 +96,45 @@
       "status": "NO_VERIFIED_EDGE",
       "edge_verified": false,
       "prediction": "NO VERIFIED EDGE",
-      "prob_up": 0.6406096471848262,
-      "expected_return_median": -0.04058683527340506,
-      "expected_return_p20": -0.05397911081597388,
-      "expected_return_p80": 0.011969421003214544,
+      "prob_up": 0.6567808331968334,
+      "expected_return_median": -0.027344776312534767,
+      "expected_return_p20": -0.0358925431519996,
+      "expected_return_p80": -0.0010588086495604545,
       "confidence": "LOW",
       "metrics": {
         "oos_samples": 565,
         "walk_forward_splits": 5,
         "accuracy": 0.6035398230088496,
         "balanced_accuracy": 0.5,
-        "roc_auc": 0.5651445328864684,
-        "brier": 0.23870188731050257,
+        "roc_auc": 0.5731174067867617,
+        "brier": 0.2381094482407577,
         "baseline_accuracy": 0.6035398230088496,
         "baseline_brier": 0.23927950505129614,
-        "brier_skill": 0.002413987527555858,
+        "brier_skill": 0.00488991654461844,
         "positive_rate": 0.6035398230088496,
-        "median_return_mae": 0.1489506361254653,
-        "zero_return_mae": 0.09466657893144875
+        "median_return_mae": 0.14928330404186696,
+        "zero_return_mae": 0.09465307262303968
       },
       "top_features": [
         {
-          "feature": "atr14_pct",
-          "importance": 0.02012299466822657
-        },
-        {
           "feature": "ret_63",
-          "importance": 0.017698770931300727
+          "importance": 0.01167842175612286
         },
         {
           "feature": "drawdown63",
-          "importance": 0.011958324474208325
+          "importance": 0.010980459717405272
+        },
+        {
+          "feature": "corr60",
+          "importance": 0.006181817576499243
         },
         {
           "feature": "rsi14",
-          "importance": 0.009464499039189299
+          "importance": 0.0054876165931433685
         },
         {
-          "feature": "bench_ret_5",
-          "importance": 0.004472103913938617
+          "feature": "sma50_rel",
+          "importance": 0.0026332044642197946
         }
       ],
       "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"

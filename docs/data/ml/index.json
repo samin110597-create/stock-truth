@@ -1,31 +1,31 @@
 {
   "schema_version": 1,
   "model_version": "stock-truth-ml-v1",
-  "generated_at": "2026-08-08T21:07:26Z",
+  "generated_at": "2026-08-11T02:34:30Z",
   "library": "scikit-learn",
   "tickers": [
     {
       "symbol": "AMZN",
       "status": "NO_VERIFIED_EDGE",
-      "generated_at": "2026-08-08T21:06:44Z",
+      "generated_at": "2026-08-11T02:33:47Z",
       "file": "AMZN.json"
     },
     {
       "symbol": "GOOG",
       "status": "NO_VERIFIED_EDGE",
-      "generated_at": "2026-08-08T21:06:55Z",
+      "generated_at": "2026-08-11T02:33:58Z",
       "file": "GOOG.json"
     },
     {
       "symbol": "META",
       "status": "NO_VERIFIED_EDGE",
-      "generated_at": "2026-08-08T21:07:05Z",
+      "generated_at": "2026-08-11T02:34:08Z",
       "file": "META.json"
     },
     {
       "symbol": "NVDA",
       "status": "NO_VERIFIED_EDGE",
-      "generated_at": "2026-08-08T21:07:16Z",
+      "generated_at": "2026-08-11T02:34:19Z",
       "file": "NVDA.json"
     }
   ]
