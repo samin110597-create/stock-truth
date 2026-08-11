@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-11T17:24:09Z",
+ "generated_at": "2026-08-11T18:12:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:09Z",
-  "current": 217.33,
-  "change": -0.22,
-  "change_pct": -0.1011,
+  "fetched_at": "2026-08-11T18:12:54Z",
+  "current": 217.21,
+  "change": -0.34,
+  "change_pct": -0.1563,
   "high": 222.2,
   "low": 216.72,
   "open": 220.4,
   "prev_close": 217.55,
-  "ts": 1786469016
+  "ts": 1786471944
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:09Z",
+  "fetched_at": "2026-08-11T18:12:54Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T17:24:09Z",
+  "fetched_at": "2026-08-11T18:12:54Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 222.15,
     "high": 222.15,
     "low": 216.72,
-    "close": 217.29,
-    "volume": 2819823.0
+    "close": 217.18,
+    "volume": 3139664.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:09Z",
+  "fetched_at": "2026-08-11T18:12:54Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T17:24:10Z",
+  "fetched_at": "2026-08-11T18:12:54Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.852812,
+  "forward_pe": 16.843517,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0139,
   "short_ratio": 2.24,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:10Z",
+  "fetched_at": "2026-08-11T18:12:55Z",
   "rows": [
+   {
+    "ts": 1786455178,
+    "headline": "This Is A Market Of High Expectations",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=77a17cf085007c2f59ce02c92c370eab249e7c2d62c46567ca172b98b368bc4e"
+   },
+   {
+    "ts": 1786454480,
+    "headline": "Nvidia: Guess Who Backstops The $500 Billion (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f847afba36db398499a2001b95b9eb0a543bb254217d503204ec6c0eca665057"
+   },
+   {
+    "ts": 1786453097,
+    "headline": "Nvidia's $500 billion financing deal: How to trade it",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=642dfff22cb0816f7f5e6c93c330b4f0bd919c71e7519326ea8ca2f9f2816407"
+   },
    {
     "ts": 1786452577,
     "headline": "Burry Vs. Jensen: The Number That Breaks The AI Boom",
@@ -7499,35 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=79a60b39d45bf63ac557e5e9bdd03cb1c96d950b46c554f6fd4941e27d81828a"
    },
    {
-    "ts": 1786441500,
-    "headline": "Got $200 per Month? This ETF Could Turn It Into $455,865 With Minimal Effort on Your Part.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=067ce25bcd54c989024e92b4738c929564c5e2cdb826f3a7a8eb374d1a5706b9"
-   },
-   {
-    "ts": 1786440720,
-    "headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd"
-   },
-   {
-    "ts": 1786440600,
-    "headline": "A Once-in-a-Decade Opportunity: 1 Magnificent S&P 500 Dividend Stock Down 45% to Buy Right Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e1ef89212091804c11309814f9fde46719b67b0d8e3bafb8780da4adf1dd9f60"
-   },
-   {
-    "ts": 1786440360,
-    "headline": "Wall Street's Latest Blockbuster Stock Split Has Arrived -- and This Industry Titan Has Rallied 337,000% Over the Last 32 Years",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5d869b1d12e1ae5f556057e919fee888ec2199ab372f8838b3e462b6e6ef64c0"
+    "ts": 1786444531,
+    "headline": "Bessemer\u2019s Deeter on Nvidia's $500 billion Wall Street deal: \u2018A great maturation of the ecosystem\u2019",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=08dba4da34529e2d85ea49d8c32eece71695568bdf9474b55a33731ac364ee3f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:10Z",
+  "fetched_at": "2026-08-11T18:12:55Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

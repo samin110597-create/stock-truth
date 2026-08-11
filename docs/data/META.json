@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T17:24:19Z",
+ "generated_at": "2026-08-11T18:13:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:19Z",
-  "current": 603.5,
-  "change": 8.58,
-  "change_pct": 1.4422,
+  "fetched_at": "2026-08-11T18:13:04Z",
+  "current": 604.29,
+  "change": 9.37,
+  "change_pct": 1.575,
   "high": 612.43,
   "low": 593.4,
   "open": 596.365,
   "prev_close": 594.92,
-  "ts": 1786469037
+  "ts": 1786471965
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:19Z",
+  "fetched_at": "2026-08-11T18:13:04Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T17:24:19Z",
+  "fetched_at": "2026-08-11T18:13:04Z",
   "bars": [
    {
     "date": "2023-01-09",
@@ -7225,8 +7225,8 @@
     "open": 597.755,
     "high": 612.31,
     "low": 593.41,
-    "close": 603.475,
-    "volume": 342479.0
+    "close": 604.08,
+    "volume": 383525.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:19Z",
+  "fetched_at": "2026-08-11T18:13:04Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T17:24:20Z",
+  "fetched_at": "2026-08-11T18:13:05Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.182056,
+  "forward_pe": 17.203032,
   "forward_eps": 35.13625,
   "short_pct_float": 0.0172,
   "short_ratio": 1.85,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:20Z",
+  "fetched_at": "2026-08-11T18:13:05Z",
   "rows": [
+   {
+    "ts": 1786450347,
+    "headline": "Manus to return as independent company after China forced Meta to unwind $2 billion deal",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=722f18cbd4f88f8eccb88965a68e3248d9d14ef0d9d13a9695f97d0bf0978786"
+   },
    {
     "ts": 1786449699,
     "headline": "Irrational Exuberance On Overdrive",
@@ -7515,19 +7521,13 @@
     "headline": "The AI Mexican Standoff: Who Blinks First in the $1 Trillion Market?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=4ad3594e07c5b0d622cc037619300be1e461e15f43928be05101067c46649340"
-   },
-   {
-    "ts": 1786431540,
-    "headline": "AI\u2019s biggest buildout is here. These stocks offer a way to invest in the data center boom",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=98de8d77052dfb76d7d0a47caa21dc7cf8a16f713bba76fa091baca915a70d43"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T17:24:20Z",
+  "fetched_at": "2026-08-11T18:13:05Z",
   "buys": 140,
   "sells": 266,
   "net_shares": 3200927.0,
