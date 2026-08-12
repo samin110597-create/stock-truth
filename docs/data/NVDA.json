@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-11T21:22:15Z",
+ "generated_at": "2026-08-12T14:10:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:15Z",
-  "current": 217.5,
-  "change": -0.05,
-  "change_pct": -0.023,
-  "high": 222.2,
-  "low": 216.2,
-  "open": 222.17,
-  "prev_close": 217.55,
-  "ts": 1786478400
+  "fetched_at": "2026-08-12T14:10:29Z",
+  "current": 223.03,
+  "change": 5.53,
+  "change_pct": 2.5425,
+  "high": 224.05,
+  "low": 219.7,
+  "open": 219.7,
+  "prev_close": 217.5,
+  "ts": 1786543802
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:15Z",
+  "fetched_at": "2026-08-12T14:10:30Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5264710073852.999,
+  "mcap": 5263500073836.025,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T21:22:16Z",
+  "fetched_at": "2026-08-12T14:10:32Z",
   "bars": [
-   {
-    "date": "2023-01-09",
-    "open": 15.284,
-    "high": 16.056,
-    "low": 15.141,
-    "close": 15.628,
-    "volume": 504231000.0
-   },
    {
     "date": "2023-01-10",
     "open": 15.507,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-10",
-    "open": 223.45,
-    "high": 224.13789,
+    "open": 223.39999,
+    "high": 224.14,
     "low": 216.77,
     "close": 217.55,
-    "volume": 108135773.0
+    "volume": 115846600.0
    },
    {
     "date": "2026-08-11",
     "open": 222.14999,
     "high": 222.2,
-    "low": 216.2,
-    "close": 217.48,
-    "volume": 82071342.0
+    "low": 216.3,
+    "close": 217.5,
+    "volume": 95707655.0
+   },
+   {
+    "date": "2026-08-12",
+    "open": 221.01,
+    "high": 224.04,
+    "low": 220.22,
+    "close": 222.94,
+    "volume": 976351.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-11",
+  "latest": "2026-08-12",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:16Z",
+  "fetched_at": "2026-08-12T14:10:32Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,26 +7454,62 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T21:22:16Z",
+  "fetched_at": "2026-08-12T14:10:33Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.872982,
+  "forward_pe": 17.279873,
   "forward_eps": 12.89043,
-  "short_pct_float": 0.0139,
-  "short_ratio": 2.24,
-  "short_asof": 1784073600,
-  "institutions_pct": 0.65872,
+  "short_pct_float": 0.0126,
+  "short_ratio": 2.23,
+  "short_asof": 1785456000,
+  "institutions_pct": 0.65809995,
   "insiders_pct": 0.039920002,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:16Z",
+  "fetched_at": "2026-08-12T14:10:33Z",
   "rows": [
+   {
+    "ts": 1786536472,
+    "headline": "The Great Robotics Divergence: AI-Native Names Surge, Legacy Vendors Stall",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=ef451f9499af34533ae30d3e1b54e0a34473a1f1ddc55357686b7e270ffc3249"
+   },
+   {
+    "ts": 1786526111,
+    "headline": "Apple: A Rare Downgrade That Has Nothing To Do With AI",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=4171a74fc19d28a8575737b467c005c20981a5be33b08b5a610d02a9b3954457"
+   },
+   {
+    "ts": 1786524648,
+    "headline": "AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec"
+   },
+   {
+    "ts": 1786524421,
+    "headline": "Nvidia's $500 Billion Deal Changes AI Story",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=58dc2dd6bfeea65c2ceaf36455009b4e9ac024684092e5c7ba66f30ef21800c0"
+   },
+   {
+    "ts": 1786518300,
+    "headline": "It's The Best Time In Years To Retire",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
+   },
+   {
+    "ts": 1786511876,
+    "headline": "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d4b7a735bf88bd4570e5d719f20843dd127119f7008d5cc9b8d58b084a4ab2f6"
+   },
    {
     "ts": 1786471501,
     "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
@@ -7481,53 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26"
    },
    {
-    "ts": 1786467145,
-    "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
+    "ts": 1786469863,
+    "headline": "Wall Street Is Repackaging The AI Bubble",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
-   },
-   {
-    "ts": 1786459597,
-    "headline": "Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7aa34f9b9597250b8a19d3e4f0025de2a79a36fb32c0ab8ff85fbde11d119a34"
-   },
-   {
-    "ts": 1786459140,
-    "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53"
-   },
-   {
-    "ts": 1786459101,
-    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
-   },
-   {
-    "ts": 1786455178,
-    "headline": "This Is A Market Of High Expectations",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=77a17cf085007c2f59ce02c92c370eab249e7c2d62c46567ca172b98b368bc4e"
-   },
-   {
-    "ts": 1786454480,
-    "headline": "Nvidia: Guess Who Backstops The $500 Billion (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f847afba36db398499a2001b95b9eb0a543bb254217d503204ec6c0eca665057"
-   },
-   {
-    "ts": 1786453142,
-    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
+    "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:16Z",
+  "fetched_at": "2026-08-12T14:10:33Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

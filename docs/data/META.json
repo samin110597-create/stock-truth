@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-11T21:22:25Z",
+ "generated_at": "2026-08-12T14:10:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:26Z",
-  "current": 599.12,
-  "change": 4.2,
-  "change_pct": 0.706,
-  "high": 612.43,
-  "low": 593.4,
-  "open": 598.0,
-  "prev_close": 594.92,
-  "ts": 1786478400
+  "fetched_at": "2026-08-12T14:10:42Z",
+  "current": 590.05,
+  "change": -9.07,
+  "change_pct": -1.5139,
+  "high": 604.499,
+  "low": 586.78,
+  "open": 600.2925,
+  "prev_close": 599.12,
+  "ts": 1786543826
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:26Z",
+  "fetched_at": "2026-08-12T14:10:42Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1515562305684.0,
+  "mcap": 1526261831139.3098,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T21:22:26Z",
+  "fetched_at": "2026-08-12T14:10:43Z",
   "bars": [
-   {
-    "date": "2023-01-09",
-    "open": 131.16,
-    "high": 132.95,
-    "low": 129.28,
-    "close": 129.47,
-    "volume": 26649100.0
-   },
    {
     "date": "2023-01-10",
     "open": 127.27,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-10",
-    "open": 599.01001,
+    "open": 599.13,
     "high": 608.21002,
-    "low": 592.03009,
+    "low": 592.030029,
     "close": 594.91998,
-    "volume": 14317252.0
+    "volume": 14967300.0
    },
    {
     "date": "2026-08-11",
     "open": 597.72998,
     "high": 612.41998,
     "low": 593.40002,
-    "close": 599.21002,
-    "volume": 10433295.0
+    "close": 599.12,
+    "volume": 12274440.0
+   },
+   {
+    "date": "2026-08-12",
+    "open": 601.4,
+    "high": 604.135,
+    "low": 587.0,
+    "close": 589.9,
+    "volume": 63875.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-11",
+  "latest": "2026-08-12",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:27Z",
+  "fetched_at": "2026-08-12T14:10:43Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,26 +7454,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T21:22:27Z",
+  "fetched_at": "2026-08-12T14:10:44Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.174145,
+  "forward_pe": 16.890497,
   "forward_eps": 34.885,
-  "short_pct_float": 0.0172,
-  "short_ratio": 1.85,
-  "short_asof": 1784073600,
-  "institutions_pct": 0.79168,
-  "insiders_pct": 0.0014599999,
+  "short_pct_float": 0.0143,
+  "short_ratio": 1.55,
+  "short_asof": 1785456000,
+  "institutions_pct": 0.79137003,
+  "insiders_pct": 0.00147,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:27Z",
+  "fetched_at": "2026-08-12T14:10:44Z",
   "rows": [
+   {
+    "ts": 1786517100,
+    "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
+   },
+   {
+    "ts": 1786505400,
+    "headline": "License To Chase The AI Frontier",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
+   },
+   {
+    "ts": 1786505057,
+    "headline": "Meta's Open-Source Crusade Is Also A Fight For Control",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=62084edb78d23f8efc7103ff88876ccc38d66a6f1660f94472218867c984cbd2"
+   },
+   {
+    "ts": 1786467744,
+    "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c"
+   },
    {
     "ts": 1786467145,
     "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
@@ -7487,50 +7511,26 @@
     "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
    },
    {
+    "ts": 1786462837,
+    "headline": "Treasury Secretary Bessent Welcomes Meta\u2019s Muse Glimmer, Calls It A Win For American Innovation And A Step Toward Sustaining U.S. AI Leadership",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f91dd3922c019b1fb206a0c89d4745a6fb2a1ad7eff6aedb7c9b34d336fe4a9c"
+   },
+   {
     "ts": 1786462146,
     "headline": "Meta Q2: Strong Growth, But The AI Bill Is Becoming Hard To Ignore",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=13b752eec1ad83d7e70d346d0da86fb4a7b307615f74fa1940e9b05d3d982754"
-   },
-   {
-    "ts": 1786460454,
-    "headline": "Meta Platforms: The Most Disrespected Name In Big Tech",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3200b87a086fa449fae825fe8204ed3785929e8a5f9670204b1462537ea0bb5d"
-   },
-   {
-    "ts": 1786459140,
-    "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53"
-   },
-   {
-    "ts": 1786459101,
-    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
-   },
-   {
-    "ts": 1786455498,
-    "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data \u2014 And Warning Signs",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c"
-   },
-   {
-    "ts": 1786455313,
-    "headline": "10 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e3705f8e4e9c844f75e946e503a812964812718092e8ba35aa2e9784acfd9d9a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:28Z",
+  "fetched_at": "2026-08-12T14:10:44Z",
   "buys": 140,
-  "sells": 266,
-  "net_shares": 3200927.0,
+  "sells": 265,
+  "net_shares": 3201444.0,
   "months": 6,
   "recent": [
    {

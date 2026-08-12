@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-11T21:22:04Z",
+ "generated_at": "2026-08-12T14:10:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:05Z",
-  "current": 343.0,
-  "change": -12.84,
-  "change_pct": -3.6084,
-  "high": 355.0,
-  "low": 342.57,
-  "open": 354.0,
-  "prev_close": 355.84,
-  "ts": 1786478400
+  "fetched_at": "2026-08-12T14:10:18Z",
+  "current": 342.35,
+  "change": -0.65,
+  "change_pct": -0.1895,
+  "high": 345.5,
+  "low": 340.83,
+  "open": 344.99,
+  "prev_close": 343.0,
+  "ts": 1786543801
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:05Z",
+  "fetched_at": "2026-08-12T14:10:18Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4372469599999.9995,
+  "mcap": 4204674000000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T21:22:05Z",
+  "fetched_at": "2026-08-12T14:10:19Z",
   "bars": [
-   {
-    "date": "2023-01-09",
-    "open": 89.195,
-    "high": 90.83,
-    "low": 88.58,
-    "close": 88.8,
-    "volume": 22996700.0
-   },
    {
     "date": "2023-01-10",
     "open": 86.72,
@@ -7218,19 +7210,27 @@
     "high": 355.92999,
     "low": 351.47,
     "close": 355.84,
-    "volume": 12243315.0
+    "volume": 12789500.0
    },
    {
     "date": "2026-08-11",
     "open": 354.22,
     "high": 355.0,
     "low": 342.57001,
-    "close": 343.029999,
-    "volume": 14058423.0
+    "close": 343.0,
+    "volume": 18199544.0
+   },
+   {
+    "date": "2026-08-12",
+    "open": 345.35,
+    "high": 345.41,
+    "low": 340.86,
+    "close": 341.53,
+    "volume": 122030.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-11",
+  "latest": "2026-08-12",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:06Z",
+  "fetched_at": "2026-08-12T14:10:20Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,62 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T21:22:06Z",
+  "fetched_at": "2026-08-12T14:10:20Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.271687,
+  "forward_pe": 23.20791,
   "forward_eps": 14.73894,
   "short_pct_float": null,
-  "short_ratio": 2.47,
-  "short_asof": 1784073600,
-  "institutions_pct": 0.60636,
+  "short_ratio": 2.35,
+  "short_asof": 1785456000,
+  "institutions_pct": 0.60573,
   "insiders_pct": 0.06598,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:06Z",
+  "fetched_at": "2026-08-12T14:10:20Z",
   "rows": [
+   {
+    "ts": 1786523400,
+    "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=474f30d67a4381a747b36f49fd82f9d885c2b82d2eae50b7a01db0d0185115e1"
+   },
+   {
+    "ts": 1786518300,
+    "headline": "It's The Best Time In Years To Retire",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
+   },
+   {
+    "ts": 1786518300,
+    "headline": "Profits And Rates: Could We Be In For A New Round Of Hikes?",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b79c2eb8949f1a9363bd93fa0a0f1982099d0377111390cd2d234a2c5dcd8939"
+   },
+   {
+    "ts": 1786505400,
+    "headline": "License To Chase The AI Frontier",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
+   },
+   {
+    "ts": 1786485283,
+    "headline": "Tracking AMG's Yacktman Asset Management Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6122dcbbe887770943e505b8e118b1a6814c928f257ef65b6a02dcccc21b63a2"
+   },
+   {
+    "ts": 1786468741,
+    "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c"
+   },
    {
     "ts": 1786467145,
     "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
@@ -7472,53 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
    },
    {
-    "ts": 1786459101,
-    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
-   },
-   {
-    "ts": 1786456982,
-    "headline": "Dividends Are Sending A Signal",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095"
-   },
-   {
-    "ts": 1786455313,
-    "headline": "10 Communication Services Stocks With Whale Alerts In Today\u2019s Session",
+    "ts": 1786464585,
+    "headline": "Moving Past Buffett: Berkshire Successor Puts Stamp on Portfolio With $1.2 Billion Gain on Three New Stocks",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e3705f8e4e9c844f75e946e503a812964812718092e8ba35aa2e9784acfd9d9a"
-   },
-   {
-    "ts": 1786453142,
-    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
-   },
-   {
-    "ts": 1786452657,
-    "headline": "Alphabet (NASDAQ:GOOG) Combines Strong Growth with a Timely Technical Setup",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=338113e79c1915462acd6c617c2623fe235ec701004ecfb0a6a1647bfaed1c21"
-   },
-   {
-    "ts": 1786449699,
-    "headline": "Irrational Exuberance On Overdrive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
-   },
-   {
-    "ts": 1786448740,
-    "headline": "Alphabet Is Poised to Be an AI Winner, Analyst Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4fdcf24aa820c3eab3735e7e23db01551d8b1f85b4f2f07b05dd3fa803eaf540"
+    "url": "https://finnhub.io/api/news?id=61e0bcc5b017522c686a760b60b7bc5d84ad96ad6280cf752fb4675c81ef3315"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:22:06Z",
+  "fetched_at": "2026-08-12T14:10:20Z",
   "error": "no insider filings in six months"
  },
  "peers": {

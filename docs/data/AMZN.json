@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-11T21:21:53Z",
+ "generated_at": "2026-08-12T14:10:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:21:54Z",
-  "current": 272.27,
-  "change": -5.82,
-  "change_pct": -2.0928,
-  "high": 278.84,
-  "low": 271.36,
-  "open": 278.69,
-  "prev_close": 278.09,
-  "ts": 1786478400
+  "fetched_at": "2026-08-12T14:10:06Z",
+  "current": 270.27,
+  "change": -2.0,
+  "change_pct": -0.7346,
+  "high": 273.46,
+  "low": 268.9201,
+  "open": 272.5275,
+  "prev_close": 272.27,
+  "ts": 1786543778
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:21:54Z",
+  "fetched_at": "2026-08-12T14:10:06Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2999566146769.0,
+  "mcap": 2936789797478.4985,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-11T21:21:55Z",
+  "fetched_at": "2026-08-12T14:10:08Z",
   "bars": [
-   {
-    "date": "2023-01-09",
-    "open": 87.46,
-    "high": 89.48,
-    "low": 87.080002,
-    "close": 87.36,
-    "volume": 65266100.0
-   },
    {
     "date": "2023-01-10",
     "open": 87.57,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-10",
-    "open": 274.20001,
+    "open": 274.01001,
     "high": 280.14001,
-    "low": 273.6001,
+    "low": 273.60001,
     "close": 278.089996,
-    "volume": 34530747.0
+    "volume": 35731900.0
    },
    {
     "date": "2026-08-11",
     "open": 278.39999,
-    "high": 278.72501,
+    "high": 278.84,
     "low": 271.35999,
-    "close": 272.28,
-    "volume": 24010724.0
+    "close": 272.26999,
+    "volume": 29512425.0
+   },
+   {
+    "date": "2026-08-12",
+    "open": 273.21,
+    "high": 273.46,
+    "low": 268.96,
+    "close": 270.275,
+    "volume": 189279.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-11",
+  "latest": "2026-08-12",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:21:55Z",
+  "fetched_at": "2026-08-12T14:10:08Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,31 +7445,55 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-11T21:21:55Z",
+  "fetched_at": "2026-08-12T14:10:08Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.355833,
+  "forward_pe": 26.163202,
   "forward_eps": 10.33054,
-  "short_pct_float": 0.0109,
-  "short_ratio": 1.78,
-  "short_asof": 1784073600,
-  "institutions_pct": 0.68117994,
+  "short_pct_float": 0.01,
+  "short_ratio": 2.1,
+  "short_asof": 1785456000,
+  "institutions_pct": 0.68075997,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:21:55Z",
+  "fetched_at": "2026-08-12T14:10:09Z",
   "rows": [
+   {
+    "ts": 1786517100,
+    "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
+   },
+   {
+    "ts": 1786505400,
+    "headline": "License To Chase The AI Frontier",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
+   },
+   {
+    "ts": 1786488600,
+    "headline": "Two Stock Stories That Bolstered QGRW In July",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e"
+   },
    {
     "ts": 1786475405,
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
+   },
+   {
+    "ts": 1786468741,
+    "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c"
    },
    {
     "ts": 1786463827,
@@ -7484,41 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
    },
    {
-    "ts": 1786455498,
-    "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data \u2014 And Warning Signs",
+    "ts": 1786455594,
+    "headline": "QUICK SPARK: NYC Mayor Mamdani Named Florida's 'Economic Developer of the Year'",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c"
-   },
-   {
-    "ts": 1786453142,
-    "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class\u2014Characterizing This As Circular Financing Is Flawed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e"
-   },
-   {
-    "ts": 1786449699,
-    "headline": "Irrational Exuberance On Overdrive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5"
-   },
-   {
-    "ts": 1786449327,
-    "headline": "The Trade Desk: Buying In The Middle Of An Existential Crisis",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=44b06e7fc1e019a283a61f436c7cafcc5f76a57c1f6859b343cc1e13992b9632"
-   },
-   {
-    "ts": 1786439748,
-    "headline": "Amazon's Zoox Launches Paid Robotaxi Service In Las Vegas and Says 'We Need To Be Regulated'\u2014 The Smoke Incident That Prompted a Recall Explains Why",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0eeae98792cf1e0f96b584693645a6b9358d956818b85ca5e7d69bb010026299"
+    "url": "https://finnhub.io/api/news?id=7b6b7b3534780fbfb00b3338e79c1b83470294083dad6a3450aede2f16c289fc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-11T21:21:55Z",
+  "fetched_at": "2026-08-12T14:10:09Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
