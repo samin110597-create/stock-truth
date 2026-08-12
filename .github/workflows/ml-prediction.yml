@@ -6,16 +6,18 @@ name: ML prediction
     branches: [main]
     paths:
       - 'docs/index.html'
-      - 'scripts/ml_predict.py'
+      - 'scripts/ml_predict_v2.py'
       - 'scripts/ml_predict_runner.py'
+      - 'scripts/ml_forward_ledger.py'
       - 'requirements-ml.txt'
       - '.github/workflows/ml-prediction.yml'
   pull_request:
     branches: [main]
     paths:
       - 'docs/index.html'
-      - 'scripts/ml_predict.py'
+      - 'scripts/ml_predict_v2.py'
       - 'scripts/ml_predict_runner.py'
+      - 'scripts/ml_forward_ledger.py'
       - 'requirements-ml.txt'
       - '.github/workflows/ml-prediction.yml'
   schedule:
@@ -50,11 +52,15 @@ jobs:
 
       - name: Validate Python
         run: |
-          python -m py_compile scripts/ml_predict.py
+          python -m py_compile scripts/ml_predict_v2.py
           python -m py_compile scripts/ml_predict_runner.py
+          python -m py_compile scripts/ml_forward_ledger.py
 
-      - name: Build leakage-aware ML snapshots
+      - name: Build verified-research ML snapshots
         run: python scripts/ml_predict_runner.py --data-dir docs/data --output-dir docs/data/ml
+
+      - name: Update forward prediction ledger
+        run: python scripts/ml_forward_ledger.py --data-dir docs/data --ml-dir docs/data/ml
 
       - name: Validate generated JSON
         run: |
@@ -65,6 +71,23 @@ jobs:
           for p in files:
               json.loads(p.read_text())
           print(f'validated {len(files)} ML JSON files')
+          PY
+
+      - name: Verification contract check
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          models = [p for p in pathlib.Path('docs/data/ml').glob('*.json') if p.name not in {'index.json','forward-ledger.json','forward-summary.json'}]
+          for p in models:
+              j=json.loads(p.read_text())
+              for h in (j.get('horizons') or {}).values():
+                  if h.get('status') == 'VERIFIED':
+                      assert h.get('edge_verified') is True
+                      gates=h.get('verification_gates') or {}
+                      assert gates and all(gates.values()), f'{p.name}: VERIFIED with failed gate(s) {gates}'
+                  if h.get('status') == 'UNVERIFIED':
+                      assert str(h.get('prediction','')).startswith('UNVERIFIED'), f'{p.name}: unverified prediction not labeled'
+          print('verification contract passed')
           PY
 
       - name: Security scan dashboard
@@ -88,7 +111,7 @@ jobs:
           print('dashboard security scan passed')
           PY
 
-      - name: Commit prediction snapshots to main
+      - name: Commit prediction snapshots and forward ledger to main
         if: github.event_name != 'pull_request'
         run: |
           git config user.name 'stock-truth-ml-bot'
@@ -97,7 +120,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No ML changes to commit.'
           else
-            git commit -m 'data: update walk-forward ML snapshots'
+            git commit -m 'data: update verified-research ML snapshots'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
