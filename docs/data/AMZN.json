@@ -1,32 +1,32 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T15:25:51Z",
+ "generated_at": "2026-08-12T16:15:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:25:51Z",
-  "current": 268.84,
-  "change": -3.43,
-  "change_pct": -1.2598,
+  "fetched_at": "2026-08-12T16:15:05Z",
+  "current": 268.01,
+  "change": -4.26,
+  "change_pct": -1.5646,
   "high": 273.46,
-  "low": 268.35,
+  "low": 267.555,
   "open": 272.5275,
   "prev_close": 272.27,
-  "ts": 1786548330
+  "ts": 1786551289
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:25:51Z",
+  "fetched_at": "2026-08-12T16:15:05Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2936789797478.4985,
+  "mcap": 2899846592138.739,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T15:25:52Z",
+  "fetched_at": "2026-08-12T16:15:09Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 273.21,
     "high": 273.46,
-    "low": 268.36,
-    "close": 268.795,
-    "volume": 502487.0
+    "low": 267.57,
+    "close": 267.97,
+    "volume": 646573.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:25:52Z",
+  "fetched_at": "2026-08-12T16:15:09Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T15:25:53Z",
+  "fetched_at": "2026-08-12T16:15:09Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.027681,
+  "forward_pe": 25.945402,
   "forward_eps": 10.33054,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:25:53Z",
+  "fetched_at": "2026-08-12T16:15:09Z",
   "rows": [
+   {
+    "ts": 1786528638,
+    "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
+   },
+   {
+    "ts": 1786527806,
+    "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
+   },
    {
     "ts": 1786517100,
     "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
@@ -7484,6 +7496,12 @@
     "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
    },
    {
+    "ts": 1786502052,
+    "headline": "Bernie Sanders Backs Mamdani\u2019s Amazon Fight, Says Company Made $92 Billion in First Half While Using 'Legal Loopholes' to Deny Workers Their Rights",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c1675c09a0e8cee527da03849f7df1067494d4af4d10d434fede5182b3fbc71f"
+   },
+   {
     "ts": 1786488600,
     "headline": "Two Stock Stories That Bolstered QGRW In July",
     "source": "SeekingAlpha",
@@ -7494,31 +7512,13 @@
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133"
-   },
-   {
-    "ts": 1786468741,
-    "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c"
-   },
-   {
-    "ts": 1786463827,
-    "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
-   },
-   {
-    "ts": 1786459101,
-    "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:25:53Z",
+  "fetched_at": "2026-08-12T16:15:10Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

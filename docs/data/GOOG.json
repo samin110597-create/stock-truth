@@ -1,32 +1,32 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T15:26:02Z",
+ "generated_at": "2026-08-12T16:15:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:26:03Z",
-  "current": 340.98,
-  "change": -2.02,
-  "change_pct": -0.5889,
+  "fetched_at": "2026-08-12T16:15:19Z",
+  "current": 340.27,
+  "change": -2.73,
+  "change_pct": -0.7959,
   "high": 345.5,
-  "low": 340.45,
+  "low": 339.82,
   "open": 344.99,
   "prev_close": 343.0,
-  "ts": 1786548329
+  "ts": 1786551288
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:26:03Z",
+  "fetched_at": "2026-08-12T16:15:19Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4204674000000.0,
+  "mcap": 4186084399999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T15:26:06Z",
+  "fetched_at": "2026-08-12T16:15:21Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 345.35,
     "high": 345.41,
-    "low": 340.47,
-    "close": 340.935,
-    "volume": 251201.0
+    "low": 339.855,
+    "close": 340.21,
+    "volume": 312394.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:26:06Z",
+  "fetched_at": "2026-08-12T16:15:21Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T15:26:06Z",
+  "fetched_at": "2026-08-12T16:15:21Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.126492,
+  "forward_pe": 23.078661,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:26:06Z",
+  "fetched_at": "2026-08-12T16:15:21Z",
   "rows": [
+   {
+    "ts": 1786530103,
+    "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c9df3dbc2a8cc05943c78e7bd95a09e27ab3a06244d3eed26cb42ca8b4877227"
+   },
+   {
+    "ts": 1786530071,
+    "headline": "Google Raises Starting Price For Pixel Watch 5 Models",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=0b1ba7d19264cd85baed0db77e8782519e1aaffde2d3bd8fc882c502582eccfd"
+   },
+   {
+    "ts": 1786529545,
+    "headline": "'Google\u2019s Wearables Will Track Insulin Resistance in Category First'- Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a7c9567af7ce351ee676df69be29ca5eb2135c9e9c4b2d15c7f8521f84b4bd4d"
+   },
+   {
+    "ts": 1786528638,
+    "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
+   },
+   {
+    "ts": 1786526949,
+    "headline": "Bernie Sanders Calls Out Sergey Brin for Spending $100 Million to Defeat California\u2019s Billionaire Tax as Google Co-Founder\u2019s Fortune Soars",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e84974acf80d7ac08f30e26bf0fe38c45e4d9e87b41ec2c49dc1387aa9a2dd78"
+   },
    {
     "ts": 1786523400,
     "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
@@ -7482,43 +7512,13 @@
     "headline": "It's The Best Time In Years To Retire",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
-   },
-   {
-    "ts": 1786518300,
-    "headline": "Profits And Rates: Could We Be In For A New Round Of Hikes?",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b79c2eb8949f1a9363bd93fa0a0f1982099d0377111390cd2d234a2c5dcd8939"
-   },
-   {
-    "ts": 1786505400,
-    "headline": "License To Chase The AI Frontier",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
-   },
-   {
-    "ts": 1786485283,
-    "headline": "Tracking AMG's Yacktman Asset Management Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6122dcbbe887770943e505b8e118b1a6814c928f257ef65b6a02dcccc21b63a2"
-   },
-   {
-    "ts": 1786468741,
-    "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c"
-   },
-   {
-    "ts": 1786467145,
-    "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T15:26:06Z",
+  "fetched_at": "2026-08-12T16:15:21Z",
   "error": "no insider filings in six months"
  },
  "peers": {
