@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T16:15:19Z",
+ "generated_at": "2026-08-12T17:24:37Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T16:15:19Z",
-  "current": 340.27,
-  "change": -2.73,
-  "change_pct": -0.7959,
+  "fetched_at": "2026-08-12T17:24:37Z",
+  "current": 341.68,
+  "change": -1.32,
+  "change_pct": -0.3848,
   "high": 345.5,
   "low": 339.82,
   "open": 344.99,
   "prev_close": 343.0,
-  "ts": 1786551288
+  "ts": 1786555446
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T16:15:19Z",
+  "fetched_at": "2026-08-12T17:24:38Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T16:15:21Z",
+  "fetched_at": "2026-08-12T17:24:38Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 345.35,
     "high": 345.41,
     "low": 339.855,
-    "close": 340.21,
-    "volume": 312394.0
+    "close": 341.73,
+    "volume": 402411.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T16:15:21Z",
+  "fetched_at": "2026-08-12T17:24:39Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T16:15:21Z",
+  "fetched_at": "2026-08-12T17:24:39Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.078661,
+  "forward_pe": 23.17522,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T16:15:21Z",
+  "fetched_at": "2026-08-12T17:24:39Z",
   "rows": [
    {
     "ts": 1786530103,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T16:15:21Z",
+  "fetched_at": "2026-08-12T17:24:39Z",
   "error": "no insider filings in six months"
  },
  "peers": {
