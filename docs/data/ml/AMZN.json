@@ -1,144 +1,275 @@
 {
-  "schema_version": 1,
-  "model_version": "stock-truth-ml-v1",
+  "schema_version": 2,
+  "model_version": "stock-truth-ml-v2-verified-research",
   "library": "scikit-learn",
   "library_version": "1.9.0",
   "symbol": "AMZN",
-  "generated_at": "2026-08-11T02:33:47Z",
-  "source_snapshot_generated_at": "2026-08-10T21:07:51Z",
+  "generated_at": "2026-08-12T00:45:35Z",
+  "source_snapshot_generated_at": "2026-08-11T21:21:53Z",
+  "history_source": "yfinance max adjusted history",
+  "bars_used": 7355,
   "closed_bars_only": true,
+  "warnings": [
+    "UNVERIFIED forecasts are research estimates, not validated edges.",
+    "VERIFIED means the current historical tests cleared predefined gates; it is not a guarantee of future performance.",
+    "The model cannot know future news, earnings surprises, policy shocks, or hidden order flow."
+  ],
   "features": [
     "ret_1",
     "ret_5",
     "ret_21",
     "ret_63",
+    "ret_126",
+    "ret_252",
     "gap_1",
     "range_pct",
     "body_pct",
     "sma20_rel",
     "sma50_rel",
     "sma200_rel",
+    "trend_spread",
     "rsi14",
     "atr14_pct",
     "vol20",
     "vol60",
+    "vol_ratio",
     "volume_ratio20",
-    "volume_z20",
+    "volume_z60",
     "drawdown63",
     "range_pos252",
-    "trend_spread",
     "bench_ret_5",
     "bench_ret_21",
+    "bench_ret_63",
     "bench_vol20",
     "relative_ret_5",
     "relative_ret_21",
+    "relative_ret_63",
     "beta60",
     "corr60"
   ],
-  "warnings": [
-    "This model estimates conditional probabilities from historical closed bars; it cannot know future news, earnings surprises, macro shocks, or order flow.",
-    "A probability is not a guarantee and NO_VERIFIED_EDGE is a valid model outcome."
-  ],
   "benchmark": "SPY",
-  "last_signal_date": "2026-08-10",
-  "bars_used": 900,
+  "last_signal_date": "2026-08-11",
   "horizons": {
     "5d": {
       "horizon_sessions": 5,
-      "status": "NO_VERIFIED_EDGE",
+      "status": "UNVERIFIED",
       "edge_verified": false,
-      "prediction": "NO VERIFIED EDGE",
-      "prob_up": 0.5560400159565412,
-      "expected_return_median": -0.018758396107469037,
-      "expected_return_p20": -0.04299401299884847,
-      "expected_return_p80": -0.0038342283166594134,
-      "confidence": "LOW",
+      "prediction": "UNVERIFIED CONSTRUCTIVE",
+      "prob_up": 0.5497712514259038,
+      "probability_label": "research probability estimate; historical edge NOT verified",
+      "expected_return_median": 0.004275913509243925,
+      "expected_return_p20": -0.029675408571310336,
+      "expected_return_p80": 0.05003023127782471,
       "metrics": {
-        "oos_samples": 580,
-        "walk_forward_splits": 5,
-        "accuracy": 0.5379310344827586,
-        "balanced_accuracy": 0.5,
-        "roc_auc": 0.4934581898201301,
-        "brier": 0.24847513850057068,
-        "baseline_accuracy": 0.5379310344827586,
-        "baseline_brier": 0.24856123662306776,
-        "brier_skill": 0.0003463859597208182,
-        "positive_rate": 0.5379310344827586,
-        "median_return_mae": 0.03997455931972521,
-        "zero_return_mae": 0.035508179013682625
+        "accuracy": 0.5440456769983687,
+        "balanced_accuracy": 0.49661065238893903,
+        "baseline_accuracy": 0.5497553017944535,
+        "edge": -0.005709624796084833,
+        "brier": 0.2517572275426171,
+        "baseline_brier": 0.24790567637397892,
+        "brier_skill": -0.015536357315303654,
+        "roc_auc": 0.485044940437793,
+        "ece": 0.031530316772945786,
+        "positive_rate": 0.5497553017944535
       },
-      "top_features": [
-        {
-          "feature": "sma200_rel",
-          "importance": 0.01984061383772049
-        },
-        {
-          "feature": "vol20",
-          "importance": 0.012318357909932305
-        },
-        {
-          "feature": "relative_ret_5",
-          "importance": 0.010428664760273758
-        },
-        {
-          "feature": "volume_z20",
-          "importance": 0.005992591457443262
-        },
-        {
-          "feature": "rsi14",
-          "importance": 0.004690928159762221
-        }
-      ],
-      "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"
+      "oos_rows": 6126,
+      "independent_samples": 1226,
+      "walk_forward_splits": 6,
+      "purged_gap_sessions": 5,
+      "sequential_calibration": true,
+      "fold_consistency": 0.0,
+      "p_value_vs_majority_baseline": 0.08799667220271615,
+      "accuracy_ci95": {
+        "low": 0.5160715609376904,
+        "high": 0.5717446261224969
+      },
+      "verification_gates": {
+        "oos_rows": true,
+        "independent_samples": true,
+        "balanced_accuracy": false,
+        "auc": false,
+        "brier_skill": false,
+        "calibration_error": true,
+        "significance": false,
+        "fold_stability": false
+      },
+      "verification_thresholds": {
+        "min_oos": 120,
+        "min_independent": 30,
+        "min_balanced": 0.535,
+        "min_auc": 0.545,
+        "min_brier_skill": 0.015,
+        "max_ece": 0.1,
+        "max_p_value": 0.08,
+        "min_fold_consistency": 0.6
+      },
+      "reason": "forecast remains visible for research, but at least one predefined verification gate failed"
     },
     "21d": {
       "horizon_sessions": 21,
-      "status": "NO_VERIFIED_EDGE",
+      "status": "UNVERIFIED",
       "edge_verified": false,
-      "prediction": "NO VERIFIED EDGE",
-      "prob_up": 0.6293833272535758,
-      "expected_return_median": -0.01186551909508196,
-      "expected_return_p20": -0.020071821692793992,
-      "expected_return_p80": 0.0331027034440146,
-      "confidence": "LOW",
+      "prediction": "UNVERIFIED BULLISH",
+      "prob_up": 0.6098580823910599,
+      "probability_label": "research probability estimate; historical edge NOT verified",
+      "expected_return_median": 0.03229808636186371,
+      "expected_return_p20": -0.045941212094826406,
+      "expected_return_p80": 0.10470007242220959,
       "metrics": {
-        "oos_samples": 565,
-        "walk_forward_splits": 5,
-        "accuracy": 0.6070796460176991,
-        "balanced_accuracy": 0.5,
-        "roc_auc": 0.47423370892758643,
-        "brier": 0.23824064554495694,
-        "baseline_accuracy": 0.6070796460176991,
-        "baseline_brier": 0.23853394940872427,
-        "brier_skill": 0.0012296105627495335,
-        "positive_rate": 0.6070796460176991,
-        "median_return_mae": 0.08312330067082209,
-        "zero_return_mae": 0.07056103006300224
+        "accuracy": 0.5684931506849316,
+        "balanced_accuracy": 0.4875968992248062,
+        "baseline_accuracy": 0.5513698630136986,
+        "edge": 0.017123287671232945,
+        "brier": 0.25396632187970775,
+        "baseline_brier": 0.2434573965969934,
+        "brier_skill": -0.043165356360522815,
+        "roc_auc": 0.5230620155038761,
+        "ece": 0.04498161441911836,
+        "positive_rate": 0.589041095890411
       },
-      "top_features": [
-        {
-          "feature": "sma200_rel",
-          "importance": 0.05380915060113191
-        },
-        {
-          "feature": "vol60",
-          "importance": 0.04514035128276978
-        },
-        {
-          "feature": "vol20",
-          "importance": 0.02038591815685676
-        },
-        {
-          "feature": "corr60",
-          "importance": 0.01824804719085891
-        },
-        {
-          "feature": "range_pos252",
-          "importance": 0.013379698882403847
-        }
-      ],
-      "reason": "walk-forward tests did not clear the minimum skill gate; prediction is shown for research but not treated as an edge"
+      "oos_rows": 6114,
+      "independent_samples": 292,
+      "walk_forward_splits": 6,
+      "purged_gap_sessions": 21,
+      "sequential_calibration": true,
+      "fold_consistency": 0.0,
+      "p_value_vs_majority_baseline": 0.3224944550184754,
+      "accuracy_ci95": {
+        "low": 0.5111572687660125,
+        "high": 0.6240502206472412
+      },
+      "verification_gates": {
+        "oos_rows": true,
+        "independent_samples": true,
+        "balanced_accuracy": false,
+        "auc": false,
+        "brier_skill": false,
+        "calibration_error": true,
+        "significance": false,
+        "fold_stability": false
+      },
+      "verification_thresholds": {
+        "min_oos": 120,
+        "min_independent": 30,
+        "min_balanced": 0.535,
+        "min_auc": 0.545,
+        "min_brier_skill": 0.015,
+        "max_ece": 0.1,
+        "max_p_value": 0.08,
+        "min_fold_consistency": 0.6
+      },
+      "reason": "forecast remains visible for research, but at least one predefined verification gate failed"
+    },
+    "63d": {
+      "horizon_sessions": 63,
+      "status": "UNVERIFIED",
+      "edge_verified": false,
+      "prediction": "UNVERIFIED BULLISH",
+      "prob_up": 0.6254975813199376,
+      "probability_label": "research probability estimate; historical edge NOT verified",
+      "expected_return_median": 0.02988464148414843,
+      "expected_return_p20": -0.18487073432644627,
+      "expected_return_p80": 0.2075557504119802,
+      "metrics": {
+        "accuracy": 0.5979381443298969,
+        "balanced_accuracy": 0.4811020036429873,
+        "baseline_accuracy": 0.5979381443298969,
+        "edge": 0.0,
+        "brier": 0.24955158081252396,
+        "baseline_brier": 0.23777296028351114,
+        "brier_skill": -0.049537258210388846,
+        "roc_auc": 0.4125683060109289,
+        "ece": 0.10225538074071489,
+        "positive_rate": 0.6288659793814433
+      },
+      "oos_rows": 6078,
+      "independent_samples": 97,
+      "walk_forward_splits": 6,
+      "purged_gap_sessions": 63,
+      "sequential_calibration": true,
+      "fold_consistency": 0.0,
+      "p_value_vs_majority_baseline": 0.40493512961670314,
+      "accuracy_ci95": {
+        "low": 0.4984347077450554,
+        "high": 0.6899795974623194
+      },
+      "verification_gates": {
+        "oos_rows": true,
+        "independent_samples": true,
+        "balanced_accuracy": false,
+        "auc": false,
+        "brier_skill": false,
+        "calibration_error": false,
+        "significance": false,
+        "fold_stability": false
+      },
+      "verification_thresholds": {
+        "min_oos": 120,
+        "min_independent": 30,
+        "min_balanced": 0.535,
+        "min_auc": 0.545,
+        "min_brier_skill": 0.015,
+        "max_ece": 0.1,
+        "max_p_value": 0.08,
+        "min_fold_consistency": 0.6
+      },
+      "reason": "forecast remains visible for research, but at least one predefined verification gate failed"
+    },
+    "252d": {
+      "horizon_sessions": 252,
+      "status": "UNVERIFIED",
+      "edge_verified": false,
+      "prediction": "UNVERIFIED BULLISH",
+      "prob_up": 0.8035876774796713,
+      "probability_label": "research probability estimate; historical edge NOT verified",
+      "expected_return_median": 0.0025147102855413756,
+      "expected_return_p20": -0.07262263059264619,
+      "expected_return_p80": 0.4003863467296128,
+      "metrics": {
+        "accuracy": 0.75,
+        "balanced_accuracy": 0.6210526315789473,
+        "baseline_accuracy": 0.7083333333333334,
+        "edge": 0.04166666666666663,
+        "brier": 0.2365029502474023,
+        "baseline_brier": 0.2261112220333332,
+        "brier_skill": -0.04595848061241812,
+        "roc_auc": 0.43157894736842106,
+        "ece": 0.2576781471752807,
+        "positive_rate": 0.7916666666666666
+      },
+      "oos_rows": 5916,
+      "independent_samples": 24,
+      "walk_forward_splits": 6,
+      "purged_gap_sessions": 252,
+      "sequential_calibration": true,
+      "fold_consistency": 0.0,
+      "p_value_vs_majority_baseline": 0.25192375110537585,
+      "accuracy_ci95": {
+        "low": 0.5510017468789357,
+        "high": 0.8800079652065766
+      },
+      "verification_gates": {
+        "oos_rows": true,
+        "independent_samples": true,
+        "balanced_accuracy": true,
+        "auc": false,
+        "brier_skill": false,
+        "calibration_error": false,
+        "significance": false,
+        "fold_stability": false
+      },
+      "verification_thresholds": {
+        "min_oos": 180,
+        "min_independent": 12,
+        "min_balanced": 0.54,
+        "min_auc": 0.56,
+        "min_brier_skill": 0.015,
+        "max_ece": 0.12,
+        "max_p_value": 0.12,
+        "min_fold_consistency": 0.6
+      },
+      "reason": "forecast remains visible for research, but at least one predefined verification gate failed"
     }
   },
-  "status": "NO_VERIFIED_EDGE"
+  "status": "UNVERIFIED"
 }
