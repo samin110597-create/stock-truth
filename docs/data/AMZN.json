@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T17:24:26Z",
+ "generated_at": "2026-08-12T18:12:48Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:26Z",
-  "current": 269.03,
-  "change": -3.24,
-  "change_pct": -1.19,
+  "fetched_at": "2026-08-12T18:12:48Z",
+  "current": 268.43,
+  "change": -3.84,
+  "change_pct": -1.4104,
   "high": 273.46,
   "low": 267.555,
   "open": 272.5275,
   "prev_close": 272.27,
-  "ts": 1786555447
+  "ts": 1786558340
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:26Z",
+  "fetched_at": "2026-08-12T18:12:48Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T17:24:27Z",
+  "fetched_at": "2026-08-12T18:12:48Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 273.21,
     "high": 273.46,
     "low": 267.57,
-    "close": 268.995,
-    "volume": 732918.0
+    "close": 268.385,
+    "volume": 794883.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:27Z",
+  "fetched_at": "2026-08-12T18:12:48Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T17:24:28Z",
+  "fetched_at": "2026-08-12T18:12:48Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.040266,
+  "forward_pe": 25.974453,
   "forward_eps": 10.33054,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:28Z",
+  "fetched_at": "2026-08-12T18:12:48Z",
   "rows": [
    {
     "ts": 1786552806,
     "headline": "Which dow jones stocks are moving on Wednesday?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+   },
+   {
+    "ts": 1786535604,
+    "headline": "Amazon shares appear stuck in a rut. Trader Mike Khouw is betting things will stay that way",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=a0aef88b93b9ae4f4be8bd10d5c62817595023a2f59ce62ad24e8c021ce8a4df"
    },
    {
     "ts": 1786528638,
@@ -7506,19 +7512,13 @@
     "headline": "Bernie Sanders Backs Mamdani\u2019s Amazon Fight, Says Company Made $92 Billion in First Half While Using 'Legal Loopholes' to Deny Workers Their Rights",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=c1675c09a0e8cee527da03849f7df1067494d4af4d10d434fede5182b3fbc71f"
-   },
-   {
-    "ts": 1786488600,
-    "headline": "Two Stock Stories That Bolstered QGRW In July",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:28Z",
+  "fetched_at": "2026-08-12T18:12:49Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

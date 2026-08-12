@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-12T17:24:59Z",
+ "generated_at": "2026-08-12T18:13:17Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:59Z",
-  "current": 581.48,
-  "change": -17.64,
-  "change_pct": -2.9443,
+  "fetched_at": "2026-08-12T18:13:17Z",
+  "current": 580.95,
+  "change": -18.17,
+  "change_pct": -3.0328,
   "high": 604.499,
-  "low": 580.72,
+  "low": 578.21,
   "open": 600.2925,
   "prev_close": 599.12,
-  "ts": 1786555471
+  "ts": 1786558366
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:25:00Z",
+  "fetched_at": "2026-08-12T18:13:17Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T17:25:01Z",
+  "fetched_at": "2026-08-12T18:13:18Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 601.4,
     "high": 604.135,
-    "low": 580.73,
-    "close": 581.51,
-    "volume": 279387.0
+    "low": 578.25,
+    "close": 580.975,
+    "volume": 364372.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:25:01Z",
+  "fetched_at": "2026-08-12T18:13:18Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T17:25:01Z",
+  "fetched_at": "2026-08-12T18:13:18Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.669056,
+  "forward_pe": 16.646488,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:25:01Z",
+  "fetched_at": "2026-08-12T18:13:18Z",
   "rows": [
+   {
+    "ts": 1786521601,
+    "headline": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=a1ce80bc851752a1ba868e2da76c868ab558f6406b66e54e882482ed35026846"
+   },
    {
     "ts": 1786517100,
     "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
@@ -7515,19 +7521,13 @@
     "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
-   },
-   {
-    "ts": 1786463827,
-    "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:25:02Z",
+  "fetched_at": "2026-08-12T18:13:18Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

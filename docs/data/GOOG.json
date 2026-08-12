@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T17:24:37Z",
+ "generated_at": "2026-08-12T18:12:58Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:37Z",
-  "current": 341.68,
-  "change": -1.32,
-  "change_pct": -0.3848,
+  "fetched_at": "2026-08-12T18:12:58Z",
+  "current": 341.11,
+  "change": -1.89,
+  "change_pct": -0.551,
   "high": 345.5,
   "low": 339.82,
   "open": 344.99,
   "prev_close": 343.0,
-  "ts": 1786555446
+  "ts": 1786558341
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:38Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T17:24:38Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 345.35,
     "high": 345.41,
     "low": 339.855,
-    "close": 341.73,
-    "volume": 402411.0
+    "close": 341.11,
+    "volume": 487487.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:39Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T17:24:39Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.17522,
+  "forward_pe": 23.146507,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:39Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "rows": [
    {
     "ts": 1786530103,
@@ -7484,6 +7484,18 @@
     "url": "https://finnhub.io/api/news?id=a7c9567af7ce351ee676df69be29ca5eb2135c9e9c4b2d15c7f8521f84b4bd4d"
    },
    {
+    "ts": 1786528801,
+    "headline": "Google Devices Chief: 'Pixel and iPhone are going in very different directions'",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=ef1705d87ab01b71e11b4c3e81c9f980316736c5e1f026d446e05549aeca1e88"
+   },
+   {
+    "ts": 1786528801,
+    "headline": "Google\u2019s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e"
+   },
+   {
     "ts": 1786528638,
     "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
     "source": "Benzinga",
@@ -7500,25 +7512,13 @@
     "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=474f30d67a4381a747b36f49fd82f9d885c2b82d2eae50b7a01db0d0185115e1"
-   },
-   {
-    "ts": 1786522409,
-    "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway\u2019s $2.3 Trillion Sovereign Wealth Fund",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
-   },
-   {
-    "ts": 1786518300,
-    "headline": "It's The Best Time In Years To Retire",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T17:24:39Z",
+  "fetched_at": "2026-08-12T18:12:58Z",
   "error": "no insider filings in six months"
  },
  "peers": {
