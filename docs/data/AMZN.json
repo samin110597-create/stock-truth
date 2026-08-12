@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T18:12:48Z",
+ "generated_at": "2026-08-12T19:33:45Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:48Z",
-  "current": 268.43,
-  "change": -3.84,
-  "change_pct": -1.4104,
+  "fetched_at": "2026-08-12T19:33:45Z",
+  "current": 268.97,
+  "change": -3.3,
+  "change_pct": -1.212,
   "high": 273.46,
   "low": 267.555,
   "open": 272.5275,
   "prev_close": 272.27,
-  "ts": 1786558340
+  "ts": 1786563210
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:48Z",
+  "fetched_at": "2026-08-12T19:33:45Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T18:12:48Z",
+  "fetched_at": "2026-08-12T19:33:46Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 273.21,
     "high": 273.46,
     "low": 267.57,
-    "close": 268.385,
-    "volume": 794883.0
+    "close": 268.935,
+    "volume": 1006418.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:48Z",
+  "fetched_at": "2026-08-12T19:33:46Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T18:12:48Z",
+  "fetched_at": "2026-08-12T19:33:47Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.974453,
+  "forward_pe": 26.020906,
   "forward_eps": 10.33054,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:48Z",
+  "fetched_at": "2026-08-12T19:33:47Z",
   "rows": [
    {
     "ts": 1786552806,
     "headline": "Which dow jones stocks are moving on Wednesday?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+   },
+   {
+    "ts": 1786545952,
+    "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
+   },
+   {
+    "ts": 1786539777,
+    "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
    },
    {
     "ts": 1786535604,
@@ -7500,25 +7512,13 @@
     "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: \u2018Next Phase of Enterprise Computing\u2019",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
-   },
-   {
-    "ts": 1786505400,
-    "headline": "License To Chase The AI Frontier",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
-   },
-   {
-    "ts": 1786502052,
-    "headline": "Bernie Sanders Backs Mamdani\u2019s Amazon Fight, Says Company Made $92 Billion in First Half While Using 'Legal Loopholes' to Deny Workers Their Rights",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c1675c09a0e8cee527da03849f7df1067494d4af4d10d434fede5182b3fbc71f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:49Z",
+  "fetched_at": "2026-08-12T19:33:47Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

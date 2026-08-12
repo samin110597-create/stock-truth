@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T18:12:58Z",
+ "generated_at": "2026-08-12T19:33:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:58Z",
-  "current": 341.11,
-  "change": -1.89,
-  "change_pct": -0.551,
+  "fetched_at": "2026-08-12T19:33:56Z",
+  "current": 342.61,
+  "change": -0.39,
+  "change_pct": -0.1137,
   "high": 345.5,
   "low": 339.82,
   "open": 344.99,
   "prev_close": 343.0,
-  "ts": 1786558341
+  "ts": 1786563207
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:57Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:57Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 345.35,
     "high": 345.41,
     "low": 339.855,
-    "close": 341.11,
-    "volume": 487487.0
+    "close": 342.58,
+    "volume": 650932.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:57Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:58Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.146507,
+  "forward_pe": 23.218086,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:58Z",
   "rows": [
+   {
+    "ts": 1786545952,
+    "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
+   },
+   {
+    "ts": 1786539777,
+    "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
+   },
    {
     "ts": 1786530103,
     "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
@@ -7500,25 +7512,13 @@
     "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
-   },
-   {
-    "ts": 1786526949,
-    "headline": "Bernie Sanders Calls Out Sergey Brin for Spending $100 Million to Defeat California\u2019s Billionaire Tax as Google Co-Founder\u2019s Fortune Soars",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e84974acf80d7ac08f30e26bf0fe38c45e4d9e87b41ec2c49dc1387aa9a2dd78"
-   },
-   {
-    "ts": 1786523400,
-    "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=474f30d67a4381a747b36f49fd82f9d885c2b82d2eae50b7a01db0d0185115e1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T18:12:58Z",
+  "fetched_at": "2026-08-12T19:33:58Z",
   "error": "no insider filings in six months"
  },
  "peers": {
