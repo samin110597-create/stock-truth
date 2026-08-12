@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-12T19:34:07Z",
+ "generated_at": "2026-08-12T20:28:26Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:07Z",
-  "current": 222.67,
-  "change": 5.17,
-  "change_pct": 2.377,
+  "fetched_at": "2026-08-12T20:28:26Z",
+  "current": 224.09,
+  "change": 6.59,
+  "change_pct": 3.0299,
   "high": 225.1,
-  "low": 219.7,
-  "open": 219.7,
+  "low": 220.2,
+  "open": 221.04,
   "prev_close": 217.5,
-  "ts": 1786563234
+  "ts": 1786564800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:08Z",
+  "fetched_at": "2026-08-12T20:28:26Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T19:34:08Z",
+  "fetched_at": "2026-08-12T20:28:26Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 221.01,
     "high": 225.1,
     "low": 220.22,
-    "close": 222.63,
-    "volume": 3450801.0
+    "close": 224.11,
+    "volume": 3973778.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:08Z",
+  "fetched_at": "2026-08-12T20:28:26Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T19:34:09Z",
+  "fetched_at": "2026-08-12T20:28:26Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.267057,
+  "forward_pe": 17.384214,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:09Z",
+  "fetched_at": "2026-08-12T20:28:26Z",
   "rows": [
+   {
+    "ts": 1786561805,
+    "headline": "Wednesday's session: top gainers and losers in the dow jones index",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+   },
    {
     "ts": 1786557901,
     "headline": "Which S&P500 stocks are the most active on Wednesday?",
@@ -7511,23 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
    },
    {
-    "ts": 1786536472,
-    "headline": "The Great Robotics Divergence: AI-Native Names Surge, Legacy Vendors Stall",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=ef451f9499af34533ae30d3e1b54e0a34473a1f1ddc55357686b7e270ffc3249"
-   },
-   {
-    "ts": 1786535090,
-    "headline": "What's Going On With Nvidia Stock on Wednesday?",
+    "ts": 1786539237,
+    "headline": "Dan Ives Says CoreWeave, Cisco Earnings \u2018Pieces of the Puzzle\u2019 for AI Trade: \u2018Get the Popcorn Out\u2019",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4d9ae563e2279b481d646b84e08fe74b4b77682dd2a874763635a86f84af4cbb"
+    "url": "https://finnhub.io/api/news?id=4cdccc167eb92176ad6537fce4ed388cc6e164c229046637088e8750468a24be"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:09Z",
+  "fetched_at": "2026-08-12T20:28:27Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

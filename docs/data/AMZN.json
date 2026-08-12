@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T19:33:45Z",
+ "generated_at": "2026-08-12T20:28:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:45Z",
-  "current": 268.97,
-  "change": -3.3,
-  "change_pct": -1.212,
+  "fetched_at": "2026-08-12T20:28:06Z",
+  "current": 267.28,
+  "change": -4.99,
+  "change_pct": -1.8327,
   "high": 273.46,
-  "low": 267.555,
-  "open": 272.5275,
+  "low": 267.1,
+  "open": 273.18,
   "prev_close": 272.27,
-  "ts": 1786563210
+  "ts": 1786564800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:45Z",
+  "fetched_at": "2026-08-12T20:28:06Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T19:33:46Z",
+  "fetched_at": "2026-08-12T20:28:07Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 273.21,
     "high": 273.46,
-    "low": 267.57,
-    "close": 268.935,
-    "volume": 1006418.0
+    "low": 267.1,
+    "close": 267.34,
+    "volume": 1204359.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:46Z",
+  "fetched_at": "2026-08-12T20:28:07Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T19:33:47Z",
+  "fetched_at": "2026-08-12T20:28:07Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.020906,
+  "forward_pe": 25.8728,
   "forward_eps": 10.33054,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:47Z",
+  "fetched_at": "2026-08-12T20:28:07Z",
   "rows": [
+   {
+    "ts": 1786561805,
+    "headline": "Wednesday's session: top gainers and losers in the dow jones index",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+   },
    {
     "ts": 1786552806,
     "headline": "Which dow jones stocks are moving on Wednesday?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+   },
+   {
+    "ts": 1786550345,
+    "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3"
    },
    {
     "ts": 1786545952,
@@ -7500,25 +7512,13 @@
     "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
-   },
-   {
-    "ts": 1786517100,
-    "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
-   },
-   {
-    "ts": 1786514798,
-    "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: \u2018Next Phase of Enterprise Computing\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:47Z",
+  "fetched_at": "2026-08-12T20:28:07Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

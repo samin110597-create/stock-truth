@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T19:33:56Z",
+ "generated_at": "2026-08-12T20:28:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:56Z",
-  "current": 342.61,
-  "change": -0.39,
-  "change_pct": -0.1137,
+  "fetched_at": "2026-08-12T20:28:16Z",
+  "current": 342.37,
+  "change": -0.63,
+  "change_pct": -0.1837,
   "high": 345.5,
   "low": 339.82,
-  "open": 344.99,
+  "open": 345.33,
   "prev_close": 343.0,
-  "ts": 1786563207
+  "ts": 1786564800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:57Z",
+  "fetched_at": "2026-08-12T20:28:16Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T19:33:57Z",
+  "fetched_at": "2026-08-12T20:28:16Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 345.35,
     "high": 345.41,
     "low": 339.855,
-    "close": 342.58,
-    "volume": 650932.0
+    "close": 342.4,
+    "volume": 742592.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:57Z",
+  "fetched_at": "2026-08-12T20:28:16Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T19:33:58Z",
+  "fetched_at": "2026-08-12T20:28:17Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.218086,
+  "forward_pe": 23.228943,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:58Z",
+  "fetched_at": "2026-08-12T20:28:17Z",
   "rows": [
+   {
+    "ts": 1786550345,
+    "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3"
+   },
    {
     "ts": 1786545952,
     "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
@@ -7506,19 +7512,13 @@
     "headline": "Google\u2019s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
     "source": "CNBC",
     "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e"
-   },
-   {
-    "ts": 1786528638,
-    "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:33:58Z",
+  "fetched_at": "2026-08-12T20:28:17Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-12T19:34:18Z",
+ "generated_at": "2026-08-12T20:28:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:18Z",
-  "current": 580.58,
-  "change": -18.54,
-  "change_pct": -3.0945,
+  "fetched_at": "2026-08-12T20:28:36Z",
+  "current": 578.85,
+  "change": -20.27,
+  "change_pct": -3.3833,
   "high": 604.499,
   "low": 578.21,
-  "open": 600.2925,
+  "open": 601.065,
   "prev_close": 599.12,
-  "ts": 1786563233
+  "ts": 1786564800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:19Z",
+  "fetched_at": "2026-08-12T20:28:36Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T19:34:19Z",
+  "fetched_at": "2026-08-12T20:28:36Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7225,8 +7225,8 @@
     "open": 601.4,
     "high": 604.135,
     "low": 578.25,
-    "close": 580.135,
-    "volume": 431626.0
+    "close": 578.875,
+    "volume": 557852.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:20Z",
+  "fetched_at": "2026-08-12T20:28:36Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T19:34:20Z",
+  "fetched_at": "2026-08-12T20:28:36Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.63953,
+  "forward_pe": 16.593092,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:20Z",
+  "fetched_at": "2026-08-12T20:28:36Z",
   "rows": [
+   {
+    "ts": 1786550345,
+    "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3"
+   },
    {
     "ts": 1786545952,
     "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
@@ -7515,19 +7521,13 @@
     "headline": "Nebius Q2 Outlook: Will Goldman\u2019s $35.5 Billion Revenue Forecast Overpower Jim Cramer\u2019s \u2018Sell\u2019 Warning?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=1c6f6464364c589530c78db3f3dc0d004214a710f2ed82bf87b0832afe5171fe"
-   },
-   {
-    "ts": 1786505400,
-    "headline": "License To Chase The AI Frontier",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b1a2e8841528ae00e7dceba325d39891075080c09e04ef766673d256990c7664"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T19:34:20Z",
+  "fetched_at": "2026-08-12T20:28:37Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
