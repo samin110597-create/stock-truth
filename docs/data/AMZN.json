@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T14:10:05Z",
+ "generated_at": "2026-08-12T15:25:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:06Z",
-  "current": 270.27,
-  "change": -2.0,
-  "change_pct": -0.7346,
+  "fetched_at": "2026-08-12T15:25:51Z",
+  "current": 268.84,
+  "change": -3.43,
+  "change_pct": -1.2598,
   "high": 273.46,
-  "low": 268.9201,
+  "low": 268.35,
   "open": 272.5275,
   "prev_close": 272.27,
-  "ts": 1786543778
+  "ts": 1786548330
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:06Z",
+  "fetched_at": "2026-08-12T15:25:51Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T14:10:08Z",
+  "fetched_at": "2026-08-12T15:25:52Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 273.21,
     "high": 273.46,
-    "low": 268.96,
-    "close": 270.275,
-    "volume": 189279.0
+    "low": 268.36,
+    "close": 268.795,
+    "volume": 502487.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:08Z",
+  "fetched_at": "2026-08-12T15:25:52Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T14:10:08Z",
+  "fetched_at": "2026-08-12T15:25:53Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 26.163202,
+  "forward_pe": 26.027681,
   "forward_eps": 10.33054,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:09Z",
+  "fetched_at": "2026-08-12T15:25:53Z",
   "rows": [
    {
     "ts": 1786517100,
     "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
+   },
+   {
+    "ts": 1786514798,
+    "headline": "Quantinuum Strikes Oracle Deal as Quantum Cloud Race Heats Up: \u2018Next Phase of Enterprise Computing\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6"
    },
    {
     "ts": 1786505400,
@@ -7506,19 +7512,13 @@
     "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300"
-   },
-   {
-    "ts": 1786455594,
-    "headline": "QUICK SPARK: NYC Mayor Mamdani Named Florida's 'Economic Developer of the Year'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7b6b7b3534780fbfb00b3338e79c1b83470294083dad6a3450aede2f16c289fc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:09Z",
+  "fetched_at": "2026-08-12T15:25:53Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

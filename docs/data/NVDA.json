@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-12T14:10:29Z",
+ "generated_at": "2026-08-12T15:26:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:29Z",
-  "current": 223.03,
-  "change": 5.53,
-  "change_pct": 2.5425,
-  "high": 224.05,
+  "fetched_at": "2026-08-12T15:26:16Z",
+  "current": 223.85,
+  "change": 6.35,
+  "change_pct": 2.9195,
+  "high": 225.1,
   "low": 219.7,
   "open": 219.7,
   "prev_close": 217.5,
-  "ts": 1786543802
+  "ts": 1786548354
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:30Z",
+  "fetched_at": "2026-08-12T15:26:16Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T14:10:32Z",
+  "fetched_at": "2026-08-12T15:26:17Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-12",
     "open": 221.01,
-    "high": 224.04,
+    "high": 225.1,
     "low": 220.22,
-    "close": 222.94,
-    "volume": 976351.0
+    "close": 223.79,
+    "volume": 1865535.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:32Z",
+  "fetched_at": "2026-08-12T15:26:17Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T14:10:33Z",
+  "fetched_at": "2026-08-12T15:26:18Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.279873,
+  "forward_pe": 17.357063,
   "forward_eps": 12.89043,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:33Z",
+  "fetched_at": "2026-08-12T15:26:18Z",
   "rows": [
    {
     "ts": 1786536472,
@@ -7499,35 +7499,35 @@
     "url": "https://finnhub.io/api/news?id=58dc2dd6bfeea65c2ceaf36455009b4e9ac024684092e5c7ba66f30ef21800c0"
    },
    {
+    "ts": 1786522409,
+    "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway\u2019s $2.3 Trillion Sovereign Wealth Fund",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
+   },
+   {
     "ts": 1786518300,
     "headline": "It's The Best Time In Years To Retire",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=65d9d95ddd0e58d1ff69831cfaaf02580505080a94c7839a62c83239db5c10ba"
    },
    {
+    "ts": 1786516603,
+    "headline": "Lockheed Martin, Verizon, Nvidia, Keysight Technologies, ODC And Astris AI Demonstrate Using Commercial Off-The-Shelf Tech To Detect And Track UAS",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=0efeb7bed60aef80d81169fb47de55814afb2decf4a85b0afa149e77e11cadcc"
+   },
+   {
     "ts": 1786511876,
     "headline": "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d4b7a735bf88bd4570e5d719f20843dd127119f7008d5cc9b8d58b084a4ab2f6"
-   },
-   {
-    "ts": 1786471501,
-    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26"
-   },
-   {
-    "ts": 1786469863,
-    "headline": "Wall Street Is Repackaging The AI Bubble",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:33Z",
+  "fetched_at": "2026-08-12T15:26:18Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

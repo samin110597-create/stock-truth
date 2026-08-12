@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T14:10:18Z",
+ "generated_at": "2026-08-12T15:26:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:18Z",
-  "current": 342.35,
-  "change": -0.65,
-  "change_pct": -0.1895,
+  "fetched_at": "2026-08-12T15:26:03Z",
+  "current": 340.98,
+  "change": -2.02,
+  "change_pct": -0.5889,
   "high": 345.5,
-  "low": 340.83,
+  "low": 340.45,
   "open": 344.99,
   "prev_close": 343.0,
-  "ts": 1786543801
+  "ts": 1786548329
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:18Z",
+  "fetched_at": "2026-08-12T15:26:03Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T14:10:19Z",
+  "fetched_at": "2026-08-12T15:26:06Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-12",
     "open": 345.35,
     "high": 345.41,
-    "low": 340.86,
-    "close": 341.53,
-    "volume": 122030.0
+    "low": 340.47,
+    "close": 340.935,
+    "volume": 251201.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:20Z",
+  "fetched_at": "2026-08-12T15:26:06Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T14:10:20Z",
+  "fetched_at": "2026-08-12T15:26:06Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.20791,
+  "forward_pe": 23.126492,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:20Z",
+  "fetched_at": "2026-08-12T15:26:06Z",
   "rows": [
    {
     "ts": 1786523400,
     "headline": "Alphabet's Blowout Q2 Confirmed The AI Stack Thesis And Shares Are Still Undervalued",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=474f30d67a4381a747b36f49fd82f9d885c2b82d2eae50b7a01db0d0185115e1"
+   },
+   {
+    "ts": 1786522409,
+    "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway\u2019s $2.3 Trillion Sovereign Wealth Fund",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f"
    },
    {
     "ts": 1786518300,
@@ -7506,19 +7512,13 @@
     "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a"
-   },
-   {
-    "ts": 1786464585,
-    "headline": "Moving Past Buffett: Berkshire Successor Puts Stamp on Portfolio With $1.2 Billion Gain on Three New Stocks",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=61e0bcc5b017522c686a760b60b7bc5d84ad96ad6280cf752fb4675c81ef3315"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T14:10:20Z",
+  "fetched_at": "2026-08-12T15:26:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {
