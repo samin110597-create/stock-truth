@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-12T20:28:06Z",
+ "generated_at": "2026-08-12T21:11:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:06Z",
+  "fetched_at": "2026-08-12T21:11:44Z",
   "current": 267.28,
   "change": -4.99,
   "change_pct": -1.8327,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:06Z",
+  "fetched_at": "2026-08-12T21:11:44Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T20:28:07Z",
+  "fetched_at": "2026-08-12T21:11:44Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-12",
-    "open": 273.21,
+    "open": 273.20499,
     "high": 273.46,
     "low": 267.1,
-    "close": 267.34,
-    "volume": 1204359.0
+    "close": 267.31,
+    "volume": 29924169.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:07Z",
+  "fetched_at": "2026-08-12T21:11:44Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T20:28:07Z",
+  "fetched_at": "2026-08-12T21:11:45Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:07Z",
+  "fetched_at": "2026-08-12T21:11:45Z",
   "rows": [
    {
     "ts": 1786561805,
@@ -7490,6 +7490,12 @@
     "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
    },
    {
+    "ts": 1786541715,
+    "headline": "8 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2ca9c3f4788f04302a0e3c1106e24cd92e46166db5f4c4d484a8135056f7ed87"
+   },
+   {
     "ts": 1786539777,
     "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
     "source": "Benzinga",
@@ -7506,19 +7512,13 @@
     "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85"
-   },
-   {
-    "ts": 1786527806,
-    "headline": "'Lightspeed Seeks $600 Million for Anthropic, OpenAI Wagers' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=df46b71470a1f914fc193b4f61f8f53868e6e1b1d6b030aa2e204c790f132709"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:07Z",
+  "fetched_at": "2026-08-12T21:11:45Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

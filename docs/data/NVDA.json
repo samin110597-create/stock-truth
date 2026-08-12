@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-12T20:28:26Z",
+ "generated_at": "2026-08-12T21:12:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:04Z",
   "current": 224.09,
   "change": 6.59,
   "change_pct": 3.0299,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:04Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:04Z",
   "bars": [
    {
     "date": "2023-01-10",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-11",
-    "open": 222.14999,
+    "open": 222.17,
     "high": 222.2,
-    "low": 216.3,
+    "low": 216.2,
     "close": 217.5,
-    "volume": 95707655.0
+    "volume": 101273100.0
    },
    {
     "date": "2026-08-12",
-    "open": 221.01,
-    "high": 225.1,
-    "low": 220.22,
-    "close": 224.11,
-    "volume": 3973778.0
+    "open": 221.039993,
+    "high": 225.10001,
+    "low": 220.2,
+    "close": 224.089996,
+    "volume": 106431963.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:04Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:05Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:26Z",
+  "fetched_at": "2026-08-12T21:12:05Z",
   "rows": [
    {
     "ts": 1786561805,
@@ -7491,6 +7491,12 @@
     "headline": "Which dow jones stocks are moving on Wednesday?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+   },
+   {
+    "ts": 1786549420,
+    "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959"
    },
    {
     "ts": 1786541358,
@@ -7515,19 +7521,13 @@
     "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
-   },
-   {
-    "ts": 1786539237,
-    "headline": "Dan Ives Says CoreWeave, Cisco Earnings \u2018Pieces of the Puzzle\u2019 for AI Trade: \u2018Get the Popcorn Out\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4cdccc167eb92176ad6537fce4ed388cc6e164c229046637088e8750468a24be"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T20:28:27Z",
+  "fetched_at": "2026-08-12T21:12:05Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
