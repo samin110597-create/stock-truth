@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Production entry point for Stock Truth ML.
+"""Production entry point for Stock Truth verified-research ML v2.
 
 Normalizes stock and benchmark timestamps to trading calendar dates before
-calling the core model. Repository candles use date-only midnight UTC while
-public benchmark feeds may include a non-zero UTC time for the same session.
+calling the v2 core model. The v2 model uses max available adjusted history,
+purged walk-forward validation, sequential calibration, and a dedicated 1Y
+horizon while keeping UNVERIFIED research forecasts visible.
 """
 
 from __future__ import annotations
 
 import pandas as pd
-import ml_predict as core
+import ml_predict_v2 as core
 
 _original_build_features = core.build_features
 
