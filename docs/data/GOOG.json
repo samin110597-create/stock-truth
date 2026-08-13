@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-12T21:11:54Z",
+ "generated_at": "2026-08-13T14:11:47Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:11:54Z",
-  "current": 342.37,
-  "change": -0.63,
-  "change_pct": -0.1837,
-  "high": 345.5,
-  "low": 339.82,
-  "open": 345.33,
-  "prev_close": 343.0,
-  "ts": 1786564800
+  "fetched_at": "2026-08-13T14:11:47Z",
+  "current": 344.58,
+  "change": 2.21,
+  "change_pct": 0.6455,
+  "high": 345.37,
+  "low": 342.53,
+  "open": 343.8,
+  "prev_close": 342.37,
+  "ts": 1786630284
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:11:54Z",
+  "fetched_at": "2026-08-13T14:11:48Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4186084399999.9995,
+  "mcap": 4201494200000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T21:11:55Z",
+  "fetched_at": "2026-08-13T14:11:48Z",
   "bars": [
-   {
-    "date": "2023-01-10",
-    "open": 86.72,
-    "high": 89.475,
-    "low": 86.7,
-    "close": 89.24,
-    "volume": 22855600.0
-   },
    {
     "date": "2023-01-11",
     "open": 90.059998,
@@ -7227,10 +7219,18 @@
     "low": 339.82001,
     "close": 342.37,
     "volume": 15407674.0
+   },
+   {
+    "date": "2026-08-13",
+    "open": 344.63,
+    "high": 345.25,
+    "low": 342.5,
+    "close": 344.55,
+    "volume": 191259.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-12",
+  "latest": "2026-08-13",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:32Z",
+  "fetched_at": "2026-08-13T14:11:49Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4319246286848.0,
+  "mcap": 4212845707264.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.94,
+  "eps_ttm": 19.93,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 17.711636,
-  "forward_pe": 23.96903,
-  "pb": 6.9390526,
-  "ps": 9.68732,
-  "peg": 0.9579,
-  "ev_ebitda": 24.366,
+  "pe": 17.283995,
+  "forward_pe": 23.371422,
+  "pb": 6.7681155,
+  "ps": 9.448682,
+  "peg": 0.9643,
+  "ev_ebitda": 23.582,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:11:55Z",
+  "fetched_at": "2026-08-13T14:11:49Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T21:11:55Z",
+  "fetched_at": "2026-08-13T14:11:49Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.228943,
+  "forward_pe": 23.371422,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.60573,
+  "institutions_pct": 0.61228,
   "insiders_pct": 0.06598,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:11:55Z",
+  "fetched_at": "2026-08-13T14:11:49Z",
   "rows": [
    {
-    "ts": 1786550345,
-    "headline": "3 Ways To Get Paid For Big Tech's Volatility",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3"
+    "ts": 1786620035,
+    "headline": "Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d"
    },
    {
-    "ts": 1786545952,
-    "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
+    "ts": 1786619820,
+    "headline": "1 of Wall Street\u2019s Favorite Stocks for Long-Term Investors and 2 Facing Challenges",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3fcc75d81b83b0e956ed93073d4eb2d743447ed1a83a6244ebb085be9715aeac"
    },
    {
-    "ts": 1786539777,
-    "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
+    "ts": 1786618997,
+    "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months \u2013 But META Leads Wall Street Upside",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46"
    },
    {
-    "ts": 1786530103,
-    "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c9df3dbc2a8cc05943c78e7bd95a09e27ab3a06244d3eed26cb42ca8b4877227"
+    "ts": 1786618846,
+    "headline": "3 Blue-Chip Stocks That Could Double by 2030",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=773cc8f3172386449e4d6a80f65cc7ab8061fe6d48765886937e58fce9e99734"
    },
    {
-    "ts": 1786530071,
-    "headline": "Google Raises Starting Price For Pixel Watch 5 Models",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0b1ba7d19264cd85baed0db77e8782519e1aaffde2d3bd8fc882c502582eccfd"
+    "ts": 1786618500,
+    "headline": "How the U.S. Is Trying to Copy China\u2019s Supply Chain Playbook",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=71d75ada9e84c1b501598dd2c2b26a9bbaf7664dd7e28000be3850c40d35070c"
    },
    {
-    "ts": 1786529545,
-    "headline": "'Google\u2019s Wearables Will Track Insulin Resistance in Category First'- Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a7c9567af7ce351ee676df69be29ca5eb2135c9e9c4b2d15c7f8521f84b4bd4d"
+    "ts": 1786618140,
+    "headline": "Converging Trade in Nansha, Connecting the Globe: The Heart of the GBA Shapes a New Landscape for the Global Cross-Border Trade Ecosystem",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=285296b0175b681688276c4eed3640d9947ad3c19110631eecd353354ede0f46"
    },
    {
-    "ts": 1786528801,
-    "headline": "Google Devices Chief: 'Pixel and iPhone are going in very different directions'",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=ef1705d87ab01b71e11b4c3e81c9f980316736c5e1f026d446e05549aeca1e88"
+    "ts": 1786617014,
+    "headline": "Big Tech Drives Up Credit Risk for Safe Firms With No AI Links",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5f35a8e928c173b4d434b23783d187705ad341bc96dc0f8f39d88fc628c2ae7f"
    },
    {
-    "ts": 1786528801,
-    "headline": "Google\u2019s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e"
+    "ts": 1786617000,
+    "headline": "The Race to $5 Trillion: Who Will Get There First, Apple or Alphabet?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=04ea6d95b8e6699ab0664cc3080ecccca638f003127ebd9cdc4381a46ca514d6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:11:55Z",
+  "fetched_at": "2026-08-13T14:11:49Z",
   "error": "no insider filings in six months"
  },
  "peers": {

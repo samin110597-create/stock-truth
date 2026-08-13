@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-12T21:12:04Z",
+ "generated_at": "2026-08-13T14:11:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:04Z",
-  "current": 224.09,
-  "change": 6.59,
-  "change_pct": 3.0299,
-  "high": 225.1,
-  "low": 220.2,
-  "open": 221.04,
-  "prev_close": 217.5,
-  "ts": 1786564800
+  "fetched_at": "2026-08-13T14:11:59Z",
+  "current": 226.36,
+  "change": 2.27,
+  "change_pct": 1.013,
+  "high": 227.23,
+  "low": 224.13,
+  "open": 224.5425,
+  "prev_close": 224.09,
+  "ts": 1786630308
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:04Z",
+  "fetched_at": "2026-08-13T14:11:59Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5400714000000.0,
+  "mcap": 5422978000000.0,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T21:12:04Z",
+  "fetched_at": "2026-08-13T14:12:00Z",
   "bars": [
-   {
-    "date": "2023-01-10",
-    "open": 15.507,
-    "high": 15.962,
-    "low": 15.472,
-    "close": 15.909,
-    "volume": 384101000.0
-   },
    {
     "date": "2023-01-11",
     "open": 15.84,
@@ -7227,10 +7219,18 @@
     "low": 220.2,
     "close": 224.089996,
     "volume": 106431963.0
+   },
+   {
+    "date": "2026-08-13",
+    "open": 225.07,
+    "high": 227.21,
+    "low": 224.14,
+    "close": 226.28,
+    "volume": 1222543.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-12",
+  "latest": "2026-08-13",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:43Z",
+  "fetched_at": "2026-08-13T14:12:00Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5374152802304.0,
+  "mcap": 5475980541952.0,
   "shares": 24221000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 6.54,
+  "eps_ttm": 6.52,
   "bvps": 6.49407538912514,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 33.92659,
-  "forward_pe": 17.21276,
-  "pb": 27.494411,
-  "ps": 21.200565,
-  "peg": 0.6168,
-  "ev_ebitda": 32.502,
+  "pe": 34.67546,
+  "forward_pe": 17.640087,
+  "pb": 28.015368,
+  "ps": 21.602268,
+  "peg": 0.5992,
+  "ev_ebitda": 32.521,
   "payout": 0.0061000003,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:04Z",
+  "fetched_at": "2026-08-13T14:12:01Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T21:12:05Z",
+  "fetched_at": "2026-08-13T14:12:01Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.384214,
-  "forward_eps": 12.89043,
+  "forward_pe": 17.640087,
+  "forward_eps": 12.81649,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
-  "institutions_pct": 0.65872,
+  "institutions_pct": 0.65654,
   "insiders_pct": 0.039920002,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:05Z",
+  "fetched_at": "2026-08-13T14:12:01Z",
   "rows": [
    {
-    "ts": 1786561805,
-    "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e"
+    "ts": 1786621860,
+    "headline": "Why Sandisk Stock Keeps Falling?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=68addcc5b448b446f8c3047c5fadd06103429a908d652b85a67a5cab25e79e36"
    },
    {
-    "ts": 1786557901,
-    "headline": "Which S&P500 stocks are the most active on Wednesday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021"
+    "ts": 1786620900,
+    "headline": "Prediction: This Artificial Intelligence (AI) Stock Is Going to Double by 2027",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0e27034dddb00e54ee04a1d90c4656f45608e2775303132cea9344ba1745252d"
    },
    {
-    "ts": 1786552806,
-    "headline": "Which dow jones stocks are moving on Wednesday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3"
+    "ts": 1786620604,
+    "headline": "What the Coming 6G Trials With Nvidia, T-Mobile Could Mean for Nokia Investors",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9ce56efcf6d8b0fac53aa54865ceb54624f6031ca39563c3d64e67c1f08436d5"
    },
    {
-    "ts": 1786549420,
-    "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959"
+    "ts": 1786620360,
+    "headline": "1 Sensational Stock-Split Stock to Buy Right Now, and 1 to Avoid",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=da43e48b2a5fc1e20fd3e3530e1a7d41cf3d3df73474d895a6b1cf9ec7df3886"
    },
    {
-    "ts": 1786541358,
-    "headline": "Credo's Massive Valuation Reflects Detached-From-Reality Expectations",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b560ef86ab9d3b30ea7b881e2b89642665a8240f2277f7ef4445a179bb2bc738"
+    "ts": 1786620300,
+    "headline": "Act Now: Nvidia's Stock Is a Generational Buying Opportunity",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=50bda28ab0972fdbbf4e28efb154626b0c747d943b076ced8f5533cd911a8c2d"
    },
    {
-    "ts": 1786540465,
-    "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a"
+    "ts": 1786620180,
+    "headline": "Time to Retire? Not Till You Do These 3 Things",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9b9c3f5f38c21580fdef15344207a7aa33a566aab937c28cb079936de74491de"
    },
    {
-    "ts": 1786539878,
-    "headline": "Positioning for Big Tech's next move",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=1e259e6bc802b9e061a9925349d4161e4b777358d363f34c6ad01da17cc04b60"
+    "ts": 1786620035,
+    "headline": "Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d"
    },
    {
-    "ts": 1786539777,
-    "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
+    "ts": 1786620000,
+    "headline": "SpaceX Just Reported Earnings for the First Time as a Public Company. Here's the Most Shocking Piece of Guidance Issued by CEO Elon Musk",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6833d899b1775ebad60f320478cd7ef8099ba097ccb57867f321787b5cc6b9e2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:05Z",
+  "fetched_at": "2026-08-13T14:12:01Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

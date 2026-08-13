@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-12T21:12:14Z",
+ "generated_at": "2026-08-13T14:12:10Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:14Z",
-  "current": 578.85,
-  "change": -20.27,
-  "change_pct": -3.3833,
-  "high": 604.499,
-  "low": 578.21,
-  "open": 601.065,
-  "prev_close": 599.12,
-  "ts": 1786564800
+  "fetched_at": "2026-08-13T14:12:10Z",
+  "current": 588.54,
+  "change": 9.69,
+  "change_pct": 1.674,
+  "high": 589.77,
+  "low": 579.39,
+  "open": 580.685,
+  "prev_close": 578.85,
+  "ts": 1786630307
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:14Z",
+  "fetched_at": "2026-08-13T14:12:11Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1485196063999.1187,
+  "mcap": 1474623913629.3137,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-12T21:12:14Z",
+  "fetched_at": "2026-08-13T14:12:13Z",
   "bars": [
-   {
-    "date": "2023-01-10",
-    "open": 127.27,
-    "high": 133.44,
-    "low": 127.15,
-    "close": 132.99001,
-    "volume": 28684400.0
-   },
    {
     "date": "2023-01-11",
     "open": 130.96001,
@@ -7227,10 +7219,18 @@
     "low": 578.25,
     "close": 578.84998,
     "volume": 15847495.0
+   },
+   {
+    "date": "2026-08-13",
+    "open": 580.735,
+    "high": 589.695,
+    "low": 579.54,
+    "close": 588.68,
+    "volume": 69146.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-12",
+  "latest": "2026-08-13",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-10T14:09:55Z",
+  "fetched_at": "2026-08-13T14:12:13Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1524236681216.0,
+  "mcap": 1500557606912.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.53,
+  "eps_ttm": 26.57,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 22.55277,
-  "forward_pe": 17.02871,
-  "pb": 6.2317085,
-  "ps": 6.6780143,
-  "peg": 0.8839,
-  "ev_ebitda": 13.957,
+  "pe": 22.16899,
+  "forward_pe": 16.884909,
+  "pb": 5.7455134,
+  "ps": 6.574271,
+  "peg": 0.8881,
+  "ev_ebitda": 13.649,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:14Z",
+  "fetched_at": "2026-08-13T14:12:13Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-12T21:12:15Z",
+  "fetched_at": "2026-08-13T14:12:13Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.593092,
+  "forward_pe": 16.884909,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
-  "institutions_pct": 0.79137003,
+  "institutions_pct": 0.79787004,
   "insiders_pct": 0.00147,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:15Z",
+  "fetched_at": "2026-08-13T14:12:14Z",
   "rows": [
    {
-    "ts": 1786550345,
-    "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+    "ts": 1786618997,
+    "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months \u2013 But META Leads Wall Street Upside",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46"
+   },
+   {
+    "ts": 1786617014,
+    "headline": "Big Tech Drives Up Credit Risk for Safe Firms With No AI Links",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5f35a8e928c173b4d434b23783d187705ad341bc96dc0f8f39d88fc628c2ae7f"
+   },
+   {
+    "ts": 1786615646,
+    "headline": "Meta Removes 756,000 Australian Teen Accounts as Regulatory Scrutiny Intensifies",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=2e6815e5b43b1de28b044a62e02106a7767f4a17650524e81833856912f4945d"
+   },
+   {
+    "ts": 1786608900,
+    "headline": "Prediction: Nvidia Will Be Worth $6 Trillion by the End of 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=636af9c8ebf002eaf9fbb8644afc9e1660084f85a5cb227b94057ebfc3237217"
+   },
+   {
+    "ts": 1786608869,
+    "headline": "Cool CPI Lights the Fuse Under AI Hardware as Software Takes a Beating",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=8e0b011a5673522bb64aecbf7ece47fbf08cd0f4aff0f5cdb8ff742812f72b7d"
+   },
+   {
+    "ts": 1786606005,
+    "headline": "AI Bubble Burst: The Huang's Warning And The AI Compute ABS Solution",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3"
+    "url": "https://finnhub.io/api/news?id=15c0a718647dd7486e60c2931c153d8db5fb744a96e71bc7204d9e3cd75c33d3"
    },
    {
-    "ts": 1786545952,
-    "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208"
-   },
-   {
-    "ts": 1786540465,
-    "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a"
-   },
-   {
-    "ts": 1786539777,
-    "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51"
-   },
-   {
-    "ts": 1786521601,
-    "headline": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=a1ce80bc851752a1ba868e2da76c868ab558f6406b66e54e882482ed35026846"
-   },
-   {
-    "ts": 1786517100,
-    "headline": "Wall Street Breakfast Podcast: NYC Delivery Model Detour",
+    "ts": 1786605376,
+    "headline": "Meta: Strong Core Business Fundamentals With CapEx Uncertainties",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=85080a2ef98356ff3573cf21b78a69f7b90396a578d8db684e0832a178cdc411"
+    "url": "https://finnhub.io/api/news?id=f768babbc54cb07a8d739b454a65727c3d6f0c13acf57ff556ae5e06c6391d14"
    },
    {
-    "ts": 1786513223,
-    "headline": "Why Is CoreWeave Stock Soaring Wednesday?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=977459f1c54e09943ed7e15afb0440d48c349c276eec74e45506f60882840641"
-   },
-   {
-    "ts": 1786507349,
-    "headline": "Nebius Q2 Outlook: Will Goldman\u2019s $35.5 Billion Revenue Forecast Overpower Jim Cramer\u2019s \u2018Sell\u2019 Warning?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=1c6f6464364c589530c78db3f3dc0d004214a710f2ed82bf87b0832afe5171fe"
+    "ts": 1786602546,
+    "headline": "Meta Launches $1B Fund Amid AI Data Center Pushback",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1ac55189902247b79077601f2e0b5db05789ea43a8a96e32c60a16c439357a50"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-12T21:12:15Z",
+  "fetched_at": "2026-08-13T14:12:14Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
