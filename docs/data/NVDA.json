@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-13T18:14:23Z",
+ "generated_at": "2026-08-13T19:31:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T18:14:23Z",
-  "current": 225.25,
-  "change": 1.16,
-  "change_pct": 0.5176,
+  "fetched_at": "2026-08-13T19:31:24Z",
+  "current": 225.8,
+  "change": 1.71,
+  "change_pct": 0.7631,
   "high": 227.23,
   "low": 223.71,
   "open": 224.5425,
   "prev_close": 224.09,
-  "ts": 1786644835
+  "ts": 1786649454
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T18:14:23Z",
+  "fetched_at": "2026-08-13T19:31:24Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T18:14:23Z",
+  "fetched_at": "2026-08-13T19:31:28Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 225.07,
     "high": 227.21,
     "low": 223.71,
-    "close": 225.22,
-    "volume": 3050054.0
+    "close": 225.825,
+    "volume": 3596074.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T18:14:23Z",
+  "fetched_at": "2026-08-13T19:31:28Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T18:14:24Z",
+  "fetched_at": "2026-08-13T19:31:29Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.567993,
+  "forward_pe": 17.619099,
   "forward_eps": 12.81649,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T18:14:24Z",
+  "fetched_at": "2026-08-13T19:31:29Z",
   "rows": [
    {
-    "ts": 1786639206,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "ts": 1786644301,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=85ac2b07ff18479aadb4467b3e1330bac9629e06dd155f57eff0fc402eb245f3"
+    "url": "https://finnhub.io/api/news?id=8eb74779bd42b55da4886c5f0c5441ed981ae13ba62ff3d0b55448de918848d6"
    },
    {
-    "ts": 1786635905,
-    "headline": "Why Intuitive Machines Stock Dropped Today",
+    "ts": 1786643022,
+    "headline": "SK Group's Chairman Isn't Worried About Nvidia Dependence: Is That Why SKHY Is Up 8%?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=964f9d13993b862a53cbdf015e12c50602680321f7801651f2b2616ef3b8a185"
+    "url": "https://finnhub.io/api/news?id=2bd48566a2bbb6fc6bcf4a286228baacb91129f570288218b0ffc7ab5d6ce331"
    },
    {
-    "ts": 1786635818,
-    "headline": "Just Keep Following The Money Following CoreWeave\u2019s Spike",
+    "ts": 1786642980,
+    "headline": "Second-Quarter Earnings Season Is Nearly Complete. Here's What Investors Should Know.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=899f317cfe8f3aef636d237f75a6dd9802447fc2e26a90009bcca112428b8fdb"
+    "url": "https://finnhub.io/api/news?id=29d3277b78edd38a2da0abfade74bf7a469051123bd40dbfe76d956d071c8511"
    },
    {
-    "ts": 1786635775,
-    "headline": "Wall Street Is Treating Nvidia GPUs Like Forever Cash-Flow Machines. Here\u2019s What Shatters That Illusion",
+    "ts": 1786642621,
+    "headline": "Elon Musk Claims The Majority of SpaceX Revenue Will Be From AI Next Month",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6e9083a3ae1fdc78d680aee7ccc0c08b6180f8f464258ff34adcbe70b13b33a3"
+    "url": "https://finnhub.io/api/news?id=af3e65c89bdeb6083c59c9501230f23d52004a43f415feed2f990097494bd3d2"
    },
    {
-    "ts": 1786635722,
-    "headline": "Nvidia, IBD Stock Of The Day, Nears Buy Point Ahead Of Fiscal Q2 Earnings Report",
+    "ts": 1786642620,
+    "headline": "Bank of America tweaks CoreWeave stock forecast after earnings",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=40a9fa919f0352b78d14e335fdaa8a41e93a08a5e4e0f4dae4745ccf7d03a6a3"
+    "url": "https://finnhub.io/api/news?id=722072a09b8e329b29ae3c0539ea5d8df2fb221285e43410b5ec1abbb7d9bf9b"
    },
    {
-    "ts": 1786635718,
-    "headline": "Jim Cramer Says Nvidia GPUs Are \u2018More Like Fine Jewelry\u2019 Than Cars. Here Is Why That Matters for NVDA Investors.",
+    "ts": 1786642556,
+    "headline": "Anthropic IPO Value Could Beat SpaceX's Record: Report",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=871c36cb1fd3795872dbe1b009c371694428e518afd75be9e85ed1c226690743"
+    "url": "https://finnhub.io/api/news?id=8a63844a82d790d1b3d59cef2885d5b47696bb50bfca317669f5052b3918c2ec"
    },
    {
-    "ts": 1786635540,
-    "headline": "Prediction: Alphabet's $200 Billion Bet Will Result in Huge Profit Growth",
+    "ts": 1786642500,
+    "headline": "SpaceX Stock: Is It Heading Back to $200?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3807bafba725539fe09505c9ca05c4ec764438d58886c1103785c9e99d3d2e69"
+    "url": "https://finnhub.io/api/news?id=63aec0bd63de6a3f4f9cbf13e1172d02c17038bd25b86f457197801464cfc377"
    },
    {
-    "ts": 1786635004,
-    "headline": "Why Nvidia May Stand in the Way of Wall Street's Plans to Turn AI Compute Into a Commodity",
+    "ts": 1786642356,
+    "headline": "Sector Update: Tech Stocks Gain Thursday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=93cbbd9cde356085dbf0b42fee32d1ab99c06e5bb0bb5c9e5da74627d5b2b9a9"
+    "url": "https://finnhub.io/api/news?id=2ddd660f945e74470783317468eeb7c09134410a6b8a251437fd690e77fd0ea5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T18:14:24Z",
+  "fetched_at": "2026-08-13T19:31:29Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
