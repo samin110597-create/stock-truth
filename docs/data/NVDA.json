@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-13T14:11:59Z",
+ "generated_at": "2026-08-13T15:27:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:59Z",
-  "current": 226.36,
-  "change": 2.27,
-  "change_pct": 1.013,
+  "fetched_at": "2026-08-13T15:27:44Z",
+  "current": 224.71,
+  "change": 0.62,
+  "change_pct": 0.2767,
   "high": 227.23,
   "low": 224.13,
   "open": 224.5425,
   "prev_close": 224.09,
-  "ts": 1786630308
+  "ts": 1786634843
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:59Z",
+  "fetched_at": "2026-08-13T15:27:44Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T14:12:00Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 225.07,
     "high": 227.21,
     "low": 224.14,
-    "close": 226.28,
-    "volume": 1222543.0
+    "close": 224.68,
+    "volume": 2049952.0
    }
   ],
   "n": 900,
@@ -7347,7 +7347,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-06T15:04:04Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "rows": [
    {
     "period": "2026-04-30",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:01Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T14:12:01Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.640087,
+  "forward_pe": 17.512594,
   "forward_eps": 12.81649,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:01Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "rows": [
    {
-    "ts": 1786621860,
-    "headline": "Why Sandisk Stock Keeps Falling?",
+    "ts": 1786628704,
+    "headline": "U.S. Budget Deficits Just Surged to $432.3 billion in July While Trump Weighs Brand-New Tax Cuts",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=68addcc5b448b446f8c3047c5fadd06103429a908d652b85a67a5cab25e79e36"
+    "url": "https://finnhub.io/api/news?id=427532ae90cfdf6914189dad06ec6600b4eff4be4ad06ea64a0649feb7fccd0a"
    },
    {
-    "ts": 1786620900,
-    "headline": "Prediction: This Artificial Intelligence (AI) Stock Is Going to Double by 2027",
+    "ts": 1786628644,
+    "headline": "Household Debt Just Fell for the First Time in 6 Years \u2014 Here\u2019s Why That\u2019s Bad News",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0e27034dddb00e54ee04a1d90c4656f45608e2775303132cea9344ba1745252d"
+    "url": "https://finnhub.io/api/news?id=978d1b2f4e506338e96bb5d120efe59df4ea414b0f88aefdc47f0963d7b80cb7"
    },
    {
-    "ts": 1786620604,
-    "headline": "What the Coming 6G Trials With Nvidia, T-Mobile Could Mean for Nokia Investors",
+    "ts": 1786628127,
+    "headline": "Inside Latigo Biotherapeutics\u2019 IPO: A Non-Opioid Pain Bet Goes Public",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9ce56efcf6d8b0fac53aa54865ceb54624f6031ca39563c3d64e67c1f08436d5"
+    "url": "https://finnhub.io/api/news?id=f9ed0860d21fac5b45889bb5f7d101977f12066b6c9bab95f6a065bf9ebbfa7a"
    },
    {
-    "ts": 1786620360,
-    "headline": "1 Sensational Stock-Split Stock to Buy Right Now, and 1 to Avoid",
+    "ts": 1786628100,
+    "headline": "Archer Aviation CEO Signals Strong Outlook for Investors",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=da43e48b2a5fc1e20fd3e3530e1a7d41cf3d3df73474d895a6b1cf9ec7df3886"
+    "url": "https://finnhub.io/api/news?id=96b861e1fb97a340117da82bfe92740ffc54d01097a83e4728f1a534a745a745"
    },
    {
-    "ts": 1786620300,
-    "headline": "Act Now: Nvidia's Stock Is a Generational Buying Opportunity",
+    "ts": 1786627920,
+    "headline": "The Biggest Chip Stocks All Yield Under 1%. Here's Where the Cash Actually Goes.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=50bda28ab0972fdbbf4e28efb154626b0c747d943b076ced8f5533cd911a8c2d"
+    "url": "https://finnhub.io/api/news?id=8e5f063d0a9ac7519e8641eb906abfe19b61380b6837ad20c13bf8d9cb29e8c0"
    },
    {
-    "ts": 1786620180,
-    "headline": "Time to Retire? Not Till You Do These 3 Things",
+    "ts": 1786627890,
+    "headline": "IREN delivers first 50MW Microsoft AI cloud deployment at Childress",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9b9c3f5f38c21580fdef15344207a7aa33a566aab937c28cb079936de74491de"
+    "url": "https://finnhub.io/api/news?id=f64d0ac44df59c406807357df430e61a417a29abab04024550febf58bc010c70"
    },
    {
-    "ts": 1786620035,
-    "headline": "Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst",
+    "ts": 1786627586,
+    "headline": "Burry doubles down on Nebius short after stock surges 34% on earnings",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d"
+    "url": "https://finnhub.io/api/news?id=61a2b7569c0be000b4f364c35682bb27b929e9abdb6ec03ca7dd978f65c5d423"
    },
    {
-    "ts": 1786620000,
-    "headline": "SpaceX Just Reported Earnings for the First Time as a Public Company. Here's the Most Shocking Piece of Guidance Issued by CEO Elon Musk",
+    "ts": 1786627200,
+    "headline": "The Financial Stocks I'd Buy First if I Were Starting a Portfolio Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6833d899b1775ebad60f320478cd7ef8099ba097ccb57867f321787b5cc6b9e2"
+    "url": "https://finnhub.io/api/news?id=917ec795cf8ad3a25da8b920260e6b920883ce75507d5b3ec213370f9dc6597a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:01Z",
+  "fetched_at": "2026-08-13T15:27:46Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

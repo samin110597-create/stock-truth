@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-13T14:12:10Z",
+ "generated_at": "2026-08-13T15:27:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:10Z",
-  "current": 588.54,
-  "change": 9.69,
-  "change_pct": 1.674,
-  "high": 589.77,
+  "fetched_at": "2026-08-13T15:27:55Z",
+  "current": 587.41,
+  "change": 8.56,
+  "change_pct": 1.4788,
+  "high": 591.039,
   "low": 579.39,
   "open": 580.685,
   "prev_close": 578.85,
-  "ts": 1786630307
+  "ts": 1786634840
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:11Z",
+  "fetched_at": "2026-08-13T15:27:55Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T14:12:13Z",
+  "fetched_at": "2026-08-13T15:27:56Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-13",
     "open": 580.735,
-    "high": 589.695,
+    "high": 591.0,
     "low": 579.54,
-    "close": 588.68,
-    "volume": 69146.0
+    "close": 587.305,
+    "volume": 141122.0
    }
   ],
   "n": 900,
@@ -7347,7 +7347,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-06T15:04:15Z",
+  "fetched_at": "2026-08-13T15:27:56Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:13Z",
+  "fetched_at": "2026-08-13T15:27:57Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T14:12:13Z",
+  "fetched_at": "2026-08-13T15:27:57Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.884909,
+  "forward_pe": 16.812443,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:14Z",
+  "fetched_at": "2026-08-13T15:27:57Z",
   "rows": [
+   {
+    "ts": 1786628100,
+    "headline": "Strategus Celebrates Ninth Consecutive Year on the Inc. 5000 List, the Most Prestigious Ranking of America\u2019s Fastest-Growing Private Companies for 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=be6378c4ebd6950d7cd1064ba66c3486f97a9547c4e178d10ca7f4513513d618"
+   },
+   {
+    "ts": 1786627800,
+    "headline": "Google, Meta, Reddit, Snap, and TikTok for Business Workspaces Expand StationOne\u2122 by Kochava Ecosystem Momentum",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b9a76a6ba7b18d632b4e8e48876af38edcdaee1e3e3fe9bacbef5b7df9982dd7"
+   },
+   {
+    "ts": 1786626000,
+    "headline": "New Engen Announces Wave of New Client Wins Including Arena Club and More as Brands Shift to Creative-Led Growth",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=11e9d34ed1c8de45ed6fe6446c9c4b0fd480588a37a37669da7b34d763234805"
+   },
+   {
+    "ts": 1786626000,
+    "headline": "Priori Expands Client Advisory Board with New Members from Fortune 500 Corporate Legal Departments",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=51f516f429febf28f6c5e79007b051ac660b6822ab9a1b7d2ae3528af49000f7"
+   },
+   {
+    "ts": 1786625100,
+    "headline": "The Redesign Group Named No. 758 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America\u2019s Fastest-Growing Private Companies",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=fecca5319c0d884629ad2f88cdbcdd2e502dcb23dc3db3db2c1cedf0687000e9"
+   },
    {
     "ts": 1786618997,
     "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months \u2013 But META Leads Wall Street Upside",
@@ -7491,43 +7521,13 @@
     "headline": "Meta Removes 756,000 Australian Teen Accounts as Regulatory Scrutiny Intensifies",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=2e6815e5b43b1de28b044a62e02106a7767f4a17650524e81833856912f4945d"
-   },
-   {
-    "ts": 1786608900,
-    "headline": "Prediction: Nvidia Will Be Worth $6 Trillion by the End of 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=636af9c8ebf002eaf9fbb8644afc9e1660084f85a5cb227b94057ebfc3237217"
-   },
-   {
-    "ts": 1786608869,
-    "headline": "Cool CPI Lights the Fuse Under AI Hardware as Software Takes a Beating",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=8e0b011a5673522bb64aecbf7ece47fbf08cd0f4aff0f5cdb8ff742812f72b7d"
-   },
-   {
-    "ts": 1786606005,
-    "headline": "AI Bubble Burst: The Huang's Warning And The AI Compute ABS Solution",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=15c0a718647dd7486e60c2931c153d8db5fb744a96e71bc7204d9e3cd75c33d3"
-   },
-   {
-    "ts": 1786605376,
-    "headline": "Meta: Strong Core Business Fundamentals With CapEx Uncertainties",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f768babbc54cb07a8d739b454a65727c3d6f0c13acf57ff556ae5e06c6391d14"
-   },
-   {
-    "ts": 1786602546,
-    "headline": "Meta Launches $1B Fund Amid AI Data Center Pushback",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ac55189902247b79077601f2e0b5db05789ea43a8a96e32c60a16c439357a50"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:12:14Z",
+  "fetched_at": "2026-08-13T15:27:57Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

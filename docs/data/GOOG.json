@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-13T14:11:47Z",
+ "generated_at": "2026-08-13T15:27:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:47Z",
-  "current": 344.58,
-  "change": 2.21,
-  "change_pct": 0.6455,
-  "high": 345.37,
+  "fetched_at": "2026-08-13T15:27:31Z",
+  "current": 343.28,
+  "change": 0.91,
+  "change_pct": 0.2658,
+  "high": 345.83,
   "low": 342.53,
   "open": 343.8,
   "prev_close": 342.37,
-  "ts": 1786630284
+  "ts": 1786634843
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:48Z",
+  "fetched_at": "2026-08-13T15:27:32Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T14:11:48Z",
+  "fetched_at": "2026-08-13T15:27:34Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-13",
     "open": 344.63,
-    "high": 345.25,
+    "high": 345.83,
     "low": 342.5,
-    "close": 344.55,
-    "volume": 191259.0
+    "close": 343.38,
+    "volume": 425528.0
    }
   ],
   "n": 900,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-06T15:03:50Z",
+  "fetched_at": "2026-08-13T15:27:34Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:49Z",
+  "fetched_at": "2026-08-13T15:27:34Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T14:11:49Z",
+  "fetched_at": "2026-08-13T15:27:35Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.371422,
+  "forward_pe": 23.277113,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:49Z",
+  "fetched_at": "2026-08-13T15:27:35Z",
   "rows": [
+   {
+    "ts": 1786629088,
+    "headline": "Steve Eisman warns AI boom depends on OpenAI and Anthropic",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=70adda6985a60719db0c22bab4d1b4919309c3380c6955571c9e3415ad96d122"
+   },
+   {
+    "ts": 1786627800,
+    "headline": "Google, Meta, Reddit, Snap, and TikTok for Business Workspaces Expand StationOne\u2122 by Kochava Ecosystem Momentum",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b9a76a6ba7b18d632b4e8e48876af38edcdaee1e3e3fe9bacbef5b7df9982dd7"
+   },
+   {
+    "ts": 1786626300,
+    "headline": "If Anthropic Stock Trades Like SpaceX, Investors May Wish They Owned Alphabet Instead",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=686674c5eab0f4a09ae89422f6cc288883a017f183d65e5dcfd20e39468ebb06"
+   },
+   {
+    "ts": 1786626103,
+    "headline": "The Fund Mounts Against Alphabet\u2019s (GOOG) Aggressive AI Spending",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4ed36a1fd6380750e4665acdeb01463a161c7431b80587adcd298e2d256644a1"
+   },
+   {
+    "ts": 1786626000,
+    "headline": "New Engen Announces Wave of New Client Wins Including Arena Club and More as Brands Shift to Creative-Led Growth",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=11e9d34ed1c8de45ed6fe6446c9c4b0fd480588a37a37669da7b34d763234805"
+   },
+   {
+    "ts": 1786626000,
+    "headline": "Priori Expands Client Advisory Board with New Members from Fortune 500 Corporate Legal Departments",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=51f516f429febf28f6c5e79007b051ac660b6822ab9a1b7d2ae3528af49000f7"
+   },
+   {
+    "ts": 1786625634,
+    "headline": "Alphabet (GOOG): AI Era\u2019s Primary Beneficiary",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=2710c748410a0013d0292d81efed012b5e741e118495c7ff307507381623a4c0"
+   },
    {
     "ts": 1786620035,
     "headline": "Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d"
-   },
-   {
-    "ts": 1786619820,
-    "headline": "1 of Wall Street\u2019s Favorite Stocks for Long-Term Investors and 2 Facing Challenges",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3fcc75d81b83b0e956ed93073d4eb2d743447ed1a83a6244ebb085be9715aeac"
-   },
-   {
-    "ts": 1786618997,
-    "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months \u2013 But META Leads Wall Street Upside",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46"
-   },
-   {
-    "ts": 1786618846,
-    "headline": "3 Blue-Chip Stocks That Could Double by 2030",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=773cc8f3172386449e4d6a80f65cc7ab8061fe6d48765886937e58fce9e99734"
-   },
-   {
-    "ts": 1786618500,
-    "headline": "How the U.S. Is Trying to Copy China\u2019s Supply Chain Playbook",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=71d75ada9e84c1b501598dd2c2b26a9bbaf7664dd7e28000be3850c40d35070c"
-   },
-   {
-    "ts": 1786618140,
-    "headline": "Converging Trade in Nansha, Connecting the Globe: The Heart of the GBA Shapes a New Landscape for the Global Cross-Border Trade Ecosystem",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=285296b0175b681688276c4eed3640d9947ad3c19110631eecd353354ede0f46"
-   },
-   {
-    "ts": 1786617014,
-    "headline": "Big Tech Drives Up Credit Risk for Safe Firms With No AI Links",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5f35a8e928c173b4d434b23783d187705ad341bc96dc0f8f39d88fc628c2ae7f"
-   },
-   {
-    "ts": 1786617000,
-    "headline": "The Race to $5 Trillion: Who Will Get There First, Apple or Alphabet?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=04ea6d95b8e6699ab0664cc3080ecccca638f003127ebd9cdc4381a46ca514d6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T14:11:49Z",
+  "fetched_at": "2026-08-13T15:27:35Z",
   "error": "no insider filings in six months"
  },
  "peers": {
