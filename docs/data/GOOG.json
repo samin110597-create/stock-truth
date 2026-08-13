@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-13T15:27:31Z",
+ "generated_at": "2026-08-13T16:15:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:31Z",
-  "current": 343.28,
-  "change": 0.91,
-  "change_pct": 0.2658,
+  "fetched_at": "2026-08-13T16:15:07Z",
+  "current": 343.75,
+  "change": 1.38,
+  "change_pct": 0.4031,
   "high": 345.83,
-  "low": 342.53,
+  "low": 342.4,
   "open": 343.8,
   "prev_close": 342.37,
-  "ts": 1786634843
+  "ts": 1786637683
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:32Z",
+  "fetched_at": "2026-08-13T16:15:07Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T15:27:34Z",
+  "fetched_at": "2026-08-13T16:15:19Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-13",
     "open": 344.63,
     "high": 345.83,
-    "low": 342.5,
-    "close": 343.38,
-    "volume": 425528.0
+    "low": 342.4,
+    "close": 343.71,
+    "volume": 504040.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:34Z",
+  "fetched_at": "2026-08-13T16:15:19Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T15:27:35Z",
+  "fetched_at": "2026-08-13T16:15:19Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.277113,
+  "forward_pe": 23.315786,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:35Z",
+  "fetched_at": "2026-08-13T16:15:20Z",
   "rows": [
+   {
+    "ts": 1786635540,
+    "headline": "Prediction: Alphabet's $200 Billion Bet Will Result in Huge Profit Growth",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3807bafba725539fe09505c9ca05c4ec764438d58886c1103785c9e99d3d2e69"
+   },
+   {
+    "ts": 1786635213,
+    "headline": "\"Big Short\" Steve Eisman says China\u2019s AI models are \"Achilles\u2019 heel\" of AI trade",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1f1a9a362dd96f796cbf8894491e6550478d828a876827c1a9f60960b478fe0b"
+   },
+   {
+    "ts": 1786633804,
+    "headline": "Google becomes latest company to raise prices thanks to memory shortage",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7b47feade36c3f1afb7f5f31c58bf704c74251335928767f8c0213fef99f612e"
+   },
+   {
+    "ts": 1786633320,
+    "headline": "The Advertising Research Foundation Announces 2026 ARF David Ogilvy Awards Finalists",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=52bfa7e35dde7a9ac989f6330dfa4e876871b264aac6960fbbbe3c1c17a70378"
+   },
+   {
+    "ts": 1786632114,
+    "headline": "Michael Burry Sounds the Alarm Again: AI Is a Circular Financing Web With Nvidia In the Middle",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=66f95d163eb2238749ca63efc77d996e95d078cc9330c1dec8a78505c6644a4e"
+   },
+   {
+    "ts": 1786632033,
+    "headline": "Databricks Raises $5 Billion at a $190 Billion Valuation",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=59a0ae8de73784c81952a0408ed96b090c4e324ccd9264510ed5be592e974458"
+   },
    {
     "ts": 1786629088,
     "headline": "Steve Eisman warns AI boom depends on OpenAI and Anthropic",
@@ -7476,49 +7512,13 @@
     "headline": "Google, Meta, Reddit, Snap, and TikTok for Business Workspaces Expand StationOne\u2122 by Kochava Ecosystem Momentum",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b9a76a6ba7b18d632b4e8e48876af38edcdaee1e3e3fe9bacbef5b7df9982dd7"
-   },
-   {
-    "ts": 1786626300,
-    "headline": "If Anthropic Stock Trades Like SpaceX, Investors May Wish They Owned Alphabet Instead",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=686674c5eab0f4a09ae89422f6cc288883a017f183d65e5dcfd20e39468ebb06"
-   },
-   {
-    "ts": 1786626103,
-    "headline": "The Fund Mounts Against Alphabet\u2019s (GOOG) Aggressive AI Spending",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4ed36a1fd6380750e4665acdeb01463a161c7431b80587adcd298e2d256644a1"
-   },
-   {
-    "ts": 1786626000,
-    "headline": "New Engen Announces Wave of New Client Wins Including Arena Club and More as Brands Shift to Creative-Led Growth",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=11e9d34ed1c8de45ed6fe6446c9c4b0fd480588a37a37669da7b34d763234805"
-   },
-   {
-    "ts": 1786626000,
-    "headline": "Priori Expands Client Advisory Board with New Members from Fortune 500 Corporate Legal Departments",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=51f516f429febf28f6c5e79007b051ac660b6822ab9a1b7d2ae3528af49000f7"
-   },
-   {
-    "ts": 1786625634,
-    "headline": "Alphabet (GOOG): AI Era\u2019s Primary Beneficiary",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2710c748410a0013d0292d81efed012b5e741e118495c7ff307507381623a4c0"
-   },
-   {
-    "ts": 1786620035,
-    "headline": "Microsoft Is Still Negative 1 Year Later: 76% Increase Lies Ahead According to This Analyst",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73e8906f4232b8e426ae4d9a848a7235cd5ffdc441a69da44cf67a213e3af04d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:35Z",
+  "fetched_at": "2026-08-13T16:15:20Z",
   "error": "no insider filings in six months"
  },
  "peers": {

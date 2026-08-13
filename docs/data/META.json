@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-13T15:27:55Z",
+ "generated_at": "2026-08-13T16:15:46Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:55Z",
-  "current": 587.41,
-  "change": 8.56,
-  "change_pct": 1.4788,
+  "fetched_at": "2026-08-13T16:15:46Z",
+  "current": 586.81,
+  "change": 7.96,
+  "change_pct": 1.3751,
   "high": 591.039,
   "low": 579.39,
   "open": 580.685,
   "prev_close": 578.85,
-  "ts": 1786634840
+  "ts": 1786637731
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:55Z",
+  "fetched_at": "2026-08-13T16:15:46Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T15:27:56Z",
+  "fetched_at": "2026-08-13T16:15:47Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 580.735,
     "high": 591.0,
     "low": 579.54,
-    "close": 587.305,
-    "volume": 141122.0
+    "close": 586.775,
+    "volume": 169135.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:57Z",
+  "fetched_at": "2026-08-13T16:15:47Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T15:27:57Z",
+  "fetched_at": "2026-08-13T16:15:47Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.812443,
+  "forward_pe": 16.806225,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:57Z",
+  "fetched_at": "2026-08-13T16:15:47Z",
   "rows": [
+   {
+    "ts": 1786636064,
+    "headline": "Nebius Surges to $255, Now What if You Didn\u2019t Own It?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=bdc7656ced5d24c83ced338b111f98dc4c1507e27f1ac830e5293022840cb104"
+   },
+   {
+    "ts": 1786634506,
+    "headline": "Meta (META) Deletes 756,000 Teen Accounts, But Is It Enough?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d2343be98911828abd92700cfaeebba103e4cfa27fb9dd0c7e5c3f2ee64a029e"
+   },
+   {
+    "ts": 1786634340,
+    "headline": "Canary Technologies Named to the 2026 Inc. 5000 List",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9ef5e2c854221b1efd1e5fb14f4e0298f0179672395798df1e540f2d59a4717d"
+   },
+   {
+    "ts": 1786632114,
+    "headline": "Michael Burry Sounds the Alarm Again: AI Is a Circular Financing Web With Nvidia In the Middle",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=66f95d163eb2238749ca63efc77d996e95d078cc9330c1dec8a78505c6644a4e"
+   },
+   {
+    "ts": 1786631820,
+    "headline": "1 Russell 2000 Stock to Target This Week and 2 That Underwhelm",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d5d4372a08a786ebfb569a98b7c3c551bae9e2ea2fbbcce494e2198da6e3bbd4"
+   },
+   {
+    "ts": 1786631247,
+    "headline": "Meta\u2019s $145B Bet Has Wall Street Terrified\u2014Here\u2019s Why Bargain Hunters Are Buying Hand Over Fist",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=bfebfbe998f882f2dd343fc2c93bef004b7efac155cb1b1ccd4f22afbcac5b5f"
+   },
+   {
+    "ts": 1786629540,
+    "headline": "Why Nvidia Stock Is Stuck Despite a Wild Week for AI",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9b1912ec6dbb474ae921ab95ca8e5c808efc8113624d6562342ccca24fdd918f"
+   },
    {
     "ts": 1786628100,
     "headline": "Strategus Celebrates Ninth Consecutive Year on the Inc. 5000 List, the Most Prestigious Ranking of America\u2019s Fastest-Growing Private Companies for 2026",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=be6378c4ebd6950d7cd1064ba66c3486f97a9547c4e178d10ca7f4513513d618"
-   },
-   {
-    "ts": 1786627800,
-    "headline": "Google, Meta, Reddit, Snap, and TikTok for Business Workspaces Expand StationOne\u2122 by Kochava Ecosystem Momentum",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b9a76a6ba7b18d632b4e8e48876af38edcdaee1e3e3fe9bacbef5b7df9982dd7"
-   },
-   {
-    "ts": 1786626000,
-    "headline": "New Engen Announces Wave of New Client Wins Including Arena Club and More as Brands Shift to Creative-Led Growth",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=11e9d34ed1c8de45ed6fe6446c9c4b0fd480588a37a37669da7b34d763234805"
-   },
-   {
-    "ts": 1786626000,
-    "headline": "Priori Expands Client Advisory Board with New Members from Fortune 500 Corporate Legal Departments",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=51f516f429febf28f6c5e79007b051ac660b6822ab9a1b7d2ae3528af49000f7"
-   },
-   {
-    "ts": 1786625100,
-    "headline": "The Redesign Group Named No. 758 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America\u2019s Fastest-Growing Private Companies",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fecca5319c0d884629ad2f88cdbcdd2e502dcb23dc3db3db2c1cedf0687000e9"
-   },
-   {
-    "ts": 1786618997,
-    "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months \u2013 But META Leads Wall Street Upside",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46"
-   },
-   {
-    "ts": 1786617014,
-    "headline": "Big Tech Drives Up Credit Risk for Safe Firms With No AI Links",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5f35a8e928c173b4d434b23783d187705ad341bc96dc0f8f39d88fc628c2ae7f"
-   },
-   {
-    "ts": 1786615646,
-    "headline": "Meta Removes 756,000 Australian Teen Accounts as Regulatory Scrutiny Intensifies",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2e6815e5b43b1de28b044a62e02106a7767f4a17650524e81833856912f4945d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:57Z",
+  "fetched_at": "2026-08-13T16:15:48Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-13T15:27:19Z",
+ "generated_at": "2026-08-13T16:14:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:20Z",
-  "current": 266.55,
-  "change": -0.73,
-  "change_pct": -0.2731,
+  "fetched_at": "2026-08-13T16:14:56Z",
+  "current": 265.24,
+  "change": -2.04,
+  "change_pct": -0.7632,
   "high": 269.58,
-  "low": 265.58,
+  "low": 265.136,
   "open": 267.4875,
   "prev_close": 267.28,
-  "ts": 1786634820
+  "ts": 1786637682
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:20Z",
+  "fetched_at": "2026-08-13T16:14:56Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T15:27:21Z",
+  "fetched_at": "2026-08-13T16:14:57Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-13",
     "open": 267.235,
     "high": 269.54,
-    "low": 265.63,
-    "close": 266.62,
-    "volume": 495688.0
+    "low": 265.3,
+    "close": 265.35,
+    "volume": 669775.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:22Z",
+  "fetched_at": "2026-08-13T16:14:57Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T15:27:22Z",
+  "fetched_at": "2026-08-13T16:14:58Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.691854,
+  "forward_pe": 25.543514,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:22Z",
+  "fetched_at": "2026-08-13T16:14:58Z",
   "rows": [
+   {
+    "ts": 1786635775,
+    "headline": "Wall Street Is Treating Nvidia GPUs Like Forever Cash-Flow Machines. Here\u2019s What Shatters That Illusion",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6e9083a3ae1fdc78d680aee7ccc0c08b6180f8f464258ff34adcbe70b13b33a3"
+   },
+   {
+    "ts": 1786635213,
+    "headline": "\"Big Short\" Steve Eisman says China\u2019s AI models are \"Achilles\u2019 heel\" of AI trade",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1f1a9a362dd96f796cbf8894491e6550478d828a876827c1a9f60960b478fe0b"
+   },
+   {
+    "ts": 1786635133,
+    "headline": "Cerebras Systems Poised to See More Upside From Capacity, AI Demand, Morgan Stanley Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=38d8cf9466df127f82be15412d564626ab629ca7cc751301e8fc4c8d100277e5"
+   },
+   {
+    "ts": 1786633254,
+    "headline": "Kornit Digital's Q2 Presents Evidence of Growing Momentum, Morgan Stanley Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=86ca60f289e71470f48970dfd355443f1612c167c2e453ddc0a745af2bf69415"
+   },
+   {
+    "ts": 1786633190,
+    "headline": "The Price Is Down, But Is The Story At eBay Stock Still Up?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8fea5ed43fa63f33353c99d76318b4e69c5f123de85a28e592b51eaf846104f8"
+   },
+   {
+    "ts": 1786632114,
+    "headline": "Michael Burry Sounds the Alarm Again: AI Is a Circular Financing Web With Nvidia In the Middle",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=66f95d163eb2238749ca63efc77d996e95d078cc9330c1dec8a78505c6644a4e"
+   },
+   {
+    "ts": 1786632000,
+    "headline": "Can UPS Keep Improving Margins as Network Savings Reach $3 Billion?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9990a6965f8977d0eb3f1ed560f213f7072d12be84a2194165e27d84e04b4365"
+   },
    {
     "ts": 1786629088,
     "headline": "Steve Eisman warns AI boom depends on OpenAI and Anthropic",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=70adda6985a60719db0c22bab4d1b4919309c3380c6955571c9e3415ad96d122"
-   },
-   {
-    "ts": 1786626029,
-    "headline": "AutoStore Holdings Ltd (FRA:1IG) (Q2 2026) Earnings Call Highlights: Record Revenue and Amazon ...",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b79b5e8cd22219c912cf009eed4087773b20d2e26adaf2fa0d012f873b89256c"
-   },
-   {
-    "ts": 1786626000,
-    "headline": "Credit Acceptance Announces New Chief Technology Officer to Advance Digital-First, AI-Enabled Business Evolution",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8ce764de2de26dd8af178831670e8d0fe378ab1b795e20a92ef646b06be193cb"
-   },
-   {
-    "ts": 1786624740,
-    "headline": "Amphenol and Pilgrim Pride have been highlighted as Zacks Bull and Bear of the Day",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=34aba30b4b41afc5854abef5bb216be4466fbffae2dfa365838e462eb1447096"
-   },
-   {
-    "ts": 1786624644,
-    "headline": "This Week In E-Commerce - Vmake Labs Transforms Social Video Creation for Businesses",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5229d7c1fd374832535fece3a831d1045937b1f5d7cee52ac26820a63f4fe55f"
-   },
-   {
-    "ts": 1786624200,
-    "headline": "CMA Advises Edge Right, a Tech-Enabled Outdoor Living Products Brand, on Its Sale to Super-Sod",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b1a2335223c0fc77d63b16d23dc7e826f28c05c3226cf9337e8e4fe793e65bc4"
-   },
-   {
-    "ts": 1786622859,
-    "headline": "AI Earnings Split: Accelerating Growers Rewarded, Cloud Bellwether Sells Off",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=796cab26eda2f37b542b1500966dad0f169aac51f497d18acf126608798db5e0"
-   },
-   {
-    "ts": 1786622401,
-    "headline": "Billionaire David Tepper Just Revealed His Single Largest Stock Holding. It\u2019s Not NVIDIA",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1f9beb92f4a3d3b68aabfe4150f2f93239893558d907528526d8b1917d0d5955"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T15:27:22Z",
+  "fetched_at": "2026-08-13T16:14:58Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,
