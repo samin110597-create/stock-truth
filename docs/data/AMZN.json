@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-13T17:25:14Z",
+ "generated_at": "2026-08-13T18:13:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:14Z",
-  "current": 265.44,
-  "change": -1.84,
-  "change_pct": -0.6884,
+  "fetched_at": "2026-08-13T18:13:57Z",
+  "current": 265.85,
+  "change": -1.43,
+  "change_pct": -0.535,
   "high": 269.58,
   "low": 264.82,
   "open": 267.4875,
   "prev_close": 267.28,
-  "ts": 1786641899
+  "ts": 1786644813
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:15Z",
+  "fetched_at": "2026-08-13T18:13:57Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T17:25:17Z",
+  "fetched_at": "2026-08-13T18:13:57Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 267.235,
     "high": 269.54,
     "low": 264.82,
-    "close": 265.52,
-    "volume": 835472.0
+    "close": 265.81,
+    "volume": 914301.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:17Z",
+  "fetched_at": "2026-08-13T18:13:57Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T17:25:18Z",
+  "fetched_at": "2026-08-13T18:13:58Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.575302,
+  "forward_pe": 25.606125,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:18Z",
+  "fetched_at": "2026-08-13T18:13:58Z",
   "rows": [
+   {
+    "ts": 1786643100,
+    "headline": "Nexxus Capital Acquires Assets of another Top Amazon Aggregator",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=da9fd96ee1a8648899d5ae921db564b8bef60c8f8771374eb09ba49e86c5ea0f"
+   },
+   {
+    "ts": 1786640955,
+    "headline": "Why Amazon Stock Is Down Today",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1bc98df0c7cfc467e2ab9f12b0a778ba16133675c1099e030e83913b08e4f989"
+   },
+   {
+    "ts": 1786640406,
+    "headline": "Amazon\u2019s Price Target Says +32% and Not a Single Analyst Says Sell",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
+   },
+   {
+    "ts": 1786640132,
+    "headline": "Porter Stansberry Brings Jeff Bezos\u2019 2004 Transportation Machine Analogy Into CRWV Debate \u2014 Michael Burry Weighs In",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7490e2f90c471951ff5a76a69e44a4ff028d98ab082f3b20e9b2203478614a4f"
+   },
+   {
+    "ts": 1786639860,
+    "headline": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=2057776cf3bec3ce61e438d1ba9189777df50c4adb70a427ea9af0a97f84130b"
+   },
    {
     "ts": 1786639206,
     "headline": "Discover which dow jones stocks are making waves on Thursday.",
@@ -7472,53 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=85ac2b07ff18479aadb4467b3e1330bac9629e06dd155f57eff0fc402eb245f3"
    },
    {
-    "ts": 1786635775,
-    "headline": "Wall Street Is Treating Nvidia GPUs Like Forever Cash-Flow Machines. Here\u2019s What Shatters That Illusion",
+    "ts": 1786637580,
+    "headline": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6e9083a3ae1fdc78d680aee7ccc0c08b6180f8f464258ff34adcbe70b13b33a3"
+    "url": "https://finnhub.io/api/news?id=e738886fbd181317c05e3abd989a46e1844b06747fdc8fde4baf1b1b8682458d"
    },
    {
-    "ts": 1786635213,
-    "headline": "\"Big Short\" Steve Eisman says China\u2019s AI models are \"Achilles\u2019 heel\" of AI trade",
+    "ts": 1786637258,
+    "headline": "Your TV's Home Screen Is New Gatekeeper, And Advertisers Better Get Used To It",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1f1a9a362dd96f796cbf8894491e6550478d828a876827c1a9f60960b478fe0b"
-   },
-   {
-    "ts": 1786635133,
-    "headline": "Cerebras Systems Poised to See More Upside From Capacity, AI Demand, Morgan Stanley Says",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=38d8cf9466df127f82be15412d564626ab629ca7cc751301e8fc4c8d100277e5"
-   },
-   {
-    "ts": 1786633254,
-    "headline": "Kornit Digital's Q2 Presents Evidence of Growing Momentum, Morgan Stanley Says",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=86ca60f289e71470f48970dfd355443f1612c167c2e453ddc0a745af2bf69415"
-   },
-   {
-    "ts": 1786633190,
-    "headline": "The Price Is Down, But Is The Story At eBay Stock Still Up?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8fea5ed43fa63f33353c99d76318b4e69c5f123de85a28e592b51eaf846104f8"
-   },
-   {
-    "ts": 1786632114,
-    "headline": "Michael Burry Sounds the Alarm Again: AI Is a Circular Financing Web With Nvidia In the Middle",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=66f95d163eb2238749ca63efc77d996e95d078cc9330c1dec8a78505c6644a4e"
-   },
-   {
-    "ts": 1786632000,
-    "headline": "Can UPS Keep Improving Margins as Network Savings Reach $3 Billion?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9990a6965f8977d0eb3f1ed560f213f7072d12be84a2194165e27d84e04b4365"
+    "url": "https://finnhub.io/api/news?id=4d86a629f5c364dbffefe875f4bf78422d40edffc57980469e85a4fd47c852cb"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:18Z",
+  "fetched_at": "2026-08-13T18:13:59Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

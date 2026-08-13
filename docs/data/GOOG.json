@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-13T17:25:27Z",
+ "generated_at": "2026-08-13T18:14:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:27Z",
-  "current": 343.62,
-  "change": 1.25,
-  "change_pct": 0.3651,
+  "fetched_at": "2026-08-13T18:14:08Z",
+  "current": 344.62,
+  "change": 2.25,
+  "change_pct": 0.6572,
   "high": 345.83,
   "low": 342.4,
   "open": 343.8,
   "prev_close": 342.37,
-  "ts": 1786641899
+  "ts": 1786644836
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:27Z",
+  "fetched_at": "2026-08-13T18:14:08Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T17:25:28Z",
+  "fetched_at": "2026-08-13T18:14:13Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 344.63,
     "high": 345.83,
     "low": 342.4,
-    "close": 343.71,
-    "volume": 635973.0
+    "close": 344.575,
+    "volume": 696548.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:28Z",
+  "fetched_at": "2026-08-13T18:14:13Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T17:25:29Z",
+  "fetched_at": "2026-08-13T18:14:13Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.325964,
+  "forward_pe": 23.379904,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:29Z",
+  "fetched_at": "2026-08-13T18:14:13Z",
   "rows": [
    {
-    "ts": 1786635540,
-    "headline": "Prediction: Alphabet's $200 Billion Bet Will Result in Huge Profit Growth",
+    "ts": 1786643022,
+    "headline": "SK Group's Chairman Isn't Worried About Nvidia Dependence: Is That Why SKHY Is Up 8%?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3807bafba725539fe09505c9ca05c4ec764438d58886c1103785c9e99d3d2e69"
+    "url": "https://finnhub.io/api/news?id=2bd48566a2bbb6fc6bcf4a286228baacb91129f570288218b0ffc7ab5d6ce331"
    },
    {
-    "ts": 1786635213,
-    "headline": "\"Big Short\" Steve Eisman says China\u2019s AI models are \"Achilles\u2019 heel\" of AI trade",
+    "ts": 1786641598,
+    "headline": "Google makes costly bet Apple proved can work",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1f1a9a362dd96f796cbf8894491e6550478d828a876827c1a9f60960b478fe0b"
+    "url": "https://finnhub.io/api/news?id=dd529d4057b8de03d0c3440c75bc162c182fe2285afca176e08bf6160382b9e7"
    },
    {
-    "ts": 1786633804,
-    "headline": "Google becomes latest company to raise prices thanks to memory shortage",
+    "ts": 1786641425,
+    "headline": "OpenAI replaces Chief Revenue Officer Denise Dresser",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7b47feade36c3f1afb7f5f31c58bf704c74251335928767f8c0213fef99f612e"
+    "url": "https://finnhub.io/api/news?id=73ea42a321a068540228dc0c99b4243d073923c002488bc0cd1cb8f1de865660"
    },
    {
-    "ts": 1786633320,
-    "headline": "The Advertising Research Foundation Announces 2026 ARF David Ogilvy Awards Finalists",
+    "ts": 1786640523,
+    "headline": "Google unveils Gemini 3.7 Flash AI model for coding, agent workflows",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=52bfa7e35dde7a9ac989f6330dfa4e876871b264aac6960fbbbe3c1c17a70378"
+    "url": "https://finnhub.io/api/news?id=0a14a8d2d0a69545bd38da9a95ece2c4ce72e4adf7e53509928b8725c820f02f"
    },
    {
-    "ts": 1786632114,
-    "headline": "Michael Burry Sounds the Alarm Again: AI Is a Circular Financing Web With Nvidia In the Middle",
+    "ts": 1786640406,
+    "headline": "Amazon\u2019s Price Target Says +32% and Not a Single Analyst Says Sell",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=66f95d163eb2238749ca63efc77d996e95d078cc9330c1dec8a78505c6644a4e"
+    "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
    },
    {
-    "ts": 1786632033,
-    "headline": "Databricks Raises $5 Billion at a $190 Billion Valuation",
+    "ts": 1786640280,
+    "headline": "OpenAI replaces revenue lead as Greg Brockman builds his presence",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=59a0ae8de73784c81952a0408ed96b090c4e324ccd9264510ed5be592e974458"
+    "url": "https://finnhub.io/api/news?id=36ce4b00a2b0aea32e2c42b7c5ba75c0920b01c29c6aa60e3dcea43e57d5fdda"
    },
    {
-    "ts": 1786629088,
-    "headline": "Steve Eisman warns AI boom depends on OpenAI and Anthropic",
+    "ts": 1786639860,
+    "headline": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=70adda6985a60719db0c22bab4d1b4919309c3380c6955571c9e3415ad96d122"
+    "url": "https://finnhub.io/api/news?id=2057776cf3bec3ce61e438d1ba9189777df50c4adb70a427ea9af0a97f84130b"
    },
    {
-    "ts": 1786627800,
-    "headline": "Google, Meta, Reddit, Snap, and TikTok for Business Workspaces Expand StationOne\u2122 by Kochava Ecosystem Momentum",
+    "ts": 1786639013,
+    "headline": "Meta Remains a Deeply Discounted Giant: Wall Street Expects 30% Gains, One Analyst Expects 100%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b9a76a6ba7b18d632b4e8e48876af38edcdaee1e3e3fe9bacbef5b7df9982dd7"
+    "url": "https://finnhub.io/api/news?id=1b33a83bba9de3a1974a8b5c8137b51cc8cb96d5f7711efd82a7df3acc8fc567"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T17:25:29Z",
+  "fetched_at": "2026-08-13T18:14:13Z",
   "error": "no insider filings in six months"
  },
  "peers": {
