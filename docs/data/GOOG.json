@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-13T19:31:12Z",
+ "generated_at": "2026-08-13T20:26:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:12Z",
-  "current": 343.97,
-  "change": 1.6,
-  "change_pct": 0.4673,
+  "fetched_at": "2026-08-13T20:26:49Z",
+  "current": 343.94,
+  "change": 1.57,
+  "change_pct": 0.4586,
   "high": 345.83,
   "low": 342.4,
-  "open": 343.8,
+  "open": 344.57,
   "prev_close": 342.37,
-  "ts": 1786649453
+  "ts": 1786651200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:12Z",
+  "fetched_at": "2026-08-13T20:26:49Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T19:31:14Z",
+  "fetched_at": "2026-08-13T20:26:50Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7225,8 +7225,8 @@
     "open": 344.63,
     "high": 345.83,
     "low": 342.4,
-    "close": 343.86,
-    "volume": 866496.0
+    "close": 343.95,
+    "volume": 1045612.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:14Z",
+  "fetched_at": "2026-08-13T20:26:50Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T19:31:15Z",
+  "fetched_at": "2026-08-13T20:26:50Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.336143,
+  "forward_pe": 23.335464,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:15Z",
+  "fetched_at": "2026-08-13T20:26:50Z",
   "rows": [
    {
-    "ts": 1786643022,
-    "headline": "SK Group's Chairman Isn't Worried About Nvidia Dependence: Is That Why SKHY Is Up 8%?",
+    "ts": 1786650360,
+    "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2bd48566a2bbb6fc6bcf4a286228baacb91129f570288218b0ffc7ab5d6ce331"
+    "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
    },
    {
-    "ts": 1786641598,
-    "headline": "Google makes costly bet Apple proved can work",
+    "ts": 1786649138,
+    "headline": "HTZ Stock Hit Hard As Bill Ackman\u2019s Pershing Square Walks Away Citing \u2018Bungled\u2019 Equity Offering",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dd529d4057b8de03d0c3440c75bc162c182fe2285afca176e08bf6160382b9e7"
+    "url": "https://finnhub.io/api/news?id=512f5c06e627570d8ec4d37330ab373169fec6269c32dd4ddc855d6949963df0"
    },
    {
-    "ts": 1786641425,
-    "headline": "OpenAI replaces Chief Revenue Officer Denise Dresser",
+    "ts": 1786648960,
+    "headline": "OpenAI Revenue Chief to Leave, Marking Latest Exec Departure at AI Lab",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73ea42a321a068540228dc0c99b4243d073923c002488bc0cd1cb8f1de865660"
+    "url": "https://finnhub.io/api/news?id=0a2f7e1d4f2e9c354741e9c183d6c8dd894703f393609f8217f88e2b8908c452"
    },
    {
-    "ts": 1786640523,
-    "headline": "Google unveils Gemini 3.7 Flash AI model for coding, agent workflows",
+    "ts": 1786648658,
+    "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a14a8d2d0a69545bd38da9a95ece2c4ce72e4adf7e53509928b8725c820f02f"
+    "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
    },
    {
-    "ts": 1786640406,
-    "headline": "Amazon\u2019s Price Target Says +32% and Not a Single Analyst Says Sell",
+    "ts": 1786647663,
+    "headline": "Apple Stock Rises While Norway Fund Reveals Huge Position",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
+    "url": "https://finnhub.io/api/news?id=b919d411393dae92c480e6a371ee6d08fb0dfaad50c45a57491306f29887d719"
    },
    {
-    "ts": 1786640280,
-    "headline": "OpenAI replaces revenue lead as Greg Brockman builds his presence",
+    "ts": 1786647399,
+    "headline": "Google Just Lost One Of Its Biggest AI Names",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=36ce4b00a2b0aea32e2c42b7c5ba75c0920b01c29c6aa60e3dcea43e57d5fdda"
+    "url": "https://finnhub.io/api/news?id=a602172674e65020f9a4180654fc788d29f7252422da2c1cd9150ee2e4aa38d5"
    },
    {
-    "ts": 1786639860,
-    "headline": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
+    "ts": 1786647287,
+    "headline": "Millions of Americans Own Vanguard\u2019s VFIAX and Have No Idea What They Actually Bought",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2057776cf3bec3ce61e438d1ba9189777df50c4adb70a427ea9af0a97f84130b"
+    "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
    },
    {
-    "ts": 1786639013,
-    "headline": "Meta Remains a Deeply Discounted Giant: Wall Street Expects 30% Gains, One Analyst Expects 100%",
+    "ts": 1786646832,
+    "headline": "Nvidia Stock Gains While Norway Fund Reveals Top Holding",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1b33a83bba9de3a1974a8b5c8137b51cc8cb96d5f7711efd82a7df3acc8fc567"
+    "url": "https://finnhub.io/api/news?id=920102748a703896a9e07809103bab989f6846e6ede4b2ed2d58650ff50c6bf1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:15Z",
+  "fetched_at": "2026-08-13T20:26:50Z",
   "error": "no insider filings in six months"
  },
  "peers": {

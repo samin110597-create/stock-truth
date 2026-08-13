@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-13T19:31:00Z",
+ "generated_at": "2026-08-13T20:26:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:00Z",
-  "current": 265.69,
-  "change": -1.59,
-  "change_pct": -0.5949,
+  "fetched_at": "2026-08-13T20:26:38Z",
+  "current": 265.13,
+  "change": -2.15,
+  "change_pct": -0.8044,
   "high": 269.58,
-  "low": 264.82,
-  "open": 267.4875,
+  "low": 264.705,
+  "open": 267.235,
   "prev_close": 267.28,
-  "ts": 1786649429
+  "ts": 1786651200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:00Z",
+  "fetched_at": "2026-08-13T20:26:38Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T19:31:03Z",
+  "fetched_at": "2026-08-13T20:26:39Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-13",
     "open": 267.235,
     "high": 269.54,
-    "low": 264.82,
-    "close": 265.535,
-    "volume": 1085934.0
+    "low": 264.71,
+    "close": 265.185,
+    "volume": 1320334.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:03Z",
+  "fetched_at": "2026-08-13T20:26:39Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T19:31:03Z",
+  "fetched_at": "2026-08-13T20:26:40Z",
   "analyst_target_mean": 326.82068,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.587826,
+  "forward_pe": 25.538698,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:03Z",
+  "fetched_at": "2026-08-13T20:26:40Z",
   "rows": [
    {
-    "ts": 1786643100,
-    "headline": "Nexxus Capital Acquires Assets of another Top Amazon Aggregator",
+    "ts": 1786650720,
+    "headline": "AMAZON TEAMSTERS AND ALLIES PICKET CITY HALL FOR THE DELIVERY PROTECTION ACT",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=da9fd96ee1a8648899d5ae921db564b8bef60c8f8771374eb09ba49e86c5ea0f"
+    "url": "https://finnhub.io/api/news?id=f335c5b033d5c37c72e579a8d5506a26e068efb892b30ce31a81511cb75eee56"
    },
    {
-    "ts": 1786640955,
-    "headline": "Why Amazon Stock Is Down Today",
+    "ts": 1786650360,
+    "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1bc98df0c7cfc467e2ab9f12b0a778ba16133675c1099e030e83913b08e4f989"
+    "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
    },
    {
-    "ts": 1786640406,
-    "headline": "Amazon\u2019s Price Target Says +32% and Not a Single Analyst Says Sell",
+    "ts": 1786649520,
+    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=aa77a94e3624b8ed06f561c24d9f0bbb611b573743bf2c9b73095813298982f7"
+    "url": "https://finnhub.io/api/news?id=91bb5294725d301022c1199f666980d005fdf0bbb431cc2179033af8c1a510b0"
    },
    {
-    "ts": 1786640132,
-    "headline": "Porter Stansberry Brings Jeff Bezos\u2019 2004 Transportation Machine Analogy Into CRWV Debate \u2014 Michael Burry Weighs In",
+    "ts": 1786648658,
+    "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7490e2f90c471951ff5a76a69e44a4ff028d98ab082f3b20e9b2203478614a4f"
+    "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
    },
    {
-    "ts": 1786639860,
-    "headline": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2057776cf3bec3ce61e438d1ba9189777df50c4adb70a427ea9af0a97f84130b"
-   },
-   {
-    "ts": 1786639206,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "ts": 1786648206,
+    "headline": "Stay informed with the top movers within the dow jones index on Thursday.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=85ac2b07ff18479aadb4467b3e1330bac9629e06dd155f57eff0fc402eb245f3"
+    "url": "https://finnhub.io/api/news?id=d809f45966630d8a19facd36d00cdb710b4ed6f03d04f981ead22bea0fe9d02d"
    },
    {
-    "ts": 1786637580,
-    "headline": "Prediction: MercadoLibre Will Join Amazon, Walmart, and Costco in the $100 Billion Revenue Club by 2029",
+    "ts": 1786647287,
+    "headline": "Millions of Americans Own Vanguard\u2019s VFIAX and Have No Idea What They Actually Bought",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e738886fbd181317c05e3abd989a46e1844b06747fdc8fde4baf1b1b8682458d"
+    "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
    },
    {
-    "ts": 1786637258,
-    "headline": "Your TV's Home Screen Is New Gatekeeper, And Advertisers Better Get Used To It",
+    "ts": 1786646873,
+    "headline": "Amazon Stock Gains as Ackman Backs Accelerating AWS Growth",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4d86a629f5c364dbffefe875f4bf78422d40edffc57980469e85a4fd47c852cb"
+    "url": "https://finnhub.io/api/news?id=18a7a9c154e91c84e618c483fb3e3fabd6b132217b5dd7d4b01d0b789b39dca6"
+   },
+   {
+    "ts": 1786646786,
+    "headline": "Alphabet Stock Climbs as Norway Fund Ranks It Third",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=632a6356a78bbddb353d4e2ce98d665aaba5a34d8d759559a809c32707268236"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:03Z",
+  "fetched_at": "2026-08-13T20:26:40Z",
   "buys": 43,
   "sells": 112,
   "net_shares": -2107473.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-13T19:31:38Z",
+ "generated_at": "2026-08-13T20:27:10Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:38Z",
-  "current": 595.45,
-  "change": 16.6,
-  "change_pct": 2.8678,
-  "high": 595.65,
+  "fetched_at": "2026-08-13T20:27:10Z",
+  "current": 594.97,
+  "change": 16.12,
+  "change_pct": 2.7848,
+  "high": 595.85,
   "low": 579.39,
-  "open": 580.685,
+  "open": 580.71,
   "prev_close": 578.85,
-  "ts": 1786649477
+  "ts": 1786651200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:38Z",
+  "fetched_at": "2026-08-13T20:27:10Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T19:31:39Z",
+  "fetched_at": "2026-08-13T20:27:11Z",
   "bars": [
    {
     "date": "2023-01-11",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-13",
     "open": 580.735,
-    "high": 595.63,
+    "high": 595.84,
     "low": 579.54,
-    "close": 595.49,
-    "volume": 285828.0
+    "close": 594.85,
+    "volume": 351268.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:39Z",
+  "fetched_at": "2026-08-13T20:27:11Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T19:31:39Z",
+  "fetched_at": "2026-08-13T20:27:11Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.062635,
+  "forward_pe": 17.055182,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:39Z",
+  "fetched_at": "2026-08-13T20:27:11Z",
   "rows": [
+   {
+    "ts": 1786648851,
+    "headline": "Meta Stock Rises While 756,000 Teen Accounts Come Down",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4837f5b2e921c216109d372102300dbf71b826c7fcebd50061abca83af0fb3b4"
+   },
+   {
+    "ts": 1786648708,
+    "headline": "Meta Removes 756,000 Teen Accounts in Australia",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=666f9d2d7a5e16e1dc1048b3fb79fc9186a2ae4adfdab8310aaeaa21e158371d"
+   },
+   {
+    "ts": 1786648658,
+    "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
+   },
+   {
+    "ts": 1786648589,
+    "headline": "S&P 500 Hits Record as Cooling Inflation Boosts Rate-Cut Hopes",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0acec4b8fb6348a4e1a5611297c056280748136f0e8afe157c060bc78595998f"
+   },
+   {
+    "ts": 1786647287,
+    "headline": "Millions of Americans Own Vanguard\u2019s VFIAX and Have No Idea What They Actually Bought",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
+   },
    {
     "ts": 1786639860,
     "headline": "The Numbers Get Larger and Larger: Inside the AI Financing Scramble",
@@ -7491,43 +7521,13 @@
     "headline": "4 Nuclear Stocks Riding the AI Power Boom Into 2027 and Beyond",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=9f42be0e3d6a40c84f6f0defa582561735b9b45905f174f55aa6c08547aa5f78"
-   },
-   {
-    "ts": 1786637625,
-    "headline": "Zuckerberg Reaffirms Faith In 'Open Weight' AI. Will It Pay Off For Meta Stock?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d144c834703dddce1d07af1e1b2be102a8cafbd107958ad5951dccbd1095d08f"
-   },
-   {
-    "ts": 1786637220,
-    "headline": "Bill Ackman Invests in Netflix and Visa in a Tough Year for His Pershing Square Funds",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=058d9d59c3270cd10e06eafd815095b1f163f7ad61dccb6ac0c7dd0d8546fe4a"
-   },
-   {
-    "ts": 1786636980,
-    "headline": "Jeff Bezos takes bold new turn amid $4B Amazon sell-off",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c4a211ec262c1e75ee2d57bc42d3c4bfd9b93390594ba95226096b502bd2ddfc"
-   },
-   {
-    "ts": 1786636200,
-    "headline": "Shopify's AI-Driven Commerce Gains Momentum: A Sign of More Upside?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f11cca1db0042cc33b4e8d24aea48f5c797a565584953fc951bdd3e11fe28676"
-   },
-   {
-    "ts": 1786636064,
-    "headline": "Nebius Surges to $255, Now What if You Didn\u2019t Own It?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bdc7656ced5d24c83ced338b111f98dc4c1507e27f1ac830e5293022840cb104"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T19:31:40Z",
+  "fetched_at": "2026-08-13T20:27:12Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
