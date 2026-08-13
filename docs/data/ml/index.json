@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "model_version": "stock-truth-ml-v2-verified-research",
-  "generated_at": "2026-08-12T03:05:04Z",
+  "generated_at": "2026-08-13T03:08:13Z",
   "library": "scikit-learn",
   "tickers": [
     {
