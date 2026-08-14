@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-14T16:11:10Z",
+ "generated_at": "2026-08-14T17:20:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:10Z",
-  "current": 225.53,
-  "change": 0.23,
-  "change_pct": 0.1021,
+  "fetched_at": "2026-08-14T17:20:56Z",
+  "current": 225.29,
+  "change": -0.01,
+  "change_pct": -0.0044,
   "high": 227.49,
   "low": 224.5,
   "open": 226.0325,
   "prev_close": 225.3,
-  "ts": 1786723863
+  "ts": 1786728040
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:10Z",
+  "fetched_at": "2026-08-14T17:20:56Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T16:11:11Z",
+  "fetched_at": "2026-08-14T17:20:57Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7225,8 +7225,8 @@
     "open": 226.77,
     "high": 227.48,
     "low": 224.5,
-    "close": 225.25,
-    "volume": 1428243.0
+    "close": 225.245,
+    "volume": 1682406.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:11Z",
+  "fetched_at": "2026-08-14T17:20:58Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T16:11:11Z",
+  "fetched_at": "2026-08-14T17:20:58Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.59062,
+  "forward_pe": 17.578917,
   "forward_eps": 12.81649,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,31 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:11Z",
+  "fetched_at": "2026-08-14T17:20:58Z",
   "rows": [
+   {
+    "ts": 1786725606,
+    "headline": "Which dow jones stocks are moving on Friday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=9aa0c7405fb35fba6c170c4b0e6fb0522d03435cb57c024ebca3a1d82648d3f9"
+   },
+   {
+    "ts": 1786711629,
+    "headline": "Nebius: A Strong Quarter But Still Overvalued",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=15d209aff7f0f100ffbf5f4f8346d89ea04ebe1907ba59df046f7a2d9844d57a"
+   },
    {
     "ts": 1786707586,
     "headline": "Nebius' Long-Term Prospects Are Nebulous Despite $40 Bln Backlog",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=f0e252c954dfe4a838b5fc4c04c1ceda5a7fda758e69465a295ee201d6a7dc0f"
+   },
+   {
+    "ts": 1786706930,
+    "headline": "SpaceX Closes $60 Billion Cursor Deal: Here's Why This Could Turn Elon Musk's AI Ambitions Into Reality",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e8bac4ce992f5925a7e2113166ab7542d287d443a1def2af6c52e441344a23ab"
    },
    {
     "ts": 1786706834,
@@ -7503,31 +7521,13 @@
     "headline": "Warren Buffett's Successor, Greg Abel, Is About to Drop a Bombshell on Wall Street Later Today, Aug. 14",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=da0951df84bac239cccc1429cb7924b53dbc3371926b9e44b51ccfa8cc288218"
-   },
-   {
-    "ts": 1786699500,
-    "headline": "SpaceX Stock Climbs Back Above Its $135 IPO Price -- Here's Where It Could Trade by August 2027",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2024faaade906e4b5bf1c180a043798e0bf30694114bec81e07f6fc087511673"
-   },
-   {
-    "ts": 1786698600,
-    "headline": "WTV: An Accidental Dividend Growth ETF",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=77ec4e0f00c84917987eba8e4db6fcccb73591e45e4413546b1cef072ea1ea15"
-   },
-   {
-    "ts": 1786698540,
-    "headline": "Here's the 1 Thing Every Dividend Investor Should Know About Building Passive Income That Lasts a Lifetime",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b234c936c7ac17f5ab375633ea572727b08d3c81911ea228cd6faead26abccff"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:11Z",
+  "fetched_at": "2026-08-14T17:20:59Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-14T16:11:20Z",
+ "generated_at": "2026-08-14T17:21:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:20Z",
-  "current": 593.61,
-  "change": -1.36,
-  "change_pct": -0.2286,
+  "fetched_at": "2026-08-14T17:21:08Z",
+  "current": 591.84,
+  "change": -3.13,
+  "change_pct": -0.5261,
   "high": 601.86,
-  "low": 591.9,
+  "low": 590.8,
   "open": 595.49,
   "prev_close": 594.97,
-  "ts": 1786723863
+  "ts": 1786728042
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:20Z",
+  "fetched_at": "2026-08-14T17:21:08Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T16:11:21Z",
+  "fetched_at": "2026-08-14T17:21:11Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 596.535,
     "high": 601.8,
-    "low": 591.97,
-    "close": 593.42,
-    "volume": 230281.0
+    "low": 590.81,
+    "close": 591.8,
+    "volume": 278464.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:21Z",
+  "fetched_at": "2026-08-14T17:21:11Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,26 +7454,32 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T16:11:21Z",
+  "fetched_at": "2026-08-14T17:21:11Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.0129,
+  "forward_pe": 16.965601,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
-  "institutions_pct": 0.79466003,
+  "institutions_pct": 0.79787004,
   "insiders_pct": 0.00147,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:21Z",
+  "fetched_at": "2026-08-14T17:21:11Z",
   "rows": [
+   {
+    "ts": 1786711629,
+    "headline": "Nebius: A Strong Quarter But Still Overvalued",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=15d209aff7f0f100ffbf5f4f8346d89ea04ebe1907ba59df046f7a2d9844d57a"
+   },
    {
     "ts": 1786708410,
     "headline": "Meta: The AI Capex Panic Will Not Last",
@@ -7493,6 +7499,12 @@
     "url": "https://finnhub.io/api/news?id=b83b109e22133be521be033fc2ab2141a7bd2818da20b0ade6e17d511df000e5"
    },
    {
+    "ts": 1786705339,
+    "headline": "Micron and 15 Other Stocks To Play The AI Buildout Race: They Are Still 20% Below Highs",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=bf655e4a9590a743a1cba322e91ea8de0f1413e8f31e527ea290fd0522a3d79b"
+   },
+   {
     "ts": 1786697954,
     "headline": "What's Going On With AMD Stock Friday?",
     "source": "Benzinga",
@@ -7505,29 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=e6919246fd15524f9d0c5f6b3526eff0458092ffe4df69f9c4cc9173f35c3d16"
    },
    {
-    "ts": 1786695188,
-    "headline": "Reddit (RDDT) Joins The S&P 500 In A Big Index Milestone",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c950ab288670e1c36c38dce0c3fc718d8bb30b2aa18ab0f5e576a9eaa9c5cbaf"
-   },
-   {
-    "ts": 1786694458,
-    "headline": "Meta Platforms (NASDAQ:META) Passes the Growth-at-a-Reasonable-Price Screen",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=3e033bda96658c8e6b67cb6f395e9114ff802931686c4947043a78e426fcd1ea"
-   },
-   {
-    "ts": 1786693800,
-    "headline": "The Best \"Magnificent Seven\" Stocks to Buy in August",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107"
+    "ts": 1786695374,
+    "headline": "NVIDIA Says \u2018Free AI\u2019 Is Great For Chips \u2014 Jensen Huang\u2019s Open-Source Bet Could Fuel GPU Demand",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e002d2d33aa6212b3b88f78273833c4d505199b8fc15c6fb78529cc6df53293b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T16:11:22Z",
+  "fetched_at": "2026-08-14T17:21:12Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
