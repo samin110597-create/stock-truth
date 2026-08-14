@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-13T21:11:14Z",
+ "generated_at": "2026-08-14T14:05:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T21:11:14Z",
-  "current": 343.94,
-  "change": 1.57,
-  "change_pct": 0.4586,
-  "high": 345.83,
-  "low": 342.4,
-  "open": 344.57,
-  "prev_close": 342.37,
-  "ts": 1786651200
+  "fetched_at": "2026-08-14T14:05:12Z",
+  "current": 345.05,
+  "change": 1.11,
+  "change_pct": 0.3227,
+  "high": 348.06,
+  "low": 343.823,
+  "open": 344.42,
+  "prev_close": 343.94,
+  "ts": 1786716280
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T21:11:14Z",
+  "fetched_at": "2026-08-14T14:05:12Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4201494200000.0,
+  "mcap": 4235982800000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-13T21:11:14Z",
+  "fetched_at": "2026-08-14T14:05:15Z",
   "bars": [
-   {
-    "date": "2023-01-11",
-    "open": 90.059998,
-    "high": 92.45,
-    "low": 89.74,
-    "close": 92.26,
-    "volume": 25998800.0
-   },
    {
     "date": "2023-01-12",
     "open": 92.4,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-12",
-    "open": 345.39249,
+    "open": 345.32999,
     "high": 345.5,
     "low": 339.82001,
     "close": 342.37,
-    "volume": 15407674.0
+    "volume": 15608800.0
    },
    {
     "date": "2026-08-13",
     "open": 344.57001,
-    "high": 345.83,
+    "high": 345.82999,
     "low": 342.39999,
-    "close": 343.98001,
-    "volume": 12882179.0
+    "close": 343.94,
+    "volume": 14897228.0
+   },
+   {
+    "date": "2026-08-14",
+    "open": 344.155,
+    "high": 347.9,
+    "low": 343.93,
+    "close": 345.03,
+    "volume": 76413.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-13",
+  "latest": "2026-08-14",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T21:11:14Z",
+  "fetched_at": "2026-08-14T14:05:15Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,96 +7445,96 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-13T21:11:14Z",
+  "fetched_at": "2026-08-14T14:05:15Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.335464,
+  "forward_pe": 23.416203,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.61228,
-  "insiders_pct": 0.06598,
+  "institutions_pct": 0.61897,
+  "insiders_pct": 0.00095,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T21:11:15Z",
+  "fetched_at": "2026-08-14T14:05:15Z",
   "rows": [
    {
-    "ts": 1786650360,
-    "headline": "Amazon Is the Only $3 Trillion Company That Has Never Paid a Dividend",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b1568ef924ebb492102e73103db3ae216f8794b301ac1e0c0c732802d4ba96ed"
+    "ts": 1786697141,
+    "headline": "Meta Has $27 Billion That Isn't On Its Balance Sheet",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e6919246fd15524f9d0c5f6b3526eff0458092ffe4df69f9c4cc9173f35c3d16"
    },
    {
-    "ts": 1786649138,
-    "headline": "HTZ Stock Hit Hard As Bill Ackman\u2019s Pershing Square Walks Away Citing \u2018Bungled\u2019 Equity Offering",
+    "ts": 1786696500,
+    "headline": "Prediction: 2 Unstoppable Artificial Intelligence (AI) Hardware Leaders That Will Join Alphabet in the $4 Trillion Club by 2028",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=512f5c06e627570d8ec4d37330ab373169fec6269c32dd4ddc855d6949963df0"
+    "url": "https://finnhub.io/api/news?id=651bbfd3451869d4f7a3b810e72b44c2a3424590fefaf032c257e5250b800deb"
    },
    {
-    "ts": 1786648960,
-    "headline": "OpenAI Revenue Chief to Leave, Marking Latest Exec Departure at AI Lab",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a2f7e1d4f2e9c354741e9c183d6c8dd894703f393609f8217f88e2b8908c452"
+    "ts": 1786695002,
+    "headline": "Berkshire Hathaway: Finally Using Its Cash Pile",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ed278a19d08e755240e6775a6c8725f0425884416b3ff148cf402192a0124d69"
    },
    {
-    "ts": 1786648658,
-    "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
+    "ts": 1786693800,
+    "headline": "The Best \"Magnificent Seven\" Stocks to Buy in August",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e"
+    "url": "https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107"
    },
    {
-    "ts": 1786647663,
-    "headline": "Apple Stock Rises While Norway Fund Reveals Huge Position",
+    "ts": 1786693337,
+    "headline": "Jim Cramer Wonders Whether AppLovin Corporation (NASDAQ:APP) Is Facing Off With Google",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b919d411393dae92c480e6a371ee6d08fb0dfaad50c45a57491306f29887d719"
+    "url": "https://finnhub.io/api/news?id=0d4ce33d4117b21d0c84f82a199fd139c3f466a47371fcbaff15031798b38312"
    },
    {
-    "ts": 1786647399,
-    "headline": "Google Just Lost One Of Its Biggest AI Names",
+    "ts": 1786692000,
+    "headline": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a602172674e65020f9a4180654fc788d29f7252422da2c1cd9150ee2e4aa38d5"
+    "url": "https://finnhub.io/api/news?id=a9294718beb21c0f1df13faa453c3a2ce27e75fecb005673b45478f2253ac813"
    },
    {
-    "ts": 1786647287,
-    "headline": "Millions of Americans Own Vanguard\u2019s VFIAX and Have No Idea What They Actually Bought",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=629160cc8accb7191f2b98287dcbdaf523826e819e007d24e6b6e3ccd34aaebf"
+    "ts": 1786687874,
+    "headline": "Alphabet: This Is How YouTube Changes Business And Society",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c74c828c3fb7888ed44178555ce5f18a8540a826b5af73f2248a0b602d2f0e27"
    },
    {
-    "ts": 1786646832,
-    "headline": "Nvidia Stock Gains While Norway Fund Reveals Top Holding",
+    "ts": 1786687479,
+    "headline": "Vornado, Related\u2019s Chelsea Office Hits Special Servicing",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=920102748a703896a9e07809103bab989f6846e6ede4b2ed2d58650ff50c6bf1"
+    "url": "https://finnhub.io/api/news?id=cafb2239a7dd58b12cf51a9222764d9674869d6ae0698fd1e32ab86958d356fa"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-13T21:11:15Z",
+  "fetched_at": "2026-08-14T14:05:15Z",
   "error": "no insider filings in six months"
  },
  "peers": {
   "source": "finnhub+yfinance",
-  "fetched_at": "2026-08-07T00:35:27Z",
+  "fetched_at": "2026-08-14T14:05:20Z",
   "peers": [
    {
     "symbol": "GOOGL",
     "name": "Alphabet Inc.",
-    "mcap": 4375259381760.0,
-    "pe": 17.950325,
-    "forward_pe": 24.279867,
-    "pb": 7.02904,
-    "ps": 9.812947,
-    "ev_ebitda": 24.668,
-    "peg": 1.0234,
+    "mcap": 4249779961856.0,
+    "pe": 17.444277,
+    "forward_pe": 23.57632,
+    "pb": 6.8274517,
+    "ps": 9.531519,
+    "ev_ebitda": 23.864,
+    "peg": 0.9689,
     "gross_margin": 0.60897,
     "op_margin": 0.34033,
     "net_margin": 0.54771,
@@ -7542,18 +7542,18 @@
     "roe": 0.48676,
     "debt_to_equity": 0.18859,
     "rev_growth": 0.242,
-    "fcf_yield": 0.005180264524313238
+    "fcf_yield": 0.005333217522655349
    },
    {
     "symbol": "META",
     "name": "Meta Platforms, Inc.",
-    "mcap": 1502773903360.0,
-    "pe": 22.218458,
-    "forward_pe": 16.788929,
-    "pb": 6.14396,
-    "ps": 6.583981,
-    "ev_ebitda": 13.906,
-    "peg": 0.8311,
+    "mcap": 1525701541888.0,
+    "pe": 22.565939,
+    "forward_pe": 17.16784,
+    "pb": 5.8417873,
+    "ps": 6.684432,
+    "ev_ebitda": 14.024,
+    "peg": 0.8881,
     "gross_margin": 0.81747,
     "op_margin": 0.34827,
     "net_margin": 0.29834998,
@@ -7561,18 +7561,18 @@
     "roe": 0.29848,
     "debt_to_equity": 0.42997,
     "rev_growth": 0.28,
-    "fcf_yield": 0.01434256014148835
+    "fcf_yield": 0.014127025827953332
    },
    {
     "symbol": "RDDT",
     "name": "Reddit, Inc.",
-    "mcap": 29026861056.0,
-    "pe": 35.086044,
-    "forward_pe": 15.666926,
-    "pb": 8.83107,
-    "ps": 10.445699,
-    "ev_ebitda": 32.765,
-    "peg": 1.0077,
+    "mcap": 35025784832.0,
+    "pe": 42.337208,
+    "forward_pe": 18.90478,
+    "pb": 10.65617,
+    "ps": 12.60449,
+    "ev_ebitda": 34.505,
+    "peg": 1.0261,
     "gross_margin": 0.91442,
     "op_margin": 0.28788,
     "net_margin": 0.31348,
@@ -7580,18 +7580,18 @@
     "roe": 0.30712,
     "debt_to_equity": 0.00635,
     "rev_growth": 0.611,
-    "fcf_yield": 0.023360043467732787
+    "fcf_yield": 0.01935913040214042
    },
    {
     "symbol": "PINS",
     "name": "Pinterest, Inc.",
-    "mcap": 13212083200.0,
-    "pe": 68.617645,
-    "forward_pe": 9.805034,
-    "pb": 4.559312,
-    "ps": 2.9001086,
-    "ev_ebitda": 41.543,
-    "peg": 0.3939,
+    "mcap": 13639648256.0,
+    "pe": 70.838234,
+    "forward_pe": 10.042991,
+    "pb": 4.706859,
+    "ps": 2.9939609,
+    "ev_ebitda": 41.472,
+    "peg": 0.3792,
     "gross_margin": 0.79473,
     "op_margin": -0.03464,
     "net_margin": 0.054640003,
@@ -7599,17 +7599,17 @@
     "roe": 0.06461,
     "debt_to_equity": 0.41350000000000003,
     "rev_growth": 0.182,
-    "fcf_yield": 0.09055657172973297
+    "fcf_yield": 0.08771787494400325
    },
    {
     "symbol": "SNAP",
     "name": "Snap Inc.",
-    "mcap": 8828051456.0,
+    "mcap": 9259307008.0,
     "pe": null,
-    "forward_pe": 6.808399,
-    "pb": 4.250814,
-    "ps": 1.390007,
-    "ev_ebitda": -72.328,
+    "forward_pe": 7.099694,
+    "pb": 4.777487,
+    "ps": 1.4579097,
+    "ev_ebitda": -71.981,
     "peg": null,
     "gross_margin": 0.57333,
     "op_margin": -0.026400002,
@@ -7618,82 +7618,82 @@
     "roe": -0.15576,
     "debt_to_equity": 2.19281,
     "rev_growth": 0.189,
-    "fcf_yield": 0.08090777308672724
+    "fcf_yield": 0.07713946447427267
    },
    {
     "symbol": "MTCH",
     "name": "Match Group, Inc.",
-    "mcap": null,
-    "pe": 12.98227,
-    "forward_pe": 7.7073684,
-    "pb": -35.474808,
-    "ps": null,
-    "ev_ebitda": 9.962,
-    "peg": 0.3748,
+    "mcap": 8908448768.0,
+    "pe": 13.542553,
+    "forward_pe": 8.04,
+    "pb": -37.041706,
+    "ps": 2.5385115,
+    "ev_ebitda": 9.792,
+    "peg": 0.3288,
     "gross_margin": 0.74872,
     "op_margin": 0.28771,
     "net_margin": 0.20169,
-    "fcf_margin": 0.26789064580745026,
+    "fcf_margin": 0.2651978209375778,
     "roe": null,
     "debt_to_equity": null,
     "rev_growth": -0.012,
-    "fcf_yield": null
+    "fcf_yield": 0.10446981559158022
    },
    {
     "symbol": "CARG",
     "name": "CarGurus, Inc.",
-    "mcap": 3281006592.0,
-    "pe": 19.14737,
-    "forward_pe": 12.44301,
-    "pb": 13.7907505,
-    "ps": 3.4967563,
-    "ev_ebitda": 12.627,
-    "peg": 1.1019,
-    "gross_margin": 0.92587,
-    "op_margin": 0.24545,
-    "net_margin": 0.15889,
-    "fcf_margin": 0.23382045882739563,
-    "roe": 0.5848,
-    "debt_to_equity": 0.7928000000000001,
-    "rev_growth": 0.148,
-    "fcf_yield": 0.06686781566819845
+    "mcap": 3366977536.0,
+    "pe": 19.484535,
+    "forward_pe": 12.598741,
+    "pb": 14.329037,
+    "ps": 3.4808967,
+    "ev_ebitda": 12.616,
+    "peg": 1.1439,
+    "gross_margin": 0.92375,
+    "op_margin": 0.25275,
+    "net_margin": 0.18189,
+    "fcf_margin": 0.2494856633156762,
+    "roe": 0.53470004,
+    "debt_to_equity": 0.7003499999999999,
+    "rev_growth": 0.131,
+    "fcf_yield": 0.07167281320406173
    },
    {
-    "symbol": "PPLI",
-    "name": "People Incorporated",
-    "mcap": 3197480960.0,
-    "pe": 7.265651,
-    "forward_pe": 16.250008,
-    "pb": 0.62904686,
-    "ps": 1.3428487,
-    "ev_ebitda": 21.188,
+    "symbol": "RUM",
+    "name": "RUM Group Inc.",
+    "mcap": 3706181376.0,
+    "pe": null,
+    "forward_pe": -24.112904,
+    "pb": 10.15625,
+    "ps": 31.499763,
+    "ev_ebitda": -37.461,
     "peg": null,
-    "gross_margin": 0.66347003,
-    "op_margin": -0.03297,
-    "net_margin": 0.14123,
-    "fcf_margin": 0.03105311433139789,
-    "roe": 0.09043,
-    "debt_to_equity": 0.27577,
-    "rev_growth": -0.015,
-    "fcf_yield": 0.023124806347556797
+    "gross_margin": 0.078600004,
+    "op_margin": -0.99171996,
+    "net_margin": -1.34603,
+    "fcf_margin": -1.2953616733705355,
+    "roe": -0.18409,
+    "debt_to_equity": 0.35194000000000003,
+    "rev_growth": 0.609,
+    "fcf_yield": -0.041122900510738525
    }
   ],
   "n": 8,
   "median": {
-   "pe": 19.14737,
-   "forward_pe": 14.054967999999999,
-   "pb": 5.351636,
-   "ps": 3.4967563,
-   "ev_ebitda": 17.547,
-   "peg": 0.9194,
+   "pe": 21.025237,
+   "forward_pe": 11.320866,
+   "pb": 6.3346195000000005,
+   "ps": 5.08266435,
+   "ev_ebitda": 13.32,
+   "peg": 0.9285,
    "gross_margin": 0.771725,
-   "op_margin": 0.26658000000000004,
-   "net_margin": 0.18029,
-   "fcf_margin": 0.17314141612144757,
+   "op_margin": 0.27022999999999997,
+   "net_margin": 0.19179000000000002,
+   "fcf_margin": 0.1782371711459993,
    "roe": 0.29848,
    "debt_to_equity": 0.41350000000000003,
-   "rev_growth": 0.1855,
-   "fcf_yield": 0.023360043467732787
+   "rev_growth": 0.2155,
+   "fcf_yield": 0.045515971803101074
   },
   "peer_symbols": [
    "GOOGL",
@@ -7703,7 +7703,7 @@
    "SNAP",
    "MTCH",
    "CARG",
-   "PPLI"
+   "RUM"
   ]
  }
 }
