@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-14T15:12:15Z",
+ "generated_at": "2026-08-14T16:11:10Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:16Z",
-  "current": 225.89,
-  "change": 0.59,
-  "change_pct": 0.2619,
+  "fetched_at": "2026-08-14T16:11:10Z",
+  "current": 225.53,
+  "change": 0.23,
+  "change_pct": 0.1021,
   "high": 227.49,
   "low": 224.5,
   "open": 226.0325,
   "prev_close": 225.3,
-  "ts": 1786720306
+  "ts": 1786723863
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:16Z",
+  "fetched_at": "2026-08-14T16:11:10Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T15:12:17Z",
+  "fetched_at": "2026-08-14T16:11:11Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7225,8 +7225,8 @@
     "open": 226.77,
     "high": 227.48,
     "low": 224.5,
-    "close": 225.88,
-    "volume": 1057630.0
+    "close": 225.25,
+    "volume": 1428243.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:17Z",
+  "fetched_at": "2026-08-14T16:11:11Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T15:12:17Z",
+  "fetched_at": "2026-08-14T16:11:11Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.618708,
+  "forward_pe": 17.59062,
   "forward_eps": 12.81649,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:17Z",
+  "fetched_at": "2026-08-14T16:11:11Z",
   "rows": [
+   {
+    "ts": 1786707586,
+    "headline": "Nebius' Long-Term Prospects Are Nebulous Despite $40 Bln Backlog",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f0e252c954dfe4a838b5fc4c04c1ceda5a7fda758e69465a295ee201d6a7dc0f"
+   },
+   {
+    "ts": 1786706834,
+    "headline": "Eventually Free Cash Flow Will Matter Again",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b83b109e22133be521be033fc2ab2141a7bd2818da20b0ade6e17d511df000e5"
+   },
    {
     "ts": 1786701420,
     "headline": "The next AI winners may look nothing like Nvidia or Micron: One Big Investment Idea",
@@ -7509,25 +7521,13 @@
     "headline": "Here's the 1 Thing Every Dividend Investor Should Know About Building Passive Income That Lasts a Lifetime",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b234c936c7ac17f5ab375633ea572727b08d3c81911ea228cd6faead26abccff"
-   },
-   {
-    "ts": 1786697880,
-    "headline": "The Last U.S. Nuclear Boom Applied to Build 26 Reactors and Finished 2. NuScale Carries a $4 Billion Market Value on $10.7 Million of Sales.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d8051041411e83563b5e8cba9ec4e3096dbba4d8dc7282ff7d23e4ed1c8b1f9d"
-   },
-   {
-    "ts": 1786697400,
-    "headline": "Everyone Thinks Crypto Is Over. Here's Why They're Wrong.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=76c76342d21558a9fe871ae9d383861b76b5a1fec8dd2480375f57142a088f10"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:17Z",
+  "fetched_at": "2026-08-14T16:11:11Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

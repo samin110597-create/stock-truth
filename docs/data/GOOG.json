@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-14T15:12:04Z",
+ "generated_at": "2026-08-14T16:11:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:04Z",
-  "current": 343.49,
-  "change": -0.45,
-  "change_pct": -0.1308,
+  "fetched_at": "2026-08-14T16:11:00Z",
+  "current": 342.74,
+  "change": -1.2,
+  "change_pct": -0.3489,
   "high": 348.06,
-  "low": 343.16,
+  "low": 342.4,
   "open": 344.42,
   "prev_close": 343.94,
-  "ts": 1786720306
+  "ts": 1786723834
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:04Z",
+  "fetched_at": "2026-08-14T16:11:00Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T15:12:06Z",
+  "fetched_at": "2026-08-14T16:11:00Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 344.155,
     "high": 347.9,
-    "low": 343.18,
-    "close": 343.55,
-    "volume": 155844.0
+    "low": 342.415,
+    "close": 342.62,
+    "volume": 228167.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:06Z",
+  "fetched_at": "2026-08-14T16:11:01Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T15:12:06Z",
+  "fetched_at": "2026-08-14T16:11:01Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.302896,
+  "forward_pe": 23.253368,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:06Z",
+  "fetched_at": "2026-08-14T16:11:01Z",
   "rows": [
+   {
+    "ts": 1786706834,
+    "headline": "Eventually Free Cash Flow Will Matter Again",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b83b109e22133be521be033fc2ab2141a7bd2818da20b0ade6e17d511df000e5"
+   },
    {
     "ts": 1786697141,
     "headline": "Meta Has $27 Billion That Isn't On Its Balance Sheet",
@@ -7506,19 +7512,13 @@
     "headline": "These Two ETFs Are the 'No Hike' Scenario Winners",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=51e5d8e26f98caa75d5e47e61b8f61c96ba0c150360f774b8e7e2bd4756bf866"
-   },
-   {
-    "ts": 1786689749,
-    "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:06Z",
+  "fetched_at": "2026-08-14T16:11:01Z",
   "error": "no insider filings in six months"
  },
  "peers": {

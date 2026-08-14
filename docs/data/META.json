@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-14T15:12:26Z",
+ "generated_at": "2026-08-14T16:11:20Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:26Z",
-  "current": 593.69,
-  "change": -1.28,
-  "change_pct": -0.2151,
+  "fetched_at": "2026-08-14T16:11:20Z",
+  "current": 593.61,
+  "change": -1.36,
+  "change_pct": -0.2286,
   "high": 601.86,
-  "low": 592.5,
+  "low": 591.9,
   "open": 595.49,
   "prev_close": 594.97,
-  "ts": 1786720327
+  "ts": 1786723863
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:26Z",
+  "fetched_at": "2026-08-14T16:11:20Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T15:12:27Z",
+  "fetched_at": "2026-08-14T16:11:21Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 596.535,
     "high": 601.8,
-    "low": 592.59,
-    "close": 593.715,
-    "volume": 162560.0
+    "low": 591.97,
+    "close": 593.42,
+    "volume": 230281.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:27Z",
+  "fetched_at": "2026-08-14T16:11:21Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T15:12:27Z",
+  "fetched_at": "2026-08-14T16:11:21Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.021643,
+  "forward_pe": 17.0129,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:27Z",
+  "fetched_at": "2026-08-14T16:11:21Z",
   "rows": [
+   {
+    "ts": 1786708410,
+    "headline": "Meta: The AI Capex Panic Will Not Last",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=014c98edaff286b2aa9192f50df0dd52c4f6a429299da44989f69b0915de3119"
+   },
+   {
+    "ts": 1786707586,
+    "headline": "Nebius' Long-Term Prospects Are Nebulous Despite $40 Bln Backlog",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f0e252c954dfe4a838b5fc4c04c1ceda5a7fda758e69465a295ee201d6a7dc0f"
+   },
+   {
+    "ts": 1786706834,
+    "headline": "Eventually Free Cash Flow Will Matter Again",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b83b109e22133be521be033fc2ab2141a7bd2818da20b0ade6e17d511df000e5"
+   },
+   {
+    "ts": 1786697954,
+    "headline": "What's Going On With AMD Stock Friday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c58a82b4f36a8a77717f9d1a50b457fb45f8130659c86f85c2766919a8101502"
+   },
    {
     "ts": 1786697141,
     "headline": "Meta Has $27 Billion That Isn't On Its Balance Sheet",
@@ -7497,37 +7521,13 @@
     "headline": "The Best \"Magnificent Seven\" Stocks to Buy in August",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107"
-   },
-   {
-    "ts": 1786691543,
-    "headline": "Meta (META) Stock Could Be 37% Undervalued On Teen Safety Ruling",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1ad12866ea888cef137383f9f04ed89e6b672d6fc4edc08e1e883c4e8cec87d3"
-   },
-   {
-    "ts": 1786691206,
-    "headline": "These Two ETFs Are the 'No Hike' Scenario Winners",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=51e5d8e26f98caa75d5e47e61b8f61c96ba0c150360f774b8e7e2bd4756bf866"
-   },
-   {
-    "ts": 1786689749,
-    "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
-   },
-   {
-    "ts": 1786686931,
-    "headline": "Lam Research to Spend More Than $3 Billion Expanding Its Global Chip R&D Network, CEO Tim Archer Says 'The Pace of Innovation Is Relentless'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=21c9b42fac859d084bfb09e27fb17105a7451bf8ac68ee18b8a6afdb44f52ac8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T15:12:28Z",
+  "fetched_at": "2026-08-14T16:11:22Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
