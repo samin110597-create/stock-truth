@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-14T17:20:31Z",
+ "generated_at": "2026-08-14T18:11:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T17:20:32Z",
-  "current": 263.09,
-  "change": -2.04,
-  "change_pct": -0.7694,
+  "fetched_at": "2026-08-14T18:11:24Z",
+  "current": 263.79,
+  "change": -1.34,
+  "change_pct": -0.5054,
   "high": 265.81,
   "low": 263.01,
   "open": 265.2175,
   "prev_close": 265.13,
-  "ts": 1786728019
+  "ts": 1786731071
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T17:20:32Z",
+  "fetched_at": "2026-08-14T18:11:24Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T17:20:34Z",
+  "fetched_at": "2026-08-14T18:11:26Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 264.875,
     "high": 265.8,
-    "low": 263.03,
-    "close": 263.05,
-    "volume": 535453.0
+    "low": 263.02,
+    "close": 263.77,
+    "volume": 605321.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T17:20:34Z",
+  "fetched_at": "2026-08-14T18:11:26Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T17:20:35Z",
+  "fetched_at": "2026-08-14T18:11:27Z",
   "analyst_target_mean": 326.82068,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.343159,
+  "forward_pe": 25.411549,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T17:20:35Z",
+  "fetched_at": "2026-08-14T18:11:27Z",
   "rows": [
+   {
+    "ts": 1786715100,
+    "headline": "Why Is Everyone Building Compute?",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=77e05a309ee61562a9d28594361c0174ebd009902b7773f832693a2d7006cdc6"
+   },
+   {
+    "ts": 1786714440,
+    "headline": "The AI Compute Squeeze",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2be9b05e9e6f9365ae9ae300f7f09a575a0dfc315f23b7ebed8d8b7fdf39d547"
+   },
+   {
+    "ts": 1786706468,
+    "headline": "Applied Materials Has Better Growth Prospects Than It Did 32% Ago; Retail Sales Stumble",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=bca2f8deb567ff0034e182fe71e1d80933c68be335a1637a0a4e3b4ca396b9d6"
+   },
    {
     "ts": 1786696456,
     "headline": "Jim Cramer Says Buy Carpenter Technology, Calls This IT Services Stock a 'Value Trap'",
@@ -7494,31 +7512,13 @@
     "headline": "Lam Research to Spend More Than $3 Billion Expanding Its Global Chip R&D Network, CEO Tim Archer Says 'The Pace of Innovation Is Relentless'",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=21c9b42fac859d084bfb09e27fb17105a7451bf8ac68ee18b8a6afdb44f52ac8"
-   },
-   {
-    "ts": 1786685400,
-    "headline": "The Bulls and Bears Are at Each Other\u2019s Throats. Why the Bulls Have an Advantage.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b5f2b15c59e2c6a5b9aa1eae02aa9871787026f1330c3c8a325c26b5ffacca68"
-   },
-   {
-    "ts": 1786685400,
-    "headline": "Bleeding-Edge AI Meets Cutting-Edge Finance. Is This Peak AI?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ae65ea3fe426b1c62b7073d35dcead9146d50261ecaf7e18d41f245de7d008e"
-   },
-   {
-    "ts": 1786683600,
-    "headline": "Uber Stock Looks Cheap. Here\u2019s Why.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b7e2aa9c450226c06bc3cb9d36cc876bc27e09d067f21cecf7479cfb022f7ac2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T17:20:35Z",
+  "fetched_at": "2026-08-14T18:11:28Z",
   "buys": 43,
   "sells": 111,
   "net_shares": -2106473.0,
