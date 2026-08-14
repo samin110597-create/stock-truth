@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-14T20:00:46Z",
+ "generated_at": "2026-08-14T20:51:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T20:00:47Z",
+  "fetched_at": "2026-08-14T20:51:50Z",
   "current": 262.65,
   "change": -2.48,
   "change_pct": -0.9354,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T20:00:47Z",
+  "fetched_at": "2026-08-14T20:51:50Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T20:00:50Z",
+  "fetched_at": "2026-08-14T20:51:51Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T20:00:50Z",
+  "fetched_at": "2026-08-14T20:51:51Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T20:00:50Z",
+  "fetched_at": "2026-08-14T20:51:52Z",
   "analyst_target_mean": 326.82068,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T20:00:51Z",
+  "fetched_at": "2026-08-14T20:51:52Z",
   "rows": [
    {
     "ts": 1786734606,
@@ -7472,10 +7472,28 @@
     "url": "https://finnhub.io/api/news?id=d4dda3373c4983a5dd7479b3d8440550dc2ade68937fd177531c3dfdb331d43f"
    },
    {
+    "ts": 1786724737,
+    "headline": "Viking Global Investors Raises Share Stake In Amazon Com Inc To 3.7 Mln Shares",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2b7baabe69dd364525dd1a8a436977b7dafb3cccc6fcdb20a1123c4ff6371971"
+   },
+   {
+    "ts": 1786722594,
+    "headline": "Josh Kushner's Thrive Capital Owns Nearly 1 Million Amazon Shares",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=5a135813bd3dfbfad5e3bc9062c7cf7606ceb1b7319131ca3ba255c85c87eb68"
+   },
+   {
     "ts": 1786715100,
     "headline": "Why Is Everyone Building Compute?",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=77e05a309ee61562a9d28594361c0174ebd009902b7773f832693a2d7006cdc6"
+   },
+   {
+    "ts": 1786714902,
+    "headline": "Governor Abbott Announces Amazon, Lancium And Cipher Digital Commit To Comply With His Data Center Standards",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7c7da202437b341a5318c9eb5145bb1dd10dd01bfa46685dd5bcd4a8ba6981e6"
    },
    {
     "ts": 1786714524,
@@ -7494,31 +7512,13 @@
     "headline": "Applied Materials Has Better Growth Prospects Than It Did 32% Ago; Retail Sales Stumble",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=bca2f8deb567ff0034e182fe71e1d80933c68be335a1637a0a4e3b4ca396b9d6"
-   },
-   {
-    "ts": 1786696456,
-    "headline": "Jim Cramer Says Buy Carpenter Technology, Calls This IT Services Stock a 'Value Trap'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=16a2dce3b4e93e7d597411954452f1f1055afcf3d471838870da10aeac640cbe"
-   },
-   {
-    "ts": 1786693800,
-    "headline": "The Best \"Magnificent Seven\" Stocks to Buy in August",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9626c64080dfa8088c2f9a44ce471a290721c8066d3341f05a5074f67fff6107"
-   },
-   {
-    "ts": 1786692000,
-    "headline": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a9294718beb21c0f1df13faa453c3a2ce27e75fecb005673b45478f2253ac813"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T20:00:51Z",
+  "fetched_at": "2026-08-14T20:51:52Z",
   "buys": 43,
   "sells": 111,
   "net_shares": -2106473.0,
