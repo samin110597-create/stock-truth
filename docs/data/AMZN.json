@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-14T18:11:24Z",
+ "generated_at": "2026-08-14T19:24:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T18:11:24Z",
-  "current": 263.79,
-  "change": -1.34,
-  "change_pct": -0.5054,
+  "fetched_at": "2026-08-14T19:24:16Z",
+  "current": 263.25,
+  "change": -1.88,
+  "change_pct": -0.7091,
   "high": 265.81,
-  "low": 263.01,
+  "low": 262.77,
   "open": 265.2175,
   "prev_close": 265.13,
-  "ts": 1786731071
+  "ts": 1786735430
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T18:11:24Z",
+  "fetched_at": "2026-08-14T19:24:16Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T18:11:26Z",
+  "fetched_at": "2026-08-14T19:24:17Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 264.875,
     "high": 265.8,
-    "low": 263.02,
-    "close": 263.77,
-    "volume": 605321.0
+    "low": 262.785,
+    "close": 263.25,
+    "volume": 773722.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T18:11:26Z",
+  "fetched_at": "2026-08-14T19:24:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,31 +7445,37 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T18:11:27Z",
-  "analyst_target_mean": 326.82068,
+  "fetched_at": "2026-08-14T19:24:17Z",
+  "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
-  "analyst_target_high": 405.0,
-  "analyst_count": 60.0,
+  "analyst_target_high": 400.0,
+  "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.411549,
+  "forward_pe": 25.362421,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.6815,
+  "institutions_pct": 0.68689,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T18:11:27Z",
+  "fetched_at": "2026-08-14T19:24:18Z",
   "rows": [
    {
     "ts": 1786715100,
     "headline": "Why Is Everyone Building Compute?",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=77e05a309ee61562a9d28594361c0174ebd009902b7773f832693a2d7006cdc6"
+   },
+   {
+    "ts": 1786714524,
+    "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e6989a2f9a9692dcb35d880251989b689a91457a03ddef7bb15af9dde36480a7"
    },
    {
     "ts": 1786714440,
@@ -7506,19 +7512,13 @@
     "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
-   },
-   {
-    "ts": 1786686931,
-    "headline": "Lam Research to Spend More Than $3 Billion Expanding Its Global Chip R&D Network, CEO Tim Archer Says 'The Pace of Innovation Is Relentless'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=21c9b42fac859d084bfb09e27fb17105a7451bf8ac68ee18b8a6afdb44f52ac8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T18:11:28Z",
+  "fetched_at": "2026-08-14T19:24:18Z",
   "buys": 43,
   "sells": 111,
   "net_shares": -2106473.0,
