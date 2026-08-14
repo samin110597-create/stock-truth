@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-14T14:04:56Z",
+ "generated_at": "2026-08-14T15:11:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:04:56Z",
-  "current": 264.76,
-  "change": -0.37,
-  "change_pct": -0.1396,
-  "high": 265.67,
-  "low": 264.03,
+  "fetched_at": "2026-08-14T15:11:54Z",
+  "current": 263.73,
+  "change": -1.4,
+  "change_pct": -0.528,
+  "high": 265.81,
+  "low": 263.42,
   "open": 265.2175,
   "prev_close": 265.13,
-  "ts": 1786716281
+  "ts": 1786720307
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:04:56Z",
+  "fetched_at": "2026-08-14T15:11:54Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T14:04:57Z",
+  "fetched_at": "2026-08-14T15:11:54Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-14",
     "open": 264.875,
-    "high": 265.63,
-    "low": 264.04,
-    "close": 264.725,
-    "volume": 124256.0
+    "high": 265.8,
+    "low": 263.44,
+    "close": 263.69,
+    "volume": 316208.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:04:57Z",
+  "fetched_at": "2026-08-14T15:11:55Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T14:04:57Z",
+  "fetched_at": "2026-08-14T15:11:55Z",
   "analyst_target_mean": 325.19492,
   "analyst_target_low": 230.0,
   "analyst_target_high": 400.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.51895,
+  "forward_pe": 25.408062,
   "forward_eps": 10.3815,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:04:57Z",
+  "fetched_at": "2026-08-14T15:11:55Z",
   "rows": [
    {
     "ts": 1786693800,
@@ -7476,6 +7476,18 @@
     "headline": "Alphabet and Amazon Are Spending $420 Billion on Infrastructure. These 2 Stocks Are Primed to Cash in on It.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=a9294718beb21c0f1df13faa453c3a2ce27e75fecb005673b45478f2253ac813"
+   },
+   {
+    "ts": 1786689749,
+    "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
+   },
+   {
+    "ts": 1786686931,
+    "headline": "Lam Research to Spend More Than $3 Billion Expanding Its Global Chip R&D Network, CEO Tim Archer Says 'The Pace of Innovation Is Relentless'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=21c9b42fac859d084bfb09e27fb17105a7451bf8ac68ee18b8a6afdb44f52ac8"
    },
    {
     "ts": 1786685400,
@@ -7496,29 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=b7e2aa9c450226c06bc3cb9d36cc876bc27e09d067f21cecf7479cfb022f7ac2"
    },
    {
-    "ts": 1786680000,
-    "headline": "The Next Big Theme: August 2026",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=28726b454761de52fe0e8351d85e02b1e7e4f9599a3c8fdf63bf661e1d728334"
-   },
-   {
-    "ts": 1786676401,
-    "headline": "Hyperscaler AI borrowing binge shakes up foreign credit markets",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=acc0bd21db448b853ef9a6f29346adbc722e4888cde15979b849d6d4a674b8ba"
-   },
-   {
-    "ts": 1786671897,
-    "headline": "Grove (GROV) Q2 2026 Earnings Call Transcript",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9aa2cf0c24629e0fccc6baa078019a49919aa7a7dee3422b21f9313fa6f6e81f"
+    "ts": 1786683140,
+    "headline": "Silver Lake's Workday Buyout Talks Could Be the First 'SaaSpocalypse' Opportunity: Analyst Says 'You've Got Data, You've Got Distribution, You're Still Gonna Win'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e2f0a483a6c2f688fb7ec884b819f7b51133ad749bf9191fe4af91c12434c682"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:04:57Z",
+  "fetched_at": "2026-08-14T15:11:55Z",
   "buys": 43,
   "sells": 111,
   "net_shares": -2106473.0,

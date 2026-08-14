@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-14T14:05:12Z",
+ "generated_at": "2026-08-14T15:12:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:12Z",
-  "current": 345.05,
-  "change": 1.11,
-  "change_pct": 0.3227,
+  "fetched_at": "2026-08-14T15:12:04Z",
+  "current": 343.49,
+  "change": -0.45,
+  "change_pct": -0.1308,
   "high": 348.06,
-  "low": 343.823,
+  "low": 343.16,
   "open": 344.42,
   "prev_close": 343.94,
-  "ts": 1786716280
+  "ts": 1786720306
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:12Z",
+  "fetched_at": "2026-08-14T15:12:04Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T14:05:15Z",
+  "fetched_at": "2026-08-14T15:12:06Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 344.155,
     "high": 347.9,
-    "low": 343.93,
-    "close": 345.03,
-    "volume": 76413.0
+    "low": 343.18,
+    "close": 343.55,
+    "volume": 155844.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:15Z",
+  "fetched_at": "2026-08-14T15:12:06Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T14:05:15Z",
+  "fetched_at": "2026-08-14T15:12:06Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.416203,
+  "forward_pe": 23.302896,
   "forward_eps": 14.73894,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:15Z",
+  "fetched_at": "2026-08-14T15:12:06Z",
   "rows": [
    {
     "ts": 1786697141,
@@ -7502,23 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=a9294718beb21c0f1df13faa453c3a2ce27e75fecb005673b45478f2253ac813"
    },
    {
-    "ts": 1786687874,
-    "headline": "Alphabet: This Is How YouTube Changes Business And Society",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c74c828c3fb7888ed44178555ce5f18a8540a826b5af73f2248a0b602d2f0e27"
+    "ts": 1786691206,
+    "headline": "These Two ETFs Are the 'No Hike' Scenario Winners",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=51e5d8e26f98caa75d5e47e61b8f61c96ba0c150360f774b8e7e2bd4756bf866"
    },
    {
-    "ts": 1786687479,
-    "headline": "Vornado, Related\u2019s Chelsea Office Hits Special Servicing",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cafb2239a7dd58b12cf51a9222764d9674869d6ae0698fd1e32ab86958d356fa"
+    "ts": 1786689749,
+    "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:15Z",
+  "fetched_at": "2026-08-14T15:12:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {

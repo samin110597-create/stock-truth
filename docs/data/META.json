@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-14T14:05:47Z",
+ "generated_at": "2026-08-14T15:12:26Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:47Z",
-  "current": 598.91,
-  "change": 3.94,
-  "change_pct": 0.6622,
+  "fetched_at": "2026-08-14T15:12:26Z",
+  "current": 593.69,
+  "change": -1.28,
+  "change_pct": -0.2151,
   "high": 601.86,
-  "low": 595.01,
+  "low": 592.5,
   "open": 595.49,
   "prev_close": 594.97,
-  "ts": 1786716328
+  "ts": 1786720327
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:47Z",
+  "fetched_at": "2026-08-14T15:12:26Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-14T14:05:49Z",
+  "fetched_at": "2026-08-14T15:12:27Z",
   "bars": [
    {
     "date": "2023-01-12",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-14",
     "open": 596.535,
     "high": 601.8,
-    "low": 595.33,
-    "close": 598.87,
-    "volume": 81531.0
+    "low": 592.59,
+    "close": 593.715,
+    "volume": 162560.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:49Z",
+  "fetched_at": "2026-08-14T15:12:27Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-14T14:05:50Z",
+  "fetched_at": "2026-08-14T15:12:27Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.166483,
+  "forward_pe": 17.021643,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:50Z",
+  "fetched_at": "2026-08-14T15:12:27Z",
   "rows": [
    {
     "ts": 1786697141,
@@ -7505,29 +7505,29 @@
     "url": "https://finnhub.io/api/news?id=1ad12866ea888cef137383f9f04ed89e6b672d6fc4edc08e1e883c4e8cec87d3"
    },
    {
-    "ts": 1786685400,
-    "headline": "The Bulls and Bears Are at Each Other\u2019s Throats. Why the Bulls Have an Advantage.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b5f2b15c59e2c6a5b9aa1eae02aa9871787026f1330c3c8a325c26b5ffacca68"
+    "ts": 1786691206,
+    "headline": "These Two ETFs Are the 'No Hike' Scenario Winners",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=51e5d8e26f98caa75d5e47e61b8f61c96ba0c150360f774b8e7e2bd4756bf866"
    },
    {
-    "ts": 1786683702,
-    "headline": "Newsmax Inc (NMAX) (Q2 2026) Earnings Call Highlights: First Profitable Quarter, Record ...",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b90bb4c75b4c869db971721e7aedc2cfd2ee0e823a20208c48dc2c3ec0f44adb"
+    "ts": 1786689749,
+    "headline": "MSFT Could Emerge as Big Tech's Free Cash Flow King in 2027 While GOOGL, META Stay Negative: Analyst",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=ad49c582975ff7a23a2991e58f6197fe74734301e7230397cd7cfc8d2733bd1a"
    },
    {
-    "ts": 1786674600,
-    "headline": "Pershing Square: H1 2026 Contributors And Detractors",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6a7dcd9f3780fb8b37bcac6d12b550e440371a6b5ddced238dbd556787aae970"
+    "ts": 1786686931,
+    "headline": "Lam Research to Spend More Than $3 Billion Expanding Its Global Chip R&D Network, CEO Tim Archer Says 'The Pace of Innovation Is Relentless'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=21c9b42fac859d084bfb09e27fb17105a7451bf8ac68ee18b8a6afdb44f52ac8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-14T14:05:50Z",
+  "fetched_at": "2026-08-14T15:12:28Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,
