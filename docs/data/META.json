@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-17T15:46:35Z",
+ "generated_at": "2026-08-17T16:11:47Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:36Z",
-  "current": 574.35,
-  "change": -15.5,
-  "change_pct": -2.6278,
+  "fetched_at": "2026-08-17T16:11:48Z",
+  "current": 571.65,
+  "change": -18.2,
+  "change_pct": -3.0855,
   "high": 590.24,
-  "low": 572.851,
+  "low": 571.0,
   "open": 589.975,
   "prev_close": 589.85,
-  "ts": 1786981565
+  "ts": 1786983078
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:36Z",
+  "fetched_at": "2026-08-17T16:11:48Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:37Z",
+  "fetched_at": "2026-08-17T16:11:49Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 589.75,
     "high": 590.239990234375,
-    "low": 572.8510131835938,
-    "close": 574.385009765625,
-    "volume": 6003363.0
+    "low": 571.0,
+    "close": 572.1500244140625,
+    "volume": 6777614.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:37Z",
+  "fetched_at": "2026-08-17T16:11:49Z",
   "trends": [
    {
     "symbol": "META",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:37Z",
+  "fetched_at": "2026-08-17T16:11:49Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.465101,
+  "forward_pe": 16.401033,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -6288,8 +6288,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:37Z",
+  "fetched_at": "2026-08-17T16:11:49Z",
   "rows": [
+   {
+    "ts": 1786966500,
+    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
+   },
    {
     "ts": 1786959807,
     "headline": "David Tepper's Latest AI Bet Is CoreWeave",
@@ -6331,19 +6337,13 @@
     "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
-   },
-   {
-    "ts": 1786791581,
-    "headline": "CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e87ed1cd184f28ffcec4fcdc53a8195b7ff6c45c9678f15ca0005bf74702adbb"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:38Z",
+  "fetched_at": "2026-08-17T16:11:49Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

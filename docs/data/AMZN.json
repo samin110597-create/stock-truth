@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T15:46:00Z",
+ "generated_at": "2026-08-17T16:11:13Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:00Z",
-  "current": 261.23,
-  "change": -1.42,
-  "change_pct": -0.5406,
+  "fetched_at": "2026-08-17T16:11:13Z",
+  "current": 260.59,
+  "change": -2.06,
+  "change_pct": -0.7843,
   "high": 265.75,
   "low": 260.08,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786981546
+  "ts": 1786983053
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:00Z",
+  "fetched_at": "2026-08-17T16:11:13Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:02Z",
+  "fetched_at": "2026-08-17T16:11:16Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 260.0799865722656,
-    "close": 261.1099853515625,
-    "volume": 18770694.0
+    "close": 260.5530090332031,
+    "volume": 20144772.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:02Z",
+  "fetched_at": "2026-08-17T16:11:16Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:03Z",
+  "fetched_at": "2026-08-17T16:11:16Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.098862,
+  "forward_pe": 25.045322,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:03Z",
+  "fetched_at": "2026-08-17T16:11:16Z",
   "rows": [
+   {
+    "ts": 1786966500,
+    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
+   },
    {
     "ts": 1786964082,
     "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
@@ -6322,19 +6328,13 @@
     "headline": "What Makes the AI Music Stop: a $1.5 Trillion Mountain of Hidden Leverage",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=807aebf174a4e5dcdabb22f00e6ed30c03e6d60c3b0b4689431d39f6d5fc5ae0"
-   },
-   {
-    "ts": 1786932881,
-    "headline": "Justin Wolfers Says AI Won't Kill Your Job \u2014 but It Will Change What It's Worth: 'Lab-Grown Diamonds Didn't Abolish Diamonds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=2c7fec9f8d3c566e9954918f8f04da0c46afb93b5a5a154973ca26ce58754673"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:04Z",
+  "fetched_at": "2026-08-17T16:11:16Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,

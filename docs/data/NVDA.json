@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T15:46:24Z",
+ "generated_at": "2026-08-17T16:11:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:24Z",
-  "current": 227.36,
-  "change": 2.2,
-  "change_pct": 0.9771,
-  "high": 227.75,
+  "fetched_at": "2026-08-17T16:11:37Z",
+  "current": 227.46,
+  "change": 2.3,
+  "change_pct": 1.0215,
+  "high": 227.92,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786981569
+  "ts": 1786983078
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:24Z",
+  "fetched_at": "2026-08-17T16:11:37Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:25Z",
+  "fetched_at": "2026-08-17T16:11:38Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6039,10 +6039,10 @@
    {
     "date": "2026-08-17",
     "open": 226.02000427246094,
-    "high": 227.75,
+    "high": 227.9199981689453,
     "low": 225.02999877929688,
-    "close": 227.32000732421875,
-    "volume": 37333645.0
+    "close": 227.3262939453125,
+    "volume": 41453163.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:26Z",
+  "fetched_at": "2026-08-17T16:11:38Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:46:26Z",
+  "fetched_at": "2026-08-17T16:11:38Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.761652,
+  "forward_pe": 17.763433,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,8 +6288,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:26Z",
+  "fetched_at": "2026-08-17T16:11:38Z",
   "rows": [
+   {
+    "ts": 1786966500,
+    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
+   },
    {
     "ts": 1786965573,
     "headline": "Memory Is The Best AI Story, Equipment Is The Better Trade",
@@ -6331,19 +6337,13 @@
     "headline": "Nvidia Secures Land, Power And Shell Capacity To Host Compute Capacity Via Partnership With SB Energy At The PORTS-Pike Technology Campus In Ohio For Customer OpenAI",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=27329d9b1b51153a6a8a2fc34a32d04bcf13a29cc8155070b7dac8174abc150f"
-   },
-   {
-    "ts": 1786953600,
-    "headline": "FTXL: The \"Situational Awareness Trade\" Still Favors AI-Enabling Chips",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=745e1b1c2311a9a2e0041ec0feb3545d6142daf1d19b8eb4053efc4a5173960e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:46:26Z",
+  "fetched_at": "2026-08-17T16:11:38Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
