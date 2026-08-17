@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T19:05:17Z",
+ "generated_at": "2026-08-17T19:47:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:05:17Z",
-  "current": 225.57,
-  "change": 0.41,
-  "change_pct": 0.1821,
+  "fetched_at": "2026-08-17T19:47:54Z",
+  "current": 225.53,
+  "change": 0.37,
+  "change_pct": 0.1643,
   "high": 227.92,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786993490
+  "ts": 1786996055
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:05:18Z",
+  "fetched_at": "2026-08-17T19:47:54Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:05:18Z",
+  "fetched_at": "2026-08-17T19:47:54Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 226.02000427246094,
     "high": 227.9199981689453,
     "low": 225.02999877929688,
-    "close": 225.52499389648438,
-    "volume": 60710210.0
+    "close": 225.4600067138672,
+    "volume": 65765085.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:05:18Z",
+  "fetched_at": "2026-08-17T19:47:54Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:05:19Z",
+  "fetched_at": "2026-08-17T19:47:55Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.621399,
+  "forward_pe": 17.61632,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,8 +6288,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:05:19Z",
+  "fetched_at": "2026-08-17T19:47:55Z",
   "rows": [
+   {
+    "ts": 1786993806,
+    "headline": "Discover which dow jones stocks are making waves on Monday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=ec0668889a4c1c71892f8037054930e2b4ad337fa2c786bae0c8ac483da2e41c"
+   },
    {
     "ts": 1786989900,
     "headline": "These S&P500 stocks are the most active in today's session",
@@ -6331,19 +6337,13 @@
     "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
-   },
-   {
-    "ts": 1786970115,
-    "headline": "The 'Silver Tsunami': Significant Demographic Headwind Incoming",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ae7e58ad414d6a86a3f934f6f7a3b24da694715cf6f7ce62e0e5c17708629015"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:05:19Z",
+  "fetched_at": "2026-08-17T19:47:55Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

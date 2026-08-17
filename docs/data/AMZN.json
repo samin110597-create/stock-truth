@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T19:04:56Z",
+ "generated_at": "2026-08-17T19:47:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:04:56Z",
-  "current": 259.89,
-  "change": -2.76,
-  "change_pct": -1.0508,
+  "fetched_at": "2026-08-17T19:47:34Z",
+  "current": 260.21,
+  "change": -2.44,
+  "change_pct": -0.929,
   "high": 265.75,
   "low": 258.339,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786993467
+  "ts": 1786996032
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:04:56Z",
+  "fetched_at": "2026-08-17T19:47:34Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:04:57Z",
+  "fetched_at": "2026-08-17T19:47:35Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 258.3389892578125,
-    "close": 259.8500061035156,
-    "volume": 31762768.0
+    "close": 260.2699890136719,
+    "volume": 34996726.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:04:57Z",
+  "fetched_at": "2026-08-17T19:47:35Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:04:57Z",
+  "fetched_at": "2026-08-17T19:47:35Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.977747,
+  "forward_pe": 25.018118,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,13 +6279,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:04:57Z",
+  "fetched_at": "2026-08-17T19:47:35Z",
   "rows": [
    {
     "ts": 1786989900,
     "headline": "These S&P500 stocks are the most active in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
+   },
+   {
+    "ts": 1786979460,
+    "headline": "Q2 2026 U.S. Retail Preview: Broadline Retail Drives Growth",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ae35c7b3404a52908905c4837dd0989fe676edb413a0ccdea07c6c3c7a8082ea"
    },
    {
     "ts": 1786974355,
@@ -6322,19 +6328,13 @@
     "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
-   },
-   {
-    "ts": 1786966500,
-    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:04:58Z",
+  "fetched_at": "2026-08-17T19:47:35Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,
