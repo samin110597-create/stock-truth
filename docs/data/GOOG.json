@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T14:50:14Z",
+ "generated_at": "2026-08-17T15:12:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:14Z",
-  "current": 340.4,
-  "change": -3.14,
-  "change_pct": -0.914,
+  "fetched_at": "2026-08-17T15:12:49Z",
+  "current": 341.11,
+  "change": -2.43,
+  "change_pct": -0.7073,
   "high": 345.05,
-  "low": 340.29,
+  "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786978188
+  "ts": 1786979536
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:14Z",
+  "fetched_at": "2026-08-17T15:12:49Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:15Z",
+  "fetched_at": "2026-08-17T15:12:50Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 344.07501220703125,
     "high": 345.04998779296875,
-    "low": 340.2799987792969,
-    "close": 340.30499267578125,
-    "volume": 3243668.0
+    "low": 339.57000732421875,
+    "close": 341.17999267578125,
+    "volume": 4049714.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:15Z",
+  "fetched_at": "2026-08-17T15:12:50Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:15Z",
+  "fetched_at": "2026-08-17T15:12:50Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.06732,
+  "forward_pe": 23.136824,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:16Z",
+  "fetched_at": "2026-08-17T15:12:50Z",
   "rows": [
+   {
+    "ts": 1786964082,
+    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
+   },
    {
     "ts": 1786960027,
     "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
@@ -6288,10 +6294,22 @@
     "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
    },
    {
+    "ts": 1786959807,
+    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
+   },
+   {
     "ts": 1786951743,
     "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e"
+   },
+   {
+    "ts": 1786950085,
+    "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
    },
    {
     "ts": 1786910827,
@@ -6310,31 +6328,13 @@
     "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
-   },
-   {
-    "ts": 1786787515,
-    "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
-   },
-   {
-    "ts": 1786787456,
-    "headline": "Alphabet (NASDAQ:GOOG) Stands Out as a Quality Investing Pick",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=37b97d214f25a61e803cb10d85244aa2b56aea603cde080aee4c52b03c7bd272"
-   },
-   {
-    "ts": 1786784400,
-    "headline": "Alphabet: The CapEx 'Tantrum' Feels Wrong",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=2cc9dc5ef329148c496a5356990530b1f6726e257216fcfc99d35ce67aebc604"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:16Z",
+  "fetched_at": "2026-08-17T15:12:50Z",
   "error": "no insider filings in six months"
  },
  "peers": {

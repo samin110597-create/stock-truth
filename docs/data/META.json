@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-17T14:50:36Z",
+ "generated_at": "2026-08-17T15:13:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:36Z",
-  "current": 574.89,
-  "change": -14.96,
-  "change_pct": -2.5362,
+  "fetched_at": "2026-08-17T15:13:09Z",
+  "current": 573.94,
+  "change": -15.91,
+  "change_pct": -2.6973,
   "high": 590.24,
-  "low": 573.33,
+  "low": 572.851,
   "open": 589.975,
   "prev_close": 589.85,
-  "ts": 1786978211
+  "ts": 1786979561
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:36Z",
+  "fetched_at": "2026-08-17T15:13:09Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:36Z",
+  "fetched_at": "2026-08-17T15:13:10Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 589.75,
     "high": 590.239990234375,
-    "low": 573.3300170898438,
-    "close": 574.5499877929688,
-    "volume": 4312854.0
+    "low": 572.8510131835938,
+    "close": 573.8800048828125,
+    "volume": 5036193.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:37Z",
+  "fetched_at": "2026-08-17T15:13:10Z",
   "trends": [
    {
     "symbol": "META",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:37Z",
+  "fetched_at": "2026-08-17T15:13:10Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.46983,
+  "forward_pe": 16.450624,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -6288,8 +6288,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:37Z",
+  "fetched_at": "2026-08-17T15:13:10Z",
   "rows": [
+   {
+    "ts": 1786959807,
+    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
+   },
+   {
+    "ts": 1786957448,
+    "headline": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=31e00e0962040c9e9d7d492ae297c775be784775d38b27fadf366f6e067e881b"
+   },
+   {
+    "ts": 1786950085,
+    "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
+   },
+   {
+    "ts": 1786949694,
+    "headline": "What Makes the AI Music Stop: a $1.5 Trillion Mountain of Hidden Leverage",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=807aebf174a4e5dcdabb22f00e6ed30c03e6d60c3b0b4689431d39f6d5fc5ae0"
+   },
+   {
+    "ts": 1786932881,
+    "headline": "Justin Wolfers Says AI Won't Kill Your Job \u2014 but It Will Change What It's Worth: 'Lab-Grown Diamonds Didn't Abolish Diamonds",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2c7fec9f8d3c566e9954918f8f04da0c46afb93b5a5a154973ca26ce58754673"
+   },
    {
     "ts": 1786910827,
     "headline": "Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update",
@@ -6307,43 +6337,13 @@
     "headline": "CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e87ed1cd184f28ffcec4fcdc53a8195b7ff6c45c9678f15ca0005bf74702adbb"
-   },
-   {
-    "ts": 1786787515,
-    "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
-   },
-   {
-    "ts": 1786769080,
-    "headline": "Stanley Druckenmiller Bets Big on AMZN, AMD \u2014 Dumps AVGO, INTC and MU in Q2",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a"
-   },
-   {
-    "ts": 1786732453,
-    "headline": "Netflix: Bill Ackman Came Back For A Reason",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fa21c99467264732c291bc30e77ec4449d1fcb680fd6cc62e4856a0e326d4fa6"
-   },
-   {
-    "ts": 1786732336,
-    "headline": "Bill Ackman Exits Alphabet, Raises Bets on Microsoft & Meta",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=571ce9fff3198e2e0aa709432fcc8e1fa5ee440fbc66bbaf59ac7a662e60086a"
-   },
-   {
-    "ts": 1786728585,
-    "headline": "Third Point  Dissolves Share Stake In Meta",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=21e0aed4d31718c7cdeb897db0cd51695c3cdba482f97e10ae58d9666be541c0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:37Z",
+  "fetched_at": "2026-08-17T15:13:11Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

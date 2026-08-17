@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T14:50:02Z",
+ "generated_at": "2026-08-17T15:12:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:02Z",
-  "current": 260.31,
-  "change": -2.34,
-  "change_pct": -0.8909,
+  "fetched_at": "2026-08-17T15:12:39Z",
+  "current": 261.09,
+  "change": -1.56,
+  "change_pct": -0.5939,
   "high": 265.75,
   "low": 260.08,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786978164
+  "ts": 1786979537
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:02Z",
+  "fetched_at": "2026-08-17T15:12:39Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:04Z",
+  "fetched_at": "2026-08-17T15:12:39Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 260.0799865722656,
-    "close": 260.55999755859375,
-    "volume": 14479825.0
+    "close": 261.1698913574219,
+    "volume": 16415337.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:04Z",
+  "fetched_at": "2026-08-17T15:12:40Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T14:50:04Z",
+  "fetched_at": "2026-08-17T15:12:40Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.045994,
+  "forward_pe": 25.10462,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,8 +6279,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:04Z",
+  "fetched_at": "2026-08-17T15:12:40Z",
   "rows": [
+   {
+    "ts": 1786964082,
+    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
+   },
+   {
+    "ts": 1786959807,
+    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
+   },
+   {
+    "ts": 1786959559,
+    "headline": "'Big Short' Investor Steve Eisman Says AI Has an 'Achilles' Heel' \u2014 But It's Too Early to Short the Boom",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
+   },
+   {
+    "ts": 1786957448,
+    "headline": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=31e00e0962040c9e9d7d492ae297c775be784775d38b27fadf366f6e067e881b"
+   },
+   {
+    "ts": 1786950085,
+    "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
+   },
    {
     "ts": 1786949888,
     "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
@@ -6288,53 +6318,23 @@
     "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
    },
    {
-    "ts": 1786871620,
-    "headline": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d"
-   },
-   {
-    "ts": 1786813830,
-    "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
+    "ts": 1786949694,
+    "headline": "What Makes the AI Music Stop: a $1.5 Trillion Mountain of Hidden Leverage",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
+    "url": "https://finnhub.io/api/news?id=807aebf174a4e5dcdabb22f00e6ed30c03e6d60c3b0b4689431d39f6d5fc5ae0"
    },
    {
-    "ts": 1786798280,
-    "headline": "These Three Metrics Explain Why S&P 500 Index Has Hit Record High",
+    "ts": 1786932881,
+    "headline": "Justin Wolfers Says AI Won't Kill Your Job \u2014 but It Will Change What It's Worth: 'Lab-Grown Diamonds Didn't Abolish Diamonds",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d0ebc82da0e30ec080135ef8555241856b0b5f6fe56d64438ebd4e32b1672f73"
-   },
-   {
-    "ts": 1786791600,
-    "headline": "Alibaba, Walmart To Headline Earnings Next Week, FOMC Minutes Of Meeting In Focus",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=42016711a55406f708f7ef1a37622996e70dcd97b80bd8da03c2ffca57b70dfb"
-   },
-   {
-    "ts": 1786789883,
-    "headline": "EXCLUSIVE: Ross Gerber Says SPCX Valuation Reflects the \u2018Elon Premium,\u2019 But Remains Skeptical of Musk\u2019s Timelines: \u2018I Don\u2019t Trust\u2026\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d19bd2367f78d7288d46bee79787c4a1a3546080c2b3b0f46975d422ca16e458"
-   },
-   {
-    "ts": 1786787515,
-    "headline": "Consumer Tech (Aug 10-14): Trump Faces Federal Lawsuits, Apple & Alibaba To Create AI Model For China & More",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=80a4ff54930a1eea63dea0ec7e39c7509a9575579cacc01386fedde5b9601b2f"
-   },
-   {
-    "ts": 1786769913,
-    "headline": "Jeff Bezos Buys Minority Stake In Liverpool FC as Billionaire Consortium Reportedly Takes One-Third of Premier League Champions",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=827e74e141fd6586219baa54137c2f110ab6fc401e9fae2c140090acbf4afcdb"
+    "url": "https://finnhub.io/api/news?id=2c7fec9f8d3c566e9954918f8f04da0c46afb93b5a5a154973ca26ce58754673"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T14:50:05Z",
+  "fetched_at": "2026-08-17T15:12:40Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,
