@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T19:47:44Z",
+ "generated_at": "2026-08-17T20:11:48Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:44Z",
-  "current": 341.24,
-  "change": -2.3,
-  "change_pct": -0.6695,
+  "fetched_at": "2026-08-17T20:11:48Z",
+  "current": 341.45,
+  "change": -2.09,
+  "change_pct": -0.6084,
   "high": 345.05,
   "low": 339.57,
-  "open": 344.995,
+  "open": 344.06,
   "prev_close": 343.54,
-  "ts": 1786996031
+  "ts": 1786996800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:44Z",
+  "fetched_at": "2026-08-17T20:11:48Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:47:45Z",
+  "fetched_at": "2026-08-17T20:11:49Z",
   "bars": [
-   {
-    "date": "2023-08-17",
-    "open": 130.4499969482422,
-    "high": 132.49099731445312,
-    "low": 129.85000610351562,
-    "close": 130.4600067138672,
-    "volume": 23665600.0
-   },
    {
     "date": "2023-08-18",
     "open": 129.05999755859375,
@@ -6041,11 +6033,11 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 341.3699951171875,
-    "volume": 9353169.0
+    "close": 341.45001220703125,
+    "volume": 12204241.0
    }
   ],
-  "n": 752,
+  "n": 751,
   "latest": "2026-08-17",
   "cross_check": {
    "checked": 12,
@@ -6219,7 +6211,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:45Z",
+  "fetched_at": "2026-08-17T20:11:49Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6253,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:47:45Z",
+  "fetched_at": "2026-08-17T20:11:49Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.151743,
+  "forward_pe": 23.155134,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,7 +6271,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:45Z",
+  "fetched_at": "2026-08-17T20:11:49Z",
   "rows": [
    {
     "ts": 1786974355,
@@ -6334,7 +6326,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:45Z",
+  "fetched_at": "2026-08-17T20:11:49Z",
   "error": "no insider filings in six months"
  },
  "peers": {

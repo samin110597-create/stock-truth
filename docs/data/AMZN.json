@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T19:47:34Z",
+ "generated_at": "2026-08-17T20:11:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:34Z",
-  "current": 260.21,
-  "change": -2.44,
-  "change_pct": -0.929,
+  "fetched_at": "2026-08-17T20:11:37Z",
+  "current": 261.31,
+  "change": -1.34,
+  "change_pct": -0.5102,
   "high": 265.75,
   "low": 258.339,
-  "open": 265.02,
+  "open": 265.44,
   "prev_close": 262.65,
-  "ts": 1786996032
+  "ts": 1786996800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:34Z",
+  "fetched_at": "2026-08-17T20:11:37Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:47:35Z",
+  "fetched_at": "2026-08-17T20:11:39Z",
   "bars": [
-   {
-    "date": "2023-08-17",
-    "open": 135.4600067138672,
-    "high": 136.08999633789062,
-    "low": 133.52999877929688,
-    "close": 133.97999572753906,
-    "volume": 48354100.0
-   },
    {
     "date": "2023-08-18",
     "open": 131.6199951171875,
@@ -6041,11 +6033,11 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 258.3389892578125,
-    "close": 260.2699890136719,
-    "volume": 34996726.0
+    "close": 261.30999755859375,
+    "volume": 41504334.0
    }
   ],
-  "n": 752,
+  "n": 751,
   "latest": "2026-08-17",
   "cross_check": {
    "checked": 12,
@@ -6219,7 +6211,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:35Z",
+  "fetched_at": "2026-08-17T20:11:39Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6253,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T19:47:35Z",
+  "fetched_at": "2026-08-17T20:11:39Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.018118,
+  "forward_pe": 25.118088,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,7 +6271,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:35Z",
+  "fetched_at": "2026-08-17T20:11:39Z",
   "rows": [
    {
     "ts": 1786989900,
@@ -6294,6 +6286,18 @@
     "url": "https://finnhub.io/api/news?id=ae35c7b3404a52908905c4837dd0989fe676edb413a0ccdea07c6c3c7a8082ea"
    },
    {
+    "ts": 1786976242,
+    "headline": "What's Going On With Amazon Stock Monday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a99d8efdf8d18fce31e8c3b6a924e7785c2d00124f83ebc293d336dbafa946d8"
+   },
+   {
+    "ts": 1786974996,
+    "headline": "Why Is Target Stock Falling on Monday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e8ebc35b6136fdb30c4d5424751225e49b1bdea3385b06582a8edbb7b91251e5"
+   },
+   {
     "ts": 1786974355,
     "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
     "source": "SeekingAlpha",
@@ -6306,35 +6310,23 @@
     "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
    },
    {
+    "ts": 1786973716,
+    "headline": "2 Consumer Discretionary Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=3bec54e6cf4b50ec09e20754b89735c54f972f0e162c4783f1221b081af59cc1"
+   },
+   {
     "ts": 1786970486,
     "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
-   },
-   {
-    "ts": 1786969836,
-    "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
-   },
-   {
-    "ts": 1786969428,
-    "headline": "New York\u2019s Factory Activity Expands to 4-Year Highs: Is AI Powering a Manufacturing Boom?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a817c666393093e4a9d81baac892b4c9159124bdf11d753424efa2f371287bcb"
-   },
-   {
-    "ts": 1786967972,
-    "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T19:47:35Z",
+  "fetched_at": "2026-08-17T20:11:39Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,
