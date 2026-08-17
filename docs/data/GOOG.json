@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T15:12:49Z",
+ "generated_at": "2026-08-17T15:46:13Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:49Z",
-  "current": 341.11,
-  "change": -2.43,
-  "change_pct": -0.7073,
+  "fetched_at": "2026-08-17T15:46:13Z",
+  "current": 341.59,
+  "change": -1.95,
+  "change_pct": -0.5676,
   "high": 345.05,
   "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786979536
+  "ts": 1786981546
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:49Z",
+  "fetched_at": "2026-08-17T15:46:13Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:12:50Z",
+  "fetched_at": "2026-08-17T15:46:14Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 341.17999267578125,
-    "volume": 4049714.0
+    "close": 341.6650085449219,
+    "volume": 4861016.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:50Z",
+  "fetched_at": "2026-08-17T15:46:14Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:12:50Z",
+  "fetched_at": "2026-08-17T15:46:15Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.136824,
+  "forward_pe": 23.169714,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:50Z",
+  "fetched_at": "2026-08-17T15:46:15Z",
   "rows": [
+   {
+    "ts": 1786965666,
+    "headline": "Alphabet: External TPU Sales Are A Likely Game Changer",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d01dcdae8d000cd86d48f526d9174a7ad486c9b7b999af04d3ac6860a79f4e81"
+   },
    {
     "ts": 1786964082,
     "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
@@ -6322,19 +6328,13 @@
     "headline": "Projected Robotaxi (Autonomous Ride-Hailing) Growth By Company And Why I Rate Waymo A Buy",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=39c381aa99b71324087353d3a5efa3591c1f04980b6a21e424e08c758959c44d"
-   },
-   {
-    "ts": 1786813830,
-    "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:50Z",
+  "fetched_at": "2026-08-17T15:46:15Z",
   "error": "no insider filings in six months"
  },
  "peers": {

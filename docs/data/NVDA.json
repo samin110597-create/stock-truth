@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T15:12:59Z",
+ "generated_at": "2026-08-17T15:46:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:59Z",
-  "current": 226.71,
-  "change": 1.55,
-  "change_pct": 0.6884,
-  "high": 227.23,
+  "fetched_at": "2026-08-17T15:46:24Z",
+  "current": 227.36,
+  "change": 2.2,
+  "change_pct": 0.9771,
+  "high": 227.75,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786979561
+  "ts": 1786981569
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:12:59Z",
+  "fetched_at": "2026-08-17T15:46:24Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:13:00Z",
+  "fetched_at": "2026-08-17T15:46:25Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6039,10 +6039,10 @@
    {
     "date": "2026-08-17",
     "open": 226.02000427246094,
-    "high": 227.22000122070312,
+    "high": 227.75,
     "low": 225.02999877929688,
-    "close": 226.69000244140625,
-    "volume": 29919989.0
+    "close": 227.32000732421875,
+    "volume": 37333645.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:13:00Z",
+  "fetched_at": "2026-08-17T15:46:26Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T15:13:00Z",
+  "fetched_at": "2026-08-17T15:46:26Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.7093,
+  "forward_pe": 17.761652,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,8 +6288,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:13:00Z",
+  "fetched_at": "2026-08-17T15:46:26Z",
   "rows": [
+   {
+    "ts": 1786965573,
+    "headline": "Memory Is The Best AI Story, Equipment Is The Better Trade",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2f35153d7912668572f2ad77d391fb0992779e3cf086986fa0d3f5fe1ad6640a"
+   },
+   {
+    "ts": 1786964082,
+    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
+   },
+   {
+    "ts": 1786961082,
+    "headline": "'Nvidia To Invest $100B For OpenAI Data Centre In Ohio' - Financial Times",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a61be4a88dc83eb9d7328dd61e0babe1e3ad51fda3fc5bf0c1cd3412137ac961"
+   },
+   {
+    "ts": 1786959807,
+    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
+   },
+   {
+    "ts": 1786959559,
+    "headline": "'Big Short' Investor Steve Eisman Says AI Has an 'Achilles' Heel' \u2014 But It's Too Early to Short the Boom",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
+   },
    {
     "ts": 1786958100,
     "headline": "The BDC Asymmetry That Nobody Prices In",
@@ -6297,53 +6327,23 @@
     "url": "https://finnhub.io/api/news?id=5e1502b095cda1176bb8688161b93f9ac1a28cfede6f85ff5b00c32c0bf9f624"
    },
    {
+    "ts": 1786955972,
+    "headline": "Nvidia Secures Land, Power And Shell Capacity To Host Compute Capacity Via Partnership With SB Energy At The PORTS-Pike Technology Campus In Ohio For Customer OpenAI",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=27329d9b1b51153a6a8a2fc34a32d04bcf13a29cc8155070b7dac8174abc150f"
+   },
+   {
     "ts": 1786953600,
     "headline": "FTXL: The \"Situational Awareness Trade\" Still Favors AI-Enabling Chips",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=745e1b1c2311a9a2e0041ec0feb3545d6142daf1d19b8eb4053efc4a5173960e"
-   },
-   {
-    "ts": 1786951743,
-    "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e"
-   },
-   {
-    "ts": 1786818000,
-    "headline": "Eli Lilly Is Building a Weight Loss Drug for Every Kind of Patient",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06ee74d265a0bb77590f79394eb0d293a79e06593c6c9612d2e3604d328fc044"
-   },
-   {
-    "ts": 1786817700,
-    "headline": "Iren Won't Have to Raise Capital for Much Longer After the Horizon 1 Delivery",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cd43b191a9417f18312accd23c0414768a3f063a21b70acd588ee77fa7c80475"
-   },
-   {
-    "ts": 1786813908,
-    "headline": "5 Monthly Dividend ETFs Paying 7 to 14 Percent to Ride Into 2027",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ac5ae008cd1c7b76d6138106b448ed1cf2fd03311b8b1548a08fd4ef4d7a8048"
-   },
-   {
-    "ts": 1786813830,
-    "headline": "Dell Stock Rally Pauses, But Supermicro, Lenovo Earnings Point to Upside",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d651f92ddd0ace78f7f92c2878d40e7535eac6be810461d173aaf4347482170d"
-   },
-   {
-    "ts": 1786813500,
-    "headline": "Everyone's Watching Oklo and NuScale for Nuclear Exposure. This Overlooked Stock Is Building One Too.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c1f6c4844d5b6e0325b18f6876b0a0412413ba9e9bbe4c198e96a2d293f2d36a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T15:13:00Z",
+  "fetched_at": "2026-08-17T15:46:26Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
