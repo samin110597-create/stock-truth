@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T13:35:40Z",
+ "generated_at": "2026-08-17T14:01:32Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:40Z",
-  "current": 342.47,
-  "change": -1.07,
-  "change_pct": -0.3115,
+  "fetched_at": "2026-08-17T14:01:32Z",
+  "current": 341.91,
+  "change": -1.63,
+  "change_pct": -0.4745,
   "high": 345.05,
-  "low": 341.74,
+  "low": 341.69,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786973726
+  "ts": 1786975275
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:40Z",
+  "fetched_at": "2026-08-17T14:01:33Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:41Z",
+  "fetched_at": "2026-08-17T14:01:34Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 344.07501220703125,
     "high": 345.04998779296875,
-    "low": 341.739990234375,
-    "close": 342.67498779296875,
-    "volume": 897901.0
+    "low": 341.6940002441406,
+    "close": 341.9599914550781,
+    "volume": 1667123.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:42Z",
+  "fetched_at": "2026-08-17T14:01:34Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:43Z",
+  "fetched_at": "2026-08-17T14:01:34Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.237188,
+  "forward_pe": 23.189718,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:43Z",
+  "fetched_at": "2026-08-17T14:01:34Z",
   "rows": [
+   {
+    "ts": 1786960027,
+    "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
+   },
    {
     "ts": 1786951743,
     "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
@@ -6322,19 +6328,13 @@
     "headline": "Alphabet: The CapEx 'Tantrum' Feels Wrong",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=2cc9dc5ef329148c496a5356990530b1f6726e257216fcfc99d35ce67aebc604"
-   },
-   {
-    "ts": 1786783841,
-    "headline": "Berkshire adds $17 billion to Alphabet stake",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=8fd437d0ef0b0e9cb59274bfc090421c1e73d5209ade2c1d0606f90cc9e33ab5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:43Z",
+  "fetched_at": "2026-08-17T14:01:34Z",
   "error": "no insider filings in six months"
  },
  "peers": {

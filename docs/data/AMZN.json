@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T13:35:27Z",
+ "generated_at": "2026-08-17T14:01:21Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:27Z",
-  "current": 261.87,
-  "change": -0.78,
-  "change_pct": -0.297,
+  "fetched_at": "2026-08-17T14:01:21Z",
+  "current": 261.76,
+  "change": -0.89,
+  "change_pct": -0.3389,
   "high": 265.75,
-  "low": 261.67,
+  "low": 261.09,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786973702
+  "ts": 1786975251
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:27Z",
+  "fetched_at": "2026-08-17T14:01:21Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:29Z",
+  "fetched_at": "2026-08-17T14:01:22Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 261.090087890625,
-    "close": 261.3399963378906,
-    "volume": 4299709.0
+    "close": 261.2380065917969,
+    "volume": 9428777.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:30Z",
+  "fetched_at": "2026-08-17T14:01:22Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:31Z",
+  "fetched_at": "2026-08-17T14:01:22Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.120972,
+  "forward_pe": 25.1104,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,7 +6279,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:31Z",
+  "fetched_at": "2026-08-17T14:01:22Z",
   "rows": [
    {
     "ts": 1786949888,
@@ -6334,7 +6334,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T13:35:31Z",
+  "fetched_at": "2026-08-17T14:01:23Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,
