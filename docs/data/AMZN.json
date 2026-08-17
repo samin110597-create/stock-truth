@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T17:50:34Z",
+ "generated_at": "2026-08-17T18:18:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:34Z",
-  "current": 258.65,
-  "change": -4.0,
-  "change_pct": -1.5229,
+  "fetched_at": "2026-08-17T18:18:02Z",
+  "current": 260.04,
+  "change": -2.61,
+  "change_pct": -0.9937,
   "high": 265.75,
   "low": 258.339,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786989004
+  "ts": 1786990656
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:34Z",
+  "fetched_at": "2026-08-17T18:18:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:50:37Z",
+  "fetched_at": "2026-08-17T18:18:04Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 258.3389892578125,
-    "close": 258.5299987792969,
-    "volume": 27212778.0
+    "close": 260.0899963378906,
+    "volume": 29026315.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:37Z",
+  "fetched_at": "2026-08-17T18:18:04Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:50:37Z",
+  "fetched_at": "2026-08-17T18:18:04Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.852785,
+  "forward_pe": 24.999853,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:37Z",
+  "fetched_at": "2026-08-17T18:18:04Z",
   "rows": [
+   {
+    "ts": 1786974355,
+    "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
+   },
    {
     "ts": 1786970486,
     "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
@@ -6322,19 +6328,13 @@
     "headline": "David Tepper's Latest AI Bet Is CoreWeave",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
-   },
-   {
-    "ts": 1786959559,
-    "headline": "'Big Short' Investor Steve Eisman Says AI Has an 'Achilles' Heel' \u2014 But It's Too Early to Short the Boom",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:37Z",
+  "fetched_at": "2026-08-17T18:18:05Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,

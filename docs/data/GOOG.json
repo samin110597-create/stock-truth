@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T17:50:46Z",
+ "generated_at": "2026-08-17T18:18:14Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:46Z",
-  "current": 340.86,
-  "change": -2.68,
-  "change_pct": -0.7801,
+  "fetched_at": "2026-08-17T18:18:14Z",
+  "current": 341.05,
+  "change": -2.49,
+  "change_pct": -0.7248,
   "high": 345.05,
   "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786989027
+  "ts": 1786990657
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:46Z",
+  "fetched_at": "2026-08-17T18:18:14Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:50:47Z",
+  "fetched_at": "2026-08-17T18:18:15Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 340.7950134277344,
-    "volume": 7331222.0
+    "close": 341.17999267578125,
+    "volume": 7737121.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:47Z",
+  "fetched_at": "2026-08-17T18:18:15Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:50:48Z",
+  "fetched_at": "2026-08-17T18:18:15Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.11022,
+  "forward_pe": 23.135128,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:48Z",
+  "fetched_at": "2026-08-17T18:18:15Z",
   "rows": [
+   {
+    "ts": 1786974355,
+    "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
+   },
    {
     "ts": 1786970486,
     "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
@@ -6322,19 +6328,13 @@
     "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
-   },
-   {
-    "ts": 1786960027,
-    "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:50:48Z",
+  "fetched_at": "2026-08-17T18:18:16Z",
   "error": "no insider filings in six months"
  },
  "peers": {
