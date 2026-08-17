@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T17:14:59Z",
+ "generated_at": "2026-08-17T17:50:46Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:14:59Z",
-  "current": 340.75,
-  "change": -2.79,
-  "change_pct": -0.8121,
+  "fetched_at": "2026-08-17T17:50:46Z",
+  "current": 340.86,
+  "change": -2.68,
+  "change_pct": -0.7801,
   "high": 345.05,
   "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786986893
+  "ts": 1786989027
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:14:59Z",
+  "fetched_at": "2026-08-17T17:50:46Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:00Z",
+  "fetched_at": "2026-08-17T17:50:47Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 340.6700134277344,
-    "volume": 6647350.0
+    "close": 340.7950134277344,
+    "volume": 7331222.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:00Z",
+  "fetched_at": "2026-08-17T17:50:47Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:01Z",
+  "fetched_at": "2026-08-17T17:50:48Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.10224,
+  "forward_pe": 23.11022,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:01Z",
+  "fetched_at": "2026-08-17T17:50:48Z",
   "rows": [
+   {
+    "ts": 1786970486,
+    "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
+   },
+   {
+    "ts": 1786969836,
+    "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
+   },
+   {
+    "ts": 1786968744,
+    "headline": "SpaceX Stock Is Everywhere: Google, Nvidia, AMD, Harvard Disclose Stakes",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6c8636a0eabfcfd07c9b0f1337afd14e81e9070d29b93a09cf66aa94ff6a00b5"
+   },
    {
     "ts": 1786967972,
     "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
@@ -6310,31 +6328,13 @@
     "headline": "Berkshire Hathaway: The Cash Is Moving, The Philosophy Isn't",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d89f4a063b60afb1f31ec9aa15190e0f5386ade46c611b777b90665b777a705d"
-   },
-   {
-    "ts": 1786959807,
-    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
-   },
-   {
-    "ts": 1786959195,
-    "headline": "David Tepper Cuts Micron Stake, Exits SanDisk as Appaloosa Goes Big on These Magnificent 7 Stocks in Q2",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=28d40cabdaa85583d675830e9678925a7a093aa77878c44cd6fe626ba14b92a0"
-   },
-   {
-    "ts": 1786954960,
-    "headline": "'Alibaba Launches AI Music Generation Model HappyShrimp in Beta' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6a5892f94867dcc83138dfa6bd112dfcb61b9d2d826ce0e46d3b0a4f001e41b6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:01Z",
+  "fetched_at": "2026-08-17T17:50:48Z",
   "error": "no insider filings in six months"
  },
  "peers": {

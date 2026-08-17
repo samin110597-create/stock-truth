@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-17T17:15:21Z",
+ "generated_at": "2026-08-17T17:51:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:21Z",
-  "current": 567.34,
-  "change": -22.51,
-  "change_pct": -3.8162,
+  "fetched_at": "2026-08-17T17:51:08Z",
+  "current": 565.17,
+  "change": -24.68,
+  "change_pct": -4.1841,
   "high": 590.24,
-  "low": 566.34,
+  "low": 565.041,
   "open": 589.975,
   "prev_close": 589.85,
-  "ts": 1786986893
+  "ts": 1786989051
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:22Z",
+  "fetched_at": "2026-08-17T17:51:08Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:23Z",
+  "fetched_at": "2026-08-17T17:51:09Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 589.75,
     "high": 590.239990234375,
-    "low": 566.3400268554688,
-    "close": 567.4500122070312,
-    "volume": 9608449.0
+    "low": 564.75,
+    "close": 565.0900268554688,
+    "volume": 10732342.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:23Z",
+  "fetched_at": "2026-08-17T17:51:09Z",
   "trends": [
    {
     "symbol": "META",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:23Z",
+  "fetched_at": "2026-08-17T17:51:09Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.266304,
+  "forward_pe": 16.198654,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -6288,8 +6288,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:23Z",
+  "fetched_at": "2026-08-17T17:51:09Z",
   "rows": [
+   {
+    "ts": 1786970486,
+    "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
+   },
+   {
+    "ts": 1786969836,
+    "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
+   },
    {
     "ts": 1786967972,
     "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
@@ -6325,25 +6337,13 @@
     "headline": "'Alibaba Launches AI Music Generation Model HappyShrimp in Beta' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=6a5892f94867dcc83138dfa6bd112dfcb61b9d2d826ce0e46d3b0a4f001e41b6"
-   },
-   {
-    "ts": 1786950085,
-    "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
-   },
-   {
-    "ts": 1786949694,
-    "headline": "What Makes the AI Music Stop: a $1.5 Trillion Mountain of Hidden Leverage",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=807aebf174a4e5dcdabb22f00e6ed30c03e6d60c3b0b4689431d39f6d5fc5ae0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:24Z",
+  "fetched_at": "2026-08-17T17:51:09Z",
   "buys": 140,
   "sells": 265,
   "net_shares": 3201444.0,

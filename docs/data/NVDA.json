@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T17:15:10Z",
+ "generated_at": "2026-08-17T17:50:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:10Z",
-  "current": 226.42,
-  "change": 1.26,
-  "change_pct": 0.5596,
+  "fetched_at": "2026-08-17T17:50:57Z",
+  "current": 226.17,
+  "change": 1.01,
+  "change_pct": 0.4486,
   "high": 227.92,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786986893
+  "ts": 1786989050
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:11Z",
+  "fetched_at": "2026-08-17T17:50:57Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:12Z",
+  "fetched_at": "2026-08-17T17:50:58Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 226.02000427246094,
     "high": 227.9199981689453,
     "low": 225.02999877929688,
-    "close": 226.28050231933594,
-    "volume": 48989259.0
+    "close": 226.0800018310547,
+    "volume": 53357746.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:12Z",
+  "fetched_at": "2026-08-17T17:50:58Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T17:15:12Z",
+  "fetched_at": "2026-08-17T17:50:58Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.68043,
+  "forward_pe": 17.664764,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,7 +6288,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:12Z",
+  "fetched_at": "2026-08-17T17:50:58Z",
   "rows": [
    {
     "ts": 1786984806,
@@ -6297,10 +6297,34 @@
     "url": "https://finnhub.io/api/news?id=b91ca1b80516fc75a10e9df868b364cf20cf41b442449092f5176ac5b0392a13"
    },
    {
+    "ts": 1786972931,
+    "headline": "The King Of The AI Bubble",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=be9ad829e5fdebd0a7c6acd1528cc6547c28a5c9e1be9cc1cd97d58fb9d15598"
+   },
+   {
+    "ts": 1786970486,
+    "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
+   },
+   {
     "ts": 1786970115,
     "headline": "The 'Silver Tsunami': Significant Demographic Headwind Incoming",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=ae7e58ad414d6a86a3f934f6f7a3b24da694715cf6f7ce62e0e5c17708629015"
+   },
+   {
+    "ts": 1786969836,
+    "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
+   },
+   {
+    "ts": 1786968744,
+    "headline": "SpaceX Stock Is Everywhere: Google, Nvidia, AMD, Harvard Disclose Stakes",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6c8636a0eabfcfd07c9b0f1337afd14e81e9070d29b93a09cf66aa94ff6a00b5"
    },
    {
     "ts": 1786967972,
@@ -6313,37 +6337,13 @@
     "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
-   },
-   {
-    "ts": 1786965573,
-    "headline": "Memory Is The Best AI Story, Equipment Is The Better Trade",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=2f35153d7912668572f2ad77d391fb0992779e3cf086986fa0d3f5fe1ad6640a"
-   },
-   {
-    "ts": 1786964082,
-    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
-   },
-   {
-    "ts": 1786961082,
-    "headline": "'Nvidia To Invest $100B For OpenAI Data Centre In Ohio' - Financial Times",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a61be4a88dc83eb9d7328dd61e0babe1e3ad51fda3fc5bf0c1cd3412137ac961"
-   },
-   {
-    "ts": 1786959807,
-    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T17:15:12Z",
+  "fetched_at": "2026-08-17T17:50:59Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
