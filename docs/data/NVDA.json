@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T20:11:58Z",
+ "generated_at": "2026-08-17T20:49:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:58Z",
+  "fetched_at": "2026-08-17T20:49:23Z",
   "current": 225.01,
   "change": -0.15,
   "change_pct": -0.0666,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:58Z",
+  "fetched_at": "2026-08-17T20:49:23Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T20:11:59Z",
+  "fetched_at": "2026-08-17T20:49:24Z",
   "bars": [
    {
     "date": "2023-08-18",
@@ -6030,7 +6030,7 @@
    },
    {
     "date": "2026-08-17",
-    "open": 226.02000427246094,
+    "open": 225.97999572753906,
     "high": 227.9199981689453,
     "low": 224.86000061035156,
     "close": 225.00999450683594,
@@ -6220,7 +6220,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:59Z",
+  "fetched_at": "2026-08-17T20:49:24Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6262,7 +6262,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T20:11:59Z",
+  "fetched_at": "2026-08-17T20:49:25Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -6280,7 +6280,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:59Z",
+  "fetched_at": "2026-08-17T20:49:25Z",
   "rows": [
    {
     "ts": 1786993806,
@@ -6335,7 +6335,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:59Z",
+  "fetched_at": "2026-08-17T20:49:25Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

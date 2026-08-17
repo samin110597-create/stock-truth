@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T20:11:48Z",
+ "generated_at": "2026-08-17T20:49:11Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:48Z",
+  "fetched_at": "2026-08-17T20:49:11Z",
   "current": 341.45,
   "change": -2.09,
   "change_pct": -0.6084,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:48Z",
+  "fetched_at": "2026-08-17T20:49:12Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T20:11:49Z",
+  "fetched_at": "2026-08-17T20:49:13Z",
   "bars": [
    {
     "date": "2023-08-18",
@@ -6211,7 +6211,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:49Z",
+  "fetched_at": "2026-08-17T20:49:13Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6253,7 +6253,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T20:11:49Z",
+  "fetched_at": "2026-08-17T20:49:13Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -6271,8 +6271,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:49Z",
+  "fetched_at": "2026-08-17T20:49:13Z",
   "rows": [
+   {
+    "ts": 1786983479,
+    "headline": "Don't Expect Massive Upside From Apple At This Entry Point",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=8a31c7a08e8eb59bf54f4fcc11667cdc1e6604b3ab03451a11f895bc441b611d"
+   },
+   {
+    "ts": 1786982378,
+    "headline": "Infleqtion: The Execution Phase (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=9c606af26026545e7b30b7aa9418083a3aaab0c56acea1adf685b9e76c932390"
+   },
    {
     "ts": 1786974355,
     "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
@@ -6308,25 +6320,13 @@
     "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
-   },
-   {
-    "ts": 1786966500,
-    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
-   },
-   {
-    "ts": 1786965666,
-    "headline": "Alphabet: External TPU Sales Are A Likely Game Changer",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d01dcdae8d000cd86d48f526d9174a7ad486c9b7b999af04d3ac6860a79f4e81"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T20:11:49Z",
+  "fetched_at": "2026-08-17T20:49:14Z",
   "error": "no insider filings in six months"
  },
  "peers": {
