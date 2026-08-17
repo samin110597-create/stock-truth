@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T16:11:25Z",
+ "generated_at": "2026-08-17T16:51:13Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:25Z",
-  "current": 340.84,
-  "change": -2.7,
-  "change_pct": -0.7859,
+  "fetched_at": "2026-08-17T16:51:13Z",
+  "current": 340.98,
+  "change": -2.56,
+  "change_pct": -0.7452,
   "high": 345.05,
   "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786983055
+  "ts": 1786985458
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:26Z",
+  "fetched_at": "2026-08-17T16:51:13Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:27Z",
+  "fetched_at": "2026-08-17T16:51:14Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 340.69500732421875,
-    "volume": 5399968.0
+    "close": 340.96990966796875,
+    "volume": 6228054.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:27Z",
+  "fetched_at": "2026-08-17T16:51:14Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:27Z",
+  "fetched_at": "2026-08-17T16:51:14Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.103935,
+  "forward_pe": 23.122576,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:27Z",
+  "fetched_at": "2026-08-17T16:51:15Z",
   "rows": [
+   {
+    "ts": 1786967972,
+    "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
+   },
    {
     "ts": 1786966500,
     "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
@@ -6312,29 +6318,23 @@
     "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
    },
    {
-    "ts": 1786951743,
-    "headline": "GDV: Deep Discount And Stable Monthly Payout Make This Attractive",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e775368ce28c9ec70d0165cccadd07b521e48a057697289840be033cdd754c2e"
-   },
-   {
-    "ts": 1786950085,
-    "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
+    "ts": 1786959195,
+    "headline": "David Tepper Cuts Micron Stake, Exits SanDisk as Appaloosa Goes Big on These Magnificent 7 Stocks in Q2",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
+    "url": "https://finnhub.io/api/news?id=28d40cabdaa85583d675830e9678925a7a093aa77878c44cd6fe626ba14b92a0"
    },
    {
-    "ts": 1786910827,
-    "headline": "Tracking Bill Ackman's Pershing Square 13F Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=8f0c6af6146ce467fdc7d871d935aa55516a90bcc60cdc15ed864b80f4e2b14c"
+    "ts": 1786954960,
+    "headline": "'Alibaba Launches AI Music Generation Model HappyShrimp in Beta' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6a5892f94867dcc83138dfa6bd112dfcb61b9d2d826ce0e46d3b0a4f001e41b6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:27Z",
+  "fetched_at": "2026-08-17T16:51:15Z",
   "error": "no insider filings in six months"
  },
  "peers": {

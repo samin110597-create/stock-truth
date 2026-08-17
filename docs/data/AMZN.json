@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T16:11:13Z",
+ "generated_at": "2026-08-17T16:51:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:13Z",
-  "current": 260.59,
-  "change": -2.06,
-  "change_pct": -0.7843,
+  "fetched_at": "2026-08-17T16:51:02Z",
+  "current": 259.66,
+  "change": -2.99,
+  "change_pct": -1.1384,
   "high": 265.75,
-  "low": 260.08,
+  "low": 259.57,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786983053
+  "ts": 1786985435
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:13Z",
+  "fetched_at": "2026-08-17T16:51:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:16Z",
+  "fetched_at": "2026-08-17T16:51:04Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6040,9 +6040,9 @@
     "date": "2026-08-17",
     "open": 265.44000244140625,
     "high": 265.75,
-    "low": 260.0799865722656,
-    "close": 260.5530090332031,
-    "volume": 20144772.0
+    "low": 259.55999755859375,
+    "close": 259.5799865722656,
+    "volume": 22675795.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:16Z",
+  "fetched_at": "2026-08-17T16:51:04Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:16Z",
+  "fetched_at": "2026-08-17T16:51:04Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.045322,
+  "forward_pe": 24.951792,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,8 +6279,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:16Z",
+  "fetched_at": "2026-08-17T16:51:04Z",
   "rows": [
+   {
+    "ts": 1786967972,
+    "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
+   },
    {
     "ts": 1786966500,
     "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
@@ -6306,6 +6312,12 @@
     "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
    },
    {
+    "ts": 1786959195,
+    "headline": "David Tepper Cuts Micron Stake, Exits SanDisk as Appaloosa Goes Big on These Magnificent 7 Stocks in Q2",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=28d40cabdaa85583d675830e9678925a7a093aa77878c44cd6fe626ba14b92a0"
+   },
+   {
     "ts": 1786957448,
     "headline": "Viking Global Bets Big On SpaceX While Ditching CoreWeave, Alphabet in Q2",
     "source": "Benzinga",
@@ -6316,25 +6328,13 @@
     "headline": "Michael Burry Takes Victory Lap as Big Tech\u2019s $3 Trillion AI Spending Tab Comes Into Focus",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=e5e4ab899fa54eacafa1f6adb1c56ed17ba4a21a3fc3baf48fe9a3b7850fe06a"
-   },
-   {
-    "ts": 1786949888,
-    "headline": "Consumer Data Trips Up Wall Street's Rally as MDxHealth Snatches a Lifeline and Anthropic Redraws the AI Ceiling",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=fc98510322e387155cbbc6a2eb405984bb79a57cc4f550402ec0d3960db217a3"
-   },
-   {
-    "ts": 1786949694,
-    "headline": "What Makes the AI Music Stop: a $1.5 Trillion Mountain of Hidden Leverage",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=807aebf174a4e5dcdabb22f00e6ed30c03e6d60c3b0b4689431d39f6d5fc5ae0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:16Z",
+  "fetched_at": "2026-08-17T16:51:04Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T16:11:36Z",
+ "generated_at": "2026-08-17T16:51:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:37Z",
-  "current": 227.46,
-  "change": 2.3,
-  "change_pct": 1.0215,
+  "fetched_at": "2026-08-17T16:51:24Z",
+  "current": 227.09,
+  "change": 1.93,
+  "change_pct": 0.8572,
   "high": 227.92,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786983078
+  "ts": 1786985456
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:37Z",
+  "fetched_at": "2026-08-17T16:51:24Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:38Z",
+  "fetched_at": "2026-08-17T16:51:25Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 226.02000427246094,
     "high": 227.9199981689453,
     "low": 225.02999877929688,
-    "close": 227.3262939453125,
-    "volume": 41453163.0
+    "close": 227.0,
+    "volume": 46465834.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:38Z",
+  "fetched_at": "2026-08-17T16:51:25Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T16:11:38Z",
+  "fetched_at": "2026-08-17T16:51:25Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.763433,
+  "forward_pe": 17.736649,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,8 +6288,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:38Z",
+  "fetched_at": "2026-08-17T16:51:25Z",
   "rows": [
+   {
+    "ts": 1786970115,
+    "headline": "The 'Silver Tsunami': Significant Demographic Headwind Incoming",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ae7e58ad414d6a86a3f934f6f7a3b24da694715cf6f7ce62e0e5c17708629015"
+   },
+   {
+    "ts": 1786967972,
+    "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
+   },
    {
     "ts": 1786966500,
     "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
@@ -6325,25 +6337,13 @@
     "headline": "'Big Short' Investor Steve Eisman Says AI Has an 'Achilles' Heel' \u2014 But It's Too Early to Short the Boom",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=fd07bc5991a2162e3e503d1b25479f7022f6933d6eccb386cea63e4085cfa95c"
-   },
-   {
-    "ts": 1786958100,
-    "headline": "The BDC Asymmetry That Nobody Prices In",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5e1502b095cda1176bb8688161b93f9ac1a28cfede6f85ff5b00c32c0bf9f624"
-   },
-   {
-    "ts": 1786955972,
-    "headline": "Nvidia Secures Land, Power And Shell Capacity To Host Compute Capacity Via Partnership With SB Energy At The PORTS-Pike Technology Campus In Ohio For Customer OpenAI",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=27329d9b1b51153a6a8a2fc34a32d04bcf13a29cc8155070b7dac8174abc150f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T16:11:38Z",
+  "fetched_at": "2026-08-17T16:51:25Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
