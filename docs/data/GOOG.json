@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-17T18:18:14Z",
+ "generated_at": "2026-08-17T19:05:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:14Z",
-  "current": 341.05,
-  "change": -2.49,
-  "change_pct": -0.7248,
+  "fetched_at": "2026-08-17T19:05:07Z",
+  "current": 341.19,
+  "change": -2.35,
+  "change_pct": -0.6841,
   "high": 345.05,
   "low": 339.57,
   "open": 344.995,
   "prev_close": 343.54,
-  "ts": 1786990657
+  "ts": 1786993490
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:14Z",
+  "fetched_at": "2026-08-17T19:05:07Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:15Z",
+  "fetched_at": "2026-08-17T19:05:08Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 344.07501220703125,
     "high": 345.04998779296875,
     "low": 339.57000732421875,
-    "close": 341.17999267578125,
-    "volume": 7737121.0
+    "close": 341.2300109863281,
+    "volume": 8434072.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:15Z",
+  "fetched_at": "2026-08-17T19:05:08Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:15Z",
+  "fetched_at": "2026-08-17T19:05:08Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.135128,
+  "forward_pe": 23.140215,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -6279,13 +6279,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:15Z",
+  "fetched_at": "2026-08-17T19:05:08Z",
   "rows": [
    {
     "ts": 1786974355,
     "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
+   },
+   {
+    "ts": 1786973866,
+    "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
    },
    {
     "ts": 1786970486,
@@ -6322,19 +6328,13 @@
     "headline": "Alphabet: External TPU Sales Are A Likely Game Changer",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d01dcdae8d000cd86d48f526d9174a7ad486c9b7b999af04d3ac6860a79f4e81"
-   },
-   {
-    "ts": 1786964082,
-    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:16Z",
+  "fetched_at": "2026-08-17T19:05:08Z",
   "error": "no insider filings in six months"
  },
  "peers": {

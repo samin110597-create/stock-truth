@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-17T18:18:25Z",
+ "generated_at": "2026-08-17T19:05:17Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:25Z",
-  "current": 225.69,
-  "change": 0.53,
-  "change_pct": 0.2354,
+  "fetched_at": "2026-08-17T19:05:17Z",
+  "current": 225.57,
+  "change": 0.41,
+  "change_pct": 0.1821,
   "high": 227.92,
   "low": 225.02,
   "open": 225.85,
   "prev_close": 225.16,
-  "ts": 1786990681
+  "ts": 1786993490
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:25Z",
+  "fetched_at": "2026-08-17T19:05:18Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:26Z",
+  "fetched_at": "2026-08-17T19:05:18Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 226.02000427246094,
     "high": 227.9199981689453,
     "low": 225.02999877929688,
-    "close": 225.58999633789062,
-    "volume": 56660692.0
+    "close": 225.52499389648438,
+    "volume": 60710210.0
    }
   ],
   "n": 752,
@@ -6228,7 +6228,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:26Z",
+  "fetched_at": "2026-08-17T19:05:18Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -6270,13 +6270,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:26Z",
+  "fetched_at": "2026-08-17T19:05:19Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.627258,
+  "forward_pe": 17.621399,
   "forward_eps": 12.79836,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -6288,13 +6288,37 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:27Z",
+  "fetched_at": "2026-08-17T19:05:19Z",
   "rows": [
+   {
+    "ts": 1786989900,
+    "headline": "These S&P500 stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
+   },
+   {
+    "ts": 1786989600,
+    "headline": "Which stocks are most active on Monday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=8a3c3c0e072895595e9b5bf18355564f058eae0f28e99c0ac22ba158d9a44567"
+   },
    {
     "ts": 1786984806,
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=b91ca1b80516fc75a10e9df868b364cf20cf41b442449092f5176ac5b0392a13"
+   },
+   {
+    "ts": 1786976400,
+    "headline": "Bargain Hunters, AI Bets, And CEO Confidence: Navigating The Final Wave Of Q2 Earnings",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=492deb9ef4a0bba2fd42992e0a06021788d8e6a64dc21cf6f0f4215da8a88bbc"
+   },
+   {
+    "ts": 1786973866,
+    "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
    },
    {
     "ts": 1786972931,
@@ -6313,37 +6337,13 @@
     "headline": "The 'Silver Tsunami': Significant Demographic Headwind Incoming",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=ae7e58ad414d6a86a3f934f6f7a3b24da694715cf6f7ce62e0e5c17708629015"
-   },
-   {
-    "ts": 1786969836,
-    "headline": "Bill Ackman Bets Big on Magnificent 7 Stocks, But Only Loves 3 of Them",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
-   },
-   {
-    "ts": 1786968744,
-    "headline": "SpaceX Stock Is Everywhere: Google, Nvidia, AMD, Harvard Disclose Stakes",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6c8636a0eabfcfd07c9b0f1337afd14e81e9070d29b93a09cf66aa94ff6a00b5"
-   },
-   {
-    "ts": 1786967972,
-    "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b47b350b282d296daa35eac5e76c4c1f74454410dc092e3cd0bf3265d67bc471"
-   },
-   {
-    "ts": 1786966500,
-    "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:27Z",
+  "fetched_at": "2026-08-17T19:05:19Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

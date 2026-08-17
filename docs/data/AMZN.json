@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-17T18:18:02Z",
+ "generated_at": "2026-08-17T19:04:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:02Z",
-  "current": 260.04,
-  "change": -2.61,
-  "change_pct": -0.9937,
+  "fetched_at": "2026-08-17T19:04:56Z",
+  "current": 259.89,
+  "change": -2.76,
+  "change_pct": -1.0508,
   "high": 265.75,
   "low": 258.339,
   "open": 265.02,
   "prev_close": 262.65,
-  "ts": 1786990656
+  "ts": 1786993467
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:02Z",
+  "fetched_at": "2026-08-17T19:04:56Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:04Z",
+  "fetched_at": "2026-08-17T19:04:57Z",
   "bars": [
    {
     "date": "2023-08-17",
@@ -6041,8 +6041,8 @@
     "open": 265.44000244140625,
     "high": 265.75,
     "low": 258.3389892578125,
-    "close": 260.0899963378906,
-    "volume": 29026315.0
+    "close": 259.8500061035156,
+    "volume": 31762768.0
    }
   ],
   "n": 752,
@@ -6219,7 +6219,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:04Z",
+  "fetched_at": "2026-08-17T19:04:57Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -6261,13 +6261,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T18:18:04Z",
+  "fetched_at": "2026-08-17T19:04:57Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.999853,
+  "forward_pe": 24.977747,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -6279,13 +6279,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:04Z",
+  "fetched_at": "2026-08-17T19:04:57Z",
   "rows": [
+   {
+    "ts": 1786989900,
+    "headline": "These S&P500 stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
+   },
    {
     "ts": 1786974355,
     "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
+   },
+   {
+    "ts": 1786973866,
+    "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
    },
    {
     "ts": 1786970486,
@@ -6300,6 +6312,12 @@
     "url": "https://finnhub.io/api/news?id=87f14dea12312475eee8406c1cb72d8c4c2f3f4836b5aed900763b9ee9b6878c"
    },
    {
+    "ts": 1786969428,
+    "headline": "New York\u2019s Factory Activity Expands to 4-Year Highs: Is AI Powering a Manufacturing Boom?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a817c666393093e4a9d81baac892b4c9159124bdf11d753424efa2f371287bcb"
+   },
+   {
     "ts": 1786967972,
     "headline": "Nvidia: One Number In Q2 Decides Where This Stock Goes",
     "source": "SeekingAlpha",
@@ -6310,31 +6328,13 @@
     "headline": "Wall Street Lunch: McDonald's Menu Gets Energy Boost With Red Bull",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=856f50db1b08b71463c96c56a4403068cae8d2c80f7a7deb5fc7bf43353d1c68"
-   },
-   {
-    "ts": 1786964082,
-    "headline": "The S&P 500's 50% Earnings Boom Comes With A Giant Asterisk",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=82bad46a5349dcc7d397c8ac4e7910af4dca8f32a45e7f0d4ea06a23509cea1e"
-   },
-   {
-    "ts": 1786961103,
-    "headline": "SpaceX Launches 2 Rockets Just 38 Minutes Apart, Setting New Record for Musk\u2019s Launch Machine",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=634a6cb0c52704bf6dc71a164b485cb93a0003202133f3c917e6a57259b20305"
-   },
-   {
-    "ts": 1786959807,
-    "headline": "David Tepper's Latest AI Bet Is CoreWeave",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9c4d75270a303776b3ed5c20d30209deccf4a080d295bf8f989e05cad1ba22b9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-17T18:18:05Z",
+  "fetched_at": "2026-08-17T19:04:58Z",
   "buys": 43,
   "sells": 110,
   "net_shares": -2105573.0,
