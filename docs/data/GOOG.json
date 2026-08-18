@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T13:33:26Z",
+ "generated_at": "2026-08-18T14:20:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:27Z",
-  "current": 338.47,
-  "change": -2.98,
-  "change_pct": -0.8727,
-  "high": 340.0,
+  "fetched_at": "2026-08-18T14:20:04Z",
+  "current": 340.54,
+  "change": -0.91,
+  "change_pct": -0.2665,
+  "high": 340.93,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787059979
+  "ts": 1787062779
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:27Z",
+  "fetched_at": "2026-08-18T14:20:04Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T13:33:27Z",
+  "fetched_at": "2026-08-18T14:20:06Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-18",
     "open": 339.89,
-    "high": 339.89,
+    "high": 340.91,
     "low": 337.54,
-    "close": 339.39,
-    "volume": 13559.0
+    "close": 340.12,
+    "volume": 154651.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:27Z",
+  "fetched_at": "2026-08-18T14:20:06Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T13:33:27Z",
+  "fetched_at": "2026-08-18T14:20:06Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.005264,
+  "forward_pe": 23.117836,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:27Z",
+  "fetched_at": "2026-08-18T14:20:06Z",
   "rows": [
+   {
+    "ts": 1787046496,
+    "headline": "Netlist: Samsung Bends The Knee, Micron, Alphabet And Super Micro Computer Could Be Next",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=41afdf86402b2392651a017999072cb9e5fc250084b7ab1aac46ac64cc1e9d0b"
+   },
    {
     "ts": 1787036280,
     "headline": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
@@ -7506,19 +7512,13 @@
     "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
-   },
-   {
-    "ts": 1786970486,
-    "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:28Z",
+  "fetched_at": "2026-08-18T14:20:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {

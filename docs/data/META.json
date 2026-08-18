@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-18T13:33:47Z",
+ "generated_at": "2026-08-18T14:20:28Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:47Z",
-  "current": 553.75,
-  "change": -15.22,
-  "change_pct": -2.675,
+  "fetched_at": "2026-08-18T14:20:28Z",
+  "current": 547.67,
+  "change": -21.3,
+  "change_pct": -3.7436,
   "high": 561.24,
-  "low": 551.57,
+  "low": 546.61,
   "open": 561.24,
   "prev_close": 568.97,
-  "ts": 1787060004
+  "ts": 1787062802
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:47Z",
+  "fetched_at": "2026-08-18T14:20:28Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T13:33:48Z",
+  "fetched_at": "2026-08-18T14:20:29Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-18",
     "open": 557.31,
     "high": 560.45,
-    "low": 551.66,
-    "close": 553.56,
-    "volume": 27702.0
+    "low": 546.66,
+    "close": 547.84,
+    "volume": 307282.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:48Z",
+  "fetched_at": "2026-08-18T14:20:29Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T13:33:48Z",
+  "fetched_at": "2026-08-18T14:20:29Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.84922,
+  "forward_pe": 15.699011,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:48Z",
+  "fetched_at": "2026-08-18T14:20:29Z",
   "rows": [
+   {
+    "ts": 1787045451,
+    "headline": "Meta's Dip Offers A 30% Upside Potential",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d8f5e1a97ecfb2a78a9c612c30fae89f33e7e22f96024105d2caf5d2e74bfd97"
+   },
    {
     "ts": 1787034600,
     "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
@@ -7515,19 +7521,13 @@
     "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
-   },
-   {
-    "ts": 1786970486,
-    "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom \u2014 Bets Big On Warner Bros. Discovery",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T13:33:48Z",
+  "fetched_at": "2026-08-18T14:20:30Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
