@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T17:49:22Z",
+ "generated_at": "2026-08-18T18:17:26Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:49:22Z",
-  "current": 341.0,
-  "change": -0.45,
-  "change_pct": -0.1318,
+  "fetched_at": "2026-08-18T18:17:26Z",
+  "current": 341.31,
+  "change": -0.14,
+  "change_pct": -0.041,
   "high": 342.1,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787075324
+  "ts": 1787077018
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:49:22Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T17:49:23Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 339.89,
     "high": 342.06,
     "low": 337.54,
-    "close": 340.955,
-    "volume": 451664.0
+    "close": 341.285,
+    "volume": 480036.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:49:23Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T17:49:23Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.124617,
+  "forward_pe": 23.146318,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:49:24Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "rows": [
+   {
+    "ts": 1787061188,
+    "headline": "XLC: Alphabet And Meta Just Keep Churning",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=90836467a4e2ed96426dd09492f4bf24abf02bb02849dbc087d69bd04d2cfba1"
+   },
    {
     "ts": 1787053961,
     "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
@@ -7506,19 +7512,13 @@
     "headline": "Google is Paying $10 Million for Bankrupt Spirit Airlines' Old Emails and Spreadsheets: Here's Why",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=1d5fbfb69afa0bc0ffc0dfcf153eafd0f38c34c538892e563a68ded7ab95e77b"
-   },
-   {
-    "ts": 1786996813,
-    "headline": "Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=adf36bd6d8d33f0eda81a3ffe443bb9cac2a47726dfa0107317ec0ca23d0c555"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:49:24Z",
+  "fetched_at": "2026-08-18T18:17:26Z",
   "error": "no insider filings in six months"
  },
  "peers": {
