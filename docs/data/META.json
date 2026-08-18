@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-18T17:15:41Z",
+ "generated_at": "2026-08-18T17:49:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:15:41Z",
-  "current": 550.9,
-  "change": -18.07,
-  "change_pct": -3.1759,
+  "fetched_at": "2026-08-18T17:49:44Z",
+  "current": 546.76,
+  "change": -22.21,
+  "change_pct": -3.9035,
   "high": 561.24,
   "low": 545.47,
   "open": 561.24,
   "prev_close": 568.97,
-  "ts": 1787073310
+  "ts": 1787075352
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:15:41Z",
+  "fetched_at": "2026-08-18T17:49:44Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T17:15:42Z",
+  "fetched_at": "2026-08-18T17:49:45Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 557.31,
     "high": 560.45,
     "low": 545.57,
-    "close": 550.75,
-    "volume": 893593.0
+    "close": 546.775,
+    "volume": 984324.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:15:42Z",
+  "fetched_at": "2026-08-18T17:49:45Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T17:15:42Z",
+  "fetched_at": "2026-08-18T17:49:45Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.787015,
+  "forward_pe": 15.680106,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,13 +7472,37 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:15:43Z",
+  "fetched_at": "2026-08-18T17:49:45Z",
   "rows": [
+   {
+    "ts": 1787057513,
+    "headline": "What the Meta Platform trial means for investors",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=61419e5ccce82ee534a5eccc54a21c4c6a90de6020ba5752811beb171565cdd9"
+   },
+   {
+    "ts": 1787057242,
+    "headline": "Opening statements begin in landmark Meta trial",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=e9369dc5b73c72314f5280f9ab40c4dc9b7c6faf57dbfbec0b1369c96dc56a99"
+   },
    {
     "ts": 1787053437,
     "headline": "What's Going On With Meta Platforms Stock Tuesday?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=66a2e374186bcc6131e77b5c68c5b5c8f79e4714d8db4fe8c26693fc677446f0"
+   },
+   {
+    "ts": 1787049334,
+    "headline": "Watch CNBC's full interview with former Assistant Attorney General Jonathan Kanter",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=c27da295c924af7e25d446ed65d4cc3f2eeae6bed1a2a52f2b888e0b8f13b1ef"
+   },
+   {
+    "ts": 1787049280,
+    "headline": "Former Assistant Attorney General Jonathan Kanter on Meta's federal trial over child safety",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=56a2e8bedc2c552c3e5a7bd7aef0935449cb6f75fade55ee628108f3ce0bf3b6"
    },
    {
     "ts": 1787048727,
@@ -7497,37 +7521,13 @@
     "headline": "J.P. Morgan\u2019s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom \u2014 Says Investors Are Missing One Warning Sign That Could Change Everything: \u2018What I\u2019m Terrified of Is\u2026\u2019 (UPDATED)",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
-   },
-   {
-    "ts": 1787034816,
-    "headline": "Trump-Backed World Liberty Partners With Platform Offering Chinese AI Models Flagged by US: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=855bef031029bcfea51393425d34e046ad9351a9149d7cff35a80dd49b1256bf"
-   },
-   {
-    "ts": 1787034600,
-    "headline": "The Real Reason Markets Are Rising Despite A Bearish Macro Backdrop",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=712b058a64e071236348ee01c1d817e2e3629a8f87a7f29d55eaca50323c87d1"
-   },
-   {
-    "ts": 1787002750,
-    "headline": "Nike, Meta Platforms, INVO Fertility, EyePoint Pharmaceuticals, and Micron: Why These 5 Stocks Are on Investors' Radars Today",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=14eaf6a82d989559fa530a34f6a73894e65032b407affaa3ec297116d9bb64b8"
-   },
-   {
-    "ts": 1786993027,
-    "headline": "Broadcom Looks Undervalued With 50% Upside",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=99874d8148c4b9d33eb91e656a1e156beca9d0d7e46fbb11c6581690f70eecb3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T17:15:43Z",
+  "fetched_at": "2026-08-18T17:49:46Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
