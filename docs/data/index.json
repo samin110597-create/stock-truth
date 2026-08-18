@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T20:09:34Z",
+ "generated_at": "2026-08-18T20:45:47Z",
  "tickers": [
   "AMZN",
   "GOOG",
@@ -41,18 +41,18 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 543.817
+   "price": 543.67
   }
  ],
  "market_status": {
   "source": "polygon",
-  "fetched_at": "2026-08-18T20:09:34Z",
+  "fetched_at": "2026-08-18T20:45:48Z",
   "market": "extended-hours",
-  "server_time": "2026-08-18T16:09:34-04:00"
+  "server_time": "2026-08-18T16:45:48-04:00"
  },
  "macro": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-18T20:09:34Z",
+  "fetched_at": "2026-08-18T20:45:48Z",
   "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage"
  },
  "sources_configured": {

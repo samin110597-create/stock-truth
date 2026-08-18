@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-18T20:08:51Z",
+ "generated_at": "2026-08-18T20:45:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:08:51Z",
+  "fetched_at": "2026-08-18T20:45:00Z",
   "current": 259.45,
   "change": -1.86,
   "change_pct": -0.7118,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:08:51Z",
+  "fetched_at": "2026-08-18T20:45:00Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T20:08:52Z",
+  "fetched_at": "2026-08-18T20:45:01Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:08:52Z",
+  "fetched_at": "2026-08-18T20:45:01Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T20:08:53Z",
+  "fetched_at": "2026-08-18T20:45:01Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:08:53Z",
+  "fetched_at": "2026-08-18T20:45:02Z",
   "rows": [
    {
     "ts": 1787080206,
@@ -7502,23 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
    },
    {
+    "ts": 1787058827,
+    "headline": "Amazon Raises Louisiana Investment To $18 Billion, Adds Third Data Center Campus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=1daab516f2aba00367e141f0f7c9e8faddf771e5aeb4d31f3db6a514bacdd286"
+   },
+   {
     "ts": 1787057283,
     "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=912557a963c654d0c80ccdba4466965f75facd0f65a69f8ba1aa600c717658db"
-   },
-   {
-    "ts": 1787054412,
-    "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:08:53Z",
+  "fetched_at": "2026-08-18T20:45:02Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,

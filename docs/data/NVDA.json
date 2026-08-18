@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-18T20:09:13Z",
+ "generated_at": "2026-08-18T20:45:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:09:13Z",
+  "fetched_at": "2026-08-18T20:45:23Z",
   "current": 219.74,
   "change": -5.27,
   "change_pct": -2.3421,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:09:13Z",
+  "fetched_at": "2026-08-18T20:45:23Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T20:09:14Z",
+  "fetched_at": "2026-08-18T20:45:23Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:09:14Z",
+  "fetched_at": "2026-08-18T20:45:24Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T20:09:14Z",
+  "fetched_at": "2026-08-18T20:45:24Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:09:14Z",
+  "fetched_at": "2026-08-18T20:45:24Z",
   "rows": [
    {
     "ts": 1787080206,
@@ -7499,6 +7499,18 @@
     "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
    },
    {
+    "ts": 1787067974,
+    "headline": "SK hynix: Believe In The HBM Leader",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=5bcb77326368d578aa97a2a913551aca5ea4f487c926e532282fd144f2e46cb4"
+   },
+   {
+    "ts": 1787066560,
+    "headline": "Michael Burry Says This AI Chip Startup Is 'Serious Competition' for Nvidia",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=513958df9793a3410f6c4df86c3b03a3161546526084f9e359256007028e29a1"
+   },
+   {
     "ts": 1787066531,
     "headline": "The Math Of The AI Bubble Is Changing",
     "source": "SeekingAlpha",
@@ -7509,25 +7521,13 @@
     "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
-   },
-   {
-    "ts": 1787061070,
-    "headline": "IREN Is Quietly Outpacing CoreWeave on One AI Metric that Matters",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=304e38a4326cd4a42c434d73f8f1f685a2700f91e22be6ff1072c7c9b1cbe0b3"
-   },
-   {
-    "ts": 1787060240,
-    "headline": "You\u2019re Already Funding the AI Bubble \u2014 and You\u2019ll Pay for the Bust",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=af79542519554dd06b03debbfd4f9fd13ec9750dd9f6dadcc348f70c82e6ad27"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:09:14Z",
+  "fetched_at": "2026-08-18T20:45:24Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
