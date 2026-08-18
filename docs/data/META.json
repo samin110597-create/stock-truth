@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-18T19:46:22Z",
+ "generated_at": "2026-08-18T20:09:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:46:22Z",
-  "current": 545.33,
-  "change": -23.64,
-  "change_pct": -4.1549,
-  "high": 561.24,
-  "low": 543.9,
-  "open": 561.24,
+  "fetched_at": "2026-08-18T20:09:23Z",
+  "current": 543.817,
+  "change": -25.153,
+  "change_pct": -4.4208,
+  "high": 560.66,
+  "low": 543.21,
+  "open": 557.48,
   "prev_close": 568.97,
-  "ts": 1787082370
+  "ts": 1787083200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:46:22Z",
+  "fetched_at": "2026-08-18T20:09:23Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T19:46:23Z",
+  "fetched_at": "2026-08-18T20:09:24Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-18",
     "open": 557.31,
     "high": 560.45,
-    "low": 543.9,
-    "close": 545.29,
-    "volume": 1282434.0
+    "low": 543.28,
+    "close": 543.83,
+    "volume": 1450873.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:46:23Z",
+  "fetched_at": "2026-08-18T20:09:24Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T19:46:23Z",
+  "fetched_at": "2026-08-18T20:09:24Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.626919,
+  "forward_pe": 15.584636,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:46:23Z",
+  "fetched_at": "2026-08-18T20:09:24Z",
   "rows": [
+   {
+    "ts": 1787063039,
+    "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
+   },
    {
     "ts": 1787061600,
     "headline": "Wall Street Lunch: Meta Faces High-Stakes Federal Trial Over Child Safety",
@@ -7515,19 +7521,13 @@
     "headline": "What's Going On With Meta Platforms Stock Tuesday?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=66a2e374186bcc6131e77b5c68c5b5c8f79e4714d8db4fe8c26693fc677446f0"
-   },
-   {
-    "ts": 1787053364,
-    "headline": "Nvidia, AMD, Broadcom, Meta Slide as Bond Yields Surge: Why Tech Stocks Are Getting Hit",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8be0662f56a93fc1a3eafb7348c7ea178f1847ba7757168a8bfdfcfd45768efa"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:46:24Z",
+  "fetched_at": "2026-08-18T20:09:25Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,

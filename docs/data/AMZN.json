@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-18T19:45:47Z",
+ "generated_at": "2026-08-18T20:08:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:45:47Z",
-  "current": 259.97,
-  "change": -1.34,
-  "change_pct": -0.5128,
+  "fetched_at": "2026-08-18T20:08:51Z",
+  "current": 259.45,
+  "change": -1.86,
+  "change_pct": -0.7118,
   "high": 262.18,
   "low": 257.73,
-  "open": 260.615,
+  "open": 260.63,
   "prev_close": 261.31,
-  "ts": 1787082321
+  "ts": 1787083200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:45:47Z",
+  "fetched_at": "2026-08-18T20:08:51Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T19:45:48Z",
+  "fetched_at": "2026-08-18T20:08:52Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 260.63,
     "high": 262.14,
     "low": 257.73,
-    "close": 259.915,
-    "volume": 1331699.0
+    "close": 259.46,
+    "volume": 1557419.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:45:48Z",
+  "fetched_at": "2026-08-18T20:08:52Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T19:45:49Z",
+  "fetched_at": "2026-08-18T20:08:53Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.991203,
+  "forward_pe": 24.939299,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:45:49Z",
+  "fetched_at": "2026-08-18T20:08:53Z",
   "rows": [
    {
     "ts": 1787080206,
@@ -7490,6 +7490,18 @@
     "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
    },
    {
+    "ts": 1787063849,
+    "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
+   },
+   {
+    "ts": 1787063039,
+    "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
+   },
+   {
     "ts": 1787057283,
     "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
     "source": "Benzinga",
@@ -7500,25 +7512,13 @@
     "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
-   },
-   {
-    "ts": 1787053961,
-    "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7a0923142f4e79f7c0843e127d5fe066087883fcfd22c32fedcef46c9704915e"
-   },
-   {
-    "ts": 1787048908,
-    "headline": "Tesla Lands 500-Truck Order From Einride in World's Largest Tesla Semi Deployment",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=47e331be568ad55c139e846dd553c04981c3189b686bb6c2d3db1406dfeb8249"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T19:45:49Z",
+  "fetched_at": "2026-08-18T20:08:53Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,
