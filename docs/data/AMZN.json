@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-18T16:54:01Z",
+ "generated_at": "2026-08-18T17:15:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T16:54:01Z",
-  "current": 261.75,
-  "change": 0.44,
-  "change_pct": 0.1684,
+  "fetched_at": "2026-08-18T17:15:06Z",
+  "current": 261.9,
+  "change": 0.59,
+  "change_pct": 0.2258,
   "high": 262.18,
   "low": 257.73,
   "open": 260.615,
   "prev_close": 261.31,
-  "ts": 1787072018
+  "ts": 1787073287
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T16:54:02Z",
+  "fetched_at": "2026-08-18T17:15:06Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T16:54:03Z",
+  "fetched_at": "2026-08-18T17:15:09Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 260.63,
     "high": 262.14,
     "low": 257.73,
-    "close": 261.7,
-    "volume": 848746.0
+    "close": 261.82,
+    "volume": 922569.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T16:54:03Z",
+  "fetched_at": "2026-08-18T17:15:09Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T16:54:04Z",
+  "fetched_at": "2026-08-18T17:15:09Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.172878,
+  "forward_pe": 25.163746,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T16:54:04Z",
+  "fetched_at": "2026-08-18T17:15:10Z",
   "rows": [
+   {
+    "ts": 1787071206,
+    "headline": "Which dow jones stocks are moving on Tuesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
+   },
    {
     "ts": 1787053961,
     "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
@@ -7506,19 +7512,13 @@
     "headline": "These S&P500 stocks are the most active in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a245f182d8a1d967af429370e7a6ae69b57fe2b551fd2b28df79504cb335ba28"
-   },
-   {
-    "ts": 1786986000,
-    "headline": "S&P 500: The Bull Market That Won't Die",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f1ec8a7314ab03eed420d0cfdb18ac85d4f8ea02b5035e8dcef764cb10dd5a17"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T16:54:05Z",
+  "fetched_at": "2026-08-18T17:15:10Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,
