@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T18:17:26Z",
+ "generated_at": "2026-08-18T19:03:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T18:17:26Z",
-  "current": 341.31,
-  "change": -0.14,
-  "change_pct": -0.041,
-  "high": 342.1,
+  "fetched_at": "2026-08-18T19:03:55Z",
+  "current": 340.54,
+  "change": -0.91,
+  "change_pct": -0.2665,
+  "high": 342.39,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787077018
+  "ts": 1787079808
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:55Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:56Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-18",
     "open": 339.89,
-    "high": 342.06,
+    "high": 342.385,
     "low": 337.54,
-    "close": 341.285,
-    "volume": 480036.0
+    "close": 340.51,
+    "volume": 552524.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:56Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:57Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.146318,
+  "forward_pe": 23.082573,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:57Z",
   "rows": [
    {
     "ts": 1787061188,
     "headline": "XLC: Alphabet And Meta Just Keep Churning",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=90836467a4e2ed96426dd09492f4bf24abf02bb02849dbc087d69bd04d2cfba1"
+   },
+   {
+    "ts": 1787057283,
+    "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=912557a963c654d0c80ccdba4466965f75facd0f65a69f8ba1aa600c717658db"
+   },
+   {
+    "ts": 1787054412,
+    "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
    },
    {
     "ts": 1787053961,
@@ -7496,29 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
    },
    {
-    "ts": 1787036280,
-    "headline": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=06838baeacbd9974b30fcd7a4c7abc171bb609708d7abdc8abab2b1bd81236e4"
-   },
-   {
-    "ts": 1787018142,
-    "headline": "'Google Plans To Stop Making Pixel Products In China in 2027' - Nikkei Asia",
+    "ts": 1787041805,
+    "headline": "Reported Earlier: 'Google plans to stop making Pixel products in China in 2027' - Nikkei Asia Exclusive",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d22bbd769f66fdbff97c46250e7c044610e3f2e332ad355669f8f1a81ee0c21e"
-   },
-   {
-    "ts": 1787004675,
-    "headline": "Google is Paying $10 Million for Bankrupt Spirit Airlines' Old Emails and Spreadsheets: Here's Why",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=1d5fbfb69afa0bc0ffc0dfcf153eafd0f38c34c538892e563a68ded7ab95e77b"
+    "url": "https://finnhub.io/api/news?id=08b5370619f999b391cfff174006ce48e70368d6d6ab231aeff6ff64863aeae7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T18:17:26Z",
+  "fetched_at": "2026-08-18T19:03:57Z",
   "error": "no insider filings in six months"
  },
  "peers": {
