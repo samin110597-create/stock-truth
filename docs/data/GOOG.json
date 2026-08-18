@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T15:53:04Z",
+ "generated_at": "2026-08-18T16:15:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T15:53:04Z",
-  "current": 340.61,
-  "change": -0.84,
-  "change_pct": -0.246,
+  "fetched_at": "2026-08-18T16:15:42Z",
+  "current": 340.92,
+  "change": -0.53,
+  "change_pct": -0.1552,
   "high": 342.1,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787068355
+  "ts": 1787069708
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T15:53:05Z",
+  "fetched_at": "2026-08-18T16:15:42Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T15:53:05Z",
+  "fetched_at": "2026-08-18T16:15:43Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 339.89,
     "high": 342.06,
     "low": 337.54,
-    "close": 340.585,
-    "volume": 336155.0
+    "close": 340.97,
+    "volume": 357486.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T15:53:05Z",
+  "fetched_at": "2026-08-18T16:15:43Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T15:53:06Z",
+  "fetched_at": "2026-08-18T16:15:44Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.103256,
+  "forward_pe": 23.1158,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T15:53:06Z",
+  "fetched_at": "2026-08-18T16:15:44Z",
   "rows": [
    {
     "ts": 1787048727,
@@ -7490,6 +7490,18 @@
     "url": "https://finnhub.io/api/news?id=06838baeacbd9974b30fcd7a4c7abc171bb609708d7abdc8abab2b1bd81236e4"
    },
    {
+    "ts": 1787018142,
+    "headline": "'Google Plans To Stop Making Pixel Products In China in 2027' - Nikkei Asia",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d22bbd769f66fdbff97c46250e7c044610e3f2e332ad355669f8f1a81ee0c21e"
+   },
+   {
+    "ts": 1787004675,
+    "headline": "Google is Paying $10 Million for Bankrupt Spirit Airlines' Old Emails and Spreadsheets: Here's Why",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=1d5fbfb69afa0bc0ffc0dfcf153eafd0f38c34c538892e563a68ded7ab95e77b"
+   },
+   {
     "ts": 1786996813,
     "headline": "Tracking Seth Klarman's Baupost Group Holdings - Q2 2026 Update",
     "source": "SeekingAlpha",
@@ -7500,25 +7512,13 @@
     "headline": "Alphabet: The Cheapest Mega-Cap Tech Company",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=38cb145ab5f0a8c07e992eae1a30182b3eab15e70caf7db2ae1da18633327153"
-   },
-   {
-    "ts": 1786983479,
-    "headline": "Don't Expect Massive Upside From Apple At This Entry Point",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=8a31c7a08e8eb59bf54f4fcc11667cdc1e6604b3ab03451a11f895bc441b611d"
-   },
-   {
-    "ts": 1786982378,
-    "headline": "Infleqtion: The Execution Phase (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=9c606af26026545e7b30b7aa9418083a3aaab0c56acea1adf685b9e76c932390"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T15:53:06Z",
+  "fetched_at": "2026-08-18T16:15:44Z",
   "error": "no insider filings in six months"
  },
  "peers": {
