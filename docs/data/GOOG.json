@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T14:20:04Z",
+ "generated_at": "2026-08-18T14:58:10Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:20:04Z",
-  "current": 340.54,
-  "change": -0.91,
-  "change_pct": -0.2665,
-  "high": 340.93,
+  "fetched_at": "2026-08-18T14:58:10Z",
+  "current": 341.13,
+  "change": -0.32,
+  "change_pct": -0.0937,
+  "high": 342.1,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787062779
+  "ts": 1787065069
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:20:04Z",
+  "fetched_at": "2026-08-18T14:58:10Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T14:20:06Z",
+  "fetched_at": "2026-08-18T14:58:11Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-18",
     "open": 339.89,
-    "high": 340.91,
+    "high": 342.06,
     "low": 337.54,
-    "close": 340.12,
-    "volume": 154651.0
+    "close": 341.04,
+    "volume": 270151.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:20:06Z",
+  "fetched_at": "2026-08-18T14:58:11Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T14:20:06Z",
+  "fetched_at": "2026-08-18T14:58:11Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.117836,
+  "forward_pe": 23.133432,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:20:06Z",
+  "fetched_at": "2026-08-18T14:58:11Z",
   "rows": [
+   {
+    "ts": 1787048727,
+    "headline": "Sandisk's Nvidia Catalyst Just Emerged (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c3e5cbbc28b448df3697394d77148468ce1d882e0b2ca0fbf71f4814c78bf310"
+   },
    {
     "ts": 1787046496,
     "headline": "Netlist: Samsung Bends The Knee, Micron, Alphabet And Super Micro Computer Could Be Next",
@@ -7506,19 +7512,13 @@
     "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
-   },
-   {
-    "ts": 1786973866,
-    "headline": "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:20:06Z",
+  "fetched_at": "2026-08-18T14:58:11Z",
   "error": "no insider filings in six months"
  },
  "peers": {
