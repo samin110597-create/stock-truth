@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T14:58:10Z",
+ "generated_at": "2026-08-18T15:24:47Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:10Z",
-  "current": 341.13,
-  "change": -0.32,
-  "change_pct": -0.0937,
+  "fetched_at": "2026-08-18T15:24:47Z",
+  "current": 341.09,
+  "change": -0.36,
+  "change_pct": -0.1054,
   "high": 342.1,
   "low": 337.52,
   "open": 339.9475,
   "prev_close": 341.45,
-  "ts": 1787065069
+  "ts": 1787066670
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:10Z",
+  "fetched_at": "2026-08-18T15:24:47Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T14:58:11Z",
+  "fetched_at": "2026-08-18T15:24:48Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 339.89,
     "high": 342.06,
     "low": 337.54,
-    "close": 341.04,
-    "volume": 270151.0
+    "close": 340.93,
+    "volume": 308718.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:11Z",
+  "fetched_at": "2026-08-18T15:24:48Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T14:58:11Z",
+  "fetched_at": "2026-08-18T15:24:48Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.133432,
+  "forward_pe": 23.11648,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:11Z",
+  "fetched_at": "2026-08-18T15:24:48Z",
   "rows": [
    {
     "ts": 1787048727,
@@ -7476,6 +7476,12 @@
     "headline": "Netlist: Samsung Bends The Knee, Micron, Alphabet And Super Micro Computer Could Be Next",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=41afdf86402b2392651a017999072cb9e5fc250084b7ab1aac46ac64cc1e9d0b"
+   },
+   {
+    "ts": 1787044207,
+    "headline": "J.P. Morgan\u2019s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom \u2014 Says Investors Are Missing One Warning Sign That Could Change Everything: \u2018What I\u2019m Terrified of Is\u2026\u2019 (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
    },
    {
     "ts": 1787036280,
@@ -7506,19 +7512,13 @@
     "headline": "Infleqtion: The Execution Phase (Rating Downgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=9c606af26026545e7b30b7aa9418083a3aaab0c56acea1adf685b9e76c932390"
-   },
-   {
-    "ts": 1786974355,
-    "headline": "Why I Like Alphabet's Debt (Rating Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fff8288435cd26a239c8b7c2fa38d9012a701470a99e9d2e014d4e5d2cc84cdf"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:11Z",
+  "fetched_at": "2026-08-18T15:24:48Z",
   "error": "no insider filings in six months"
  },
  "peers": {

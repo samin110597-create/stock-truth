@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-18T14:58:00Z",
+ "generated_at": "2026-08-18T15:24:35Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:00Z",
-  "current": 261.86,
-  "change": 0.55,
-  "change_pct": 0.2105,
-  "high": 262.0255,
+  "fetched_at": "2026-08-18T15:24:35Z",
+  "current": 260.85,
+  "change": -0.46,
+  "change_pct": -0.176,
+  "high": 262.18,
   "low": 257.73,
   "open": 260.615,
   "prev_close": 261.31,
-  "ts": 1787065046
+  "ts": 1787066671
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:00Z",
+  "fetched_at": "2026-08-18T15:24:35Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T14:58:01Z",
+  "fetched_at": "2026-08-18T15:24:36Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-18",
     "open": 260.63,
-    "high": 262.015,
+    "high": 262.14,
     "low": 257.73,
-    "close": 261.765,
-    "volume": 474606.0
+    "close": 260.59,
+    "volume": 570455.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:01Z",
+  "fetched_at": "2026-08-18T15:24:36Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T14:58:01Z",
+  "fetched_at": "2026-08-18T15:24:37Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.176243,
+  "forward_pe": 25.055607,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:01Z",
+  "fetched_at": "2026-08-18T15:24:37Z",
   "rows": [
+   {
+    "ts": 1787044582,
+    "headline": "Cisco, Nvidia, Amazon and Nokia: The Customer List Behind Fabrinet's AI Boom",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fa00239a2bbb9e2bdcdb0751f354bebd2acd1197d086a3766fc90b48d88693d7"
+   },
+   {
+    "ts": 1787044207,
+    "headline": "J.P. Morgan\u2019s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom \u2014 Says Investors Are Missing One Warning Sign That Could Change Everything: \u2018What I\u2019m Terrified of Is\u2026\u2019 (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
+   },
    {
     "ts": 1787039541,
     "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
@@ -7500,25 +7512,13 @@
     "headline": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years \u2014 but 4 Stocks Beat It Over the Past 5 Years",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=ce40230fb606f71ab2305d7395b5b280c15c4d8f82d10aa69714bb9bae8aa6b5"
-   },
-   {
-    "ts": 1786980472,
-    "headline": "Ray Dalio Ups Bet on SPY and IVV: Time to Buy the S&P 500?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a130eb5ccc115937cfee96664a88dd3c404581ca5c3938b927a0689b973ddf50"
-   },
-   {
-    "ts": 1786979460,
-    "headline": "Q2 2026 U.S. Retail Preview: Broadline Retail Drives Growth",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ae35c7b3404a52908905c4837dd0989fe676edb413a0ccdea07c6c3c7a8082ea"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:01Z",
+  "fetched_at": "2026-08-18T15:24:38Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,

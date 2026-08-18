@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-18T14:58:30Z",
+ "generated_at": "2026-08-18T15:25:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:30Z",
-  "current": 549.52,
-  "change": -19.45,
-  "change_pct": -3.4185,
+  "fetched_at": "2026-08-18T15:25:08Z",
+  "current": 552.52,
+  "change": -16.45,
+  "change_pct": -2.8912,
   "high": 561.24,
   "low": 545.47,
   "open": 561.24,
   "prev_close": 568.97,
-  "ts": 1787065092
+  "ts": 1787066694
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:30Z",
+  "fetched_at": "2026-08-18T15:25:09Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T14:58:31Z",
+  "fetched_at": "2026-08-18T15:25:10Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7225,8 +7225,8 @@
     "open": 557.31,
     "high": 560.45,
     "low": 545.57,
-    "close": 549.51,
-    "volume": 518352.0
+    "close": 552.485,
+    "volume": 623774.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:31Z",
+  "fetched_at": "2026-08-18T15:25:10Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T14:58:31Z",
+  "fetched_at": "2026-08-18T15:25:11Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.751181,
+  "forward_pe": 15.839043,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:31Z",
+  "fetched_at": "2026-08-18T15:25:11Z",
   "rows": [
    {
     "ts": 1787048727,
@@ -7485,6 +7485,12 @@
     "headline": "Meta's Dip Offers A 30% Upside Potential",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d8f5e1a97ecfb2a78a9c612c30fae89f33e7e22f96024105d2caf5d2e74bfd97"
+   },
+   {
+    "ts": 1787044207,
+    "headline": "J.P. Morgan\u2019s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom \u2014 Says Investors Are Missing One Warning Sign That Could Change Everything: \u2018What I\u2019m Terrified of Is\u2026\u2019 (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
    },
    {
     "ts": 1787034600,
@@ -7515,19 +7521,13 @@
     "headline": "What's Going On With Meta Platforms Stock Monday?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=579d4fe74b5403e673a00cda1c9cf949d3e293e775c013eb3285b440c893c670"
-   },
-   {
-    "ts": 1786975971,
-    "headline": "Meta Sheds Billions as $1.4 Trillion Trial Opens",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=fd67d2f211f54f9fcd7229296222afefd1fd6f2e391f9811708c1c86e89669f9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:31Z",
+  "fetched_at": "2026-08-18T15:25:12Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,

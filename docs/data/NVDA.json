@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-18T14:58:20Z",
+ "generated_at": "2026-08-18T15:24:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:20Z",
-  "current": 219.3,
-  "change": -5.71,
-  "change_pct": -2.5377,
+  "fetched_at": "2026-08-18T15:24:58Z",
+  "current": 219.73,
+  "change": -5.28,
+  "change_pct": -2.3466,
   "high": 221.64,
-  "low": 218.835,
+  "low": 218.6902,
   "open": 221.6,
   "prev_close": 225.01,
-  "ts": 1787065069
+  "ts": 1787066671
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:20Z",
+  "fetched_at": "2026-08-18T15:24:58Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T14:58:20Z",
+  "fetched_at": "2026-08-18T15:24:58Z",
   "bars": [
    {
     "date": "2023-01-17",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-18",
     "open": 220.34,
     "high": 221.63,
-    "low": 218.84,
-    "close": 218.89,
-    "volume": 1599338.0
+    "low": 218.7,
+    "close": 219.725,
+    "volume": 1977422.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:21Z",
+  "fetched_at": "2026-08-18T15:24:58Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T14:58:21Z",
+  "fetched_at": "2026-08-18T15:24:59Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.056253,
+  "forward_pe": 17.114319,
   "forward_eps": 12.83399,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:21Z",
+  "fetched_at": "2026-08-18T15:24:59Z",
   "rows": [
+   {
+    "ts": 1787050626,
+    "headline": "Nvidia: Owning This Is Betting On Future Technology Advancements (Earnings Preview)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=9f4c75fd37381175db0576565afbf8a8d220ba7b83f2d6be57bbd0f26eff6015"
+   },
    {
     "ts": 1787049282,
     "headline": "Nvidia Q2 Preview: AI Momentum And Financing In Focus, Shares Fairly Valued",
@@ -7493,6 +7499,18 @@
     "url": "https://finnhub.io/api/news?id=c0e72382413dcbaca6e3b5c201512c49c1a46e0d13a5c13823737b749f547acd"
    },
    {
+    "ts": 1787044582,
+    "headline": "Cisco, Nvidia, Amazon and Nokia: The Customer List Behind Fabrinet's AI Boom",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fa00239a2bbb9e2bdcdb0751f354bebd2acd1197d086a3766fc90b48d88693d7"
+   },
+   {
+    "ts": 1787044207,
+    "headline": "J.P. Morgan\u2019s Bill Eigen Sounds 2008 Crash Alarm Over AI Boom \u2014 Says Investors Are Missing One Warning Sign That Could Change Everything: \u2018What I\u2019m Terrified of Is\u2026\u2019 (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=66674a9a9f1dc975189dca3fcd8ca3fd0d96596014f66182c046025ded88d0bd"
+   },
+   {
     "ts": 1787043600,
     "headline": "Nvidia: The Cleanest AI Bet Ahead Of Q2 Earnings (Preview)",
     "source": "SeekingAlpha",
@@ -7503,31 +7521,13 @@
     "headline": "BST: This Income Machine Can Still Work After Reaching $50",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=b5c380b6b2e2927db6bc86716c92f45dc841432586987086e79ae1897f03d2c6"
-   },
-   {
-    "ts": 1787041800,
-    "headline": "AI Is Not A Bubble: 4 Income Ideas To Ride The Wave",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=77453322fe1810b5de21ec7eeeb1b8a7a5d439d60f9c8386cc5c4778857532e8"
-   },
-   {
-    "ts": 1787039541,
-    "headline": "Iran Risk and Oil Above $90 Snap the Rally as Memory Chips Do the Heavy Lifting and Reddit Wobbles Into the S&P 500",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=6d945599b2c038e8f2b97653fb148f3784214b19ac8571a541be3ddb37d1dc68"
-   },
-   {
-    "ts": 1787039517,
-    "headline": "Goldman Sachs: Nvidia Exposure Is Attractive, But Valuation Warrants Caution (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=2271746ea4ed6b4e286c5eca5226cc088f2caf0c192c2f8d714a2cd495abf012"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T14:58:21Z",
+  "fetched_at": "2026-08-18T15:24:59Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
