@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T20:11:55Z",
+ "generated_at": "2026-08-19T20:50:49Z",
  "tickers": [
   "AMZN",
   "GOOG",
@@ -46,14 +46,14 @@
  ],
  "market_status": {
   "source": "polygon",
-  "fetched_at": "2026-08-19T20:11:55Z",
+  "fetched_at": "2026-08-19T20:50:50Z",
   "market": "extended-hours",
-  "server_time": "2026-08-19T16:11:55-04:00"
+  "server_time": "2026-08-19T16:50:49-04:00"
  },
  "macro": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-19T20:11:55Z",
-  "error": "We have detected your API key as ROL07GQGJURP5H6V and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instan"
+  "fetched_at": "2026-08-19T20:50:50Z",
+  "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage"
  },
  "sources_configured": {
   "finnhub": true,
@@ -63,5 +63,5 @@
   "av": true
  },
  "yfinance_available": true,
- "av_calls_this_run": 1
+ "av_calls_this_run": 2
 }
