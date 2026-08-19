@@ -1,5 +1,13 @@
 {
-  "generated_at": "2026-08-18T01:57:44Z",
+  "generated_at": "2026-08-19T01:59:55Z",
   "note": "Forward ledger statistics only. Daily signals overlap; use independent-sample analysis before treating these as evidence of edge.",
-  "groups": []
+  "groups": [
+    {
+      "horizon_sessions": 5,
+      "signal_status": "UNVERIFIED",
+      "resolved_n": 4,
+      "direction_accuracy": 0.25,
+      "median_actual_return": -0.004635160203583233
+    }
+  ]
 }
