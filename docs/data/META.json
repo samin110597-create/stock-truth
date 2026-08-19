@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-19T16:53:06Z",
+ "generated_at": "2026-08-19T17:15:03Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T16:53:06Z",
-  "current": 552.52,
-  "change": 8.85,
-  "change_pct": 1.6278,
+  "fetched_at": "2026-08-19T17:15:03Z",
+  "current": 553.02,
+  "change": 9.35,
+  "change_pct": 1.7198,
   "high": 554.07,
   "low": 537.27,
   "open": 542.67,
   "prev_close": 543.67,
-  "ts": 1787158375
+  "ts": 1787159686
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T16:53:06Z",
+  "fetched_at": "2026-08-19T17:15:03Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T16:53:08Z",
+  "fetched_at": "2026-08-19T17:15:04Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 541.34,
     "high": 554.04,
     "low": 537.4,
-    "close": 552.39,
-    "volume": 487342.0
+    "close": 553.08,
+    "volume": 503573.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T16:53:08Z",
+  "fetched_at": "2026-08-19T17:15:04Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T16:53:08Z",
+  "fetched_at": "2026-08-19T17:15:04Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.843487,
+  "forward_pe": 15.851943,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T16:53:08Z",
+  "fetched_at": "2026-08-19T17:15:05Z",
   "rows": [
    {
     "ts": 1787140397,
@@ -7499,6 +7499,12 @@
     "url": "https://finnhub.io/api/news?id=82f09efc5f7ce5b056779030b8a76d104baea9e6b5b94fb46741bd0a036b085a"
    },
    {
+    "ts": 1787111045,
+    "headline": "Anthropic CEO Borrowing a Page From Mark Zuckerberg and Elon Musk's Playbook? Dario Amodei Could Reportedly Get Super-Voting Shares Ahead of IPO",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4a08afd63324e9b81e12633ebec2e5ba936dfc85c23ab35d3b00bc7ac72ea4c9"
+   },
+   {
     "ts": 1787074898,
     "headline": "AI Utilization May Be The Next Driver Of Growth",
     "source": "SeekingAlpha",
@@ -7515,19 +7521,13 @@
     "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
-   },
-   {
-    "ts": 1787061600,
-    "headline": "Wall Street Lunch: Meta Faces High-Stakes Federal Trial Over Child Safety",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=069dcaa59f8d9b58211f0ace2cb2a20b41ee5c27991f7c110010c37daa93981c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T16:53:08Z",
+  "fetched_at": "2026-08-19T17:15:05Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
