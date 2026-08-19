@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-19T13:34:49Z",
+ "generated_at": "2026-08-19T14:20:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T13:34:49Z",
-  "current": 221.7,
-  "change": 1.96,
-  "change_pct": 0.892,
+  "fetched_at": "2026-08-19T14:20:53Z",
+  "current": 216.97,
+  "change": -2.77,
+  "change_pct": -1.2606,
   "high": 222.87,
-  "low": 220.71,
+  "low": 216.76,
   "open": 220.71,
   "prev_close": 219.74,
-  "ts": 1787146455
+  "ts": 1787149225
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T13:34:49Z",
+  "fetched_at": "2026-08-19T14:20:53Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T13:34:50Z",
+  "fetched_at": "2026-08-19T14:20:55Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-19",
     "open": 221.685,
     "high": 222.87,
-    "low": 221.39,
-    "close": 221.7,
-    "volume": 84377.0
+    "low": 216.77,
+    "close": 216.98,
+    "volume": 736704.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T13:34:50Z",
+  "fetched_at": "2026-08-19T14:20:55Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T13:34:50Z",
+  "fetched_at": "2026-08-19T14:20:55Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.261972,
+  "forward_pe": 16.946016,
   "forward_eps": 12.83399,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T13:34:50Z",
+  "fetched_at": "2026-08-19T14:20:55Z",
   "rows": [
+   {
+    "ts": 1787133900,
+    "headline": "Don't Mail It In Before Labor Day: These 3 Events Could Shake Stock",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6845231c5ec458df281d37ff6bb28cce9050e3efa67d557939fbd9598c3247d5"
+   },
    {
     "ts": 1787132464,
     "headline": "NVIDIA (NASDAQ:NVDA) Qualifies as an Affordable Growth Pick",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=c76fb2ffc4b6a48e2bb32a05ecaa356238a074c97e35811359aa83d3f9934d42"
+   },
+   {
+    "ts": 1787131800,
+    "headline": "Lumentum: I Have Truly Underestimated This Beast (Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1e003c23c7b31959e594f897a343da851a6d9067571cda117eae5e45be949f0e"
    },
    {
     "ts": 1787126878,
@@ -7509,25 +7521,13 @@
     "headline": "Curious about the most active S&P500 stocks in today's session?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
-   },
-   {
-    "ts": 1787076000,
-    "headline": "These stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a9019b0602184916ae548b0f35e6716a4ef414f4aecb062f6fc9e13e326d95e7"
-   },
-   {
-    "ts": 1787073913,
-    "headline": "AMD: On Dilution And Insider Sales",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=66ab3affb53046c7710ef217f37050fe03579ce79910d4c241482d9ea6d6c1bc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T13:34:51Z",
+  "fetched_at": "2026-08-19T14:20:56Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
