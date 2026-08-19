@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-19T14:58:48Z",
+ "generated_at": "2026-08-19T15:26:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T14:58:48Z",
-  "current": 549.44,
-  "change": 5.77,
-  "change_pct": 1.0613,
+  "fetched_at": "2026-08-19T15:26:06Z",
+  "current": 549.46,
+  "change": 5.79,
+  "change_pct": 1.065,
   "high": 549.92,
   "low": 537.27,
   "open": 542.67,
   "prev_close": 543.67,
-  "ts": 1787151518
+  "ts": 1787153127
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T14:58:48Z",
+  "fetched_at": "2026-08-19T15:26:06Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T14:58:48Z",
+  "fetched_at": "2026-08-19T15:26:09Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 541.34,
     "high": 549.87,
     "low": 537.4,
-    "close": 549.3,
-    "volume": 307126.0
+    "close": 549.47,
+    "volume": 356559.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T14:58:48Z",
+  "fetched_at": "2026-08-19T15:26:09Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T14:58:48Z",
+  "fetched_at": "2026-08-19T15:26:09Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.7508955,
+  "forward_pe": 15.761217,
   "forward_eps": 34.885,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T14:58:48Z",
+  "fetched_at": "2026-08-19T15:26:10Z",
   "rows": [
+   {
+    "ts": 1787127105,
+    "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles \u2014 Strategist Sees 15%-18% Upside",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
+   },
    {
     "ts": 1787123125,
     "headline": "Meta's AI Payoff Has Already Begun",
@@ -7515,19 +7521,13 @@
     "headline": "'Meta Exploits Youths on Social Media, States Allege at Trial' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f7e6b9a046eea18f8c53f811e4deac0646f6f9276b11d3352d3830021c5936d8"
-   },
-   {
-    "ts": 1787057513,
-    "headline": "What the Meta Platform trial means for investors",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=61419e5ccce82ee534a5eccc54a21c4c6a90de6020ba5752811beb171565cdd9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T14:58:49Z",
+  "fetched_at": "2026-08-19T15:26:10Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
