@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-19T15:52:30Z",
+ "generated_at": "2026-08-19T16:15:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T15:52:31Z",
-  "current": 264.4,
-  "change": 4.95,
-  "change_pct": 1.9079,
-  "high": 264.97,
+  "fetched_at": "2026-08-19T16:15:30Z",
+  "current": 264.98,
+  "change": 5.53,
+  "change_pct": 2.1314,
+  "high": 265.15,
   "low": 258.58,
   "open": 260.2175,
   "prev_close": 259.45,
-  "ts": 1787154724
+  "ts": 1787156111
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T15:52:31Z",
+  "fetched_at": "2026-08-19T16:15:30Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T15:52:32Z",
+  "fetched_at": "2026-08-19T16:15:33Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-19",
     "open": 260.95,
-    "high": 264.97,
+    "high": 265.12,
     "low": 258.59,
-    "close": 264.36,
-    "volume": 737599.0
+    "close": 264.98,
+    "volume": 771274.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T15:52:32Z",
+  "fetched_at": "2026-08-19T16:15:34Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T15:52:33Z",
+  "fetched_at": "2026-08-19T16:15:35Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.417994,
+  "forward_pe": 25.463652,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T15:52:33Z",
+  "fetched_at": "2026-08-19T16:15:35Z",
   "rows": [
+   {
+    "ts": 1787140200,
+    "headline": "Wall Street Lunch: IBM Advances Quantum Roadmap By Connecting Two Cryogenic Modules",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=828118656b88c426df09814abe89112ff98db1082259303b774dd42d8c8b097a"
+   },
    {
     "ts": 1787133900,
     "headline": "Don't Mail It In Before Labor Day: These 3 Events Could Shake Stock",
@@ -7476,6 +7482,12 @@
     "headline": "Stripe\u2019s $8 Billion OpenRouter Deal Reveals Where the AI ETF Trade Is Actually Expanding",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=9a884db856424f40ce0359e24909a5d2d6d87fcaabcaa4d867c003d2e6053f7a"
+   },
+   {
+    "ts": 1787131840,
+    "headline": "Amazon Bets Big on Drone Delivery \u2014 Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
    },
    {
     "ts": 1787127105,
@@ -7500,25 +7512,13 @@
     "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=9d71a11ac50f796cfd2586dab3cdda355e745abc81ec1890055606c493633591"
-   },
-   {
-    "ts": 1787080206,
-    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
-   },
-   {
-    "ts": 1787077386,
-    "headline": "ReNew Energy: The Buy Paid Off, But Now It's Time To Hold (Rating Downgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f7edbc3ed471f9093691c66f152989caca89da0b3b41e19da47bf4021190bf3b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T15:52:33Z",
+  "fetched_at": "2026-08-19T16:15:35Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,
