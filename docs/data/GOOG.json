@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-19T18:14:08Z",
+ "generated_at": "2026-08-19T18:58:46Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:08Z",
-  "current": 340.98,
-  "change": -0.3,
-  "change_pct": -0.0879,
+  "fetched_at": "2026-08-19T18:58:46Z",
+  "current": 341.4,
+  "change": 0.12,
+  "change_pct": 0.0352,
   "high": 343.56,
   "low": 338.05,
   "open": 339.6475,
   "prev_close": 341.28,
-  "ts": 1787163218
+  "ts": 1787165909
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:08Z",
+  "fetched_at": "2026-08-19T18:58:46Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T18:14:08Z",
+  "fetched_at": "2026-08-19T18:58:47Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 339.96,
     "high": 343.5,
     "low": 338.09,
-    "close": 341.02,
-    "volume": 448790.0
+    "close": 341.39,
+    "volume": 503722.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:08Z",
+  "fetched_at": "2026-08-19T18:58:47Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T18:14:09Z",
+  "fetched_at": "2026-08-19T18:58:47Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.124277,
+  "forward_pe": 23.136824,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:09Z",
+  "fetched_at": "2026-08-19T18:58:47Z",
   "rows": [
+   {
+    "ts": 1787148912,
+    "headline": "Marvell Is Very Risky Despite The New AI Deal With Alphabet",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918"
+   },
    {
     "ts": 1787147454,
     "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
@@ -7506,19 +7512,13 @@
     "headline": "How Tokenomics Might Save AI PCs",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=6ade163bca54c2dab1e7b3718ce127e07fe6ad3b5150336e3f5a3f7801bb8f24"
-   },
-   {
-    "ts": 1787128101,
-    "headline": "Marvell Technology Enters Agreement With Google To Expand TPU Ecosystem, Including AI Inference Accelerators, Storage Controllers, Network Interface Controllers, Memory Interface C",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d3a444588b418ff64e8eb64c26db7de466497e37d25ea90078165a77434f8e2d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:09Z",
+  "fetched_at": "2026-08-19T18:58:48Z",
   "error": "no insider filings in six months"
  },
  "peers": {

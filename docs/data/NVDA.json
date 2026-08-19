@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-19T18:14:18Z",
+ "generated_at": "2026-08-19T18:58:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:18Z",
-  "current": 219.25,
-  "change": -0.49,
-  "change_pct": -0.223,
+  "fetched_at": "2026-08-19T18:58:57Z",
+  "current": 219.46,
+  "change": -0.28,
+  "change_pct": -0.1274,
   "high": 222.87,
   "low": 216.76,
   "open": 220.71,
   "prev_close": 219.74,
-  "ts": 1787163242
+  "ts": 1787165909
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:18Z",
+  "fetched_at": "2026-08-19T18:58:57Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T18:14:18Z",
+  "fetched_at": "2026-08-19T18:58:57Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 221.685,
     "high": 222.87,
     "low": 216.77,
-    "close": 219.23,
-    "volume": 2136444.0
+    "close": 219.41,
+    "volume": 2349883.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:18Z",
+  "fetched_at": "2026-08-19T18:58:57Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T18:14:19Z",
+  "fetched_at": "2026-08-19T18:58:58Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.079645,
+  "forward_pe": 17.102242,
   "forward_eps": 12.83399,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:19Z",
+  "fetched_at": "2026-08-19T18:58:58Z",
   "rows": [
+   {
+    "ts": 1787162702,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=06bc9619bf53a11a041c1a94ae5eb97fa03663fcef161e2b5f6c6836998b06d4"
+   },
+   {
+    "ts": 1787162400,
+    "headline": "Which stocks are most active on Wednesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=709907e313da67eb9297d61718e239cfbac798b8fcaa3222f3077e4bb4eb234f"
+   },
    {
     "ts": 1787157606,
     "headline": "These dow jones stocks are moving in today's session",
@@ -7485,6 +7497,12 @@
     "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
+   },
+   {
+    "ts": 1787146516,
+    "headline": "8 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=de83141ce2b10055fe3032abde94416522ff165022812de1ec89e1dfbfd67b59"
    },
    {
     "ts": 1787145238,
@@ -7503,31 +7521,13 @@
     "headline": "Hewlett Packard Enterprise's AI Networking Is Impressive, Even After The Rally",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=355d796e5543954df4659d2a81afdc364491b2c2daa339bcea966f9967491c9b"
-   },
-   {
-    "ts": 1787135863,
-    "headline": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15"
-   },
-   {
-    "ts": 1787135830,
-    "headline": "Why Falling AI Prices Could Be Good News for Nvidia Stock",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ee70e602e4fbf100b1bc05dc912afc1bd8514b2a1b0473ed81f3cbdb8f3c3250"
-   },
-   {
-    "ts": 1787134919,
-    "headline": "Nvidia plays matchmaker in Nordics, sources tell CNBC, as AI data center deals boom in region",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=92b53ba3845e0f6516253c98186b838b8beb933356b88baf293df526014a2acf"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:14:19Z",
+  "fetched_at": "2026-08-19T18:58:58Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
