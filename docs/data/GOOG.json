@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-19T17:14:41Z",
+ "generated_at": "2026-08-19T17:46:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:41Z",
-  "current": 341.55,
-  "change": 0.27,
-  "change_pct": 0.0791,
+  "fetched_at": "2026-08-19T17:46:39Z",
+  "current": 341.02,
+  "change": -0.26,
+  "change_pct": -0.0762,
   "high": 343.56,
   "low": 338.05,
   "open": 339.6475,
   "prev_close": 341.28,
-  "ts": 1787159663
+  "ts": 1787161572
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:41Z",
+  "fetched_at": "2026-08-19T17:46:39Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T17:14:42Z",
+  "fetched_at": "2026-08-19T17:46:41Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 339.96,
     "high": 343.5,
     "low": 338.09,
-    "close": 341.46,
-    "volume": 408428.0
+    "close": 341.0,
+    "volume": 428930.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:42Z",
+  "fetched_at": "2026-08-19T17:46:41Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T17:14:42Z",
+  "fetched_at": "2026-08-19T17:46:41Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.161915,
+  "forward_pe": 23.11648,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,13 +7463,31 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:42Z",
+  "fetched_at": "2026-08-19T17:46:41Z",
   "rows": [
+   {
+    "ts": 1787144995,
+    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+   },
+   {
+    "ts": 1787137685,
+    "headline": "Marvell pops 6% on AI chip deal that lets Google buy up to $12.2 billion in shares",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb"
+   },
    {
     "ts": 1787135863,
     "headline": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15"
+   },
+   {
+    "ts": 1787135656,
+    "headline": "Marvell surges after deal allows Alphabet to buy up to $12.2 billion in shares",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=6dc47810f78ab34a7c6cb6bb99746db57805db351b149d1632dcf0d6b148b279"
    },
    {
     "ts": 1787131840,
@@ -7494,31 +7512,13 @@
     "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles \u2014 Strategist Sees 15%-18% Upside",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
-   },
-   {
-    "ts": 1787124200,
-    "headline": "Goldman Sachs Sounds New AI Jobs Alarm \u2014 Entry-Level Workers Are Already Feeling the Pressure as AI Adoption Hits 20%",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=2bf87f8a6538f51423b1df66d1b69c7a6763bf805efbee82364c33c963e417a9"
-   },
-   {
-    "ts": 1787121987,
-    "headline": "Chamath Palihapitiya Says Mark Zuckerberg Knows \u2018Great Engineers\u2019 Want to Join \u2018Space/Search/AI\u2019 Companies, Not Meta\u2019s Advertising Machine",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=82f09efc5f7ce5b056779030b8a76d104baea9e6b5b94fb46741bd0a036b085a"
-   },
-   {
-    "ts": 1787121338,
-    "headline": "Google\u2019s $10 Million Spirit Airlines Data Deal Faces Roadblock as Union Raises Privacy Objections: \u2018We Will Fight This Every Way Possible\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3b585399c79d7e61be337b61956e91d4fda694e178763340151512e6ef569751"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:42Z",
+  "fetched_at": "2026-08-19T17:46:41Z",
   "error": "no insider filings in six months"
  },
  "peers": {

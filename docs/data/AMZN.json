@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-19T17:14:28Z",
+ "generated_at": "2026-08-19T17:46:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:29Z",
-  "current": 264.35,
-  "change": 4.9,
-  "change_pct": 1.8886,
+  "fetched_at": "2026-08-19T17:46:27Z",
+  "current": 264.25,
+  "change": 4.8,
+  "change_pct": 1.8501,
   "high": 265.15,
   "low": 258.58,
   "open": 260.2175,
   "prev_close": 259.45,
-  "ts": 1787159639
+  "ts": 1787161572
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:29Z",
+  "fetched_at": "2026-08-19T17:46:27Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T17:14:30Z",
+  "fetched_at": "2026-08-19T17:46:29Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 260.95,
     "high": 265.12,
     "low": 258.59,
-    "close": 264.35,
-    "volume": 879044.0
+    "close": 264.17,
+    "volume": 959894.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:30Z",
+  "fetched_at": "2026-08-19T17:46:29Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T17:14:31Z",
+  "fetched_at": "2026-08-19T17:46:30Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.405018,
+  "forward_pe": 25.394915,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:31Z",
+  "fetched_at": "2026-08-19T17:46:30Z",
   "rows": [
    {
     "ts": 1787157606,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
+   },
+   {
+    "ts": 1787144995,
+    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
    },
    {
     "ts": 1787140200,
@@ -7482,6 +7488,12 @@
     "headline": "SpaceX Rolls Out Grok 4.6 on Amazon Bedrock",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=09173f205251442a83d5ab7bccf035ddb0532e7967e7fca02330e79121a1ac16"
+   },
+   {
+    "ts": 1787137223,
+    "headline": "A Congress Member Bought Up To $60K In Amazon.com Stock: Here's What You Need To Know",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6050d0a75c7caf1f52dbc1ef348745290ab246ed743107273ad3f1aaa60e63cd"
    },
    {
     "ts": 1787133900,
@@ -7500,25 +7512,13 @@
     "headline": "Amazon Bets Big on Drone Delivery \u2014 Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
-   },
-   {
-    "ts": 1787127105,
-    "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles \u2014 Strategist Sees 15%-18% Upside",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
-   },
-   {
-    "ts": 1787116736,
-    "headline": "Institutional Investors Added Over 70 Million RIVN Shares as AMZN, UBER Remain Key Holders",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f4a7d17bde1084d02b857e85f0cbba25038c42a22eed3e5b534642187f7a490a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:14:32Z",
+  "fetched_at": "2026-08-19T17:46:30Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,
