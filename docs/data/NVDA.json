@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-19T19:21:13Z",
+ "generated_at": "2026-08-19T19:46:32Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T19:21:13Z",
-  "current": 219.83,
-  "change": 0.09,
-  "change_pct": 0.041,
+  "fetched_at": "2026-08-19T19:46:32Z",
+  "current": 218.42,
+  "change": -1.32,
+  "change_pct": -0.6007,
   "high": 222.87,
   "low": 216.76,
   "open": 220.71,
   "prev_close": 219.74,
-  "ts": 1787167247
+  "ts": 1787168776
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T19:21:13Z",
+  "fetched_at": "2026-08-19T19:46:32Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T19:21:14Z",
+  "fetched_at": "2026-08-19T19:46:35Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 221.685,
     "high": 222.87,
     "low": 216.77,
-    "close": 219.8,
-    "volume": 2435904.0
+    "close": 218.37,
+    "volume": 2598879.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T19:21:15Z",
+  "fetched_at": "2026-08-19T19:46:35Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T19:21:15Z",
+  "fetched_at": "2026-08-19T19:46:36Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.126007,
+  "forward_pe": 17.005623,
   "forward_eps": 12.83399,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T19:21:15Z",
+  "fetched_at": "2026-08-19T19:46:36Z",
   "rows": [
+   {
+    "ts": 1787166605,
+    "headline": "Which dow jones stocks are moving on Wednesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4"
+   },
    {
     "ts": 1787162702,
     "headline": "What's going on in today's session: S&P500 most active stocks",
@@ -7515,19 +7521,13 @@
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
-   },
-   {
-    "ts": 1787143478,
-    "headline": "What's Going On With IREN Stock Wednesday?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=215022eb05e8ec82bc901431de0a496f3cbbb86c236c24da0e169e1885f6a7ec"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T19:21:15Z",
+  "fetched_at": "2026-08-19T19:46:36Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
