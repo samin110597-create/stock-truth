@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T19:46:56Z",
+ "generated_at": "2026-08-19T20:11:55Z",
  "tickers": [
   "AMZN",
   "GOOG",
@@ -14,7 +14,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 265.41
+   "price": 265.84
   },
   {
    "symbol": "GOOG",
@@ -23,7 +23,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 341.76
+   "price": 341.7
   },
   {
    "symbol": "NVDA",
@@ -32,7 +32,7 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 218.42
+   "price": 217.56
   },
   {
    "symbol": "META",
@@ -41,19 +41,19 @@
    "fundamentals_ok": true,
    "candles_ok": true,
    "confidence": "HIGH",
-   "price": 546.94
+   "price": 546.03
   }
  ],
  "market_status": {
   "source": "polygon",
-  "fetched_at": "2026-08-19T19:46:57Z",
-  "market": "open",
-  "server_time": "2026-08-19T15:46:57-04:00"
+  "fetched_at": "2026-08-19T20:11:55Z",
+  "market": "extended-hours",
+  "server_time": "2026-08-19T16:11:55-04:00"
  },
  "macro": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-19T19:46:57Z",
-  "error": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage"
+  "fetched_at": "2026-08-19T20:11:55Z",
+  "error": "We have detected your API key as ROL07GQGJURP5H6V and our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instan"
  },
  "sources_configured": {
   "finnhub": true,
@@ -63,5 +63,5 @@
   "av": true
  },
  "yfinance_available": true,
- "av_calls_this_run": 2
+ "av_calls_this_run": 1
 }
