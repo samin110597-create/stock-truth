@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-18T20:45:23Z",
+ "generated_at": "2026-08-19T13:34:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:23Z",
-  "current": 219.74,
-  "change": -5.27,
-  "change_pct": -2.3421,
-  "high": 221.64,
-  "low": 218.6902,
-  "open": 220.45,
-  "prev_close": 225.01,
-  "ts": 1787083200
+  "fetched_at": "2026-08-19T13:34:49Z",
+  "current": 221.7,
+  "change": 1.96,
+  "change_pct": 0.892,
+  "high": 222.87,
+  "low": 220.71,
+  "open": 220.71,
+  "prev_close": 219.74,
+  "ts": 1787146455
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:23Z",
+  "fetched_at": "2026-08-19T13:34:49Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5445242088563.96,
+  "mcap": 5317707870178.496,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T20:45:23Z",
+  "fetched_at": "2026-08-19T13:34:50Z",
   "bars": [
-   {
-    "date": "2023-01-17",
-    "open": 16.899,
-    "high": 17.728,
-    "low": 16.899,
-    "close": 17.702,
-    "volume": 511102000.0
-   },
    {
     "date": "2023-01-18",
     "open": 17.667,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-17",
-    "open": 226.020004,
+    "open": 225.98,
     "high": 227.92,
     "low": 224.86,
     "close": 225.0099945,
-    "volume": 81442206.0
+    "volume": 93678700.0
    },
    {
     "date": "2026-08-18",
-    "open": 220.34,
-    "high": 221.63,
-    "low": 218.7,
-    "close": 219.73,
-    "volume": 4384685.0
+    "open": 220.45,
+    "high": 221.64,
+    "low": 218.6902,
+    "close": 219.74001,
+    "volume": 102376166.0
+   },
+   {
+    "date": "2026-08-19",
+    "open": 221.685,
+    "high": 222.87,
+    "low": 221.39,
+    "close": 221.7,
+    "volume": 84377.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-18",
+  "latest": "2026-08-19",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:24Z",
+  "fetched_at": "2026-08-19T13:34:50Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,26 +7454,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T20:45:24Z",
+  "fetched_at": "2026-08-19T13:34:50Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.121721,
+  "forward_pe": 17.261972,
   "forward_eps": 12.83399,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
-  "institutions_pct": 0.66192,
+  "institutions_pct": 0.66195,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:24Z",
+  "fetched_at": "2026-08-19T13:34:50Z",
   "rows": [
+   {
+    "ts": 1787132464,
+    "headline": "NVIDIA (NASDAQ:NVDA) Qualifies as an Affordable Growth Pick",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c76fb2ffc4b6a48e2bb32a05ecaa356238a074c97e35811359aa83d3f9934d42"
+   },
+   {
+    "ts": 1787126878,
+    "headline": "Wall Street Sinks as 30-Year Yield Hits 19-Year High, Chip Names Crumble",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=62931e0861f4d587e501c84a06cf467fff02e73396bc22fd37f2c5a19c943e4b"
+   },
+   {
+    "ts": 1787126161,
+    "headline": "Nvidia: Upgrade To Strong Buy On Elongation Of GPU Cycle, Value",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=09bf27246db2d730d5ebb857c0f57903c8faaa5738e465411f67278caaf51866"
+   },
+   {
+    "ts": 1787103707,
+    "headline": "NVDY Isn't The Fund It Was - Because Nvidia Isn't The Stock It Was",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2b56a5687bdc80333f6fced8d708f8cdc6035e7faf00a87c0bf26aa4107159d3"
+   },
    {
     "ts": 1787080206,
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
@@ -7493,41 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=a9019b0602184916ae548b0f35e6716a4ef414f4aecb062f6fc9e13e326d95e7"
    },
    {
-    "ts": 1787071206,
-    "headline": "Which dow jones stocks are moving on Tuesday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c403cfdc8e76b95c2c482fae3fa9b3d407ffa166cf0ae935a0f4797898d64f03"
-   },
-   {
-    "ts": 1787067974,
-    "headline": "SK hynix: Believe In The HBM Leader",
+    "ts": 1787073913,
+    "headline": "AMD: On Dilution And Insider Sales",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5bcb77326368d578aa97a2a913551aca5ea4f487c926e532282fd144f2e46cb4"
-   },
-   {
-    "ts": 1787066560,
-    "headline": "Michael Burry Says This AI Chip Startup Is 'Serious Competition' for Nvidia",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=513958df9793a3410f6c4df86c3b03a3161546526084f9e359256007028e29a1"
-   },
-   {
-    "ts": 1787066531,
-    "headline": "The Math Of The AI Bubble Is Changing",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=8dd69aabbe43c613b7278c0d5e797403c3ad736312c150014a177208d23e5709"
-   },
-   {
-    "ts": 1787063039,
-    "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
+    "url": "https://finnhub.io/api/news?id=66ab3affb53046c7710ef217f37050fe03579ce79910d4c241482d9ea6d6c1bc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:24Z",
+  "fetched_at": "2026-08-19T13:34:51Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

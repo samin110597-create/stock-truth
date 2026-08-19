@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-18T20:45:11Z",
+ "generated_at": "2026-08-19T13:34:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:11Z",
-  "current": 341.28,
-  "change": -0.17,
-  "change_pct": -0.0498,
-  "high": 342.39,
-  "low": 337.52,
-  "open": 339.895,
-  "prev_close": 341.45,
-  "ts": 1787083200
+  "fetched_at": "2026-08-19T13:34:38Z",
+  "current": 339.24,
+  "change": -2.04,
+  "change_pct": -0.5977,
+  "high": 341.65,
+  "low": 338.5,
+  "open": 339.6475,
+  "prev_close": 341.28,
+  "ts": 1787146454
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:11Z",
+  "fetched_at": "2026-08-19T13:34:38Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4207120000000.0,
+  "mcap": 4209566000000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T20:45:13Z",
+  "fetched_at": "2026-08-19T13:34:39Z",
   "bars": [
-   {
-    "date": "2023-01-17",
-    "open": 92.78,
-    "high": 92.97,
-    "low": 90.84,
-    "close": 92.16,
-    "volume": 22935800.0
-   },
    {
     "date": "2023-01-18",
     "open": 92.94,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-17",
-    "open": 344.075012,
+    "open": 344.059998,
     "high": 345.049988,
     "low": 339.57001,
     "close": 341.45001,
-    "volume": 12204241.0
+    "volume": 12606100.0
    },
    {
     "date": "2026-08-18",
-    "open": 339.89,
-    "high": 342.385,
-    "low": 337.54,
-    "close": 341.44,
-    "volume": 723984.0
+    "open": 339.80469,
+    "high": 342.39001,
+    "low": 337.51999,
+    "close": 341.28,
+    "volume": 13553867.0
+   },
+   {
+    "date": "2026-08-19",
+    "open": 339.96,
+    "high": 341.6,
+    "low": 339.45,
+    "close": 339.5,
+    "volume": 19559.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-18",
+  "latest": "2026-08-19",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:13Z",
+  "fetched_at": "2026-08-19T13:34:39Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,44 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T20:45:13Z",
+  "fetched_at": "2026-08-19T13:34:40Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.143604,
+  "forward_pe": 22.981495,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.62315,
+  "institutions_pct": 0.62308,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:14Z",
+  "fetched_at": "2026-08-19T13:34:40Z",
   "rows": [
+   {
+    "ts": 1787128200,
+    "headline": "How Tokenomics Might Save AI PCs",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6ade163bca54c2dab1e7b3718ce127e07fe6ad3b5150336e3f5a3f7801bb8f24"
+   },
+   {
+    "ts": 1787091773,
+    "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=9d71a11ac50f796cfd2586dab3cdda355e745abc81ec1890055606c493633591"
+   },
+   {
+    "ts": 1787077386,
+    "headline": "ReNew Energy: The Buy Paid Off, But Now It's Time To Hold (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f7edbc3ed471f9093691c66f152989caca89da0b3b41e19da47bf4021190bf3b"
+   },
    {
     "ts": 1787066531,
     "headline": "The Math Of The AI Bubble Is Changing",
@@ -7494,31 +7512,13 @@
     "headline": "AI's Half-Trillion-Dollar Borrowing Binge Is Competing With Uncle Sam for Bond Buyers",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=500c10a1c96bef92e5179f17a2b87f82403829553ea1ccc071ecef97cabdb7eb"
-   },
-   {
-    "ts": 1787053961,
-    "headline": "Warren Buffett Disciple Seth Klarman Bets on Cruise Lines, Auto Parts, Amazon and Bill Ackman in Q2",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7a0923142f4e79f7c0843e127d5fe066087883fcfd22c32fedcef46c9704915e"
-   },
-   {
-    "ts": 1787048727,
-    "headline": "Sandisk's Nvidia Catalyst Just Emerged (Rating Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c3e5cbbc28b448df3697394d77148468ce1d882e0b2ca0fbf71f4814c78bf310"
-   },
-   {
-    "ts": 1787046496,
-    "headline": "Netlist: Samsung Bends The Knee, Micron, Alphabet And Super Micro Computer Could Be Next",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=41afdf86402b2392651a017999072cb9e5fc250084b7ab1aac46ac64cc1e9d0b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:14Z",
+  "fetched_at": "2026-08-19T13:34:40Z",
   "error": "no insider filings in six months"
  },
  "peers": {

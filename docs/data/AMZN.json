@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-18T20:45:00Z",
+ "generated_at": "2026-08-19T13:34:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:00Z",
-  "current": 259.45,
-  "change": -1.86,
-  "change_pct": -0.7118,
-  "high": 262.18,
-  "low": 257.73,
-  "open": 260.63,
-  "prev_close": 261.31,
-  "ts": 1787083200
+  "fetched_at": "2026-08-19T13:34:27Z",
+  "current": 260.23,
+  "change": 0.78,
+  "change_pct": 0.3006,
+  "high": 262.6799,
+  "low": 259.753,
+  "open": 260.2175,
+  "prev_close": 259.45,
+  "ts": 1787146455
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:00Z",
+  "fetched_at": "2026-08-19T13:34:27Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2818571764247.689,
+  "mcap": 2798509258716.633,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-18T20:45:01Z",
+  "fetched_at": "2026-08-19T13:34:28Z",
   "bars": [
-   {
-    "date": "2023-01-17",
-    "open": 98.68,
-    "high": 98.89,
-    "low": 95.73,
-    "close": 96.050003,
-    "volume": 72755000.0
-   },
    {
     "date": "2023-01-18",
     "open": 97.25,
@@ -7216,21 +7208,29 @@
     "date": "2026-08-17",
     "open": 265.44,
     "high": 265.75,
-    "low": 258.33899,
+    "low": 258.34,
     "close": 261.31,
-    "volume": 41504334.0
+    "volume": 43896500.0
    },
    {
     "date": "2026-08-18",
     "open": 260.63,
-    "high": 262.14,
-    "low": 257.73,
-    "close": 259.46,
-    "volume": 1557419.0
+    "high": 262.17999,
+    "low": 257.73001,
+    "close": 259.45001,
+    "volume": 31484780.0
+   },
+   {
+    "date": "2026-08-19",
+    "open": 260.95,
+    "high": 262.59,
+    "low": 259.85,
+    "close": 260.175,
+    "volume": 36280.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-18",
+  "latest": "2026-08-19",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:01Z",
+  "fetched_at": "2026-08-19T13:34:28Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,26 +7445,32 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-18T20:45:01Z",
+  "fetched_at": "2026-08-19T13:34:29Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.939299,
+  "forward_pe": 25.008507,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.68829,
+  "institutions_pct": 0.6883,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:02Z",
+  "fetched_at": "2026-08-19T13:34:29Z",
   "rows": [
+   {
+    "ts": 1787091773,
+    "headline": "Tracking Al Gore's Generation Investment Management Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=9d71a11ac50f796cfd2586dab3cdda355e745abc81ec1890055606c493633591"
+   },
    {
     "ts": 1787080206,
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
@@ -7472,10 +7478,22 @@
     "url": "https://finnhub.io/api/news?id=93ae485a341815fe23fcf7ff4561ae7f48c8b2dacec60a5793cc677ac3351659"
    },
    {
+    "ts": 1787077386,
+    "headline": "ReNew Energy: The Buy Paid Off, But Now It's Time To Hold (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f7edbc3ed471f9093691c66f152989caca89da0b3b41e19da47bf4021190bf3b"
+   },
+   {
     "ts": 1787076302,
     "headline": "Curious about the most active S&P500 stocks in today's session?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=24c9996a10530fa6a0427d69ff6a313d93278a413a4647420282430a58033efa"
+   },
+   {
+    "ts": 1787074898,
+    "headline": "AI Utilization May Be The Next Driver Of Growth",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=4d2d5bcd7f640b2e20b026df63f0801731062a4dd7031dc67029e970601b4e97"
    },
    {
     "ts": 1787071206,
@@ -7494,31 +7512,13 @@
     "headline": "Gary Black Says Tesla Bulls On Social Media Are Like College Students Doing 'Tequila Shots'",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=447d6a489d6659c3dfaaeed3bfbfc33ad8683ebe0e0cad099bb81656e167b5af"
-   },
-   {
-    "ts": 1787063039,
-    "headline": "US Debt Nearing $40T; Home Depot earnings Better Than Expected",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=fc95bb776035a8a99f006e588d26997bf8c8186e805418709d8338d1a9d649c2"
-   },
-   {
-    "ts": 1787058827,
-    "headline": "Amazon Raises Louisiana Investment To $18 Billion, Adds Third Data Center Campus",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=1daab516f2aba00367e141f0f7c9e8faddf771e5aeb4d31f3db6a514bacdd286"
-   },
-   {
-    "ts": 1787057283,
-    "headline": "'Anthropic Pre-IPO Credit Facility Set to Climb Past $10 Billion' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=912557a963c654d0c80ccdba4466965f75facd0f65a69f8ba1aa600c717658db"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-18T20:45:02Z",
+  "fetched_at": "2026-08-19T13:34:29Z",
   "buys": 40,
   "sells": 107,
   "net_shares": -2105573.0,
