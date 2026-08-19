@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-19T17:46:39Z",
+ "generated_at": "2026-08-19T18:14:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:46:39Z",
-  "current": 341.02,
-  "change": -0.26,
-  "change_pct": -0.0762,
+  "fetched_at": "2026-08-19T18:14:08Z",
+  "current": 340.98,
+  "change": -0.3,
+  "change_pct": -0.0879,
   "high": 343.56,
   "low": 338.05,
   "open": 339.6475,
   "prev_close": 341.28,
-  "ts": 1787161572
+  "ts": 1787163218
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:46:39Z",
+  "fetched_at": "2026-08-19T18:14:08Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T17:46:41Z",
+  "fetched_at": "2026-08-19T18:14:08Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 339.96,
     "high": 343.5,
     "low": 338.09,
-    "close": 341.0,
-    "volume": 428930.0
+    "close": 341.02,
+    "volume": 448790.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:46:41Z",
+  "fetched_at": "2026-08-19T18:14:08Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T17:46:41Z",
+  "fetched_at": "2026-08-19T18:14:09Z",
   "analyst_target_mean": 421.78857,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 14.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.11648,
+  "forward_pe": 23.124277,
   "forward_eps": 14.74619,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:46:41Z",
+  "fetched_at": "2026-08-19T18:14:09Z",
   "rows": [
+   {
+    "ts": 1787147454,
+    "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
+   },
    {
     "ts": 1787144995,
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
@@ -7506,19 +7512,13 @@
     "headline": "Marvell Technology Enters Agreement With Google To Expand TPU Ecosystem, Including AI Inference Accelerators, Storage Controllers, Network Interface Controllers, Memory Interface C",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d3a444588b418ff64e8eb64c26db7de466497e37d25ea90078165a77434f8e2d"
-   },
-   {
-    "ts": 1787127105,
-    "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles \u2014 Strategist Sees 15%-18% Upside",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:46:41Z",
+  "fetched_at": "2026-08-19T18:14:09Z",
   "error": "no insider filings in six months"
  },
  "peers": {

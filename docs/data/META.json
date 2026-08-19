@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-19T17:47:01Z",
+ "generated_at": "2026-08-19T18:14:28Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:47:01Z",
-  "current": 552.63,
-  "change": 8.96,
-  "change_pct": 1.6481,
+  "fetched_at": "2026-08-19T18:14:28Z",
+  "current": 551.75,
+  "change": 8.08,
+  "change_pct": 1.4862,
   "high": 554.07,
   "low": 537.27,
   "open": 542.67,
   "prev_close": 543.67,
-  "ts": 1787161597
+  "ts": 1787163233
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:47:01Z",
+  "fetched_at": "2026-08-19T18:14:28Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T17:47:01Z",
+  "fetched_at": "2026-08-19T18:14:28Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 541.34,
     "high": 554.04,
     "low": 537.4,
-    "close": 552.61,
-    "volume": 521124.0
+    "close": 551.63,
+    "volume": 539064.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:47:01Z",
+  "fetched_at": "2026-08-19T18:14:28Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T17:47:02Z",
+  "fetched_at": "2026-08-19T18:14:28Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.827721,
-  "forward_eps": 34.885,
+  "forward_pe": 15.896703,
+  "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:47:02Z",
+  "fetched_at": "2026-08-19T18:14:28Z",
   "rows": [
+   {
+    "ts": 1787146440,
+    "headline": "Enbridge: Buy The 5.5% Yield And Growing Backlog",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=98f73a19a15622c76be65cf92568cd2548ca54c63572c2e22909676901a361a7"
+   },
    {
     "ts": 1787144995,
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
@@ -7515,19 +7521,13 @@
     "headline": "Anthropic CEO Borrowing a Page From Mark Zuckerberg and Elon Musk's Playbook? Dario Amodei Could Reportedly Get Super-Voting Shares Ahead of IPO",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=4a08afd63324e9b81e12633ebec2e5ba936dfc85c23ab35d3b00bc7ac72ea4c9"
-   },
-   {
-    "ts": 1787088862,
-    "headline": "California AG Bonta says case against Meta is about 'restitution and distortion,' not damages",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=7347fba6fcd13aec388a86d072e96372db0ad478b3957228707338f901d8fc8e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T17:47:03Z",
+  "fetched_at": "2026-08-19T18:14:29Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
