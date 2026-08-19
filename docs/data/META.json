@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-19T18:59:07Z",
+ "generated_at": "2026-08-19T19:21:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:59:07Z",
-  "current": 551.49,
-  "change": 7.82,
-  "change_pct": 1.4384,
+  "fetched_at": "2026-08-19T19:21:24Z",
+  "current": 550.25,
+  "change": 6.58,
+  "change_pct": 1.2103,
   "high": 554.07,
   "low": 537.27,
   "open": 542.67,
   "prev_close": 543.67,
-  "ts": 1787165933
+  "ts": 1787167271
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:59:07Z",
+  "fetched_at": "2026-08-19T19:21:24Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T18:59:08Z",
+  "fetched_at": "2026-08-19T19:21:25Z",
   "bars": [
    {
     "date": "2023-01-18",
@@ -7225,8 +7225,8 @@
     "open": 541.34,
     "high": 554.04,
     "low": 537.4,
-    "close": 551.445,
-    "volume": 580887.0
+    "close": 550.49,
+    "volume": 600076.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:59:08Z",
+  "fetched_at": "2026-08-19T19:21:25Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T18:59:08Z",
+  "fetched_at": "2026-08-19T19:21:25Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.886905,
+  "forward_pe": 15.853336,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:59:08Z",
+  "fetched_at": "2026-08-19T19:21:25Z",
   "rows": [
    {
     "ts": 1787146440,
@@ -7485,6 +7485,12 @@
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+   },
+   {
+    "ts": 1787140491,
+    "headline": "Meta Stock Climbs as Landmark Trial Threatens $1.4 Trillion Penalties",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=22d4b83bcf246e325afb96e977ad6aad256ec96d5fdb13f3582530c66839b1bc"
    },
    {
     "ts": 1787140397,
@@ -7515,19 +7521,13 @@
     "headline": "Chamath Palihapitiya Says Mark Zuckerberg Knows \u2018Great Engineers\u2019 Want to Join \u2018Space/Search/AI\u2019 Companies, Not Meta\u2019s Advertising Machine",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=82f09efc5f7ce5b056779030b8a76d104baea9e6b5b94fb46741bd0a036b085a"
-   },
-   {
-    "ts": 1787111045,
-    "headline": "Anthropic CEO Borrowing a Page From Mark Zuckerberg and Elon Musk's Playbook? Dario Amodei Could Reportedly Get Super-Voting Shares Ahead of IPO",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4a08afd63324e9b81e12633ebec2e5ba936dfc85c23ab35d3b00bc7ac72ea4c9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T18:59:09Z",
+  "fetched_at": "2026-08-19T19:21:26Z",
   "buys": 107,
   "sells": 234,
   "net_shares": 3242157.0,
