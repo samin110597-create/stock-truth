@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-20T16:57:39Z",
+ "generated_at": "2026-08-20T17:21:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:40Z",
-  "current": 217.24,
-  "change": -0.32,
-  "change_pct": -0.1471,
+  "fetched_at": "2026-08-20T17:21:05Z",
+  "current": 216.37,
+  "change": -1.19,
+  "change_pct": -0.547,
   "high": 219.86,
   "low": 215.66,
   "open": 218.765,
   "prev_close": 217.56,
-  "ts": 1787245034
+  "ts": 1787246443
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:40Z",
+  "fetched_at": "2026-08-20T17:21:05Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T16:57:40Z",
+  "fetched_at": "2026-08-20T17:21:06Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 218.375,
     "high": 219.84,
     "low": 215.665,
-    "close": 217.21,
-    "volume": 1861693.0
+    "close": 216.325,
+    "volume": 2100732.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:41Z",
+  "fetched_at": "2026-08-20T17:21:06Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T16:57:41Z",
+  "fetched_at": "2026-08-20T17:21:07Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.961662,
+  "forward_pe": 16.84254,
   "forward_eps": 12.84485,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:41Z",
+  "fetched_at": "2026-08-20T17:21:07Z",
   "rows": [
+   {
+    "ts": 1787226905,
+    "headline": "QUICK SPARK: Nvidia Partner Ouster Says Humanoid Robots Could Need Up to 12 Cameras Each",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6845460f59d48e0503f46022cfa7a10f6403bb97a9391d500cd202cc059ac89f"
+   },
+   {
+    "ts": 1787222866,
+    "headline": "EXCLUSIVE: Nvidia Partner Ouster Says Physical AI Is Moving From 'Demo To Deployment'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7c044be95f7988c35bf7222376ff430050abc57a0aea5999eea559dc847d76bf"
+   },
    {
     "ts": 1787220767,
     "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
@@ -7509,25 +7521,13 @@
     "headline": "Mark Cuban Fires Back At Jensen Huang\u2019s AI Warning \u2014 \u2018No Chance Radiologists Get Replaced\u2019 Despite Nvidia CEO\u2019s Prediction",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=3ac9c3207f51e92ea0364fc2e7837bba884d8b2386c7140ed0aa60f39d838428"
-   },
-   {
-    "ts": 1787209481,
-    "headline": "Bernie Sanders Warns AI Billionaires Could \u2018Obliterate\u2019 Jobs and \u2018Destroy the Environment,\u2019 Calls for Data Center Moratorium",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3173843e66bc2a2ef26b9c1b0268a76babdedda14d642e241f1834a44a04fcdb"
-   },
-   {
-    "ts": 1787209038,
-    "headline": "SNOW, MDB, PLTR: Is SaaS Losing Its Edge? Futurum Equities Says 95% of Software Could Become \u2018AI Plumbing\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=db286aaca0bb80244e893fe10122beefd400e58b49f05bd1af9ea7305670c915"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:42Z",
+  "fetched_at": "2026-08-20T17:21:07Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

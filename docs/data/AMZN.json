@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T16:57:16Z",
+ "generated_at": "2026-08-20T17:20:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:16Z",
-  "current": 262.64,
-  "change": -3.2,
-  "change_pct": -1.2037,
+  "fetched_at": "2026-08-20T17:20:42Z",
+  "current": 261.61,
+  "change": -4.23,
+  "change_pct": -1.5912,
   "high": 264.945,
   "low": 259.92,
   "open": 264.945,
   "prev_close": 265.84,
-  "ts": 1787245009
+  "ts": 1787246419
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:16Z",
+  "fetched_at": "2026-08-20T17:20:42Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T16:57:17Z",
+  "fetched_at": "2026-08-20T17:20:43Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 263.17,
     "high": 263.79,
     "low": 259.95,
-    "close": 262.535,
-    "volume": 605873.0
+    "close": 261.555,
+    "volume": 639241.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:17Z",
+  "fetched_at": "2026-08-20T17:20:43Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T16:57:18Z",
+  "fetched_at": "2026-08-20T17:20:44Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.29075,
+  "forward_pe": 25.213026,
   "forward_eps": 10.37777,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:18Z",
+  "fetched_at": "2026-08-20T17:20:44Z",
   "rows": [
+   {
+    "ts": 1787244004,
+    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
+   },
    {
     "ts": 1787228379,
     "headline": "S&P 500: American Exceptionalism Is Worth The Price",
@@ -7506,19 +7512,13 @@
     "headline": "Which dow jones stocks are moving on Wednesday?",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=40115c3c3464e83a2660ead2dc4dec4295ca940e8503f339c0e49581f3b5cef4"
-   },
-   {
-    "ts": 1787157606,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:57:18Z",
+  "fetched_at": "2026-08-20T17:20:45Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,
