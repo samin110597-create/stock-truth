@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T19:51:15Z",
+ "generated_at": "2026-08-20T20:13:58Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:15Z",
-  "current": 261.29,
-  "change": -4.55,
-  "change_pct": -1.7116,
-  "high": 264.945,
-  "low": 259.92,
-  "open": 264.945,
+  "fetched_at": "2026-08-20T20:13:58Z",
+  "current": 260.11,
+  "change": -5.73,
+  "change_pct": -2.1554,
+  "high": 263.84,
+  "low": 259.52,
+  "open": 263.16,
   "prev_close": 265.84,
-  "ts": 1787255453
+  "ts": 1787256000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:16Z",
+  "fetched_at": "2026-08-20T20:13:58Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T19:51:16Z",
+  "fetched_at": "2026-08-20T20:13:58Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-20",
     "open": 263.17,
     "high": 263.79,
-    "low": 259.92,
-    "close": 261.54,
-    "volume": 984093.0
+    "low": 259.61,
+    "close": 260.165,
+    "volume": 1143593.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:17Z",
+  "fetched_at": "2026-08-20T20:13:58Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T19:51:17Z",
+  "fetched_at": "2026-08-20T20:13:59Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.162485,
+  "forward_pe": 25.06415,
   "forward_eps": 10.37777,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:17Z",
+  "fetched_at": "2026-08-20T20:13:59Z",
   "rows": [
    {
     "ts": 1787253006,
@@ -7476,6 +7476,18 @@
     "headline": "Discover which dow jones stocks are making waves on Thursday.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
+   },
+   {
+    "ts": 1787235189,
+    "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX\u2019s Record IPO Size Tr Top It' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
+   },
+   {
+    "ts": 1787235086,
+    "headline": "'Anthropic Plans to Change Data Retention Policy for Advanced AI' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b6a031ed740b031c4076bb06064ca30c3f09acc79ab1a9c6f4b2e11e4bb9f31a"
    },
    {
     "ts": 1787234760,
@@ -7500,25 +7512,13 @@
     "headline": "S&P 500: American Exceptionalism Is Worth The Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
-   },
-   {
-    "ts": 1787219108,
-    "headline": "Nvidia: The Greatest Company At A Fair Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
-   },
-   {
-    "ts": 1787212721,
-    "headline": "Rocket Lab CEO Says $8 Billion Iridium Deal Won\u2019t Take on Elon Musk\u2019s Starlink \u2014 Don\u2019t Intend to 'Directly Compete,\u2019 But Plans Something That 'Hasn\u2019t Been Seen Before\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=23c8eb3e0ee50518bd0723e669e7a6b7ddc8446079cceb2544235b2ab190e566"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:18Z",
+  "fetched_at": "2026-08-20T20:13:59Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

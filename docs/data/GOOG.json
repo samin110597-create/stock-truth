@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T19:51:27Z",
+ "generated_at": "2026-08-20T20:14:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:27Z",
-  "current": 338.86,
-  "change": -2.84,
-  "change_pct": -0.8311,
+  "fetched_at": "2026-08-20T20:14:08Z",
+  "current": 338.2,
+  "change": -3.5,
+  "change_pct": -1.0243,
   "high": 340.8,
   "low": 336.17,
-  "open": 340.595,
+  "open": 339.69,
   "prev_close": 341.7,
-  "ts": 1787255477
+  "ts": 1787256000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:27Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T19:51:28Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 339.51,
     "high": 340.79,
     "low": 336.2,
-    "close": 338.785,
-    "volume": 581717.0
+    "close": 338.25,
+    "volume": 636570.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:28Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T19:51:28Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.855839,
+  "forward_pe": 22.835583,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:28Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "rows": [
    {
     "ts": 1787236396,
     "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84"
+   },
+   {
+    "ts": 1787235189,
+    "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX\u2019s Record IPO Size Tr Top It' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
+   },
+   {
+    "ts": 1787235086,
+    "headline": "'Anthropic Plans to Change Data Retention Policy for Advanced AI' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b6a031ed740b031c4076bb06064ca30c3f09acc79ab1a9c6f4b2e11e4bb9f31a"
    },
    {
     "ts": 1787234643,
@@ -7490,35 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
    },
    {
-    "ts": 1787219108,
-    "headline": "Nvidia: The Greatest Company At A Fair Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
-   },
-   {
-    "ts": 1787215655,
-    "headline": "Conduent Enters Collaboration With Google Cloud To Integrate Gemini Models Into Its Viewpoint Platform",
+    "ts": 1787228312,
+    "headline": "Marvell\u2019s Google AI Deal Could Unlock a Staggering $120 Billion Opportunity, Analyst Says",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a2fd8329a2f596edb3ed2dcdbb3df4cb2859b646d78f12137e0284544b2c7eb3"
+    "url": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58"
    },
    {
-    "ts": 1787214238,
-    "headline": "Marvell: The Deal And The Dilution Are Both Real",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99"
-   },
-   {
-    "ts": 1787206485,
-    "headline": "'Muon Space Raises $250 Million With Google, Salesforce Backing' - Bloomberg",
+    "ts": 1787228239,
+    "headline": "EXCLUSIVE: Nvidia Partner Says Tesla, Waymo Are Growing the Physical AI Market \u2014 Not Competing With It",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c58756948de7de2305074e7c95ce3794d1d32e3d6dc1c45e89a45d8621978c91"
+    "url": "https://finnhub.io/api/news?id=f50aa2ea2ee3192a197d90d5fb6a2e046fbfc65772a5c7ed156d4bc479e0098f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:51:29Z",
+  "fetched_at": "2026-08-20T20:14:09Z",
   "error": "no insider filings in six months"
  },
  "peers": {
