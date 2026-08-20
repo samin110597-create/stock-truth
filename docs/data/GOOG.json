@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T17:20:54Z",
+ "generated_at": "2026-08-20T17:52:14Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:20:54Z",
-  "current": 338.57,
-  "change": -3.13,
-  "change_pct": -0.916,
+  "fetched_at": "2026-08-20T17:52:14Z",
+  "current": 338.51,
+  "change": -3.19,
+  "change_pct": -0.9336,
   "high": 340.8,
   "low": 336.17,
   "open": 340.595,
   "prev_close": 341.7,
-  "ts": 1787246442
+  "ts": 1787248327
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:20:54Z",
+  "fetched_at": "2026-08-20T17:52:15Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T17:20:55Z",
+  "fetched_at": "2026-08-20T17:52:16Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 339.51,
     "high": 340.79,
     "low": 336.2,
-    "close": 338.56,
-    "volume": 391714.0
+    "close": 338.52,
+    "volume": 419337.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:20:55Z",
+  "fetched_at": "2026-08-20T17:52:16Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T17:20:55Z",
+  "fetched_at": "2026-08-20T17:52:16Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.863941,
+  "forward_pe": 22.849087,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:20:55Z",
+  "fetched_at": "2026-08-20T17:52:16Z",
   "rows": [
    {
     "ts": 1787228379,
@@ -7490,6 +7490,12 @@
     "url": "https://finnhub.io/api/news?id=c58756948de7de2305074e7c95ce3794d1d32e3d6dc1c45e89a45d8621978c91"
    },
    {
+    "ts": 1787204896,
+    "headline": "Alibaba shares fall 5% as AI spending drives 75% drop in net income",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=c428a052165e5e16a23a033ad3ff80ad7ebab797dbad4f6e17d9de2d797e4d40"
+   },
+   {
     "ts": 1787189545,
     "headline": "Mohamed El-Erian Warns US Treasury's Bond Buyback Is Just a 'Band-Aid,' Not a Fix For a $40 Trillion Debt Problem",
     "source": "Benzinga",
@@ -7506,19 +7512,13 @@
     "headline": "Dividing Our Idea Funnel: Four Moves That Are Nicely Spread",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=f0afead6a1d585e01506cfd820a7e4f00c744ae1d815bb858f5a273d3a4cb534"
-   },
-   {
-    "ts": 1787159540,
-    "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:20:56Z",
+  "fetched_at": "2026-08-20T17:52:17Z",
   "error": "no insider filings in six months"
  },
  "peers": {

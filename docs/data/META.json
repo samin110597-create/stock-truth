@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-20T17:21:16Z",
+ "generated_at": "2026-08-20T17:52:37Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:21:16Z",
-  "current": 541.64,
-  "change": -4.39,
-  "change_pct": -0.804,
+  "fetched_at": "2026-08-20T17:52:37Z",
+  "current": 541.79,
+  "change": -4.24,
+  "change_pct": -0.7765,
   "high": 549.988,
   "low": 541.34,
   "open": 547.975,
   "prev_close": 546.03,
-  "ts": 1787246466
+  "ts": 1787248321
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:21:16Z",
+  "fetched_at": "2026-08-20T17:52:37Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T17:21:17Z",
+  "fetched_at": "2026-08-20T17:52:38Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 546.8,
     "high": 549.9,
     "low": 541.34,
-    "close": 541.645,
-    "volume": 315731.0
+    "close": 541.85,
+    "volume": 340124.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:21:17Z",
+  "fetched_at": "2026-08-20T17:52:38Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T17:21:18Z",
+  "fetched_at": "2026-08-20T17:52:38Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.609998,
+  "forward_pe": 15.603948,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:21:18Z",
+  "fetched_at": "2026-08-20T17:52:38Z",
   "rows": [
+   {
+    "ts": 1787223711,
+    "headline": "Watch CNBC's full interview with California Attorney General Rob Bonta",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=2dbca0f6ad079fe9e59ef24f0a53d09e0e8bce79f602f13d12b319cf307608e2"
+   },
    {
     "ts": 1787220767,
     "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
@@ -7515,19 +7521,13 @@
     "headline": "Enbridge: Buy The 5.5% Yield And Growing Backlog",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=98f73a19a15622c76be65cf92568cd2548ca54c63572c2e22909676901a361a7"
-   },
-   {
-    "ts": 1787144995,
-    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T17:21:18Z",
+  "fetched_at": "2026-08-20T17:52:39Z",
   "buys": 107,
   "sells": 228,
   "net_shares": 3243538.0,
