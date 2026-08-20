@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T19:07:22Z",
+ "generated_at": "2026-08-20T19:51:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:23Z",
-  "current": 261.05,
-  "change": -4.79,
-  "change_pct": -1.8018,
+  "fetched_at": "2026-08-20T19:51:15Z",
+  "current": 261.29,
+  "change": -4.55,
+  "change_pct": -1.7116,
   "high": 264.945,
   "low": 259.92,
   "open": 264.945,
   "prev_close": 265.84,
-  "ts": 1787252828
+  "ts": 1787255453
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:23Z",
+  "fetched_at": "2026-08-20T19:51:16Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T19:07:24Z",
+  "fetched_at": "2026-08-20T19:51:16Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 263.17,
     "high": 263.79,
     "low": 259.92,
-    "close": 260.94,
-    "volume": 873436.0
+    "close": 261.54,
+    "volume": 984093.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:24Z",
+  "fetched_at": "2026-08-20T19:51:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T19:07:24Z",
+  "fetched_at": "2026-08-20T19:51:17Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.148947,
+  "forward_pe": 25.162485,
   "forward_eps": 10.37777,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:25Z",
+  "fetched_at": "2026-08-20T19:51:17Z",
   "rows": [
+   {
+    "ts": 1787253006,
+    "headline": "Which dow jones stocks are moving on Thursday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
+   },
    {
     "ts": 1787244004,
     "headline": "Discover which dow jones stocks are making waves on Thursday.",
@@ -7476,6 +7482,18 @@
     "headline": "Hyperscaler AI Capex: What The Headlines Miss",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+   },
+   {
+    "ts": 1787234643,
+    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
+   },
+   {
+    "ts": 1787232918,
+    "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a4b92f197a737eeec53f4dadecc55ab114134bcbbc1e567af8bb5f84ffce3129"
    },
    {
     "ts": 1787228379,
@@ -7494,31 +7512,13 @@
     "headline": "Rocket Lab CEO Says $8 Billion Iridium Deal Won\u2019t Take on Elon Musk\u2019s Starlink \u2014 Don\u2019t Intend to 'Directly Compete,\u2019 But Plans Something That 'Hasn\u2019t Been Seen Before\u2019",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=23c8eb3e0ee50518bd0723e669e7a6b7ddc8446079cceb2544235b2ab190e566"
-   },
-   {
-    "ts": 1787211977,
-    "headline": "Amazon, Target And More On CNBC\u2019s \u2018Final Trades\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=717f7a6a6e8498667da90fbce84c8b38568e70ad28bda442085cb3582ad21acc"
-   },
-   {
-    "ts": 1787189545,
-    "headline": "Mohamed El-Erian Warns US Treasury's Bond Buyback Is Just a 'Band-Aid,' Not a Fix For a $40 Trillion Debt Problem",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0a9059597d4c9f40795ff4e81be1cf28f0b85d0670c0ef4010d328885cff120f"
-   },
-   {
-    "ts": 1787172468,
-    "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6176cf1f3006a9b7f1e7eece33e01b74901f7d28aa6591f2ed6baa2cc5a017ee"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:25Z",
+  "fetched_at": "2026-08-20T19:51:18Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

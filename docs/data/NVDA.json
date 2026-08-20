@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-20T19:07:46Z",
+ "generated_at": "2026-08-20T19:51:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:46Z",
-  "current": 216.99,
-  "change": -0.57,
-  "change_pct": -0.262,
+  "fetched_at": "2026-08-20T19:51:38Z",
+  "current": 216.78,
+  "change": -0.78,
+  "change_pct": -0.3585,
   "high": 219.86,
   "low": 215.66,
   "open": 218.765,
   "prev_close": 217.56,
-  "ts": 1787252851
+  "ts": 1787255477
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:46Z",
+  "fetched_at": "2026-08-20T19:51:38Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T19:07:47Z",
+  "fetched_at": "2026-08-20T19:51:39Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 218.375,
     "high": 219.84,
     "low": 215.665,
-    "close": 216.92,
-    "volume": 2688002.0
+    "close": 216.76,
+    "volume": 2975312.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:47Z",
+  "fetched_at": "2026-08-20T19:51:39Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T19:07:47Z",
+  "fetched_at": "2026-08-20T19:51:39Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.683308,
+  "forward_pe": 16.669292,
   "forward_eps": 12.99922,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:48Z",
+  "fetched_at": "2026-08-20T19:51:39Z",
   "rows": [
+   {
+    "ts": 1787253006,
+    "headline": "Which dow jones stocks are moving on Thursday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
+   },
    {
     "ts": 1787249101,
     "headline": "Looking for the most active stocks in the S&P500 index on Thursday?",
@@ -7481,10 +7487,22 @@
     "url": "https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f"
    },
    {
+    "ts": 1787237288,
+    "headline": "S&P 500 Just Got The Green Light To 8000",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0"
+   },
+   {
     "ts": 1787234760,
     "headline": "Hyperscaler AI Capex: What The Headlines Miss",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+   },
+   {
+    "ts": 1787234643,
+    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
    },
    {
     "ts": 1787226905,
@@ -7503,31 +7521,13 @@
     "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=1a918e278efa39fc47340379cc1c25103f095618a9b7a011a4c3fe5235133013"
-   },
-   {
-    "ts": 1787219841,
-    "headline": "CoreWeave Lands Multibillion-Dollar Hudson River Deal as Wall Street Races for Nvidia Chips",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8cfc4b742ab1b52daa98e5678147ad342d5e9dcaefdd61ad243bcce4ee50dc4c"
-   },
-   {
-    "ts": 1787219108,
-    "headline": "Nvidia: The Greatest Company At A Fair Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
-   },
-   {
-    "ts": 1787218390,
-    "headline": "RBC Capital Reiterates Outperform on NVIDIA, Maintains $300 Price Target",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=337edb097c3d6ff66ed1f87090767889e89617ebb016a73de4df1dc2fcd82eca"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:48Z",
+  "fetched_at": "2026-08-20T19:51:40Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

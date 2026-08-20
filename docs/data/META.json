@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-20T19:07:57Z",
+ "generated_at": "2026-08-20T19:51:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:57Z",
-  "current": 540.91,
-  "change": -5.12,
-  "change_pct": -0.9377,
+  "fetched_at": "2026-08-20T19:51:49Z",
+  "current": 545.04,
+  "change": -0.99,
+  "change_pct": -0.1813,
   "high": 549.988,
   "low": 539.31,
   "open": 547.975,
   "prev_close": 546.03,
-  "ts": 1787252850
+  "ts": 1787255501
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:57Z",
+  "fetched_at": "2026-08-20T19:51:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T19:07:58Z",
+  "fetched_at": "2026-08-20T19:51:50Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 546.8,
     "high": 549.9,
     "low": 539.365,
-    "close": 540.91,
-    "volume": 404926.0
+    "close": 544.925,
+    "volume": 523543.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:58Z",
+  "fetched_at": "2026-08-20T19:51:50Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T19:07:58Z",
+  "fetched_at": "2026-08-20T19:51:50Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.5889635,
+  "forward_pe": 15.705662,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:58Z",
+  "fetched_at": "2026-08-20T19:51:50Z",
   "rows": [
+   {
+    "ts": 1787237288,
+    "headline": "S&P 500 Just Got The Green Light To 8000",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0"
+   },
    {
     "ts": 1787234760,
     "headline": "Hyperscaler AI Capex: What The Headlines Miss",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+   },
+   {
+    "ts": 1787234643,
+    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
    },
    {
     "ts": 1787227558,
@@ -7509,25 +7521,13 @@
     "headline": "Meta Platforms: H2 2026 May Disappoint - Value Trap Risks Meet Rich Rebound Prospects",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924"
-   },
-   {
-    "ts": 1787204264,
-    "headline": "Meta's AI Spending Could Unlock 'Abundant Revenue,' Analyst Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8ab1392b81288948cad7e5b3c0d10d7c9e9b2ebfbbf36598f4a89c2426038567"
-   },
-   {
-    "ts": 1787189545,
-    "headline": "Mohamed El-Erian Warns US Treasury's Bond Buyback Is Just a 'Band-Aid,' Not a Fix For a $40 Trillion Debt Problem",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0a9059597d4c9f40795ff4e81be1cf28f0b85d0670c0ef4010d328885cff120f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T19:07:58Z",
+  "fetched_at": "2026-08-20T19:51:51Z",
   "buys": 107,
   "sells": 228,
   "net_shares": 3243538.0,
