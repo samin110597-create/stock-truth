@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-19T20:50:16Z",
+ "generated_at": "2026-08-20T13:36:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:16Z",
-  "current": 341.7,
-  "change": 0.42,
-  "change_pct": 0.1231,
-  "high": 343.56,
-  "low": 338.05,
-  "open": 339.81,
-  "prev_close": 341.28,
-  "ts": 1787169600
+  "fetched_at": "2026-08-20T13:36:36Z",
+  "current": 340.63,
+  "change": -1.07,
+  "change_pct": -0.3131,
+  "high": 340.8,
+  "low": 338.5,
+  "open": 340.595,
+  "prev_close": 341.7,
+  "ts": 1787232967
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:17Z",
+  "fetched_at": "2026-08-20T13:36:36Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4209566000000.0,
+  "mcap": 4215925600000.0005,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T20:50:17Z",
+  "fetched_at": "2026-08-20T13:36:36Z",
   "bars": [
-   {
-    "date": "2023-01-18",
-    "open": 92.94,
-    "high": 93.588,
-    "low": 91.4,
-    "close": 91.78,
-    "volume": 19641600.0
-   },
    {
     "date": "2023-01-19",
     "open": 91.39,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-18",
-    "open": 339.80469,
+    "open": 339.89499,
     "high": 342.39001,
     "low": 337.51999,
     "close": 341.28,
-    "volume": 13553867.0
+    "volume": 14254300.0
    },
    {
     "date": "2026-08-19",
-    "open": 339.96,
-    "high": 343.5,
-    "low": 338.09,
-    "close": 341.7,
-    "volume": 646208.0
+    "open": 339.79999,
+    "high": 343.56,
+    "low": 338.049988,
+    "close": 341.70001,
+    "volume": 13290636.0
+   },
+   {
+    "date": "2026-08-20",
+    "open": 339.51,
+    "high": 340.38,
+    "low": 338.56,
+    "close": 340.355,
+    "volume": 15468.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-19",
+  "latest": "2026-08-20",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:42Z",
+  "fetched_at": "2026-08-20T13:36:37Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4190709481472.0,
+  "mcap": 4167961673728.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.93,
+  "eps_ttm": 19.92,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 17.193176,
-  "forward_pe": 23.237188,
-  "pb": 6.7325525,
-  "ps": 9.399446,
-  "peg": 0.931,
-  "ev_ebitda": 23.664,
+  "pe": 17.108433,
+  "forward_pe": 23.069471,
+  "pb": 6.6960073,
+  "ps": 9.348015,
+  "peg": 0.9249,
+  "ev_ebitda": 23.535,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:18Z",
+  "fetched_at": "2026-08-20T13:36:37Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,56 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T20:50:18Z",
-  "analyst_target_mean": 421.78857,
+  "fetched_at": "2026-08-20T13:36:37Z",
+  "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
-  "analyst_count": 14.0,
+  "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.172089,
-  "forward_eps": 14.74619,
+  "forward_pe": 23.069471,
+  "forward_eps": 14.77277,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.62308,
+  "institutions_pct": 0.62308997,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:18Z",
+  "fetched_at": "2026-08-20T13:36:37Z",
   "rows": [
+   {
+    "ts": 1787214238,
+    "headline": "Marvell: The Deal And The Dilution Are Both Real",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99"
+   },
+   {
+    "ts": 1787182806,
+    "headline": "Meta: The Drawdown Is An Opportunity",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052"
+   },
+   {
+    "ts": 1787173500,
+    "headline": "Dividing Our Idea Funnel: Four Moves That Are Nicely Spread",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f0afead6a1d585e01506cfd820a7e4f00c744ae1d815bb858f5a273d3a4cb534"
+   },
+   {
+    "ts": 1787159540,
+    "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
+   },
+   {
+    "ts": 1787158701,
+    "headline": "Alphabet Stock: A Berkshire Hathaway-Style Compounder Hiding In Plain Sight",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d1a4c1f6cffc33ee58ea8e9a3d9ebef4a3335a871fe0a93b55d4784c35332c22"
+   },
    {
     "ts": 1787148912,
     "headline": "Marvell Is Very Risky Despite The New AI Deal With Alphabet",
@@ -7482,43 +7512,13 @@
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
-   },
-   {
-    "ts": 1787137685,
-    "headline": "Marvell pops 6% on AI chip deal that lets Google buy up to $12.2 billion in shares",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb"
-   },
-   {
-    "ts": 1787135863,
-    "headline": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ee610846551e06b5814d7484d6a8749e30197f4ffe09530a339f56f4264a3b15"
-   },
-   {
-    "ts": 1787135656,
-    "headline": "Marvell surges after deal allows Alphabet to buy up to $12.2 billion in shares",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=6dc47810f78ab34a7c6cb6bb99746db57805db351b149d1632dcf0d6b148b279"
-   },
-   {
-    "ts": 1787131840,
-    "headline": "Amazon Bets Big on Drone Delivery \u2014 Prime Air Targets 500 US Cities as Competition From Wing, Zipline Heats Up",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f6be7c486db2d06bd450836def9132f456748dd81f206f044f2dc3b5fab33957"
-   },
-   {
-    "ts": 1787128200,
-    "headline": "How Tokenomics Might Save AI PCs",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6ade163bca54c2dab1e7b3718ce127e07fe6ad3b5150336e3f5a3f7801bb8f24"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:18Z",
+  "fetched_at": "2026-08-20T13:36:38Z",
   "error": "no insider filings in six months"
  },
  "peers": {

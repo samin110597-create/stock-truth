@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-19T20:50:38Z",
+ "generated_at": "2026-08-20T13:36:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:38Z",
-  "current": 546.03,
-  "change": 2.36,
-  "change_pct": 0.4341,
-  "high": 554.07,
-  "low": 537.27,
-  "open": 541.34,
-  "prev_close": 543.67,
-  "ts": 1787169600
+  "fetched_at": "2026-08-20T13:36:57Z",
+  "current": 545.54,
+  "change": -0.49,
+  "change_pct": -0.0897,
+  "high": 547.975,
+  "low": 543.69,
+  "open": 547.975,
+  "prev_close": 546.03,
+  "ts": 1787232990
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:39Z",
+  "fetched_at": "2026-08-20T13:36:57Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1385002588539.2983,
+  "mcap": 1391014730605.1787,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T20:50:39Z",
+  "fetched_at": "2026-08-20T13:36:57Z",
   "bars": [
-   {
-    "date": "2023-01-18",
-    "open": 135.81,
-    "high": 137.25,
-    "low": 132.8,
-    "close": 133.020004,
-    "volume": 20215500.0
-   },
    {
     "date": "2023-01-19",
     "open": 132.49001,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-18",
-    "open": 557.31,
+    "open": 557.47998,
     "high": 560.65997,
     "low": 543.21002,
     "close": 543.66998,
-    "volume": 26550374.0
+    "volume": 27094900.0
    },
    {
     "date": "2026-08-19",
-    "open": 541.34,
-    "high": 554.04,
-    "low": 537.4,
-    "close": 546.19,
-    "volume": 797395.0
+    "open": 541.34003,
+    "high": 554.059998,
+    "low": 537.28003,
+    "close": 546.030029,
+    "volume": 16348636.0
+   },
+   {
+    "date": "2026-08-20",
+    "open": 546.8,
+    "high": 547.0,
+    "low": 543.82,
+    "close": 545.105,
+    "volume": 21578.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-19",
+  "latest": "2026-08-20",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:36:11Z",
+  "fetched_at": "2026-08-20T13:36:58Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1479502462976.0,
+  "mcap": 1389027786752.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 21.88263,
-  "forward_pe": 16.647987,
-  "pb": 5.664895,
-  "ps": 6.4820237,
-  "peg": 0.8805,
-  "ev_ebitda": 13.905,
+  "pe": 20.54446,
+  "forward_pe": 15.711137,
+  "pb": 5.318475,
+  "ps": 6.0856347,
+  "peg": 0.8116,
+  "ev_ebitda": 12.887,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:39Z",
+  "fetched_at": "2026-08-20T13:36:58Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,26 +7454,38 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T20:50:40Z",
+  "fetched_at": "2026-08-20T13:36:58Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.733613,
+  "forward_pe": 15.711137,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
-  "institutions_pct": 0.79469,
-  "insiders_pct": 0.00147,
+  "institutions_pct": 0.79115,
+  "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:40Z",
+  "fetched_at": "2026-08-20T13:36:58Z",
   "rows": [
+   {
+    "ts": 1787205611,
+    "headline": "Meta Platforms: H2 2026 May Disappoint - Value Trap Risks Meet Rich Rebound Prospects",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924"
+   },
+   {
+    "ts": 1787182806,
+    "headline": "Meta: The Drawdown Is An Opportunity",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052"
+   },
    {
     "ts": 1787146440,
     "headline": "Enbridge: Buy The 5.5% Yield And Growing Backlog",
@@ -7485,6 +7497,12 @@
     "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
+   },
+   {
+    "ts": 1787142751,
+    "headline": "Hims & Hers Rejects Privacy Allegations While Promising Expanded Patient Access",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=95450ee9c53d7be5b717131027a21d590462e376e08175dff8b62941afc7d70c"
    },
    {
     "ts": 1787140491,
@@ -7503,34 +7521,16 @@
     "headline": "3 Sectors Investors Should Buy Now as S&P 500 Stumbles \u2014 Strategist Sees 15%-18% Upside",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=06dae45a118bedd2aa24fcab520528cf33f0e219c27c61710a1d4f40e8eb6c7e"
-   },
-   {
-    "ts": 1787125218,
-    "headline": "The business model of social media is at stake in Meta trial: Vanderbilt's Rebecca Haw Allensworth",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=d8cee9a16c5f7c4549fe5b6eb1749be77671a6003810b4396a0c1804796221c6"
-   },
-   {
-    "ts": 1787123125,
-    "headline": "Meta's AI Payoff Has Already Begun",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b6a7199220883383f51ad312554012cf201dbdd176417aa13df3ca3d0bef216f"
-   },
-   {
-    "ts": 1787121987,
-    "headline": "Chamath Palihapitiya Says Mark Zuckerberg Knows \u2018Great Engineers\u2019 Want to Join \u2018Space/Search/AI\u2019 Companies, Not Meta\u2019s Advertising Machine",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=82f09efc5f7ce5b056779030b8a76d104baea9e6b5b94fb46741bd0a036b085a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:40Z",
+  "fetched_at": "2026-08-20T13:36:59Z",
   "buys": 107,
-  "sells": 234,
-  "net_shares": 3242157.0,
+  "sells": 228,
+  "net_shares": 3243538.0,
   "months": 6,
   "recent": [
    {

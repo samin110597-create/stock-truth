@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-19T20:50:04Z",
+ "generated_at": "2026-08-20T13:36:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:05Z",
-  "current": 265.84,
-  "change": 6.39,
-  "change_pct": 2.4629,
-  "high": 266.4,
-  "low": 258.58,
-  "open": 260.845,
-  "prev_close": 259.45,
-  "ts": 1787169600
+  "fetched_at": "2026-08-20T13:36:24Z",
+  "current": 263.0,
+  "change": -2.84,
+  "change_pct": -1.0683,
+  "high": 264.945,
+  "low": 261.64,
+  "open": 264.945,
+  "prev_close": 265.84,
+  "ts": 1787232966
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:05Z",
+  "fetched_at": "2026-08-20T13:36:25Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2798509258716.633,
+  "mcap": 2867433969130.3403,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T20:50:06Z",
+  "fetched_at": "2026-08-20T13:36:25Z",
   "bars": [
-   {
-    "date": "2023-01-18",
-    "open": 97.25,
-    "high": 99.32,
-    "low": 95.38,
-    "close": 95.46,
-    "volume": 79570400.0
-   },
    {
     "date": "2023-01-19",
     "open": 94.74,
@@ -7218,19 +7210,27 @@
     "high": 262.17999,
     "low": 257.73001,
     "close": 259.45001,
-    "volume": 31484780.0
+    "volume": 33171300.0
    },
    {
     "date": "2026-08-19",
-    "open": 260.95,
-    "high": 266.4,
-    "low": 258.59,
-    "close": 265.835,
-    "volume": 1522335.0
+    "open": 260.845,
+    "high": 266.39999,
+    "low": 258.57999,
+    "close": 265.84,
+    "volume": 32458494.0
+   },
+   {
+    "date": "2026-08-20",
+    "open": 263.17,
+    "high": 263.39,
+    "low": 261.73,
+    "close": 262.93,
+    "volume": 57830.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-19",
+  "latest": "2026-08-20",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:30Z",
+  "fetched_at": "2026-08-20T13:36:26Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2818894987264.0,
+  "mcap": 2841114836992.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.42,
+  "eps_ttm": 12.44,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 21.041868,
-  "forward_pe": 25.120972,
-  "pb": 5.1086874,
-  "ps": 3.6340952,
-  "peg": 1.3983,
-  "ev_ebitda": 17.534,
+  "pe": 21.173634,
+  "forward_pe": 25.318985,
+  "pb": 5.1489563,
+  "ps": 3.6627407,
+  "peg": 1.3812,
+  "ev_ebitda": 17.738,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:06Z",
+  "fetched_at": "2026-08-20T13:36:26Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,26 +7445,32 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T20:50:07Z",
-  "analyst_target_mean": 327.004,
+  "fetched_at": "2026-08-20T13:36:27Z",
+  "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.553528,
+  "forward_pe": 25.318985,
   "forward_eps": 10.40326,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.6883,
+  "institutions_pct": 0.68799,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:07Z",
+  "fetched_at": "2026-08-20T13:36:27Z",
   "rows": [
+   {
+    "ts": 1787172468,
+    "headline": "Tracking Cathie Wood's ARK Invest 13F Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6176cf1f3006a9b7f1e7eece33e01b74901f7d28aa6591f2ed6baa2cc5a017ee"
+   },
    {
     "ts": 1787166605,
     "headline": "Which dow jones stocks are moving on Wednesday?",
@@ -7506,22 +7512,16 @@
     "headline": "SpaceX Rolls Out Grok 4.6 on Amazon Bedrock",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=09173f205251442a83d5ab7bccf035ddb0532e7967e7fca02330e79121a1ac16"
-   },
-   {
-    "ts": 1787137702,
-    "headline": "Amazon Rolls Out Alexa+ On Fire TV At No Additional Charges",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0a6a65ccf09af81e02ebf406a08da027f5ed8bd21a828b509f8b0a8e27992e14"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:07Z",
+  "fetched_at": "2026-08-20T13:36:27Z",
   "buys": 40,
-  "sells": 107,
-  "net_shares": -2105573.0,
+  "sells": 103,
+  "net_shares": -2100789.0,
   "months": 6,
   "recent": [
    {

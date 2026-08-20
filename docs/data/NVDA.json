@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-19T20:50:27Z",
+ "generated_at": "2026-08-20T13:36:47Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:28Z",
-  "current": 217.56,
-  "change": -2.18,
-  "change_pct": -0.9921,
-  "high": 222.87,
-  "low": 216.76,
-  "open": 221.67,
-  "prev_close": 219.74,
-  "ts": 1787169600
+  "fetched_at": "2026-08-20T13:36:47Z",
+  "current": 219.01,
+  "change": 1.45,
+  "change_pct": 0.6665,
+  "high": 219.02,
+  "low": 217.175,
+  "open": 218.765,
+  "prev_close": 217.56,
+  "ts": 1787232991
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:28Z",
+  "fetched_at": "2026-08-20T13:36:47Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5317707870178.496,
+  "mcap": 5264952131616.177,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-19T20:50:28Z",
+  "fetched_at": "2026-08-20T13:36:47Z",
   "bars": [
-   {
-    "date": "2023-01-18",
-    "open": 17.667,
-    "high": 17.873,
-    "low": 17.282,
-    "close": 17.377,
-    "volume": 439624000.0
-   },
    {
     "date": "2023-01-19",
     "open": 17.035999,
@@ -7216,21 +7208,29 @@
     "date": "2026-08-18",
     "open": 220.45,
     "high": 221.64,
-    "low": 218.6902,
+    "low": 218.69,
     "close": 219.74001,
-    "volume": 102376166.0
+    "volume": 103128200.0
    },
    {
     "date": "2026-08-19",
-    "open": 221.685,
+    "open": 221.67,
     "high": 222.87,
-    "low": 216.77,
-    "close": 217.675,
-    "volume": 2991188.0
+    "low": 216.75999,
+    "close": 217.56,
+    "volume": 96854269.0
+   },
+   {
+    "date": "2026-08-20",
+    "open": 218.375,
+    "high": 219.0,
+    "low": 217.175,
+    "close": 218.895,
+    "volume": 93374.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-19",
+  "latest": "2026-08-20",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-17T13:35:59Z",
+  "fetched_at": "2026-08-20T13:36:48Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5465226346496.0,
+  "mcap": 5316560289792.0,
   "shares": 24221000000.0,
   "annual": [
    {
@@ -7335,12 +7335,12 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 34.554363,
-  "forward_pe": 17.630384,
-  "pb": 27.960348,
-  "ps": 21.559843,
-  "peg": 0.6201,
-  "ev_ebitda": 32.677,
+  "pe": 33.61441,
+  "forward_pe": 16.976936,
+  "pb": 27.199766,
+  "ps": 20.97078,
+  "peg": 0.6052,
+  "ev_ebitda": 31.566,
   "payout": 0.0061000003,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:28Z",
+  "fetched_at": "2026-08-20T13:36:48Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,26 +7454,38 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-19T20:50:29Z",
+  "fetched_at": "2026-08-20T13:36:48Z",
   "analyst_target_mean": 302.82758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.945772,
-  "forward_eps": 12.8386,
+  "forward_pe": 16.976936,
+  "forward_eps": 12.92943,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
-  "institutions_pct": 0.66195,
+  "institutions_pct": 0.71315,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:29Z",
+  "fetched_at": "2026-08-20T13:36:48Z",
   "rows": [
+   {
+    "ts": 1787215538,
+    "headline": "Nvidia FQ2 Preview: I'm Seeing A 50%+ FCF Discount",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b77380b3f8123ad2ebbb78612bce447fe5a9fecb805b09a4d0898abf53ad90f8"
+   },
+   {
+    "ts": 1787192400,
+    "headline": "Investing In The Building Blocks Of The Humanoid Revolution - Part 2 (The Brain)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=27169b49a8a67e1d061d882987a133367971362d000faef12ba8ecd56b2edb02"
+   },
    {
     "ts": 1787166605,
     "headline": "Which dow jones stocks are moving on Wednesday?",
@@ -7493,41 +7505,29 @@
     "url": "https://finnhub.io/api/news?id=709907e313da67eb9297d61718e239cfbac798b8fcaa3222f3077e4bb4eb234f"
    },
    {
+    "ts": 1787159540,
+    "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
+   },
+   {
+    "ts": 1787157622,
+    "headline": "'China Eases Limits On NVIDIA H200 Chips As AI Race Escalates; Beijing Permits Small Shipments To Help Leading Tech Groups In Drive To Catch Up With U.S. Rivals' - Financial Times",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f3b54bed45cae16d5770db0c5b6a6167e474b3acd789e09a814bf92dc512a5f8"
+   },
+   {
     "ts": 1787157606,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
-   },
-   {
-    "ts": 1787147454,
-    "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
-   },
-   {
-    "ts": 1787146516,
-    "headline": "8 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=de83141ce2b10055fe3032abde94416522ff165022812de1ec89e1dfbfd67b59"
-   },
-   {
-    "ts": 1787145238,
-    "headline": "AMD's Helios Platform And Explosive EPS Growth Make It A Buy",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=40ee1181574ba41d6f7d831f60ab656cee9073ec8b8a7fb44efc5176d74c4491"
-   },
-   {
-    "ts": 1787144995,
-    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-19T20:50:29Z",
+  "fetched_at": "2026-08-20T13:36:48Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
