@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-20T18:18:30Z",
+ "generated_at": "2026-08-20T19:07:46Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:30Z",
-  "current": 216.54,
-  "change": -1.02,
-  "change_pct": -0.4688,
+  "fetched_at": "2026-08-20T19:07:46Z",
+  "current": 216.99,
+  "change": -0.57,
+  "change_pct": -0.262,
   "high": 219.86,
   "low": 215.66,
   "open": 218.765,
   "prev_close": 217.56,
-  "ts": 1787249891
+  "ts": 1787252851
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:30Z",
+  "fetched_at": "2026-08-20T19:07:46Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T18:18:30Z",
+  "fetched_at": "2026-08-20T19:07:47Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 218.375,
     "high": 219.84,
     "low": 215.665,
-    "close": 216.5,
-    "volume": 2379046.0
+    "close": 216.92,
+    "volume": 2688002.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:30Z",
+  "fetched_at": "2026-08-20T19:07:47Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T18:18:31Z",
+  "fetched_at": "2026-08-20T19:07:47Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.747065,
-  "forward_eps": 12.92943,
+  "forward_pe": 16.683308,
+  "forward_eps": 12.99922,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:31Z",
+  "fetched_at": "2026-08-20T19:07:48Z",
   "rows": [
+   {
+    "ts": 1787249101,
+    "headline": "Looking for the most active stocks in the S&P500 index on Thursday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=de80fd99b19d51b1c063dd5d4eb7830387e2c641e2ad3bda312e7bbd5d6af86f"
+   },
+   {
+    "ts": 1787234760,
+    "headline": "Hyperscaler AI Capex: What The Headlines Miss",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+   },
    {
     "ts": 1787226905,
     "headline": "QUICK SPARK: Nvidia Partner Ouster Says Humanoid Robots Could Need Up to 12 Cameras Each",
@@ -7509,25 +7521,13 @@
     "headline": "RBC Capital Reiterates Outperform on NVIDIA, Maintains $300 Price Target",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=337edb097c3d6ff66ed1f87090767889e89617ebb016a73de4df1dc2fcd82eca"
-   },
-   {
-    "ts": 1787215538,
-    "headline": "Nvidia FQ2 Preview: I'm Seeing A 50%+ FCF Discount",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b77380b3f8123ad2ebbb78612bce447fe5a9fecb805b09a4d0898abf53ad90f8"
-   },
-   {
-    "ts": 1787215229,
-    "headline": "Mark Cuban Fires Back At Jensen Huang\u2019s AI Warning \u2014 \u2018No Chance Radiologists Get Replaced\u2019 Despite Nvidia CEO\u2019s Prediction",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3ac9c3207f51e92ea0364fc2e7837bba884d8b2386c7140ed0aa60f39d838428"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:31Z",
+  "fetched_at": "2026-08-20T19:07:48Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

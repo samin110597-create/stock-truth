@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T18:18:20Z",
+ "generated_at": "2026-08-20T19:07:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:20Z",
-  "current": 337.1,
-  "change": -4.6,
-  "change_pct": -1.3462,
+  "fetched_at": "2026-08-20T19:07:34Z",
+  "current": 337.7,
+  "change": -4.0,
+  "change_pct": -1.1706,
   "high": 340.8,
   "low": 336.17,
   "open": 340.595,
   "prev_close": 341.7,
-  "ts": 1787249867
+  "ts": 1787252827
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:20Z",
+  "fetched_at": "2026-08-20T19:07:34Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T18:18:20Z",
+  "fetched_at": "2026-08-20T19:07:37Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 339.51,
     "high": 340.79,
     "low": 336.2,
-    "close": 337.04,
-    "volume": 448882.0
+    "close": 337.71,
+    "volume": 504662.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:20Z",
+  "fetched_at": "2026-08-20T19:07:37Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T18:18:21Z",
+  "fetched_at": "2026-08-20T19:07:37Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.771776,
+  "forward_pe": 22.80081,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:21Z",
+  "fetched_at": "2026-08-20T19:07:37Z",
   "rows": [
+   {
+    "ts": 1787236396,
+    "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84"
+   },
+   {
+    "ts": 1787234556,
+    "headline": "Alphabet: The $250 Billion Capex Offload Plan",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=7bdc39cbcc7f603f5a1e1dc62a3eb36c683b391e08b34ff3e80f4715d95ed4af"
+   },
    {
     "ts": 1787228379,
     "headline": "S&P 500: American Exceptionalism Is Worth The Price",
@@ -7500,25 +7512,13 @@
     "headline": "Mohamed El-Erian Warns US Treasury's Bond Buyback Is Just a 'Band-Aid,' Not a Fix For a $40 Trillion Debt Problem",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=0a9059597d4c9f40795ff4e81be1cf28f0b85d0670c0ef4010d328885cff120f"
-   },
-   {
-    "ts": 1787182806,
-    "headline": "Meta: The Drawdown Is An Opportunity",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052"
-   },
-   {
-    "ts": 1787173500,
-    "headline": "Dividing Our Idea Funnel: Four Moves That Are Nicely Spread",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f0afead6a1d585e01506cfd820a7e4f00c744ae1d815bb858f5a273d3a4cb534"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T18:18:21Z",
+  "fetched_at": "2026-08-20T19:07:37Z",
   "error": "no insider filings in six months"
  },
  "peers": {
