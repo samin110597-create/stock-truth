@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T15:00:26Z",
+ "generated_at": "2026-08-20T15:54:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T15:00:26Z",
-  "current": 261.51,
-  "change": -4.33,
-  "change_pct": -1.6288,
+  "fetched_at": "2026-08-20T15:54:32Z",
+  "current": 261.44,
+  "change": -4.4,
+  "change_pct": -1.6551,
   "high": 264.945,
-  "low": 260.39,
+  "low": 259.92,
   "open": 264.945,
   "prev_close": 265.84,
-  "ts": 1787238003
+  "ts": 1787241263
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T15:00:26Z",
+  "fetched_at": "2026-08-20T15:54:32Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T15:00:31Z",
+  "fetched_at": "2026-08-20T15:54:32Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-20",
     "open": 263.17,
     "high": 263.79,
-    "low": 260.39,
-    "close": 261.46,
-    "volume": 349273.0
+    "low": 259.95,
+    "close": 261.41,
+    "volume": 508639.0
    }
   ],
   "n": 900,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-13T15:27:22Z",
+  "fetched_at": "2026-08-20T15:54:33Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T15:00:31Z",
+  "fetched_at": "2026-08-20T15:54:33Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T15:00:31Z",
+  "fetched_at": "2026-08-20T15:54:33Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.18219,
+  "forward_pe": 25.190384,
   "forward_eps": 10.37777,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T15:00:31Z",
+  "fetched_at": "2026-08-20T15:54:33Z",
   "rows": [
    {
     "ts": 1787219108,
     "headline": "Nvidia: The Greatest Company At A Fair Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
+   },
+   {
+    "ts": 1787211977,
+    "headline": "Amazon, Target And More On CNBC\u2019s \u2018Final Trades\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=717f7a6a6e8498667da90fbce84c8b38568e70ad28bda442085cb3582ad21acc"
+   },
+   {
+    "ts": 1787189545,
+    "headline": "Mohamed El-Erian Warns US Treasury's Bond Buyback Is Just a 'Band-Aid,' Not a Fix For a $40 Trillion Debt Problem",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=0a9059597d4c9f40795ff4e81be1cf28f0b85d0670c0ef4010d328885cff120f"
    },
    {
     "ts": 1787172468,
@@ -7500,25 +7512,13 @@
     "headline": "Amazon Stock Moves Higher Wednesday: What's Going On?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=eb8f6e7327b3124c977fa5f1449965f6934926adc006a8acd4d369be0e62ced8"
-   },
-   {
-    "ts": 1787144995,
-    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
-   },
-   {
-    "ts": 1787140200,
-    "headline": "Wall Street Lunch: IBM Advances Quantum Roadmap By Connecting Two Cryogenic Modules",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=828118656b88c426df09814abe89112ff98db1082259303b774dd42d8c8b097a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T15:00:31Z",
+  "fetched_at": "2026-08-20T15:54:34Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,
