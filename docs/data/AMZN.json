@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T16:18:25Z",
+ "generated_at": "2026-08-20T16:57:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:25Z",
-  "current": 261.32,
-  "change": -4.52,
-  "change_pct": -1.7003,
+  "fetched_at": "2026-08-20T16:57:16Z",
+  "current": 262.64,
+  "change": -3.2,
+  "change_pct": -1.2037,
   "high": 264.945,
   "low": 259.92,
   "open": 264.945,
   "prev_close": 265.84,
-  "ts": 1787242683
+  "ts": 1787245009
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:25Z",
+  "fetched_at": "2026-08-20T16:57:16Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T16:18:26Z",
+  "fetched_at": "2026-08-20T16:57:17Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 263.17,
     "high": 263.79,
     "low": 259.95,
-    "close": 261.25,
-    "volume": 549471.0
+    "close": 262.535,
+    "volume": 605873.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:26Z",
+  "fetched_at": "2026-08-20T16:57:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T16:18:27Z",
+  "fetched_at": "2026-08-20T16:57:18Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.178818,
+  "forward_pe": 25.29075,
   "forward_eps": 10.37777,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:27Z",
+  "fetched_at": "2026-08-20T16:57:18Z",
   "rows": [
+   {
+    "ts": 1787228379,
+    "headline": "S&P 500: American Exceptionalism Is Worth The Price",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
+   },
    {
     "ts": 1787219108,
     "headline": "Nvidia: The Greatest Company At A Fair Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
+   },
+   {
+    "ts": 1787212721,
+    "headline": "Rocket Lab CEO Says $8 Billion Iridium Deal Won\u2019t Take on Elon Musk\u2019s Starlink \u2014 Don\u2019t Intend to 'Directly Compete,\u2019 But Plans Something That 'Hasn\u2019t Been Seen Before\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=23c8eb3e0ee50518bd0723e669e7a6b7ddc8446079cceb2544235b2ab190e566"
    },
    {
     "ts": 1787211977,
@@ -7500,25 +7512,13 @@
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a53cd1f5883972a76c50bbb639d04690497dfa9d3cc4c64befd2cd557bc9cbf6"
-   },
-   {
-    "ts": 1787147454,
-    "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
-   },
-   {
-    "ts": 1787146791,
-    "headline": "Amazon Stock Moves Higher Wednesday: What's Going On?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=eb8f6e7327b3124c977fa5f1449965f6934926adc006a8acd4d369be0e62ced8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:28Z",
+  "fetched_at": "2026-08-20T16:57:18Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

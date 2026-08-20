@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T16:18:37Z",
+ "generated_at": "2026-08-20T16:57:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:37Z",
-  "current": 337.45,
-  "change": -4.25,
-  "change_pct": -1.2438,
+  "fetched_at": "2026-08-20T16:57:28Z",
+  "current": 339.21,
+  "change": -2.49,
+  "change_pct": -0.7287,
   "high": 340.8,
   "low": 336.17,
   "open": 340.595,
   "prev_close": 341.7,
-  "ts": 1787242707
+  "ts": 1787245033
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:37Z",
+  "fetched_at": "2026-08-20T16:57:28Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T16:18:38Z",
+  "fetched_at": "2026-08-20T16:57:29Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7225,8 +7225,8 @@
     "open": 339.51,
     "high": 340.79,
     "low": 336.2,
-    "close": 337.43,
-    "volume": 324774.0
+    "close": 339.355,
+    "volume": 369310.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:38Z",
+  "fetched_at": "2026-08-20T16:57:29Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T16:18:38Z",
+  "fetched_at": "2026-08-20T16:57:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.787642,
+  "forward_pe": 22.89264,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:38Z",
+  "fetched_at": "2026-08-20T16:57:29Z",
   "rows": [
+   {
+    "ts": 1787228379,
+    "headline": "S&P 500: American Exceptionalism Is Worth The Price",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
+   },
    {
     "ts": 1787219108,
     "headline": "Nvidia: The Greatest Company At A Fair Price",
@@ -7476,6 +7482,12 @@
     "headline": "Marvell: The Deal And The Dilution Are Both Real",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99"
+   },
+   {
+    "ts": 1787206485,
+    "headline": "'Muon Space Raises $250 Million With Google, Salesforce Backing' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c58756948de7de2305074e7c95ce3794d1d32e3d6dc1c45e89a45d8621978c91"
    },
    {
     "ts": 1787189545,
@@ -7500,25 +7512,13 @@
     "headline": "Samsung Tumbled Nearly 8% in Seoul Even as AI Demand Drives Chip Prices Up To 15%",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=e551fabc0eaf1bf604fb78bf3da7ac26bae8cd8888398860076567dbc0a75d32"
-   },
-   {
-    "ts": 1787158701,
-    "headline": "Alphabet Stock: A Berkshire Hathaway-Style Compounder Hiding In Plain Sight",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d1a4c1f6cffc33ee58ea8e9a3d9ebef4a3335a871fe0a93b55d4784c35332c22"
-   },
-   {
-    "ts": 1787148912,
-    "headline": "Marvell Is Very Risky Despite The New AI Deal With Alphabet",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:38Z",
+  "fetched_at": "2026-08-20T16:57:30Z",
   "error": "no insider filings in six months"
  },
  "peers": {

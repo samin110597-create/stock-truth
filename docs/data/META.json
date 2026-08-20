@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-20T16:18:58Z",
+ "generated_at": "2026-08-20T16:57:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:59Z",
-  "current": 542.4,
-  "change": -3.63,
-  "change_pct": -0.6648,
+  "fetched_at": "2026-08-20T16:57:51Z",
+  "current": 543.97,
+  "change": -2.06,
+  "change_pct": -0.3773,
   "high": 549.988,
-  "low": 541.68,
+  "low": 541.61,
   "open": 547.975,
   "prev_close": 546.03,
-  "ts": 1787242732
+  "ts": 1787245057
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:59Z",
+  "fetched_at": "2026-08-20T16:57:51Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T16:18:59Z",
+  "fetched_at": "2026-08-20T16:57:52Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-20",
     "open": 546.8,
     "high": 549.9,
-    "low": 541.795,
-    "close": 542.31,
-    "volume": 279752.0
+    "low": 541.61,
+    "close": 543.85,
+    "volume": 297328.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:18:59Z",
+  "fetched_at": "2026-08-20T16:57:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T16:19:00Z",
+  "fetched_at": "2026-08-20T16:57:52Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.623541,
+  "forward_pe": 15.662151,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:19:00Z",
+  "fetched_at": "2026-08-20T16:57:53Z",
   "rows": [
    {
     "ts": 1787220767,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T16:19:00Z",
+  "fetched_at": "2026-08-20T16:57:53Z",
   "buys": 107,
   "sells": 228,
   "net_shares": 3243538.0,
