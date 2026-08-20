@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T13:36:36Z",
+ "generated_at": "2026-08-20T14:22:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T13:36:36Z",
-  "current": 340.63,
-  "change": -1.07,
-  "change_pct": -0.3131,
+  "fetched_at": "2026-08-20T14:22:59Z",
+  "current": 338.8,
+  "change": -2.9,
+  "change_pct": -0.8487,
   "high": 340.8,
-  "low": 338.5,
+  "low": 338.1,
   "open": 340.595,
   "prev_close": 341.7,
-  "ts": 1787232967
+  "ts": 1787235754
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T13:36:36Z",
+  "fetched_at": "2026-08-20T14:22:59Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T13:36:36Z",
+  "fetched_at": "2026-08-20T14:22:59Z",
   "bars": [
    {
     "date": "2023-01-19",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-20",
     "open": 339.51,
-    "high": 340.38,
-    "low": 338.56,
-    "close": 340.355,
-    "volume": 15468.0
+    "high": 340.79,
+    "low": 338.1,
+    "close": 338.43,
+    "volume": 117018.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T13:36:37Z",
+  "fetched_at": "2026-08-20T14:23:00Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T13:36:37Z",
+  "fetched_at": "2026-08-20T14:23:00Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.069471,
-  "forward_eps": 14.77277,
+  "forward_pe": 22.880816,
+  "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T13:36:37Z",
+  "fetched_at": "2026-08-20T14:23:00Z",
   "rows": [
+   {
+    "ts": 1787219108,
+    "headline": "Nvidia: The Greatest Company At A Fair Price",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e13ecf41fadd7f9e572dadd5e3bdc5317777a408234248d7e28300b61060f4d3"
+   },
    {
     "ts": 1787214238,
     "headline": "Marvell: The Deal And The Dilution Are Both Real",
@@ -7506,19 +7512,13 @@
     "headline": "Marvell Won Alphabet's Deal; Everything Changes (Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3"
-   },
-   {
-    "ts": 1787144995,
-    "headline": "Investors Should Position For Humanoid Robot Boom\u2014Here's A Picks-And-Shovels Play; First mRNA Cancer Vaccine Succeeds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=85690539df1f074b0141508ef60dd8720ee3792d4601920da3731c6695610e5e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T13:36:38Z",
+  "fetched_at": "2026-08-20T14:23:00Z",
   "error": "no insider filings in six months"
  },
  "peers": {
