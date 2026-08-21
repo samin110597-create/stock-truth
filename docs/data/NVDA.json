@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T19:44:19Z",
+ "generated_at": "2026-08-21T20:10:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:44:19Z",
-  "current": 215.21,
-  "change": -1.64,
-  "change_pct": -0.7563,
+  "fetched_at": "2026-08-21T20:10:51Z",
+  "current": 214.748,
+  "change": -2.102,
+  "change_pct": -0.9693,
   "high": 218.74,
   "low": 214.5,
-  "open": 218.285,
+  "open": 218.42,
   "prev_close": 216.85,
-  "ts": 1787341442
+  "ts": 1787342400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:44:19Z",
+  "fetched_at": "2026-08-21T20:10:51Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T19:44:20Z",
+  "fetched_at": "2026-08-21T20:10:52Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.19,
-    "volume": 3387874.0
+    "close": 214.77,
+    "volume": 3674162.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:44:20Z",
+  "fetched_at": "2026-08-21T20:10:52Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T19:44:20Z",
+  "fetched_at": "2026-08-21T20:10:52Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.547895,
-  "forward_eps": 13.01021,
+  "forward_pe": 16.482347,
+  "forward_eps": 13.02727,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:44:20Z",
+  "fetched_at": "2026-08-21T20:10:52Z",
   "rows": [
    {
     "ts": 1787339405,
@@ -7499,6 +7499,12 @@
     "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
    },
    {
+    "ts": 1787326423,
+    "headline": "Nvidia: 500 Billion Reasons Why This Is A Strong Buy",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=de473d47c7154cab7bedd61dbe6401e23429d2b6b534b03c459cc77845107462"
+   },
+   {
     "ts": 1787320246,
     "headline": "Investors Build a Barbell: Big Tech On One End, Short-Term Bonds On The Other",
     "source": "Benzinga",
@@ -7515,19 +7521,13 @@
     "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=fd259331b2813de364df203b1226e57f8c5cb587cd8e0ea01bd780e40b8e0863"
-   },
-   {
-    "ts": 1787318683,
-    "headline": "Broadcom: You Snooze, You Lose",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:44:21Z",
+  "fetched_at": "2026-08-21T20:10:52Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
