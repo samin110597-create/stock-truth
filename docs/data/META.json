@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-21T17:21:33Z",
+ "generated_at": "2026-08-21T17:52:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:33Z",
-  "current": 553.2,
-  "change": 7.37,
-  "change_pct": 1.3502,
+  "fetched_at": "2026-08-21T17:52:23Z",
+  "current": 550.03,
+  "change": 4.2,
+  "change_pct": 0.7695,
   "high": 553.8733,
   "low": 543.23,
   "open": 547.6375,
   "prev_close": 545.83,
-  "ts": 1787332863
+  "ts": 1787334710
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:33Z",
+  "fetched_at": "2026-08-21T17:52:24Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:21:34Z",
+  "fetched_at": "2026-08-21T17:52:24Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 546.795,
     "high": 553.86,
     "low": 543.39,
-    "close": 553.14,
-    "volume": 277864.0
+    "close": 549.555,
+    "volume": 302121.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:34Z",
+  "fetched_at": "2026-08-21T17:52:24Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:21:34Z",
+  "fetched_at": "2026-08-21T17:52:25Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.939347,
+  "forward_pe": 15.834176,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:34Z",
+  "fetched_at": "2026-08-21T17:52:25Z",
   "rows": [
+   {
+    "ts": 1787318683,
+    "headline": "Broadcom: You Snooze, You Lose",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
+   },
    {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
@@ -7481,10 +7487,22 @@
     "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
    },
    {
+    "ts": 1787306235,
+    "headline": "AMD Could Grab a Bigger Slice of the AI Boom As Helios Takes on NVIDIA, Analyst Says",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=5d8a9a0835da26801e64673775cbd08c883f4336b1e946c12f9bbca1eba4b385"
+   },
+   {
     "ts": 1787301797,
     "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
+   },
+   {
+    "ts": 1787295601,
+    "headline": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=1e5a0aa94129cb28a903a31cddf27ec507b838c34d1913e6987fa3f4ad78221a"
    },
    {
     "ts": 1787279244,
@@ -7503,31 +7521,13 @@
     "headline": "LPL Financial Reports Monthly Activity for July 2026",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5"
-   },
-   {
-    "ts": 1787254828,
-    "headline": "Meta Slips as $200 Billion Youth-Safety Trial Intensifies",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f69da5a4c14fb68d9140b9a66fec00214b09324e40ae4fe2b1ce5facd0b85bbe"
-   },
-   {
-    "ts": 1787252400,
-    "headline": "4 High-Growth GARP Stocks With Discounted PEG Ratios for 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=041a4c9f6cc5c0075988551d144200319109982857e66b39b37960f7eccb86a1"
-   },
-   {
-    "ts": 1787252047,
-    "headline": "Top Meta Reporter: Zuckerberg Dropped a Major Hint About Meta\u2019s Next AI Breakthrough and Nobody\u2019s Paying Attention",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c6054df943e650c76464bac8d189b0bb63bc830919c495070963fd8654275430"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:34Z",
+  "fetched_at": "2026-08-21T17:52:25Z",
   "buys": 107,
   "sells": 224,
   "net_shares": 3251794.0,

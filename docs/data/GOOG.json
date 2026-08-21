@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T17:21:14Z",
+ "generated_at": "2026-08-21T17:52:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:14Z",
-  "current": 342.54,
-  "change": 4.34,
-  "change_pct": 1.2833,
+  "fetched_at": "2026-08-21T17:52:01Z",
+  "current": 342.28,
+  "change": 4.08,
+  "change_pct": 1.2064,
   "high": 343.29,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787332841
+  "ts": 1787334707
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:01Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:03Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 339.88,
     "high": 343.275,
     "low": 337.81,
-    "close": 342.51,
-    "volume": 377636.0
+    "close": 342.16,
+    "volume": 401268.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:03Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:03Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.120522,
+  "forward_pe": 23.102966,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:03Z",
   "rows": [
+   {
+    "ts": 1787318683,
+    "headline": "Broadcom: You Snooze, You Lose",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
+   },
    {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
@@ -7506,19 +7512,13 @@
     "headline": "Chris Hohn\u2019s TCI Revamps Q2 Portfolio, Exits Microsoft and Adds to Alphabet",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=e7621483097b3db436c444df0e6218ae352ca7984d29e364624181f391189618"
-   },
-   {
-    "ts": 1787257446,
-    "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:14Z",
+  "fetched_at": "2026-08-21T17:52:03Z",
   "error": "no insider filings in six months"
  },
  "peers": {

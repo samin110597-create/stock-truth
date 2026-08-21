@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T17:21:23Z",
+ "generated_at": "2026-08-21T17:52:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:23Z",
-  "current": 215.2,
-  "change": -1.65,
-  "change_pct": -0.7609,
+  "fetched_at": "2026-08-21T17:52:13Z",
+  "current": 215.89,
+  "change": -0.96,
+  "change_pct": -0.4427,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787332864
+  "ts": 1787334710
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:13Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:13Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.16,
-    "volume": 2591458.0
+    "close": 215.84,
+    "volume": 2788868.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:13Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:14Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.529325,
+  "forward_pe": 16.591585,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:14Z",
   "rows": [
    {
     "ts": 1787330405,
     "headline": "Stay informed with the top movers within the dow jones index on Friday.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
+   },
+   {
+    "ts": 1787318683,
+    "headline": "Broadcom: You Snooze, You Lose",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
+   },
+   {
+    "ts": 1787316826,
+    "headline": "Trading the major week ahead: The Investment Committee's strategy",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=7a594812ea1c386ff4cad027b106938856b51d6d1118e1ebf9aa52de08af67e5"
    },
    {
     "ts": 1787312952,
@@ -7505,29 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
    },
    {
-    "ts": 1787302838,
-    "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+    "ts": 1787306235,
+    "headline": "AMD Could Grab a Bigger Slice of the AI Boom As Helios Takes on NVIDIA, Analyst Says",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
-   },
-   {
-    "ts": 1787299200,
-    "headline": "Nvidia: There Is No Plan B",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fba8f1f77c01a624e196e4b357b1335a7b53a3df2b39be1ae58938f84185f18f"
-   },
-   {
-    "ts": 1787298418,
-    "headline": "This Nvidia Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b854c1f0a0745906c4bd36c9aab4bf8e55ea6e2a523b2a01838eb739a1b1d0d4"
+    "url": "https://finnhub.io/api/news?id=5d8a9a0835da26801e64673775cbd08c883f4336b1e946c12f9bbca1eba4b385"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:21:24Z",
+  "fetched_at": "2026-08-21T17:52:14Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
