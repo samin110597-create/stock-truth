@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T19:03:43Z",
+ "generated_at": "2026-08-21T19:44:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:43Z",
-  "current": 215.37,
-  "change": -1.48,
-  "change_pct": -0.6825,
+  "fetched_at": "2026-08-21T19:44:19Z",
+  "current": 215.21,
+  "change": -1.64,
+  "change_pct": -0.7563,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787339005
+  "ts": 1787341442
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:43Z",
+  "fetched_at": "2026-08-21T19:44:19Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T19:03:44Z",
+  "fetched_at": "2026-08-21T19:44:20Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.33,
-    "volume": 3136403.0
+    "close": 215.19,
+    "volume": 3387874.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:44Z",
+  "fetched_at": "2026-08-21T19:44:20Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T19:03:44Z",
+  "fetched_at": "2026-08-21T19:44:20Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.55546,
+  "forward_pe": 16.547895,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:44Z",
+  "fetched_at": "2026-08-21T19:44:20Z",
   "rows": [
+   {
+    "ts": 1787339405,
+    "headline": "Discover which dow jones stocks are making waves on Friday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2a96d4aa691194c3fc85b2b1ae496aa054a0278a839aae1dbc4db975bd1f5df7"
+   },
    {
     "ts": 1787335501,
     "headline": "Which S&P500 stocks are the most active on Friday?",
@@ -7515,19 +7521,13 @@
     "headline": "Broadcom: You Snooze, You Lose",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
-   },
-   {
-    "ts": 1787316826,
-    "headline": "Trading the major week ahead: The Investment Committee's strategy",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=7a594812ea1c386ff4cad027b106938856b51d6d1118e1ebf9aa52de08af67e5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:45Z",
+  "fetched_at": "2026-08-21T19:44:21Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

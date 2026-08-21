@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-21T19:03:54Z",
+ "generated_at": "2026-08-21T19:44:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:54Z",
-  "current": 551.07,
-  "change": 5.24,
-  "change_pct": 0.96,
+  "fetched_at": "2026-08-21T19:44:30Z",
+  "current": 550.64,
+  "change": 4.81,
+  "change_pct": 0.8812,
   "high": 553.8733,
   "low": 543.23,
   "open": 547.6375,
   "prev_close": 545.83,
-  "ts": 1787339005
+  "ts": 1787341440
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:54Z",
+  "fetched_at": "2026-08-21T19:44:30Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T19:03:55Z",
+  "fetched_at": "2026-08-21T19:44:31Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 546.795,
     "high": 553.86,
     "low": 543.39,
-    "close": 551.065,
-    "volume": 374187.0
+    "close": 550.58,
+    "volume": 414906.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:56Z",
+  "fetched_at": "2026-08-21T19:44:31Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T19:03:56Z",
+  "fetched_at": "2026-08-21T19:44:31Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.8712015,
+  "forward_pe": 15.8690405,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:56Z",
+  "fetched_at": "2026-08-21T19:44:31Z",
   "rows": [
    {
     "ts": 1787319953,
@@ -7511,23 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
    },
    {
+    "ts": 1787300740,
+    "headline": "Meta, Google And Snap Catch a Break as Teen Drops Social Media Addiction Lawsuit Ahead of Key Trial (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b900c64d3b6d10f749db951b4aa543bb3fc992e0717798efb60a5f171b692dfa"
+   },
+   {
     "ts": 1787295601,
     "headline": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
     "source": "CNBC",
     "url": "https://finnhub.io/api/news?id=1e5a0aa94129cb28a903a31cddf27ec507b838c34d1913e6987fa3f4ad78221a"
-   },
-   {
-    "ts": 1787279244,
-    "headline": "Meta Thinks Outside The Box With Memory",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:58Z",
+  "fetched_at": "2026-08-21T19:44:34Z",
   "buys": 107,
   "sells": 224,
   "net_shares": 3251794.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T19:03:19Z",
+ "generated_at": "2026-08-21T19:43:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:19Z",
-  "current": 259.49,
-  "change": -0.62,
-  "change_pct": -0.2384,
+  "fetched_at": "2026-08-21T19:43:57Z",
+  "current": 259.66,
+  "change": -0.45,
+  "change_pct": -0.173,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787338981
+  "ts": 1787341417
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:19Z",
+  "fetched_at": "2026-08-21T19:43:57Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T19:03:21Z",
+  "fetched_at": "2026-08-21T19:43:58Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 259.36,
-    "volume": 1491068.0
+    "close": 259.615,
+    "volume": 1586405.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:21Z",
+  "fetched_at": "2026-08-21T19:43:58Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T19:03:21Z",
+  "fetched_at": "2026-08-21T19:43:59Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.962202,
+  "forward_pe": 24.993963,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:21Z",
+  "fetched_at": "2026-08-21T19:43:59Z",
   "rows": [
+   {
+    "ts": 1787339405,
+    "headline": "Discover which dow jones stocks are making waves on Friday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2a96d4aa691194c3fc85b2b1ae496aa054a0278a839aae1dbc4db975bd1f5df7"
+   },
    {
     "ts": 1787335501,
     "headline": "Which S&P500 stocks are the most active on Friday?",
@@ -7506,19 +7512,13 @@
     "headline": "3 Funds For The Technologies That Could Define The Next Decade",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
-   },
-   {
-    "ts": 1787308867,
-    "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:21Z",
+  "fetched_at": "2026-08-21T19:43:59Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

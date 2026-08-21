@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T19:03:30Z",
+ "generated_at": "2026-08-21T19:44:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:31Z",
-  "current": 342.34,
-  "change": 4.14,
-  "change_pct": 1.2241,
+  "fetched_at": "2026-08-21T19:44:08Z",
+  "current": 343.01,
+  "change": 4.81,
+  "change_pct": 1.4222,
   "high": 343.29,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787339005
+  "ts": 1787341417
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:31Z",
+  "fetched_at": "2026-08-21T19:44:09Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T19:03:33Z",
+  "fetched_at": "2026-08-21T19:44:09Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 339.88,
     "high": 343.275,
     "low": 337.81,
-    "close": 342.39,
-    "volume": 466163.0
+    "close": 342.985,
+    "volume": 518372.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:33Z",
+  "fetched_at": "2026-08-21T19:44:10Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T19:03:33Z",
+  "fetched_at": "2026-08-21T19:44:10Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.114443,
+  "forward_pe": 23.158333,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:34Z",
+  "fetched_at": "2026-08-21T19:44:10Z",
   "rows": [
+   {
+    "ts": 1787323907,
+    "headline": "SpaceXAI Launches Grok 4.6 On Google Cloud Vertex AI",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=050b225a5b32397771f115a515579afb5b638640c702ccd8810e09f6f9cd8c5a"
+   },
    {
     "ts": 1787319953,
     "headline": "Marvell: A $120 Billion Diamond In The Rough",
@@ -7506,19 +7512,13 @@
     "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
-   },
-   {
-    "ts": 1787301401,
-    "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T19:03:34Z",
+  "fetched_at": "2026-08-21T19:44:10Z",
   "error": "no insider filings in six months"
  },
  "peers": {
