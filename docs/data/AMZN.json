@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T16:57:17Z",
+ "generated_at": "2026-08-21T17:21:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:22Z",
-  "current": 258.85,
-  "change": -1.26,
-  "change_pct": -0.4844,
+  "fetched_at": "2026-08-21T17:21:02Z",
+  "current": 259.16,
+  "change": -0.95,
+  "change_pct": -0.3652,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787331420
+  "ts": 1787332842
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:22Z",
+  "fetched_at": "2026-08-21T17:21:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T16:57:22Z",
+  "fetched_at": "2026-08-21T17:21:04Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 258.8,
-    "volume": 1252688.0
+    "close": 259.07,
+    "volume": 1328992.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:22Z",
+  "fetched_at": "2026-08-21T17:21:04Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T16:57:23Z",
+  "fetched_at": "2026-08-21T17:21:04Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.914562,
+  "forward_pe": 24.93333,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:23Z",
+  "fetched_at": "2026-08-21T17:21:04Z",
   "rows": [
+   {
+    "ts": 1787330405,
+    "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
+   },
    {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
@@ -7506,19 +7512,13 @@
     "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
-   },
-   {
-    "ts": 1787299200,
-    "headline": "Amazon: Don't Miss Out On The Clearance Sale",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a7feefa1b879d4f92e9c9339b42e5396c1dda1457fd30f5e83105ef27d6002b1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:23Z",
+  "fetched_at": "2026-08-21T17:21:05Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

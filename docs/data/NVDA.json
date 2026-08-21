@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T16:57:42Z",
+ "generated_at": "2026-08-21T17:21:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:42Z",
-  "current": 215.13,
-  "change": -1.72,
-  "change_pct": -0.7932,
+  "fetched_at": "2026-08-21T17:21:23Z",
+  "current": 215.2,
+  "change": -1.65,
+  "change_pct": -0.7609,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787331446
+  "ts": 1787332864
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:42Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T16:57:42Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.09,
-    "volume": 2431580.0
+    "close": 215.16,
+    "volume": 2591458.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:42Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T16:57:43Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.533937,
+  "forward_pe": 16.529325,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:43Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "rows": [
+   {
+    "ts": 1787330405,
+    "headline": "Stay informed with the top movers within the dow jones index on Friday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
+   },
    {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
@@ -7515,19 +7521,13 @@
     "headline": "This Nvidia Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Friday",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=b854c1f0a0745906c4bd36c9aab4bf8e55ea6e2a523b2a01838eb739a1b1d0d4"
-   },
-   {
-    "ts": 1787294638,
-    "headline": "NVIDIA Could Snap up Korean AI Chip Startup Rebellions in Latest AI Power Play",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e22c540fa45c0d3d047f8990ab3de81a03ffa1dfb0def37df74046f3d2a69afa"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:57:43Z",
+  "fetched_at": "2026-08-21T17:21:24Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
