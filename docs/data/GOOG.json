@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T18:17:53Z",
+ "generated_at": "2026-08-21T19:03:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:53Z",
-  "current": 341.98,
-  "change": 3.78,
-  "change_pct": 1.1177,
+  "fetched_at": "2026-08-21T19:03:31Z",
+  "current": 342.34,
+  "change": 4.14,
+  "change_pct": 1.2241,
   "high": 343.29,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787336239
+  "ts": 1787339005
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:53Z",
+  "fetched_at": "2026-08-21T19:03:31Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T18:17:54Z",
+  "fetched_at": "2026-08-21T19:03:33Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 339.88,
     "high": 343.275,
     "low": 337.81,
-    "close": 341.95,
-    "volume": 425237.0
+    "close": 342.39,
+    "volume": 466163.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:54Z",
+  "fetched_at": "2026-08-21T19:03:33Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T18:17:55Z",
+  "fetched_at": "2026-08-21T19:03:33Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.086086,
+  "forward_pe": 23.114443,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:55Z",
+  "fetched_at": "2026-08-21T19:03:34Z",
   "rows": [
    {
     "ts": 1787319953,
@@ -7478,6 +7478,12 @@
     "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
    },
    {
+    "ts": 1787316733,
+    "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
+   },
+   {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
     "source": "SeekingAlpha",
@@ -7490,6 +7496,12 @@
     "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
    },
    {
+    "ts": 1787308867,
+    "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af"
+   },
+   {
     "ts": 1787302838,
     "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
     "source": "Benzinga",
@@ -7500,25 +7512,13 @@
     "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150"
-   },
-   {
-    "ts": 1787301026,
-    "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
-   },
-   {
-    "ts": 1787293791,
-    "headline": "Waymo Unveils First Custom Robotaxi Chip With More Than 1,000 TOPS of AI Processing Power",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=55e10e9aff2d75884c263b54c5c4325670d5e2b2c852f419121d534eff6e07fe"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:55Z",
+  "fetched_at": "2026-08-21T19:03:34Z",
   "error": "no insider filings in six months"
  },
  "peers": {

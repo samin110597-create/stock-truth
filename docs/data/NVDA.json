@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T18:18:04Z",
+ "generated_at": "2026-08-21T19:03:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:18:05Z",
-  "current": 215.94,
-  "change": -0.91,
-  "change_pct": -0.4196,
+  "fetched_at": "2026-08-21T19:03:43Z",
+  "current": 215.37,
+  "change": -1.48,
+  "change_pct": -0.6825,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787336265
+  "ts": 1787339005
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:18:05Z",
+  "fetched_at": "2026-08-21T19:03:43Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T18:18:06Z",
+  "fetched_at": "2026-08-21T19:03:44Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.88,
-    "volume": 2940855.0
+    "close": 215.33,
+    "volume": 3136403.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:18:06Z",
+  "fetched_at": "2026-08-21T19:03:44Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T18:18:07Z",
+  "fetched_at": "2026-08-21T19:03:44Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.58928,
+  "forward_pe": 16.55546,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:18:07Z",
+  "fetched_at": "2026-08-21T19:03:44Z",
   "rows": [
+   {
+    "ts": 1787335501,
+    "headline": "Which S&P500 stocks are the most active on Friday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+   },
+   {
+    "ts": 1787335200,
+    "headline": "Friday's session: most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=b62b5a1624ff2850df9325358f0ff808fb927cb74bae610bd929dc9712420e38"
+   },
    {
     "ts": 1787330405,
     "headline": "Stay informed with the top movers within the dow jones index on Friday.",
@@ -7481,10 +7493,22 @@
     "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
    },
    {
+    "ts": 1787320246,
+    "headline": "Investors Build a Barbell: Big Tech On One End, Short-Term Bonds On The Other",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=672a42d5b8ebd352b5adeaa10f47bdc3cab89e95ee9e216bff962e5544197c58"
+   },
+   {
     "ts": 1787319953,
     "headline": "Marvell: A $120 Billion Diamond In The Rough",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+   },
+   {
+    "ts": 1787319318,
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=fd259331b2813de364df203b1226e57f8c5cb587cd8e0ea01bd780e40b8e0863"
    },
    {
     "ts": 1787318683,
@@ -7497,37 +7521,13 @@
     "headline": "Trading the major week ahead: The Investment Committee's strategy",
     "source": "CNBC",
     "url": "https://finnhub.io/api/news?id=7a594812ea1c386ff4cad027b106938856b51d6d1118e1ebf9aa52de08af67e5"
-   },
-   {
-    "ts": 1787312952,
-    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
-   },
-   {
-    "ts": 1787312405,
-    "headline": "AI Stocks May Be Ignoring A Growing Risk Seen In Credit Markets",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=932fa91307c2859f9e0df540263c429bdaf34390836266d76de2af254764c9d3"
-   },
-   {
-    "ts": 1787310722,
-    "headline": "3 Funds For The Technologies That Could Define The Next Decade",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
-   },
-   {
-    "ts": 1787306813,
-    "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:18:07Z",
+  "fetched_at": "2026-08-21T19:03:45Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

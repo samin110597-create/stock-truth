@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T18:17:40Z",
+ "generated_at": "2026-08-21T19:03:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:41Z",
-  "current": 258.67,
-  "change": -1.44,
-  "change_pct": -0.5536,
+  "fetched_at": "2026-08-21T19:03:19Z",
+  "current": 259.49,
+  "change": -0.62,
+  "change_pct": -0.2384,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787336240
+  "ts": 1787338981
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:41Z",
+  "fetched_at": "2026-08-21T19:03:19Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T18:17:42Z",
+  "fetched_at": "2026-08-21T19:03:21Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 258.61,
-    "volume": 1428945.0
+    "close": 259.36,
+    "volume": 1491068.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:42Z",
+  "fetched_at": "2026-08-21T19:03:21Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T18:17:43Z",
+  "fetched_at": "2026-08-21T19:03:21Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.883284,
+  "forward_pe": 24.962202,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:44Z",
+  "fetched_at": "2026-08-21T19:03:21Z",
   "rows": [
+   {
+    "ts": 1787335501,
+    "headline": "Which S&P500 stocks are the most active on Friday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+   },
    {
     "ts": 1787330405,
     "headline": "Stay informed with the top movers within the dow jones index on Friday.",
@@ -7484,6 +7490,12 @@
     "url": "https://finnhub.io/api/news?id=db7f551f262be6edebed07a92bf0d278b6de0e116a69652943fe7f015875dab9"
    },
    {
+    "ts": 1787316733,
+    "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
+   },
+   {
     "ts": 1787312952,
     "headline": "The Boring Way To Own AI Is Now The Cheap Way",
     "source": "SeekingAlpha",
@@ -7496,29 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
    },
    {
-    "ts": 1787306813,
-    "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
+    "ts": 1787308867,
+    "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3bb9a9f2f2e9740f55ab8417594fd2ac610b72890576b86196c579d5312f9cef"
-   },
-   {
-    "ts": 1787302838,
-    "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
-   },
-   {
-    "ts": 1787302427,
-    "headline": "Walmart In No Man's Land",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f0808d203fc1d7f37244f9bb4d8d6303f364ce6e9905cf34b9c44ad7d0f0944b"
+    "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T18:17:44Z",
+  "fetched_at": "2026-08-21T19:03:21Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,
