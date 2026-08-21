@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T15:28:53Z",
+ "generated_at": "2026-08-21T15:58:13Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:53Z",
-  "current": 341.56,
-  "change": 3.36,
-  "change_pct": 0.9935,
-  "high": 342.24,
+  "fetched_at": "2026-08-21T15:58:13Z",
+  "current": 342.18,
+  "change": 3.98,
+  "change_pct": 1.1768,
+  "high": 342.59,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787326102
+  "ts": 1787327865
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:54Z",
+  "fetched_at": "2026-08-21T15:58:13Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:28:54Z",
+  "fetched_at": "2026-08-21T15:58:14Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-21",
     "open": 339.88,
-    "high": 342.2,
+    "high": 342.54,
     "low": 337.81,
-    "close": 341.53,
-    "volume": 225678.0
+    "close": 342.105,
+    "volume": 259951.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:55Z",
+  "fetched_at": "2026-08-21T15:58:14Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:28:55Z",
+  "fetched_at": "2026-08-21T15:58:14Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.057053,
+  "forward_pe": 23.092243,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:55Z",
+  "fetched_at": "2026-08-21T15:58:15Z",
   "rows": [
+   {
+    "ts": 1787310722,
+    "headline": "3 Funds For The Technologies That Could Define The Next Decade",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
+   },
    {
     "ts": 1787302838,
     "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
@@ -7506,19 +7512,13 @@
     "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84"
-   },
-   {
-    "ts": 1787235189,
-    "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX\u2019s Record IPO Size Tr Top It' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:55Z",
+  "fetched_at": "2026-08-21T15:58:15Z",
   "error": "no insider filings in six months"
  },
  "peers": {

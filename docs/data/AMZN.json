@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T15:28:42Z",
+ "generated_at": "2026-08-21T15:58:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:42Z",
-  "current": 259.07,
-  "change": -1.04,
-  "change_pct": -0.3998,
+  "fetched_at": "2026-08-21T15:58:02Z",
+  "current": 260.04,
+  "change": -0.07,
+  "change_pct": -0.0269,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787326103
+  "ts": 1787327866
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:42Z",
+  "fetched_at": "2026-08-21T15:58:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:28:43Z",
+  "fetched_at": "2026-08-21T15:58:03Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 259.02,
-    "volume": 827852.0
+    "close": 259.99,
+    "volume": 1025099.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:43Z",
+  "fetched_at": "2026-08-21T15:58:03Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:28:44Z",
+  "fetched_at": "2026-08-21T15:58:04Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.932367,
+  "forward_pe": 25.004549,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:44Z",
+  "fetched_at": "2026-08-21T15:58:04Z",
   "rows": [
+   {
+    "ts": 1787310722,
+    "headline": "3 Funds For The Technologies That Could Define The Next Decade",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
+   },
    {
     "ts": 1787306813,
     "headline": "UBS Sees S&P 500 at 8,100 but Prediction Markets Don't Buy It",
@@ -7506,19 +7512,13 @@
     "headline": "Electrovaya: A Bad Case Of Overpromising And Underdelivering - Sell",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d7462a99f0695ca2ed61393c66934631ab0aea836ab40e9ff6b197ad9cb5b5f6"
-   },
-   {
-    "ts": 1787281500,
-    "headline": "Asia's Digital Economy Benefits From The Continued Shift To Online Buying",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=414b3bbeaf4b3da484df8f5ce5fdf21ae84f377865918d71b7128457cdd9b3fe"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:28:44Z",
+  "fetched_at": "2026-08-21T15:58:04Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,
