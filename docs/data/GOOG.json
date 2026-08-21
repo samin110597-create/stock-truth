@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T17:52:01Z",
+ "generated_at": "2026-08-21T18:17:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:01Z",
-  "current": 342.28,
-  "change": 4.08,
-  "change_pct": 1.2064,
+  "fetched_at": "2026-08-21T18:17:53Z",
+  "current": 341.98,
+  "change": 3.78,
+  "change_pct": 1.1177,
   "high": 343.29,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787334707
+  "ts": 1787336239
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:01Z",
+  "fetched_at": "2026-08-21T18:17:53Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:52:03Z",
+  "fetched_at": "2026-08-21T18:17:54Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 339.88,
     "high": 343.275,
     "low": 337.81,
-    "close": 342.16,
-    "volume": 401268.0
+    "close": 341.95,
+    "volume": 425237.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:03Z",
+  "fetched_at": "2026-08-21T18:17:54Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:52:03Z",
+  "fetched_at": "2026-08-21T18:17:55Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.102966,
+  "forward_pe": 23.086086,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:03Z",
+  "fetched_at": "2026-08-21T18:17:55Z",
   "rows": [
+   {
+    "ts": 1787319953,
+    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+   },
    {
     "ts": 1787318683,
     "headline": "Broadcom: You Snooze, You Lose",
@@ -7506,19 +7512,13 @@
     "headline": "Waymo Unveils First Custom Robotaxi Chip With More Than 1,000 TOPS of AI Processing Power",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=55e10e9aff2d75884c263b54c5c4325670d5e2b2c852f419121d534eff6e07fe"
-   },
-   {
-    "ts": 1787291000,
-    "headline": "Chris Hohn\u2019s TCI Revamps Q2 Portfolio, Exits Microsoft and Adds to Alphabet",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e7621483097b3db436c444df0e6218ae352ca7984d29e364624181f391189618"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:03Z",
+  "fetched_at": "2026-08-21T18:17:55Z",
   "error": "no insider filings in six months"
  },
  "peers": {

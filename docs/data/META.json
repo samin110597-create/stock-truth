@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-21T17:52:23Z",
+ "generated_at": "2026-08-21T18:18:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:23Z",
-  "current": 550.03,
-  "change": 4.2,
-  "change_pct": 0.7695,
+  "fetched_at": "2026-08-21T18:18:16Z",
+  "current": 549.59,
+  "change": 3.76,
+  "change_pct": 0.6889,
   "high": 553.8733,
   "low": 543.23,
   "open": 547.6375,
   "prev_close": 545.83,
-  "ts": 1787334710
+  "ts": 1787336265
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:24Z",
+  "fetched_at": "2026-08-21T18:18:17Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:52:24Z",
+  "fetched_at": "2026-08-21T18:18:17Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 546.795,
     "high": 553.86,
     "low": 543.39,
-    "close": 549.555,
-    "volume": 302121.0
+    "close": 549.46,
+    "volume": 337377.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:24Z",
+  "fetched_at": "2026-08-21T18:18:18Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:52:25Z",
+  "fetched_at": "2026-08-21T18:18:18Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.834176,
+  "forward_pe": 15.831005,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:25Z",
+  "fetched_at": "2026-08-21T18:18:18Z",
   "rows": [
+   {
+    "ts": 1787319953,
+    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+   },
    {
     "ts": 1787318683,
     "headline": "Broadcom: You Snooze, You Lose",
@@ -7515,19 +7521,13 @@
     "headline": "Win or lose, Meta still faces real risks in its social media addiction trial",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=4a5a74a098a6112500c983dff88a09233eadd41e8195f272843bb13cffcd3c91"
-   },
-   {
-    "ts": 1787256300,
-    "headline": "LPL Financial Reports Monthly Activity for July 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:52:25Z",
+  "fetched_at": "2026-08-21T18:18:19Z",
   "buys": 107,
   "sells": 224,
   "net_shares": 3251794.0,

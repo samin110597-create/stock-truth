@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T17:51:49Z",
+ "generated_at": "2026-08-21T18:17:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:51:50Z",
-  "current": 258.43,
-  "change": -1.68,
-  "change_pct": -0.6459,
+  "fetched_at": "2026-08-21T18:17:41Z",
+  "current": 258.67,
+  "change": -1.44,
+  "change_pct": -0.5536,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787334687
+  "ts": 1787336240
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:51:50Z",
+  "fetched_at": "2026-08-21T18:17:41Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T17:51:51Z",
+  "fetched_at": "2026-08-21T18:17:42Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 258.41,
-    "volume": 1384049.0
+    "close": 258.61,
+    "volume": 1428945.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:51:51Z",
+  "fetched_at": "2026-08-21T18:17:42Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T17:51:51Z",
+  "fetched_at": "2026-08-21T18:17:43Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.86211,
+  "forward_pe": 24.883284,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:51:52Z",
+  "fetched_at": "2026-08-21T18:17:44Z",
   "rows": [
    {
     "ts": 1787330405,
     "headline": "Stay informed with the top movers within the dow jones index on Friday.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
+   },
+   {
+    "ts": 1787319953,
+    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+   },
+   {
+    "ts": 1787319922,
+    "headline": "Owlet: High Risk, High Reward In Medical Tech And Subscription",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=db7f551f262be6edebed07a92bf0d278b6de0e116a69652943fe7f015875dab9"
    },
    {
     "ts": 1787312952,
@@ -7500,25 +7512,13 @@
     "headline": "Walmart In No Man's Land",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=f0808d203fc1d7f37244f9bb4d8d6303f364ce6e9905cf34b9c44ad7d0f0944b"
-   },
-   {
-    "ts": 1787301797,
-    "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
-   },
-   {
-    "ts": 1787301026,
-    "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T17:51:52Z",
+  "fetched_at": "2026-08-21T18:17:44Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,
