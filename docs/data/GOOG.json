@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T14:59:06Z",
+ "generated_at": "2026-08-21T15:28:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T14:59:06Z",
-  "current": 341.48,
-  "change": 3.28,
-  "change_pct": 0.9698,
-  "high": 341.97,
+  "fetched_at": "2026-08-21T15:28:53Z",
+  "current": 341.56,
+  "change": 3.36,
+  "change_pct": 0.9935,
+  "high": 342.24,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787324332
+  "ts": 1787326102
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T14:59:07Z",
+  "fetched_at": "2026-08-21T15:28:54Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T14:59:08Z",
+  "fetched_at": "2026-08-21T15:28:54Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-21",
     "open": 339.88,
-    "high": 341.875,
+    "high": 342.2,
     "low": 337.81,
-    "close": 341.82,
-    "volume": 157846.0
+    "close": 341.53,
+    "volume": 225678.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T14:59:08Z",
+  "fetched_at": "2026-08-21T15:28:55Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T14:59:08Z",
+  "fetched_at": "2026-08-21T15:28:55Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.056715,
+  "forward_pe": 23.057053,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T14:59:08Z",
+  "fetched_at": "2026-08-21T15:28:55Z",
   "rows": [
+   {
+    "ts": 1787302838,
+    "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+   },
    {
     "ts": 1787301401,
     "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
@@ -7476,6 +7482,12 @@
     "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
+   },
+   {
+    "ts": 1787291000,
+    "headline": "Chris Hohn\u2019s TCI Revamps Q2 Portfolio, Exits Microsoft and Adds to Alphabet",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e7621483097b3db436c444df0e6218ae352ca7984d29e364624181f391189618"
    },
    {
     "ts": 1787257446,
@@ -7500,25 +7512,13 @@
     "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX\u2019s Record IPO Size Tr Top It' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
-   },
-   {
-    "ts": 1787235086,
-    "headline": "'Anthropic Plans to Change Data Retention Policy for Advanced AI' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b6a031ed740b031c4076bb06064ca30c3f09acc79ab1a9c6f4b2e11e4bb9f31a"
-   },
-   {
-    "ts": 1787234643,
-    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T14:59:08Z",
+  "fetched_at": "2026-08-21T15:28:55Z",
   "error": "no insider filings in six months"
  },
  "peers": {
