@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T16:24:27Z",
+ "generated_at": "2026-08-21T16:57:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:24:27Z",
-  "current": 215.73,
-  "change": -1.12,
-  "change_pct": -0.5165,
+  "fetched_at": "2026-08-21T16:57:42Z",
+  "current": 215.13,
+  "change": -1.72,
+  "change_pct": -0.7932,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787329436
+  "ts": 1787331446
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:24:27Z",
+  "fetched_at": "2026-08-21T16:57:42Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T16:24:27Z",
+  "fetched_at": "2026-08-21T16:57:42Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 215.69,
-    "volume": 2277280.0
+    "close": 215.09,
+    "volume": 2431580.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:24:27Z",
+  "fetched_at": "2026-08-21T16:57:42Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T16:24:28Z",
+  "fetched_at": "2026-08-21T16:57:43Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.57429,
+  "forward_pe": 16.533937,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:24:28Z",
+  "fetched_at": "2026-08-21T16:57:43Z",
   "rows": [
    {
     "ts": 1787312952,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T16:24:28Z",
+  "fetched_at": "2026-08-21T16:57:43Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
