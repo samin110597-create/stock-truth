@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-20T20:52:45Z",
+ "generated_at": "2026-08-21T13:36:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:45Z",
-  "current": 545.83,
-  "change": -0.2,
-  "change_pct": -0.0366,
-  "high": 549.988,
-  "low": 539.31,
-  "open": 546.95,
-  "prev_close": 546.03,
-  "ts": 1787256000
+  "fetched_at": "2026-08-21T13:36:15Z",
+  "current": 546.39,
+  "change": 0.56,
+  "change_pct": 0.1026,
+  "high": 547.6375,
+  "low": 543.23,
+  "open": 547.6375,
+  "prev_close": 545.83,
+  "ts": 1787319352
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:45Z",
+  "fetched_at": "2026-08-21T13:36:16Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1391014730605.1787,
+  "mcap": 1390505347710.8694,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T20:52:46Z",
+  "fetched_at": "2026-08-21T13:36:16Z",
   "bars": [
-   {
-    "date": "2023-01-19",
-    "open": 132.49001,
-    "high": 137.45,
-    "low": 132.14,
-    "close": 136.14999,
-    "volume": 28625200.0
-   },
    {
     "date": "2023-01-20",
     "open": 135.89,
@@ -7215,22 +7207,30 @@
    {
     "date": "2026-08-19",
     "open": 541.34003,
-    "high": 554.059998,
-    "low": 537.28003,
+    "high": 554.070007,
+    "low": 537.27002,
     "close": 546.030029,
-    "volume": 16348636.0
+    "volume": 16971700.0
    },
    {
     "date": "2026-08-20",
-    "open": 546.8,
-    "high": 549.9,
-    "low": 539.365,
-    "close": 545.77,
-    "volume": 642791.0
+    "open": 546.95001,
+    "high": 549.98798,
+    "low": 539.31,
+    "close": 545.83002,
+    "volume": 13836762.0
+   },
+   {
+    "date": "2026-08-21",
+    "open": 546.795,
+    "high": 547.18,
+    "low": 543.39,
+    "close": 546.28,
+    "volume": 12306.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-20",
+  "latest": "2026-08-21",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:46Z",
+  "fetched_at": "2026-08-21T13:36:16Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T20:52:46Z",
+  "fetched_at": "2026-08-21T13:36:17Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.72785,
+  "forward_pe": 15.769342,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
-  "institutions_pct": 0.79115,
+  "institutions_pct": 0.79107004,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:46Z",
+  "fetched_at": "2026-08-21T13:36:17Z",
   "rows": [
    {
-    "ts": 1787237288,
-    "headline": "S&P 500 Just Got The Green Light To 8000",
+    "ts": 1787279244,
+    "headline": "Meta Thinks Outside The Box With Memory",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1a961459316c8bdf0d9d3718475df173b3baef3c3c18a7fb603ef47084c11ff0"
+    "url": "https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867"
    },
    {
-    "ts": 1787234760,
-    "headline": "Hyperscaler AI Capex: What The Headlines Miss",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
+    "ts": 1787257200,
+    "headline": "Win or lose, Meta still faces real risks in its social media addiction trial",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4a5a74a098a6112500c983dff88a09233eadd41e8195f272843bb13cffcd3c91"
    },
    {
-    "ts": 1787234643,
-    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
+    "ts": 1787256300,
+    "headline": "LPL Financial Reports Monthly Activity for July 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=203f5de9dccaf44bcd7169801cf4e436b372479a02474082a031528f3f5c5db5"
    },
    {
-    "ts": 1787227558,
-    "headline": "Broadcom\u2019s AI Competition Fears Look Overblown: Analyst",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=63c566376229af761e76e86d8d60aaa72226cbc105b2c97850699d483dab931e"
+    "ts": 1787254828,
+    "headline": "Meta Slips as $200 Billion Youth-Safety Trial Intensifies",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f69da5a4c14fb68d9140b9a66fec00214b09324e40ae4fe2b1ce5facd0b85bbe"
    },
    {
-    "ts": 1787223711,
-    "headline": "Watch CNBC's full interview with California Attorney General Rob Bonta",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=2dbca0f6ad079fe9e59ef24f0a53d09e0e8bce79f602f13d12b319cf307608e2"
+    "ts": 1787252400,
+    "headline": "4 High-Growth GARP Stocks With Discounted PEG Ratios for 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=041a4c9f6cc5c0075988551d144200319109982857e66b39b37960f7eccb86a1"
    },
    {
-    "ts": 1787220767,
-    "headline": "A 10-Year Treasury Bond Now Pays More Than 118 Of America's Biggest Companies",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=1a918e278efa39fc47340379cc1c25103f095618a9b7a011a4c3fe5235133013"
+    "ts": 1787252047,
+    "headline": "Top Meta Reporter: Zuckerberg Dropped a Major Hint About Meta\u2019s Next AI Breakthrough and Nobody\u2019s Paying Attention",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c6054df943e650c76464bac8d189b0bb63bc830919c495070963fd8654275430"
    },
    {
-    "ts": 1787215229,
-    "headline": "Mark Cuban Fires Back At Jensen Huang\u2019s AI Warning \u2014 \u2018No Chance Radiologists Get Replaced\u2019 Despite Nvidia CEO\u2019s Prediction",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3ac9c3207f51e92ea0364fc2e7837bba884d8b2386c7140ed0aa60f39d838428"
+    "ts": 1787249852,
+    "headline": "Meta Is Now One of Microsoft's Largest AI Customers",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0e6ea3b1eab4849a481539fe9d2bca06f5a1f0630164bcd6e80c59cd36d4748f"
    },
    {
-    "ts": 1787205611,
-    "headline": "Meta Platforms: H2 2026 May Disappoint - Value Trap Risks Meet Rich Rebound Prospects",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924"
+    "ts": 1787249340,
+    "headline": "X reportedly explores stablecoin payments for content creators",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=718f9157588931348daa60c4a701574d0012ba8c24ddd4b9d34aa90575fd63ae"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:47Z",
+  "fetched_at": "2026-08-21T13:36:17Z",
   "buys": 107,
-  "sells": 228,
-  "net_shares": 3243538.0,
+  "sells": 224,
+  "net_shares": 3251794.0,
   "months": 6,
   "recent": [
    {

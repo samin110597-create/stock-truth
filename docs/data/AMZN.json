@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-20T20:52:12Z",
+ "generated_at": "2026-08-21T13:35:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:12Z",
-  "current": 260.11,
-  "change": -5.73,
-  "change_pct": -2.1554,
-  "high": 263.84,
-  "low": 259.52,
-  "open": 263.16,
-  "prev_close": 265.84,
-  "ts": 1787256000
+  "fetched_at": "2026-08-21T13:35:38Z",
+  "current": 258.17,
+  "change": -1.94,
+  "change_pct": -0.7458,
+  "high": 261.09,
+  "low": 258.11,
+  "open": 261.0,
+  "prev_close": 260.11,
+  "ts": 1787319328
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:12Z",
+  "fetched_at": "2026-08-21T13:35:39Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2867433969130.3403,
+  "mcap": 2805628213753.0063,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T20:52:13Z",
+  "fetched_at": "2026-08-21T13:35:39Z",
   "bars": [
-   {
-    "date": "2023-01-19",
-    "open": 94.74,
-    "high": 95.44,
-    "low": 92.86,
-    "close": 93.68,
-    "volume": 69002700.0
-   },
    {
     "date": "2023-01-20",
     "open": 93.86,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-19",
-    "open": 260.845,
+    "open": 260.85001,
     "high": 266.39999,
     "low": 258.57999,
     "close": 265.84,
-    "volume": 32458494.0
+    "volume": 35762400.0
    },
    {
     "date": "2026-08-20",
-    "open": 263.17,
-    "high": 263.79,
-    "low": 259.61,
-    "close": 260.165,
-    "volume": 1143593.0
+    "open": 262.905,
+    "high": 263.84,
+    "low": 259.51999,
+    "close": 260.10999,
+    "volume": 28294255.0
+   },
+   {
+    "date": "2026-08-21",
+    "open": 260.625,
+    "high": 261.08,
+    "low": 258.2,
+    "close": 258.255,
+    "volume": 51398.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-20",
+  "latest": "2026-08-21",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:13Z",
+  "fetched_at": "2026-08-21T13:35:39Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,26 +7445,62 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T20:52:14Z",
+  "fetched_at": "2026-08-21T13:35:40Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.06415,
-  "forward_eps": 10.37777,
+  "forward_pe": 24.872698,
+  "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.68799,
+  "institutions_pct": 0.68791,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:14Z",
+  "fetched_at": "2026-08-21T13:35:40Z",
   "rows": [
+   {
+    "ts": 1787302427,
+    "headline": "Walmart In No Man's Land",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f0808d203fc1d7f37244f9bb4d8d6303f364ce6e9905cf34b9c44ad7d0f0944b"
+   },
+   {
+    "ts": 1787301026,
+    "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
+   },
+   {
+    "ts": 1787299200,
+    "headline": "Amazon: Don't Miss Out On The Clearance Sale",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a7feefa1b879d4f92e9c9339b42e5396c1dda1457fd30f5e83105ef27d6002b1"
+   },
+   {
+    "ts": 1787285459,
+    "headline": "Electrovaya: A Bad Case Of Overpromising And Underdelivering - Sell",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d7462a99f0695ca2ed61393c66934631ab0aea836ab40e9ff6b197ad9cb5b5f6"
+   },
+   {
+    "ts": 1787281500,
+    "headline": "Asia's Digital Economy Benefits From The Continued Shift To Online Buying",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=414b3bbeaf4b3da484df8f5ce5fdf21ae84f377865918d71b7128457cdd9b3fe"
+   },
+   {
+    "ts": 1787257446,
+    "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
+   },
    {
     "ts": 1787253006,
     "headline": "Which dow jones stocks are moving on Thursday?",
@@ -7472,53 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=dfd1ab1771431dd4977c3660606f49ee58f6377693bed6cc3754ed3555c67ed0"
    },
    {
-    "ts": 1787244004,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=1d8363aabcf751eaf84d1590e0e4b66548c336e4febf069797c0fb58279fa25d"
-   },
-   {
-    "ts": 1787235189,
-    "headline": "'Anthropic Prepares To File Publicly For Its Potential Mega-IPO As Soon As The End Of August; Expects To Match SpaceX\u2019s Record IPO Size Tr Top It' - Bloomberg",
+    "ts": 1787248712,
+    "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f477a5bc0781fb216fec7a42849e6c182bdeec9bc55aacf1dd553561957290fe"
-   },
-   {
-    "ts": 1787235086,
-    "headline": "'Anthropic Plans to Change Data Retention Policy for Advanced AI' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b6a031ed740b031c4076bb06064ca30c3f09acc79ab1a9c6f4b2e11e4bb9f31a"
-   },
-   {
-    "ts": 1787234760,
-    "headline": "Hyperscaler AI Capex: What The Headlines Miss",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ba236fba804b8a75f29a1300656f148d24a486838e1002f937ad75d57c912f23"
-   },
-   {
-    "ts": 1787234643,
-    "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
-   },
-   {
-    "ts": 1787232918,
-    "headline": "10 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a4b92f197a737eeec53f4dadecc55ab114134bcbbc1e567af8bb5f84ffce3129"
-   },
-   {
-    "ts": 1787228379,
-    "headline": "S&P 500: American Exceptionalism Is Worth The Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
+    "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:14Z",
+  "fetched_at": "2026-08-21T13:35:41Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-20T20:52:23Z",
+ "generated_at": "2026-08-21T13:35:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:23Z",
-  "current": 338.2,
-  "change": -3.5,
-  "change_pct": -1.0243,
-  "high": 340.8,
-  "low": 336.17,
-  "open": 339.69,
-  "prev_close": 341.7,
-  "ts": 1787256000
+  "fetched_at": "2026-08-21T13:35:50Z",
+  "current": 338.82,
+  "change": 0.62,
+  "change_pct": 0.1833,
+  "high": 340.28,
+  "low": 337.81,
+  "open": 339.715,
+  "prev_close": 338.2,
+  "ts": 1787319328
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:23Z",
+  "fetched_at": "2026-08-21T13:35:50Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4215925600000.0005,
+  "mcap": 4166394100000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-20T20:52:24Z",
+  "fetched_at": "2026-08-21T13:35:52Z",
   "bars": [
-   {
-    "date": "2023-01-19",
-    "open": 91.39,
-    "high": 94.4,
-    "low": 91.38,
-    "close": 93.91,
-    "volume": 28707700.0
-   },
    {
     "date": "2023-01-20",
     "open": 95.95,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-19",
-    "open": 339.79999,
+    "open": 339.81,
     "high": 343.56,
     "low": 338.049988,
     "close": 341.70001,
-    "volume": 13290636.0
+    "volume": 13360500.0
    },
    {
     "date": "2026-08-20",
-    "open": 339.51,
-    "high": 340.79,
-    "low": 336.2,
-    "close": 338.25,
-    "volume": 636570.0
+    "open": 339.69,
+    "high": 340.79999,
+    "low": 336.17001,
+    "close": 338.20001,
+    "volume": 14165362.0
+   },
+   {
+    "date": "2026-08-21",
+    "open": 339.88,
+    "high": 339.91,
+    "low": 337.81,
+    "close": 338.37,
+    "volume": 11983.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-20",
+  "latest": "2026-08-21",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:24Z",
+  "fetched_at": "2026-08-21T13:35:52Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T20:52:25Z",
+  "fetched_at": "2026-08-21T13:35:52Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.835583,
+  "forward_pe": 22.885887,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.62308997,
+  "institutions_pct": 0.62282,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:25Z",
+  "fetched_at": "2026-08-21T13:35:52Z",
   "rows": [
+   {
+    "ts": 1787301401,
+    "headline": "Buying Marvell Before Broadcom Is A Big Mistake",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150"
+   },
+   {
+    "ts": 1787301026,
+    "headline": "$1 Million In The S&P 500: An 11-Stock Direct Indexing Strategy",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
+   },
+   {
+    "ts": 1787257446,
+    "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
+   },
+   {
+    "ts": 1787248712,
+    "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
+   },
    {
     "ts": 1787236396,
     "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
@@ -7488,37 +7512,13 @@
     "headline": "Walmart's Outlook Signals Cautious Spending Ahead; Treasury Euphoria Fades; Samsung Soars; Bitcoin Shorts Crushed",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=9f0fa6491050ece16f58e6bad9a1a4f330e0e162e9f4b10b87b5fd9db4f36298"
-   },
-   {
-    "ts": 1787234556,
-    "headline": "Alphabet: The $250 Billion Capex Offload Plan",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=7bdc39cbcc7f603f5a1e1dc62a3eb36c683b391e08b34ff3e80f4715d95ed4af"
-   },
-   {
-    "ts": 1787228379,
-    "headline": "S&P 500: American Exceptionalism Is Worth The Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=29fe4eeb7074a68ee08a7e56f6baeebc832f11b0f40f2d2f33378b3516d58e77"
-   },
-   {
-    "ts": 1787228312,
-    "headline": "Marvell\u2019s Google AI Deal Could Unlock a Staggering $120 Billion Opportunity, Analyst Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58"
-   },
-   {
-    "ts": 1787228239,
-    "headline": "EXCLUSIVE: Nvidia Partner Says Tesla, Waymo Are Growing the Physical AI Market \u2014 Not Competing With It",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f50aa2ea2ee3192a197d90d5fb6a2e046fbfc65772a5c7ed156d4bc479e0098f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-20T20:52:25Z",
+  "fetched_at": "2026-08-21T13:35:52Z",
   "error": "no insider filings in six months"
  },
  "peers": {
