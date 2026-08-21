@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T15:58:13Z",
+ "generated_at": "2026-08-21T16:24:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:13Z",
-  "current": 342.18,
-  "change": 3.98,
-  "change_pct": 1.1768,
+  "fetched_at": "2026-08-21T16:24:16Z",
+  "current": 341.0,
+  "change": 2.8,
+  "change_pct": 0.8279,
   "high": 342.59,
   "low": 337.81,
   "open": 339.715,
   "prev_close": 338.2,
-  "ts": 1787327865
+  "ts": 1787329436
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:13Z",
+  "fetched_at": "2026-08-21T16:24:16Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:58:14Z",
+  "fetched_at": "2026-08-21T16:24:17Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 339.88,
     "high": 342.54,
     "low": 337.81,
-    "close": 342.105,
-    "volume": 259951.0
+    "close": 340.905,
+    "volume": 287281.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:14Z",
+  "fetched_at": "2026-08-21T16:24:17Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:58:14Z",
+  "fetched_at": "2026-08-21T16:24:18Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.092243,
+  "forward_pe": 23.024303,
   "forward_eps": 14.81022,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:15Z",
+  "fetched_at": "2026-08-21T16:24:18Z",
   "rows": [
+   {
+    "ts": 1787312952,
+    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+   },
    {
     "ts": 1787310722,
     "headline": "3 Funds For The Technologies That Could Define The Next Decade",
@@ -7490,6 +7496,12 @@
     "url": "https://finnhub.io/api/news?id=25595542c954f854dc850eb0078ca0894ab39750efa9c25c5000303b15e24f4d"
    },
    {
+    "ts": 1787293791,
+    "headline": "Waymo Unveils First Custom Robotaxi Chip With More Than 1,000 TOPS of AI Processing Power",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=55e10e9aff2d75884c263b54c5c4325670d5e2b2c852f419121d534eff6e07fe"
+   },
+   {
     "ts": 1787291000,
     "headline": "Chris Hohn\u2019s TCI Revamps Q2 Portfolio, Exits Microsoft and Adds to Alphabet",
     "source": "Benzinga",
@@ -7500,25 +7512,13 @@
     "headline": "Tracking Mario Gabelli's Gabelli Funds 13F Portfolio - Q2 2026 Update",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d34e4cb40cc75d54d268277ce81d9c6581998aa1f8ad4091d34324375bc7500b"
-   },
-   {
-    "ts": 1787248712,
-    "headline": "'Anthropic Set to Add Citigroup to Top IPO Banks on Mega-Listing'- Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b953fcc1677023df0bb53e839bc4e97fcf76c4122fdfb3280c74f7c3d72c427e"
-   },
-   {
-    "ts": 1787236396,
-    "headline": "Broadcom: Marvell Panic Causes A Huge Buying Opportunity",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=42c8bba8655a078154193a1cbcdbdcab4010b3969600f3f8c0f4e073167a5b84"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:15Z",
+  "fetched_at": "2026-08-21T16:24:18Z",
   "error": "no insider filings in six months"
  },
  "peers": {

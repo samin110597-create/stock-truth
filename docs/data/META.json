@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-21T15:58:34Z",
+ "generated_at": "2026-08-21T16:24:37Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:35Z",
-  "current": 550.33,
-  "change": 4.5,
-  "change_pct": 0.8244,
+  "fetched_at": "2026-08-21T16:24:37Z",
+  "current": 550.09,
+  "change": 4.26,
+  "change_pct": 0.7805,
   "high": 553.8733,
   "low": 543.23,
   "open": 547.6375,
   "prev_close": 545.83,
-  "ts": 1787327890
+  "ts": 1787329459
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:35Z",
+  "fetched_at": "2026-08-21T16:24:37Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:58:36Z",
+  "fetched_at": "2026-08-21T16:24:38Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 546.795,
     "high": 553.86,
     "low": 543.39,
-    "close": 550.29,
-    "volume": 205939.0
+    "close": 550.05,
+    "volume": 237387.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:36Z",
+  "fetched_at": "2026-08-21T16:24:38Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:58:36Z",
+  "fetched_at": "2026-08-21T16:24:38Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.854632,
+  "forward_pe": 15.843396,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:36Z",
+  "fetched_at": "2026-08-21T16:24:38Z",
   "rows": [
+   {
+    "ts": 1787312952,
+    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+   },
    {
     "ts": 1787301797,
     "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
@@ -7515,19 +7521,13 @@
     "headline": "Top Meta Reporter: Zuckerberg Dropped a Major Hint About Meta\u2019s Next AI Breakthrough and Nobody\u2019s Paying Attention",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=c6054df943e650c76464bac8d189b0bb63bc830919c495070963fd8654275430"
-   },
-   {
-    "ts": 1787249852,
-    "headline": "Meta Is Now One of Microsoft's Largest AI Customers",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0e6ea3b1eab4849a481539fe9d2bca06f5a1f0630164bcd6e80c59cd36d4748f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:36Z",
+  "fetched_at": "2026-08-21T16:24:39Z",
   "buys": 107,
   "sells": 224,
   "net_shares": 3251794.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T15:58:02Z",
+ "generated_at": "2026-08-21T16:24:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:02Z",
-  "current": 260.04,
-  "change": -0.07,
-  "change_pct": -0.0269,
+  "fetched_at": "2026-08-21T16:24:05Z",
+  "current": 259.1,
+  "change": -1.01,
+  "change_pct": -0.3883,
   "high": 261.09,
   "low": 257.035,
   "open": 261.0,
   "prev_close": 260.11,
-  "ts": 1787327866
+  "ts": 1787329436
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:02Z",
+  "fetched_at": "2026-08-21T16:24:05Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:58:03Z",
+  "fetched_at": "2026-08-21T16:24:06Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 260.625,
     "high": 261.08,
     "low": 257.05,
-    "close": 259.99,
-    "volume": 1025099.0
+    "close": 259.055,
+    "volume": 1077481.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:03Z",
+  "fetched_at": "2026-08-21T16:24:06Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:58:04Z",
+  "fetched_at": "2026-08-21T16:24:07Z",
   "analyst_target_mean": 326.83734,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.004549,
+  "forward_pe": 24.93429,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:04Z",
+  "fetched_at": "2026-08-21T16:24:07Z",
   "rows": [
+   {
+    "ts": 1787312952,
+    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+   },
    {
     "ts": 1787310722,
     "headline": "3 Funds For The Technologies That Could Define The Next Decade",
@@ -7506,19 +7512,13 @@
     "headline": "Amazon: Don't Miss Out On The Clearance Sale",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=a7feefa1b879d4f92e9c9339b42e5396c1dda1457fd30f5e83105ef27d6002b1"
-   },
-   {
-    "ts": 1787285459,
-    "headline": "Electrovaya: A Bad Case Of Overpromising And Underdelivering - Sell",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d7462a99f0695ca2ed61393c66934631ab0aea836ab40e9ff6b197ad9cb5b5f6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:04Z",
+  "fetched_at": "2026-08-21T16:24:07Z",
   "buys": 40,
   "sells": 103,
   "net_shares": -2100789.0,

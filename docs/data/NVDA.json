@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T15:58:24Z",
+ "generated_at": "2026-08-21T16:24:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:24Z",
-  "current": 216.36,
-  "change": -0.49,
-  "change_pct": -0.226,
+  "fetched_at": "2026-08-21T16:24:27Z",
+  "current": 215.73,
+  "change": -1.12,
+  "change_pct": -0.5165,
   "high": 218.74,
   "low": 214.5,
   "open": 218.285,
   "prev_close": 216.85,
-  "ts": 1787327890
+  "ts": 1787329436
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:24Z",
+  "fetched_at": "2026-08-21T16:24:27Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T15:58:25Z",
+  "fetched_at": "2026-08-21T16:24:27Z",
   "bars": [
    {
     "date": "2023-01-20",
@@ -7225,8 +7225,8 @@
     "open": 218.42,
     "high": 218.73,
     "low": 214.51,
-    "close": 216.315,
-    "volume": 2126780.0
+    "close": 215.69,
+    "volume": 2277280.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:25Z",
+  "fetched_at": "2026-08-21T16:24:27Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T15:58:25Z",
+  "fetched_at": "2026-08-21T16:24:28Z",
   "analyst_target_mean": 304.1207,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.62771,
+  "forward_pe": 16.57429,
   "forward_eps": 13.01021,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:25Z",
+  "fetched_at": "2026-08-21T16:24:28Z",
   "rows": [
+   {
+    "ts": 1787312952,
+    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+   },
+   {
+    "ts": 1787312405,
+    "headline": "AI Stocks May Be Ignoring A Growing Risk Seen In Credit Markets",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=932fa91307c2859f9e0df540263c429bdaf34390836266d76de2af254764c9d3"
+   },
    {
     "ts": 1787310722,
     "headline": "3 Funds For The Technologies That Could Define The Next Decade",
@@ -7509,25 +7521,13 @@
     "headline": "NVIDIA Could Snap up Korean AI Chip Startup Rebellions in Latest AI Power Play",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=e22c540fa45c0d3d047f8990ab3de81a03ffa1dfb0def37df74046f3d2a69afa"
-   },
-   {
-    "ts": 1787291312,
-    "headline": "Broadcom Steps up NVIDIA Challenge With Potential $100 Billion AI Financing Deal",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=cc22b5af25817b585e266ad92cdb6b1ec302e0d16622910ee36e4a7635c3dcfe"
-   },
-   {
-    "ts": 1787290916,
-    "headline": "Deepseek Announced Experimental Multimodal Model DeepSeek-V4-Flash-Vision-Exp Is Now Live On API Platform",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e98670c8b647861745020f9b32e97560a2f53541c1ee18557192b17e950b12ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T15:58:25Z",
+  "fetched_at": "2026-08-21T16:24:28Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
