@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T18:19:53Z",
+ "generated_at": "2026-08-24T19:07:37Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:53Z",
-  "current": 345.4,
-  "change": 3.65,
-  "change_pct": 1.068,
+  "fetched_at": "2026-08-24T19:07:38Z",
+  "current": 345.41,
+  "change": 3.66,
+  "change_pct": 1.071,
   "high": 348.08,
   "low": 339.62,
   "open": 340.38,
   "prev_close": 341.75,
-  "ts": 1787595575
+  "ts": 1787598434
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:53Z",
+  "fetched_at": "2026-08-24T19:07:38Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T18:19:56Z",
+  "fetched_at": "2026-08-24T19:07:39Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 340.7,
     "high": 348.08,
     "low": 339.62,
-    "close": 345.41,
-    "volume": 560140.0
+    "close": 345.385,
+    "volume": 591518.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:56Z",
+  "fetched_at": "2026-08-24T19:07:40Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T18:19:56Z",
+  "fetched_at": "2026-08-24T19:07:40Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.31171,
+  "forward_pe": 23.31914,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:57Z",
+  "fetched_at": "2026-08-24T19:07:40Z",
   "rows": [
    {
     "ts": 1787578264,
@@ -7476,6 +7476,12 @@
     "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
+   },
+   {
+    "ts": 1787574163,
+    "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
    },
    {
     "ts": 1787563812,
@@ -7506,19 +7512,13 @@
     "headline": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=4d12749ca51a34b99fa186306c2dc9a405263b637b62371643c2c6bdbd703c19"
-   },
-   {
-    "ts": 1787548048,
-    "headline": "Nvidia\u2019s AI Servers Are About to Get Even More Expensive as Rising Memory Costs Push Prices Up More Than 15%: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=413082fc2ac0d03452446607a56c2ca48eb313ccee2c1398ac2b3b9e101e2e9a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:57Z",
+  "fetched_at": "2026-08-24T19:07:40Z",
   "error": "no insider filings in six months"
  },
  "peers": {

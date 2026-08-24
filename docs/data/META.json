@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-24T18:20:20Z",
+ "generated_at": "2026-08-24T19:08:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:20:20Z",
-  "current": 559.34,
-  "change": 9.44,
-  "change_pct": 1.7167,
-  "high": 559.45,
+  "fetched_at": "2026-08-24T19:08:00Z",
+  "current": 559.73,
+  "change": 9.83,
+  "change_pct": 1.7876,
+  "high": 560.95,
   "low": 546.3,
   "open": 550.055,
   "prev_close": 549.9,
-  "ts": 1787595604
+  "ts": 1787598464
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:20:20Z",
+  "fetched_at": "2026-08-24T19:08:01Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T18:20:26Z",
+  "fetched_at": "2026-08-24T19:08:02Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-24",
     "open": 549.8,
-    "high": 559.44,
+    "high": 560.9,
     "low": 546.415,
-    "close": 559.28,
-    "volume": 309514.0
+    "close": 559.61,
+    "volume": 363220.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:20:26Z",
+  "fetched_at": "2026-08-24T19:08:02Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T18:20:26Z",
+  "fetched_at": "2026-08-24T19:08:02Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.123041,
+  "forward_pe": 16.135,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:20:26Z",
+  "fetched_at": "2026-08-24T19:08:02Z",
   "rows": [
+   {
+    "ts": 1787581124,
+    "headline": "Alibaba: The Market Got This One Wrong",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=78b3ad9a31e68ce7926138e71a316387787c485ea7009e5f2884501a93b113c5"
+   },
    {
     "ts": 1787576240,
     "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
+   },
+   {
+    "ts": 1787565797,
+    "headline": "Why Is IREN Stock Sliding on Monday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=e4269585489a2ea267e82a5d76896a64e6899959fb6a2a0cd4d688cecb9ca493"
    },
    {
     "ts": 1787563889,
@@ -7509,25 +7521,13 @@
     "headline": "Nobody Warned Her That Two Retirement Accounts Meant Two RMD Rules, a 25% Penalty",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=86011f05583cbdc29708497735170951a408aed7390139fb652c423818647de9"
-   },
-   {
-    "ts": 1787508458,
-    "headline": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e12b285cb9bab3e4e96048a68e48dea5f65168b112c994b8f79247df72c03371"
-   },
-   {
-    "ts": 1787496293,
-    "headline": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9e0bdc9badb8609b9eb8174cf6711e4131b5f18c8a220c9ca0c969805b9bdd83"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:20:27Z",
+  "fetched_at": "2026-08-24T19:08:02Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-24T18:19:40Z",
+ "generated_at": "2026-08-24T19:07:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:40Z",
-  "current": 262.92,
-  "change": 4.29,
-  "change_pct": 1.6587,
+  "fetched_at": "2026-08-24T19:07:23Z",
+  "current": 261.93,
+  "change": 3.3,
+  "change_pct": 1.276,
   "high": 263.32,
   "low": 258.765,
   "open": 258.765,
   "prev_close": 258.63,
-  "ts": 1787595556
+  "ts": 1787598415
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:41Z",
+  "fetched_at": "2026-08-24T19:07:23Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T18:19:43Z",
+  "fetched_at": "2026-08-24T19:07:28Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 259.79,
     "high": 263.32,
     "low": 259.09,
-    "close": 262.87,
-    "volume": 826045.0
+    "close": 261.76,
+    "volume": 888561.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:43Z",
+  "fetched_at": "2026-08-24T19:07:28Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T18:19:44Z",
+  "fetched_at": "2026-08-24T19:07:28Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.292301,
+  "forward_pe": 25.19655,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:44Z",
+  "fetched_at": "2026-08-24T19:07:28Z",
   "rows": [
+   {
+    "ts": 1787594700,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012"
+   },
    {
     "ts": 1787589605,
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
@@ -7476,6 +7482,12 @@
     "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
+   },
+   {
+    "ts": 1787574163,
+    "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
    },
    {
     "ts": 1787562375,
@@ -7500,25 +7512,13 @@
     "headline": "Nvidia in Talks to Back Jeff Bezos-Funded Perplexity at Over $30 Billion Valuation As AI Startup's Revenue Explodes to $750 Million: Report",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=23eb33df2ba28efd8fecad7a76ecd201b58621e1f43a4a10304f2bc4e70da3f7"
-   },
-   {
-    "ts": 1787521046,
-    "headline": "Market Volatility Risk: Nvidia Earnings And Jackson Hole Next Week",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=8522f9c5d378b2e6f3094ea6b686f844912c8f43296bc2edff0144a92bd32f24"
-   },
-   {
-    "ts": 1787508420,
-    "headline": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=089efd0555812f556abbe08388032dcd1f681a5ea622f68392b3f3c07d23c7d6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T18:19:44Z",
+  "fetched_at": "2026-08-24T19:07:28Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,
