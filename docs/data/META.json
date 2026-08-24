@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-24T19:08:00Z",
+ "generated_at": "2026-08-24T19:50:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:08:00Z",
-  "current": 559.73,
-  "change": 9.83,
-  "change_pct": 1.7876,
-  "high": 560.95,
+  "fetched_at": "2026-08-24T19:50:33Z",
+  "current": 560.93,
+  "change": 11.03,
+  "change_pct": 2.0058,
+  "high": 561.0,
   "low": 546.3,
   "open": 550.055,
   "prev_close": 549.9,
-  "ts": 1787598464
+  "ts": 1787601010
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:08:01Z",
+  "fetched_at": "2026-08-24T19:50:33Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T19:08:02Z",
+  "fetched_at": "2026-08-24T19:50:37Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 549.8,
     "high": 560.9,
     "low": 546.415,
-    "close": 559.61,
-    "volume": 363220.0
+    "close": 560.64,
+    "volume": 412537.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:08:02Z",
+  "fetched_at": "2026-08-24T19:50:37Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T19:08:02Z",
+  "fetched_at": "2026-08-24T19:50:37Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.135,
+  "forward_pe": 16.168713,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:08:02Z",
+  "fetched_at": "2026-08-24T19:50:37Z",
   "rows": [
    {
     "ts": 1787581124,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:08:02Z",
+  "fetched_at": "2026-08-24T19:50:37Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,

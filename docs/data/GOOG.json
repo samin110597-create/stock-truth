@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T19:07:37Z",
+ "generated_at": "2026-08-24T19:50:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:38Z",
-  "current": 345.41,
-  "change": 3.66,
-  "change_pct": 1.071,
+  "fetched_at": "2026-08-24T19:50:09Z",
+  "current": 345.12,
+  "change": 3.37,
+  "change_pct": 0.9861,
   "high": 348.08,
   "low": 339.62,
   "open": 340.38,
   "prev_close": 341.75,
-  "ts": 1787598434
+  "ts": 1787600987
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:38Z",
+  "fetched_at": "2026-08-24T19:50:09Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T19:07:39Z",
+  "fetched_at": "2026-08-24T19:50:11Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 340.7,
     "high": 348.08,
     "low": 339.62,
-    "close": 345.385,
-    "volume": 591518.0
+    "close": 345.06,
+    "volume": 677124.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:40Z",
+  "fetched_at": "2026-08-24T19:50:11Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T19:07:40Z",
+  "fetched_at": "2026-08-24T19:50:11Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.31914,
+  "forward_pe": 23.32859,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:40Z",
+  "fetched_at": "2026-08-24T19:50:11Z",
   "rows": [
+   {
+    "ts": 1787584352,
+    "headline": "I'm Buying Space Without Buying Space Stocks",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e89ff924121c4d507af2bdb39b027e963a1e0d98993da6562c4a289f5f0cf0c4"
+   },
    {
     "ts": 1787578264,
     "headline": "The AI Trade Deleveraged, Its Suppliers Didn't",
@@ -7506,19 +7512,13 @@
     "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
-   },
-   {
-    "ts": 1787550367,
-    "headline": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4d12749ca51a34b99fa186306c2dc9a405263b637b62371643c2c6bdbd703c19"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:40Z",
+  "fetched_at": "2026-08-24T19:50:11Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-24T19:07:23Z",
+ "generated_at": "2026-08-24T19:49:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:23Z",
-  "current": 261.93,
-  "change": 3.3,
-  "change_pct": 1.276,
+  "fetched_at": "2026-08-24T19:49:59Z",
+  "current": 262.34,
+  "change": 3.71,
+  "change_pct": 1.4345,
   "high": 263.32,
   "low": 258.765,
   "open": 258.765,
   "prev_close": 258.63,
-  "ts": 1787598415
+  "ts": 1787600963
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:23Z",
+  "fetched_at": "2026-08-24T19:49:59Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T19:07:28Z",
+  "fetched_at": "2026-08-24T19:50:00Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 259.79,
     "high": 263.32,
     "low": 259.09,
-    "close": 261.76,
-    "volume": 888561.0
+    "close": 262.32,
+    "volume": 984670.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:28Z",
+  "fetched_at": "2026-08-24T19:50:00Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T19:07:28Z",
+  "fetched_at": "2026-08-24T19:50:00Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.19655,
+  "forward_pe": 25.249002,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:28Z",
+  "fetched_at": "2026-08-24T19:50:00Z",
   "rows": [
+   {
+    "ts": 1787598606,
+    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
+   },
    {
     "ts": 1787594700,
     "headline": "What's going on in today's session: S&P500 most active stocks",
@@ -7506,19 +7512,13 @@
     "headline": "AI's Next Bottleneck Isn't Chips, It's Power, With Demand Expected to Soar 1,100% by 2033: Why CEG, VST, GEV Stocks Are in Focus",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=8e2c1ec5461761727354f02e59fc0d673fb759315111bc11f8c7cea37ebd0de5"
-   },
-   {
-    "ts": 1787537601,
-    "headline": "Nvidia in Talks to Back Jeff Bezos-Funded Perplexity at Over $30 Billion Valuation As AI Startup's Revenue Explodes to $750 Million: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=23eb33df2ba28efd8fecad7a76ecd201b58621e1f43a4a10304f2bc4e70da3f7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:07:28Z",
+  "fetched_at": "2026-08-24T19:50:00Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,
