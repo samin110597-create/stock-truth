@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T19:50:20Z",
+ "generated_at": "2026-08-24T20:15:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:50:20Z",
-  "current": 208.54,
-  "change": -6.18,
-  "change_pct": -2.8782,
+  "fetched_at": "2026-08-24T20:15:01Z",
+  "current": 208.48,
+  "change": -6.24,
+  "change_pct": -2.9061,
   "high": 215.59,
-  "low": 208.34,
-  "open": 215.32,
+  "low": 207.25,
+  "open": 215.53,
   "prev_close": 214.72,
-  "ts": 1787600987
+  "ts": 1787601600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:50:20Z",
+  "fetched_at": "2026-08-24T20:15:01Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T19:50:23Z",
+  "fetched_at": "2026-08-24T20:15:35Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-24",
     "open": 215.49,
     "high": 215.49,
-    "low": 208.35,
-    "close": 208.47,
-    "volume": 3266913.0
+    "low": 207.4,
+    "close": 208.42,
+    "volume": 3685381.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:50:23Z",
+  "fetched_at": "2026-08-24T20:15:35Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T19:50:23Z",
+  "fetched_at": "2026-08-24T20:15:36Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.982203,
+  "forward_pe": 15.986504,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:50:23Z",
+  "fetched_at": "2026-08-24T20:15:36Z",
   "rows": [
    {
     "ts": 1787598606,
@@ -7511,23 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=78b3ad9a31e68ce7926138e71a316387787c485ea7009e5f2884501a93b113c5"
    },
    {
+    "ts": 1787580864,
+    "headline": "Trump\u2019s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
+   },
+   {
     "ts": 1787579571,
     "headline": "More 'Naked Swimmers' Will Continue To Emerge As The Tide Recedes",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=74c428b2f640aae320191551ae774dcfcd20522fb3883b8639f5f241a28dc568"
-   },
-   {
-    "ts": 1787578524,
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d70aeb17af8f3bb67468c014ab48a9c0351439ab761e916096af3b89365d94b3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T19:50:24Z",
+  "fetched_at": "2026-08-24T20:15:36Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
