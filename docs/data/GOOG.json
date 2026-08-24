@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T17:01:47Z",
+ "generated_at": "2026-08-24T17:53:26Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:47Z",
-  "current": 347.62,
-  "change": 5.87,
-  "change_pct": 1.7176,
+  "fetched_at": "2026-08-24T17:53:26Z",
+  "current": 345.09,
+  "change": 3.34,
+  "change_pct": 0.9773,
   "high": 348.08,
   "low": 339.62,
   "open": 340.38,
   "prev_close": 341.75,
-  "ts": 1787590885
+  "ts": 1787593999
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:47Z",
+  "fetched_at": "2026-08-24T17:53:26Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T17:01:49Z",
+  "fetched_at": "2026-08-24T17:53:28Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 340.7,
     "high": 348.08,
     "low": 339.62,
-    "close": 347.535,
-    "volume": 482149.0
+    "close": 345.305,
+    "volume": 547091.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:49Z",
+  "fetched_at": "2026-08-24T17:53:29Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T17:01:50Z",
+  "fetched_at": "2026-08-24T17:53:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.467676,
+  "forward_pe": 23.291794,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:50Z",
+  "fetched_at": "2026-08-24T17:53:29Z",
   "rows": [
+   {
+    "ts": 1787578264,
+    "headline": "The AI Trade Deleveraged, Its Suppliers Didn't",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=40c34d0dd1185e79e8e69ffced14328b57b23f6c3c8acb7d14289e1b76115d73"
+   },
    {
     "ts": 1787563812,
     "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
@@ -7506,19 +7512,13 @@
     "headline": "Texas welcomed the AI boom. Now Abbott says data centers \"dug their own grave\"",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b755aec59d124c591eb6696c5ca304ce325b5d8990412a76c0cd6678b9d2bf1c"
-   },
-   {
-    "ts": 1787502900,
-    "headline": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d6dc2c9223b344c7bb08a7cf1c470c77bf0497ab73b998c60701ca5ea73a9c87"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:50Z",
+  "fetched_at": "2026-08-24T17:53:29Z",
   "error": "no insider filings in six months"
  },
  "peers": {

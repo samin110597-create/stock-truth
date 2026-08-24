@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-24T17:01:25Z",
+ "generated_at": "2026-08-24T17:53:11Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:25Z",
-  "current": 263.2,
-  "change": 4.57,
-  "change_pct": 1.767,
+  "fetched_at": "2026-08-24T17:53:12Z",
+  "current": 262.35,
+  "change": 3.72,
+  "change_pct": 1.4383,
   "high": 263.32,
   "low": 258.765,
   "open": 258.765,
   "prev_close": 258.63,
-  "ts": 1787590861
+  "ts": 1787593974
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:26Z",
+  "fetched_at": "2026-08-24T17:53:12Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T17:01:37Z",
+  "fetched_at": "2026-08-24T17:53:16Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 259.79,
     "high": 263.32,
     "low": 259.09,
-    "close": 263.0,
-    "volume": 707191.0
+    "close": 262.26,
+    "volume": 791421.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:37Z",
+  "fetched_at": "2026-08-24T17:53:16Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T17:01:37Z",
+  "fetched_at": "2026-08-24T17:53:17Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.326958,
+  "forward_pe": 25.228792,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:37Z",
+  "fetched_at": "2026-08-24T17:53:17Z",
   "rows": [
+   {
+    "ts": 1787589605,
+    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
+   },
    {
     "ts": 1787562375,
     "headline": "CoreWeave: A Financial Accident In The Making",
@@ -7506,19 +7512,13 @@
     "headline": "Texas welcomed the AI boom. Now Abbott says data centers \"dug their own grave\"",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=b755aec59d124c591eb6696c5ca304ce325b5d8990412a76c0cd6678b9d2bf1c"
-   },
-   {
-    "ts": 1787500854,
-    "headline": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=48b65ed7abb2599709313aae607fee11df40d774f6f47f19246b23464d57077c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:01:38Z",
+  "fetched_at": "2026-08-24T17:53:17Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,
