@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-21T20:45:41Z",
+ "generated_at": "2026-08-24T13:40:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:41Z",
-  "current": 549.9,
-  "change": 4.07,
-  "change_pct": 0.7457,
-  "high": 553.8733,
-  "low": 543.23,
-  "open": 546.885,
-  "prev_close": 545.83,
-  "ts": 1787342400
+  "fetched_at": "2026-08-24T13:40:56Z",
+  "current": 551.56,
+  "change": 1.66,
+  "change_pct": 0.3019,
+  "high": 552.51,
+  "low": 547.82,
+  "open": 550.055,
+  "prev_close": 549.9,
+  "ts": 1787578843
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:41Z",
+  "fetched_at": "2026-08-24T13:40:57Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1390505347710.8694,
+  "mcap": 1400873666930.8865,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T20:45:41Z",
+  "fetched_at": "2026-08-24T13:40:57Z",
   "bars": [
-   {
-    "date": "2023-01-20",
-    "open": 135.89,
-    "high": 139.94,
-    "low": 134.61,
-    "close": 139.37,
-    "volume": 28688600.0
-   },
    {
     "date": "2023-01-23",
     "open": 139.28999,
@@ -7215,22 +7207,30 @@
    {
     "date": "2026-08-20",
     "open": 546.95001,
-    "high": 549.98798,
+    "high": 549.98999,
     "low": 539.31,
     "close": 545.83002,
-    "volume": 13836762.0
+    "volume": 13872200.0
    },
    {
     "date": "2026-08-21",
-    "open": 546.795,
-    "high": 553.86,
-    "low": 543.39,
-    "close": 549.68,
-    "volume": 480331.0
+    "open": 546.89001,
+    "high": 553.87,
+    "low": 543.22998,
+    "close": 549.90002,
+    "volume": 13663800.0
+   },
+   {
+    "date": "2026-08-24",
+    "open": 549.8,
+    "high": 552.53,
+    "low": 547.95,
+    "close": 551.73,
+    "volume": 22406.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-21",
+  "latest": "2026-08-24",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T13:36:58Z",
+  "fetched_at": "2026-08-24T13:40:58Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1389027786752.0,
+  "mcap": 1407737921536.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.54,
+  "eps_ttm": 26.56,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 20.54446,
-  "forward_pe": 15.711137,
-  "pb": 5.318475,
-  "ps": 6.0856347,
-  "peg": 0.8116,
-  "ev_ebitda": 12.887,
+  "pe": 20.805515,
+  "forward_pe": 15.922765,
+  "pb": 5.3901143,
+  "ps": 6.1673346,
+  "peg": 0.8209,
+  "ev_ebitda": 12.976,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:41Z",
+  "fetched_at": "2026-08-24T13:40:58Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T20:45:42Z",
+  "fetched_at": "2026-08-24T13:40:59Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.845125,
+  "forward_pe": 15.924077,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
   "short_asof": 1785456000,
-  "institutions_pct": 0.79107004,
+  "institutions_pct": 0.79103994,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:42Z",
+  "fetched_at": "2026-08-24T13:40:59Z",
   "rows": [
    {
-    "ts": 1787319953,
-    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "ts": 1787562375,
+    "headline": "CoreWeave: A Financial Accident In The Making",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
-    "ts": 1787318683,
-    "headline": "Broadcom: You Snooze, You Lose",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
+    "ts": 1787510730,
+    "headline": "Nobody Warned Her That Two Retirement Accounts Meant Two RMD Rules, a 25% Penalty",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=86011f05583cbdc29708497735170951a408aed7390139fb652c423818647de9"
    },
    {
-    "ts": 1787316733,
-    "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
+    "ts": 1787508458,
+    "headline": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e12b285cb9bab3e4e96048a68e48dea5f65168b112c994b8f79247df72c03371"
    },
    {
-    "ts": 1787312952,
-    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+    "ts": 1787496293,
+    "headline": "Trump Continues Trading Stocks at Warp Speed: Berkshire Bought, Meta Sold",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9e0bdc9badb8609b9eb8174cf6711e4131b5f18c8a220c9ca0c969805b9bdd83"
    },
    {
-    "ts": 1787306235,
-    "headline": "AMD Could Grab a Bigger Slice of the AI Boom As Helios Takes on NVIDIA, Analyst Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=5d8a9a0835da26801e64673775cbd08c883f4336b1e946c12f9bbca1eba4b385"
+    "ts": 1787489400,
+    "headline": "1 Reason Why Meta Might Be the Best Artificial Intelligence (AI) Stock to Buy and Hold for 5 Years and Beyond",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=44d90aae0b5b834375b618ae37a566ff4b64ad0b8fbc6f7884a4dcebbcc1d404"
    },
    {
-    "ts": 1787301797,
-    "headline": "Bond Yields Are Rising Everywhere: Why This Isn't a US Debt Crisis",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d71b5cf3781f553e04af30da32db4425cd2267d1c143666c7135f06c8879bb32"
+    "ts": 1787487902,
+    "headline": "Nvidia's Q2 earnings to test resurgent AI trade",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f41f5da02a4528dd04591f2841a46d2ad6af0f415c3594e4a8c05456d827a23c"
    },
    {
-    "ts": 1787300740,
-    "headline": "Meta, Google And Snap Catch a Break as Teen Drops Social Media Addiction Lawsuit Ahead of Key Trial (UPDATED)",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b900c64d3b6d10f749db951b4aa543bb3fc992e0717798efb60a5f171b692dfa"
+    "ts": 1787477700,
+    "headline": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c801aca87ba9634815323f5241770ef0756e797663e424f356b6fc156d243e14"
    },
    {
-    "ts": 1787295601,
-    "headline": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=1e5a0aa94129cb28a903a31cddf27ec507b838c34d1913e6987fa3f4ad78221a"
+    "ts": 1787477400,
+    "headline": "American billionaires are showing off their farmland for elaborate hobbies, but a buying spree among the ultrarich risks pricing farmers out",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=709d6be4e237aa3350ae13ae52a61696d1ac9fa47f7bfe9e7c1c1bf86d54b504"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:42Z",
-  "buys": 107,
-  "sells": 224,
-  "net_shares": 3251794.0,
+  "fetched_at": "2026-08-24T13:40:59Z",
+  "buys": 105,
+  "sells": 223,
+  "net_shares": 3103139.0,
   "months": 6,
   "recent": [
    {

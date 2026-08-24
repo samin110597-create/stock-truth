@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-21T20:45:21Z",
+ "generated_at": "2026-08-24T13:40:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:21Z",
-  "current": 341.75,
-  "change": 3.55,
-  "change_pct": 1.0497,
-  "high": 343.29,
-  "low": 337.81,
-  "open": 340.28,
-  "prev_close": 338.2,
-  "ts": 1787342400
+  "fetched_at": "2026-08-24T13:40:31Z",
+  "current": 343.22,
+  "change": 1.47,
+  "change_pct": 0.4301,
+  "high": 344.9,
+  "low": 339.62,
+  "open": 340.38,
+  "prev_close": 341.75,
+  "ts": 1787578796
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:31Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4166394100000.0,
+  "mcap": 4217148599999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:34Z",
   "bars": [
-   {
-    "date": "2023-01-20",
-    "open": 95.95,
-    "high": 99.42,
-    "low": 95.91,
-    "close": 99.28,
-    "volume": 53704800.0
-   },
    {
     "date": "2023-01-23",
     "open": 99.13,
@@ -7218,19 +7210,27 @@
     "high": 340.79999,
     "low": 336.17001,
     "close": 338.20001,
-    "volume": 14165362.0
+    "volume": 14187700.0
    },
    {
     "date": "2026-08-21",
-    "open": 339.88,
-    "high": 343.275,
+    "open": 340.28,
+    "high": 343.29001,
     "low": 337.81,
-    "close": 341.73,
-    "volume": 639703.0
+    "close": 341.75,
+    "volume": 15336300.0
+   },
+   {
+    "date": "2026-08-24",
+    "open": 340.7,
+    "high": 344.89,
+    "low": 339.62,
+    "close": 343.445,
+    "volume": 52637.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-21",
+  "latest": "2026-08-24",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T13:36:37Z",
+  "fetched_at": "2026-08-24T13:40:35Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4167961673728.0,
+  "mcap": 4199637581824.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 17.108433,
-  "forward_pe": 23.069471,
-  "pb": 6.6960073,
-  "ps": 9.348015,
-  "peg": 0.9249,
-  "ev_ebitda": 23.535,
+  "pe": 17.238455,
+  "forward_pe": 23.18478,
+  "pb": 6.746896,
+  "ps": 9.419058,
+  "peg": 0.9262,
+  "ev_ebitda": 23.538,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:35Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:35Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.075283,
-  "forward_eps": 14.81022,
+  "forward_pe": 23.18478,
+  "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:36Z",
   "rows": [
    {
-    "ts": 1787323907,
-    "headline": "SpaceXAI Launches Grok 4.6 On Google Cloud Vertex AI",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=050b225a5b32397771f115a515579afb5b638640c702ccd8810e09f6f9cd8c5a"
-   },
-   {
-    "ts": 1787319953,
-    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "ts": 1787562375,
+    "headline": "CoreWeave: A Financial Accident In The Making",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
-    "ts": 1787318683,
-    "headline": "Broadcom: You Snooze, You Lose",
+    "ts": 1787559076,
+    "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=827aff53ceb201616b5e68d09cc2481ca0db544236dc6d0d0d4c72fb389365e2"
+    "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
    },
    {
-    "ts": 1787316733,
-    "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
-   },
-   {
-    "ts": 1787312952,
-    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "ts": 1787521046,
+    "headline": "Market Volatility Risk: Nvidia Earnings And Jackson Hole Next Week",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+    "url": "https://finnhub.io/api/news?id=8522f9c5d378b2e6f3094ea6b686f844912c8f43296bc2edff0144a92bd32f24"
    },
    {
-    "ts": 1787310722,
-    "headline": "3 Funds For The Technologies That Could Define The Next Decade",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
+    "ts": 1787506699,
+    "headline": "Texas welcomed the AI boom. Now Abbott says data centers \"dug their own grave\"",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b755aec59d124c591eb6696c5ca304ce325b5d8990412a76c0cd6678b9d2bf1c"
    },
    {
-    "ts": 1787308867,
-    "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af"
+    "ts": 1787502900,
+    "headline": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d6dc2c9223b344c7bb08a7cf1c470c77bf0497ab73b998c60701ca5ea73a9c87"
    },
    {
-    "ts": 1787302838,
-    "headline": "Wall Street Expects SpaceX to Outgrow Nvidia 7-to-1. Musk Says That's Too Low.",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c9f4c1adeb6acc5a651d1e0fc889c5945b89b35f5496dd3857fac3a3baa1a5a6"
+    "ts": 1787500854,
+    "headline": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=48b65ed7abb2599709313aae607fee11df40d774f6f47f19246b23464d57077c"
+   },
+   {
+    "ts": 1787497730,
+    "headline": "Alibaba Launches Record $10 Billion Share Sale to Enter the AI Race",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=fe9df2a5a8921784d0ca491d78887b77a76095a2c45a5b3f80a3c337f54695c9"
+   },
+   {
+    "ts": 1787493600,
+    "headline": "Bessent Has No Easy Fix for What\u2019s Really Driving Bond Yields Up",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3fa6cadc200064dd303698cb7ba5bf5efea1fbde1ac4f172f841c0c62689a5a3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:21Z",
+  "fetched_at": "2026-08-24T13:40:36Z",
   "error": "no insider filings in six months"
  },
  "peers": {

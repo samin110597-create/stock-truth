@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-21T20:45:31Z",
+ "generated_at": "2026-08-24T13:40:45Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:31Z",
-  "current": 214.72,
-  "change": -2.13,
-  "change_pct": -0.9822,
-  "high": 218.74,
-  "low": 214.5,
-  "open": 218.42,
-  "prev_close": 216.85,
-  "ts": 1787342400
+  "fetched_at": "2026-08-24T13:40:45Z",
+  "current": 212.62,
+  "change": -2.1,
+  "change_pct": -0.978,
+  "high": 215.59,
+  "low": 212.4,
+  "open": 215.32,
+  "prev_close": 214.72,
+  "ts": 1787578819
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:31Z",
+  "fetched_at": "2026-08-24T13:40:45Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5247769941110.8125,
+  "mcap": 5196224146254.174,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T20:45:31Z",
+  "fetched_at": "2026-08-24T13:40:46Z",
   "bars": [
-   {
-    "date": "2023-01-20",
-    "open": 17.011,
-    "high": 17.856,
-    "low": 16.825,
-    "close": 17.839,
-    "volume": 564967000.0
-   },
    {
     "date": "2023-01-23",
     "open": 18.063999,
@@ -7218,19 +7210,27 @@
     "high": 219.86,
     "low": 215.66,
     "close": 216.85001,
-    "volume": 92250395.0
+    "volume": 92457000.0
    },
    {
     "date": "2026-08-21",
     "open": 218.42,
-    "high": 218.73,
-    "low": 214.51,
-    "close": 214.77,
-    "volume": 3674162.0
+    "high": 218.74001,
+    "low": 214.5,
+    "close": 214.72,
+    "volume": 98545600.0
+   },
+   {
+    "date": "2026-08-24",
+    "open": 215.49,
+    "high": 215.49,
+    "low": 212.405,
+    "close": 212.61,
+    "volume": 203493.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-21",
+  "latest": "2026-08-24",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T13:36:48Z",
+  "fetched_at": "2026-08-24T13:40:47Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5316560289792.0,
+  "mcap": 5127341080576.0,
   "shares": 24221000000.0,
   "annual": [
    {
@@ -7335,12 +7335,12 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 33.61441,
-  "forward_pe": 16.976936,
-  "pb": 27.199766,
-  "ps": 20.97078,
-  "peg": 0.6052,
-  "ev_ebitda": 31.566,
+  "pe": 32.418053,
+  "forward_pe": 16.24975,
+  "pb": 26.23171,
+  "ps": 20.226915,
+  "peg": 0.5914,
+  "ev_ebitda": 31.151,
   "payout": 0.0061000003,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:31Z",
+  "fetched_at": "2026-08-24T13:40:47Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T20:45:32Z",
-  "analyst_target_mean": 304.1207,
+  "fetched_at": "2026-08-24T13:40:47Z",
+  "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
-  "analyst_count": 58.0,
+  "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.482347,
+  "forward_pe": 16.24975,
   "forward_eps": 13.02727,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
-  "institutions_pct": 0.71266,
+  "institutions_pct": 0.71262,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:32Z",
+  "fetched_at": "2026-08-24T13:40:47Z",
   "rows": [
    {
-    "ts": 1787339405,
-    "headline": "Discover which dow jones stocks are making waves on Friday.",
+    "ts": 1787566919,
+    "headline": "NVIDIA (NASDAQ:NVDA) Pairs High Growth Momentum with a Breakout Setup",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=2a96d4aa691194c3fc85b2b1ae496aa054a0278a839aae1dbc4db975bd1f5df7"
+    "url": "https://finnhub.io/api/news?id=e1c60b399ed39a900e0d80fcbc0f1729243c862583550bf3d26340b2b803395f"
    },
    {
-    "ts": 1787335501,
-    "headline": "Which S&P500 stocks are the most active on Friday?",
+    "ts": 1787563733,
+    "headline": "Bessent's Toolbox Gets a Rest as Gold Prints $4,600 and Ross Stores Cleans Up",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
+    "url": "https://finnhub.io/api/news?id=7787e77d790c82615e1e824a41688465d5bf2c4d110e7c42c19de2bdd668833b"
    },
    {
-    "ts": 1787335200,
-    "headline": "Friday's session: most active stocks",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b62b5a1624ff2850df9325358f0ff808fb927cb74bae610bd929dc9712420e38"
-   },
-   {
-    "ts": 1787330405,
-    "headline": "Stay informed with the top movers within the dow jones index on Friday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
-   },
-   {
-    "ts": 1787326423,
-    "headline": "Nvidia: 500 Billion Reasons Why This Is A Strong Buy",
+    "ts": 1787562375,
+    "headline": "CoreWeave: A Financial Accident In The Making",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=de473d47c7154cab7bedd61dbe6401e23429d2b6b534b03c459cc77845107462"
+    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
-    "ts": 1787320246,
-    "headline": "Investors Build a Barbell: Big Tech On One End, Short-Term Bonds On The Other",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=672a42d5b8ebd352b5adeaa10f47bdc3cab89e95ee9e216bff962e5544197c58"
-   },
-   {
-    "ts": 1787319953,
-    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "ts": 1787560200,
+    "headline": "Dividend Harvesting Portfolio Week 286: $28,600 Allocated, $3,258.87 In Projected Dividends",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+    "url": "https://finnhub.io/api/news?id=81c77f54c115f7f22d56de5258f065c35c8b5019b334448239e76dc706b67c0d"
    },
    {
-    "ts": 1787319318,
-    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=fd259331b2813de364df203b1226e57f8c5cb587cd8e0ea01bd780e40b8e0863"
+    "ts": 1787553900,
+    "headline": "Wall Street Breakfast Podcast: AI Plans Weigh On BABA",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ab6d1590524b5da4309826a4357c914dcd5218c5f878fc8e6c2fc95cb4973297"
+   },
+   {
+    "ts": 1787552983,
+    "headline": "CoreWeave: Nvidia Is Quietly Repricing The Neocloud Window",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c07ec4c6fee848b1117a561047563edcd44cf6a33c4773678710c7e441a6c832"
+   },
+   {
+    "ts": 1787511600,
+    "headline": "Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6c96e89c38999e2c42720f86887deb312dfaa033a7c01ca2152b00736d9bc64a"
+   },
+   {
+    "ts": 1787511000,
+    "headline": "The U.S. National Debt Officially Surpassed $40 Trillion in August: Here's What History Says This Means for the Stock Market",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=70aa09e38af46e3dfcefb67e425dc8d1ac0437fb92c90bf84013fcae876b14f8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:32Z",
+  "fetched_at": "2026-08-24T13:40:47Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

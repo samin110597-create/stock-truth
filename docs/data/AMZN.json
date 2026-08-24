@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-21T20:45:08Z",
+ "generated_at": "2026-08-24T13:40:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:08Z",
-  "current": 258.63,
-  "change": -1.48,
-  "change_pct": -0.569,
-  "high": 261.09,
-  "low": 257.035,
-  "open": 260.74,
-  "prev_close": 260.11,
-  "ts": 1787342400
+  "fetched_at": "2026-08-24T13:40:18Z",
+  "current": 261.43,
+  "change": 2.8,
+  "change_pct": 1.0826,
+  "high": 262.168,
+  "low": 258.765,
+  "open": 258.765,
+  "prev_close": 258.63,
+  "ts": 1787578795
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:08Z",
+  "fetched_at": "2026-08-24T13:40:18Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2805628213753.0063,
+  "mcap": 2789664349908.392,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-21T20:45:11Z",
+  "fetched_at": "2026-08-24T13:40:20Z",
   "bars": [
-   {
-    "date": "2023-01-20",
-    "open": 93.86,
-    "high": 97.35,
-    "low": 93.2,
-    "close": 97.25,
-    "volume": 67481500.0
-   },
    {
     "date": "2023-01-23",
     "open": 97.56,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-20",
-    "open": 262.905,
+    "open": 263.16,
     "high": 263.84,
     "low": 259.51999,
     "close": 260.10999,
-    "volume": 28294255.0
+    "volume": 28374100.0
    },
    {
     "date": "2026-08-21",
-    "open": 260.625,
-    "high": 261.08,
-    "low": 257.05,
-    "close": 258.57,
-    "volume": 1748817.0
+    "open": 260.73999,
+    "high": 261.089996,
+    "low": 257.040009,
+    "close": 258.63,
+    "volume": 35652900.0
+   },
+   {
+    "date": "2026-08-24",
+    "open": 259.79,
+    "high": 262.16,
+    "low": 259.09,
+    "close": 261.65,
+    "volume": 65123.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-21",
+  "latest": "2026-08-24",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-20T13:36:26Z",
+  "fetched_at": "2026-08-24T13:40:21Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2841114836992.0,
+  "mcap": 2822562381824.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 21.173634,
-  "forward_pe": 25.318985,
-  "pb": 5.1489563,
-  "ps": 3.6627407,
-  "peg": 1.3812,
-  "ev_ebitda": 17.738,
+  "pe": 21.03537,
+  "forward_pe": 25.184519,
+  "pb": 5.1153336,
+  "ps": 3.638823,
+  "peg": 1.3769,
+  "ev_ebitda": 17.277,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:11Z",
+  "fetched_at": "2026-08-24T13:40:21Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,82 +7445,82 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-21T20:45:11Z",
-  "analyst_target_mean": 326.83734,
+  "fetched_at": "2026-08-24T13:40:21Z",
+  "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.890984,
+  "forward_pe": 25.184519,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.68791,
+  "institutions_pct": 0.6879,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:11Z",
+  "fetched_at": "2026-08-24T13:40:22Z",
   "rows": [
    {
-    "ts": 1787339405,
-    "headline": "Discover which dow jones stocks are making waves on Friday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=2a96d4aa691194c3fc85b2b1ae496aa054a0278a839aae1dbc4db975bd1f5df7"
-   },
-   {
-    "ts": 1787335501,
-    "headline": "Which S&P500 stocks are the most active on Friday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c44337b50efe0da34e7f47d53a781801f081fdbdc9b1b80bf495179c51b14ae9"
-   },
-   {
-    "ts": 1787330405,
-    "headline": "Stay informed with the top movers within the dow jones index on Friday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=8f9d28002ee9400803c1bc65f23e8d2596ad9b71d181614b5198d194aed28983"
-   },
-   {
-    "ts": 1787319953,
-    "headline": "Marvell: A $120 Billion Diamond In The Rough",
+    "ts": 1787562375,
+    "headline": "CoreWeave: A Financial Accident In The Making",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fb0956b1237fa9dc2ea1c6e2af705dfcb9bb3504a039126c6e640e869e2eeef1"
+    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
-    "ts": 1787319922,
-    "headline": "Owlet: High Risk, High Reward In Medical Tech And Subscription",
+    "ts": 1787559076,
+    "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=db7f551f262be6edebed07a92bf0d278b6de0e116a69652943fe7f015875dab9"
+    "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
    },
    {
-    "ts": 1787316733,
-    "headline": "Bond Buyback Is Simply A Band-Aid for $40T US Debt; Warsh Faces Jackson Hole Test",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f82c9754c50b75f885b774fb033d245a87b41d2e46e1c8b139d8d187a762d00e"
-   },
-   {
-    "ts": 1787312952,
-    "headline": "The Boring Way To Own AI Is Now The Cheap Way",
+    "ts": 1787521046,
+    "headline": "Market Volatility Risk: Nvidia Earnings And Jackson Hole Next Week",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=33b759ae54ec2c1b7dd390a8b24d7dd5de93dea22c3e3bcb0be1805704410c5b"
+    "url": "https://finnhub.io/api/news?id=8522f9c5d378b2e6f3094ea6b686f844912c8f43296bc2edff0144a92bd32f24"
    },
    {
-    "ts": 1787310722,
-    "headline": "3 Funds For The Technologies That Could Define The Next Decade",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=854126c377290be795cbab5c9d238667d7544860a0cb4e26bb6eb758d03d2af5"
+    "ts": 1787508420,
+    "headline": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=089efd0555812f556abbe08388032dcd1f681a5ea622f68392b3f3c07d23c7d6"
+   },
+   {
+    "ts": 1787506699,
+    "headline": "Texas welcomed the AI boom. Now Abbott says data centers \"dug their own grave\"",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b755aec59d124c591eb6696c5ca304ce325b5d8990412a76c0cd6678b9d2bf1c"
+   },
+   {
+    "ts": 1787500854,
+    "headline": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=48b65ed7abb2599709313aae607fee11df40d774f6f47f19246b23464d57077c"
+   },
+   {
+    "ts": 1787499834,
+    "headline": "Nvidia\u2019s 15% Price Hike Reveals the Hidden Cost of the AI Boom",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4741189c2db3ecc3e1c852ee549c661d3ba5fa23164f186325b42b94f8ae806b"
+   },
+   {
+    "ts": 1787499300,
+    "headline": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a9905b210869231b722441eba4e31cff86108bf3179b3579bcc7fa5dfcd60758"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-21T20:45:12Z",
-  "buys": 40,
-  "sells": 103,
+  "fetched_at": "2026-08-24T13:40:22Z",
+  "buys": 23,
+  "sells": 86,
   "net_shares": -2100789.0,
   "months": 6,
   "recent": [
