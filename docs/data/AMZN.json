@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-24T15:09:54Z",
+ "generated_at": "2026-08-24T16:00:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:09:54Z",
-  "current": 261.58,
-  "change": 2.95,
-  "change_pct": 1.1406,
+  "fetched_at": "2026-08-24T16:00:51Z",
+  "current": 262.58,
+  "change": 3.95,
+  "change_pct": 1.5273,
   "high": 263.09,
   "low": 258.765,
   "open": 258.765,
   "prev_close": 258.63,
-  "ts": 1787584165
+  "ts": 1787587218
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:09:54Z",
+  "fetched_at": "2026-08-24T16:00:51Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T15:09:54Z",
+  "fetched_at": "2026-08-24T16:00:52Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 259.79,
     "high": 263.07,
     "low": 259.09,
-    "close": 261.57,
-    "volume": 528678.0
+    "close": 262.58,
+    "volume": 631941.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:09:54Z",
+  "fetched_at": "2026-08-24T16:00:52Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T15:09:55Z",
+  "fetched_at": "2026-08-24T16:00:53Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.206175,
+  "forward_pe": 25.287508,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:09:55Z",
+  "fetched_at": "2026-08-24T16:00:53Z",
   "rows": [
    {
     "ts": 1787562375,
@@ -7476,6 +7476,18 @@
     "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
+   },
+   {
+    "ts": 1787555910,
+    "headline": "AI's Next Bottleneck Isn't Chips, It's Power, With Demand Expected to Soar 1,100% by 2033: Why CEG, VST, GEV Stocks Are in Focus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=8e2c1ec5461761727354f02e59fc0d673fb759315111bc11f8c7cea37ebd0de5"
+   },
+   {
+    "ts": 1787537601,
+    "headline": "Nvidia in Talks to Back Jeff Bezos-Funded Perplexity at Over $30 Billion Valuation As AI Startup's Revenue Explodes to $750 Million: Report",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=23eb33df2ba28efd8fecad7a76ecd201b58621e1f43a4a10304f2bc4e70da3f7"
    },
    {
     "ts": 1787521046,
@@ -7500,25 +7512,13 @@
     "headline": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=48b65ed7abb2599709313aae607fee11df40d774f6f47f19246b23464d57077c"
-   },
-   {
-    "ts": 1787499834,
-    "headline": "Nvidia\u2019s 15% Price Hike Reveals the Hidden Cost of the AI Boom",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4741189c2db3ecc3e1c852ee549c661d3ba5fa23164f186325b42b94f8ae806b"
-   },
-   {
-    "ts": 1787499300,
-    "headline": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a9905b210869231b722441eba4e31cff86108bf3179b3579bcc7fa5dfcd60758"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:09:55Z",
+  "fetched_at": "2026-08-24T16:00:53Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,

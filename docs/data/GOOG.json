@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T15:10:04Z",
+ "generated_at": "2026-08-24T16:01:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:04Z",
-  "current": 346.44,
-  "change": 4.69,
-  "change_pct": 1.3723,
-  "high": 346.95,
+  "fetched_at": "2026-08-24T16:01:02Z",
+  "current": 347.33,
+  "change": 5.58,
+  "change_pct": 1.6328,
+  "high": 348.08,
   "low": 339.62,
   "open": 340.38,
   "prev_close": 341.75,
-  "ts": 1787584188
+  "ts": 1787587238
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:04Z",
+  "fetched_at": "2026-08-24T16:01:02Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T15:10:09Z",
+  "fetched_at": "2026-08-24T16:01:18Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-24",
     "open": 340.7,
-    "high": 346.96,
+    "high": 348.08,
     "low": 339.62,
-    "close": 346.34,
-    "volume": 294480.0
+    "close": 347.34,
+    "volume": 392746.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:09Z",
+  "fetched_at": "2026-08-24T16:01:18Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T15:10:09Z",
+  "fetched_at": "2026-08-24T16:01:18Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.420076,
+  "forward_pe": 23.469027,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:09Z",
+  "fetched_at": "2026-08-24T16:01:18Z",
   "rows": [
    {
     "ts": 1787563812,
@@ -7478,10 +7478,22 @@
     "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
+    "ts": 1787562291,
+    "headline": "Google Cloud Collaborates With Verizon To Deploy Its Full-Stake AI Into Verizon Operations",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=936fd0342e2fccaf85f8413669dd855cd0f2e5c0e83a27a7b4ba1f8274a10eb2"
+   },
+   {
     "ts": 1787559076,
     "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
+   },
+   {
+    "ts": 1787550367,
+    "headline": "5 Stock Picks Last Week From Wall Street's Most Accurate Analysts",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4d12749ca51a34b99fa186306c2dc9a405263b637b62371643c2c6bdbd703c19"
    },
    {
     "ts": 1787521046,
@@ -7500,25 +7512,13 @@
     "headline": "Berkshire CEO Greg Abel Is Sitting on Nearly $400 Billion in Cash. Here's How His Deal-Making Approach Differs From Warren Buffett's.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=d6dc2c9223b344c7bb08a7cf1c470c77bf0497ab73b998c60701ca5ea73a9c87"
-   },
-   {
-    "ts": 1787500854,
-    "headline": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=48b65ed7abb2599709313aae607fee11df40d774f6f47f19246b23464d57077c"
-   },
-   {
-    "ts": 1787497730,
-    "headline": "Alibaba Launches Record $10 Billion Share Sale to Enter the AI Race",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fe9df2a5a8921784d0ca491d78887b77a76095a2c45a5b3f80a3c337f54695c9"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:09Z",
+  "fetched_at": "2026-08-24T16:01:18Z",
   "error": "no insider filings in six months"
  },
  "peers": {

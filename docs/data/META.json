@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-24T15:10:29Z",
+ "generated_at": "2026-08-24T16:01:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:29Z",
-  "current": 553.69,
-  "change": 3.79,
-  "change_pct": 0.6892,
-  "high": 554.2797,
+  "fetched_at": "2026-08-24T16:01:39Z",
+  "current": 555.55,
+  "change": 5.65,
+  "change_pct": 1.0275,
+  "high": 557.5,
   "low": 546.3,
   "open": 550.055,
   "prev_close": 549.9,
-  "ts": 1787584212
+  "ts": 1787587270
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:30Z",
+  "fetched_at": "2026-08-24T16:01:39Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T15:10:30Z",
+  "fetched_at": "2026-08-24T16:01:40Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-24",
     "open": 549.8,
-    "high": 554.11,
+    "high": 557.39,
     "low": 546.415,
-    "close": 553.69,
-    "volume": 152873.0
+    "close": 555.43,
+    "volume": 197214.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:31Z",
+  "fetched_at": "2026-08-24T16:01:40Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T15:10:31Z",
+  "fetched_at": "2026-08-24T16:01:40Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.96067,
+  "forward_pe": 16.01167,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:31Z",
+  "fetched_at": "2026-08-24T16:01:40Z",
   "rows": [
    {
     "ts": 1787563812,
@@ -7485,6 +7485,12 @@
     "headline": "CoreWeave: A Financial Accident In The Making",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
+   },
+   {
+    "ts": 1787555910,
+    "headline": "AI's Next Bottleneck Isn't Chips, It's Power, With Demand Expected to Soar 1,100% by 2033: Why CEG, VST, GEV Stocks Are in Focus",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=8e2c1ec5461761727354f02e59fc0d673fb759315111bc11f8c7cea37ebd0de5"
    },
    {
     "ts": 1787510730,
@@ -7515,19 +7521,13 @@
     "headline": "Nvidia's Q2 earnings to test resurgent AI trade",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=f41f5da02a4528dd04591f2841a46d2ad6af0f415c3594e4a8c05456d827a23c"
-   },
-   {
-    "ts": 1787477700,
-    "headline": "3 Tech Compounders Fit for Warren Buffett's Portfolio",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c801aca87ba9634815323f5241770ef0756e797663e424f356b6fc156d243e14"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T15:10:33Z",
+  "fetched_at": "2026-08-24T16:01:40Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,
