@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T14:29:31Z",
+ "generated_at": "2026-08-24T15:10:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T14:29:31Z",
-  "current": 209.46,
-  "change": -5.26,
-  "change_pct": -2.4497,
+  "fetched_at": "2026-08-24T15:10:18Z",
+  "current": 209.18,
+  "change": -5.54,
+  "change_pct": -2.5801,
   "high": 215.59,
   "low": 208.62,
   "open": 215.32,
   "prev_close": 214.72,
-  "ts": 1787581743
+  "ts": 1787584188
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T14:29:31Z",
+  "fetched_at": "2026-08-24T15:10:18Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T14:29:32Z",
+  "fetched_at": "2026-08-24T15:10:20Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 215.49,
     "high": 215.49,
     "low": 208.62,
-    "close": 209.46,
-    "volume": 1056142.0
+    "close": 209.11,
+    "volume": 1541497.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T14:29:32Z",
+  "fetched_at": "2026-08-24T15:10:20Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T14:29:32Z",
+  "fetched_at": "2026-08-24T15:10:20Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.065529,
-  "forward_eps": 13.02727,
+  "forward_pe": 16.026762,
+  "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T14:29:32Z",
+  "fetched_at": "2026-08-24T15:10:20Z",
   "rows": [
    {
     "ts": 1787566919,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T14:29:32Z",
+  "fetched_at": "2026-08-24T15:10:20Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
