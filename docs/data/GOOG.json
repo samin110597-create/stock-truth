@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T20:14:49Z",
+ "generated_at": "2026-08-24T20:54:22Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:14:49Z",
+  "fetched_at": "2026-08-24T20:54:22Z",
   "current": 344.59,
   "change": 2.84,
   "change_pct": 0.831,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:14:50Z",
+  "fetched_at": "2026-08-24T20:54:22Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:14:50Z",
+  "fetched_at": "2026-08-24T20:54:23Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:14:51Z",
+  "fetched_at": "2026-08-24T20:54:23Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:14:51Z",
+  "fetched_at": "2026-08-24T20:54:23Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:14:51Z",
+  "fetched_at": "2026-08-24T20:54:23Z",
   "rows": [
+   {
+    "ts": 1787587844,
+    "headline": "Nordson: AI Chip Tailwinds Drive Durable Growth, But This Is Priced For Perfection",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=66adfcb169433da360f70489b5d6ca018e5fbe02d3d7cf33c37b252161cbff9b"
+   },
    {
     "ts": 1787584352,
     "headline": "I'm Buying Space Without Buying Space Stocks",
@@ -7502,23 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
    },
    {
-    "ts": 1787562291,
-    "headline": "Google Cloud Collaborates With Verizon To Deploy Its Full-Stake AI Into Verizon Operations",
+    "ts": 1787562299,
+    "headline": "Jim Cramer Pushes Back on Nvidia Skeptics Ahead of Earnings \u2014 Dan Ives Says Chip Demand Is Crushing Supply 15-To-1",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=936fd0342e2fccaf85f8413669dd855cd0f2e5c0e83a27a7b4ba1f8274a10eb2"
-   },
-   {
-    "ts": 1787559076,
-    "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
+    "url": "https://finnhub.io/api/news?id=921a59092a59ef0360c4f5823c7278086694c08418d59a04d14aca981b66be1e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:14:52Z",
+  "fetched_at": "2026-08-24T20:54:23Z",
   "error": "no insider filings in six months"
  },
  "peers": {

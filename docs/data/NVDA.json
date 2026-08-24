@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T20:15:01Z",
+ "generated_at": "2026-08-24T20:54:32Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:01Z",
+  "fetched_at": "2026-08-24T20:54:33Z",
   "current": 208.48,
   "change": -6.24,
   "change_pct": -2.9061,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:01Z",
+  "fetched_at": "2026-08-24T20:54:33Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:15:35Z",
+  "fetched_at": "2026-08-24T20:54:34Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:35Z",
+  "fetched_at": "2026-08-24T20:54:34Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:15:36Z",
+  "fetched_at": "2026-08-24T20:54:34Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:36Z",
+  "fetched_at": "2026-08-24T20:54:34Z",
   "rows": [
    {
     "ts": 1787598606,
@@ -7499,35 +7499,35 @@
     "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
    },
    {
+    "ts": 1787587844,
+    "headline": "Nordson: AI Chip Tailwinds Drive Durable Growth, But This Is Priced For Perfection",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=66adfcb169433da360f70489b5d6ca018e5fbe02d3d7cf33c37b252161cbff9b"
+   },
+   {
+    "ts": 1787586004,
+    "headline": "Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Serie",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d"
+   },
+   {
+    "ts": 1787585472,
+    "headline": "Magnificent 7 Built The AI Boom, 'Munificent Seven' Wants to Power It",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a258d905998991d566f877817f54c1f0694cdcc3c9ddef836424e13a14cd1b15"
+   },
+   {
     "ts": 1787584800,
     "headline": "Nvidia Earnings Preview: Q2 2027",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=3c90fc0543b2d66d1c1e133aca14148f77fa634c1632fd67d6a4da33a5f77b1f"
-   },
-   {
-    "ts": 1787581124,
-    "headline": "Alibaba: The Market Got This One Wrong",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=78b3ad9a31e68ce7926138e71a316387787c485ea7009e5f2884501a93b113c5"
-   },
-   {
-    "ts": 1787580864,
-    "headline": "Trump\u2019s 50% Canada Auto Tariff Shock: These ETFs Could Be in the Crosshairs",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=39011b3b644558bdbe1eb2189feb7b87b44fe7ab77d7ec19972ebcfef56dcfa9"
-   },
-   {
-    "ts": 1787579571,
-    "headline": "More 'Naked Swimmers' Will Continue To Emerge As The Tide Recedes",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=74c428b2f640aae320191551ae774dcfcd20522fb3883b8639f5f241a28dc568"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:36Z",
+  "fetched_at": "2026-08-24T20:54:34Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

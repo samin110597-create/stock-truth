@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-24T20:15:45Z",
+ "generated_at": "2026-08-24T20:54:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:46Z",
+  "fetched_at": "2026-08-24T20:54:43Z",
   "current": 559.02,
   "change": 9.12,
   "change_pct": 1.6585,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:46Z",
+  "fetched_at": "2026-08-24T20:54:44Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:15:51Z",
+  "fetched_at": "2026-08-24T20:54:45Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:51Z",
+  "fetched_at": "2026-08-24T20:54:45Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:15:51Z",
+  "fetched_at": "2026-08-24T20:54:45Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:52Z",
+  "fetched_at": "2026-08-24T20:54:45Z",
   "rows": [
    {
     "ts": 1787581124,
@@ -7485,6 +7485,12 @@
     "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
+   },
+   {
+    "ts": 1787568341,
+    "headline": "Meta Stock Faces Litigation Overhang: Expert Says It Lacks Tobacco's Pricing Power",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=64a79b7ca0808e876f125fe720ecaa5d7fc7ead4a9f0bf54e8eda51410cdf39b"
    },
    {
     "ts": 1787565797,
@@ -7515,19 +7521,13 @@
     "headline": "AI's Next Bottleneck Isn't Chips, It's Power, With Demand Expected to Soar 1,100% by 2033: Why CEG, VST, GEV Stocks Are in Focus",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=8e2c1ec5461761727354f02e59fc0d673fb759315111bc11f8c7cea37ebd0de5"
-   },
-   {
-    "ts": 1787546885,
-    "headline": "Uber Faces Nearly $1 Billion in Fines From Dutch Regulators Over Driver Suspensions Using Automation: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=abc3163fb13069344e416a777e2c86a68643bc76153dff40095c8d681afdc486"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:15:52Z",
+  "fetched_at": "2026-08-24T20:54:45Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,
