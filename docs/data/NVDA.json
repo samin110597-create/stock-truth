@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T13:40:45Z",
+ "generated_at": "2026-08-24T14:29:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T13:40:45Z",
-  "current": 212.62,
-  "change": -2.1,
-  "change_pct": -0.978,
+  "fetched_at": "2026-08-24T14:29:31Z",
+  "current": 209.46,
+  "change": -5.26,
+  "change_pct": -2.4497,
   "high": 215.59,
-  "low": 212.4,
+  "low": 208.62,
   "open": 215.32,
   "prev_close": 214.72,
-  "ts": 1787578819
+  "ts": 1787581743
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T13:40:45Z",
+  "fetched_at": "2026-08-24T14:29:31Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T13:40:46Z",
+  "fetched_at": "2026-08-24T14:29:32Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-24",
     "open": 215.49,
     "high": 215.49,
-    "low": 212.405,
-    "close": 212.61,
-    "volume": 203493.0
+    "low": 208.62,
+    "close": 209.46,
+    "volume": 1056142.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T13:40:47Z",
+  "fetched_at": "2026-08-24T14:29:32Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T13:40:47Z",
+  "fetched_at": "2026-08-24T14:29:32Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.24975,
+  "forward_pe": 16.065529,
   "forward_eps": 13.02727,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T13:40:47Z",
+  "fetched_at": "2026-08-24T14:29:32Z",
   "rows": [
    {
     "ts": 1787566919,
     "headline": "NVIDIA (NASDAQ:NVDA) Pairs High Growth Momentum with a Breakout Setup",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=e1c60b399ed39a900e0d80fcbc0f1729243c862583550bf3d26340b2b803395f"
+   },
+   {
+    "ts": 1787563834,
+    "headline": "Nvidia: The Next AI Upgrade Supercycle Is Exclusive - And Bigger Than GPUs",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2b119cb948dbc9e29f9e032f928f4b695c25d81281e877ecbe16b7d4de27e69d"
    },
    {
     "ts": 1787563733,
@@ -7515,19 +7521,13 @@
     "headline": "Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=6c96e89c38999e2c42720f86887deb312dfaa033a7c01ca2152b00736d9bc64a"
-   },
-   {
-    "ts": 1787511000,
-    "headline": "The U.S. National Debt Officially Surpassed $40 Trillion in August: Here's What History Says This Means for the Stock Market",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=70aa09e38af46e3dfcefb67e425dc8d1ac0437fb92c90bf84013fcae876b14f8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T13:40:47Z",
+  "fetched_at": "2026-08-24T14:29:32Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
