@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T17:53:38Z",
+ "generated_at": "2026-08-24T18:20:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:53:38Z",
-  "current": 209.56,
-  "change": -5.16,
-  "change_pct": -2.4031,
+  "fetched_at": "2026-08-24T18:20:06Z",
+  "current": 209.76,
+  "change": -4.96,
+  "change_pct": -2.31,
   "high": 215.59,
   "low": 208.62,
   "open": 215.32,
   "prev_close": 214.72,
-  "ts": 1787594000
+  "ts": 1787595581
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:53:39Z",
+  "fetched_at": "2026-08-24T18:20:06Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T17:53:41Z",
+  "fetched_at": "2026-08-24T18:20:10Z",
   "bars": [
    {
     "date": "2023-01-23",
@@ -7225,8 +7225,8 @@
     "open": 215.49,
     "high": 215.49,
     "low": 208.62,
-    "close": 209.535,
-    "volume": 2505244.0
+    "close": 209.725,
+    "volume": 2589806.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:53:41Z",
+  "fetched_at": "2026-08-24T18:20:10Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T17:53:42Z",
+  "fetched_at": "2026-08-24T18:20:10Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.073153,
+  "forward_pe": 16.088873,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:53:42Z",
+  "fetched_at": "2026-08-24T18:20:10Z",
   "rows": [
    {
     "ts": 1787589605,
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
+   },
+   {
+    "ts": 1787579571,
+    "headline": "More 'Naked Swimmers' Will Continue To Emerge As The Tide Recedes",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=74c428b2f640aae320191551ae774dcfcd20522fb3883b8639f5f241a28dc568"
+   },
+   {
+    "ts": 1787578524,
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d70aeb17af8f3bb67468c014ab48a9c0351439ab761e916096af3b89365d94b3"
    },
    {
     "ts": 1787578264,
@@ -7493,41 +7505,29 @@
     "url": "https://finnhub.io/api/news?id=2e89ef21adffa834d2233b744bf1c031a94c4326cda283b7f8d865627254cd23"
    },
    {
+    "ts": 1787577416,
+    "headline": "Memory Stocks Slide as Trump Threatens 50% Tariffs on Canadian Autos, Steel in 2027: Stock Market Today",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=539e86b6c26dd71952d0007d07a6d7d868936c0d602967ec5eab590a5dc43689"
+   },
+   {
     "ts": 1787577039,
     "headline": "Why Nvidia Is A Broken Stock",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d37019d68f23137395beb94121c4b9e6f6555b7f0efacc5ec55984526fa81a15"
    },
    {
-    "ts": 1787569791,
-    "headline": "Nvidia: A Disruptor, Both With AI Chips And Its Financialization Strategy",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e0665b2f98336b15334e7573b52b4a913863de3d52074a520fe3e0acca62154f"
-   },
-   {
-    "ts": 1787569201,
-    "headline": "Nvidia says Groq racks will be online this year following $20 billion purchase",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=a3c55cd4560851a970c8f54311f764aa7b65bca8c390dce18e126a9e618d0a0d"
-   },
-   {
-    "ts": 1787567549,
-    "headline": "'Taiwan Indicts Nvidia Manager Following Chip Smuggling Probe' - Bloomberg",
+    "ts": 1787576240,
+    "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=329594ee5e4834e1962e0985f2a096225eb46978d70524f166ccecb5afcf3187"
-   },
-   {
-    "ts": 1787566990,
-    "headline": "Nvidia exploring price hikes for some of its largest customers: Report",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=93951a96fa1a2f71773cc0a6537d43e31e03b0cafe0b336cc79f6dd1e46fbd06"
+    "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T17:53:42Z",
+  "fetched_at": "2026-08-24T18:20:11Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
