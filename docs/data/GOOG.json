@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-25T18:19:42Z",
+ "generated_at": "2026-08-25T19:05:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:42Z",
-  "current": 342.59,
-  "change": -2.0,
-  "change_pct": -0.5804,
+  "fetched_at": "2026-08-25T19:05:55Z",
+  "current": 343.1,
+  "change": -1.49,
+  "change_pct": -0.4324,
   "high": 346.7,
   "low": 342.145,
   "open": 345.215,
   "prev_close": 344.59,
-  "ts": 1787681961
+  "ts": 1787684728
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:42Z",
+  "fetched_at": "2026-08-25T19:05:55Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T18:19:43Z",
+  "fetched_at": "2026-08-25T19:05:56Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 345.905,
     "high": 346.51,
     "low": 342.145,
-    "close": 342.63,
-    "volume": 383667.0
+    "close": 343.12,
+    "volume": 439220.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:44Z",
+  "fetched_at": "2026-08-25T19:05:56Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T18:19:44Z",
+  "fetched_at": "2026-08-25T19:05:57Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.130089,
+  "forward_pe": 23.155746,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:44Z",
+  "fetched_at": "2026-08-25T19:05:57Z",
   "rows": [
+   {
+    "ts": 1787666824,
+    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
+   },
    {
     "ts": 1787664215,
     "headline": "S&P 500 Earnings Growth Overstated And Bifurcated",
@@ -7506,19 +7512,13 @@
     "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=d51149d752196818dc87969d3d6eb90f2a5a000270c4098a5f30ee138f892841"
-   },
-   {
-    "ts": 1787644800,
-    "headline": "The Market Is Cheap: The AI Revolution Has Created Plenty Of Bargains",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=99a8808d41a6c8c81c40512923000a5bd8120961867eefbbcb9e291f66fe8da2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:44Z",
+  "fetched_at": "2026-08-25T19:05:57Z",
   "error": "no insider filings in six months"
  },
  "peers": {

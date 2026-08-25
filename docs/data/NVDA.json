@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T18:19:53Z",
+ "generated_at": "2026-08-25T19:06:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:53Z",
-  "current": 212.06,
-  "change": 3.58,
-  "change_pct": 1.7172,
+  "fetched_at": "2026-08-25T19:06:06Z",
+  "current": 212.99,
+  "change": 4.51,
+  "change_pct": 2.1633,
   "high": 214.73,
   "low": 210.11,
   "open": 210.7825,
   "prev_close": 208.48,
-  "ts": 1787681964
+  "ts": 1787684731
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:54Z",
+  "fetched_at": "2026-08-25T19:06:06Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T18:19:56Z",
+  "fetched_at": "2026-08-25T19:06:08Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 210.98,
     "high": 214.7,
     "low": 210.11,
-    "close": 212.02,
-    "volume": 2589122.0
+    "close": 212.955,
+    "volume": 2846225.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:56Z",
+  "fetched_at": "2026-08-25T19:06:08Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T18:19:56Z",
+  "fetched_at": "2026-08-25T19:06:08Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.256805,
+  "forward_pe": 16.319262,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,43 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:56Z",
+  "fetched_at": "2026-08-25T19:06:08Z",
   "rows": [
+   {
+    "ts": 1787681101,
+    "headline": "Which S&P500 stocks are the most active on Tuesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a"
+   },
+   {
+    "ts": 1787680800,
+    "headline": "These stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=ef9d112c99842b5333cb53c3d010e1efd966f64ddf0b9870aa741fdc3383fbbf"
+   },
    {
     "ts": 1787676006,
     "headline": "Top dow jones movers in Tuesday's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
+   },
+   {
+    "ts": 1787667060,
+    "headline": "Wall Street Lunch: OpenAI's Jalape\u00f1O Tops Nvidia's Blackwell In Some Inference Tests",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fb8ca1eedca9f58590f4646471abc9fe297199ad2a3d31e80bee673b0207762b"
+   },
+   {
+    "ts": 1787666824,
+    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
+   },
+   {
+    "ts": 1787666460,
+    "headline": "NVIDIA Q2 Earnings And Outlook Matter More This Time - Here's Why",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=7777f0eb42df41e1afe64171f2d8b299e6b74ad58182a688daba84d21cbe774b"
    },
    {
     "ts": 1787665589,
@@ -7487,47 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=a879c63495d6d3024c9eda273b55f091f548123f50216d743540298754515abf"
    },
    {
-    "ts": 1787664215,
-    "headline": "S&P 500 Earnings Growth Overstated And Bifurcated",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=42d9a7113f1655a274f2dec825fe848131dba114b7685b01a9c3cd5dfdd1fcb2"
-   },
-   {
-    "ts": 1787658271,
-    "headline": "What's Going On With Dell Technologies Stock Tuesday?",
+    "ts": 1787664916,
+    "headline": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=33ec44af3c53c9c04b13b8e1bdb36fcf807df542ea4023dae0fe1b67790aa1a3"
-   },
-   {
-    "ts": 1787654939,
-    "headline": "AI At The Top, Cash At The Bottom: Is The Next Return In Between?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c38cc034171c999aa57a887d723f096405b3356456ad4ea102dae07a548ae96e"
-   },
-   {
-    "ts": 1787654769,
-    "headline": "Cisco Expands Rack-Scale AI Computing With Nvidia, Supermicro",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=63b4440c9f606902dc286a9fd5a247fccdb803aa4c5caf0bc6e3fb433e1bd1c8"
-   },
-   {
-    "ts": 1787654489,
-    "headline": "Kalshi's Nvidia Compute Markets Hit $4.4M: Is AI Compute the 'New Oil'?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d355c72db0056f32a4d398cc4c5ec5d78f9e18bc7797179633907500c0d4747f"
-   },
-   {
-    "ts": 1787653961,
-    "headline": "Nvidia Q2 Preview: SpaceX Is Becoming the 'Fifth Horseman,' Gene Munster Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=31b61f5f87c2ff652f744d7cc743bca73f32f96c6c39e2c49de58ec3e4ebac60"
+    "url": "https://finnhub.io/api/news?id=434e42cf8589e7aa4b9263207965eb46edb7768b72590e771c4966f1d4a663b8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:19:57Z",
+  "fetched_at": "2026-08-25T19:06:08Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

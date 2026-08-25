@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-25T18:20:06Z",
+ "generated_at": "2026-08-25T19:06:17Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:20:06Z",
-  "current": 564.85,
-  "change": 5.83,
-  "change_pct": 1.0429,
+  "fetched_at": "2026-08-25T19:06:17Z",
+  "current": 566.3,
+  "change": 7.28,
+  "change_pct": 1.3023,
   "high": 568.64,
   "low": 561.4001,
   "open": 562.76,
   "prev_close": 559.02,
-  "ts": 1787681988
+  "ts": 1787684754
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:20:06Z",
+  "fetched_at": "2026-08-25T19:06:17Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T18:20:10Z",
+  "fetched_at": "2026-08-25T19:06:21Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 563.75,
     "high": 568.62,
     "low": 561.46,
-    "close": 564.74,
-    "volume": 236662.0
+    "close": 566.14,
+    "volume": 256223.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:20:10Z",
+  "fetched_at": "2026-08-25T19:06:21Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T18:20:11Z",
+  "fetched_at": "2026-08-25T19:06:21Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.27331,
+  "forward_pe": 16.319267,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,13 +7472,37 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:20:11Z",
+  "fetched_at": "2026-08-25T19:06:21Z",
   "rows": [
+   {
+    "ts": 1787666824,
+    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
+   },
    {
     "ts": 1787659200,
     "headline": "AMD: The Easy Money Is Gone",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=28081dc4c74c445783662c5f5e75869df561edefbbbe33222babb834809a0bd9"
+   },
+   {
+    "ts": 1787649953,
+    "headline": "OpenAI Uncovers a Covert Russian Influence Machine Using ChatGPT to Build Fake Expertise and Spread Pro-Moscow Narratives Across Social Media",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2af02e7e913bee140659ac5df29389c4e4b1793b697112083ee643c8d0809ed2"
+   },
+   {
+    "ts": 1787648964,
+    "headline": "Meta Platforms Rolls Out New Account Security Features For WhatsApp; Upgrades Two-Step Security Verification To Full Password",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=8406b7783a25a5a18ae8ae8d9cdbe71768c07a8205acfa8aa59d7cfc8b5d324b"
+   },
+   {
+    "ts": 1787647714,
+    "headline": "Evercore ISI Group Maintains Outperform on Meta Platforms, Raises Price Target to $860",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4bcbb25d853089b0f935fcf7894de0cec3e27651b7cfd068a1f44ded5aa259ce"
    },
    {
     "ts": 1787646624,
@@ -7497,37 +7521,13 @@
     "headline": "My Game Plan For What Some Call A Fat AI Bubble",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=3a1400cd007698ed4e484055cdfd498ae20a293b62edc7901c72e7fcee7d15fd"
-   },
-   {
-    "ts": 1787595674,
-    "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
-   },
-   {
-    "ts": 1787581124,
-    "headline": "Alibaba: The Market Got This One Wrong",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=78b3ad9a31e68ce7926138e71a316387787c485ea7009e5f2884501a93b113c5"
-   },
-   {
-    "ts": 1787576240,
-    "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
-   },
-   {
-    "ts": 1787568341,
-    "headline": "Meta Stock Faces Litigation Overhang: Expert Says It Lacks Tobacco's Pricing Power",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=64a79b7ca0808e876f125fe720ecaa5d7fc7ead4a9f0bf54e8eda51410cdf39b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T18:20:11Z",
+  "fetched_at": "2026-08-25T19:06:22Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,
