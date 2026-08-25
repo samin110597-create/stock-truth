@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-25T16:21:51Z",
+ "generated_at": "2026-08-25T17:02:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T16:21:51Z",
-  "current": 343.2,
-  "change": -1.39,
-  "change_pct": -0.4034,
+  "fetched_at": "2026-08-25T17:02:02Z",
+  "current": 344.12,
+  "change": -0.47,
+  "change_pct": -0.1364,
   "high": 346.7,
   "low": 342.145,
   "open": 345.215,
   "prev_close": 344.59,
-  "ts": 1787674891
+  "ts": 1787677302
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T16:21:51Z",
+  "fetched_at": "2026-08-25T17:02:02Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T16:21:52Z",
+  "fetched_at": "2026-08-25T17:02:16Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 345.905,
     "high": 346.51,
     "low": 342.145,
-    "close": 343.285,
-    "volume": 274201.0
+    "close": 344.03,
+    "volume": 317070.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T16:21:52Z",
+  "fetched_at": "2026-08-25T17:02:16Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T16:21:53Z",
+  "fetched_at": "2026-08-25T17:02:17Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.173302,
+  "forward_pe": 23.225964,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T16:21:53Z",
+  "fetched_at": "2026-08-25T17:02:17Z",
   "rows": [
    {
     "ts": 1787649687,
@@ -7482,6 +7482,12 @@
     "headline": "JEPQ: There's Never Been A Better Time To Buy This ETF",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=15251ddaea213d3f888a9d0a33631e9ad615a0c37ab7141fe27766a0c565f0b8"
+   },
+   {
+    "ts": 1787645402,
+    "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d51149d752196818dc87969d3d6eb90f2a5a000270c4098a5f30ee138f892841"
    },
    {
     "ts": 1787644800,
@@ -7506,19 +7512,13 @@
     "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
-   },
-   {
-    "ts": 1787587844,
-    "headline": "Nordson: AI Chip Tailwinds Drive Durable Growth, But This Is Priced For Perfection",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=66adfcb169433da360f70489b5d6ca018e5fbe02d3d7cf33c37b252161cbff9b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T16:21:53Z",
+  "fetched_at": "2026-08-25T17:02:17Z",
   "error": "no insider filings in six months"
  },
  "peers": {
