@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-25T19:05:55Z",
+ "generated_at": "2026-08-25T19:50:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T19:05:55Z",
-  "current": 343.1,
-  "change": -1.49,
-  "change_pct": -0.4324,
+  "fetched_at": "2026-08-25T19:50:59Z",
+  "current": 343.9,
+  "change": -0.69,
+  "change_pct": -0.2002,
   "high": 346.7,
   "low": 342.145,
   "open": 345.215,
   "prev_close": 344.59,
-  "ts": 1787684728
+  "ts": 1787687436
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T19:05:55Z",
+  "fetched_at": "2026-08-25T19:50:59Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T19:05:56Z",
+  "fetched_at": "2026-08-25T19:51:01Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 345.905,
     "high": 346.51,
     "low": 342.145,
-    "close": 343.12,
-    "volume": 439220.0
+    "close": 343.715,
+    "volume": 487269.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T19:05:56Z",
+  "fetched_at": "2026-08-25T19:51:01Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T19:05:57Z",
+  "fetched_at": "2026-08-25T19:51:02Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.155746,
+  "forward_pe": 23.215162,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T19:05:57Z",
+  "fetched_at": "2026-08-25T19:51:02Z",
   "rows": [
+   {
+    "ts": 1787672208,
+    "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60"
+   },
    {
     "ts": 1787666824,
     "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
@@ -7484,6 +7490,12 @@
     "url": "https://finnhub.io/api/news?id=8f5b10faf77cdd0375a8c76749a5a79281eba0c115865c9a89ed73b4503d0b02"
    },
    {
+    "ts": 1787659357,
+    "headline": "'Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue' - WSJ Exclusive",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=cee5faec1d2e782d538f1d54ce18c3aa1139b3390e67c37b5389f430018753c2"
+   },
+   {
     "ts": 1787649687,
     "headline": "Alphabet's Growth Isn't Even Close To Being Over Yet",
     "source": "SeekingAlpha",
@@ -7500,25 +7512,13 @@
     "headline": "JEPQ: There's Never Been A Better Time To Buy This ETF",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=15251ddaea213d3f888a9d0a33631e9ad615a0c37ab7141fe27766a0c565f0b8"
-   },
-   {
-    "ts": 1787645530,
-    "headline": "SanDisk Could Benefit as Amazon and Microsoft See AI Investments Start to Pay Off",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4149fc64b4cd21b278e0a067b703e12566c3056dad0e555e5cc45b39bb8f51a4"
-   },
-   {
-    "ts": 1787645402,
-    "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d51149d752196818dc87969d3d6eb90f2a5a000270c4098a5f30ee138f892841"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T19:05:57Z",
+  "fetched_at": "2026-08-25T19:51:02Z",
   "error": "no insider filings in six months"
  },
  "peers": {
