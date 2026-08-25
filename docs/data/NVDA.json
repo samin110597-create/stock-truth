@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T13:38:52Z",
+ "generated_at": "2026-08-25T14:32:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T13:38:52Z",
-  "current": 211.8,
-  "change": 3.32,
-  "change_pct": 1.5925,
-  "high": 212.28,
+  "fetched_at": "2026-08-25T14:32:43Z",
+  "current": 211.83,
+  "change": 3.35,
+  "change_pct": 1.6069,
+  "high": 214.73,
   "low": 210.11,
-  "open": 211.035,
+  "open": 210.7825,
   "prev_close": 208.48,
-  "ts": 1787665116
+  "ts": 1787668335
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T13:38:52Z",
+  "fetched_at": "2026-08-25T14:32:43Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T13:38:54Z",
+  "fetched_at": "2026-08-25T14:32:51Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-08-25",
     "open": 210.98,
-    "high": 212.26,
+    "high": 214.7,
     "low": 210.11,
-    "close": 211.7,
-    "volume": 227459.0
+    "close": 211.76,
+    "volume": 1197381.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T13:38:54Z",
+  "fetched_at": "2026-08-25T14:32:52Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T13:38:54Z",
+  "fetched_at": "2026-08-25T14:32:52Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.246836,
+  "forward_pe": 16.241085,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T13:38:54Z",
+  "fetched_at": "2026-08-25T14:32:52Z",
   "rows": [
+   {
+    "ts": 1787650595,
+    "headline": "The Entire AI Trade Hinges On One Number",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=13187a934f8bdee281c319e5403d170a198b568e5650fe492d35d86afce829fe"
+   },
+   {
+    "ts": 1787648947,
+    "headline": "Marvell: The AI Inflection Has Arrived, But The Stock Has Run Ahead (Rating Downgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b79b5a302e89eb720873a11871229e2f0eddf4a13f019bd80f74fe4a1b7d1d34"
+   },
    {
     "ts": 1787647677,
     "headline": "JEPQ: There's Never Been A Better Time To Buy This ETF",
@@ -7509,25 +7521,13 @@
     "headline": "What's going on in today's session: S&P500 most active stocks",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012"
-   },
-   {
-    "ts": 1787594400,
-    "headline": "Monday's session: most active stocks",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b3be8177a60d96e89e4174884314bfffd615b11a9ee49c3a207af913a831d6ec"
-   },
-   {
-    "ts": 1787589605,
-    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T13:38:54Z",
+  "fetched_at": "2026-08-25T14:32:52Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
