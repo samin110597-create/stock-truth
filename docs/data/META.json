@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-25T15:31:34Z",
+ "generated_at": "2026-08-25T16:22:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T15:31:35Z",
-  "current": 563.71,
-  "change": 4.69,
-  "change_pct": 0.839,
+  "fetched_at": "2026-08-25T16:22:19Z",
+  "current": 564.84,
+  "change": 5.82,
+  "change_pct": 1.0411,
   "high": 568.64,
   "low": 561.4001,
   "open": 562.76,
   "prev_close": 559.02,
-  "ts": 1787671863
+  "ts": 1787674910
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T15:31:35Z",
+  "fetched_at": "2026-08-25T16:22:19Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T15:31:38Z",
+  "fetched_at": "2026-08-25T16:22:21Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 563.75,
     "high": 568.62,
     "low": 561.46,
-    "close": 563.66,
-    "volume": 133407.0
+    "close": 565.08,
+    "volume": 169350.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T15:31:38Z",
+  "fetched_at": "2026-08-25T16:22:21Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T15:31:38Z",
+  "fetched_at": "2026-08-25T16:22:21Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.242174,
+  "forward_pe": 16.28858,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0143,
   "short_ratio": 1.55,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T15:31:39Z",
+  "fetched_at": "2026-08-25T16:22:21Z",
   "rows": [
+   {
+    "ts": 1787659200,
+    "headline": "AMD: The Easy Money Is Gone",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=28081dc4c74c445783662c5f5e75869df561edefbbbe33222babb834809a0bd9"
+   },
    {
     "ts": 1787646624,
     "headline": "This Chip Stock Could Overtake Intel by 2027\u2014Wall Street Sees 40% Upside as AI Agents Reshape the CPU Market",
@@ -7515,19 +7521,13 @@
     "headline": "Why Is IREN Stock Sliding on Monday?",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=e4269585489a2ea267e82a5d76896a64e6899959fb6a2a0cd4d688cecb9ca493"
-   },
-   {
-    "ts": 1787563889,
-    "headline": "New Zealand Introducing Online Safety Bill To Ban Under-16 Users From Accessing Social Media",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=0bfb4655755c9a7abaaf976df2a87e98f5f857f68dead35930105f542a641ae4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T15:31:39Z",
+  "fetched_at": "2026-08-25T16:22:22Z",
   "buys": 105,
   "sells": 223,
   "net_shares": 3103139.0,
