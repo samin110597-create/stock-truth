@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-25T17:51:28Z",
+ "generated_at": "2026-08-25T18:19:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:28Z",
-  "current": 260.36,
-  "change": -1.71,
-  "change_pct": -0.6525,
+  "fetched_at": "2026-08-25T18:19:27Z",
+  "current": 260.38,
+  "change": -1.69,
+  "change_pct": -0.6449,
   "high": 263.89,
   "low": 260.08,
   "open": 262.605,
   "prev_close": 262.07,
-  "ts": 1787680279
+  "ts": 1787681939
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:28Z",
+  "fetched_at": "2026-08-25T18:19:27Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T17:51:31Z",
+  "fetched_at": "2026-08-25T18:19:32Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 262.56,
     "high": 263.89,
     "low": 260.08,
-    "close": 260.27,
-    "volume": 617334.0
+    "close": 260.33,
+    "volume": 682471.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:31Z",
+  "fetched_at": "2026-08-25T18:19:32Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T17:51:32Z",
+  "fetched_at": "2026-08-25T18:19:33Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.05267,
+  "forward_pe": 25.059889,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:32Z",
+  "fetched_at": "2026-08-25T18:19:33Z",
   "rows": [
    {
     "ts": 1787676006,
     "headline": "Top dow jones movers in Tuesday's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
+   },
+   {
+    "ts": 1787665763,
+    "headline": "Cheapest AI Infrastructure Play Left: Crypto Miners Converting To AI Data Centers",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=fe1524630169d397eb340f337c1eecde8866efa5b89674a966c125fd05b4376c"
    },
    {
     "ts": 1787645530,
@@ -7506,19 +7512,13 @@
     "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=cbe6c8155ed64a83931936dfea964f4c80ef801b110ffc103f5160138a09029e"
-   },
-   {
-    "ts": 1787611510,
-    "headline": "Plug Power: Tangible Margin Progress But More Work Ahead - Hold",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=65184dd872cbb26322d3ed2f83958c9984fdc25158dd0dfa33b913349c91d272"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:32Z",
+  "fetched_at": "2026-08-25T18:19:33Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,

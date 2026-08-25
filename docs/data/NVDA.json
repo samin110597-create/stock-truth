@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T17:51:55Z",
+ "generated_at": "2026-08-25T18:19:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:55Z",
-  "current": 212.41,
-  "change": 3.93,
-  "change_pct": 1.8851,
+  "fetched_at": "2026-08-25T18:19:53Z",
+  "current": 212.06,
+  "change": 3.58,
+  "change_pct": 1.7172,
   "high": 214.73,
   "low": 210.11,
   "open": 210.7825,
   "prev_close": 208.48,
-  "ts": 1787680279
+  "ts": 1787681964
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:51:55Z",
+  "fetched_at": "2026-08-25T18:19:54Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T17:52:04Z",
+  "fetched_at": "2026-08-25T18:19:56Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 210.98,
     "high": 214.7,
     "low": 210.11,
-    "close": 212.36,
-    "volume": 2484518.0
+    "close": 212.02,
+    "volume": 2589122.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:52:04Z",
+  "fetched_at": "2026-08-25T18:19:56Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T17:52:04Z",
+  "fetched_at": "2026-08-25T18:19:56Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.281343,
+  "forward_pe": 16.256805,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:52:05Z",
+  "fetched_at": "2026-08-25T18:19:56Z",
   "rows": [
    {
     "ts": 1787676006,
     "headline": "Top dow jones movers in Tuesday's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
+   },
+   {
+    "ts": 1787665589,
+    "headline": "CoreWeave: Why Nvidia's Price Hikes Could Be Good News - Buy Under $90",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a879c63495d6d3024c9eda273b55f091f548123f50216d743540298754515abf"
    },
    {
     "ts": 1787664215,
@@ -7515,19 +7521,13 @@
     "headline": "Nvidia Q2 Preview: SpaceX Is Becoming the 'Fifth Horseman,' Gene Munster Says",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=31b61f5f87c2ff652f744d7cc743bca73f32f96c6c39e2c49de58ec3e4ebac60"
-   },
-   {
-    "ts": 1787652827,
-    "headline": "'OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=903e5212809579008dc7e473dd0a14501e4d115a30dfe9b9eae22f6c1a3092ed"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:52:05Z",
+  "fetched_at": "2026-08-25T18:19:57Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
