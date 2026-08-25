@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-25T20:13:10Z",
+ "generated_at": "2026-08-25T20:51:45Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:13:11Z",
+  "fetched_at": "2026-08-25T20:51:45Z",
   "current": 261.06,
   "change": -1.01,
   "change_pct": -0.3854,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:13:11Z",
+  "fetched_at": "2026-08-25T20:51:46Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T20:13:16Z",
+  "fetched_at": "2026-08-25T20:51:46Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:13:16Z",
+  "fetched_at": "2026-08-25T20:51:46Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T20:13:17Z",
+  "fetched_at": "2026-08-25T20:51:47Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:13:17Z",
+  "fetched_at": "2026-08-25T20:51:47Z",
   "rows": [
    {
     "ts": 1787685007,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:13:17Z",
+  "fetched_at": "2026-08-25T20:51:47Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,
