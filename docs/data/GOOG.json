@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-24T20:54:22Z",
+ "generated_at": "2026-08-25T13:38:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:22Z",
-  "current": 344.59,
-  "change": 2.84,
-  "change_pct": 0.831,
-  "high": 348.08,
-  "low": 339.62,
-  "open": 340.74,
-  "prev_close": 341.75,
-  "ts": 1787601600
+  "fetched_at": "2026-08-25T13:38:42Z",
+  "current": 345.67,
+  "change": 1.08,
+  "change_pct": 0.3134,
+  "high": 346.7,
+  "low": 344.17,
+  "open": 345.215,
+  "prev_close": 344.59,
+  "ts": 1787665116
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:22Z",
+  "fetched_at": "2026-08-25T13:38:42Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4217148599999.9995,
+  "mcap": 4256773800000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:54:23Z",
+  "fetched_at": "2026-08-25T13:38:43Z",
   "bars": [
-   {
-    "date": "2023-01-23",
-    "open": 99.13,
-    "high": 101.4,
-    "low": 98.75,
-    "close": 101.21,
-    "volume": 31791800.0
-   },
    {
     "date": "2023-01-24",
     "open": 99.55,
@@ -7218,19 +7210,27 @@
     "high": 343.29001,
     "low": 337.81,
     "close": 341.75,
-    "volume": 15336300.0
+    "volume": 15363900.0
    },
    {
     "date": "2026-08-24",
-    "open": 340.7,
-    "high": 348.08,
+    "open": 340.51999,
+    "high": 348.079987,
     "low": 339.62,
-    "close": 344.61,
-    "volume": 755214.0
+    "close": 344.59,
+    "volume": 16410606.0
+   },
+   {
+    "date": "2026-08-25",
+    "open": 345.905,
+    "high": 346.51,
+    "low": 344.265,
+    "close": 345.64,
+    "volume": 30303.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-24",
+  "latest": "2026-08-25",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:23Z",
+  "fetched_at": "2026-08-25T13:38:43Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,56 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:54:23Z",
+  "fetched_at": "2026-08-25T13:38:43Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.265799,
+  "forward_pe": 23.345133,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.35,
   "short_asof": 1785456000,
-  "institutions_pct": 0.62282,
+  "institutions_pct": 0.62245,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:23Z",
+  "fetched_at": "2026-08-25T13:38:43Z",
   "rows": [
+   {
+    "ts": 1787647677,
+    "headline": "JEPQ: There's Never Been A Better Time To Buy This ETF",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=15251ddaea213d3f888a9d0a33631e9ad615a0c37ab7141fe27766a0c565f0b8"
+   },
+   {
+    "ts": 1787644800,
+    "headline": "The Market Is Cheap: The AI Revolution Has Created Plenty Of Bargains",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=99a8808d41a6c8c81c40512923000a5bd8120961867eefbbcb9e291f66fe8da2"
+   },
+   {
+    "ts": 1787643000,
+    "headline": "My Game Plan For What Some Call A Fat AI Bubble",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3a1400cd007698ed4e484055cdfd498ae20a293b62edc7901c72e7fcee7d15fd"
+   },
+   {
+    "ts": 1787598125,
+    "headline": "Marvell: Google Strengthens The AI Thesis, But Q2 Must Justify The Premium",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d367226c7afd0def73450d4508a39879b195389ed00dee3bb31ce07eeba5fa78"
+   },
+   {
+    "ts": 1787595674,
+    "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
+   },
    {
     "ts": 1787587844,
     "headline": "Nordson: AI Chip Tailwinds Drive Durable Growth, But This Is Priced For Perfection",
@@ -7478,47 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=e89ff924121c4d507af2bdb39b027e963a1e0d98993da6562c4a289f5f0cf0c4"
    },
    {
-    "ts": 1787578264,
-    "headline": "The AI Trade Deleveraged, Its Suppliers Didn't",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=40c34d0dd1185e79e8e69ffced14328b57b23f6c3c8acb7d14289e1b76115d73"
-   },
-   {
-    "ts": 1787576240,
-    "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
+    "ts": 1787581265,
+    "headline": "EXCLUSIVE: How AI's $220 Billion Bond Boom Competes With the Treasury",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
-   },
-   {
-    "ts": 1787574163,
-    "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
-   },
-   {
-    "ts": 1787563812,
-    "headline": "Berkshire Hathaway Is A Net Buyer Of Stocks, Finally",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3800a99507fc5c01f054daa045c6a1a9c30e1b6f8c00237388bb5360435c3601"
-   },
-   {
-    "ts": 1787562375,
-    "headline": "CoreWeave: A Financial Accident In The Making",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
-   },
-   {
-    "ts": 1787562299,
-    "headline": "Jim Cramer Pushes Back on Nvidia Skeptics Ahead of Earnings \u2014 Dan Ives Says Chip Demand Is Crushing Supply 15-To-1",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=921a59092a59ef0360c4f5823c7278086694c08418d59a04d14aca981b66be1e"
+    "url": "https://finnhub.io/api/news?id=2bb2ded5a800effa78cb8653a84a46706ba0529ec7d7f6407e9c3107b4344745"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:23Z",
+  "fetched_at": "2026-08-25T13:38:43Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-24T20:54:32Z",
+ "generated_at": "2026-08-25T13:38:52Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:33Z",
-  "current": 208.48,
-  "change": -6.24,
-  "change_pct": -2.9061,
-  "high": 215.59,
-  "low": 207.25,
-  "open": 215.53,
-  "prev_close": 214.72,
-  "ts": 1787601600
+  "fetched_at": "2026-08-25T13:38:52Z",
+  "current": 211.8,
+  "change": 3.32,
+  "change_pct": 1.5925,
+  "high": 212.28,
+  "low": 210.11,
+  "open": 211.035,
+  "prev_close": 208.48,
+  "ts": 1787665116
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:33Z",
+  "fetched_at": "2026-08-25T13:38:52Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5196224146254.174,
+  "mcap": 5045216028682.506,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:54:34Z",
+  "fetched_at": "2026-08-25T13:38:54Z",
   "bars": [
-   {
-    "date": "2023-01-23",
-    "open": 18.063999,
-    "high": 19.245,
-    "low": 17.818,
-    "close": 19.193,
-    "volume": 655163000.0
-   },
    {
     "date": "2023-01-24",
     "open": 18.827,
@@ -7218,19 +7210,27 @@
     "high": 218.74001,
     "low": 214.5,
     "close": 214.72,
-    "volume": 98545600.0
+    "volume": 98869300.0
    },
    {
     "date": "2026-08-24",
-    "open": 215.49,
-    "high": 215.49,
-    "low": 207.4,
-    "close": 208.42,
-    "volume": 3685381.0
+    "open": 215.38,
+    "high": 215.59,
+    "low": 207.37,
+    "close": 208.48,
+    "volume": 134405887.0
+   },
+   {
+    "date": "2026-08-25",
+    "open": 210.98,
+    "high": 212.26,
+    "low": 210.11,
+    "close": 211.7,
+    "volume": 227459.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-24",
+  "latest": "2026-08-25",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:34Z",
+  "fetched_at": "2026-08-25T13:38:54Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,31 +7454,55 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:54:34Z",
+  "fetched_at": "2026-08-25T13:38:54Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.986504,
+  "forward_pe": 16.246836,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
   "short_asof": 1785456000,
-  "institutions_pct": 0.71262,
+  "institutions_pct": 0.71185,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:34Z",
+  "fetched_at": "2026-08-25T13:38:54Z",
   "rows": [
+   {
+    "ts": 1787647677,
+    "headline": "JEPQ: There's Never Been A Better Time To Buy This ETF",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=15251ddaea213d3f888a9d0a33631e9ad615a0c37ab7141fe27766a0c565f0b8"
+   },
+   {
+    "ts": 1787644800,
+    "headline": "The Market Is Cheap: The AI Revolution Has Created Plenty Of Bargains",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=99a8808d41a6c8c81c40512923000a5bd8120961867eefbbcb9e291f66fe8da2"
+   },
+   {
+    "ts": 1787643808,
+    "headline": "Chips Take the Punch Ahead of Nvidia as Trump's Canada Tariffs Rattle Detroit",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2be168855ee50e913a997ad60b9ba46a6dce9f94c3f66325445b6b6e82be88ad"
+   },
    {
     "ts": 1787598606,
     "headline": "Exploring the top movers within the dow jones index during today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
+   },
+   {
+    "ts": 1787595674,
+    "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
    },
    {
     "ts": 1787594700,
@@ -7497,37 +7521,13 @@
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
-   },
-   {
-    "ts": 1787587844,
-    "headline": "Nordson: AI Chip Tailwinds Drive Durable Growth, But This Is Priced For Perfection",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=66adfcb169433da360f70489b5d6ca018e5fbe02d3d7cf33c37b252161cbff9b"
-   },
-   {
-    "ts": 1787586004,
-    "headline": "Smartkem shares are trading lower. The company announced a non-binding letter of intent to acquire all outstanding shares of Carbonium Core in exchange for shares of Smartkem Serie",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=28a0b1d17e9f4125a0a962072507893cab5497146ee4fa9163f537a2140b0c0d"
-   },
-   {
-    "ts": 1787585472,
-    "headline": "Magnificent 7 Built The AI Boom, 'Munificent Seven' Wants to Power It",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a258d905998991d566f877817f54c1f0694cdcc3c9ddef836424e13a14cd1b15"
-   },
-   {
-    "ts": 1787584800,
-    "headline": "Nvidia Earnings Preview: Q2 2027",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3c90fc0543b2d66d1c1e133aca14148f77fa634c1632fd67d6a4da33a5f77b1f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:34Z",
+  "fetched_at": "2026-08-25T13:38:54Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

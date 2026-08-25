@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-24T20:54:08Z",
+ "generated_at": "2026-08-25T13:38:26Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:09Z",
-  "current": 262.07,
-  "change": 3.44,
-  "change_pct": 1.3301,
-  "high": 263.32,
-  "low": 259.05,
-  "open": 259.6,
-  "prev_close": 258.63,
-  "ts": 1787601600
+  "fetched_at": "2026-08-25T13:38:28Z",
+  "current": 262.35,
+  "change": 0.28,
+  "change_pct": 0.1068,
+  "high": 263.89,
+  "low": 261.76,
+  "open": 262.605,
+  "prev_close": 262.07,
+  "ts": 1787665090
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:09Z",
+  "fetched_at": "2026-08-25T13:38:28Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2789664349908.392,
+  "mcap": 2826769482098.27,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-24T20:54:12Z",
+  "fetched_at": "2026-08-25T13:38:33Z",
   "bars": [
-   {
-    "date": "2023-01-23",
-    "open": 97.56,
-    "high": 97.78,
-    "low": 95.86,
-    "close": 97.52,
-    "volume": 76501100.0
-   },
    {
     "date": "2023-01-24",
     "open": 96.93,
@@ -7218,19 +7210,27 @@
     "high": 261.089996,
     "low": 257.040009,
     "close": 258.63,
-    "volume": 35652900.0
+    "volume": 35723000.0
    },
    {
     "date": "2026-08-24",
-    "open": 259.79,
-    "high": 263.32,
-    "low": 259.09,
-    "close": 262.04,
-    "volume": 1073702.0
+    "open": 259.51999,
+    "high": 263.32001,
+    "low": 259.049988,
+    "close": 262.070007,
+    "volume": 27975466.0
+   },
+   {
+    "date": "2026-08-25",
+    "open": 262.56,
+    "high": 263.89,
+    "low": 261.79,
+    "close": 262.365,
+    "volume": 40752.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-24",
+  "latest": "2026-08-25",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:12Z",
+  "fetched_at": "2026-08-25T13:38:33Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,31 +7445,55 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T20:54:12Z",
+  "fetched_at": "2026-08-25T13:38:33Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.222055,
+  "forward_pe": 25.275469,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
   "short_asof": 1785456000,
-  "institutions_pct": 0.6879,
+  "institutions_pct": 0.68723,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:12Z",
+  "fetched_at": "2026-08-25T13:38:33Z",
   "rows": [
+   {
+    "ts": 1787624672,
+    "headline": "Amazon: AI Revenue Too Dependent On OpenAI And Anthropic",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c6448c58ce6702b5c883d90b88a7a4127b238b636bd7d75295294a5fa241dc84"
+   },
+   {
+    "ts": 1787616309,
+    "headline": "Amazon: The Cloud King Is Storming Back (Rating Upgrade)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=0c8841c779bf255ff372a11f72cc2209db515fd1fa6e70b4a29be96cc5d92748"
+   },
+   {
+    "ts": 1787611510,
+    "headline": "Plug Power: Tangible Margin Progress But More Work Ahead - Hold",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=65184dd872cbb26322d3ed2f83958c9984fdc25158dd0dfa33b913349c91d272"
+   },
    {
     "ts": 1787598606,
     "headline": "Exploring the top movers within the dow jones index during today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
+   },
+   {
+    "ts": 1787595674,
+    "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
    },
    {
     "ts": 1787594700,
@@ -7484,41 +7508,17 @@
     "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
    },
    {
-    "ts": 1787576240,
-    "headline": "Samsung Crash Brings Semi Selling; Nvidia Earnings Ahead; $1T Treasury Firepower To Buy Bonds",
+    "ts": 1787585554,
+    "headline": "'Amazon plots a new 'Tetromino' warehouse where robots tackle work that's notoriously hard to automate' - Business Insider",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f7f93a4f108a80e0a29d0f56809afcb0f6385c443b224895dad20328bc16045f"
-   },
-   {
-    "ts": 1787574163,
-    "headline": "Analyst Calls Marvell A Top Chip Pick As AI Demand Builds",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=26eabb9270556fcc992f45fdeb48c363a1a640f8990c5b8a2add623742488481"
-   },
-   {
-    "ts": 1787562375,
-    "headline": "CoreWeave: A Financial Accident In The Making",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=14c4893a293de51c31c9bf5b654c26c24d36a351390f7301d682b0921f107bd4"
-   },
-   {
-    "ts": 1787559076,
-    "headline": "Forget The Cloud Rally: Semiconductors Rule AI",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=87652d8c25e54fdb6d8316b57bd4c2a947a4545e9333fde9f835b8e6be929cbf"
-   },
-   {
-    "ts": 1787555910,
-    "headline": "AI's Next Bottleneck Isn't Chips, It's Power, With Demand Expected to Soar 1,100% by 2033: Why CEG, VST, GEV Stocks Are in Focus",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8e2c1ec5461761727354f02e59fc0d673fb759315111bc11f8c7cea37ebd0de5"
+    "url": "https://finnhub.io/api/news?id=f8385d3de0b9f991f2591dd0483c8b1cb7502529d12e907235bfc358fd1366ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-24T20:54:13Z",
+  "fetched_at": "2026-08-25T13:38:33Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,
