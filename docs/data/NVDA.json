@@ -1,32 +1,32 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T17:02:26Z",
+ "generated_at": "2026-08-25T17:51:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:02:26Z",
-  "current": 212.3,
-  "change": 3.82,
-  "change_pct": 1.8323,
+  "fetched_at": "2026-08-25T17:51:55Z",
+  "current": 212.41,
+  "change": 3.93,
+  "change_pct": 1.8851,
   "high": 214.73,
   "low": 210.11,
   "open": 210.7825,
   "prev_close": 208.48,
-  "ts": 1787677328
+  "ts": 1787680279
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:02:26Z",
+  "fetched_at": "2026-08-25T17:51:55Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5045216028682.506,
+  "mcap": 5113462315207.394,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T17:02:31Z",
+  "fetched_at": "2026-08-25T17:52:04Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 210.98,
     "high": 214.7,
     "low": 210.11,
-    "close": 212.23,
-    "volume": 2258799.0
+    "close": 212.36,
+    "volume": 2484518.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:02:31Z",
+  "fetched_at": "2026-08-25T17:52:04Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T17:02:31Z",
+  "fetched_at": "2026-08-25T17:52:04Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.282877,
+  "forward_pe": 16.281343,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:02:31Z",
+  "fetched_at": "2026-08-25T17:52:05Z",
   "rows": [
+   {
+    "ts": 1787676006,
+    "headline": "Top dow jones movers in Tuesday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
+   },
+   {
+    "ts": 1787664215,
+    "headline": "S&P 500 Earnings Growth Overstated And Bifurcated",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=42d9a7113f1655a274f2dec825fe848131dba114b7685b01a9c3cd5dfdd1fcb2"
+   },
+   {
+    "ts": 1787658271,
+    "headline": "What's Going On With Dell Technologies Stock Tuesday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=33ec44af3c53c9c04b13b8e1bdb36fcf807df542ea4023dae0fe1b67790aa1a3"
+   },
    {
     "ts": 1787654939,
     "headline": "AI At The Top, Cash At The Bottom: Is The Next Return In Between?",
@@ -7503,31 +7521,13 @@
     "headline": "'OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests' - Bloomberg",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=903e5212809579008dc7e473dd0a14501e4d115a30dfe9b9eae22f6c1a3092ed"
-   },
-   {
-    "ts": 1787650887,
-    "headline": "EXCLUSIVE: Watch These 3 AI Bottlenecks Ahead of Nvidia Earnings, Yorkville CEO Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=840950ae554015a72bfe80d4a40c531502763e3b09f9f155eca93d0579c1269e"
-   },
-   {
-    "ts": 1787650595,
-    "headline": "The Entire AI Trade Hinges On One Number",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=13187a934f8bdee281c319e5403d170a198b568e5650fe492d35d86afce829fe"
-   },
-   {
-    "ts": 1787650258,
-    "headline": "What's Going On With Super Micro Computer Stock Tuesday?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f62b7bc43c639c096a423a123c9f85e04e62d8e6e86e9a337c44491be8432e57"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T17:02:31Z",
+  "fetched_at": "2026-08-25T17:52:05Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
