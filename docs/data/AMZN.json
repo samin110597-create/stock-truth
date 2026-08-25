@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-25T14:31:59Z",
+ "generated_at": "2026-08-25T15:30:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:31:59Z",
-  "current": 261.07,
-  "change": -1.0,
-  "change_pct": -0.3816,
+  "fetched_at": "2026-08-25T15:30:39Z",
+  "current": 260.58,
+  "change": -1.49,
+  "change_pct": -0.5686,
   "high": 263.89,
   "low": 260.28,
   "open": 262.605,
   "prev_close": 262.07,
-  "ts": 1787668286
+  "ts": 1787671816
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:31:59Z",
+  "fetched_at": "2026-08-25T15:30:39Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T14:32:18Z",
+  "fetched_at": "2026-08-25T15:30:44Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 262.56,
     "high": 263.89,
     "low": 260.29,
-    "close": 260.98,
-    "volume": 255509.0
+    "close": 260.53,
+    "volume": 396225.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:18Z",
+  "fetched_at": "2026-08-25T15:30:45Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T14:32:19Z",
+  "fetched_at": "2026-08-25T15:30:47Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.129183,
+  "forward_pe": 25.065182,
   "forward_eps": 10.39051,
   "short_pct_float": 0.01,
   "short_ratio": 2.1,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:19Z",
+  "fetched_at": "2026-08-25T15:30:47Z",
   "rows": [
    {
     "ts": 1787624672,
@@ -7476,6 +7476,12 @@
     "headline": "Amazon: The Cloud King Is Storming Back (Rating Upgrade)",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=0c8841c779bf255ff372a11f72cc2209db515fd1fa6e70b4a29be96cc5d92748"
+   },
+   {
+    "ts": 1787614507,
+    "headline": "Trump Snapped Up SpaceX Shares 11 Days After $1.77 Trillion IPO: Here's What Else He Purchased",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=cbe6c8155ed64a83931936dfea964f4c80ef801b110ffc103f5160138a09029e"
    },
    {
     "ts": 1787611510,
@@ -7506,19 +7512,13 @@
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=d45317f41b896114f8506141212d4c216b33f338075e1988daf4bcbe28cfb3e6"
-   },
-   {
-    "ts": 1787585554,
-    "headline": "'Amazon plots a new 'Tetromino' warehouse where robots tackle work that's notoriously hard to automate' - Business Insider",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=f8385d3de0b9f991f2591dd0483c8b1cb7502529d12e907235bfc358fd1366ba"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:19Z",
+  "fetched_at": "2026-08-25T15:30:47Z",
   "buys": 23,
   "sells": 86,
   "net_shares": -2100789.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T14:32:43Z",
+ "generated_at": "2026-08-25T15:31:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:43Z",
-  "current": 211.83,
-  "change": 3.35,
-  "change_pct": 1.6069,
+  "fetched_at": "2026-08-25T15:31:23Z",
+  "current": 211.3,
+  "change": 2.82,
+  "change_pct": 1.3526,
   "high": 214.73,
   "low": 210.11,
   "open": 210.7825,
   "prev_close": 208.48,
-  "ts": 1787668335
+  "ts": 1787671864
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:43Z",
+  "fetched_at": "2026-08-25T15:31:23Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T14:32:51Z",
+  "fetched_at": "2026-08-25T15:31:25Z",
   "bars": [
    {
     "date": "2023-01-24",
@@ -7225,8 +7225,8 @@
     "open": 210.98,
     "high": 214.7,
     "low": 210.11,
-    "close": 211.76,
-    "volume": 1197381.0
+    "close": 211.24,
+    "volume": 1788868.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:52Z",
+  "fetched_at": "2026-08-25T15:31:25Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T14:32:52Z",
+  "fetched_at": "2026-08-25T15:31:25Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.241085,
+  "forward_pe": 16.199677,
   "forward_eps": 13.041,
   "short_pct_float": 0.0126,
   "short_ratio": 2.23,
@@ -7472,13 +7472,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:52Z",
+  "fetched_at": "2026-08-25T15:31:25Z",
   "rows": [
+   {
+    "ts": 1787652827,
+    "headline": "'OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=903e5212809579008dc7e473dd0a14501e4d115a30dfe9b9eae22f6c1a3092ed"
+   },
    {
     "ts": 1787650595,
     "headline": "The Entire AI Trade Hinges On One Number",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=13187a934f8bdee281c319e5403d170a198b568e5650fe492d35d86afce829fe"
+   },
+   {
+    "ts": 1787650258,
+    "headline": "What's Going On With Super Micro Computer Stock Tuesday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f62b7bc43c639c096a423a123c9f85e04e62d8e6e86e9a337c44491be8432e57"
    },
    {
     "ts": 1787648947,
@@ -7493,6 +7505,12 @@
     "url": "https://finnhub.io/api/news?id=15251ddaea213d3f888a9d0a33631e9ad615a0c37ab7141fe27766a0c565f0b8"
    },
    {
+    "ts": 1787646624,
+    "headline": "This Chip Stock Could Overtake Intel by 2027\u2014Wall Street Sees 40% Upside as AI Agents Reshape the CPU Market",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=773e1d89845978e54e5326c30b7f62f4b7ac52a8848d521c0cb071859bb33ce6"
+   },
+   {
     "ts": 1787644800,
     "headline": "The Market Is Cheap: The AI Revolution Has Created Plenty Of Bargains",
     "source": "SeekingAlpha",
@@ -7503,31 +7521,13 @@
     "headline": "Chips Take the Punch Ahead of Nvidia as Trump's Canada Tariffs Rattle Detroit",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=2be168855ee50e913a997ad60b9ba46a6dce9f94c3f66325445b6b6e82be88ad"
-   },
-   {
-    "ts": 1787598606,
-    "headline": "Exploring the top movers within the dow jones index during today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=995746628753bb1c107dff0fd621de739c068e1e4feeb404b2f0ce3d0523b435"
-   },
-   {
-    "ts": 1787595674,
-    "headline": "Nvidia: The Last Hurrah Before ASIC (Earnings Preview)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=6164f6385b35dc0f3b590f19a9191c2ede170765d8c82055d403a81a7c9365fa"
-   },
-   {
-    "ts": 1787594700,
-    "headline": "What's going on in today's session: S&P500 most active stocks",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b4e7862ecff49c01c686f4ff93eb405072c170ffc8e5c83fda06da0f37f4a012"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T14:32:52Z",
+  "fetched_at": "2026-08-25T15:31:25Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
