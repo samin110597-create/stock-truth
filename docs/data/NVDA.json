@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-26T16:07:37Z",
+ "generated_at": "2026-08-26T18:08:52Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:37Z",
-  "current": 210.31,
-  "change": -2.74,
-  "change_pct": -1.2861,
+  "fetched_at": "2026-08-26T18:08:52Z",
+  "current": 210.74,
+  "change": -2.31,
+  "change_pct": -1.0843,
   "high": 213.6,
-  "low": 210.08,
+  "low": 209.47,
   "open": 213.165,
   "prev_close": 213.05,
-  "ts": 1787760431
+  "ts": 1787767708
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:37Z",
+  "fetched_at": "2026-08-26T18:08:52Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T16:07:39Z",
+  "fetched_at": "2026-08-26T18:08:53Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-26",
     "open": 212.57,
     "high": 213.6,
-    "low": 210.085,
-    "close": 210.295,
-    "volume": 1659505.0
+    "low": 209.47,
+    "close": 210.69,
+    "volume": 2608251.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:39Z",
+  "fetched_at": "2026-08-26T18:08:53Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T16:07:39Z",
+  "fetched_at": "2026-08-26T18:08:53Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.009327,
+  "forward_pe": 16.058842,
   "forward_eps": 13.12766,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:40Z",
+  "fetched_at": "2026-08-26T18:08:53Z",
   "rows": [
    {
-    "ts": 1787743682,
-    "headline": "ServiceNow: A Loaded Rocket On The AI Launch Pad",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5eac96abe82e07445f5d5db40ddc111e36f81a4f9bd3220e3a1e9f430d28b608"
+    "ts": 1787762405,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
    },
    {
-    "ts": 1787743200,
-    "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
+    "ts": 1787750580,
+    "headline": "Broadcom Is The New Nvidia, And That's The Problem",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+    "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
    },
    {
-    "ts": 1787736075,
-    "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+    "ts": 1787750086,
+    "headline": "Options traders brace for Nvidia earnings",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=5a72dde108326bc3c005a7d8b8610af60dda500c3334bab33e7789944637fc7a"
    },
    {
-    "ts": 1787735476,
-    "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There\u2019s a Huge Danger Here'",
+    "ts": 1787749114,
+    "headline": "Nasdaq 100 Falls as Hot PCE Inflation Stirs Rate-Hike Bets: Stock Market Today",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
+    "url": "https://finnhub.io/api/news?id=cf087cbfcf6442c6f145fa7516f2c7ae3657b296cc038e226f8f91a561b7c4f8"
    },
    {
-    "ts": 1787734859,
-    "headline": "EXCLUSIVE: God Bless America ETF Exec Says Nvidia Wins No Matter Who Leads AI Race: 'Pioneers Die With Arrows in Their Backs'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=06ed292ba1a95f64c347d922749f1c3a5e1585b122bca500338eddcf539b5fd3"
+    "ts": 1787748065,
+    "headline": "Looking ahead to Nvidia earnings tonight: Investor's investment strategy",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=c362d7d6fe4bc8d6f6480cb97279ec3b9a848ac8d16293efac96934dadb7b1ab"
    },
    {
-    "ts": 1787732468,
-    "headline": "EXCLUSIVE: Nvidia GPUs Are Essential\u2014But They Won't Decide Who Wins AI Drug Discovery, Generate CTO Says",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=602dff58518a8d92c7148a674ab30afbf044076035aab3d570fa29537c27011b"
-   },
-   {
-    "ts": 1787732100,
-    "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
+    "ts": 1787747294,
+    "headline": "10 Dividend Growth Stocks: August 2026",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
+    "url": "https://finnhub.io/api/news?id=6900fa5c3aa143c73f904675b328e0ae4c45f07c31b5fb84bd4d19e51f5870fb"
    },
    {
-    "ts": 1787731200,
-    "headline": "SCHD And STK: A 3%+ Income Barbell",
+    "ts": 1787745601,
+    "headline": "Nvidia earnings live updates: Q2 results, memory prices and AI outlook",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=ed0641981f09fed7e00b31bcacc65f5f7d2e916eaf2c7bd9be37e6d0669fe4e0"
+   },
+   {
+    "ts": 1787745520,
+    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
+    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:40Z",
+  "fetched_at": "2026-08-26T18:08:54Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

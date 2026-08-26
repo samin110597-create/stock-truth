@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-26T16:07:49Z",
+ "generated_at": "2026-08-26T18:09:03Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:49Z",
-  "current": 577.26,
-  "change": 7.21,
-  "change_pct": 1.2648,
+  "fetched_at": "2026-08-26T18:09:03Z",
+  "current": 578.05,
+  "change": 8.0,
+  "change_pct": 1.4034,
   "high": 593.34,
   "low": 561.88,
   "open": 580.315,
   "prev_close": 570.05,
-  "ts": 1787760455
+  "ts": 1787767732
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:49Z",
+  "fetched_at": "2026-08-26T18:09:03Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T16:07:51Z",
+  "fetched_at": "2026-08-26T18:09:04Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 590.87,
     "high": 593.2,
     "low": 561.99,
-    "close": 577.18,
-    "volume": 817111.0
+    "close": 577.96,
+    "volume": 972383.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:51Z",
+  "fetched_at": "2026-08-26T18:09:04Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T16:07:52Z",
+  "fetched_at": "2026-08-26T18:09:05Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.660578,
+  "forward_pe": 16.658253,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:52Z",
+  "fetched_at": "2026-08-26T18:09:05Z",
   "rows": [
+   {
+    "ts": 1787751600,
+    "headline": "A Meta Rally As Short As A Reel",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=5728170876f05ed386bec9cce59af856c9aceffd0f55f268159830f1884f1d74"
+   },
+   {
+    "ts": 1787750700,
+    "headline": "Wall Street Lunch: Meta Settles Minors' Addiction, Data Privacy Claims For $12.7B",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=93693e522727c16ce265ecaefe78c970775937a2523bdf51c209f1a64665f5fb"
+   },
+   {
+    "ts": 1787750580,
+    "headline": "Broadcom Is The New Nvidia, And That's The Problem",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
+   },
+   {
+    "ts": 1787746033,
+    "headline": "Stocks making the biggest moves midday: Meta, Abercrombie & Fitch, Zoom, Intuit & more",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=19a4182d79789846c4a270145b81b6e3d4588aa2423a7ed8806827fe49b6b37b"
+   },
+   {
+    "ts": 1787745520,
+    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
+   },
+   {
+    "ts": 1787744984,
+    "headline": "Meta reaches landmark settlement",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=ff02ca089f112aac6bcd1b37d0b2c1f357b12d31bbd74e488a361dfacd54c31a"
+   },
    {
     "ts": 1787743200,
     "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
@@ -7481,53 +7517,17 @@
     "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
    },
    {
-    "ts": 1787738756,
-    "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
-   },
-   {
-    "ts": 1787735672,
-    "headline": "Meta Agrees To Pay Maximum Settlement Of $16.68B To States As Part Of Agreement, Including $2.2B To California; Deal Requires Nationwide Changes For Teen Users Of Instagram And Fac",
+    "ts": 1787742419,
+    "headline": "Why Is Snap Stock Falling on Wednesday?",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c0e8dad1437f939fa65549e3beb3972ba784012d1bd783ece48fe0a6a584666b"
-   },
-   {
-    "ts": 1787734697,
-    "headline": "Meta Agrees To Settlement With U.S. States Regarding Lawsuit Claiming That Its Technology Harmed Children",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4c8d2a2467cb843f2f33b750bc1bdfa66953fdecf6e6dd3fd93b1817cb378429"
-   },
-   {
-    "ts": 1787734696,
-    "headline": "Meta: Rent Out That Compute, Zuck",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=748648d8a038c2458eb6ff910ff60a7f322558436c429dc6ec52478f4bc9f3fd"
-   },
-   {
-    "ts": 1787725800,
-    "headline": "Big Tech Off-Balance Sheet Concerns",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
-   },
-   {
-    "ts": 1787717055,
-    "headline": "Microsoft\u2019s Internal Pay Spreadsheet Shows Cloud and AI Workers Reporting Stock Awards as High as $1.4 Million: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=658b373e47d231d262981219c114c13e90e1d5d44edf06b59e10510a5a8c0eea"
-   },
-   {
-    "ts": 1787716433,
-    "headline": "The Deep Unknowns Of AI",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
+    "url": "https://finnhub.io/api/news?id=39d1b2bbbe668e6e525cbeb3f3b00ff6e90f4632f3a1447c66801c077af4d339"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:52Z",
+  "fetched_at": "2026-08-26T18:09:05Z",
   "buys": 105,
   "sells": 218,
   "net_shares": 3104694.0,

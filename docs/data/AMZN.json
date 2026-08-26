@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-26T16:07:12Z",
+ "generated_at": "2026-08-26T18:08:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:12Z",
-  "current": 258.73,
-  "change": -2.33,
-  "change_pct": -0.8925,
+  "fetched_at": "2026-08-26T18:08:30Z",
+  "current": 258.9,
+  "change": -2.16,
+  "change_pct": -0.8274,
   "high": 262.05,
-  "low": 258.35,
+  "low": 258.24,
   "open": 261.1775,
   "prev_close": 261.06,
-  "ts": 1787760407
+  "ts": 1787767683
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:12Z",
+  "fetched_at": "2026-08-26T18:08:30Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T16:07:15Z",
+  "fetched_at": "2026-08-26T18:08:32Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-26",
     "open": 261.07,
     "high": 262.04,
-    "low": 258.37,
-    "close": 258.72,
-    "volume": 351693.0
+    "low": 258.24,
+    "close": 258.83,
+    "volume": 472680.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:16Z",
+  "fetched_at": "2026-08-26T18:08:32Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T16:07:16Z",
+  "fetched_at": "2026-08-26T18:08:32Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.888279,
+  "forward_pe": 24.920336,
   "forward_eps": 10.39051,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,8 +7463,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:16Z",
+  "fetched_at": "2026-08-26T18:08:32Z",
   "rows": [
+   {
+    "ts": 1787762405,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+   },
+   {
+    "ts": 1787750700,
+    "headline": "Wall Street Lunch: Meta Settles Minors' Addiction, Data Privacy Claims For $12.7B",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=93693e522727c16ce265ecaefe78c970775937a2523bdf51c209f1a64665f5fb"
+   },
+   {
+    "ts": 1787747163,
+    "headline": "The Government Took Equity In Quantum Stocks, So Should We",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
+   },
+   {
+    "ts": 1787745520,
+    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
+   },
+   {
+    "ts": 1787745013,
+    "headline": "Amazon's Anthropic Stake Just Bought It Something Credit Markets Couldn't",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=26de9393f8b02bfcd254144f37822a8090b41ace7a7149760c76b2aa544b4d26"
+   },
    {
     "ts": 1787743200,
     "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
@@ -7482,43 +7512,13 @@
     "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
-   },
-   {
-    "ts": 1787735476,
-    "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There\u2019s a Huge Danger Here'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
-   },
-   {
-    "ts": 1787732100,
-    "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
-   },
-   {
-    "ts": 1787725800,
-    "headline": "Big Tech Off-Balance Sheet Concerns",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
-   },
-   {
-    "ts": 1787717709,
-    "headline": "'China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing, Sources Say' - Reuters Exclusive",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8a7d98409c2ad563c5d64004ed170add56913eacf9d90bfbbd094a6ae4c5bb6e"
-   },
-   {
-    "ts": 1787716433,
-    "headline": "The Deep Unknowns Of AI",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T16:07:16Z",
+  "fetched_at": "2026-08-26T18:08:33Z",
   "buys": 23,
   "sells": 62,
   "net_shares": -2046536.0,
