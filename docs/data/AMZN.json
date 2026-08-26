@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-25T20:51:45Z",
+ "generated_at": "2026-08-26T13:42:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:45Z",
-  "current": 261.06,
-  "change": -1.01,
-  "change_pct": -0.3854,
-  "high": 263.89,
-  "low": 259.83,
-  "open": 262.51,
-  "prev_close": 262.07,
-  "ts": 1787688000
+  "fetched_at": "2026-08-26T13:42:50Z",
+  "current": 259.76,
+  "change": -1.3,
+  "change_pct": -0.498,
+  "high": 262.05,
+  "low": 259.375,
+  "open": 261.1775,
+  "prev_close": 261.06,
+  "ts": 1787751755
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:46Z",
+  "fetched_at": "2026-08-26T13:42:50Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2812963024846.142,
+  "mcap": 2815875329829.8774,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T20:51:46Z",
+  "fetched_at": "2026-08-26T13:42:51Z",
   "bars": [
-   {
-    "date": "2023-01-24",
-    "open": 96.93,
-    "high": 98.089996,
-    "low": 96.0,
-    "close": 96.32,
-    "volume": 66929500.0
-   },
    {
     "date": "2023-01-25",
     "open": 92.56,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-24",
-    "open": 259.51999,
+    "open": 259.60001,
     "high": 263.32001,
     "low": 259.049988,
     "close": 262.070007,
-    "volume": 27975466.0
+    "volume": 28070500.0
    },
    {
     "date": "2026-08-25",
-    "open": 262.56,
-    "high": 263.89,
-    "low": 259.83,
-    "close": 260.95,
-    "volume": 936694.0
+    "open": 262.60001,
+    "high": 263.87189,
+    "low": 259.82999,
+    "close": 261.059998,
+    "volume": 25452240.0
+   },
+   {
+    "date": "2026-08-26",
+    "open": 261.07,
+    "high": 262.04,
+    "low": 259.405,
+    "close": 259.68,
+    "volume": 49153.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-25",
+  "latest": "2026-08-26",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:46Z",
+  "fetched_at": "2026-08-26T13:42:51Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,26 +7445,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T20:51:47Z",
+  "fetched_at": "2026-08-26T13:42:51Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.12485,
+  "forward_pe": 24.993963,
   "forward_eps": 10.39051,
-  "short_pct_float": 0.01,
-  "short_ratio": 2.1,
-  "short_asof": 1785456000,
-  "institutions_pct": 0.68723,
+  "short_pct_float": 0.0097,
+  "short_ratio": 2.04,
+  "short_asof": 1786665600,
+  "institutions_pct": 0.68727,
   "insiders_pct": 0.088690005,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:47Z",
+  "fetched_at": "2026-08-26T13:42:51Z",
   "rows": [
+   {
+    "ts": 1787732100,
+    "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
+   },
+   {
+    "ts": 1787725800,
+    "headline": "Big Tech Off-Balance Sheet Concerns",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
+   },
+   {
+    "ts": 1787716433,
+    "headline": "The Deep Unknowns Of AI",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
+   },
+   {
+    "ts": 1787691303,
+    "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
+   },
    {
     "ts": 1787685007,
     "headline": "These dow jones stocks are moving in today's session",
@@ -7472,56 +7496,32 @@
     "url": "https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28"
    },
    {
+    "ts": 1787679300,
+    "headline": "Don't Sleep On Software",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d"
+   },
+   {
+    "ts": 1787678675,
+    "headline": "Broadcom: Moving Big Into Vendor Financing",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
+   },
+   {
     "ts": 1787676006,
     "headline": "Top dow jones movers in Tuesday's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
-   },
-   {
-    "ts": 1787672208,
-    "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60"
-   },
-   {
-    "ts": 1787666824,
-    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
-   },
-   {
-    "ts": 1787665763,
-    "headline": "Cheapest AI Infrastructure Play Left: Crypto Miners Converting To AI Data Centers",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fe1524630169d397eb340f337c1eecde8866efa5b89674a966c125fd05b4376c"
-   },
-   {
-    "ts": 1787659357,
-    "headline": "'Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue' - WSJ Exclusive",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=cee5faec1d2e782d538f1d54ce18c3aa1139b3390e67c37b5389f430018753c2"
-   },
-   {
-    "ts": 1787645530,
-    "headline": "SanDisk Could Benefit as Amazon and Microsoft See AI Investments Start to Pay Off",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4149fc64b4cd21b278e0a067b703e12566c3056dad0e555e5cc45b39bb8f51a4"
-   },
-   {
-    "ts": 1787645402,
-    "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d51149d752196818dc87969d3d6eb90f2a5a000270c4098a5f30ee138f892841"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:47Z",
+  "fetched_at": "2026-08-26T13:42:51Z",
   "buys": 23,
-  "sells": 86,
-  "net_shares": -2100789.0,
+  "sells": 62,
+  "net_shares": -2046536.0,
   "months": 6,
   "recent": [
    {

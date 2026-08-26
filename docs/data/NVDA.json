@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-25T20:52:07Z",
+ "generated_at": "2026-08-26T13:43:11Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:07Z",
-  "current": 213.05,
-  "change": 4.57,
-  "change_pct": 2.1921,
-  "high": 214.73,
-  "low": 210.11,
-  "open": 211.025,
-  "prev_close": 208.48,
-  "ts": 1787688000
+  "fetched_at": "2026-08-26T13:43:11Z",
+  "current": 212.1,
+  "change": -0.95,
+  "change_pct": -0.4459,
+  "high": 213.6,
+  "low": 210.7801,
+  "open": 213.165,
+  "prev_close": 213.05,
+  "ts": 1787751778
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:07Z",
+  "fetched_at": "2026-08-26T13:43:11Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5113462315207.394,
+  "mcap": 5155809894339.546,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T20:52:09Z",
+  "fetched_at": "2026-08-26T13:43:12Z",
   "bars": [
-   {
-    "date": "2023-01-24",
-    "open": 18.827,
-    "high": 19.495,
-    "low": 18.82,
-    "close": 19.265,
-    "volume": 496204000.0
-   },
    {
     "date": "2023-01-25",
     "open": 18.913,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-24",
-    "open": 215.38,
+    "open": 215.53,
     "high": 215.59,
-    "low": 207.37,
+    "low": 207.25,
     "close": 208.48,
-    "volume": 134405887.0
+    "volume": 135187300.0
    },
    {
     "date": "2026-08-25",
-    "open": 210.98,
-    "high": 214.7,
+    "open": 211.024994,
+    "high": 214.7291,
     "low": 210.11,
-    "close": 212.95,
-    "volume": 3478167.0
+    "close": 213.050003,
+    "volume": 120441439.0
+   },
+   {
+    "date": "2026-08-26",
+    "open": 212.57,
+    "high": 213.58,
+    "low": 210.79,
+    "close": 212.06,
+    "volume": 317739.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-25",
+  "latest": "2026-08-26",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:09Z",
+  "fetched_at": "2026-08-26T13:43:12Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T20:52:10Z",
+  "fetched_at": "2026-08-26T13:43:12Z",
   "analyst_target_mean": 304.72882,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.336937,
+  "forward_pe": 16.267157,
   "forward_eps": 13.041,
-  "short_pct_float": 0.0126,
-  "short_ratio": 2.23,
-  "short_asof": 1785456000,
-  "institutions_pct": 0.71185,
+  "short_pct_float": 0.0123000005,
+  "short_ratio": 2.35,
+  "short_asof": 1786665600,
+  "institutions_pct": 0.71202004,
   "insiders_pct": 0.03991,
   "beta": 2.215,
   "next_earnings": 1787774400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:10Z",
+  "fetched_at": "2026-08-26T13:43:12Z",
   "rows": [
+   {
+    "ts": 1787732100,
+    "headline": "Why Amazon's Earnings Matter For Nvidia's Outlook",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=605b07496038751bdcf6893d550beb3dcdef7cc203d959ecfb120f16ab048c6c"
+   },
+   {
+    "ts": 1787731200,
+    "headline": "SCHD And STK: A 3%+ Income Barbell",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=ea4ad1157b42d6bad453f53df9599e9e64e5dddcb48416e8ed75336323562ec6"
+   },
+   {
+    "ts": 1787727653,
+    "headline": "Cheaper Oil and a Chip Bid Set the Table Before Nvidia Speaks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=bdd5ff242d5acf57f02c5b23519220e818af944279b3c1f3f5ab65b2e2fffb55"
+   },
+   {
+    "ts": 1787721600,
+    "headline": "Markets Look Out For Warsh's Jackson Hole Speech, Nvidia Earnings",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=8552f760fa590f924bb521d88400a9689c2c2a7bf5bc3fc6aa6993d770f15ac7"
+   },
+   {
+    "ts": 1787717700,
+    "headline": "Nvidia Earnings Preview: AI Capex, Blackwell Ramp And 216.40 Bullish Breakout Hold The Key",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e5dfd9a9c7a3047722edb217b4b2b5e56b50750a8d950342f7ecfab59f32308d"
+   },
+   {
+    "ts": 1787716433,
+    "headline": "The Deep Unknowns Of AI",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
+   },
+   {
+    "ts": 1787716080,
+    "headline": "AI's Bar Mitzvah Moment: From Hype And Hope To Business Questions",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=33050069b185f62edc20d73ca7c1b76aac2cbd08e64f3ac8bac0a4c87663ecf2"
+   },
    {
     "ts": 1787685007,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28"
-   },
-   {
-    "ts": 1787681101,
-    "headline": "Which S&P500 stocks are the most active on Tuesday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a9251f9283b5230d33a2e52ed6096324c868b9a20066ede8525d714353dc782a"
-   },
-   {
-    "ts": 1787680800,
-    "headline": "These stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=ef9d112c99842b5333cb53c3d010e1efd966f64ddf0b9870aa741fdc3383fbbf"
-   },
-   {
-    "ts": 1787676006,
-    "headline": "Top dow jones movers in Tuesday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a8858e98310f85462059e252bd76fc3444519de43c88f68833ab57142ce4739b"
-   },
-   {
-    "ts": 1787672208,
-    "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60"
-   },
-   {
-    "ts": 1787671968,
-    "headline": "AI Semiconductor Chips Vs. Software Stocks: Understanding Cyclicality And Disruption",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=be982ebc4a89a5a9360ce887cc0bb555e3d0c48ed10a27a2b0c301e97e2dc1a9"
-   },
-   {
-    "ts": 1787671866,
-    "headline": "Nvidia Could Swing By $286 Billion After Earnings",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=68674c47e49b20815fd38ebc9ce8a659b68d1509dabebe169fe463302b55049a"
-   },
-   {
-    "ts": 1787670899,
-    "headline": "Leveraged Single-Stock ETF Closures Went From 3 To 63 In A Year As Money Piles Into Nvidia Bets",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=2c25c4250c0ba4a06b66038c48c26ef7bacbd77337e30f813a2e4fc83e9a24d7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:10Z",
+  "fetched_at": "2026-08-26T13:43:12Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

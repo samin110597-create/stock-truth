@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-25T20:51:56Z",
+ "generated_at": "2026-08-26T13:43:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:56Z",
-  "current": 343.34,
-  "change": -1.25,
-  "change_pct": -0.3627,
-  "high": 346.7,
-  "low": 342.145,
-  "open": 345.97,
-  "prev_close": 344.59,
-  "ts": 1787688000
+  "fetched_at": "2026-08-26T13:43:01Z",
+  "current": 340.09,
+  "change": -3.25,
+  "change_pct": -0.9466,
+  "high": 343.1911,
+  "low": 339.36,
+  "open": 342.955,
+  "prev_close": 343.34,
+  "ts": 1787751754
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:56Z",
+  "fetched_at": "2026-08-26T13:43:01Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4240569050000.0,
+  "mcap": 4243320800000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T20:51:57Z",
+  "fetched_at": "2026-08-26T13:43:02Z",
   "bars": [
-   {
-    "date": "2023-01-24",
-    "open": 99.55,
-    "high": 101.089996,
-    "low": 98.7,
-    "close": 99.21,
-    "volume": 27391400.0
-   },
    {
     "date": "2023-01-25",
     "open": 97.2,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-08-24",
-    "open": 340.51999,
+    "open": 340.73999,
     "high": 348.079987,
     "low": 339.62,
     "close": 344.59,
-    "volume": 16410606.0
+    "volume": 16450600.0
    },
    {
     "date": "2026-08-25",
-    "open": 345.905,
-    "high": 346.51,
-    "low": 342.145,
-    "close": 343.35,
-    "volume": 553643.0
+    "open": 345.66199,
+    "high": 346.70001,
+    "low": 342.14499,
+    "close": 343.34,
+    "volume": 13996449.0
+   },
+   {
+    "date": "2026-08-26",
+    "open": 343.145,
+    "high": 343.145,
+    "low": 339.415,
+    "close": 339.54,
+    "volume": 45355.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-25",
+  "latest": "2026-08-26",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:57Z",
+  "fetched_at": "2026-08-26T13:43:02Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,26 +7445,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T20:51:57Z",
+  "fetched_at": "2026-08-26T13:43:02Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.181402,
+  "forward_pe": 22.970749,
   "forward_eps": 14.81101,
   "short_pct_float": null,
-  "short_ratio": 2.35,
-  "short_asof": 1785456000,
-  "institutions_pct": 0.62245,
+  "short_ratio": 2.1,
+  "short_asof": 1786665600,
+  "institutions_pct": 0.62257,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:57Z",
+  "fetched_at": "2026-08-26T13:43:02Z",
   "rows": [
+   {
+    "ts": 1787725800,
+    "headline": "Big Tech Off-Balance Sheet Concerns",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
+   },
+   {
+    "ts": 1787691303,
+    "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
+   },
+   {
+    "ts": 1787679300,
+    "headline": "Don't Sleep On Software",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d"
+   },
+   {
+    "ts": 1787678675,
+    "headline": "Broadcom: Moving Big Into Vendor Financing",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
+   },
    {
     "ts": 1787672208,
     "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
@@ -7488,37 +7512,13 @@
     "headline": "S&P 500 Earnings Growth Overstated And Bifurcated",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=42d9a7113f1655a274f2dec825fe848131dba114b7685b01a9c3cd5dfdd1fcb2"
-   },
-   {
-    "ts": 1787663220,
-    "headline": "Waymo to launch driverless rides in Germany in 2027, entering third market outside U.S. ",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=8f5b10faf77cdd0375a8c76749a5a79281eba0c115865c9a89ed73b4503d0b02"
-   },
-   {
-    "ts": 1787659357,
-    "headline": "'Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue' - WSJ Exclusive",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=cee5faec1d2e782d538f1d54ce18c3aa1139b3390e67c37b5389f430018753c2"
-   },
-   {
-    "ts": 1787653572,
-    "headline": "Waymo Plans To Roll Out Robotaxi Service In Munich In Late 2027",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=3a98edef8764fb93cdf3fa53fc7f2e14a0543f9d359d37c11eac060d934e2548"
-   },
-   {
-    "ts": 1787649687,
-    "headline": "Alphabet's Growth Isn't Even Close To Being Over Yet",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c7444cb4d859f5f1b0f02cf6ee48507723a12de498c21c0327513f3fefb8e5d1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:51:58Z",
+  "fetched_at": "2026-08-26T13:43:02Z",
   "error": "no insider filings in six months"
  },
  "peers": {

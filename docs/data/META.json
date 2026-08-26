@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-25T20:52:19Z",
+ "generated_at": "2026-08-26T13:43:21Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:19Z",
-  "current": 570.05,
-  "change": 11.03,
-  "change_pct": 1.9731,
-  "high": 570.8,
-  "low": 561.4001,
-  "open": 563.88,
-  "prev_close": 559.02,
-  "ts": 1787688000
+  "fetched_at": "2026-08-26T13:43:21Z",
+  "current": 568.58,
+  "change": -1.47,
+  "change_pct": -0.2579,
+  "high": 593.34,
+  "low": 563.0,
+  "open": 580.315,
+  "prev_close": 570.05,
+  "ts": 1787751778
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:19Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1441379020958.7646,
+  "mcap": 1452205922406.4048,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-25T20:52:19Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "bars": [
-   {
-    "date": "2023-01-24",
-    "open": 141.69,
-    "high": 145.0,
-    "low": 141.36,
-    "close": 143.14,
-    "volume": 21970200.0
-   },
    {
     "date": "2023-01-25",
     "open": 141.22,
@@ -7218,19 +7210,27 @@
     "high": 561.41998,
     "low": 546.29999,
     "close": 559.02002,
-    "volume": 12868199.0
+    "volume": 12990600.0
    },
    {
     "date": "2026-08-25",
     "open": 563.75,
-    "high": 570.74,
-    "low": 561.46,
-    "close": 569.99,
-    "volume": 381296.0
+    "high": 570.79999,
+    "low": 561.40009,
+    "close": 570.049988,
+    "volume": 9719248.0
+   },
+   {
+    "date": "2026-08-26",
+    "open": 590.87,
+    "high": 593.2,
+    "low": 563.1,
+    "close": 568.57,
+    "volume": 210823.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-25",
+  "latest": "2026-08-26",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:19Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,26 +7454,50 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-25T20:52:20Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.425737,
+  "forward_pe": 16.367245,
   "forward_eps": 34.70468,
-  "short_pct_float": 0.0143,
-  "short_ratio": 1.55,
-  "short_asof": 1785456000,
-  "institutions_pct": 0.79033,
+  "short_pct_float": 0.0127,
+  "short_ratio": 1.73,
+  "short_asof": 1786665600,
+  "institutions_pct": 0.79038,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:20Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "rows": [
+   {
+    "ts": 1787734696,
+    "headline": "Meta: Rent Out That Compute, Zuck",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=748648d8a038c2458eb6ff910ff60a7f322558436c429dc6ec52478f4bc9f3fd"
+   },
+   {
+    "ts": 1787725800,
+    "headline": "Big Tech Off-Balance Sheet Concerns",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
+   },
+   {
+    "ts": 1787716433,
+    "headline": "The Deep Unknowns Of AI",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
+   },
+   {
+    "ts": 1787678675,
+    "headline": "Broadcom: Moving Big Into Vendor Financing",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
+   },
    {
     "ts": 1787672208,
     "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
@@ -7497,40 +7521,16 @@
     "headline": "OpenAI Uncovers a Covert Russian Influence Machine Using ChatGPT to Build Fake Expertise and Spread Pro-Moscow Narratives Across Social Media",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=2af02e7e913bee140659ac5df29389c4e4b1793b697112083ee643c8d0809ed2"
-   },
-   {
-    "ts": 1787648964,
-    "headline": "Meta Platforms Rolls Out New Account Security Features For WhatsApp; Upgrades Two-Step Security Verification To Full Password",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8406b7783a25a5a18ae8ae8d9cdbe71768c07a8205acfa8aa59d7cfc8b5d324b"
-   },
-   {
-    "ts": 1787647714,
-    "headline": "Evercore ISI Group Maintains Outperform on Meta Platforms, Raises Price Target to $860",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=4bcbb25d853089b0f935fcf7894de0cec3e27651b7cfd068a1f44ded5aa259ce"
-   },
-   {
-    "ts": 1787646624,
-    "headline": "This Chip Stock Could Overtake Intel by 2027\u2014Wall Street Sees 40% Upside as AI Agents Reshape the CPU Market",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=773e1d89845978e54e5326c30b7f62f4b7ac52a8848d521c0cb071859bb33ce6"
-   },
-   {
-    "ts": 1787645402,
-    "headline": "Nvidia Earnings Could Trigger a Chilling Reality Check For $1 Trillion AI Boom, Says Analyst: 'Biggest Thing I Am Watching...' (UPDATED)",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d51149d752196818dc87969d3d6eb90f2a5a000270c4098a5f30ee138f892841"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-25T20:52:20Z",
+  "fetched_at": "2026-08-26T13:43:22Z",
   "buys": 105,
-  "sells": 223,
-  "net_shares": 3103139.0,
+  "sells": 218,
+  "net_shares": 3104694.0,
   "months": 6,
   "recent": [
    {
