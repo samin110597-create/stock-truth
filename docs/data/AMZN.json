@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-26T18:08:30Z",
+ "generated_at": "2026-08-26T20:16:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:30Z",
-  "current": 258.9,
-  "change": -2.16,
-  "change_pct": -0.8274,
+  "fetched_at": "2026-08-26T20:16:15Z",
+  "current": 260.28,
+  "change": -0.78,
+  "change_pct": -0.2988,
   "high": 262.05,
   "low": 258.24,
-  "open": 261.1775,
+  "open": 261.275,
   "prev_close": 261.06,
-  "ts": 1787767683
+  "ts": 1787774400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:30Z",
+  "fetched_at": "2026-08-26T20:16:15Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T18:08:32Z",
+  "fetched_at": "2026-08-26T20:16:22Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 261.07,
     "high": 262.04,
     "low": 258.24,
-    "close": 258.83,
-    "volume": 472680.0
+    "close": 260.335,
+    "volume": 687655.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:32Z",
+  "fetched_at": "2026-08-26T20:16:22Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T18:08:32Z",
+  "fetched_at": "2026-08-26T20:16:22Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.920336,
+  "forward_pe": 25.049782,
   "forward_eps": 10.39051,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:32Z",
+  "fetched_at": "2026-08-26T20:16:22Z",
   "rows": [
    {
     "ts": 1787762405,
@@ -7472,53 +7472,53 @@
     "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
    },
    {
+    "ts": 1787758953,
+    "headline": "Amazon: Proven Capital Allocation At A Good Price",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=bf0ef19589808159b0447abc22ca6c86affe84dff0692fe2e270a12fc2cb73f3"
+   },
+   {
     "ts": 1787750700,
     "headline": "Wall Street Lunch: Meta Settles Minors' Addiction, Data Privacy Claims For $12.7B",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=93693e522727c16ce265ecaefe78c970775937a2523bdf51c209f1a64665f5fb"
    },
    {
+    "ts": 1787750432,
+    "headline": "'Nscale Will Use NVIDIA's Vera Rubin Chips, Which Will Start To Come Online Late Next Year, To Meet Anthropic\u2019s Needs' - Bloomberg News",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=959b48fa3dbff2027c4d5cc441704d76db6739e56937d96096b2b36574da8506"
+   },
+   {
+    "ts": 1787750070,
+    "headline": "'Anthropic to Pay Nscale $45 Billion for AI Computing Power' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6901e062ecece73daa4633570663715ae9d348277f09ba2ca904f277e0277f93"
+   },
+   {
+    "ts": 1787749009,
+    "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
+   },
+   {
+    "ts": 1787748592,
+    "headline": "Microsoft, Amazon, Google Court Kimi K3 Maker Despite Bessent Blacklist Threat",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=5c61b3ea63bf2475f36326e1d3e147963041e66d3a17afacd7431ae125672655"
+   },
+   {
     "ts": 1787747163,
     "headline": "The Government Took Equity In Quantum Stocks, So Should We",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
-   },
-   {
-    "ts": 1787745520,
-    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
-   },
-   {
-    "ts": 1787745013,
-    "headline": "Amazon's Anthropic Stake Just Bought It Something Credit Markets Couldn't",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=26de9393f8b02bfcd254144f37822a8090b41ace7a7149760c76b2aa544b4d26"
-   },
-   {
-    "ts": 1787743200,
-    "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
-   },
-   {
-    "ts": 1787743151,
-    "headline": "Alibaba: Buy The AI Spending Panic After Q2",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=69d28c406d930f3c0238cc48762970949d72a1ca61471e16d05c57ba6f9189bb"
-   },
-   {
-    "ts": 1787736075,
-    "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:33Z",
+  "fetched_at": "2026-08-26T20:16:22Z",
   "buys": 23,
   "sells": 62,
   "net_shares": -2046536.0,

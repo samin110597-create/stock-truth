@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-26T18:08:42Z",
+ "generated_at": "2026-08-26T20:16:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:42Z",
-  "current": 338.71,
-  "change": -4.63,
-  "change_pct": -1.3485,
+  "fetched_at": "2026-08-26T20:16:32Z",
+  "current": 339.1,
+  "change": -4.24,
+  "change_pct": -1.2349,
   "high": 343.1911,
   "low": 337.01,
-  "open": 342.955,
+  "open": 343.18,
   "prev_close": 343.34,
-  "ts": 1787767707
+  "ts": 1787774400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:42Z",
+  "fetched_at": "2026-08-26T20:16:32Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T18:08:42Z",
+  "fetched_at": "2026-08-26T20:16:35Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 343.145,
     "high": 343.145,
     "low": 337.05,
-    "close": 338.575,
-    "volume": 621409.0
+    "close": 339.105,
+    "volume": 848791.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:42Z",
+  "fetched_at": "2026-08-26T20:16:36Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T18:08:43Z",
+  "fetched_at": "2026-08-26T20:16:36Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.87015,
+  "forward_pe": 22.89513,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,13 +7463,43 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:43Z",
+  "fetched_at": "2026-08-26T20:16:36Z",
   "rows": [
+   {
+    "ts": 1787752283,
+    "headline": "Alphabet Stock Dips Wednesday as Investors Weigh AI Spending Against Cloud Growth",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=1dbbbd79949df8b4e2d169ae00b761bd98851f15ecb988f1faef94de16bf2c4f"
+   },
+   {
+    "ts": 1787751362,
+    "headline": "Google Selects 28 AI Energy Startups For Accelerator In North America And Europe; 2026 Accelerator Cohort To Use AI For Energy Efficiency And Grid Modernizatio",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7da043046b8c41eb3d371ce349d06079068a984a7804d06947509ba41e57b144"
+   },
    {
     "ts": 1787750580,
     "headline": "Broadcom Is The New Nvidia, And That's The Problem",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
+   },
+   {
+    "ts": 1787750432,
+    "headline": "'Nscale Will Use NVIDIA's Vera Rubin Chips, Which Will Start To Come Online Late Next Year, To Meet Anthropic\u2019s Needs' - Bloomberg News",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=959b48fa3dbff2027c4d5cc441704d76db6739e56937d96096b2b36574da8506"
+   },
+   {
+    "ts": 1787750070,
+    "headline": "'Anthropic to Pay Nscale $45 Billion for AI Computing Power' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6901e062ecece73daa4633570663715ae9d348277f09ba2ca904f277e0277f93"
+   },
+   {
+    "ts": 1787749009,
+    "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
    },
    {
     "ts": 1787747163,
@@ -7482,43 +7512,13 @@
     "headline": "Nvidia earnings live updates: Q2 results, memory prices and AI outlook",
     "source": "CNBC",
     "url": "https://finnhub.io/api/news?id=ed0641981f09fed7e00b31bcacc65f5f7d2e916eaf2c7bd9be37e6d0669fe4e0"
-   },
-   {
-    "ts": 1787745520,
-    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
-   },
-   {
-    "ts": 1787745460,
-    "headline": "3% Real Yields Are Changing How Retirees Should Invest",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ec6f0e12d4caa3a4c7bfeceda7c45f0259d90bcd65a7cf2f6df39ebc255873f0"
-   },
-   {
-    "ts": 1787738756,
-    "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
-   },
-   {
-    "ts": 1787736075,
-    "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
-   },
-   {
-    "ts": 1787735672,
-    "headline": "Meta Agrees To Pay Maximum Settlement Of $16.68B To States As Part Of Agreement, Including $2.2B To California; Deal Requires Nationwide Changes For Teen Users Of Instagram And Fac",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=c0e8dad1437f939fa65549e3beb3972ba784012d1bd783ece48fe0a6a584666b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:08:43Z",
+  "fetched_at": "2026-08-26T20:16:36Z",
   "error": "no insider filings in six months"
  },
  "peers": {

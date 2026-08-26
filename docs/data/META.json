@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-26T18:09:03Z",
+ "generated_at": "2026-08-26T20:16:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:09:03Z",
-  "current": 578.05,
-  "change": 8.0,
-  "change_pct": 1.4034,
+  "fetched_at": "2026-08-26T20:16:57Z",
+  "current": 576.14,
+  "change": 6.09,
+  "change_pct": 1.0683,
   "high": 593.34,
   "low": 561.88,
-  "open": 580.315,
+  "open": 590.31,
   "prev_close": 570.05,
-  "ts": 1787767732
+  "ts": 1787774400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:09:03Z",
+  "fetched_at": "2026-08-26T20:16:57Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T18:09:04Z",
+  "fetched_at": "2026-08-26T20:16:58Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 590.87,
     "high": 593.2,
     "low": 561.99,
-    "close": 577.96,
-    "volume": 972383.0
+    "close": 576.25,
+    "volume": 1153895.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:09:04Z",
+  "fetched_at": "2026-08-26T20:16:58Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T18:09:05Z",
+  "fetched_at": "2026-08-26T20:16:58Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.658253,
+  "forward_pe": 16.60122,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:09:05Z",
+  "fetched_at": "2026-08-26T20:16:59Z",
   "rows": [
+   {
+    "ts": 1787767501,
+    "headline": "Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"
+   },
+   {
+    "ts": 1787752561,
+    "headline": "AI Bubble Alert: The Rubber Hits The Road In 2027",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f6018372a73257397902f83f94ec08db28d77e3e15820591182a0a76c1a5bcab"
+   },
+   {
+    "ts": 1787751990,
+    "headline": "What Is Going on With Meta Platforms Stock on Wednesday?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=f63e74921c950ae195a2fb352cb6308cf0010225ee31a330c46f6f02f82b6a56"
+   },
    {
     "ts": 1787751600,
     "headline": "A Meta Rally As Short As A Reel",
@@ -7493,41 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
    },
    {
+    "ts": 1787749009,
+    "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
+   },
+   {
     "ts": 1787746033,
     "headline": "Stocks making the biggest moves midday: Meta, Abercrombie & Fitch, Zoom, Intuit & more",
     "source": "CNBC",
     "url": "https://finnhub.io/api/news?id=19a4182d79789846c4a270145b81b6e3d4588aa2423a7ed8806827fe49b6b37b"
-   },
-   {
-    "ts": 1787745520,
-    "headline": "ASC 842 Is About To Drop A Bomb On AI Hype",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5a62231603660e362fa7ccc54abcfdcdb7cf826d42dacfd1052d6ff96b1982b2"
-   },
-   {
-    "ts": 1787744984,
-    "headline": "Meta reaches landmark settlement",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=ff02ca089f112aac6bcd1b37d0b2c1f357b12d31bbd74e488a361dfacd54c31a"
-   },
-   {
-    "ts": 1787743200,
-    "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
-   },
-   {
-    "ts": 1787742419,
-    "headline": "Why Is Snap Stock Falling on Wednesday?",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=39d1b2bbbe668e6e525cbeb3f3b00ff6e90f4632f3a1447c66801c077af4d339"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T18:09:05Z",
+  "fetched_at": "2026-08-26T20:17:01Z",
   "buys": 105,
   "sells": 218,
   "net_shares": 3104694.0,
