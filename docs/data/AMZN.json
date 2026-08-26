@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-26T14:31:47Z",
+ "generated_at": "2026-08-26T16:07:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:31:49Z",
-  "current": 259.12,
-  "change": -1.94,
-  "change_pct": -0.7431,
+  "fetched_at": "2026-08-26T16:07:12Z",
+  "current": 258.73,
+  "change": -2.33,
+  "change_pct": -0.8925,
   "high": 262.05,
-  "low": 258.88,
+  "low": 258.35,
   "open": 261.1775,
   "prev_close": 261.06,
-  "ts": 1787754686
+  "ts": 1787760407
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:31:50Z",
+  "fetched_at": "2026-08-26T16:07:12Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T14:31:54Z",
+  "fetched_at": "2026-08-26T16:07:15Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-26",
     "open": 261.07,
     "high": 262.04,
-    "low": 258.9,
-    "close": 259.07,
-    "volume": 184915.0
+    "low": 258.37,
+    "close": 258.72,
+    "volume": 351693.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:31:54Z",
+  "fetched_at": "2026-08-26T16:07:16Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T14:31:56Z",
+  "fetched_at": "2026-08-26T16:07:16Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.921782,
+  "forward_pe": 24.888279,
   "forward_eps": 10.39051,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,13 +7463,31 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:31:56Z",
+  "fetched_at": "2026-08-26T16:07:16Z",
   "rows": [
+   {
+    "ts": 1787743200,
+    "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+   },
+   {
+    "ts": 1787743151,
+    "headline": "Alibaba: Buy The AI Spending Panic After Q2",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=69d28c406d930f3c0238cc48762970949d72a1ca61471e16d05c57ba6f9189bb"
+   },
    {
     "ts": 1787736075,
     "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+   },
+   {
+    "ts": 1787735476,
+    "headline": "Goldman Sachs Executive Sounds The Alarm, Warns AI Could Cause 'Cognitive Atrophy' on Wall Street: 'There\u2019s a Huge Danger Here'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=ab63bb13404443951b8c1816c980065c6ef1a2c8ee6088ad6632c3f88d94dff5"
    },
    {
     "ts": 1787732100,
@@ -7484,41 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
    },
    {
+    "ts": 1787717709,
+    "headline": "'China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing, Sources Say' - Reuters Exclusive",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=8a7d98409c2ad563c5d64004ed170add56913eacf9d90bfbbd094a6ae4c5bb6e"
+   },
+   {
     "ts": 1787716433,
     "headline": "The Deep Unknowns Of AI",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
-   },
-   {
-    "ts": 1787691303,
-    "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
-   },
-   {
-    "ts": 1787685007,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=4a58a6f746e24ff8c34ddff188f2b82ff0e1326f391c36ca862d996d0c19ac28"
-   },
-   {
-    "ts": 1787679300,
-    "headline": "Don't Sleep On Software",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d"
-   },
-   {
-    "ts": 1787678675,
-    "headline": "Broadcom: Moving Big Into Vendor Financing",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:31:56Z",
+  "fetched_at": "2026-08-26T16:07:16Z",
   "buys": 23,
   "sells": 62,
   "net_shares": -2046536.0,

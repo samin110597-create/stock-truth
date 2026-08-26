@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-26T14:33:56Z",
+ "generated_at": "2026-08-26T16:07:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:33:57Z",
-  "current": 572.03,
-  "change": 1.98,
-  "change_pct": 0.3473,
+  "fetched_at": "2026-08-26T16:07:49Z",
+  "current": 577.26,
+  "change": 7.21,
+  "change_pct": 1.2648,
   "high": 593.34,
   "low": 561.88,
   "open": 580.315,
   "prev_close": 570.05,
-  "ts": 1787754828
+  "ts": 1787760455
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:33:57Z",
+  "fetched_at": "2026-08-26T16:07:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T14:33:59Z",
+  "fetched_at": "2026-08-26T16:07:51Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 590.87,
     "high": 593.2,
     "low": 561.99,
-    "close": 571.9,
-    "volume": 491617.0
+    "close": 577.18,
+    "volume": 817111.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:34:00Z",
+  "fetched_at": "2026-08-26T16:07:51Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T14:34:00Z",
+  "fetched_at": "2026-08-26T16:07:52Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.485384,
+  "forward_pe": 16.660578,
   "forward_eps": 34.70468,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:34:00Z",
+  "fetched_at": "2026-08-26T16:07:52Z",
   "rows": [
+   {
+    "ts": 1787743200,
+    "headline": "Q2 Earnings Season Confirmed The AI Infrastructure Thesis, And Revealed What May Come Next",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3043a64782e861938741cf46a220a3d6180567fd623cc1f61989a61fc51d4f93"
+   },
+   {
+    "ts": 1787738756,
+    "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
+   },
+   {
+    "ts": 1787735672,
+    "headline": "Meta Agrees To Pay Maximum Settlement Of $16.68B To States As Part Of Agreement, Including $2.2B To California; Deal Requires Nationwide Changes For Teen Users Of Instagram And Fac",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c0e8dad1437f939fa65549e3beb3972ba784012d1bd783ece48fe0a6a584666b"
+   },
+   {
+    "ts": 1787734697,
+    "headline": "Meta Agrees To Settlement With U.S. States Regarding Lawsuit Claiming That Its Technology Harmed Children",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4c8d2a2467cb843f2f33b750bc1bdfa66953fdecf6e6dd3fd93b1817cb378429"
+   },
    {
     "ts": 1787734696,
     "headline": "Meta: Rent Out That Compute, Zuck",
@@ -7487,47 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
    },
    {
+    "ts": 1787717055,
+    "headline": "Microsoft\u2019s Internal Pay Spreadsheet Shows Cloud and AI Workers Reporting Stock Awards as High as $1.4 Million: Report",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=658b373e47d231d262981219c114c13e90e1d5d44edf06b59e10510a5a8c0eea"
+   },
+   {
     "ts": 1787716433,
     "headline": "The Deep Unknowns Of AI",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=49c2fdfb4b8f477ddec3ad318d577a50fca4171092a596bd62854dea127dc82c"
-   },
-   {
-    "ts": 1787678675,
-    "headline": "Broadcom: Moving Big Into Vendor Financing",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
-   },
-   {
-    "ts": 1787672208,
-    "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60"
-   },
-   {
-    "ts": 1787666824,
-    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
-   },
-   {
-    "ts": 1787659200,
-    "headline": "AMD: The Easy Money Is Gone",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=28081dc4c74c445783662c5f5e75869df561edefbbbe33222babb834809a0bd9"
-   },
-   {
-    "ts": 1787649953,
-    "headline": "OpenAI Uncovers a Covert Russian Influence Machine Using ChatGPT to Build Fake Expertise and Spread Pro-Moscow Narratives Across Social Media",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=2af02e7e913bee140659ac5df29389c4e4b1793b697112083ee643c8d0809ed2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:34:01Z",
+  "fetched_at": "2026-08-26T16:07:52Z",
   "buys": 105,
   "sells": 218,
   "net_shares": 3104694.0,

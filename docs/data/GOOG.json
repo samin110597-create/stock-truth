@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-26T14:32:05Z",
+ "generated_at": "2026-08-26T16:07:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:32:06Z",
-  "current": 338.62,
-  "change": -4.72,
-  "change_pct": -1.3747,
+  "fetched_at": "2026-08-26T16:07:25Z",
+  "current": 338.33,
+  "change": -5.01,
+  "change_pct": -1.4592,
   "high": 343.1911,
   "low": 337.77,
   "open": 342.955,
   "prev_close": 343.34,
-  "ts": 1787754710
+  "ts": 1787760431
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:32:06Z",
+  "fetched_at": "2026-08-26T16:07:26Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T14:32:11Z",
+  "fetched_at": "2026-08-26T16:07:27Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7225,8 +7225,8 @@
     "open": 343.145,
     "high": 343.145,
     "low": 337.81,
-    "close": 338.6,
-    "volume": 208668.0
+    "close": 338.41,
+    "volume": 429636.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:32:11Z",
+  "fetched_at": "2026-08-26T16:07:27Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T14:32:11Z",
+  "fetched_at": "2026-08-26T16:07:27Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.833689,
+  "forward_pe": 22.829638,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,13 +7463,37 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:32:12Z",
+  "fetched_at": "2026-08-26T16:07:28Z",
   "rows": [
+   {
+    "ts": 1787738756,
+    "headline": "Anthropic's $30 Trillion And The Artificial Intelligence Bubble That Never Was",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=65f00285e5a35844d0d3bc432e0e7c25e575116c921950d88c1be2883aefba0b"
+   },
    {
     "ts": 1787736075,
     "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+   },
+   {
+    "ts": 1787735672,
+    "headline": "Meta Agrees To Pay Maximum Settlement Of $16.68B To States As Part Of Agreement, Including $2.2B To California; Deal Requires Nationwide Changes For Teen Users Of Instagram And Fac",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=c0e8dad1437f939fa65549e3beb3972ba784012d1bd783ece48fe0a6a584666b"
+   },
+   {
+    "ts": 1787734697,
+    "headline": "Meta Agrees To Settlement With U.S. States Regarding Lawsuit Claiming That Its Technology Harmed Children",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=4c8d2a2467cb843f2f33b750bc1bdfa66953fdecf6e6dd3fd93b1817cb378429"
+   },
+   {
+    "ts": 1787726239,
+    "headline": "US Overtakes China in Gas-Fired Power Construction as AI Data Centers Fuel Massive Energy Buildout\u2014But at What Cost?",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=ae629ecf7e65a9364a0b36d13792280c37cd278d6109d8f6361670923f9b7894"
    },
    {
     "ts": 1787725800,
@@ -7478,47 +7502,23 @@
     "url": "https://finnhub.io/api/news?id=a8f293655772bd08531737d5b9ab41904b5ef1c8de5759ac31e2a1d6cdb4ef23"
    },
    {
-    "ts": 1787691303,
-    "headline": "Tracking David Tepper's Appaloosa Management Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=68f02ebf639be16304aa29f695612e1a36fd9a7c80878ee95a3e4e4ff62f02aa"
-   },
-   {
-    "ts": 1787679300,
-    "headline": "Don't Sleep On Software",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d7c7ff30c1b3e55ae13bdb52cc80cbe1f892ae0321e0f9170dd6c952b580763d"
-   },
-   {
-    "ts": 1787678675,
-    "headline": "Broadcom: Moving Big Into Vendor Financing",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1e3a378c6c5ede2d5185cdc9938738b11f392691a0fd607ae87896267a54b8a3"
-   },
-   {
-    "ts": 1787672208,
-    "headline": "Seeking And Finding Data Center Clarity: The AI Trade And The Economy (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=83dd865c525020fe5df0907bb850f6f2493ba32e01162770b91820599548fa60"
-   },
-   {
-    "ts": 1787668717,
-    "headline": "Nvidia's AI Chips Are Making Liquid Cooling the New Standard as Cisco Expands Its AI Bet",
+    "ts": 1787717709,
+    "headline": "'China's Moonshot In Talks With Microsoft, Amazon, Google Over K3 Revenue Sharing, Sources Say' - Reuters Exclusive",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=db888e98b43af6fd0d53bb6a4568216a1e35097cf3436184052ca0153965543c"
+    "url": "https://finnhub.io/api/news?id=8a7d98409c2ad563c5d64004ed170add56913eacf9d90bfbbd094a6ae4c5bb6e"
    },
    {
-    "ts": 1787666824,
-    "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
+    "ts": 1787717055,
+    "headline": "Microsoft\u2019s Internal Pay Spreadsheet Shows Cloud and AI Workers Reporting Stock Awards as High as $1.4 Million: Report",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
+    "url": "https://finnhub.io/api/news?id=658b373e47d231d262981219c114c13e90e1d5d44edf06b59e10510a5a8c0eea"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T14:32:12Z",
+  "fetched_at": "2026-08-26T16:07:28Z",
   "error": "no insider filings in six months"
  },
  "peers": {
