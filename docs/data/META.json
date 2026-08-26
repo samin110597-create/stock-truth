@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-26T20:16:57Z",
+ "generated_at": "2026-08-26T23:47:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:57Z",
+  "fetched_at": "2026-08-26T23:47:49Z",
   "current": 576.14,
   "change": 6.09,
   "change_pct": 1.0683,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:57Z",
+  "fetched_at": "2026-08-26T23:47:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T20:16:58Z",
+  "fetched_at": "2026-08-26T23:47:49Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-25",
-    "open": 563.75,
+    "open": 563.88,
     "high": 570.79999,
-    "low": 561.40009,
+    "low": 561.40002,
     "close": 570.049988,
-    "volume": 9719248.0
+    "volume": 9769100.0
    },
    {
     "date": "2026-08-26",
-    "open": 590.87,
-    "high": 593.2,
-    "low": 561.99,
-    "close": 576.25,
-    "volume": 1153895.0
+    "open": 590.4375,
+    "high": 593.27002,
+    "low": 561.94501,
+    "close": 576.14001,
+    "volume": 31187505.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:58Z",
+  "fetched_at": "2026-08-26T23:47:50Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T20:16:58Z",
+  "fetched_at": "2026-08-26T23:47:50Z",
   "analyst_target_mean": 754.14246,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.60122,
-  "forward_eps": 34.70468,
+  "forward_pe": 16.539118,
+  "forward_eps": 34.83499,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
@@ -7472,13 +7472,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:59Z",
+  "fetched_at": "2026-08-26T23:47:50Z",
   "rows": [
    {
     "ts": 1787767501,
     "headline": "Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"
+   },
+   {
+    "ts": 1787763420,
+    "headline": "Meta Platforms: Time To Load Up On This Bargain",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=652ac0789d8da867492ed953aa2368d7756fbd9a6a5481f90942b3d0152dd24f"
    },
    {
     "ts": 1787752561,
@@ -7515,19 +7521,13 @@
     "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
-   },
-   {
-    "ts": 1787746033,
-    "headline": "Stocks making the biggest moves midday: Meta, Abercrombie & Fitch, Zoom, Intuit & more",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=19a4182d79789846c4a270145b81b6e3d4588aa2423a7ed8806827fe49b6b37b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:17:01Z",
+  "fetched_at": "2026-08-26T23:47:50Z",
   "buys": 105,
   "sells": 218,
   "net_shares": 3104694.0,

@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-26T20:16:15Z",
+ "generated_at": "2026-08-26T23:47:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:15Z",
+  "fetched_at": "2026-08-26T23:47:16Z",
   "current": 260.28,
   "change": -0.78,
   "change_pct": -0.2988,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:15Z",
+  "fetched_at": "2026-08-26T23:47:16Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T20:16:22Z",
+  "fetched_at": "2026-08-26T23:47:17Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-25",
-    "open": 262.60001,
-    "high": 263.87189,
+    "open": 262.51001,
+    "high": 263.89001,
     "low": 259.82999,
     "close": 261.059998,
-    "volume": 25452240.0
+    "volume": 25550200.0
    },
    {
     "date": "2026-08-26",
-    "open": 261.07,
-    "high": 262.04,
-    "low": 258.24,
-    "close": 260.335,
-    "volume": 687655.0
+    "open": 261.27499,
+    "high": 262.049988,
+    "low": 258.23999,
+    "close": 260.28,
+    "volume": 20669810.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:22Z",
+  "fetched_at": "2026-08-26T23:47:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T20:16:22Z",
+  "fetched_at": "2026-08-26T23:47:18Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:22Z",
+  "fetched_at": "2026-08-26T23:47:18Z",
   "rows": [
+   {
+    "ts": 1787769029,
+    "headline": "Nvidia Q2 FY27: I'm Buying This Weakness",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df"
+   },
    {
     "ts": 1787762405,
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+   },
+   {
+    "ts": 1787760652,
+    "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
    },
    {
     "ts": 1787758953,
@@ -7500,25 +7512,13 @@
     "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
-   },
-   {
-    "ts": 1787748592,
-    "headline": "Microsoft, Amazon, Google Court Kimi K3 Maker Despite Bessent Blacklist Threat",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=5c61b3ea63bf2475f36326e1d3e147963041e66d3a17afacd7431ae125672655"
-   },
-   {
-    "ts": 1787747163,
-    "headline": "The Government Took Equity In Quantum Stocks, So Should We",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:22Z",
+  "fetched_at": "2026-08-26T23:47:18Z",
   "buys": 23,
   "sells": 62,
   "net_shares": -2046536.0,

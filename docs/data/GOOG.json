@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-26T20:16:31Z",
+ "generated_at": "2026-08-26T23:47:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:32Z",
+  "fetched_at": "2026-08-26T23:47:27Z",
   "current": 339.1,
   "change": -4.24,
   "change_pct": -1.2349,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:32Z",
+  "fetched_at": "2026-08-26T23:47:28Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T20:16:35Z",
+  "fetched_at": "2026-08-26T23:47:28Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-25",
-    "open": 345.66199,
+    "open": 345.97,
     "high": 346.70001,
     "low": 342.14499,
     "close": 343.34,
-    "volume": 13996449.0
+    "volume": 14031000.0
    },
    {
     "date": "2026-08-26",
-    "open": 343.145,
-    "high": 343.145,
-    "low": 337.05,
-    "close": 339.105,
-    "volume": 848791.0
+    "open": 343.14499,
+    "high": 343.1911,
+    "low": 337.01001,
+    "close": 339.10001,
+    "volume": 15952092.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:36Z",
+  "fetched_at": "2026-08-26T23:47:28Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T20:16:36Z",
+  "fetched_at": "2026-08-26T23:47:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:36Z",
+  "fetched_at": "2026-08-26T23:47:29Z",
   "rows": [
+   {
+    "ts": 1787760652,
+    "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
+   },
    {
     "ts": 1787752283,
     "headline": "Alphabet Stock Dips Wednesday as Investors Weigh AI Spending Against Cloud Growth",
@@ -7506,19 +7512,13 @@
     "headline": "The Government Took Equity In Quantum Stocks, So Should We",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
-   },
-   {
-    "ts": 1787745601,
-    "headline": "Nvidia earnings live updates: Q2 results, memory prices and AI outlook",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=ed0641981f09fed7e00b31bcacc65f5f7d2e916eaf2c7bd9be37e6d0669fe4e0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:36Z",
+  "fetched_at": "2026-08-26T23:47:29Z",
   "error": "no insider filings in six months"
  },
  "peers": {

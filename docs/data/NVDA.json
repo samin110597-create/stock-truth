@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-26T20:16:45Z",
+ "generated_at": "2026-08-26T23:47:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:45Z",
+  "fetched_at": "2026-08-26T23:47:38Z",
   "current": 209.66,
   "change": -3.39,
   "change_pct": -1.5912,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:45Z",
+  "fetched_at": "2026-08-26T23:47:38Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T20:16:47Z",
+  "fetched_at": "2026-08-26T23:47:39Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-25",
-    "open": 211.024994,
-    "high": 214.7291,
+    "open": 211.029999,
+    "high": 214.73,
     "low": 210.11,
     "close": 213.050003,
-    "volume": 120441439.0
+    "volume": 122309000.0
    },
    {
     "date": "2026-08-26",
-    "open": 212.57,
-    "high": 213.6,
-    "low": 209.245,
-    "close": 209.89,
-    "volume": 4313487.0
+    "open": 212.42,
+    "high": 213.60001,
+    "low": 209.23,
+    "close": 209.66,
+    "volume": 145070184.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:47Z",
+  "fetched_at": "2026-08-26T23:47:39Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,11 +7454,11 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T20:16:47Z",
-  "analyst_target_mean": 304.72882,
+  "fetched_at": "2026-08-26T23:47:39Z",
+  "analyst_target_mean": 305.7931,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
-  "analyst_count": 59.0,
+  "analyst_count": 58.0,
   "recommendation": "strong_buy",
   "forward_pe": 15.970859,
   "forward_eps": 13.12766,
@@ -7472,13 +7472,31 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:47Z",
+  "fetched_at": "2026-08-26T23:47:39Z",
   "rows": [
    {
     "ts": 1787771406,
     "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"
+   },
+   {
+    "ts": 1787770224,
+    "headline": "Nvidia Q2: The $10 Trillion Thesis",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2817a606305ccb037b2cf67f2e2d75762fde7f333f8228b530d0fdf68286741e"
+   },
+   {
+    "ts": 1787769029,
+    "headline": "Nvidia Q2 FY27: I'm Buying This Weakness",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df"
+   },
+   {
+    "ts": 1787767838,
+    "headline": "Nvidia: Compressing Multiples And A $260 Technical Target",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=dacaeb5ee70b17f16e637054a02ebead758986b7845eaa7e3a081e89f45e659b"
    },
    {
     "ts": 1787767501,
@@ -7493,41 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=4152ed86f81b8ffb72f97d157296ef67d6b5df99ecd5121c3357ed36c3873358"
    },
    {
-    "ts": 1787762405,
-    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
-   },
-   {
-    "ts": 1787759200,
-    "headline": "SpaceX: FOMO Is The Ultimate Wealth Destroyer",
+    "ts": 1787766642,
+    "headline": "Nvidia: It's Time To Turn Greedy (Rating Upgrade)",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f2260c546e2d5d205ecd6228daee28ea77855a569dc0d52fd6b41731ff945040"
+    "url": "https://finnhub.io/api/news?id=164eb0c70a1abd1892a4f35247601a94d22f6b0160d748c5511cf31afb7c06eb"
    },
    {
-    "ts": 1787755064,
-    "headline": "SoftBank: A Discounted Bet On The Entire AI Stack",
+    "ts": 1787765449,
+    "headline": "Nvidia Q2: Results Keep Impressing",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b0151f2b2730b4fffa3538733f7921ed3bd5a34daf40df0794bfe5cf02bdbfbb"
-   },
-   {
-    "ts": 1787754285,
-    "headline": "Nvidia Earnings Meets Jackson Hole: 2 ETF Trades for an AI Boom Facing Higher Rates",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8a4926d7e9be2b0d93f5c24f7bfb6388a81ff25179e60e567fa718e44784c701"
-   },
-   {
-    "ts": 1787752561,
-    "headline": "AI Bubble Alert: The Rubber Hits The Road In 2027",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f6018372a73257397902f83f94ec08db28d77e3e15820591182a0a76c1a5bcab"
+    "url": "https://finnhub.io/api/news?id=43c2daec9745b84be8a11fdcb50474a48b30e3bf531b730abbcb50dab859af8f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T20:16:48Z",
+  "fetched_at": "2026-08-26T23:47:40Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
