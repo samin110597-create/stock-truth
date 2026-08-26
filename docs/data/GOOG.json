@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-26T13:43:01Z",
+ "generated_at": "2026-08-26T14:32:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T13:43:01Z",
-  "current": 340.09,
-  "change": -3.25,
-  "change_pct": -0.9466,
+  "fetched_at": "2026-08-26T14:32:06Z",
+  "current": 338.62,
+  "change": -4.72,
+  "change_pct": -1.3747,
   "high": 343.1911,
-  "low": 339.36,
+  "low": 337.77,
   "open": 342.955,
   "prev_close": 343.34,
-  "ts": 1787751754
+  "ts": 1787754710
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T13:43:01Z",
+  "fetched_at": "2026-08-26T14:32:06Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T13:43:02Z",
+  "fetched_at": "2026-08-26T14:32:11Z",
   "bars": [
    {
     "date": "2023-01-25",
@@ -7224,9 +7224,9 @@
     "date": "2026-08-26",
     "open": 343.145,
     "high": 343.145,
-    "low": 339.415,
-    "close": 339.54,
-    "volume": 45355.0
+    "low": 337.81,
+    "close": 338.6,
+    "volume": 208668.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T13:43:02Z",
+  "fetched_at": "2026-08-26T14:32:11Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T13:43:02Z",
+  "fetched_at": "2026-08-26T14:32:11Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.970749,
+  "forward_pe": 22.833689,
   "forward_eps": 14.81101,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T13:43:02Z",
+  "fetched_at": "2026-08-26T14:32:12Z",
   "rows": [
+   {
+    "ts": 1787736075,
+    "headline": "SpaceX: Explosive Growth Still Can't Justify This Stock Price",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d4635b115859deb0a8ace9f2448781b896865820ed1ea9b645280b488285fb2e"
+   },
    {
     "ts": 1787725800,
     "headline": "Big Tech Off-Balance Sheet Concerns",
@@ -7506,19 +7512,13 @@
     "headline": "Treasury Bond Buybacks Cannot Solve A Fiscal Problem; Nvidia Earnings And Inflation Data Expected Tomorrow",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=b79b16c471bcc0898122b4984a9697a565e0a077e356fc4b8e6fa80e5d01d750"
-   },
-   {
-    "ts": 1787664215,
-    "headline": "S&P 500 Earnings Growth Overstated And Bifurcated",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=42d9a7113f1655a274f2dec825fe848131dba114b7685b01a9c3cd5dfdd1fcb2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T13:43:02Z",
+  "fetched_at": "2026-08-26T14:32:12Z",
   "error": "no insider filings in six months"
  },
  "peers": {
