@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-26T23:47:38Z",
+ "generated_at": "2026-08-27T22:39:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:38Z",
-  "current": 209.66,
-  "change": -3.39,
-  "change_pct": -1.5912,
-  "high": 213.6,
-  "low": 209.23,
-  "open": 212.64,
-  "prev_close": 213.05,
-  "ts": 1787774400
+  "fetched_at": "2026-08-27T22:39:50Z",
+  "current": 227.98,
+  "change": 18.32,
+  "change_pct": 8.738,
+  "high": 230.47,
+  "low": 220.9,
+  "open": 222.86,
+  "prev_close": 209.66,
+  "ts": 1787860800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:38Z",
+  "fetched_at": "2026-08-27T22:39:51Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5155810073853.0,
+  "mcap": 5455406095288.959,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T23:47:39Z",
+  "fetched_at": "2026-08-27T22:39:51Z",
   "bars": [
-   {
-    "date": "2023-01-25",
-    "open": 18.913,
-    "high": 19.37,
-    "low": 18.58,
-    "close": 19.323,
-    "volume": 449537000.0
-   },
    {
     "date": "2023-01-26",
     "open": 19.701,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-08-26",
-    "open": 212.42,
+    "open": 212.64,
     "high": 213.60001,
     "low": 209.23,
     "close": 209.66,
-    "volume": 145070184.0
+    "volume": 179900000.0
+   },
+   {
+    "date": "2026-08-27",
+    "open": 222.58501,
+    "high": 230.47,
+    "low": 220.89999,
+    "close": 227.98,
+    "volume": 297197891.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-26",
+  "latest": "2026-08-27",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T13:40:47Z",
+  "fetched_at": "2026-08-27T22:39:52Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5127341080576.0,
+  "mcap": 5521903452160.0,
   "shares": 24221000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 6.53,
+  "eps_ttm": 6.52,
   "bvps": 6.49407538912514,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7335,20 +7335,27 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 32.418053,
-  "forward_pe": 16.24975,
-  "pb": 26.23171,
-  "ps": 20.226915,
-  "peg": 0.5914,
-  "ev_ebitda": 31.151,
+  "pe": 34.96626,
+  "forward_pe": 15.692964,
+  "pb": 28.25031,
+  "ps": 21.78343,
+  "peg": 0.5775,
+  "ev_ebitda": 30.411,
   "payout": 0.0061000003,
   "attempts": [],
   "fallback_used": false
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-20T15:54:54Z",
+  "fetched_at": "2026-08-27T22:39:52Z",
   "rows": [
+   {
+    "period": "2026-07-31",
+    "reported": "2026-08-26",
+    "est": 2.09,
+    "act": 2.22,
+    "surprise": 6.2201
+   },
    {
     "period": "2026-04-30",
     "reported": "2026-05-20",
@@ -7397,22 +7404,15 @@
     "est": 0.75,
     "act": 0.81,
     "surprise": 8.0
-   },
-   {
-    "period": "2024-07-31",
-    "reported": "2024-08-28",
-    "est": 0.63,
-    "act": 0.68,
-    "surprise": 7.9365
    }
   ],
   "beats": 8,
   "scored": 8,
-  "avg_surprise": 5.8277375
+  "avg_surprise": 5.6131875
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:39Z",
+  "fetched_at": "2026-08-27T22:39:52Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T23:47:39Z",
+  "fetched_at": "2026-08-27T22:39:52Z",
   "analyst_target_mean": 305.7931,
   "analyst_target_low": 180.0,
   "analyst_target_high": 500.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 15.970859,
-  "forward_eps": 13.12766,
+  "forward_pe": 15.692964,
+  "forward_eps": 14.52753,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
   "institutions_pct": 0.71202004,
   "insiders_pct": 0.03991,
   "beta": 2.215,
-  "next_earnings": 1787774400
+  "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:39Z",
+  "fetched_at": "2026-08-27T22:39:53Z",
   "rows": [
    {
-    "ts": 1787771406,
-    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "ts": 1787857806,
+    "headline": "Thursday's session: top gainers and losers in the dow jones index",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=45b7ccfee9169d8cf3dc418bd809f9b83e3e927cd7530f4e98fda7ca7f6a2c9d"
+    "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
    },
    {
-    "ts": 1787770224,
-    "headline": "Nvidia Q2: The $10 Trillion Thesis",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=2817a606305ccb037b2cf67f2e2d75762fde7f333f8228b530d0fdf68286741e"
-   },
-   {
-    "ts": 1787769029,
-    "headline": "Nvidia Q2 FY27: I'm Buying This Weakness",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df"
-   },
-   {
-    "ts": 1787767838,
-    "headline": "Nvidia: Compressing Multiples And A $260 Technical Target",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=dacaeb5ee70b17f16e637054a02ebead758986b7845eaa7e3a081e89f45e659b"
-   },
-   {
-    "ts": 1787767501,
-    "headline": "Explore the S&P500 index on Wednesday and find out which stocks are the most active in today's session.",
+    "ts": 1787857501,
+    "headline": "What's going on in today's session: S&P500 movers",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c710f4da94ba6b1816de5555e8b2151446aae51f52ce20fa254d5a2921bdc8fd"
+    "url": "https://finnhub.io/api/news?id=f563c106233d14ebb69586ee907707f00b570373de8f8e44db8bfd287e5b4889"
    },
    {
-    "ts": 1787767200,
-    "headline": "Which stocks are most active on Wednesday?",
+    "ts": 1787854502,
+    "headline": "Marvell Q2: Not Good Enough",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=0e41ce09491882242356dc16f075d68cbafb302a6ea2fe9bc854f67b1f464e0b"
+   },
+   {
+    "ts": 1787854138,
+    "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
+   },
+   {
+    "ts": 1787853901,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=4152ed86f81b8ffb72f97d157296ef67d6b5df99ecd5121c3357ed36c3873358"
+    "url": "https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f"
    },
    {
-    "ts": 1787766642,
-    "headline": "Nvidia: It's Time To Turn Greedy (Rating Upgrade)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=164eb0c70a1abd1892a4f35247601a94d22f6b0160d748c5511cf31afb7c06eb"
+    "ts": 1787853600,
+    "headline": "These stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=391b1ea8b9684cb0627f32220a0f54c496de9b29a8a76774493d2178d40af9f6"
    },
    {
-    "ts": 1787765449,
-    "headline": "Nvidia Q2: Results Keep Impressing",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=43c2daec9745b84be8a11fdcb50474a48b30e3bf531b730abbcb50dab859af8f"
+    "ts": 1787850300,
+    "headline": "Unusual volume S&P500 stocks in Thursday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=d48796cc69a43823be6c22612d5357f99b79b08a60dc1a4901a9cd49469cc0f1"
+   },
+   {
+    "ts": 1787848807,
+    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:40Z",
+  "fetched_at": "2026-08-27T22:39:53Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

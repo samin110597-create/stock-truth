@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-26T23:47:27Z",
+ "generated_at": "2026-08-27T22:39:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:27Z",
-  "current": 339.1,
-  "change": -4.24,
-  "change_pct": -1.2349,
-  "high": 343.1911,
-  "low": 337.01,
-  "open": 343.18,
-  "prev_close": 343.34,
-  "ts": 1787774400
+  "fetched_at": "2026-08-27T22:39:39Z",
+  "current": 337.71,
+  "change": -1.39,
+  "change_pct": -0.4099,
+  "high": 338.81,
+  "low": 335.4,
+  "open": 336.3,
+  "prev_close": 339.1,
+  "ts": 1787860800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:28Z",
+  "fetched_at": "2026-08-27T22:39:39Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4243320800000.0,
+  "mcap": 4165293400000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T23:47:28Z",
+  "fetched_at": "2026-08-27T22:39:39Z",
   "bars": [
-   {
-    "date": "2023-01-25",
-    "open": 97.2,
-    "high": 97.72,
-    "low": 95.262,
-    "close": 96.73,
-    "volume": 31000900.0
-   },
    {
     "date": "2023-01-26",
     "open": 98.28,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-08-26",
-    "open": 343.14499,
-    "high": 343.1911,
+    "open": 343.17999,
+    "high": 343.19101,
     "low": 337.01001,
     "close": 339.10001,
-    "volume": 15952092.0
+    "volume": 16176400.0
+   },
+   {
+    "date": "2026-08-27",
+    "open": 336.32199,
+    "high": 338.81,
+    "low": 335.39999,
+    "close": 337.70999,
+    "volume": 16991240.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-26",
+  "latest": "2026-08-27",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T13:40:35Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4199637581824.0,
+  "mcap": 4130171256832.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.92,
+  "eps_ttm": 19.94,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,19 +7326,19 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 17.238455,
-  "forward_pe": 23.18478,
-  "pb": 6.746896,
-  "ps": 9.419058,
-  "peg": 0.9262,
-  "ev_ebitda": 23.538,
+  "pe": 16.936308,
+  "forward_pe": 22.775661,
+  "pb": 6.6352954,
+  "ps": 9.263257,
+  "peg": 0.919,
+  "ev_ebitda": 23.351,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-20T15:54:44Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:28Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T23:47:29Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.89513,
-  "forward_eps": 14.81101,
+  "forward_pe": 22.775661,
+  "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:29Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "rows": [
    {
-    "ts": 1787760652,
-    "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
-   },
-   {
-    "ts": 1787752283,
-    "headline": "Alphabet Stock Dips Wednesday as Investors Weigh AI Spending Against Cloud Growth",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=1dbbbd79949df8b4e2d169ae00b761bd98851f15ecb988f1faef94de16bf2c4f"
-   },
-   {
-    "ts": 1787751362,
-    "headline": "Google Selects 28 AI Energy Startups For Accelerator In North America And Europe; 2026 Accelerator Cohort To Use AI For Energy Efficiency And Grid Modernizatio",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7da043046b8c41eb3d371ce349d06079068a984a7804d06947509ba41e57b144"
-   },
-   {
-    "ts": 1787750580,
-    "headline": "Broadcom Is The New Nvidia, And That's The Problem",
+    "ts": 1787854138,
+    "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e1c1e0d11f02d847fa2f3da08bc17299451bda89bf10efc19cb8b201d06b0484"
+    "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
    },
    {
-    "ts": 1787750432,
-    "headline": "'Nscale Will Use NVIDIA's Vera Rubin Chips, Which Will Start To Come Online Late Next Year, To Meet Anthropic\u2019s Needs' - Bloomberg News",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=959b48fa3dbff2027c4d5cc441704d76db6739e56937d96096b2b36574da8506"
-   },
-   {
-    "ts": 1787750070,
-    "headline": "'Anthropic to Pay Nscale $45 Billion for AI Computing Power' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6901e062ecece73daa4633570663715ae9d348277f09ba2ca904f277e0277f93"
-   },
-   {
-    "ts": 1787749009,
-    "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
-   },
-   {
-    "ts": 1787747163,
-    "headline": "The Government Took Equity In Quantum Stocks, So Should We",
+    "ts": 1787838936,
+    "headline": "AI Is Nearly The Only Thing Keeping The U.S. Economy Afloat",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=526b9cab301084be2bd6dff7af650538fa06a5242359ebf2c95023bd0bb9e74d"
+    "url": "https://finnhub.io/api/news?id=5042249b5d75e430c235077c12f10bd46833745096bb02ab7f390c00198a8f09"
+   },
+   {
+    "ts": 1787837658,
+    "headline": "Datadog: Growing Into A 400x P/E Will Be Difficult",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=81855d00a9347dfd0f902e183ff49704a366bb73ec536d67d69ef89b2051cd75"
+   },
+   {
+    "ts": 1787835602,
+    "headline": "Nvidia's Unusual Move Answers AI Trade\u2019s Key Question; $40 Trillion US Debt Bomb Ticks; Key Fed Speech Awaited",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=586f505d7e72db784aca8e169728a1f0dfc9b7687c426d0c491ba3ce7f044961"
+   },
+   {
+    "ts": 1787834826,
+    "headline": "ETJ: Very High Tech Exposure Could Be A Risk",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=c04386acd520e450ecbc6ba427b8cd3bb701cde71cd2850ba4460d9c584f7560"
+   },
+   {
+    "ts": 1787832771,
+    "headline": "Google takes am at Anthropic, Microsoft with budget-friendly AI pricing",
+    "source": "CNBC",
+    "url": "https://finnhub.io/api/news?id=aa91cee7e1309d62fa1aed31244c4c0806d0b02fa0958e2e51750e5861bd4508"
+   },
+   {
+    "ts": 1787828479,
+    "headline": "Nvidia Still Dominates AI Chips. Meta, Google and Amazon Still Want Their Own.",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=2e272984feb9232e73f13727e9a9559361f0b926708f1593b7bc7baa59c59c06"
+   },
+   {
+    "ts": 1787825292,
+    "headline": "\"Meta Took Aim At Anthropic. It Is Also One Of Its Largest Customers; The Social Networking Giant Projected It Could Spend $10 Billion Annually On Anthropic\u2019s Tools, Illustrating T",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=62443a01291992ee1aa02a33af11edb37dc82f84ddfb4c2f238f3b9a8cdb8177"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:29Z",
+  "fetched_at": "2026-08-27T22:39:41Z",
   "error": "no insider filings in six months"
  },
  "peers": {

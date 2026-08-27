@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-26T23:47:16Z",
+ "generated_at": "2026-08-27T22:39:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:16Z",
-  "current": 260.28,
-  "change": -0.78,
-  "change_pct": -0.2988,
-  "high": 262.05,
-  "low": 258.24,
-  "open": 261.275,
-  "prev_close": 261.06,
-  "ts": 1787774400
+  "fetched_at": "2026-08-27T22:39:27Z",
+  "current": 256.26,
+  "change": -4.02,
+  "change_pct": -1.5445,
+  "high": 259.66,
+  "low": 255.02,
+  "open": 259.23,
+  "prev_close": 260.28,
+  "ts": 1787860800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:16Z",
+  "fetched_at": "2026-08-27T22:39:27Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2815875224799.0005,
+  "mcap": 2762213323773.363,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-26T23:47:17Z",
+  "fetched_at": "2026-08-27T22:39:28Z",
   "bars": [
-   {
-    "date": "2023-01-25",
-    "open": 92.56,
-    "high": 97.24,
-    "low": 91.52,
-    "close": 97.18,
-    "volume": 94261600.0
-   },
    {
     "date": "2023-01-26",
     "open": 98.24,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-08-26",
-    "open": 261.27499,
+    "open": 261.28,
     "high": 262.049988,
     "low": 258.23999,
     "close": 260.28,
-    "volume": 20669810.0
+    "volume": 21528400.0
+   },
+   {
+    "date": "2026-08-27",
+    "open": 259.23001,
+    "high": 259.66,
+    "low": 255.020004,
+    "close": 256.26001,
+    "volume": 35779842.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-26",
+  "latest": "2026-08-27",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-24T13:40:21Z",
+  "fetched_at": "2026-08-27T22:39:29Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2822562381824.0,
+  "mcap": 2764100599808.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7326,19 +7326,19 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 21.03537,
-  "forward_pe": 25.184519,
-  "pb": 5.1153336,
-  "ps": 3.638823,
-  "peg": 1.3769,
-  "ev_ebitda": 17.277,
+  "pe": 20.59968,
+  "forward_pe": 24.662891,
+  "pb": 5.009383,
+  "ps": 3.5634546,
+  "peg": 1.3856,
+  "ev_ebitda": 17.382,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-20T15:54:33Z",
+  "fetched_at": "2026-08-27T22:39:29Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:17Z",
+  "fetched_at": "2026-08-27T22:39:29Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,114 +7445,114 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-26T23:47:18Z",
+  "fetched_at": "2026-08-27T22:39:29Z",
   "analyst_target_mean": 327.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.049782,
+  "forward_pe": 24.662891,
   "forward_eps": 10.39051,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
   "short_asof": 1786665600,
   "institutions_pct": 0.68727,
-  "insiders_pct": 0.088690005,
+  "insiders_pct": 0.0887,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:18Z",
+  "fetched_at": "2026-08-27T22:39:29Z",
   "rows": [
    {
-    "ts": 1787769029,
-    "headline": "Nvidia Q2 FY27: I'm Buying This Weakness",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3c01c0f0f65d887f542e7cb91ac6587ac2ae2faf1f4a662e998555f76be9d6df"
-   },
-   {
-    "ts": 1787762405,
-    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "ts": 1787857806,
+    "headline": "Thursday's session: top gainers and losers in the dow jones index",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=41d4f97dcb9c14125228f555e756c21cedb80f2461e657928ccf4a89931d142e"
+    "url": "https://finnhub.io/api/news?id=f91bace257ba0af744e76346de1ee986e0b1ace6e3fd1e564f4da44e81506cdf"
    },
    {
-    "ts": 1787760652,
-    "headline": "Salesforce, Anthropic Announcing Claudeforce Collaboration",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b45c0c392de716a2b59977dd5c54e05d32b650e26e085f67cc83aed57c2fd656"
-   },
-   {
-    "ts": 1787758953,
-    "headline": "Amazon: Proven Capital Allocation At A Good Price",
+    "ts": 1787854138,
+    "headline": "Nvidia: The 'Coiled Spring' Poised To Jump",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=bf0ef19589808159b0447abc22ca6c86affe84dff0692fe2e270a12fc2cb73f3"
+    "url": "https://finnhub.io/api/news?id=2cc4a9c1f698b781123b0ae14a5b20f2743779d7e68ec543de2f90442810e647"
    },
    {
-    "ts": 1787750700,
-    "headline": "Wall Street Lunch: Meta Settles Minors' Addiction, Data Privacy Claims For $12.7B",
+    "ts": 1787853901,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=ec2b40b60a205b60de6817ccb29564ac8d77ca419b4368cf7973ff4726b60f7f"
+   },
+   {
+    "ts": 1787848807,
+    "headline": "Exploring the top movers within the dow jones index during today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=5c23c716656d25f98d61da7895898b299ef98b2bd2a7cea04355a7c099030532"
+   },
+   {
+    "ts": 1787838936,
+    "headline": "AI Is Nearly The Only Thing Keeping The U.S. Economy Afloat",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=93693e522727c16ce265ecaefe78c970775937a2523bdf51c209f1a64665f5fb"
+    "url": "https://finnhub.io/api/news?id=5042249b5d75e430c235077c12f10bd46833745096bb02ab7f390c00198a8f09"
    },
    {
-    "ts": 1787750432,
-    "headline": "'Nscale Will Use NVIDIA's Vera Rubin Chips, Which Will Start To Come Online Late Next Year, To Meet Anthropic\u2019s Needs' - Bloomberg News",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=959b48fa3dbff2027c4d5cc441704d76db6739e56937d96096b2b36574da8506"
+    "ts": 1787837658,
+    "headline": "Datadog: Growing Into A 400x P/E Will Be Difficult",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=81855d00a9347dfd0f902e183ff49704a366bb73ec536d67d69ef89b2051cd75"
    },
    {
-    "ts": 1787750070,
-    "headline": "'Anthropic to Pay Nscale $45 Billion for AI Computing Power' - Bloomberg",
+    "ts": 1787835602,
+    "headline": "Nvidia's Unusual Move Answers AI Trade\u2019s Key Question; $40 Trillion US Debt Bomb Ticks; Key Fed Speech Awaited",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6901e062ecece73daa4633570663715ae9d348277f09ba2ca904f277e0277f93"
+    "url": "https://finnhub.io/api/news?id=586f505d7e72db784aca8e169728a1f0dfc9b7687c426d0c491ba3ce7f044961"
    },
    {
-    "ts": 1787749009,
-    "headline": "The Fed Faces A Dangerous Choice For Investors; Nvidia Earnings Ahead",
+    "ts": 1787835271,
+    "headline": "Inside Amazon's Stock Drop: Why Analysts Remain High on AWS AI Momentum",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a85b7f6f2b36db6845325910aa53dd8c771a1724b70f359cb8e1af14cc3d4a5c"
+    "url": "https://finnhub.io/api/news?id=bfb37d827fe69738d87787f11dc3d1ffc7cec2c664465d6f6308c5cbe02d1b17"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-26T23:47:18Z",
-  "buys": 23,
-  "sells": 62,
-  "net_shares": -2046536.0,
+  "fetched_at": "2026-08-27T22:39:30Z",
+  "buys": 37,
+  "sells": 95,
+  "net_shares": -2100735.0,
   "months": 6,
   "recent": [
    {
-    "name": "Herrington Douglas J",
-    "date": "2026-08-03",
-    "change": -1000.0,
-    "price": 278.39
-   },
-   {
-    "name": "BEZOS JEFFREY P",
-    "date": "2026-08-03",
-    "change": -1209649.0,
-    "price": 286.4083
-   },
-   {
-    "name": "Herrington Douglas J",
-    "date": "2026-07-01",
-    "change": -1000.0,
-    "price": 239.77
-   },
-   {
-    "name": "Herrington Douglas J",
-    "date": "2026-06-01",
-    "change": -1000.0,
-    "price": 266.19
-   },
-   {
     "name": "Zapolsky David",
-    "date": "2026-05-22",
-    "change": -9270.0,
-    "price": 268.53
+    "date": "2026-08-24",
+    "change": -9258.0,
+    "price": 259.77
+   },
+   {
+    "name": "Garman Matthew S",
+    "date": "2026-08-21",
+    "change": -7836.0,
+    "price": 0.0
+   },
+   {
+    "name": "Garman Matthew S",
+    "date": "2026-08-21",
+    "change": -4000.0,
+    "price": 0.0
+   },
+   {
+    "name": "Garman Matthew S",
+    "date": "2026-08-21",
+    "change": -1480.0,
+    "price": 0.0
+   },
+   {
+    "name": "Garman Matthew S",
+    "date": "2026-08-21",
+    "change": -4860.0,
+    "price": 0.0
    }
   ]
  },
