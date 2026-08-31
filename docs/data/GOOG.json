@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-28T22:45:06Z",
+ "generated_at": "2026-08-31T19:16:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:06Z",
-  "current": 342.88,
-  "change": 5.17,
-  "change_pct": 1.5309,
-  "high": 345.43,
-  "low": 337.28,
-  "open": 337.61,
-  "prev_close": 337.71,
-  "ts": 1787947200
+  "fetched_at": "2026-08-31T19:16:29Z",
+  "current": 335.22,
+  "change": -7.66,
+  "change_pct": -2.234,
+  "high": 341.125,
+  "low": 333.43,
+  "open": 341.125,
+  "prev_close": 342.88,
+  "ts": 1788203763
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:06Z",
+  "fetched_at": "2026-08-31T19:16:29Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4190731800000.0005,
+  "mcap": 4252921349999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-28T22:45:09Z",
+  "fetched_at": "2026-08-31T19:16:42Z",
   "bars": [
-   {
-    "date": "2023-01-27",
-    "open": 99.050003,
-    "high": 101.58,
-    "low": 98.97,
-    "close": 100.71,
-    "volume": 29020400.0
-   },
    {
     "date": "2023-01-30",
     "open": 98.745,
@@ -7218,19 +7210,27 @@
     "high": 338.81,
     "low": 335.39999,
     "close": 337.70999,
-    "volume": 17899600.0
+    "volume": 17936100.0
    },
    {
     "date": "2026-08-28",
-    "open": 337.85251,
+    "open": 337.60999,
     "high": 345.42999,
     "low": 337.28,
     "close": 342.88,
-    "volume": 17479507.0
+    "volume": 17829200.0
+   },
+   {
+    "date": "2026-08-31",
+    "open": 340.1,
+    "high": 340.64,
+    "low": 333.46,
+    "close": 335.175,
+    "volume": 527453.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-28",
+  "latest": "2026-08-31",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-27T22:39:41Z",
+  "fetched_at": "2026-08-31T19:16:43Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4130171256832.0,
+  "mcap": 4098006450176.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.94,
+  "eps_ttm": 19.92,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 16.936308,
-  "forward_pe": 22.775661,
-  "pb": 6.6352954,
-  "ps": 9.263257,
-  "peg": 0.919,
-  "ev_ebitda": 23.351,
+  "pe": 16.821285,
+  "forward_pe": 22.59829,
+  "pb": 6.583621,
+  "ps": 9.191117,
+  "peg": 0.9152,
+  "ev_ebitda": 23.618,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:09Z",
+  "fetched_at": "2026-08-31T19:16:43Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-28T22:45:10Z",
+  "fetched_at": "2026-08-31T19:16:43Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.124334,
+  "forward_pe": 22.596962,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
-  "institutions_pct": 0.62264,
+  "institutions_pct": 0.62264997,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:10Z",
+  "fetched_at": "2026-08-31T19:16:43Z",
   "rows": [
    {
-    "ts": 1787922326,
-    "headline": "Marvell\u2019s Google AI Chip Deal Could Drive $120 Billion in Long-Term Revenue: Analyst",
+    "ts": 1788183337,
+    "headline": "Marvell Q2: Buying This Dip Looks Premature",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a99f625d38802459f85133681f842b100923c2296fe3f8b5d8f22a3e990d26b4"
+   },
+   {
+    "ts": 1788179826,
+    "headline": "D-Wave Quantum: Cheaper Downside Than IonQ, Safer Bet Than Rigetti",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3101baf206684f503a32f2560333686a3895fc6f2907a5df3a1af381f6ecc254"
+   },
+   {
+    "ts": 1788179571,
+    "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
+   },
+   {
+    "ts": 1788178763,
+    "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=e77e8cf70ecc98e852fe1fee5b1997608e093632fe46b11766d869fa1791065b"
+    "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
    },
    {
-    "ts": 1787919000,
-    "headline": "Nvidia Earnings And The Ecosystem: The 70% Guide, And Everything It Sets In Motion",
+    "ts": 1788164960,
+    "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=701b2cbd572d5052bba3b972d6bd50938a4b8637e6d2ffaaddbd6ae5e100eae0"
+    "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
    },
    {
-    "ts": 1787916340,
-    "headline": "Nvidia Q2 Earnings Review: Beating Was Never The Problem",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=0740b862f332c99ee859817263e00218893e78d3cf118fce60754b25b22f6994"
-   },
-   {
-    "ts": 1787916067,
-    "headline": "Marvell CEO Calls Google AI Revenue Opportunity a 'Monster Number'",
+    "ts": 1788163883,
+    "headline": "CrowdStrike's Falcon Platform Now Available On Google Cloud",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6332b0cfd78d4fe4c70b79a2c61211307c1951e875f1d56218ce12ec631e6dec"
+    "url": "https://finnhub.io/api/news?id=b1f59387405252fa2f32504889c995886a5602cff2cbc0f062656b9f423ff26d"
    },
    {
-    "ts": 1787914049,
-    "headline": "Himax Technologies: Upgrading To Buy On Automotive Rebound",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1f9ee928cc2fd6dac69f88f3a81b9a542f36400d89139871e4181d01b6519f7a"
+    "ts": 1788156856,
+    "headline": "Waymo Robotaxis Under Fire From Atlanta Drivers, Union Demands Up To $1 Fee To Protect Human Jobs: Report",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=b311f74c3b306a4b65cc5691f4043a1ea46fb37e965e3b3b9c4379d1cdaf7411"
    },
    {
-    "ts": 1787913227,
-    "headline": "Marvell: A Penny Beat Priced For A Blowout",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=eca0108bed6502b8a0c060a57705f8a4c489937a4aa0e0bd227c072c5f0b1409"
-   },
-   {
-    "ts": 1787912154,
-    "headline": "Modine: A Medium-Term, High-Stakes Bet",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=9acfc02476ed3b2a72733aaa0a06aeb185080661e233b770a789c5abb45150f8"
-   },
-   {
-    "ts": 1787910227,
-    "headline": "Alphabet: Sergey Brin Is Right About AGI, And Heavy CapEx Spending Is A Must",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=52eddc3e7724e71ce5150388b97fcb617f337f41fb4b01a59da6dde0065869cc"
+    "ts": 1788148130,
+    "headline": "Elon Musk Predicts AI Will Be \u2018Superhuman\u2019 at Everything Digital by End of 2027: \u2018Doesn\u2019t Require Shaping Atoms\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=62b4cc0b2380830bf495e9eef1185f8de70122c6620a9aba40763bbd8ebf3463"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:10Z",
+  "fetched_at": "2026-08-31T19:16:43Z",
   "error": "no insider filings in six months"
  },
  "peers": {

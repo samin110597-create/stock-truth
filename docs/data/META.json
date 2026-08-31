@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-28T22:45:38Z",
+ "generated_at": "2026-08-31T19:17:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:38Z",
-  "current": 578.02,
-  "change": 6.92,
-  "change_pct": 1.2117,
-  "high": 589.19,
-  "low": 571.0,
-  "open": 571.55,
-  "prev_close": 571.1,
-  "ts": 1787947200
+  "fetched_at": "2026-08-31T19:17:08Z",
+  "current": 574.29,
+  "change": -3.73,
+  "change_pct": -0.6453,
+  "high": 578.675,
+  "low": 569.1386,
+  "open": 576.51,
+  "prev_close": 578.02,
+  "ts": 1788203810
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:38Z",
+  "fetched_at": "2026-08-31T19:17:09Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1487060787023.6292,
+  "mcap": 1467720121281.3308,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-28T22:45:38Z",
+  "fetched_at": "2026-08-31T19:17:13Z",
   "bars": [
-   {
-    "date": "2023-01-27",
-    "open": 148.24001,
-    "high": 153.19,
-    "low": 147.39,
-    "close": 151.74001,
-    "volume": 35771900.0
-   },
    {
     "date": "2023-01-30",
     "open": 149.41,
@@ -7218,19 +7210,27 @@
     "high": 588.39001,
     "low": 567.62,
     "close": 571.099976,
-    "volume": 15191500.0
+    "volume": 15221400.0
    },
    {
     "date": "2026-08-28",
-    "open": 571.95001,
+    "open": 571.54999,
     "high": 589.19,
-    "low": 571.080017,
+    "low": 571.0,
     "close": 578.02002,
-    "volume": 15573685.0
+    "volume": 16018300.0
+   },
+   {
+    "date": "2026-08-31",
+    "open": 577.63,
+    "high": 578.42,
+    "low": 569.165,
+    "close": 574.465,
+    "volume": 246402.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-28",
+  "latest": "2026-08-31",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-27T22:40:09Z",
+  "fetched_at": "2026-08-31T19:17:14Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1454880718848.0,
+  "mcap": 1462370435072.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.56,
+  "eps_ttm": 26.53,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 21.502258,
-  "forward_pe": 16.394434,
-  "pb": 5.5706205,
-  "ps": 6.3741508,
-  "peg": 0.8601,
-  "ev_ebitda": 13.586,
+  "pe": 21.63739,
+  "forward_pe": 16.420067,
+  "pb": 5.5992975,
+  "ps": 6.406965,
+  "peg": 0.8526,
+  "ev_ebitda": 13.63,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:38Z",
+  "fetched_at": "2026-08-31T19:17:14Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-28T22:45:39Z",
-  "analyst_target_mean": 754.7214,
+  "fetched_at": "2026-08-31T19:17:14Z",
+  "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.593086,
-  "forward_eps": 34.83499,
+  "forward_pe": 16.420355,
+  "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
-  "institutions_pct": 0.79037005,
+  "institutions_pct": 0.79042,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:39Z",
+  "fetched_at": "2026-08-31T19:17:14Z",
   "rows": [
    {
-    "ts": 1787936400,
-    "headline": "Meta Buys Away Its Distraction At Minimal Cost",
+    "ts": 1788179571,
+    "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fa4a90ffe283fe3db155ea5fa41ada98b3e8fa474e6cf47e7f669cbbf732f7c0"
+    "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
    },
    {
-    "ts": 1787919000,
-    "headline": "Nvidia Earnings And The Ecosystem: The 70% Guide, And Everything It Sets In Motion",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=701b2cbd572d5052bba3b972d6bd50938a4b8637e6d2ffaaddbd6ae5e100eae0"
-   },
-   {
-    "ts": 1787916340,
-    "headline": "Nvidia Q2 Earnings Review: Beating Was Never The Problem",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=0740b862f332c99ee859817263e00218893e78d3cf118fce60754b25b22f6994"
-   },
-   {
-    "ts": 1787914049,
-    "headline": "Himax Technologies: Upgrading To Buy On Automotive Rebound",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=1f9ee928cc2fd6dac69f88f3a81b9a542f36400d89139871e4181d01b6519f7a"
-   },
-   {
-    "ts": 1787904000,
-    "headline": "Meta Platforms Beats The Man, Again - We Move To Accumulate Rating",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b9a3f281f33a8e172235fd8c8ba320f18e2010b787f1f2112458882e3c2a8bb6"
-   },
-   {
-    "ts": 1787891396,
-    "headline": "Meta, Palantir, Paramount Skydance Hedge Trump Ties by Courting Democrats as Midterms Raise Prospect of House Flip: Report",
+    "ts": 1788178763,
+    "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=81ac3ae056abd0aeff19be3eb6c666186fbd81ee85b6f02de3daf41c426b7114"
+    "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
    },
    {
-    "ts": 1787883753,
-    "headline": "Meta: When An $18 Billion Settlement Is Bullish",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=dd8cc4deb4b2623fc525393c32cbe08cd7153726f8d3543bc85d19841a094aad"
+    "ts": 1788175278,
+    "headline": "Inside Meta's Landmark Youth-Safety Deal: $18 Billion Settlement Meets New Teen Limits",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7cd15b699e9e0e3a1e9c0eecc5f46f76c6af87c682fabdb83c6d659e591577e6"
    },
    {
-    "ts": 1787882278,
-    "headline": "Nvidia Is Becoming The AI Nation-State",
+    "ts": 1788164960,
+    "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c1f21ef0a9fda7ae70ea1fee206f61769ad636a8188e428004badb2cb7db3956"
+    "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
+   },
+   {
+    "ts": 1788161304,
+    "headline": "AI Threat To Global Financial System",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=700b0dcac7386e497ccee5924ba0fffc7f5c416a51977aef6382e7e470de55d2"
+   },
+   {
+    "ts": 1788127896,
+    "headline": "Bernie Sanders Says Bill Gates Is Right About AI Posing 'Grave Threat' to Humanity: 'We Must Act Before It's Too Late'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=206fedafd4053c92887d5c37d62c0b3c6e04892b6c925bb31a725566c201b6ef"
+   },
+   {
+    "ts": 1788120600,
+    "headline": "Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015"
+   },
+   {
+    "ts": 1788083411,
+    "headline": "Meta's AI Strategy Is Misunderstood By The Market",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=0300163f165ff640a8014480e98b9f2c2a7c2d68f50e4e2e7379930702d135dd"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-28T22:45:39Z",
+  "fetched_at": "2026-08-31T19:17:15Z",
   "buys": 105,
-  "sells": 208,
-  "net_shares": 3160788.0,
+  "sells": 198,
+  "net_shares": 3217359.0,
   "months": 6,
   "recent": [
    {
