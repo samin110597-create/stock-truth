@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-08-31T19:16:52Z",
+ "generated_at": "2026-08-31T23:15:41Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:54Z",
-  "current": 218.85,
-  "change": 1.3,
-  "change_pct": 0.5976,
-  "high": 220.6,
+  "fetched_at": "2026-08-31T23:15:41Z",
+  "current": 220.78,
+  "change": 3.23,
+  "change_pct": 1.4847,
+  "high": 221.3,
   "low": 216.21,
-  "open": 218.815,
+  "open": 218.87,
   "prev_close": 217.55,
-  "ts": 1788203788
+  "ts": 1788206400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:55Z",
+  "fetched_at": "2026-08-31T23:15:41Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T19:16:55Z",
+  "fetched_at": "2026-08-31T23:15:42Z",
   "bars": [
    {
     "date": "2023-01-30",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-31",
-    "open": 218.87,
-    "high": 220.595,
-    "low": 216.23,
-    "close": 218.79,
-    "volume": 2579092.0
+    "open": 218.862,
+    "high": 221.28999,
+    "low": 216.21001,
+    "close": 220.78,
+    "volume": 124033835.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:57Z",
+  "fetched_at": "2026-08-31T23:15:42Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:16:57Z",
+  "fetched_at": "2026-08-31T23:15:42Z",
   "analyst_target_mean": 323.41898,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.206794,
+  "forward_pe": 14.332408,
   "forward_eps": 15.40425,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,8 +7472,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:57Z",
+  "fetched_at": "2026-08-31T23:15:42Z",
   "rows": [
+   {
+    "ts": 1788203418,
+    "headline": "Top dow jones movers in Monday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76"
+   },
    {
     "ts": 1788199500,
     "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
@@ -7487,47 +7493,41 @@
     "url": "https://finnhub.io/api/news?id=887b5967af6ac9f8ec388fcc84618334a77f30a01e6d2da215bb8e0468423b8a"
    },
    {
+    "ts": 1788198351,
+    "headline": "Nvidia: This Fortress Can Withstand The Sentiment Storm",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=8ebab418c29d8b95bd9d4fbaa3f279658429e6b5908b4d304bc969b388b9c729"
+   },
+   {
     "ts": 1788194405,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=018947a3b929c3e345a54fd0440d4a73a87dddf64afb6af9edfec10f1b78592f"
    },
    {
-    "ts": 1788186534,
-    "headline": "NVDU: Nvidia's Earnings Beat Opens A Tactical Window For Active Traders",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=06073b2f20c7fdea69d6ad7faa380ff16e3dfa1569335ea9e55b8c9b73a7729b"
-   },
-   {
-    "ts": 1788184561,
-    "headline": "Nvidia: This Is A Golden Opportunity",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=ee05ebfa16d8ae0618ef183ba38f42537562e1580fe7ef955222bc44b47cd85e"
-   },
-   {
-    "ts": 1788183931,
-    "headline": "AI Power Demand Doubles By 2027: Here's Ways To Position",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=bc03f9bc6310b18cb3bb750d7736f6509cdbda84e035fe14301772b51a57fb5f"
-   },
-   {
-    "ts": 1788183182,
-    "headline": "Amazon Web Services Accelerates Middle East AI Push with Saudi Cloud Region Launch",
+    "ts": 1788193088,
+    "headline": "Trump\u2019s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs",
     "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=008c44d4eaae4ae1b0b5b8a08366f055bc94038e076494456f3101d6c2935e43"
+    "url": "https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61"
    },
    {
-    "ts": 1788180094,
-    "headline": "Trump Warns Against Killing the Data Center 'Golden Goose': 5 Stocks to Watch",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=ad5abf2f1c903c8fd7c1bb74534a035f3cd1df84d39cee310c02a670419fa25f"
+    "ts": 1788191956,
+    "headline": "3 Market Predictions For September",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=767a71fd7e3b995033d2e6607809d27163e279db676b750ea3bf02b4a5bc4590"
+   },
+   {
+    "ts": 1788191313,
+    "headline": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:57Z",
+  "fetched_at": "2026-08-31T23:15:42Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,

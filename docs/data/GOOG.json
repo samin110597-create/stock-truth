@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-31T19:16:27Z",
+ "generated_at": "2026-08-31T23:15:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:29Z",
-  "current": 335.22,
-  "change": -7.66,
-  "change_pct": -2.234,
-  "high": 341.125,
+  "fetched_at": "2026-08-31T23:15:31Z",
+  "current": 335.41,
+  "change": -7.47,
+  "change_pct": -2.1786,
+  "high": 340.63,
   "low": 333.43,
-  "open": 341.125,
+  "open": 340.02,
   "prev_close": 342.88,
-  "ts": 1788203763
+  "ts": 1788206400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:29Z",
+  "fetched_at": "2026-08-31T23:15:31Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T19:16:42Z",
+  "fetched_at": "2026-08-31T23:15:32Z",
   "bars": [
    {
     "date": "2023-01-30",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-31",
-    "open": 340.1,
-    "high": 340.64,
-    "low": 333.46,
-    "close": 335.175,
-    "volume": 527453.0
+    "open": 339.98999,
+    "high": 340.63,
+    "low": 333.42999,
+    "close": 335.41,
+    "volume": 22947325.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:43Z",
+  "fetched_at": "2026-08-31T23:15:32Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:16:43Z",
+  "fetched_at": "2026-08-31T23:15:32Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.596962,
+  "forward_pe": 22.620546,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,8 +7463,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:43Z",
+  "fetched_at": "2026-08-31T23:15:32Z",
   "rows": [
+   {
+    "ts": 1788195602,
+    "headline": "MapQuest vs. Trump: OG of Maps Keeps Lake Ontario Name, Sees Download Surge and Stock Boost for Parent",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=6ee3701f9f50830475a4f528b304d4a6bce93de3d0d516def3d75ff08a090182"
+   },
+   {
+    "ts": 1788193597,
+    "headline": "Marvell Technology: Greater Clarity Does Not Impress",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=5b4a71f6c01dc5299eafffd7f57c6315118979a3a2767dca80452da6a9f002aa"
+   },
+   {
+    "ts": 1788191921,
+    "headline": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d"
+   },
+   {
+    "ts": 1788184107,
+    "headline": "Inside Google\u2019s 260 Million Pound UK App Store Settlement: What It Means for Alphabet Stock",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7917f88768fa132366790b535ec26f91fbe1ad7c42d4de91d67ed9e071750dd2"
+   },
    {
     "ts": 1788183337,
     "headline": "Marvell Q2: Buying This Dip Looks Premature",
@@ -7488,37 +7512,13 @@
     "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
-   },
-   {
-    "ts": 1788164960,
-    "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
-   },
-   {
-    "ts": 1788163883,
-    "headline": "CrowdStrike's Falcon Platform Now Available On Google Cloud",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b1f59387405252fa2f32504889c995886a5602cff2cbc0f062656b9f423ff26d"
-   },
-   {
-    "ts": 1788156856,
-    "headline": "Waymo Robotaxis Under Fire From Atlanta Drivers, Union Demands Up To $1 Fee To Protect Human Jobs: Report",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=b311f74c3b306a4b65cc5691f4043a1ea46fb37e965e3b3b9c4379d1cdaf7411"
-   },
-   {
-    "ts": 1788148130,
-    "headline": "Elon Musk Predicts AI Will Be \u2018Superhuman\u2019 at Everything Digital by End of 2027: \u2018Doesn\u2019t Require Shaping Atoms\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=62b4cc0b2380830bf495e9eef1185f8de70122c6620a9aba40763bbd8ebf3463"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:43Z",
+  "fetched_at": "2026-08-31T23:15:32Z",
   "error": "no insider filings in six months"
  },
  "peers": {

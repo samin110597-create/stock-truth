@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-31T19:16:08Z",
+ "generated_at": "2026-08-31T23:15:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:11Z",
-  "current": 258.9,
-  "change": -7.53,
-  "change_pct": -2.8263,
-  "high": 264.9125,
+  "fetched_at": "2026-08-31T23:15:07Z",
+  "current": 259.77,
+  "change": -6.66,
+  "change_pct": -2.4997,
+  "high": 264.36,
   "low": 257.12,
-  "open": 264.9125,
+  "open": 263.825,
   "prev_close": 266.43,
-  "ts": 1788203766
+  "ts": 1788206400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:11Z",
+  "fetched_at": "2026-08-31T23:15:07Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T19:16:16Z",
+  "fetched_at": "2026-08-31T23:15:21Z",
   "bars": [
    {
     "date": "2023-01-30",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-31",
-    "open": 263.51,
-    "high": 264.27,
-    "low": 257.14,
-    "close": 258.715,
-    "volume": 1155776.0
+    "open": 263.82501,
+    "high": 264.35999,
+    "low": 257.14999,
+    "close": 259.76999,
+    "volume": 45422317.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:17Z",
+  "fetched_at": "2026-08-31T23:15:21Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:16:17Z",
+  "fetched_at": "2026-08-31T23:15:22Z",
   "analyst_target_mean": 327.6707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.916967,
+  "forward_pe": 25.000698,
   "forward_eps": 10.39051,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:17Z",
+  "fetched_at": "2026-08-31T23:15:22Z",
   "rows": [
+   {
+    "ts": 1788203418,
+    "headline": "Top dow jones movers in Monday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76"
+   },
    {
     "ts": 1788199500,
     "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
@@ -7478,6 +7484,24 @@
     "url": "https://finnhub.io/api/news?id=018947a3b929c3e345a54fd0440d4a73a87dddf64afb6af9edfec10f1b78592f"
    },
    {
+    "ts": 1788191921,
+    "headline": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d"
+   },
+   {
+    "ts": 1788191313,
+    "headline": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a"
+   },
+   {
+    "ts": 1788183348,
+    "headline": "9 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=14f42cc652f2e7c2be0ba12f4160d9682b0f43e202beea01b1e88cd5e5c00d7f"
+   },
+   {
     "ts": 1788183182,
     "headline": "Amazon Web Services Accelerates Middle East AI Push with Saudi Cloud Region Launch",
     "source": "Benzinga",
@@ -7488,37 +7512,13 @@
     "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
-   },
-   {
-    "ts": 1788178763,
-    "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
-   },
-   {
-    "ts": 1788177600,
-    "headline": "LG CNS Targets U.S. Ad Market with Agentic AI-Powered Marketing Solution",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5bc8667d291a8884b2e9f472fb04415d5248d9685b9078b63c9c2418866809f6"
-   },
-   {
-    "ts": 1788175800,
-    "headline": "The AI Tide Hits Hawaii - Power & Fiber Bottlenecks Report Now Available \u2014 Covers PTC 2026 Conference Insights on AI Infrastructure, Mentioning Alibaba, Amazon, Microsoft, NVIDIA, ",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fb2ed6bb3221517296de478937ac7c9247349ccfc8792e28b86a9f77137ee4b1"
-   },
-   {
-    "ts": 1788175560,
-    "headline": "Billionaire David Tepper of Appaloosa Is Overweight AI Stocks -- but He Recently Dumped Every Share of the Hottest AI Stock of 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=58eb3245d5b1ae16face9fae1721502d4d000cea21f0067d8184ffe95071fe33"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:16:18Z",
+  "fetched_at": "2026-08-31T23:15:22Z",
   "buys": 37,
   "sells": 97,
   "net_shares": -2516315.0,

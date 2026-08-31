@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-31T19:17:06Z",
+ "generated_at": "2026-08-31T23:15:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:17:08Z",
-  "current": 574.29,
-  "change": -3.73,
-  "change_pct": -0.6453,
+  "fetched_at": "2026-08-31T23:15:52Z",
+  "current": 572.34,
+  "change": -5.68,
+  "change_pct": -0.9827,
   "high": 578.675,
   "low": 569.1386,
-  "open": 576.51,
+  "open": 577.63,
   "prev_close": 578.02,
-  "ts": 1788203810
+  "ts": 1788206400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:17:09Z",
+  "fetched_at": "2026-08-31T23:15:52Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T19:17:13Z",
+  "fetched_at": "2026-08-31T23:15:52Z",
   "bars": [
    {
     "date": "2023-01-30",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-08-31",
-    "open": 577.63,
-    "high": 578.42,
-    "low": 569.165,
-    "close": 574.465,
-    "volume": 246402.0
+    "open": 576.77002,
+    "high": 578.67499,
+    "low": 569.13861,
+    "close": 572.34003,
+    "volume": 13275274.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:17:14Z",
+  "fetched_at": "2026-08-31T23:15:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:17:14Z",
+  "fetched_at": "2026-08-31T23:15:52Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.420355,
+  "forward_pe": 16.37144,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:17:14Z",
+  "fetched_at": "2026-08-31T23:15:52Z",
   "rows": [
+   {
+    "ts": 1788193088,
+    "headline": "Trump\u2019s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61"
+   },
+   {
+    "ts": 1788191313,
+    "headline": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a"
+   },
    {
     "ts": 1788179571,
     "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
@@ -7509,25 +7521,13 @@
     "headline": "Bernie Sanders Says Bill Gates Is Right About AI Posing 'Grave Threat' to Humanity: 'We Must Act Before It's Too Late'",
     "source": "Benzinga",
     "url": "https://finnhub.io/api/news?id=206fedafd4053c92887d5c37d62c0b3c6e04892b6c925bb31a725566c201b6ef"
-   },
-   {
-    "ts": 1788120600,
-    "headline": "Tracking Terry Smith's Fundsmith 13F Portfolio - Q2 2026 Update",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=891189d904c37cd1a42d9adf35703a2729dacbb6529f24d5bb557f9ddb970015"
-   },
-   {
-    "ts": 1788083411,
-    "headline": "Meta's AI Strategy Is Misunderstood By The Market",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=0300163f165ff640a8014480e98b9f2c2a7c2d68f50e4e2e7379930702d135dd"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T19:17:15Z",
+  "fetched_at": "2026-08-31T23:15:53Z",
   "buys": 105,
   "sells": 198,
   "net_shares": 3217359.0,
