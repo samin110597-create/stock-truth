@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-08-31T23:15:07Z",
+ "generated_at": "2026-09-01T17:00:06Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:07Z",
-  "current": 259.77,
-  "change": -6.66,
-  "change_pct": -2.4997,
-  "high": 264.36,
-  "low": 257.12,
-  "open": 263.825,
-  "prev_close": 266.43,
-  "ts": 1788206400
+  "fetched_at": "2026-09-01T17:00:06Z",
+  "current": 254.66,
+  "change": -5.11,
+  "change_pct": -1.9671,
+  "high": 257.38,
+  "low": 251.93,
+  "open": 257.38,
+  "prev_close": 259.77,
+  "ts": 1788281970
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:07Z",
+  "fetched_at": "2026-09-01T17:00:06Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2871964195734.731,
+  "mcap": 2754177415979.541,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T23:15:21Z",
+  "fetched_at": "2026-09-01T17:00:18Z",
   "bars": [
-   {
-    "date": "2023-01-30",
-    "open": 101.089996,
-    "high": 101.74,
-    "low": 99.010002,
-    "close": 100.55,
-    "volume": 70691900.0
-   },
    {
     "date": "2023-01-31",
     "open": 101.16,
@@ -7218,7 +7210,7 @@
     "high": 267.56,
     "low": 257.78,
     "close": 266.42999,
-    "volume": 49475500.0
+    "volume": 49547400.0
    },
    {
     "date": "2026-08-31",
@@ -7227,10 +7219,18 @@
     "low": 257.14999,
     "close": 259.76999,
     "volume": 45422317.0
+   },
+   {
+    "date": "2026-09-01",
+    "open": 254.67,
+    "high": 255.78,
+    "low": 251.96,
+    "close": 254.61,
+    "volume": 603232.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-31",
+  "latest": "2026-09-01",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:21Z",
+  "fetched_at": "2026-09-01T17:00:18Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T23:15:22Z",
+  "fetched_at": "2026-09-01T17:00:18Z",
   "analyst_target_mean": 327.6707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 25.000698,
-  "forward_eps": 10.39051,
+  "forward_pe": 24.483395,
+  "forward_eps": 10.39378,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
   "short_asof": 1786665600,
-  "institutions_pct": 0.6873,
+  "institutions_pct": 0.68735003,
   "insiders_pct": 0.08866,
   "beta": 1.454,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:22Z",
+  "fetched_at": "2026-09-01T17:00:18Z",
   "rows": [
    {
-    "ts": 1788203418,
-    "headline": "Top dow jones movers in Monday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=70b9550024f8c5d254fc55828103b4b095d43a0883efa08bacf46c4e37fc2a76"
+    "ts": 1788275420,
+    "headline": "Amazon (AMZN): Buy, Sell, or Hold Post Q2 Earnings?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=416f79f3fbe5088729f7977b3fc2cee79b9ae67771fa1626fe14d61ebd663d28"
    },
    {
-    "ts": 1788199500,
-    "headline": "Stay informed about the most active stocks in the S&P500 index on Monday's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=3acb000fbcd04c48667d73cb6408b0aeb637920de5672722498fff8d7028614e"
+    "ts": 1788274920,
+    "headline": "IBM Slumps 21% YTD: Time to Reassess the Stock in Your Portfolio?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e5c8071f7ad5582b4b504d2647477d356402f11f57b2b78b40e92ced56d506cd"
    },
    {
-    "ts": 1788194405,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=018947a3b929c3e345a54fd0440d4a73a87dddf64afb6af9edfec10f1b78592f"
+    "ts": 1788273900,
+    "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
    },
    {
-    "ts": 1788191921,
-    "headline": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d"
+    "ts": 1788272701,
+    "headline": "Prediction: Amazon Could Be Worth This Much in 5 Years",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=38fe608f20a2e064c38b51d6aae1ed85386fa81c926300945253a8fe1424bc00"
    },
    {
-    "ts": 1788191313,
-    "headline": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a"
+    "ts": 1788271200,
+    "headline": "OneRail Launches OmniSTAR, the First AI-Powered Delivery Decisioning Platform Built with NVIDIA AI",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ab8126e43f2652759227bfe39e6975734bf9257afddfafefc41b84912579694c"
    },
    {
-    "ts": 1788183348,
-    "headline": "9 Consumer Discretionary Stocks Whale Activity In Today\u2019s Session",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=14f42cc652f2e7c2be0ba12f4160d9682b0f43e202beea01b1e88cd5e5c00d7f"
+    "ts": 1788271200,
+    "headline": "Backstory Names Sam Branson Head of Partnerships to Accelerate Growth Through Strategic Alliances",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=71902603b97c39fa1d1d7d316940bf4a5c5279f4aa9d7e79a3a17b82fc871b86"
    },
    {
-    "ts": 1788183182,
-    "headline": "Amazon Web Services Accelerates Middle East AI Push with Saudi Cloud Region Launch",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=008c44d4eaae4ae1b0b5b8a08366f055bc94038e076494456f3101d6c2935e43"
+    "ts": 1788270471,
+    "headline": "Amazon Stock Extends Losses After FTC Lawsuit Over Ad Practices",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=10e9f01a1c12a84f71dc20755dcf837b00c34e4aa3d1f8162c246282a7616060"
    },
    {
-    "ts": 1788179571,
-    "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
+    "ts": 1788270228,
+    "headline": "5 Top Goldman Sachs Stock Picks Pay Big Dividends (One Yields Over 6%)",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=69cfbc57ba2cdb68c8f564dd46a69aef04c274e23d32c404dd62dabf415c0eff"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:22Z",
+  "fetched_at": "2026-09-01T17:00:20Z",
   "buys": 37,
   "sells": 97,
   "net_shares": -2516315.0,

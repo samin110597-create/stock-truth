@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-08-31T23:15:31Z",
+ "generated_at": "2026-09-01T17:00:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:31Z",
-  "current": 335.41,
-  "change": -7.47,
-  "change_pct": -2.1786,
-  "high": 340.63,
-  "low": 333.43,
-  "open": 340.02,
-  "prev_close": 342.88,
-  "ts": 1788206400
+  "fetched_at": "2026-09-01T17:00:29Z",
+  "current": 332.17,
+  "change": -3.24,
+  "change_pct": -0.966,
+  "high": 333.9497,
+  "low": 329.29,
+  "open": 333.82,
+  "prev_close": 335.41,
+  "ts": 1788282015
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:31Z",
+  "fetched_at": "2026-09-01T17:00:29Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4252921349999.9995,
+  "mcap": 4107934699999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T23:15:32Z",
+  "fetched_at": "2026-09-01T17:00:37Z",
   "bars": [
-   {
-    "date": "2023-01-30",
-    "open": 98.745,
-    "high": 99.409,
-    "low": 97.52,
-    "close": 97.95,
-    "volume": 24365100.0
-   },
    {
     "date": "2023-01-31",
     "open": 97.86,
@@ -7218,7 +7210,7 @@
     "high": 345.42999,
     "low": 337.28,
     "close": 342.88,
-    "volume": 17829200.0
+    "volume": 17841900.0
    },
    {
     "date": "2026-08-31",
@@ -7227,10 +7219,18 @@
     "low": 333.42999,
     "close": 335.41,
     "volume": 22947325.0
+   },
+   {
+    "date": "2026-09-01",
+    "open": 332.085,
+    "high": 333.92,
+    "low": 329.345,
+    "close": 332.12,
+    "volume": 355379.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-31",
+  "latest": "2026-09-01",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:32Z",
+  "fetched_at": "2026-09-01T17:00:37Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T23:15:32Z",
+  "fetched_at": "2026-09-01T17:00:37Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.620546,
+  "forward_pe": 22.392593,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:32Z",
+  "fetched_at": "2026-09-01T17:00:37Z",
   "rows": [
    {
-    "ts": 1788195602,
-    "headline": "MapQuest vs. Trump: OG of Maps Keeps Lake Ontario Name, Sees Download Surge and Stock Boost for Parent",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=6ee3701f9f50830475a4f528b304d4a6bce93de3d0d516def3d75ff08a090182"
+    "ts": 1788275730,
+    "headline": "Top Tech Analyst Warns: OpenAI\u2019s Ad Business Grew 10x in 6 Months. Google Search Is the Most Exposed",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=003c50f8a6d78ff34e00dafd525ce3b893d4bef6c4dfd0299cae9002d12f5aa0"
    },
    {
-    "ts": 1788193597,
-    "headline": "Marvell Technology: Greater Clarity Does Not Impress",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5b4a71f6c01dc5299eafffd7f57c6315118979a3a2767dca80452da6a9f002aa"
+    "ts": 1788275701,
+    "headline": "Rezolve AI Stock Drops After Net Loss Widens \u2013 CEO Says Google Is \u2018Just The Beginning\u2019 With More Deals In Pipeline",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=18fca04d83d35d3d805cde7eed90edb679bc76e648e697953212234d7a84a666"
    },
    {
-    "ts": 1788191921,
-    "headline": "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=4e98513098d2b5cc14bbfe6fb8c034e9bee1ed220022a46f52ccf43edf7d570d"
+    "ts": 1788274838,
+    "headline": "Cramer Says Not to Bet Against the AI Chipmaker That Lost Nearly 10% the Day After NVIDIA\u2019s Huge Gain",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=50c760b6bcdb378a60b16aecbf0d448b2e86203bb9fe3beda9429a7bf6010f6b"
    },
    {
-    "ts": 1788184107,
-    "headline": "Inside Google\u2019s 260 Million Pound UK App Store Settlement: What It Means for Alphabet Stock",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7917f88768fa132366790b535ec26f91fbe1ad7c42d4de91d67ed9e071750dd2"
+    "ts": 1788274796,
+    "headline": "Fervo Energy shares rise 15% following Google geothermal power agreement",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=67570d30e30f7786fe327864c9560026dc0c32e571a33b60729334b20621f992"
    },
    {
-    "ts": 1788183337,
-    "headline": "Marvell Q2: Buying This Dip Looks Premature",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a99f625d38802459f85133681f842b100923c2296fe3f8b5d8f22a3e990d26b4"
+    "ts": 1788274740,
+    "headline": "AgriCapture Partners with Google to Advance Water Stewardship in Texas",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=819750dca35f2f85f5aa753868a5ff6ca7942edfcc19c4147b21f9db92355682"
    },
    {
-    "ts": 1788179826,
-    "headline": "D-Wave Quantum: Cheaper Downside Than IonQ, Safer Bet Than Rigetti",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3101baf206684f503a32f2560333686a3895fc6f2907a5df3a1af381f6ecc254"
+    "ts": 1788274200,
+    "headline": "SpaceX's Wild Ride Since IPO: Time to Buy the Stock Now?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=02c2e80b4762e1d8d2e83d9c17ce95988e089089888bf19c5ec4aec5b8c156e1"
    },
    {
-    "ts": 1788179571,
-    "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
+    "ts": 1788273900,
+    "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
    },
    {
-    "ts": 1788178763,
-    "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
+    "ts": 1788273641,
+    "headline": "\u2018Your Stock Doesn\u2019t Know Your Name\u2019: Wes Moss on Owning Too Much Apple, Google",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=18af2de40a1a571e3f737a59bd07c1c4c73bd3a0d68a804d6a423f842f6b8e86"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:32Z",
+  "fetched_at": "2026-09-01T17:00:38Z",
   "error": "no insider filings in six months"
  },
  "peers": {

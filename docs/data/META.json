@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-08-31T23:15:51Z",
+ "generated_at": "2026-09-01T17:01:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:52Z",
-  "current": 572.34,
-  "change": -5.68,
-  "change_pct": -0.9827,
-  "high": 578.675,
-  "low": 569.1386,
-  "open": 577.63,
-  "prev_close": 578.02,
-  "ts": 1788206400
+  "fetched_at": "2026-09-01T17:01:01Z",
+  "current": 580.64,
+  "change": 8.3,
+  "change_pct": 1.4502,
+  "high": 583.4383,
+  "low": 556.1,
+  "open": 565.0375,
+  "prev_close": 572.34,
+  "ts": 1788282041
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:52Z",
+  "fetched_at": "2026-09-01T17:01:01Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1467720121281.3308,
+  "mcap": 1440780374262.516,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-08-31T23:15:52Z",
+  "fetched_at": "2026-09-01T17:01:13Z",
   "bars": [
-   {
-    "date": "2023-01-30",
-    "open": 149.41,
-    "high": 151.12,
-    "low": 146.95,
-    "close": 147.059998,
-    "volume": 28040100.0
-   },
    {
     "date": "2023-01-31",
     "open": 147.95,
@@ -7218,7 +7210,7 @@
     "high": 589.19,
     "low": 571.0,
     "close": 578.02002,
-    "volume": 16018300.0
+    "volume": 16042400.0
    },
    {
     "date": "2026-08-31",
@@ -7227,10 +7219,18 @@
     "low": 569.13861,
     "close": 572.34003,
     "volume": 13275274.0
+   },
+   {
+    "date": "2026-09-01",
+    "open": 558.02,
+    "high": 583.29,
+    "low": 556.385,
+    "close": 580.76,
+    "volume": 279129.0
    }
   ],
   "n": 900,
-  "latest": "2026-08-31",
+  "latest": "2026-09-01",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:52Z",
+  "fetched_at": "2026-09-01T17:01:13Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T23:15:52Z",
+  "fetched_at": "2026-09-01T17:01:13Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.37144,
+  "forward_pe": 16.606283,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
-  "institutions_pct": 0.79042,
+  "institutions_pct": 0.79052,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:52Z",
+  "fetched_at": "2026-09-01T17:01:13Z",
   "rows": [
    {
-    "ts": 1788193088,
-    "headline": "Trump\u2019s Truth Social ETF Manager Is Betting Big on AI, Crypto and New ETFs",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=379b352d0de5bb6d45d2ce5d132795804bbcda6cdfa1bba75116c990e11b8a61"
+    "ts": 1788275730,
+    "headline": "Top Tech Analyst Warns: OpenAI\u2019s Ad Business Grew 10x in 6 Months. Google Search Is the Most Exposed",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=003c50f8a6d78ff34e00dafd525ce3b893d4bef6c4dfd0299cae9002d12f5aa0"
    },
    {
-    "ts": 1788191313,
-    "headline": "Nvidia: Analyzing Its Datacenter Customers In A Changing Environment",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=34fcdc5b395ae44bd3a01c6180162677594447ca079b80f3c68238569f37151a"
+    "ts": 1788275640,
+    "headline": "Muse Image, the Agentic Image Model from Meta, Is Now Available on fal",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a6d4d4f8284299ce978808c847b042c70623ea829b1562437ed84fbf13100894"
    },
    {
-    "ts": 1788179571,
-    "headline": "The AI Bubble Is Entering Its Most Dangerous Phase As Spending Nears $1 Trillion",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=d88940733070ec5c831b7c4329fde1f6367cc60bc05a6119c98dc3b970e36fdd"
+    "ts": 1788275220,
+    "headline": "Why Meta\u2019s $18B settlement may hit YouTube harder",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f0a670a390682f7e9117c844bab44c6293fe4a7d682fb8fb58215243476cd4de"
    },
    {
-    "ts": 1788178763,
-    "headline": "Oil Rises As US Strikes Iran; Warsh's Hawkishness Reverberates; Weak Stock Market Seasonality Ahead",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=8254cead2ba94488fac39c41d8bf0f016fe92d3652f8e578b2f527cf4635645d"
+    "ts": 1788272340,
+    "headline": "Ecommerce social media ad spend surged 70% as brands got more for every dollar",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=05ee1e797935f65c62f86868f93b3037800bccf70a6d3ec689f78a0f2ce87735"
    },
    {
-    "ts": 1788175278,
-    "headline": "Inside Meta's Landmark Youth-Safety Deal: $18 Billion Settlement Meets New Teen Limits",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7cd15b699e9e0e3a1e9c0eecc5f46f76c6af87c682fabdb83c6d659e591577e6"
+    "ts": 1788271800,
+    "headline": "DoubleLine Income Solutions Fund Declares September 2026 Distribution",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b1a918208bab314a7bf0b6268ce3aeccca444fd60bc4651c6c99cba127d2eaae"
    },
    {
-    "ts": 1788164960,
-    "headline": "After The Fed: Analysis Of Warsh On AI, Inflation And The Unknowns (Video)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c41651ec2da0872185aff3aa7ad3470900318cfee1386bc5100c5df18440d2a5"
+    "ts": 1788271200,
+    "headline": "Innovid Expands NIVO with Meta Ads MCP Integration to Bring Connected AI Workflows to Social Advertising",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e9bb5853976b306fd58ddd9abd913a11feff43b6fc8180ee2fe63b571ed2c3f1"
    },
    {
-    "ts": 1788161304,
-    "headline": "AI Threat To Global Financial System",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=700b0dcac7386e497ccee5924ba0fffc7f5c416a51977aef6382e7e470de55d2"
+    "ts": 1788269548,
+    "headline": "Think You Bought a Telecom ETF? You Mostly Own Big Tech",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=253b0e24c9819333a66c08d93c52aa92e0cfad347d30fa6b38c6243165d8a337"
    },
    {
-    "ts": 1788127896,
-    "headline": "Bernie Sanders Says Bill Gates Is Right About AI Posing 'Grave Threat' to Humanity: 'We Must Act Before It's Too Late'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=206fedafd4053c92887d5c37d62c0b3c6e04892b6c925bb31a725566c201b6ef"
+    "ts": 1788267600,
+    "headline": "Fervo Energy and Google Sign 396 MW PPA",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=42037dc4e5d268bb70139e22b406ac454196545f0181816c8bb9ca95e484c61d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-08-31T23:15:53Z",
+  "fetched_at": "2026-09-01T17:01:15Z",
   "buys": 105,
   "sells": 198,
   "net_shares": 3217359.0,
