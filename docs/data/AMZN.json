@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-01T19:45:33Z",
+ "generated_at": "2026-09-01T22:07:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:45:34Z",
-  "current": 254.29,
-  "change": -5.48,
-  "change_pct": -2.1096,
-  "high": 257.38,
+  "fetched_at": "2026-09-01T22:07:36Z",
+  "current": 254.92,
+  "change": -4.85,
+  "change_pct": -1.867,
+  "high": 255.82,
   "low": 251.93,
-  "open": 257.38,
+  "open": 254.83,
   "prev_close": 259.77,
-  "ts": 1788291920
+  "ts": 1788292800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:45:35Z",
+  "fetched_at": "2026-09-01T22:07:36Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T19:45:37Z",
+  "fetched_at": "2026-09-01T22:07:37Z",
   "bars": [
    {
     "date": "2023-01-31",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-31",
-    "open": 263.82501,
+    "open": 263.82999,
     "high": 264.35999,
-    "low": 257.14999,
+    "low": 257.12,
     "close": 259.76999,
-    "volume": 45422317.0
+    "volume": 46089400.0
    },
    {
     "date": "2026-09-01",
-    "open": 254.67,
-    "high": 255.78,
-    "low": 251.96,
-    "close": 254.3,
-    "volume": 935176.0
+    "open": 254.83,
+    "high": 255.82001,
+    "low": 251.92999,
+    "close": 254.92,
+    "volume": 55231083.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:45:38Z",
+  "fetched_at": "2026-09-01T22:07:38Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T19:45:38Z",
+  "fetched_at": "2026-09-01T22:07:38Z",
   "analyst_target_mean": 327.6707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.466557,
+  "forward_pe": 24.526207,
   "forward_eps": 10.39378,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:45:39Z",
+  "fetched_at": "2026-09-01T22:07:38Z",
   "rows": [
    {
     "ts": 1788289805,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:45:39Z",
+  "fetched_at": "2026-09-01T22:07:38Z",
   "buys": 37,
   "sells": 97,
   "net_shares": -2516315.0,

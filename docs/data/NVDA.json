@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-01T19:46:03Z",
+ "generated_at": "2026-09-01T22:07:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:46:04Z",
-  "current": 217.43,
-  "change": -3.35,
-  "change_pct": -1.5173,
+  "fetched_at": "2026-09-01T22:07:57Z",
+  "current": 217.44,
+  "change": -3.34,
+  "change_pct": -1.5128,
   "high": 220.41,
   "low": 215.1,
-  "open": 218.53,
+  "open": 216.75,
   "prev_close": 220.78,
-  "ts": 1788291944
+  "ts": 1788292800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:46:04Z",
+  "fetched_at": "2026-09-01T22:07:57Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T19:46:08Z",
+  "fetched_at": "2026-09-01T22:07:58Z",
   "bars": [
    {
     "date": "2023-01-31",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-08-31",
-    "open": 218.862,
+    "open": 218.87,
     "high": 221.3,
     "low": 216.21001,
     "close": 220.78,
-    "volume": 124033835.0
+    "volume": 124702700.0
    },
    {
     "date": "2026-09-01",
-    "open": 216.71,
-    "high": 220.4,
-    "low": 215.12,
-    "close": 217.38,
-    "volume": 3072101.0
+    "open": 216.61,
+    "high": 220.41,
+    "low": 215.10001,
+    "close": 217.53999,
+    "volume": 189185472.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:46:09Z",
+  "fetched_at": "2026-09-01T22:07:58Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,14 +7454,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T19:46:10Z",
+  "fetched_at": "2026-09-01T22:07:58Z",
   "analyst_target_mean": 323.41898,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.1083145,
-  "forward_eps": 15.40425,
+  "forward_pe": 14.206213,
+  "forward_eps": 15.30598,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:46:11Z",
+  "fetched_at": "2026-09-01T22:07:58Z",
   "rows": [
    {
     "ts": 1788292200,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T19:46:12Z",
+  "fetched_at": "2026-09-01T22:07:58Z",
   "buys": 17,
   "sells": 62,
   "net_shares": -3344164.0,
