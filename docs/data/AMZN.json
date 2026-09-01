@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-01T17:00:06Z",
+ "generated_at": "2026-09-01T19:45:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:06Z",
-  "current": 254.66,
-  "change": -5.11,
-  "change_pct": -1.9671,
+  "fetched_at": "2026-09-01T19:45:34Z",
+  "current": 254.29,
+  "change": -5.48,
+  "change_pct": -2.1096,
   "high": 257.38,
   "low": 251.93,
   "open": 257.38,
   "prev_close": 259.77,
-  "ts": 1788281970
+  "ts": 1788291920
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:06Z",
+  "fetched_at": "2026-09-01T19:45:35Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T17:00:18Z",
+  "fetched_at": "2026-09-01T19:45:37Z",
   "bars": [
    {
     "date": "2023-01-31",
@@ -7225,8 +7225,8 @@
     "open": 254.67,
     "high": 255.78,
     "low": 251.96,
-    "close": 254.61,
-    "volume": 603232.0
+    "close": 254.3,
+    "volume": 935176.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:18Z",
+  "fetched_at": "2026-09-01T19:45:38Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T17:00:18Z",
+  "fetched_at": "2026-09-01T19:45:38Z",
   "analyst_target_mean": 327.6707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.483395,
+  "forward_pe": 24.466557,
   "forward_eps": 10.39378,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:18Z",
+  "fetched_at": "2026-09-01T19:45:39Z",
   "rows": [
    {
-    "ts": 1788275420,
-    "headline": "Amazon (AMZN): Buy, Sell, or Hold Post Q2 Earnings?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=416f79f3fbe5088729f7977b3fc2cee79b9ae67771fa1626fe14d61ebd663d28"
+    "ts": 1788289805,
+    "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2811d09bc453d60ad535201a16e94c17326b4e0711eab591a46c0c53c4effcac"
    },
    {
-    "ts": 1788274920,
-    "headline": "IBM Slumps 21% YTD: Time to Reassess the Stock in Your Portfolio?",
+    "ts": 1788289454,
+    "headline": "People Forget Amazon\u2019s $600 Billion E-Commerce Business Is Bigger Than Microsoft",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e5c8071f7ad5582b4b504d2647477d356402f11f57b2b78b40e92ced56d506cd"
+    "url": "https://finnhub.io/api/news?id=7899d44983574f63ff430a75fcda7754450d64a9901a155646f3a3cedc22ec80"
    },
    {
-    "ts": 1788273900,
-    "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
+    "ts": 1788288600,
+    "headline": "What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
+    "url": "https://finnhub.io/api/news?id=40ae3299927fdac8867996181f00c9345389f738fb770034a4d6d9fc36106a1a"
    },
    {
-    "ts": 1788272701,
-    "headline": "Prediction: Amazon Could Be Worth This Much in 5 Years",
+    "ts": 1788288417,
+    "headline": "Sector Update: Tech Stocks Fall Tuesday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=38fe608f20a2e064c38b51d6aae1ed85386fa81c926300945253a8fe1424bc00"
+    "url": "https://finnhub.io/api/news?id=c15d2d4572a80124b905d5c04acb063d0795e85de51652377711919174c890e2"
    },
    {
-    "ts": 1788271200,
-    "headline": "OneRail Launches OmniSTAR, the First AI-Powered Delivery Decisioning Platform Built with NVIDIA AI",
+    "ts": 1788288180,
+    "headline": "Amazon Doesn't Pay a Dividend and Constantly Dilutes Shareholders. Here's Why I'd Still Buy and Hold It Forever.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ab8126e43f2652759227bfe39e6975734bf9257afddfafefc41b84912579694c"
+    "url": "https://finnhub.io/api/news?id=6c2606d394776553c4efd386dabb8dea79a57e55468411ce6afcc5e008db9015"
    },
    {
-    "ts": 1788271200,
-    "headline": "Backstory Names Sam Branson Head of Partnerships to Accelerate Growth Through Strategic Alliances",
+    "ts": 1788287821,
+    "headline": "Retail Media Will Top $200 Billion As Every Pixel Is For Sale",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=71902603b97c39fa1d1d7d316940bf4a5c5279f4aa9d7e79a3a17b82fc871b86"
+    "url": "https://finnhub.io/api/news?id=f0e728d811cf63c9e4bc246dfd1900e9e1c3e4d0ccb578d9898b8c2cc207ecfa"
    },
    {
-    "ts": 1788270471,
-    "headline": "Amazon Stock Extends Losses After FTC Lawsuit Over Ad Practices",
+    "ts": 1788287700,
+    "headline": "KIA AMERICA SETS ALL-TIME MONTHLY SALES RECORD",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=10e9f01a1c12a84f71dc20755dcf837b00c34e4aa3d1f8162c246282a7616060"
+    "url": "https://finnhub.io/api/news?id=2e8bd936a91f8d5e291b332f607f93d30eed9bf2c12b11b5f0dc17f50888691b"
    },
    {
-    "ts": 1788270228,
-    "headline": "5 Top Goldman Sachs Stock Picks Pay Big Dividends (One Yields Over 6%)",
+    "ts": 1788287010,
+    "headline": "Waymo launches paid robotaxi service in Denver, San Diego, Tampa",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=69cfbc57ba2cdb68c8f564dd46a69aef04c274e23d32c404dd62dabf415c0eff"
+    "url": "https://finnhub.io/api/news?id=ab7282d21c7c9d631d021fe9decfbada5af526e74d942a8dbf58bc82350bb043"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:20Z",
+  "fetched_at": "2026-09-01T19:45:39Z",
   "buys": 37,
   "sells": 97,
   "net_shares": -2516315.0,

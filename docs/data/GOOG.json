@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-01T17:00:29Z",
+ "generated_at": "2026-09-01T19:45:48Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:29Z",
-  "current": 332.17,
-  "change": -3.24,
-  "change_pct": -0.966,
+  "fetched_at": "2026-09-01T19:45:49Z",
+  "current": 331.24,
+  "change": -4.17,
+  "change_pct": -1.2433,
   "high": 333.9497,
   "low": 329.29,
   "open": 333.82,
   "prev_close": 335.41,
-  "ts": 1788282015
+  "ts": 1788291917
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:29Z",
+  "fetched_at": "2026-09-01T19:45:49Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T17:00:37Z",
+  "fetched_at": "2026-09-01T19:45:52Z",
   "bars": [
    {
     "date": "2023-01-31",
@@ -7225,8 +7225,8 @@
     "open": 332.085,
     "high": 333.92,
     "low": 329.345,
-    "close": 332.12,
-    "volume": 355379.0
+    "close": 331.04,
+    "volume": 502686.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:37Z",
+  "fetched_at": "2026-09-01T19:45:53Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T17:00:37Z",
+  "fetched_at": "2026-09-01T19:45:53Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.392593,
+  "forward_pe": 22.335943,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:37Z",
+  "fetched_at": "2026-09-01T19:45:53Z",
   "rows": [
    {
-    "ts": 1788275730,
-    "headline": "Top Tech Analyst Warns: OpenAI\u2019s Ad Business Grew 10x in 6 Months. Google Search Is the Most Exposed",
+    "ts": 1788292020,
+    "headline": "Marvell\u2019s $120B AI deal came with an unexpected catch",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=003c50f8a6d78ff34e00dafd525ce3b893d4bef6c4dfd0299cae9002d12f5aa0"
+    "url": "https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941"
    },
    {
-    "ts": 1788275701,
-    "headline": "Rezolve AI Stock Drops After Net Loss Widens \u2013 CEO Says Google Is \u2018Just The Beginning\u2019 With More Deals In Pipeline",
+    "ts": 1788291300,
+    "headline": "Nvidia Sells the Brains of the AI Boom. Something Else Is Selling the Muscle -- and It's Not on Wall Street's Radar.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=18fca04d83d35d3d805cde7eed90edb679bc76e648e697953212234d7a84a666"
+    "url": "https://finnhub.io/api/news?id=99be8f57191c0c8d6a52fcc0e4ac2336cfc50e21c4243622efd96ad584760f40"
    },
    {
-    "ts": 1788274838,
-    "headline": "Cramer Says Not to Bet Against the AI Chipmaker That Lost Nearly 10% the Day After NVIDIA\u2019s Huge Gain",
+    "ts": 1788291121,
+    "headline": "Google Just Locked Up the Largest Geothermal Power Deal Ever Made.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=50c760b6bcdb378a60b16aecbf0d448b2e86203bb9fe3beda9429a7bf6010f6b"
+    "url": "https://finnhub.io/api/news?id=f8cd46e7771f07f0f35066969657698395f22b0ce503c3206d52bdbed2f75d41"
    },
    {
-    "ts": 1788274796,
-    "headline": "Fervo Energy shares rise 15% following Google geothermal power agreement",
+    "ts": 1788289846,
+    "headline": "Retail Investors\u2019 2 Favorite AI Stocks for the Long Term: Alphabet, IBM",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=67570d30e30f7786fe327864c9560026dc0c32e571a33b60729334b20621f992"
+    "url": "https://finnhub.io/api/news?id=f1ac8112989a8677c6f27e43c85b88169b301b5ea68012c93b62ab0bc2974446"
    },
    {
-    "ts": 1788274740,
-    "headline": "AgriCapture Partners with Google to Advance Water Stewardship in Texas",
+    "ts": 1788289320,
+    "headline": "Who is John Ternus, the incoming Apple CEO?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=819750dca35f2f85f5aa753868a5ff6ca7942edfcc19c4147b21f9db92355682"
+    "url": "https://finnhub.io/api/news?id=f9d27bdba4f130617557b9ec528ea028d5d46c3f4f312041a4ac033b9dedb984"
    },
    {
-    "ts": 1788274200,
-    "headline": "SpaceX's Wild Ride Since IPO: Time to Buy the Stock Now?",
+    "ts": 1788288600,
+    "headline": "What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=02c2e80b4762e1d8d2e83d9c17ce95988e089089888bf19c5ec4aec5b8c156e1"
+    "url": "https://finnhub.io/api/news?id=40ae3299927fdac8867996181f00c9345389f738fb770034a4d6d9fc36106a1a"
    },
    {
-    "ts": 1788273900,
-    "headline": "Tesla Crosses 50-Day SMA: Buy, Hold or Sell TSLA Stock?",
+    "ts": 1788287443,
+    "headline": "The Market May Be Underestimating This Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7cb148f6affb399ce595b63fbf7ddf23d1a723541d42d27a7cc18575c3da9825"
+    "url": "https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176"
    },
    {
-    "ts": 1788273641,
-    "headline": "\u2018Your Stock Doesn\u2019t Know Your Name\u2019: Wes Moss on Owning Too Much Apple, Google",
+    "ts": 1788287010,
+    "headline": "Waymo launches paid robotaxi service in Denver, San Diego, Tampa",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=18af2de40a1a571e3f737a59bd07c1c4c73bd3a0d68a804d6a423f842f6b8e86"
+    "url": "https://finnhub.io/api/news?id=ab7282d21c7c9d631d021fe9decfbada5af526e74d942a8dbf58bc82350bb043"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:00:38Z",
+  "fetched_at": "2026-09-01T19:45:54Z",
   "error": "no insider filings in six months"
  },
  "peers": {

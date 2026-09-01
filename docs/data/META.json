@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-01T17:01:01Z",
+ "generated_at": "2026-09-01T19:46:21Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:01:01Z",
-  "current": 580.64,
-  "change": 8.3,
-  "change_pct": 1.4502,
-  "high": 583.4383,
+  "fetched_at": "2026-09-01T19:46:21Z",
+  "current": 578.72,
+  "change": 6.38,
+  "change_pct": 1.1147,
+  "high": 584.95,
   "low": 556.1,
   "open": 565.0375,
   "prev_close": 572.34,
-  "ts": 1788282041
+  "ts": 1788291966
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:01:01Z",
+  "fetched_at": "2026-09-01T19:46:22Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T17:01:13Z",
+  "fetched_at": "2026-09-01T19:46:23Z",
   "bars": [
    {
     "date": "2023-01-31",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-01",
     "open": 558.02,
-    "high": 583.29,
+    "high": 584.905,
     "low": 556.385,
-    "close": 580.76,
-    "volume": 279129.0
+    "close": 578.75,
+    "volume": 436517.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:01:13Z",
+  "fetched_at": "2026-09-01T19:46:24Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T17:01:13Z",
+  "fetched_at": "2026-09-01T19:46:24Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.606283,
+  "forward_pe": 16.563375,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:01:13Z",
+  "fetched_at": "2026-09-01T19:46:25Z",
   "rows": [
    {
-    "ts": 1788275730,
-    "headline": "Top Tech Analyst Warns: OpenAI\u2019s Ad Business Grew 10x in 6 Months. Google Search Is the Most Exposed",
+    "ts": 1788289026,
+    "headline": "Oklo Sinks 5% as PJM Pulls Its Meta-Backed Ohio Project, NuScale Power Barely Budges",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=003c50f8a6d78ff34e00dafd525ce3b893d4bef6c4dfd0299cae9002d12f5aa0"
+    "url": "https://finnhub.io/api/news?id=481a968aceed238ff759767244ad77eafcff2c65bec52c42a104e54084cd65fc"
    },
    {
-    "ts": 1788275640,
-    "headline": "Muse Image, the Agentic Image Model from Meta, Is Now Available on fal",
+    "ts": 1788288265,
+    "headline": "Jensen Huang Has Become World\u2019s 8th Richest Person",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a6d4d4f8284299ce978808c847b042c70623ea829b1562437ed84fbf13100894"
+    "url": "https://finnhub.io/api/news?id=8b2b67a6949d04057d8b585bd39cad07bc47caac8cd9fd999ba76ac78c620530"
    },
    {
-    "ts": 1788275220,
-    "headline": "Why Meta\u2019s $18B settlement may hit YouTube harder",
+    "ts": 1788287443,
+    "headline": "The Market May Be Underestimating This Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f0a670a390682f7e9117c844bab44c6293fe4a7d682fb8fb58215243476cd4de"
+    "url": "https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176"
    },
    {
-    "ts": 1788272340,
-    "headline": "Ecommerce social media ad spend surged 70% as brands got more for every dollar",
+    "ts": 1788285540,
+    "headline": "Higher Treasury Yields Signal a Permanent\u2014and Dangerous\u2014Shift in the Bond Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=05ee1e797935f65c62f86868f93b3037800bccf70a6d3ec689f78a0f2ce87735"
+    "url": "https://finnhub.io/api/news?id=f2cb1cc19cd48906d0ba5b579f98cf4809bb48b88faabdb0dcabd6036b42e728"
    },
    {
-    "ts": 1788271800,
-    "headline": "DoubleLine Income Solutions Fund Declares September 2026 Distribution",
+    "ts": 1788285144,
+    "headline": "Big Tech Is Incapable of Solving Its Own Problem, Says Mukunda",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b1a918208bab314a7bf0b6268ce3aeccca444fd60bc4651c6c99cba127d2eaae"
+    "url": "https://finnhub.io/api/news?id=2c0726bc2ae4c4268af764180d58c4692c5200a9ab7f877b9791478245ca38e0"
    },
    {
-    "ts": 1788271200,
-    "headline": "Innovid Expands NIVO with Meta Ads MCP Integration to Bring Connected AI Workflows to Social Advertising",
+    "ts": 1788282000,
+    "headline": "Luminize Named No. 731 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America's Fastest-Growing Private Companies",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e9bb5853976b306fd58ddd9abd913a11feff43b6fc8180ee2fe63b571ed2c3f1"
+    "url": "https://finnhub.io/api/news?id=196ec466fb493a0101884cf16a53abb6f2ba59963e0b195df4991cf4a9a4ac1e"
    },
    {
-    "ts": 1788269548,
-    "headline": "Think You Bought a Telecom ETF? You Mostly Own Big Tech",
+    "ts": 1788281797,
+    "headline": "Meta Platforms' Teen Harm Settlement Clears Overhang, Engagement Concerns Remain, Wedbush Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=253b0e24c9819333a66c08d93c52aa92e0cfad347d30fa6b38c6243165d8a337"
+    "url": "https://finnhub.io/api/news?id=2b9cc0d5a27431a3ebda8b8656c17c277ed974bc964221d2f94bc321fd6039ff"
    },
    {
-    "ts": 1788267600,
-    "headline": "Fervo Energy and Google Sign 396 MW PPA",
+    "ts": 1788280907,
+    "headline": "Big Tech Spent Over $1 Trillion on AI. The Bill Does Not Arrive Until It Depreciates.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42037dc4e5d268bb70139e22b406ac454196545f0181816c8bb9ca95e484c61d"
+    "url": "https://finnhub.io/api/news?id=69dff211904b657412af99e648ed9acdeff0eb70d99ced45dbd20fa6d0ebc714"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T17:01:15Z",
+  "fetched_at": "2026-09-01T19:46:25Z",
   "buys": 105,
   "sells": 198,
   "net_shares": 3217359.0,
