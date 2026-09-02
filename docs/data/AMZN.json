@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-02T19:32:13Z",
+ "generated_at": "2026-09-02T22:02:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:14Z",
-  "current": 255.16,
-  "change": 0.24,
-  "change_pct": 0.0941,
+  "fetched_at": "2026-09-02T22:02:53Z",
+  "current": 254.98,
+  "change": 0.06,
+  "change_pct": 0.0235,
   "high": 256.24,
   "low": 253.4,
-  "open": 254.2175,
+  "open": 254.255,
   "prev_close": 254.92,
-  "ts": 1788377503
+  "ts": 1788379200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:14Z",
+  "fetched_at": "2026-09-02T22:02:53Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T19:32:19Z",
+  "fetched_at": "2026-09-02T22:02:55Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-02",
     "open": 254.255,
-    "high": 256.2,
-    "low": 253.445,
-    "close": 255.0,
-    "volume": 816565.0
+    "high": 256.23999,
+    "low": 253.39999,
+    "close": 254.97,
+    "volume": 19476402.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:20Z",
+  "fetched_at": "2026-09-02T22:02:55Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T19:32:20Z",
+  "fetched_at": "2026-09-02T22:02:55Z",
   "analyst_target_mean": 328.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.5315,
+  "forward_pe": 24.53198,
   "forward_eps": 10.39378,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:20Z",
+  "fetched_at": "2026-09-02T22:02:55Z",
   "rows": [
+   {
+    "ts": 1788382839,
+    "headline": "How To Bank 8.8% A Year On IBM Stock Before Buying A Single Share",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0f8f739418a7a45a2dad10f328dd71edaa2a65cdf5a7361564215194d7e65387"
+   },
+   {
+    "ts": 1788381970,
+    "headline": "US judge rejects bid to break up Google's ad business",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=65799ac00b58f546317d37a0d1d23e33cdcf8d758481155cb8e75b739d24a77a"
+   },
+   {
+    "ts": 1788380786,
+    "headline": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=06f38cc0c2bacadc255373916dad613fbc155c0a71a3767988a70a290aa8cc9a"
+   },
+   {
+    "ts": 1788380663,
+    "headline": "3 Surging  Stocks Worth Investigating",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=31b7194b4e0be2d005f7c5d35691847394d2b0af3302eed8b94eb35f4f50b3c2"
+   },
+   {
+    "ts": 1788380043,
+    "headline": "Is Microsoft Stock Winning The Move To The Cloud Or Just The AI Boom?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a3ca8bf7264f74981d3aae7943e348a6a2d277f052b003cf2d84bd5d77308009"
+   },
+   {
+    "ts": 1788379572,
+    "headline": "How Could Amazon.com (AMZN) Gain From New Creator Shopping Tools?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9781dcda2f03d1c1bab3236b3269ca68d9da2e34ed86f207132ec16fe1c25e3d"
+   },
+   {
+    "ts": 1788379200,
+    "headline": "NVIDIA & 4 Stocks Beyond Pure Plays to Gain From Quantum Boom in 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=04d60ae2a32e57082622429af5d36b2a8f4061119b63296192b1f09318aa9a17"
+   },
    {
     "ts": 1788377100,
     "headline": "DoJ requests beef price data from major retailers including Amazon and Walmart",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=e7c71427fa4139760214f4ff7aa965f0b4b990db64433e4164032bcd0cee496f"
-   },
-   {
-    "ts": 1788377100,
-    "headline": "If the AI Boom Slows Down, History Says This Is the Smartest Way to Protect Your Long-Term Portfolio",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a41c0681fa32fe0cc4fa087ff0aca01b449b3936937357df5ec21f009e333d72"
-   },
-   {
-    "ts": 1788376636,
-    "headline": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=480070488d5357e8fb66ce0ce7a789cc248f46de99929465c95a2c0c8e453cb6"
-   },
-   {
-    "ts": 1788376140,
-    "headline": "What's Wrong With Amazon Stock? Here's the Honest Answer.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9e4ab0fc54354f4759cb3cc181cb0b1cd7a35050a2162d24e9440c09a768eed2"
-   },
-   {
-    "ts": 1788376023,
-    "headline": "Is Oracle Stock A Hedge Or A Downside Trap?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3dc2a8c10ede2ce1faa6e0bd23c0b1b63f9d3332c1f79dd6d5d53828dd94a38d"
-   },
-   {
-    "ts": 1788374498,
-    "headline": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8a8bbb8b840dc9873ac6207eef6f68951f479dfccc59bc58a925f16485e4385c"
-   },
-   {
-    "ts": 1788372354,
-    "headline": "The AI Engine That Re-Accelerated Snowflake",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=05f7866db5775a4d2b4569acd605559eda80d52c4a8ce4dcefba20a53cf955c1"
-   },
-   {
-    "ts": 1788372043,
-    "headline": "Why The Trade Desk Stock Rallied Today",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=40abc4a583c9f8936d562436821eac9ccb0f30841fa8003bba403335da017978"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:21Z",
+  "fetched_at": "2026-09-02T22:02:56Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

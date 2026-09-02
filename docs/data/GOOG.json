@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-02T19:32:30Z",
+ "generated_at": "2026-09-02T22:03:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:31Z",
-  "current": 334.24,
-  "change": 2.21,
-  "change_pct": 0.6656,
+  "fetched_at": "2026-09-02T22:03:05Z",
+  "current": 333.78,
+  "change": 1.75,
+  "change_pct": 0.5271,
   "high": 336.51,
   "low": 329.5201,
-  "open": 332.385,
+  "open": 330.77,
   "prev_close": 332.03,
-  "ts": 1788377528
+  "ts": 1788379200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:31Z",
+  "fetched_at": "2026-09-02T22:03:05Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T19:32:34Z",
+  "fetched_at": "2026-09-02T22:03:13Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7214,19 +7214,19 @@
    },
    {
     "date": "2026-09-01",
-    "open": 332.29999,
-    "high": 333.94971,
+    "open": 332.25,
+    "high": 333.95001,
     "low": 329.29001,
     "close": 332.029999,
-    "volume": 14313571.0
+    "volume": 16313400.0
    },
    {
     "date": "2026-09-02",
-    "open": 330.515,
-    "high": 336.48,
-    "low": 329.78,
-    "close": 334.285,
-    "volume": 490001.0
+    "open": 330.64499,
+    "high": 336.51001,
+    "low": 329.52011,
+    "close": 333.78,
+    "volume": 12897448.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:34Z",
+  "fetched_at": "2026-09-02T22:03:13Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T19:32:34Z",
+  "fetched_at": "2026-09-02T22:03:13Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.532871,
+  "forward_pe": 22.510616,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:35Z",
+  "fetched_at": "2026-09-02T22:03:13Z",
   "rows": [
    {
-    "ts": 1788378518,
-    "headline": "SpaceX AI Buildout Shows Cracks as Musk Shakes Up Data Center Team",
+    "ts": 1788385749,
+    "headline": "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d97f03042287faf032e16d2a1ee855da58a1a103ec275f6189284de9639c18ba"
+    "url": "https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119"
    },
    {
-    "ts": 1788377792,
-    "headline": "Waymo taps into debt markets with $3B deal with Pimco, Blackstone - report",
+    "ts": 1788385577,
+    "headline": "Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3b68ee421d74bb6af796ceb78eb08387fed595025ec4323dbd84c151d24a27a8"
+    "url": "https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165"
    },
    {
-    "ts": 1788377520,
-    "headline": "Sandisk Stock: Buy, Sell, or Hold?",
+    "ts": 1788385463,
+    "headline": "3 Mega-Cap Stocks to Consider Right Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4616a4eb94be3a1e6329b79ec8c9746a072ccd853bf52fc605460ed620a8e2b1"
+    "url": "https://finnhub.io/api/news?id=0a57442769e5267b768e447f2905138064ff4cfa80a1e7192c7c5381d5e3e7f9"
    },
    {
-    "ts": 1788377336,
-    "headline": "Musk\u2019s $30 Trillion AI Forecast Hinges on a Timeline Even NVIDIA Says Is Unrealistic",
+    "ts": 1788384638,
+    "headline": "Palantir Stock Gets New Problem From Google",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=18b62f2a74eb4779bcdbe8538df5ee3159c55f05b56213785e34823ae114ca7f"
+    "url": "https://finnhub.io/api/news?id=eb2c53573dfe54aa7f4d286b8839c3e507fac5fdb4b55964be36d8751f0873c5"
    },
    {
-    "ts": 1788376023,
-    "headline": "Is Oracle Stock A Hedge Or A Downside Trap?",
+    "ts": 1788382839,
+    "headline": "How To Bank 8.8% A Year On IBM Stock Before Buying A Single Share",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3dc2a8c10ede2ce1faa6e0bd23c0b1b63f9d3332c1f79dd6d5d53828dd94a38d"
+    "url": "https://finnhub.io/api/news?id=0f8f739418a7a45a2dad10f328dd71edaa2a65cdf5a7361564215194d7e65387"
    },
    {
-    "ts": 1788374580,
-    "headline": "Alphabet Stock Rises as Google Avoids Another Business Breakup Attempt",
+    "ts": 1788381970,
+    "headline": "US judge rejects bid to break up Google's ad business",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bbf7b5594a0f53d6948d826474c8e5660d08a600941af82544ca29ea4cb9c715"
+    "url": "https://finnhub.io/api/news?id=65799ac00b58f546317d37a0d1d23e33cdcf8d758481155cb8e75b739d24a77a"
    },
    {
-    "ts": 1788374546,
-    "headline": "How Wide Is the Range of Possibilities for Adobe Stock?",
+    "ts": 1788381314,
+    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7c4dd89f2ee815c2eaaaefd3cc508815da26eb437a3933ea133e29fc806f9ad0"
+    "url": "https://finnhub.io/api/news?id=a86fc5ffa35f957b0554670cf2f75a8d9418021371166b13ad21bb2e8ffdd560"
    },
    {
-    "ts": 1788374507,
-    "headline": "Judge orders changes to Google's digital ads business but spares it from a breakup",
+    "ts": 1788380786,
+    "headline": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7659307d5b586496f62a52ae5f8df0ab4c947c282af9d357c4d572529a4c9f2b"
+    "url": "https://finnhub.io/api/news?id=06f38cc0c2bacadc255373916dad613fbc155c0a71a3767988a70a290aa8cc9a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:35Z",
+  "fetched_at": "2026-09-02T22:03:14Z",
   "error": "no insider filings in six months"
  },
  "peers": {

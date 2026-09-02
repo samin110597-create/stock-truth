@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-02T19:32:59Z",
+ "generated_at": "2026-09-02T22:03:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:59Z",
-  "current": 594.16,
-  "change": 15.62,
-  "change_pct": 2.6999,
+  "fetched_at": "2026-09-02T22:03:35Z",
+  "current": 592.85,
+  "change": 14.31,
+  "change_pct": 2.4735,
   "high": 600.38,
   "low": 577.0,
-  "open": 577.7775,
+  "open": 578.785,
   "prev_close": 578.54,
-  "ts": 1788377552
+  "ts": 1788379200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:59Z",
+  "fetched_at": "2026-09-02T22:03:35Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T19:33:02Z",
+  "fetched_at": "2026-09-02T22:03:39Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-02",
-    "open": 578.85,
-    "high": 600.33,
+    "open": 579.54999,
+    "high": 600.38,
     "low": 577.0,
-    "close": 593.97,
-    "volume": 552886.0
+    "close": 592.90002,
+    "volume": 13218589.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:33:02Z",
+  "fetched_at": "2026-09-02T22:03:40Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T19:33:02Z",
+  "fetched_at": "2026-09-02T22:03:40Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.98572,
+  "forward_pe": 16.958117,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:33:02Z",
+  "fetched_at": "2026-09-02T22:03:40Z",
   "rows": [
+   {
+    "ts": 1788383700,
+    "headline": "Edwards Lifesciences to Present at the Deutsche Bank Healthcare Summit",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=aff4cd1f434fbbb0d65c87f29c8c7560f83d23928031121fd5c2ed58c880051b"
+   },
+   {
+    "ts": 1788381970,
+    "headline": "US judge rejects bid to break up Google's ad business",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=65799ac00b58f546317d37a0d1d23e33cdcf8d758481155cb8e75b739d24a77a"
+   },
+   {
+    "ts": 1788380786,
+    "headline": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=06f38cc0c2bacadc255373916dad613fbc155c0a71a3767988a70a290aa8cc9a"
+   },
    {
     "ts": 1788374498,
     "headline": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
@@ -7503,31 +7521,13 @@
     "headline": "Rocket Lab Stock Has Collapsed 57% From Highs. Here's Why I'm Not Buying (Yet).",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=d09aab9a784191d04162b08c3d2e2baa24e7d3300901be4112f51f3c5c703f37"
-   },
-   {
-    "ts": 1788370334,
-    "headline": "Healthcare ETF Comparison: Fidelity's FHLC vs. Invesco's Biotech-Focused IBBQ",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=460faa0957cf1506bad7168a013094830ea556b8344fb00fc0160f7de36fe1c9"
-   },
-   {
-    "ts": 1788370200,
-    "headline": "Tema ETFs Appoints Paisley Nardini as Head of Investment Strategy",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fca3d2bd0204f3a78b9d85f60f8909dac9c5f59d6bbd055ac4ed62728ae52676"
-   },
-   {
-    "ts": 1788370200,
-    "headline": "Sezzle Grows Merchant Network: Can New Brands Drive Wider Adoption?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=015c44485bc20bafd6644f3f0d6a21f18327c37f01144085453c9179f4bc1b1f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:33:02Z",
+  "fetched_at": "2026-09-02T22:03:40Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,

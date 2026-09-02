@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-02T19:32:44Z",
+ "generated_at": "2026-09-02T22:03:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:44Z",
-  "current": 224.37,
-  "change": 6.93,
-  "change_pct": 3.1871,
+  "fetched_at": "2026-09-02T22:03:23Z",
+  "current": 224.41,
+  "change": 6.97,
+  "change_pct": 3.2055,
   "high": 227.95,
-  "low": 218.1025,
-  "open": 218.1025,
+  "low": 218.48,
+  "open": 218.785,
   "prev_close": 217.44,
-  "ts": 1788377528
+  "ts": 1788379200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:44Z",
+  "fetched_at": "2026-09-02T22:03:23Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T19:32:49Z",
+  "fetched_at": "2026-09-02T22:03:25Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7225,8 +7225,8 @@
     "open": 218.785,
     "high": 227.95,
     "low": 218.48,
-    "close": 224.34,
-    "volume": 4815427.0
+    "close": 224.39999,
+    "volume": 134994094.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:49Z",
+  "fetched_at": "2026-09-02T22:03:25Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T19:32:49Z",
+  "fetched_at": "2026-09-02T22:03:25Z",
   "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.564163,
+  "forward_pe": 14.568058,
   "forward_eps": 15.40425,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:49Z",
+  "fetched_at": "2026-09-02T22:03:25Z",
   "rows": [
    {
-    "ts": 1788378600,
-    "headline": "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030",
+    "ts": 1788385749,
+    "headline": "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a11b11c0d76fb73692ab033afa3b7e12ebdb87ad98f62d69355f138268dddb4c"
+    "url": "https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119"
    },
    {
-    "ts": 1788378420,
-    "headline": "Can AMD's Saudi AI Buildout Challenge NVIDIA and Broadcom?",
+    "ts": 1788385480,
+    "headline": "Why Sirius XM Holdings Rallied Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a5fccd10ca5888c8678cafd239aa4a038b9d707de62f8c1b92b6267fcd0c7e6c"
+    "url": "https://finnhub.io/api/news?id=492908384474cc99c9c5c0944461207dbc3484b917b4873a138fc7d818f73731"
    },
    {
-    "ts": 1788378053,
-    "headline": "MongoDB Beat Every Estimate and Raised Guidance, Then Lost 13.6% in a Single Session",
+    "ts": 1788384000,
+    "headline": "Where Will IonQ Stock Be in 1 Year?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d4e75f9a1a7eca47878114cdd8208fa95b83fd466fcce023a0e8471ce75bc545"
+    "url": "https://finnhub.io/api/news?id=04436c89f131375ad1896b7994c2c51452cfa341baca02f137167706af8f9f39"
    },
    {
-    "ts": 1788377990,
-    "headline": "Chevron Just Committed $7 Billion to Venezuela. Here's What It Means for CVX Stock.",
+    "ts": 1788383999,
+    "headline": "Broadcom Forecast Misses Estimates, Disappointing Investors",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1f3794860e4f8d55c191f9ee088eae29804372fe2a189ffd88cf0187dfe33b66"
+    "url": "https://finnhub.io/api/news?id=b565e1d7176ec0200f2370fc307a6ab40e6e1a902e67d6f0d175ad78daccf52f"
    },
    {
-    "ts": 1788377966,
-    "headline": "Nvidia Did the Heavy Lifting for the Major Market Indexes Today",
+    "ts": 1788383299,
+    "headline": "Why Is Palantir Stock Down Today?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=32a0b6d9b3baf11ba3f7649c1895f9f2b1d65a94fa9ba2dcaf834934c5ee7712"
+    "url": "https://finnhub.io/api/news?id=46b5492a60a491f320cca710153b4f3eaf561347775a8126c10851dc258fcdbd"
    },
    {
-    "ts": 1788377520,
-    "headline": "Sandisk Stock: Buy, Sell, or Hold?",
+    "ts": 1788382980,
+    "headline": "Eli Lilly Just Announced a Major Acquisition. Here's What It Means.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4616a4eb94be3a1e6329b79ec8c9746a072ccd853bf52fc605460ed620a8e2b1"
+    "url": "https://finnhub.io/api/news?id=3c3218bcaea97bcb318017155db1870e5c2d299f97bce09448cd4f5b0c6401c4"
    },
    {
-    "ts": 1788377336,
-    "headline": "Musk\u2019s $30 Trillion AI Forecast Hinges on a Timeline Even NVIDIA Says Is Unrealistic",
+    "ts": 1788382200,
+    "headline": "Is Rivian (RIVN) a Millionaire Maker Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=18b62f2a74eb4779bcdbe8538df5ee3159c55f05b56213785e34823ae114ca7f"
+    "url": "https://finnhub.io/api/news?id=b2f9fff3edb35f27bf40528b1456713ddc2b8680f65a5da9c4342a30b65de383"
    },
    {
-    "ts": 1788377100,
-    "headline": "If the AI Boom Slows Down, History Says This Is the Smartest Way to Protect Your Long-Term Portfolio",
+    "ts": 1788381851,
+    "headline": "Why Is AST SpaceMobile Stock Up 13% Today?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a41c0681fa32fe0cc4fa087ff0aca01b449b3936937357df5ec21f009e333d72"
+    "url": "https://finnhub.io/api/news?id=871cb732136e2326c69c89b34db6e2b10a5e164523cb76ee842b25b64b1303f3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T19:32:50Z",
+  "fetched_at": "2026-09-02T22:03:25Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,
