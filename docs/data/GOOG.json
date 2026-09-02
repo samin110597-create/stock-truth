@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-02T16:53:44Z",
+ "generated_at": "2026-09-02T19:32:30Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:44Z",
-  "current": 334.73,
-  "change": 2.7,
-  "change_pct": 0.8132,
+  "fetched_at": "2026-09-02T19:32:31Z",
+  "current": 334.24,
+  "change": 2.21,
+  "change_pct": 0.6656,
   "high": 336.51,
   "low": 329.5201,
   "open": 332.385,
   "prev_close": 332.03,
-  "ts": 1788367999
+  "ts": 1788377528
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:44Z",
+  "fetched_at": "2026-09-02T19:32:31Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T16:53:44Z",
+  "fetched_at": "2026-09-02T19:32:34Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7225,8 +7225,8 @@
     "open": 330.515,
     "high": 336.48,
     "low": 329.78,
-    "close": 334.655,
-    "volume": 341088.0
+    "close": 334.285,
+    "volume": 490001.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:45Z",
+  "fetched_at": "2026-09-02T19:32:34Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T16:53:45Z",
+  "fetched_at": "2026-09-02T19:32:34Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.584803,
+  "forward_pe": 22.532871,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:46Z",
+  "fetched_at": "2026-09-02T19:32:35Z",
   "rows": [
    {
-    "ts": 1788361500,
-    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
+    "ts": 1788378518,
+    "headline": "SpaceX AI Buildout Shows Cracks as Musk Shakes Up Data Center Team",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
+    "url": "https://finnhub.io/api/news?id=d97f03042287faf032e16d2a1ee855da58a1a103ec275f6189284de9639c18ba"
    },
    {
-    "ts": 1788361242,
-    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
+    "ts": 1788377792,
+    "headline": "Waymo taps into debt markets with $3B deal with Pimco, Blackstone - report",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
+    "url": "https://finnhub.io/api/news?id=3b68ee421d74bb6af796ceb78eb08387fed595025ec4323dbd84c151d24a27a8"
    },
    {
-    "ts": 1788361221,
-    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
+    "ts": 1788377520,
+    "headline": "Sandisk Stock: Buy, Sell, or Hold?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
+    "url": "https://finnhub.io/api/news?id=4616a4eb94be3a1e6329b79ec8c9746a072ccd853bf52fc605460ed620a8e2b1"
    },
    {
-    "ts": 1788360840,
-    "headline": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+    "ts": 1788377336,
+    "headline": "Musk\u2019s $30 Trillion AI Forecast Hinges on a Timeline Even NVIDIA Says Is Unrealistic",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f7b60b45f76a521db76bd516815595bbcfbd028b041fbeb9b737e145890d7cb6"
+    "url": "https://finnhub.io/api/news?id=18b62f2a74eb4779bcdbe8538df5ee3159c55f05b56213785e34823ae114ca7f"
    },
    {
-    "ts": 1788360814,
-    "headline": "Eos Energy Shares Rise 12% Following West Virginia Solar and Storage Project Announcement",
+    "ts": 1788376023,
+    "headline": "Is Oracle Stock A Hedge Or A Downside Trap?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4de64f7bddb45610888cc227bdd9e80c383b7c71832a4b7b62345fd639539976"
+    "url": "https://finnhub.io/api/news?id=3dc2a8c10ede2ce1faa6e0bd23c0b1b63f9d3332c1f79dd6d5d53828dd94a38d"
    },
    {
-    "ts": 1788360720,
-    "headline": "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom",
+    "ts": 1788374580,
+    "headline": "Alphabet Stock Rises as Google Avoids Another Business Breakup Attempt",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e59b437f7c611781eedb4a687a630a6d991f3469db1b4c4506059fb83c9bc072"
+    "url": "https://finnhub.io/api/news?id=bbf7b5594a0f53d6948d826474c8e5660d08a600941af82544ca29ea4cb9c715"
    },
    {
-    "ts": 1788360660,
-    "headline": "Tesla\u2019s Cybercab Event Is Set for Thursday. Here\u2019s What to Watch.",
+    "ts": 1788374546,
+    "headline": "How Wide Is the Range of Possibilities for Adobe Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=49e5f63afddf3d0be42e4b84d94217c924d8320b654b315694e08627c93712e8"
+    "url": "https://finnhub.io/api/news?id=7c4dd89f2ee815c2eaaaefd3cc508815da26eb437a3933ea133e29fc806f9ad0"
    },
    {
-    "ts": 1788359424,
-    "headline": "Amazon Stock Could Surprise Investors Over the Next 12 Months",
+    "ts": 1788374507,
+    "headline": "Judge orders changes to Google's digital ads business but spares it from a breakup",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73a8a72e53f84672063499bb0147ad489b35cdb8b37403628c0af5666634af33"
+    "url": "https://finnhub.io/api/news?id=7659307d5b586496f62a52ae5f8df0ab4c947c282af9d357c4d572529a4c9f2b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:46Z",
+  "fetched_at": "2026-09-02T19:32:35Z",
   "error": "no insider filings in six months"
  },
  "peers": {

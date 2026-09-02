@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-02T16:54:07Z",
+ "generated_at": "2026-09-02T19:32:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:54:07Z",
-  "current": 595.34,
-  "change": 16.8,
-  "change_pct": 2.9039,
+  "fetched_at": "2026-09-02T19:32:59Z",
+  "current": 594.16,
+  "change": 15.62,
+  "change_pct": 2.6999,
   "high": 600.38,
   "low": 577.0,
   "open": 577.7775,
   "prev_close": 578.54,
-  "ts": 1788368022
+  "ts": 1788377552
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:54:08Z",
+  "fetched_at": "2026-09-02T19:32:59Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T16:54:12Z",
+  "fetched_at": "2026-09-02T19:33:02Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7225,8 +7225,8 @@
     "open": 578.85,
     "high": 600.33,
     "low": 577.0,
-    "close": 595.305,
-    "volume": 391683.0
+    "close": 593.97,
+    "volume": 552886.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:54:13Z",
+  "fetched_at": "2026-09-02T19:33:02Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T16:54:13Z",
+  "fetched_at": "2026-09-02T19:33:02Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.040783,
+  "forward_pe": 16.98572,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:54:13Z",
+  "fetched_at": "2026-09-02T19:33:02Z",
   "rows": [
    {
-    "ts": 1788361500,
-    "headline": "Is Interactive Brokers Quietly Becoming an AI Stock?",
+    "ts": 1788374498,
+    "headline": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57ab777cf928ecba932a89e777ff25a308041d0fc08dca1205fc4d907294233c"
+    "url": "https://finnhub.io/api/news?id=8a8bbb8b840dc9873ac6207eef6f68951f479dfccc59bc58a925f16485e4385c"
    },
    {
-    "ts": 1788361500,
-    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
+    "ts": 1788373740,
+    "headline": "Should You Hold on to RDDT Stock Despite Its 15% Dip in Three Months?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
+    "url": "https://finnhub.io/api/news?id=52887a5c71bf0be6d67cbae3b9687694c9653eaba89bf82db0fc3638d4762d95"
    },
    {
-    "ts": 1788361320,
-    "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
+    "ts": 1788371063,
+    "headline": "Google Just Escaped a Breakup of Its Ad Tech Empire",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
+    "url": "https://finnhub.io/api/news?id=bf5ef9fe866c843f407720a2a3587d0bbf4c3699eef827695acfe21d0a2aa4f6"
    },
    {
-    "ts": 1788361242,
-    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
+    "ts": 1788370602,
+    "headline": "Alphabet Rises After Judge Rejects Forced Sale of 20%-Fee AdX",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
+    "url": "https://finnhub.io/api/news?id=b90cdf4c28736bae144026ffcb53ae166b0d5dedd5a381042759a415937cacb0"
    },
    {
-    "ts": 1788361221,
-    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
+    "ts": 1788370500,
+    "headline": "Rocket Lab Stock Has Collapsed 57% From Highs. Here's Why I'm Not Buying (Yet).",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
+    "url": "https://finnhub.io/api/news?id=d09aab9a784191d04162b08c3d2e2baa24e7d3300901be4112f51f3c5c703f37"
    },
    {
-    "ts": 1788361201,
-    "headline": "Regional Bank Director Sells $230,000 Worth of Stock",
+    "ts": 1788370334,
+    "headline": "Healthcare ETF Comparison: Fidelity's FHLC vs. Invesco's Biotech-Focused IBBQ",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ac59fbb173468951beb4d889520b0100d2590d9aca2ecbce257cb2ec023c1c0b"
+    "url": "https://finnhub.io/api/news?id=460faa0957cf1506bad7168a013094830ea556b8344fb00fc0160f7de36fe1c9"
    },
    {
-    "ts": 1788361200,
-    "headline": "Orlando Magic and Gray Media Announce Full Season Broadcast Partnership",
+    "ts": 1788370200,
+    "headline": "Tema ETFs Appoints Paisley Nardini as Head of Investment Strategy",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d50268faefc43fa5c05e991ff41bfef8065dc652bc05d685c2c4c5fe775fb1a9"
+    "url": "https://finnhub.io/api/news?id=fca3d2bd0204f3a78b9d85f60f8909dac9c5f59d6bbd055ac4ed62728ae52676"
    },
    {
-    "ts": 1788361200,
-    "headline": "Form 8.3",
+    "ts": 1788370200,
+    "headline": "Sezzle Grows Merchant Network: Can New Brands Drive Wider Adoption?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6de7447c4d296e4ee89f26b994ae3064827eaba2ccdb9319eabd78d0cf1f223c"
+    "url": "https://finnhub.io/api/news?id=015c44485bc20bafd6644f3f0d6a21f18327c37f01144085453c9179f4bc1b1f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:54:14Z",
+  "fetched_at": "2026-09-02T19:33:02Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-02T16:53:55Z",
+ "generated_at": "2026-09-02T19:32:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:55Z",
-  "current": 225.63,
-  "change": 8.19,
-  "change_pct": 3.7666,
+  "fetched_at": "2026-09-02T19:32:44Z",
+  "current": 224.37,
+  "change": 6.93,
+  "change_pct": 3.1871,
   "high": 227.95,
   "low": 218.1025,
   "open": 218.1025,
   "prev_close": 217.44,
-  "ts": 1788368022
+  "ts": 1788377528
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:56Z",
+  "fetched_at": "2026-09-02T19:32:44Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T16:53:56Z",
+  "fetched_at": "2026-09-02T19:32:49Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7225,8 +7225,8 @@
     "open": 218.785,
     "high": 227.95,
     "low": 218.48,
-    "close": 225.63,
-    "volume": 3400476.0
+    "close": 224.34,
+    "volume": 4815427.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:57Z",
+  "fetched_at": "2026-09-02T19:32:49Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T16:53:57Z",
+  "fetched_at": "2026-09-02T19:32:49Z",
   "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.658293,
+  "forward_pe": 14.564163,
   "forward_eps": 15.40425,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:57Z",
+  "fetched_at": "2026-09-02T19:32:49Z",
   "rows": [
    {
-    "ts": 1788361500,
-    "headline": "Is Interactive Brokers Quietly Becoming an AI Stock?",
+    "ts": 1788378600,
+    "headline": "Prediction: $1,104 Invested in Nvidia Today Will Be Worth This Much by 2030",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57ab777cf928ecba932a89e777ff25a308041d0fc08dca1205fc4d907294233c"
+    "url": "https://finnhub.io/api/news?id=a11b11c0d76fb73692ab033afa3b7e12ebdb87ad98f62d69355f138268dddb4c"
    },
    {
-    "ts": 1788361500,
-    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
+    "ts": 1788378420,
+    "headline": "Can AMD's Saudi AI Buildout Challenge NVIDIA and Broadcom?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
+    "url": "https://finnhub.io/api/news?id=a5fccd10ca5888c8678cafd239aa4a038b9d707de62f8c1b92b6267fcd0c7e6c"
    },
    {
-    "ts": 1788361397,
-    "headline": "AI Infrastructure Spending Is Set to Hit $1.4 Trillion by 2030. These Are the 3 Chip Stocks Positioned to Capture It.",
+    "ts": 1788378053,
+    "headline": "MongoDB Beat Every Estimate and Raised Guidance, Then Lost 13.6% in a Single Session",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9b3d215c7373a8fad3418a898b7c0749fb685b153f5b917d81899f327b5659d9"
+    "url": "https://finnhub.io/api/news?id=d4e75f9a1a7eca47878114cdd8208fa95b83fd466fcce023a0e8471ce75bc545"
    },
    {
-    "ts": 1788361320,
-    "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
+    "ts": 1788377990,
+    "headline": "Chevron Just Committed $7 Billion to Venezuela. Here's What It Means for CVX Stock.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
+    "url": "https://finnhub.io/api/news?id=1f3794860e4f8d55c191f9ee088eae29804372fe2a189ffd88cf0187dfe33b66"
    },
    {
-    "ts": 1788361272,
-    "headline": "The Future of Website Building with Wix.com (WIX)",
+    "ts": 1788377966,
+    "headline": "Nvidia Did the Heavy Lifting for the Major Market Indexes Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=05d7859c17afcd56e420df2af3a72590d8a1619bda9d7cdd3df7402ac463504b"
+    "url": "https://finnhub.io/api/news?id=32a0b6d9b3baf11ba3f7649c1895f9f2b1d65a94fa9ba2dcaf834934c5ee7712"
    },
    {
-    "ts": 1788361260,
-    "headline": "Analog Devices to Participate in the J.P. Morgan U.S. All Stars Conference",
+    "ts": 1788377520,
+    "headline": "Sandisk Stock: Buy, Sell, or Hold?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8a3337a92afca1ab0f0bef107c4426380cfbe4ba92d2ea9ba36223e19880575e"
+    "url": "https://finnhub.io/api/news?id=4616a4eb94be3a1e6329b79ec8c9746a072ccd853bf52fc605460ed620a8e2b1"
    },
    {
-    "ts": 1788361242,
-    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
+    "ts": 1788377336,
+    "headline": "Musk\u2019s $30 Trillion AI Forecast Hinges on a Timeline Even NVIDIA Says Is Unrealistic",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
+    "url": "https://finnhub.io/api/news?id=18b62f2a74eb4779bcdbe8538df5ee3159c55f05b56213785e34823ae114ca7f"
    },
    {
-    "ts": 1788361221,
-    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
+    "ts": 1788377100,
+    "headline": "If the AI Boom Slows Down, History Says This Is the Smartest Way to Protect Your Long-Term Portfolio",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
+    "url": "https://finnhub.io/api/news?id=a41c0681fa32fe0cc4fa087ff0aca01b449b3936937357df5ec21f009e333d72"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:58Z",
+  "fetched_at": "2026-09-02T19:32:50Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,

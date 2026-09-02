@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-02T16:53:28Z",
+ "generated_at": "2026-09-02T19:32:13Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:30Z",
-  "current": 255.31,
-  "change": 0.39,
-  "change_pct": 0.153,
+  "fetched_at": "2026-09-02T19:32:14Z",
+  "current": 255.16,
+  "change": 0.24,
+  "change_pct": 0.0941,
   "high": 256.24,
   "low": 253.4,
   "open": 254.2175,
   "prev_close": 254.92,
-  "ts": 1788367999
+  "ts": 1788377503
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:31Z",
+  "fetched_at": "2026-09-02T19:32:14Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T16:53:34Z",
+  "fetched_at": "2026-09-02T19:32:19Z",
   "bars": [
    {
     "date": "2023-02-01",
@@ -7225,8 +7225,8 @@
     "open": 254.255,
     "high": 256.2,
     "low": 253.445,
-    "close": 255.315,
-    "volume": 515055.0
+    "close": 255.0,
+    "volume": 816565.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:34Z",
+  "fetched_at": "2026-09-02T19:32:20Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T16:53:34Z",
+  "fetched_at": "2026-09-02T19:32:20Z",
   "analyst_target_mean": 328.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.570465,
+  "forward_pe": 24.5315,
   "forward_eps": 10.39378,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:34Z",
+  "fetched_at": "2026-09-02T19:32:20Z",
   "rows": [
    {
-    "ts": 1788361467,
-    "headline": "Nio Drops 4% on J.P. Morgan Downgrade and $4.50 Price Target, XPeng and Li Auto Slip",
+    "ts": 1788377100,
+    "headline": "DoJ requests beef price data from major retailers including Amazon and Walmart",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ea81a501caccc2a21676d989f71593e1eaf7bfd4fcc598b5ee3ef4c1a7d73e47"
+    "url": "https://finnhub.io/api/news?id=e7c71427fa4139760214f4ff7aa965f0b4b990db64433e4164032bcd0cee496f"
    },
    {
-    "ts": 1788361320,
-    "headline": "ExchangeRight Fully Subscribes $63.34 Million Net-Leased Portfolio 74 DST",
+    "ts": 1788377100,
+    "headline": "If the AI Boom Slows Down, History Says This Is the Smartest Way to Protect Your Long-Term Portfolio",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f446024cbb6f3007b0f1117b457565e027a4cd3bb605c110b389b369c3ceefdb"
+    "url": "https://finnhub.io/api/news?id=a41c0681fa32fe0cc4fa087ff0aca01b449b3936937357df5ec21f009e333d72"
    },
    {
-    "ts": 1788361320,
-    "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
+    "ts": 1788376636,
+    "headline": "Better Artificial Intelligence Stock: Astera Labs vs. NVIDIA",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
+    "url": "https://finnhub.io/api/news?id=480070488d5357e8fb66ce0ce7a789cc248f46de99929465c95a2c0c8e453cb6"
    },
    {
-    "ts": 1788360983,
-    "headline": "3 Reasons to Sell PRPL and 1 Stock to Buy Instead",
+    "ts": 1788376140,
+    "headline": "What's Wrong With Amazon Stock? Here's the Honest Answer.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9955ae2da66eb71122ca15344344390ab43b4a564ff6246e04718f314fa12843"
+    "url": "https://finnhub.io/api/news?id=9e4ab0fc54354f4759cb3cc181cb0b1cd7a35050a2162d24e9440c09a768eed2"
    },
    {
-    "ts": 1788360902,
-    "headline": "Does H World Group (HTHT) Have the Potential to Rally 26.97% as Wall Street Analysts Expect?",
+    "ts": 1788376023,
+    "headline": "Is Oracle Stock A Hedge Or A Downside Trap?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ebed9e68d11d9e5b6aca7c2e8eeef3466e0ccc4bf2f9a9d3c6f6e64d39bc29f5"
+    "url": "https://finnhub.io/api/news?id=3dc2a8c10ede2ce1faa6e0bd23c0b1b63f9d3332c1f79dd6d5d53828dd94a38d"
    },
    {
-    "ts": 1788360888,
-    "headline": "Sirius XM upgraded, Toast downgraded: Wall Street's top analyst calls",
+    "ts": 1788374498,
+    "headline": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8516fefd2a35173aa62476707580400a1db2e41384346018cfcd8590df085ca6"
+    "url": "https://finnhub.io/api/news?id=8a8bbb8b840dc9873ac6207eef6f68951f479dfccc59bc58a925f16485e4385c"
    },
    {
-    "ts": 1788360840,
-    "headline": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
+    "ts": 1788372354,
+    "headline": "The AI Engine That Re-Accelerated Snowflake",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f7b60b45f76a521db76bd516815595bbcfbd028b041fbeb9b737e145890d7cb6"
+    "url": "https://finnhub.io/api/news?id=05f7866db5775a4d2b4569acd605559eda80d52c4a8ce4dcefba20a53cf955c1"
    },
    {
-    "ts": 1788360837,
-    "headline": "Bond yields still high as investors weigh rate hike risk: AlphaCheck",
+    "ts": 1788372043,
+    "headline": "Why The Trade Desk Stock Rallied Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9255ca29d61ebb55b05c2ac4bc7b5761f44bd47e3ab0ab5a89b421c6d306fe24"
+    "url": "https://finnhub.io/api/news?id=40abc4a583c9f8936d562436821eac9ccb0f30841fa8003bba403335da017978"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T16:53:35Z",
+  "fetched_at": "2026-09-02T19:32:21Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
