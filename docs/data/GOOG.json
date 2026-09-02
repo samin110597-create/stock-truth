@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-01T22:07:47Z",
+ "generated_at": "2026-09-02T16:53:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:47Z",
-  "current": 332.03,
-  "change": -3.38,
-  "change_pct": -1.0077,
-  "high": 333.9497,
-  "low": 329.29,
-  "open": 332.25,
-  "prev_close": 335.41,
-  "ts": 1788292800
+  "fetched_at": "2026-09-02T16:53:44Z",
+  "current": 334.73,
+  "change": 2.7,
+  "change_pct": 0.8132,
+  "high": 336.51,
+  "low": 329.5201,
+  "open": 332.385,
+  "prev_close": 332.03,
+  "ts": 1788367999
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:47Z",
+  "fetched_at": "2026-09-02T16:53:44Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4107934699999.9995,
+  "mcap": 4097294599999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T22:07:48Z",
+  "fetched_at": "2026-09-02T16:53:44Z",
   "bars": [
-   {
-    "date": "2023-01-31",
-    "open": 97.86,
-    "high": 99.91,
-    "low": 97.79,
-    "close": 99.87,
-    "volume": 22306800.0
-   },
    {
     "date": "2023-02-01",
     "open": 99.74,
@@ -7225,12 +7217,20 @@
     "open": 332.29999,
     "high": 333.94971,
     "low": 329.29001,
-    "close": 331.81,
-    "volume": 25197413.0
+    "close": 332.029999,
+    "volume": 14313571.0
+   },
+   {
+    "date": "2026-09-02",
+    "open": 330.515,
+    "high": 336.48,
+    "low": 329.78,
+    "close": 334.655,
+    "volume": 341088.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-01",
+  "latest": "2026-09-02",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,8 +7403,17 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:48Z",
+  "fetched_at": "2026-09-02T16:53:45Z",
   "trends": [
+   {
+    "symbol": "GOOGL",
+    "period": "2026-09-01",
+    "strongBuy": 20,
+    "buy": 43,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+   },
    {
     "symbol": "GOOGL",
     "period": "2026-08-01",
@@ -7431,94 +7440,85 @@
     "hold": 9,
     "sell": 0,
     "strongSell": 0
-   },
-   {
-    "symbol": "GOOGL",
-    "period": "2026-05-01",
-    "strongBuy": 21,
-    "buy": 41,
-    "hold": 8,
-    "sell": 0,
-    "strongSell": 0
    }
   ]
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T22:07:48Z",
+  "fetched_at": "2026-09-02T16:53:45Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.392593,
+  "forward_pe": 22.584803,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
-  "institutions_pct": 0.62264997,
+  "institutions_pct": 0.62262,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:48Z",
+  "fetched_at": "2026-09-02T16:53:46Z",
   "rows": [
    {
-    "ts": 1788292020,
-    "headline": "Marvell\u2019s $120B AI deal came with an unexpected catch",
+    "ts": 1788361500,
+    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941"
+    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
    },
    {
-    "ts": 1788291300,
-    "headline": "Nvidia Sells the Brains of the AI Boom. Something Else Is Selling the Muscle -- and It's Not on Wall Street's Radar.",
+    "ts": 1788361242,
+    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=99be8f57191c0c8d6a52fcc0e4ac2336cfc50e21c4243622efd96ad584760f40"
+    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
    },
    {
-    "ts": 1788291121,
-    "headline": "Google Just Locked Up the Largest Geothermal Power Deal Ever Made.",
+    "ts": 1788361221,
+    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f8cd46e7771f07f0f35066969657698395f22b0ce503c3206d52bdbed2f75d41"
+    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
    },
    {
-    "ts": 1788289846,
-    "headline": "Retail Investors\u2019 2 Favorite AI Stocks for the Long Term: Alphabet, IBM",
+    "ts": 1788360840,
+    "headline": "Microsoft's AI Datacenter Expansion: A Game Changer for the Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f1ac8112989a8677c6f27e43c85b88169b301b5ea68012c93b62ab0bc2974446"
+    "url": "https://finnhub.io/api/news?id=f7b60b45f76a521db76bd516815595bbcfbd028b041fbeb9b737e145890d7cb6"
    },
    {
-    "ts": 1788289320,
-    "headline": "Who is John Ternus, the incoming Apple CEO?",
+    "ts": 1788360814,
+    "headline": "Eos Energy Shares Rise 12% Following West Virginia Solar and Storage Project Announcement",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f9d27bdba4f130617557b9ec528ea028d5d46c3f4f312041a4ac033b9dedb984"
+    "url": "https://finnhub.io/api/news?id=4de64f7bddb45610888cc227bdd9e80c383b7c71832a4b7b62345fd639539976"
    },
    {
-    "ts": 1788288600,
-    "headline": "What Is a Small Modular Reactor, and Why Is Big Tech Signing Multi-Decade Deals for Them?",
+    "ts": 1788360720,
+    "headline": "4 Stocks to Buy Now to Ride the AI Data Center Spending Boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=40ae3299927fdac8867996181f00c9345389f738fb770034a4d6d9fc36106a1a"
+    "url": "https://finnhub.io/api/news?id=e59b437f7c611781eedb4a687a630a6d991f3469db1b4c4506059fb83c9bc072"
    },
    {
-    "ts": 1788287443,
-    "headline": "The Market May Be Underestimating This Stock",
+    "ts": 1788360660,
+    "headline": "Tesla\u2019s Cybercab Event Is Set for Thursday. Here\u2019s What to Watch.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176"
+    "url": "https://finnhub.io/api/news?id=49e5f63afddf3d0be42e4b84d94217c924d8320b654b315694e08627c93712e8"
    },
    {
-    "ts": 1788287010,
-    "headline": "Waymo launches paid robotaxi service in Denver, San Diego, Tampa",
+    "ts": 1788359424,
+    "headline": "Amazon Stock Could Surprise Investors Over the Next 12 Months",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ab7282d21c7c9d631d021fe9decfbada5af526e74d942a8dbf58bc82350bb043"
+    "url": "https://finnhub.io/api/news?id=73a8a72e53f84672063499bb0147ad489b35cdb8b37403628c0af5666634af33"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:48Z",
+  "fetched_at": "2026-09-02T16:53:46Z",
   "error": "no insider filings in six months"
  },
  "peers": {

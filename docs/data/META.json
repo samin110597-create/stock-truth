@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-01T22:08:07Z",
+ "generated_at": "2026-09-02T16:54:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:08:07Z",
-  "current": 578.54,
-  "change": 6.2,
-  "change_pct": 1.0833,
-  "high": 584.95,
-  "low": 556.1,
-  "open": 558.345,
-  "prev_close": 572.34,
-  "ts": 1788292800
+  "fetched_at": "2026-09-02T16:54:07Z",
+  "current": 595.34,
+  "change": 16.8,
+  "change_pct": 2.9039,
+  "high": 600.38,
+  "low": 577.0,
+  "open": 577.7775,
+  "prev_close": 578.54,
+  "ts": 1788368022
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:08:07Z",
+  "fetched_at": "2026-09-02T16:54:08Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1440780374262.516,
+  "mcap": 1473834267901.7195,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T22:08:08Z",
+  "fetched_at": "2026-09-02T16:54:12Z",
   "bars": [
-   {
-    "date": "2023-01-31",
-    "open": 147.95,
-    "high": 149.88,
-    "low": 147.52,
-    "close": 148.97,
-    "volume": 29842100.0
-   },
    {
     "date": "2023-02-01",
     "open": 148.029999,
@@ -7225,12 +7217,20 @@
     "open": 557.79999,
     "high": 584.90002,
     "low": 556.28998,
-    "close": 578.53003,
-    "volume": 27899870.0
+    "close": 578.53998,
+    "volume": 15369187.0
+   },
+   {
+    "date": "2026-09-02",
+    "open": 578.85,
+    "high": 600.33,
+    "low": 577.0,
+    "close": 595.305,
+    "volume": 391683.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-01",
+  "latest": "2026-09-02",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,8 +7412,17 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:08:08Z",
+  "fetched_at": "2026-09-02T16:54:13Z",
   "trends": [
+   {
+    "symbol": "META",
+    "period": "2026-09-01",
+    "strongBuy": 20,
+    "buy": 42,
+    "hold": 9,
+    "sell": 0,
+    "strongSell": 0
+   },
    {
     "symbol": "META",
     "period": "2026-08-01",
@@ -7440,27 +7449,18 @@
     "hold": 9,
     "sell": 0,
     "strongSell": 0
-   },
-   {
-    "symbol": "META",
-    "period": "2026-05-01",
-    "strongBuy": 24,
-    "buy": 40,
-    "hold": 9,
-    "sell": 0,
-    "strongSell": 0
    }
   ]
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T22:08:08Z",
+  "fetched_at": "2026-09-02T16:54:13Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.548788,
+  "forward_pe": 17.040783,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,65 +7472,65 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:08:08Z",
+  "fetched_at": "2026-09-02T16:54:13Z",
   "rows": [
    {
-    "ts": 1788289026,
-    "headline": "Oklo Sinks 5% as PJM Pulls Its Meta-Backed Ohio Project, NuScale Power Barely Budges",
+    "ts": 1788361500,
+    "headline": "Is Interactive Brokers Quietly Becoming an AI Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=481a968aceed238ff759767244ad77eafcff2c65bec52c42a104e54084cd65fc"
+    "url": "https://finnhub.io/api/news?id=57ab777cf928ecba932a89e777ff25a308041d0fc08dca1205fc4d907294233c"
    },
    {
-    "ts": 1788288265,
-    "headline": "Jensen Huang Has Become World\u2019s 8th Richest Person",
+    "ts": 1788361500,
+    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8b2b67a6949d04057d8b585bd39cad07bc47caac8cd9fd999ba76ac78c620530"
+    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
    },
    {
-    "ts": 1788287443,
-    "headline": "The Market May Be Underestimating This Stock",
+    "ts": 1788361320,
+    "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f5ddbea51903fcd5a90c41abab036796098697e9f729a5e90cb949c1133f6176"
+    "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
    },
    {
-    "ts": 1788285540,
-    "headline": "Higher Treasury Yields Signal a Permanent\u2014and Dangerous\u2014Shift in the Bond Market",
+    "ts": 1788361242,
+    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f2cb1cc19cd48906d0ba5b579f98cf4809bb48b88faabdb0dcabd6036b42e728"
+    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
    },
    {
-    "ts": 1788285144,
-    "headline": "Big Tech Is Incapable of Solving Its Own Problem, Says Mukunda",
+    "ts": 1788361221,
+    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2c0726bc2ae4c4268af764180d58c4692c5200a9ab7f877b9791478245ca38e0"
+    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
    },
    {
-    "ts": 1788282000,
-    "headline": "Luminize Named No. 731 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America's Fastest-Growing Private Companies",
+    "ts": 1788361201,
+    "headline": "Regional Bank Director Sells $230,000 Worth of Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=196ec466fb493a0101884cf16a53abb6f2ba59963e0b195df4991cf4a9a4ac1e"
+    "url": "https://finnhub.io/api/news?id=ac59fbb173468951beb4d889520b0100d2590d9aca2ecbce257cb2ec023c1c0b"
    },
    {
-    "ts": 1788281797,
-    "headline": "Meta Platforms' Teen Harm Settlement Clears Overhang, Engagement Concerns Remain, Wedbush Says",
+    "ts": 1788361200,
+    "headline": "Orlando Magic and Gray Media Announce Full Season Broadcast Partnership",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2b9cc0d5a27431a3ebda8b8656c17c277ed974bc964221d2f94bc321fd6039ff"
+    "url": "https://finnhub.io/api/news?id=d50268faefc43fa5c05e991ff41bfef8065dc652bc05d685c2c4c5fe775fb1a9"
    },
    {
-    "ts": 1788280907,
-    "headline": "Big Tech Spent Over $1 Trillion on AI. The Bill Does Not Arrive Until It Depreciates.",
+    "ts": 1788361200,
+    "headline": "Form 8.3",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=69dff211904b657412af99e648ed9acdeff0eb70d99ced45dbd20fa6d0ebc714"
+    "url": "https://finnhub.io/api/news?id=6de7447c4d296e4ee89f26b994ae3064827eaba2ccdb9319eabd78d0cf1f223c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:08:08Z",
+  "fetched_at": "2026-09-02T16:54:14Z",
   "buys": 105,
-  "sells": 198,
-  "net_shares": 3217359.0,
+  "sells": 193,
+  "net_shares": 3218914.0,
   "months": 6,
   "recent": [
    {

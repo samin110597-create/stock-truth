@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-01T22:07:57Z",
+ "generated_at": "2026-09-02T16:53:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:57Z",
-  "current": 217.44,
-  "change": -3.34,
-  "change_pct": -1.5128,
-  "high": 220.41,
-  "low": 215.1,
-  "open": 216.75,
-  "prev_close": 220.78,
-  "ts": 1788292800
+  "fetched_at": "2026-09-02T16:53:55Z",
+  "current": 225.63,
+  "change": 8.19,
+  "change_pct": 3.7666,
+  "high": 227.95,
+  "low": 218.1025,
+  "open": 218.1025,
+  "prev_close": 217.44,
+  "ts": 1788368022
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:57Z",
+  "fetched_at": "2026-09-02T16:53:56Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5203189971231.262,
+  "mcap": 5240303971026.056,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-01T22:07:58Z",
+  "fetched_at": "2026-09-02T16:53:56Z",
   "bars": [
-   {
-    "date": "2023-01-31",
-    "open": 19.17,
-    "high": 19.687,
-    "low": 18.95,
-    "close": 19.537,
-    "volume": 498017000.0
-   },
    {
     "date": "2023-02-01",
     "open": 19.691,
@@ -7225,12 +7217,20 @@
     "open": 216.61,
     "high": 220.41,
     "low": 215.10001,
-    "close": 217.53999,
-    "volume": 189185472.0
+    "close": 217.44,
+    "volume": 106942626.0
+   },
+   {
+    "date": "2026-09-02",
+    "open": 218.785,
+    "high": 227.95,
+    "low": 218.48,
+    "close": 225.63,
+    "volume": 3400476.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-01",
+  "latest": "2026-09-02",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,8 +7412,17 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:58Z",
+  "fetched_at": "2026-09-02T16:53:57Z",
   "trends": [
+   {
+    "symbol": "NVDA",
+    "period": "2026-09-01",
+    "strongBuy": 24,
+    "buy": 41,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
+   },
    {
     "symbol": "NVDA",
     "period": "2026-08-01",
@@ -7440,28 +7449,19 @@
     "hold": 4,
     "sell": 1,
     "strongSell": 0
-   },
-   {
-    "symbol": "NVDA",
-    "period": "2026-05-01",
-    "strongBuy": 24,
-    "buy": 42,
-    "hold": 4,
-    "sell": 1,
-    "strongSell": 0
    }
   ]
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-01T22:07:58Z",
-  "analyst_target_mean": 323.41898,
+  "fetched_at": "2026-09-02T16:53:57Z",
+  "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
-  "analyst_count": 58.0,
+  "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.206213,
-  "forward_eps": 15.30598,
+  "forward_pe": 14.658293,
+  "forward_eps": 15.40425,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
@@ -7472,65 +7472,65 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:58Z",
+  "fetched_at": "2026-09-02T16:53:57Z",
   "rows": [
    {
-    "ts": 1788292200,
-    "headline": "Got $10,000 to Invest This September? These Energy Stocks Could Turn It Into Over $600 in Annual Income.",
+    "ts": 1788361500,
+    "headline": "Is Interactive Brokers Quietly Becoming an AI Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cfa0383ae6a160ca0de4b37cadadd4fef26c3b8a1d34510d1b920a04d0ef1f77"
+    "url": "https://finnhub.io/api/news?id=57ab777cf928ecba932a89e777ff25a308041d0fc08dca1205fc4d907294233c"
    },
    {
-    "ts": 1788291960,
-    "headline": "I'm Planning to Downsize in Retirement. You May Want to Do the Same.",
+    "ts": 1788361500,
+    "headline": "Warren Buffett's Successor, Greg Abel, Has Over 50% of Berkshire Hathaway's Portfolio Invested in These 3 Top Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=25d4f780211b3daac3af9f75f9d74b0dcf7c58dce90f8c451e566d55699cbd3f"
+    "url": "https://finnhub.io/api/news?id=1da85c9289142bc4c37c8ed3bb01d8b54c02c9159a0cd740a9c000781298042d"
    },
    {
-    "ts": 1788291807,
-    "headline": "Why Interactive Brokers Stock Tumbled on Tuesday",
+    "ts": 1788361397,
+    "headline": "AI Infrastructure Spending Is Set to Hit $1.4 Trillion by 2030. These Are the 3 Chip Stocks Positioned to Capture It.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c765e49bffb2342cec5cadf9da061444104ccee0b5773b39f618b505d980dc1b"
+    "url": "https://finnhub.io/api/news?id=9b3d215c7373a8fad3418a898b7c0749fb685b153f5b917d81899f327b5659d9"
    },
    {
-    "ts": 1788291393,
-    "headline": "Stock Market Today: Nasdaq, Dow Slide As Oil Prices Spike; Shell, Exxon Get A Boost (Live Coverage)",
+    "ts": 1788361320,
+    "headline": "Why Is Nvidia Willing to Pay $14 Billion for Hugging Face?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=51166aebf25efdd52d11d94574d5a9c466aac3e2269a0cce2fd962bbe3657f63"
+    "url": "https://finnhub.io/api/news?id=a049f77a3af76cc7c1d146da8b5814914db2b405b504802040b953934008d0c9"
    },
    {
-    "ts": 1788291300,
-    "headline": "Nvidia Sells the Brains of the AI Boom. Something Else Is Selling the Muscle -- and It's Not on Wall Street's Radar.",
+    "ts": 1788361272,
+    "headline": "The Future of Website Building with Wix.com (WIX)",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=99be8f57191c0c8d6a52fcc0e4ac2336cfc50e21c4243622efd96ad584760f40"
+    "url": "https://finnhub.io/api/news?id=05d7859c17afcd56e420df2af3a72590d8a1619bda9d7cdd3df7402ac463504b"
    },
    {
-    "ts": 1788291121,
-    "headline": "Google Just Locked Up the Largest Geothermal Power Deal Ever Made.",
+    "ts": 1788361260,
+    "headline": "Analog Devices to Participate in the J.P. Morgan U.S. All Stars Conference",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f8cd46e7771f07f0f35066969657698395f22b0ce503c3206d52bdbed2f75d41"
+    "url": "https://finnhub.io/api/news?id=8a3337a92afca1ab0f0bef107c4426380cfbe4ba92d2ea9ba36223e19880575e"
    },
    {
-    "ts": 1788290698,
-    "headline": "Texas Finds A Lot of Data Centers are Faking Power Demand",
+    "ts": 1788361242,
+    "headline": "Jim Cramer Cheered Marvell\u2019s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=14220cd7c9369a9512b766b05a449fa75473663d81504abcee4f115634b1b04e"
+    "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9"
    },
    {
-    "ts": 1788290400,
-    "headline": "If Billionaire Warren Buffett Were Just Getting Started Today, Here's What He'd Buy With $10,000",
+    "ts": 1788361221,
+    "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b18b8ca3da4d67edf4148c4955f415b389e419e974c28267dd1d272894fd7312"
+    "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-01T22:07:58Z",
-  "buys": 17,
+  "fetched_at": "2026-09-02T16:53:58Z",
+  "buys": 7,
   "sells": 62,
-  "net_shares": -3344164.0,
+  "net_shares": -4687529.0,
   "months": 6,
   "recent": [
    {
