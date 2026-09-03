@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-03T16:43:36Z",
+ "generated_at": "2026-09-03T19:29:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:36Z",
-  "current": 227.75,
-  "change": 3.34,
-  "change_pct": 1.4883,
-  "high": 229.07,
+  "fetched_at": "2026-09-03T19:29:23Z",
+  "current": 229.52,
+  "change": 5.11,
+  "change_pct": 2.2771,
+  "high": 230.4,
   "low": 224.75,
   "open": 225.86,
   "prev_close": 224.41,
-  "ts": 1788453789
+  "ts": 1788463730
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:37Z",
+  "fetched_at": "2026-09-03T19:29:23Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T16:43:38Z",
+  "fetched_at": "2026-09-03T19:29:24Z",
   "bars": [
    {
     "date": "2023-02-02",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-03",
     "open": 225.92,
-    "high": 229.07,
+    "high": 230.4,
     "low": 224.765,
-    "close": 227.66,
-    "volume": 1943096.0
+    "close": 229.62,
+    "volume": 3287670.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:16:56Z",
+  "fetched_at": "2026-09-03T19:29:25Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5284450271232.0,
+  "mcap": 5545114206208.0,
   "shares": 24147000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 7.92,
+  "eps_ttm": 7.9,
   "bvps": 6.513976891539322,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 27.631945,
-  "forward_pe": 14.206794,
-  "pb": 27.118341,
-  "ps": 17.442156,
-  "peg": 0.6279,
-  "ev_ebitda": 25.933,
+  "pe": 29.06834,
+  "forward_pe": 14.907567,
+  "pb": 24.215954,
+  "ps": 18.303307,
+  "peg": 0.5567,
+  "ev_ebitda": 26.754,
   "payout": 0.0354,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:38Z",
+  "fetched_at": "2026-09-03T19:29:25Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T16:43:38Z",
+  "fetched_at": "2026-09-03T19:29:25Z",
   "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.80728,
+  "forward_pe": 14.929837,
   "forward_eps": 15.38061,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:39Z",
+  "fetched_at": "2026-09-03T19:29:25Z",
   "rows": [
    {
-    "ts": 1788450332,
-    "headline": "Trump Warned Towns They\u2019d End Up Poor Without Data Centers but Berkshire\u2019s CEO Sees a Revolt Growing",
+    "ts": 1788458880,
+    "headline": "Nvidia, Tesla, Robinhood, Snowflake, Ultragenyx, Ciena, and More Stocks That Explain Today\u2019s Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=412e5920b22c08467a5d2dfc98e533405254a25205839f9ab8177149a4ea65e3"
+    "url": "https://finnhub.io/api/news?id=625ba4254129ec6a070cbc35128e3742f43249b6eeb95a40827a0e2e5fb7999d"
    },
    {
-    "ts": 1788450236,
-    "headline": "Nvidia Stock Rises After Jensen Huang Confirms $12.9 Billion Hugging Face Deal",
+    "ts": 1788458862,
+    "headline": "CEO Who Just Sold His Data Center Firm to SoftBank for $4 Billion Is Warning of a Late 1990s Moment",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9c9efae4a29541e7e9afff08ecd5f1bd52e101bb7df6d0284e4ce6dd39fab414"
+    "url": "https://finnhub.io/api/news?id=bffadd249f5d2d6004fb063ef9cfa24fc5a667f88723415b47b59d44e352f536"
    },
    {
-    "ts": 1788450195,
-    "headline": "Nvidia Is Spending $12.9 Billion to Move Beyond the GPU",
+    "ts": 1788458810,
+    "headline": "Genesco Inc. Q2 2027 Earnings Call Summary",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cfe1ba83c08d524b7eb6ed799ed557852a6f7a48c618f5834e80aea0d2519b76"
+    "url": "https://finnhub.io/api/news?id=1c91153dc38a90d1950e38e11f3e3adba36b4b604ab1a6aa4f797f6b90012f62"
    },
    {
-    "ts": 1788449700,
-    "headline": "The Fed's September Decision Could Hit Micron Harder Than Its Own Earnings",
+    "ts": 1788458726,
+    "headline": "Wall Street Nears Record Highs With Help From Mag 7",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d8239a05c5bbef1806c2de55b58a63fe0ad6c8988ceecff623bab1bdaaa4c857"
+    "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
    },
    {
-    "ts": 1788449440,
-    "headline": "This One Metric Is Why I\u2019m Going to Keep Buying Nvidia Hand-Over-Fist",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fe152a76c330cc95884dca3cf9ee6077ca26c809937882c0182ac1ab56ef69f4"
+    "ts": 1788458701,
+    "headline": "Which S&P500 stocks are the most active on Thursday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=6ae326a0000f4d5930f5517f4ad46dbd6c339eed87a6b84d85b5431b7ccbb416"
    },
    {
-    "ts": 1788449400,
-    "headline": "3 Stocks Whose Competitive Walls Tower Over Nvidia's",
+    "ts": 1788458700,
+    "headline": "Economist Paul Krugman Says Kevin Warsh \"Sounded Utterly Conventional\" at Jackson Hole, Despite Promising a Break From Fed Tradition. Does That Continuity Mean Rate Policy Won't Ch",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c543e1e83fb45ab125cac41bcb2ba20f8ce22a033782d4175292cc66d35d53ca"
+    "url": "https://finnhub.io/api/news?id=7224c8b5ed814d3f90dbe3519833a15cc6a38e33c69fdf9185286d540c4e20c6"
    },
    {
-    "ts": 1788449243,
-    "headline": "Nvidia's Hugging Face deal is 'less' about profit & 'more' about building out the AI ecosystem",
+    "ts": 1788458522,
+    "headline": "Duluth Holdings Inc. Q2 2026 Earnings Call Summary",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=aaebec56e8c6775f65887c034ffa24716c400cea76a40c06daba74adebaeef90"
+    "url": "https://finnhub.io/api/news?id=0fcd1bb04d4fdb007785fd369538568ac82761865999ebf887fdd2929964bed5"
    },
    {
-    "ts": 1788449144,
-    "headline": "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
+    "ts": 1788458461,
+    "headline": "Fed Governor Chris Waller Just Significantly Upped the Stakes for the Sept. 11 Inflation Report. It Could Decide Whether There is a Rate Hike at the Fed's Upcoming Meeting",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0f77f8c457970cbd9277f1212bdff329b1f5be2e66f95fabb26f896d4294cc42"
+    "url": "https://finnhub.io/api/news?id=48c634dfbef42ac465047257043027d1900e8dd83f8e9f2b34c02c1791e66698"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:40Z",
+  "fetched_at": "2026-09-03T19:29:25Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,

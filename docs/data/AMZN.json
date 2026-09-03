@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-03T16:43:09Z",
+ "generated_at": "2026-09-03T19:29:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:09Z",
-  "current": 258.87,
-  "change": 3.89,
-  "change_pct": 1.5256,
-  "high": 259.4299,
+  "fetched_at": "2026-09-03T19:29:01Z",
+  "current": 258.71,
+  "change": 3.73,
+  "change_pct": 1.4629,
+  "high": 259.5,
   "low": 256.0,
   "open": 256.455,
   "prev_close": 254.98,
-  "ts": 1788453765
+  "ts": 1788463704
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:09Z",
+  "fetched_at": "2026-09-03T19:29:01Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T16:43:11Z",
+  "fetched_at": "2026-09-03T19:29:01Z",
   "bars": [
    {
     "date": "2023-02-02",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-03",
     "open": 256.275,
-    "high": 259.42,
+    "high": 259.5,
     "low": 256.04,
-    "close": 258.8,
-    "volume": 565349.0
+    "close": 258.67,
+    "volume": 763078.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-08-31T19:16:17Z",
+  "fetched_at": "2026-09-03T19:29:02Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2792576516096.0,
+  "mcap": 2789545345024.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.44,
+  "eps_ttm": 12.42,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 20.811897,
-  "forward_pe": 24.916967,
-  "pb": 5.06099,
-  "ps": 3.6001656,
-  "peg": 1.3642,
-  "ev_ebitda": 17.775,
+  "pe": 20.822784,
+  "forward_pe": 24.866446,
+  "pb": 5.0554967,
+  "ps": 3.5962577,
+  "peg": 1.4918,
+  "ev_ebitda": 17.044,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:12Z",
+  "fetched_at": "2026-09-03T19:29:02Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T16:43:12Z",
+  "fetched_at": "2026-09-03T19:29:02Z",
   "analyst_target_mean": 328.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.862158,
+  "forward_pe": 24.866446,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:13Z",
+  "fetched_at": "2026-09-03T19:29:03Z",
   "rows": [
+   {
+    "ts": 1788458726,
+    "headline": "Wall Street Nears Record Highs With Help From Mag 7",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
+   },
+   {
+    "ts": 1788458357,
+    "headline": "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=362f44f9032a1ab95239166a39b7ae8d8d7705c79653a20fb694266e09463b1e"
+   },
+   {
+    "ts": 1788457980,
+    "headline": "Should You Bet on GLW Stock Amid Rising Earnings Estimate Revisions?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3cfb03fc6a9cb31ecb4adc6227a75ee84b8fab9f6dfd94e3e03740977c166822"
+   },
+   {
+    "ts": 1788454838,
+    "headline": "Meta Stock Has a New AI Catalyst. Is META Headed Back Toward Its All-Time High?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ed7c295d9e4503f34c540039c59b1877876842c77a31adfd21bb4ddf519de789"
+   },
+   {
+    "ts": 1788453670,
+    "headline": "How Far Can Amazon Stock Fall When The Business Is Fine?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=784ebfa6487c7bb29e44e57e5fe3651294c2056dd24186e670d2838f9c797a6a"
+   },
+   {
+    "ts": 1788453607,
+    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=143eae70bc52137eaf641d1530c12a1dc1498df8ded75872f63b9e22f8933c67"
+   },
+   {
+    "ts": 1788453540,
+    "headline": "Microsoft, Amazon and 8 More Stocks Set to Win in a $26 Trillion AI Market",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=90b1197622c6fc171b19f6f152edf8cc7194dfee24ba3a8ce3b2406cbb6753ab"
+   },
    {
     "ts": 1788450636,
     "headline": "Google Was Found to Hold an Illegal Monopoly and Kept It Anyway. Is the Antitrust Nightmare Finally Over?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=ff030692a3a0d78f152a5c6b1bf5bf4efc1a933e51fd88319daae0c633ccf90b"
-   },
-   {
-    "ts": 1788449625,
-    "headline": "This Is The Biggest Reason I Keep Accumulating Amazon Stock After Jumping 10% This Year",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2939ce31b6d6569c582b428449c959013d4f1434074b81382ded26e3a17788c2"
-   },
-   {
-    "ts": 1788449440,
-    "headline": "This One Metric Is Why I\u2019m Going to Keep Buying Nvidia Hand-Over-Fist",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fe152a76c330cc95884dca3cf9ee6077ca26c809937882c0182ac1ab56ef69f4"
-   },
-   {
-    "ts": 1788449389,
-    "headline": "U.S. Debt, AI Boom Triggers Historic Borrowing Binge, Pushing Up Rates. What To Know.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47884ebf1a02150728cbf46db2fd784fcec7210c72246d09a90a53accb77b860"
-   },
-   {
-    "ts": 1788448740,
-    "headline": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0e9d4c49e9a725e8658eb8c71140dba26a3dd59076461496929f9de5acc4496c"
-   },
-   {
-    "ts": 1788448320,
-    "headline": "Uber Partners Wayve as Autonomous Rides Make U.K. Debut: What's Ahead?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b96fbc4187d72e012ba4e783762ec24fe9155da9a3afe83f6ab7c1240ffa030a"
-   },
-   {
-    "ts": 1788448200,
-    "headline": "Can The Trade Desk's JBPs Become Its Next Major Growth Engine?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=406e0c66a07e6a5a194f7e598d4c65506468f7404f82a36832cc2bde3f418d2e"
-   },
-   {
-    "ts": 1788447600,
-    "headline": "CharterUP Appoints Joshua Trott as Chief Revenue Officer and Kristin Lavigne as General Manager of Marketplace",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7d1540b11838f3a47ab45842410fe16fa8ca08bc0a77b16eddb144d8c1413e39"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T16:43:14Z",
+  "fetched_at": "2026-09-03T19:29:03Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
