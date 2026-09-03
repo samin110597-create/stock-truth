@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-02T22:03:05Z",
+ "generated_at": "2026-09-03T16:43:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:05Z",
-  "current": 333.78,
-  "change": 1.75,
-  "change_pct": 0.5271,
-  "high": 336.51,
-  "low": 329.5201,
-  "open": 330.77,
-  "prev_close": 332.03,
-  "ts": 1788379200
+  "fetched_at": "2026-09-03T16:43:23Z",
+  "current": 338.38,
+  "change": 4.6,
+  "change_pct": 1.3782,
+  "high": 340.85,
+  "low": 335.96,
+  "open": 335.96,
+  "prev_close": 333.78,
+  "ts": 1788453786
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:05Z",
+  "fetched_at": "2026-09-03T16:43:23Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4097294599999.9995,
+  "mcap": 4207058849999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T22:03:13Z",
+  "fetched_at": "2026-09-03T16:43:25Z",
   "bars": [
-   {
-    "date": "2023-02-01",
-    "open": 99.74,
-    "high": 102.19,
-    "low": 98.42,
-    "close": 101.43,
-    "volume": 26392600.0
-   },
    {
     "date": "2023-02-02",
     "open": 106.79,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-02",
-    "open": 330.64499,
+    "open": 330.76999,
     "high": 336.51001,
-    "low": 329.52011,
+    "low": 329.51999,
     "close": 333.78,
-    "volume": 12897448.0
+    "volume": 12957800.0
+   },
+   {
+    "date": "2026-09-03",
+    "open": 336.76,
+    "high": 340.85,
+    "low": 336.49,
+    "close": 338.37,
+    "volume": 371448.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-02",
+  "latest": "2026-09-03",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:13Z",
+  "fetched_at": "2026-09-03T16:43:25Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T22:03:13Z",
+  "fetched_at": "2026-09-03T16:43:26Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.510616,
+  "forward_pe": 22.812756,
   "forward_eps": 14.82767,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
-  "institutions_pct": 0.62262,
+  "institutions_pct": 0.622,
   "insiders_pct": 0.00522,
   "beta": 1.237,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:13Z",
+  "fetched_at": "2026-09-03T16:43:26Z",
   "rows": [
    {
-    "ts": 1788385749,
-    "headline": "Broadcom's Q3 earnings beat just isn't 'enough' to keep investors happy",
+    "ts": 1788450636,
+    "headline": "Google Was Found to Hold an Illegal Monopoly and Kept It Anyway. Is the Antitrust Nightmare Finally Over?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2b841c03994bdbeaf8a4f9d29cd333752a1fd60a9a87c9844aa5170f19069119"
+    "url": "https://finnhub.io/api/news?id=ff030692a3a0d78f152a5c6b1bf5bf4efc1a933e51fd88319daae0c633ccf90b"
    },
    {
-    "ts": 1788385577,
-    "headline": "Broadcom Q3 FY2026 earnings: Record revenue on AI chip demand",
+    "ts": 1788449841,
+    "headline": "Sundar Pichai Promised a Gemini Flagship in June, and Alphabet Is on Its Worst Streak Since 2015",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=843481624f0f311bd97eb4eb6b949072f718ead3bb8acf7033e149572dc51165"
+    "url": "https://finnhub.io/api/news?id=1b5a4b69922b3dcacd50468e511e49169ff1182b46f1f6deb8e8277e61d32b1c"
    },
    {
-    "ts": 1788385463,
-    "headline": "3 Mega-Cap Stocks to Consider Right Now",
+    "ts": 1788449625,
+    "headline": "This Is The Biggest Reason I Keep Accumulating Amazon Stock After Jumping 10% This Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a57442769e5267b768e447f2905138064ff4cfa80a1e7192c7c5381d5e3e7f9"
+    "url": "https://finnhub.io/api/news?id=2939ce31b6d6569c582b428449c959013d4f1434074b81382ded26e3a17788c2"
    },
    {
-    "ts": 1788384638,
-    "headline": "Palantir Stock Gets New Problem From Google",
+    "ts": 1788449389,
+    "headline": "U.S. Debt, AI Boom Triggers Historic Borrowing Binge, Pushing Up Rates. What To Know.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eb2c53573dfe54aa7f4d286b8839c3e507fac5fdb4b55964be36d8751f0873c5"
+    "url": "https://finnhub.io/api/news?id=47884ebf1a02150728cbf46db2fd784fcec7210c72246d09a90a53accb77b860"
    },
    {
-    "ts": 1788382839,
-    "headline": "How To Bank 8.8% A Year On IBM Stock Before Buying A Single Share",
+    "ts": 1788448620,
+    "headline": "Could Alphabet Be Turning a Corner? ETFs Worth Considering",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0f8f739418a7a45a2dad10f328dd71edaa2a65cdf5a7361564215194d7e65387"
+    "url": "https://finnhub.io/api/news?id=8068c9eb0e714d5b21c1b17efb96eb3d971b12b18f8514e2a55fcd380e108218"
    },
    {
-    "ts": 1788381970,
-    "headline": "US judge rejects bid to break up Google's ad business",
+    "ts": 1788446851,
+    "headline": "Why Palantir Stock Bounced Back Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=65799ac00b58f546317d37a0d1d23e33cdcf8d758481155cb8e75b739d24a77a"
+    "url": "https://finnhub.io/api/news?id=14ad47c360f66d86ba50ff45a945edff02c9622f6ec4f362b94bf59e0e64e7e3"
    },
    {
-    "ts": 1788381314,
-    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+    "ts": 1788445380,
+    "headline": "The Death of the Safe Haven: How to Fix Your Bond Strategy as Yields Rise",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a86fc5ffa35f957b0554670cf2f75a8d9418021371166b13ad21bb2e8ffdd560"
+    "url": "https://finnhub.io/api/news?id=332f3df8173be8e5d02cb08bc2c46deef2987dfa29372f0defc616019794e8b0"
    },
    {
-    "ts": 1788380786,
-    "headline": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
+    "ts": 1788444489,
+    "headline": "Tesla Cybercab: Here's What To Expect From Thursday's Event",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06f38cc0c2bacadc255373916dad613fbc155c0a71a3767988a70a290aa8cc9a"
+    "url": "https://finnhub.io/api/news?id=e9db63c77ae1c6aab02fcd6e5861f0c00b6c3c9ff537a6be90e6362b498a60cd"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:14Z",
+  "fetched_at": "2026-09-03T16:43:27Z",
   "error": "no insider filings in six months"
  },
  "peers": {

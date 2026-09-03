@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-02T22:03:34Z",
+ "generated_at": "2026-09-03T16:43:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:35Z",
-  "current": 592.85,
-  "change": 14.31,
-  "change_pct": 2.4735,
-  "high": 600.38,
-  "low": 577.0,
-  "open": 578.785,
-  "prev_close": 578.54,
-  "ts": 1788379200
+  "fetched_at": "2026-09-03T16:43:49Z",
+  "current": 613.73,
+  "change": 20.88,
+  "change_pct": 3.522,
+  "high": 619.46,
+  "low": 601.74,
+  "open": 601.74,
+  "prev_close": 592.85,
+  "ts": 1788453811
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:35Z",
+  "fetched_at": "2026-09-03T16:43:50Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1473834267901.7195,
+  "mcap": 1570970542940.2002,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-02T22:03:39Z",
+  "fetched_at": "2026-09-03T16:43:51Z",
   "bars": [
-   {
-    "date": "2023-02-01",
-    "open": 148.029999,
-    "high": 153.58,
-    "low": 147.059998,
-    "close": 153.12,
-    "volume": 55661000.0
-   },
    {
     "date": "2023-02-02",
     "open": 183.38,
@@ -7214,23 +7206,31 @@
    },
    {
     "date": "2026-09-01",
-    "open": 557.79999,
-    "high": 584.90002,
-    "low": 556.28998,
+    "open": 558.34998,
+    "high": 584.95001,
+    "low": 556.099976,
     "close": 578.53998,
-    "volume": 15369187.0
+    "volume": 15796900.0
    },
    {
     "date": "2026-09-02",
-    "open": 579.54999,
+    "open": 578.78998,
     "high": 600.38,
     "low": 577.0,
-    "close": 592.90002,
-    "volume": 13218589.0
+    "close": 592.84998,
+    "volume": 16487300.0
+   },
+   {
+    "date": "2026-09-03",
+    "open": 604.78,
+    "high": 619.43,
+    "low": 604.43,
+    "close": 613.66,
+    "volume": 495538.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-02",
+  "latest": "2026-09-03",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:40Z",
+  "fetched_at": "2026-09-03T16:43:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-02T22:03:40Z",
+  "fetched_at": "2026-09-03T16:43:52Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 16.958117,
+  "forward_pe": 17.560825,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
-  "institutions_pct": 0.79052,
+  "institutions_pct": 0.79039,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:40Z",
+  "fetched_at": "2026-09-03T16:43:52Z",
   "rows": [
    {
-    "ts": 1788383700,
-    "headline": "Edwards Lifesciences to Present at the Deutsche Bank Healthcare Summit",
+    "ts": 1788450636,
+    "headline": "Google Was Found to Hold an Illegal Monopoly and Kept It Anyway. Is the Antitrust Nightmare Finally Over?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=aff4cd1f434fbbb0d65c87f29c8c7560f83d23928031121fd5c2ed58c880051b"
+    "url": "https://finnhub.io/api/news?id=ff030692a3a0d78f152a5c6b1bf5bf4efc1a933e51fd88319daae0c633ccf90b"
    },
    {
-    "ts": 1788381970,
-    "headline": "US judge rejects bid to break up Google's ad business",
+    "ts": 1788449421,
+    "headline": "Why Is Pinterest (PINS) Down 9.2% Since Last Earnings Report?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=65799ac00b58f546317d37a0d1d23e33cdcf8d758481155cb8e75b739d24a77a"
+    "url": "https://finnhub.io/api/news?id=52270bdae83ef5200658313f6d96141a39b926dfb7cd1b53b47ca32abc1cba48"
    },
    {
-    "ts": 1788380786,
-    "headline": "The $277 Billion That GOOGL Stock Quietly Paid Its Owners",
+    "ts": 1788449389,
+    "headline": "U.S. Debt, AI Boom Triggers Historic Borrowing Binge, Pushing Up Rates. What To Know.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06f38cc0c2bacadc255373916dad613fbc155c0a71a3767988a70a290aa8cc9a"
+    "url": "https://finnhub.io/api/news?id=47884ebf1a02150728cbf46db2fd784fcec7210c72246d09a90a53accb77b860"
    },
    {
-    "ts": 1788374498,
-    "headline": "U.S. Debt, AI Borrowing Binge Spurs Bessent's Bond Market Gambit; Risks Rise For Stocks, Dollar",
+    "ts": 1788445380,
+    "headline": "The Death of the Safe Haven: How to Fix Your Bond Strategy as Yields Rise",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8a8bbb8b840dc9873ac6207eef6f68951f479dfccc59bc58a925f16485e4385c"
+    "url": "https://finnhub.io/api/news?id=332f3df8173be8e5d02cb08bc2c46deef2987dfa29372f0defc616019794e8b0"
    },
    {
-    "ts": 1788373740,
-    "headline": "Should You Hold on to RDDT Stock Despite Its 15% Dip in Three Months?",
+    "ts": 1788444288,
+    "headline": "Stocks edge up as Nvidia leads tech higher following Hugging Face deal announcement: AlphaCheck",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=52887a5c71bf0be6d67cbae3b9687694c9653eaba89bf82db0fc3638d4762d95"
+    "url": "https://finnhub.io/api/news?id=5c2a5962a5ec83f3590926851b3e8db46f14ddf639150cf913d742413863fd91"
    },
    {
-    "ts": 1788371063,
-    "headline": "Google Just Escaped a Breakup of Its Ad Tech Empire",
+    "ts": 1788444060,
+    "headline": "Assessment of the U.S. Nuclear Power and Small Modular Reactor Market 2026 Now Available \u2014 Reveals Why Big Tech Is Becoming an Active Force in Nuclear Project Formation, Not Just a",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bf5ef9fe866c843f407720a2a3587d0bbf4c3699eef827695acfe21d0a2aa4f6"
+    "url": "https://finnhub.io/api/news?id=3566f6f862dfedfb0e67aca7bf85099c0e835cc4ffaa39101bfbaf76b553bf1f"
    },
    {
-    "ts": 1788370602,
-    "headline": "Alphabet Rises After Judge Rejects Forced Sale of 20%-Fee AdX",
+    "ts": 1788444049,
+    "headline": "Microsoft and Meta Signed Multi-Decade Nuclear Power Deals. These 3 Stocks Supply That Power",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b90cdf4c28736bae144026ffcb53ae166b0d5dedd5a381042759a415937cacb0"
+    "url": "https://finnhub.io/api/news?id=e0bdf4e075bff2eb19523d11ee6ef673d49c496b45db459aaf5d86b32ddf8af3"
    },
    {
-    "ts": 1788370500,
-    "headline": "Rocket Lab Stock Has Collapsed 57% From Highs. Here's Why I'm Not Buying (Yet).",
+    "ts": 1788442920,
+    "headline": "Hyperscalers Are the Backbone of AI. Here's Why I Own Amazon, Alphabet, and Meta Platforms.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d09aab9a784191d04162b08c3d2e2baa24e7d3300901be4112f51f3c5c703f37"
+    "url": "https://finnhub.io/api/news?id=d934d22d826c74bcf7ec8db3e07907e68208cab163b8c561d7c23b7763bc4af4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-02T22:03:40Z",
+  "fetched_at": "2026-09-03T16:43:53Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,
