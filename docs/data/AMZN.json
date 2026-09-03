@@ -1,21 +1,14 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-03T19:29:00Z",
+ "generated_at": "2026-09-03T21:48:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:01Z",
-  "current": 258.71,
-  "change": 3.73,
-  "change_pct": 1.4629,
-  "high": 259.5,
-  "low": 256.0,
-  "open": 256.455,
-  "prev_close": 254.98,
-  "ts": 1788463704
+  "fetched_at": "2026-09-03T21:48:04Z",
+  "error": "503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/quote?symbol=AMZN&token=d76ri89r01qtg3nen1o0d76ri89r01qtg3nen1og"
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:01Z",
+  "fetched_at": "2026-09-03T21:48:04Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +19,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T19:29:01Z",
+  "fetched_at": "2026-09-03T21:48:05Z",
   "bars": [
    {
     "date": "2023-02-02",
@@ -7222,11 +7215,11 @@
    },
    {
     "date": "2026-09-03",
-    "open": 256.275,
+    "open": 256.32001,
     "high": 259.5,
-    "low": 256.04,
-    "close": 258.67,
-    "volume": 763078.0
+    "low": 256.0,
+    "close": 258.89999,
+    "volume": 21032762.0
    }
   ],
   "n": 900,
@@ -7403,55 +7396,18 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:02Z",
-  "trends": [
-   {
-    "symbol": "AMZN",
-    "period": "2026-09-01",
-    "strongBuy": 20,
-    "buy": 49,
-    "hold": 5,
-    "sell": 0,
-    "strongSell": 0
-   },
-   {
-    "symbol": "AMZN",
-    "period": "2026-08-01",
-    "strongBuy": 21,
-    "buy": 49,
-    "hold": 5,
-    "sell": 0,
-    "strongSell": 0
-   },
-   {
-    "symbol": "AMZN",
-    "period": "2026-07-01",
-    "strongBuy": 21,
-    "buy": 49,
-    "hold": 5,
-    "sell": 0,
-    "strongSell": 0
-   },
-   {
-    "symbol": "AMZN",
-    "period": "2026-06-01",
-    "strongBuy": 22,
-    "buy": 49,
-    "hold": 5,
-    "sell": 0,
-    "strongSell": 0
-   }
-  ]
+  "fetched_at": "2026-09-03T21:48:05Z",
+  "error": "503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/stock/recommendation?symbol=AMZN&token=d76ri89r01qtg3nen1o0d76ri89r01qtg3nen1og"
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T19:29:02Z",
+  "fetched_at": "2026-09-03T21:48:06Z",
   "analyst_target_mean": 328.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.866446,
+  "forward_pe": 24.893465,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,8 +7419,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:03Z",
+  "fetched_at": "2026-09-03T21:48:06Z",
   "rows": [
+   {
+    "ts": 1788469980,
+    "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3413ec929cf8b8d3bbeafd6ee9b96378ac8cfe451773cf8204bf8f5c4b564066"
+   },
+   {
+    "ts": 1788468720,
+    "headline": "Top Analyst Reports for Amazon, AbbVie & Alibaba",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b0804b234e511e69808b38f92c6ee8ffc81d307ea5abe364d75d67f8e8966f56"
+   },
+   {
+    "ts": 1788462605,
+    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=2408906dfdb0441202ed8cf0c09a63939053aadd284e7bbc95107dba373c1fe7"
+   },
    {
     "ts": 1788458726,
     "headline": "Wall Street Nears Record Highs With Help From Mag 7",
@@ -7494,31 +7468,13 @@
     "headline": "How Far Can Amazon Stock Fall When The Business Is Fine?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=784ebfa6487c7bb29e44e57e5fe3651294c2056dd24186e670d2838f9c797a6a"
-   },
-   {
-    "ts": 1788453607,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=143eae70bc52137eaf641d1530c12a1dc1498df8ded75872f63b9e22f8933c67"
-   },
-   {
-    "ts": 1788453540,
-    "headline": "Microsoft, Amazon and 8 More Stocks Set to Win in a $26 Trillion AI Market",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=90b1197622c6fc171b19f6f152edf8cc7194dfee24ba3a8ce3b2406cbb6753ab"
-   },
-   {
-    "ts": 1788450636,
-    "headline": "Google Was Found to Hold an Illegal Monopoly and Kept It Anyway. Is the Antitrust Nightmare Finally Over?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ff030692a3a0d78f152a5c6b1bf5bf4efc1a933e51fd88319daae0c633ccf90b"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:03Z",
+  "fetched_at": "2026-09-03T21:48:06Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

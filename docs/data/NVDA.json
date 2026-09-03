@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-03T19:29:23Z",
+ "generated_at": "2026-09-03T21:48:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:23Z",
-  "current": 229.52,
-  "change": 5.11,
-  "change_pct": 2.2771,
+  "fetched_at": "2026-09-03T21:48:30Z",
+  "current": 228.45,
+  "change": 4.04,
+  "change_pct": 1.8003,
   "high": 230.4,
   "low": 224.75,
-  "open": 225.86,
+  "open": 226.02,
   "prev_close": 224.41,
-  "ts": 1788463730
+  "ts": 1788465600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:23Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T19:29:24Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "bars": [
    {
     "date": "2023-02-02",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-03",
-    "open": 225.92,
+    "open": 226.020004,
     "high": 230.4,
-    "low": 224.765,
-    "close": 229.62,
-    "volume": 3287670.0
+    "low": 224.75,
+    "close": 228.39999,
+    "volume": 114900504.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:25Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T19:29:25Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.929837,
+  "forward_pe": 14.853116,
   "forward_eps": 15.38061,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:25Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "rows": [
    {
-    "ts": 1788458880,
-    "headline": "Nvidia, Tesla, Robinhood, Snowflake, Ultragenyx, Ciena, and More Stocks That Explain Today\u2019s Market",
+    "ts": 1788470728,
+    "headline": "HIVE stock pops 14% as crypto market heats up",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=625ba4254129ec6a070cbc35128e3742f43249b6eeb95a40827a0e2e5fb7999d"
+    "url": "https://finnhub.io/api/news?id=680109e22fc10757af3aed5a67c98f9d4aa819c04b27b044844ae2527093b134"
    },
    {
-    "ts": 1788458862,
-    "headline": "CEO Who Just Sold His Data Center Firm to SoftBank for $4 Billion Is Warning of a Late 1990s Moment",
+    "ts": 1788470400,
+    "headline": "Prediction: Costco Could Be Worth More Than Home Depot and Lowe's Combined by 2030. Here's the Math.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bffadd249f5d2d6004fb063ef9cfa24fc5a667f88723415b47b59d44e352f536"
+    "url": "https://finnhub.io/api/news?id=d070e3b54e58b165fedf7ecb029759d2af085bbef398f9d530ebecf6e68a9623"
    },
    {
-    "ts": 1788458810,
-    "headline": "Genesco Inc. Q2 2027 Earnings Call Summary",
+    "ts": 1788470100,
+    "headline": "IQVIA's Predictive Clinical Development Provides Sponsors With Significant Efficiencies to Get Treatments to Market Faster",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1c91153dc38a90d1950e38e11f3e3adba36b4b604ab1a6aa4f797f6b90012f62"
+    "url": "https://finnhub.io/api/news?id=a327a913d3a205b6fb2945a54b45ec71855d612e244b92884d2f649f0039eb6d"
    },
    {
-    "ts": 1788458726,
-    "headline": "Wall Street Nears Record Highs With Help From Mag 7",
+    "ts": 1788469980,
+    "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
+    "url": "https://finnhub.io/api/news?id=3413ec929cf8b8d3bbeafd6ee9b96378ac8cfe451773cf8204bf8f5c4b564066"
    },
    {
-    "ts": 1788458701,
-    "headline": "Which S&P500 stocks are the most active on Thursday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=6ae326a0000f4d5930f5517f4ad46dbd6c339eed87a6b84d85b5431b7ccbb416"
+    "ts": 1788469852,
+    "headline": "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7dd8d8c83a7f90cc1509514c66ea36150e903f0b7a9e43959f31ae82ce104896"
    },
    {
-    "ts": 1788458700,
-    "headline": "Economist Paul Krugman Says Kevin Warsh \"Sounded Utterly Conventional\" at Jackson Hole, Despite Promising a Break From Fed Tradition. Does That Continuity Mean Rate Policy Won't Ch",
+    "ts": 1788469745,
+    "headline": "Cathie Wood Sold About $72.8 Million of AMD and Bought About $53 Million of Nvidia. What Changed?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7224c8b5ed814d3f90dbe3519833a15cc6a38e33c69fdf9185286d540c4e20c6"
+    "url": "https://finnhub.io/api/news?id=f6dc84d795cc9d3d49165b3b4119a584c5faa3b18b1d3fa3e69ccc261f25fe22"
    },
    {
-    "ts": 1788458522,
-    "headline": "Duluth Holdings Inc. Q2 2026 Earnings Call Summary",
+    "ts": 1788469320,
+    "headline": "Is Your 401(k) Balance Higher or Lower Than the Average 40-Year-Old's? Here's How to Find Out.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0fcd1bb04d4fdb007785fd369538568ac82761865999ebf887fdd2929964bed5"
+    "url": "https://finnhub.io/api/news?id=d731ebab93f2b6daa0663cd0a5a2e394ac9f42901f1af8436ef22434fe696302"
    },
    {
-    "ts": 1788458461,
-    "headline": "Fed Governor Chris Waller Just Significantly Upped the Stakes for the Sept. 11 Inflation Report. It Could Decide Whether There is a Rate Hike at the Fed's Upcoming Meeting",
+    "ts": 1788469020,
+    "headline": "Down 55% From Its High, Is Oracle a Buy?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=48c634dfbef42ac465047257043027d1900e8dd83f8e9f2b34c02c1791e66698"
+    "url": "https://finnhub.io/api/news?id=9670d3afcb5006564077dd2e8090f83ed6a9ce7b6b8926c9763473a0ff0fd2b4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T19:29:25Z",
+  "fetched_at": "2026-09-03T21:48:34Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,
