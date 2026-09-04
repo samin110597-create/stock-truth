@@ -1,32 +1,32 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-04T16:38:00Z",
+ "generated_at": "2026-09-04T19:11:24Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T16:38:00Z",
-  "current": 335.32,
-  "change": -3.76,
-  "change_pct": -1.1089,
+  "fetched_at": "2026-09-04T19:11:24Z",
+  "current": 335.99,
+  "change": -3.09,
+  "change_pct": -0.9113,
   "high": 340.18,
   "low": 333.75,
   "open": 339.54,
   "prev_close": 339.08,
-  "ts": 1788539861
+  "ts": 1788549069
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T16:38:01Z",
+  "fetched_at": "2026-09-04T19:11:25Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4188530400000.0005,
+  "mcap": 4130193300000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-04T16:38:01Z",
+  "fetched_at": "2026-09-04T19:11:30Z",
   "bars": [
    {
     "date": "2023-02-03",
@@ -7225,8 +7225,8 @@
     "open": 339.205,
     "high": 340.1,
     "low": 333.79,
-    "close": 335.285,
-    "volume": 289286.0
+    "close": 335.795,
+    "volume": 450132.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T16:38:02Z",
+  "fetched_at": "2026-09-04T19:11:30Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-04T16:38:02Z",
+  "fetched_at": "2026-09-04T19:11:31Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.572021,
+  "forward_pe": 22.622513,
   "forward_eps": 14.85423,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
-  "institutions_pct": 0.622,
+  "institutions_pct": 0.62201,
   "insiders_pct": 0.00522,
-  "beta": 1.237,
+  "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T16:38:02Z",
+  "fetched_at": "2026-09-04T19:11:31Z",
   "rows": [
    {
-    "ts": 1788537013,
-    "headline": "Wall Street Is Misreading Alphabet\u2019s Supposed Achilles Heel",
+    "ts": 1788544320,
+    "headline": "NuScale Just Turned AI on Itself. Here's What That Means for the Stock.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ac887af7eb7a3fd8e798a3753a83e814fe4bb6c28da503d727af97aed919033d"
+    "url": "https://finnhub.io/api/news?id=799bbffb04b884a240a42fc375fa1bf25527070ed707b0c3d6028c6cee2506f8"
    },
    {
-    "ts": 1788535380,
-    "headline": "TTD Stock Plunges 60% Year to Date: Time to Cut Losses and Exit?",
+    "ts": 1788543935,
+    "headline": "Commvault\u2019s (CVLT) AI Recovery Bet Meets A Margin Reality Check",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4a61aada6cbb82816437c618c63fdb21bc138fbec39536c54cc4e8656d277aa4"
+    "url": "https://finnhub.io/api/news?id=d10f96c69ee941713b77f4ff428b35f11136def0273ea3599750456db5966a39"
    },
    {
-    "ts": 1788534300,
-    "headline": "Snowflake Gains 17% Post Q2 Earnings: Buy, Sell or Hold the Stock?",
+    "ts": 1788543780,
+    "headline": "3 Top Quantum Computing Stocks to Buy in September",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c2fa88c4cc8082a896e1b39d38eede17c3569cfaddfad14e8a98db250cea725c"
+    "url": "https://finnhub.io/api/news?id=104844f80eb271625d2e54c8c47b5f7d5148609ad828342819f48866c9bf9f72"
    },
    {
-    "ts": 1788533400,
-    "headline": "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
+    "ts": 1788543450,
+    "headline": "Should You Worry That IBM Has Gone Quiet On Its AI Total?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4d5b48e9edd09da429b69cd8c5dedde2830c28443017ce3059aa937262761796"
+    "url": "https://finnhub.io/api/news?id=850b2a681a98ba877b7c40fd138b1df0ce52202ebfe638f6767df7e9044d938a"
    },
    {
-    "ts": 1788533220,
-    "headline": "Disney Stock Is Trading at a Discount: Should You Buy, Sell or Hold?",
+    "ts": 1788542655,
+    "headline": "What Pays Adobe Stock Owners While The Freemium Bet Waits",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=937ed8789a04083a96c2ab7e40b754f4fa5936705792396182f04ac34652c694"
+    "url": "https://finnhub.io/api/news?id=cc75bd1d9d0440de3a70e25016ca9eb5c9533fff17e3b57e71af380079119ba6"
    },
    {
-    "ts": 1788532620,
-    "headline": "Berkshire CEO explains Buffett\u2019s surprise AI stock bet",
+    "ts": 1788542095,
+    "headline": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a6a5c566f5f7548a73878775fe0ebedeceef8ac73b0dededea5728daa0f6463b"
+    "url": "https://finnhub.io/api/news?id=77b597620a3b8c1cf09178ef29572168c6c1942237f1e85b4ff309d4f88968e1"
    },
    {
-    "ts": 1788532500,
-    "headline": "Meet the Low-Cost Vanguard ETF With 26.2% Invested in Nvidia and Alphabet, While VOO Has Just 13.4%.",
+    "ts": 1788540098,
+    "headline": "Nvidia Is Backstopping AI Boom as 'Buyer of Last Resort,' Prominent Economist Tells 'Prof G'",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=209123edeced7dc7bf75580e45cc2bfe4295a7ad10255e2243540a2388d11460"
+    "url": "https://finnhub.io/api/news?id=d65d1adeedd4511022a21834a39344518dd19db604ba7a91127d4ec13f6975eb"
    },
    {
-    "ts": 1788532057,
-    "headline": "OMAH Turned Buffett\u2019s No-Dividend Portfolio Into a 15% Payout. Is It Income or Financial Sleight of Hand?",
+    "ts": 1788538825,
+    "headline": "What Are You Actually Buying In Aurora Innovation Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6f18ddc66486bd33315e236f6966773ee21e21ebd1197a85304d76d4bfb5af11"
+    "url": "https://finnhub.io/api/news?id=8cc296c5f1b839bede185f5b2226317d8c3a484fd75d7d78db07c0766fed1f36"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T16:38:02Z",
+  "fetched_at": "2026-09-04T19:11:31Z",
   "error": "no insider filings in six months"
  },
  "peers": {
