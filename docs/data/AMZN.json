@@ -1,34 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-03T21:48:04Z",
+ "generated_at": "2026-09-04T16:37:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:04Z",
-  "error": "503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/quote?symbol=AMZN&token=d76ri89r01qtg3nen1o0d76ri89r01qtg3nen1og"
+  "fetched_at": "2026-09-04T16:37:50Z",
+  "current": 257.29,
+  "change": -1.61,
+  "change_pct": -0.6219,
+  "high": 261.12,
+  "low": 255.29,
+  "open": 259.35,
+  "prev_close": 258.9,
+  "ts": 1788539835
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:04Z",
+  "fetched_at": "2026-09-04T16:37:50Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2795165480547.1426,
+  "mcap": 2792576765121.769,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T21:48:05Z",
+  "fetched_at": "2026-09-04T16:37:51Z",
   "bars": [
-   {
-    "date": "2023-02-02",
-    "open": 110.25,
-    "high": 114.0,
-    "low": 108.88,
-    "close": 112.91,
-    "volume": 158154200.0
-   },
    {
     "date": "2023-02-03",
     "open": 105.26,
@@ -7211,7 +7210,7 @@
     "high": 256.23999,
     "low": 253.39999,
     "close": 254.98,
-    "volume": 23856300.0
+    "volume": 24013300.0
    },
    {
     "date": "2026-09-03",
@@ -7219,11 +7218,19 @@
     "high": 259.5,
     "low": 256.0,
     "close": 258.89999,
-    "volume": 21032762.0
+    "volume": 26809147.0
+   },
+   {
+    "date": "2026-09-04",
+    "open": 259.215,
+    "high": 261.16,
+    "low": 255.3,
+    "close": 257.23,
+    "volume": 694967.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-03",
+  "latest": "2026-09-04",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7331,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-27T22:39:29Z",
+  "fetched_at": "2026-09-04T16:37:51Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7396,18 +7403,55 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:05Z",
-  "error": "503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/stock/recommendation?symbol=AMZN&token=d76ri89r01qtg3nen1o0d76ri89r01qtg3nen1og"
+  "fetched_at": "2026-09-04T16:37:51Z",
+  "trends": [
+   {
+    "symbol": "AMZN",
+    "period": "2026-09-01",
+    "strongBuy": 20,
+    "buy": 49,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+   },
+   {
+    "symbol": "AMZN",
+    "period": "2026-08-01",
+    "strongBuy": 21,
+    "buy": 49,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+   },
+   {
+    "symbol": "AMZN",
+    "period": "2026-07-01",
+    "strongBuy": 21,
+    "buy": 49,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+   },
+   {
+    "symbol": "AMZN",
+    "period": "2026-06-01",
+    "strongBuy": 22,
+    "buy": 49,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+   }
+  ]
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T21:48:06Z",
+  "fetched_at": "2026-09-04T16:37:51Z",
   "analyst_target_mean": 328.004,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.893465,
+  "forward_pe": 24.720394,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7419,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:06Z",
+  "fetched_at": "2026-09-04T16:37:51Z",
   "rows": [
    {
-    "ts": 1788469980,
-    "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
+    "ts": 1788537013,
+    "headline": "Wall Street Is Misreading Alphabet\u2019s Supposed Achilles Heel",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3413ec929cf8b8d3bbeafd6ee9b96378ac8cfe451773cf8204bf8f5c4b564066"
+    "url": "https://finnhub.io/api/news?id=ac887af7eb7a3fd8e798a3753a83e814fe4bb6c28da503d727af97aed919033d"
    },
    {
-    "ts": 1788468720,
-    "headline": "Top Analyst Reports for Amazon, AbbVie & Alibaba",
+    "ts": 1788536640,
+    "headline": "US diesel prices hit an all-time high \u2014 and it impacts you more than you might think",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b0804b234e511e69808b38f92c6ee8ffc81d307ea5abe364d75d67f8e8966f56"
+    "url": "https://finnhub.io/api/news?id=fe638a28c0e9927517a8bad8b68be2c0d276e5d8a60f328b4368e40375614d61"
    },
    {
-    "ts": 1788462605,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=2408906dfdb0441202ed8cf0c09a63939053aadd284e7bbc95107dba373c1fe7"
+    "ts": 1788536220,
+    "headline": "Jensen Huang's Nvidia Guided for 70% Revenue Growth in Fiscal 2028, Far Above the 44% Wall Street Expected, as Amazon Agreed to Buy 2 Million Nvidia GPUs. Is the Growth Forecast Be",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=240d4ee70ffb68fb0651fcc4d1088bcde4454bb59f6da60166d1ea48f55dfb2d"
    },
    {
-    "ts": 1788458726,
-    "headline": "Wall Street Nears Record Highs With Help From Mag 7",
+    "ts": 1788535560,
+    "headline": "VEVOR Steps Offline in Europe at IFA Berlin 2026, with First European Store Planned in France for 2027",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
+    "url": "https://finnhub.io/api/news?id=5324d78cfaa7975b343dbfe2742f35ede344b6d26a673f83653a2a15011bff9c"
    },
    {
-    "ts": 1788458357,
-    "headline": "Vietnamese Rival To Uber, Lyft Plans To Enter U.S. Market This Year",
+    "ts": 1788535380,
+    "headline": "TTD Stock Plunges 60% Year to Date: Time to Cut Losses and Exit?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=362f44f9032a1ab95239166a39b7ae8d8d7705c79653a20fb694266e09463b1e"
+    "url": "https://finnhub.io/api/news?id=4a61aada6cbb82816437c618c63fdb21bc138fbec39536c54cc4e8656d277aa4"
    },
    {
-    "ts": 1788457980,
-    "headline": "Should You Bet on GLW Stock Amid Rising Earnings Estimate Revisions?",
+    "ts": 1788534300,
+    "headline": "Snowflake Gains 17% Post Q2 Earnings: Buy, Sell or Hold the Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3cfb03fc6a9cb31ecb4adc6227a75ee84b8fab9f6dfd94e3e03740977c166822"
+    "url": "https://finnhub.io/api/news?id=c2fa88c4cc8082a896e1b39d38eede17c3569cfaddfad14e8a98db250cea725c"
    },
    {
-    "ts": 1788454838,
-    "headline": "Meta Stock Has a New AI Catalyst. Is META Headed Back Toward Its All-Time High?",
+    "ts": 1788533400,
+    "headline": "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ed7c295d9e4503f34c540039c59b1877876842c77a31adfd21bb4ddf519de789"
+    "url": "https://finnhub.io/api/news?id=4d5b48e9edd09da429b69cd8c5dedde2830c28443017ce3059aa937262761796"
    },
    {
-    "ts": 1788453670,
-    "headline": "How Far Can Amazon Stock Fall When The Business Is Fine?",
+    "ts": 1788533220,
+    "headline": "Disney Stock Is Trading at a Discount: Should You Buy, Sell or Hold?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=784ebfa6487c7bb29e44e57e5fe3651294c2056dd24186e670d2838f9c797a6a"
+    "url": "https://finnhub.io/api/news?id=937ed8789a04083a96c2ab7e40b754f4fa5936705792396182f04ac34652c694"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:06Z",
+  "fetched_at": "2026-09-04T16:37:51Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

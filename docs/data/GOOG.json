@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-03T21:48:15Z",
+ "generated_at": "2026-09-04T16:38:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:18Z",
-  "current": 339.08,
-  "change": 5.3,
-  "change_pct": 1.5879,
-  "high": 340.85,
-  "low": 336.31,
-  "open": 336.51,
-  "prev_close": 333.78,
-  "ts": 1788465600
+  "fetched_at": "2026-09-04T16:38:00Z",
+  "current": 335.32,
+  "change": -3.76,
+  "change_pct": -1.1089,
+  "high": 340.18,
+  "low": 333.75,
+  "open": 339.54,
+  "prev_close": 339.08,
+  "ts": 1788539861
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:01Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4207058849999.9995,
+  "mcap": 4188530400000.0005,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:01Z",
   "bars": [
-   {
-    "date": "2023-02-02",
-    "open": 106.79,
-    "high": 108.82,
-    "low": 106.54,
-    "close": 108.8,
-    "volume": 46622600.0
-   },
    {
     "date": "2023-02-03",
     "open": 103.51,
@@ -7218,19 +7210,27 @@
     "high": 336.51001,
     "low": 329.51999,
     "close": 333.78,
-    "volume": 12957800.0
+    "volume": 12995900.0
    },
    {
     "date": "2026-09-03",
-    "open": 336.73999,
+    "open": 336.51001,
     "high": 340.85001,
-    "low": 336.38,
-    "close": 339.10999,
-    "volume": 9830497.0
+    "low": 336.31,
+    "close": 339.079987,
+    "volume": 12839900.0
+   },
+   {
+    "date": "2026-09-04",
+    "open": 339.205,
+    "high": 340.1,
+    "low": 333.79,
+    "close": 335.285,
+    "volume": 289286.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-03",
+  "latest": "2026-09-04",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-27T22:39:41Z",
+  "fetched_at": "2026-09-04T16:38:01Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:02Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:02Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.868055,
-  "forward_eps": 14.82767,
+  "forward_pe": 22.572021,
+  "forward_eps": 14.85423,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:02Z",
   "rows": [
    {
-    "ts": 1788470017,
-    "headline": "Berkshire Hathaway (BRK.A) Is Getting Fresh Attention, What Is Behind It?",
+    "ts": 1788537013,
+    "headline": "Wall Street Is Misreading Alphabet\u2019s Supposed Achilles Heel",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b7feac7834e0d00ea2211419c4d9f3fde425b79256911bccd4c1c0c7ad3236cb"
+    "url": "https://finnhub.io/api/news?id=ac887af7eb7a3fd8e798a3753a83e814fe4bb6c28da503d727af97aed919033d"
    },
    {
-    "ts": 1788469591,
-    "headline": "Google\u2019s Arkansas Data Center Reveals the Huge Power Bill Behind AI. Entergy Stands to Benefit",
+    "ts": 1788535380,
+    "headline": "TTD Stock Plunges 60% Year to Date: Time to Cut Losses and Exit?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ce0501a80a92d564d719b8ed4b843dca4f474609a49ed5c9237a3e3a7bf1aa6"
+    "url": "https://finnhub.io/api/news?id=4a61aada6cbb82816437c618c63fdb21bc138fbec39536c54cc4e8656d277aa4"
    },
    {
-    "ts": 1788464560,
-    "headline": "Advertising Leader Magnite Touches New Buy Point, But Reverses Lower",
+    "ts": 1788534300,
+    "headline": "Snowflake Gains 17% Post Q2 Earnings: Buy, Sell or Hold the Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=65c107da1da5f2c60711fa3e6119e112f8545c990534309bab9b9a9c81a958b3"
+    "url": "https://finnhub.io/api/news?id=c2fa88c4cc8082a896e1b39d38eede17c3569cfaddfad14e8a98db250cea725c"
    },
    {
-    "ts": 1788462898,
-    "headline": "The Market Marked ZM Down. The Numbers Push Back",
+    "ts": 1788533400,
+    "headline": "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9e58780e68df8b804065dac8153105d33b545383707208b629bb342b9e97e9cc"
+    "url": "https://finnhub.io/api/news?id=4d5b48e9edd09da429b69cd8c5dedde2830c28443017ce3059aa937262761796"
    },
    {
-    "ts": 1788461339,
-    "headline": "Meta Rises 4% as Muse Spark 1.3 Claims Parity With Anthropic and OpenAI",
+    "ts": 1788533220,
+    "headline": "Disney Stock Is Trading at a Discount: Should You Buy, Sell or Hold?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d9e9f00e59bd1c23d43abefbcd7a1ca46a8c2a360dc497a2ea7f0586d722af82"
+    "url": "https://finnhub.io/api/news?id=937ed8789a04083a96c2ab7e40b754f4fa5936705792396182f04ac34652c694"
    },
    {
-    "ts": 1788460010,
-    "headline": "PG&E, Google, Rewiring America Launch VPP in California",
+    "ts": 1788532620,
+    "headline": "Berkshire CEO explains Buffett\u2019s surprise AI stock bet",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7d419d4a24ae6c640c2e84078661540fd24e42dce22d1c50c67772e829fe79b2"
+    "url": "https://finnhub.io/api/news?id=a6a5c566f5f7548a73878775fe0ebedeceef8ac73b0dededea5728daa0f6463b"
    },
    {
-    "ts": 1788459331,
-    "headline": "Eos Energy Enterprises (EOSE) Is Up 8.1% After Google-Backed Long-Duration Storage Debut in West Virginia",
+    "ts": 1788532500,
+    "headline": "Meet the Low-Cost Vanguard ETF With 26.2% Invested in Nvidia and Alphabet, While VOO Has Just 13.4%.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=552d2bb7d278243213939909e2795740dfd4cc74483ece310048e93bf65d798f"
+    "url": "https://finnhub.io/api/news?id=209123edeced7dc7bf75580e45cc2bfe4295a7ad10255e2243540a2388d11460"
    },
    {
-    "ts": 1788458726,
-    "headline": "Wall Street Nears Record Highs With Help From Mag 7",
+    "ts": 1788532057,
+    "headline": "OMAH Turned Buffett\u2019s No-Dividend Portfolio Into a 15% Payout. Is It Income or Financial Sleight of Hand?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0dd29d7875103b3a39d52951c48618bee16a1342b27a377d187af1c76f13851c"
+    "url": "https://finnhub.io/api/news?id=6f18ddc66486bd33315e236f6966773ee21e21ebd1197a85304d76d4bfb5af11"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:18Z",
+  "fetched_at": "2026-09-04T16:38:02Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-03T21:48:27Z",
+ "generated_at": "2026-09-04T16:38:11Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:30Z",
-  "current": 228.45,
-  "change": 4.04,
-  "change_pct": 1.8003,
-  "high": 230.4,
-  "low": 224.75,
-  "open": 226.02,
-  "prev_close": 224.41,
-  "ts": 1788465600
+  "fetched_at": "2026-09-04T16:38:11Z",
+  "current": 231.21,
+  "change": 2.76,
+  "change_pct": 1.2081,
+  "high": 234.76,
+  "low": 229.82,
+  "open": 230.725,
+  "prev_close": 228.45,
+  "ts": 1788539862
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:11Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5482027089460.45,
+  "mcap": 5505645089845.869,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "bars": [
-   {
-    "date": "2023-02-02",
-    "open": 21.0,
-    "high": 21.949,
-    "low": 20.7,
-    "close": 21.709,
-    "volume": 564276000.0
-   },
    {
     "date": "2023-02-03",
     "open": 21.0,
@@ -7218,19 +7210,27 @@
     "high": 227.95,
     "low": 218.48,
     "close": 224.41,
-    "volume": 156676500.0
+    "volume": 157104700.0
    },
    {
     "date": "2026-09-03",
     "open": 226.020004,
-    "high": 230.4,
+    "high": 230.39999,
     "low": 224.75,
-    "close": 228.39999,
-    "volume": 114900504.0
+    "close": 228.45,
+    "volume": 133890362.0
+   },
+   {
+    "date": "2026-09-04",
+    "open": 231.11,
+    "high": 234.75,
+    "low": 229.86,
+    "close": 231.15,
+    "volume": 2296757.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-03",
+  "latest": "2026-09-04",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7347,7 +7347,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-08-27T22:39:52Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "rows": [
    {
     "period": "2026-07-31",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "analyst_target_mean": 325.98773,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.853116,
-  "forward_eps": 15.38061,
+  "forward_pe": 14.960118,
+  "forward_eps": 15.4581,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
   "institutions_pct": 0.71487,
-  "insiders_pct": 0.04008,
-  "beta": 2.215,
+  "insiders_pct": 0.04007,
+  "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "rows": [
    {
-    "ts": 1788470728,
-    "headline": "HIVE stock pops 14% as crypto market heats up",
+    "ts": 1788536700,
+    "headline": "2 Crash-Resistant Stocks Worth Buying and Holding No Matter What the Market Does",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=680109e22fc10757af3aed5a67c98f9d4aa819c04b27b044844ae2527093b134"
+    "url": "https://finnhub.io/api/news?id=118b088ce36c98463165717d6da9b7ed8e0617f519044e731f0c70dcc783f326"
    },
    {
-    "ts": 1788470400,
-    "headline": "Prediction: Costco Could Be Worth More Than Home Depot and Lowe's Combined by 2030. Here's the Math.",
+    "ts": 1788536580,
+    "headline": "Green Thumb Industries Has Hit a Rough Patch. Here's Why Its Best Days Could Be Ahead.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d070e3b54e58b165fedf7ecb029759d2af085bbef398f9d530ebecf6e68a9623"
+    "url": "https://finnhub.io/api/news?id=940a95a076b23a1c7493ef7b66e5dc1eb2dfcfa6e7296bd1f46b0d3d9a66abf8"
    },
    {
-    "ts": 1788470100,
-    "headline": "IQVIA's Predictive Clinical Development Provides Sponsors With Significant Efficiencies to Get Treatments to Market Faster",
+    "ts": 1788536261,
+    "headline": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a327a913d3a205b6fb2945a54b45ec71855d612e244b92884d2f649f0039eb6d"
+    "url": "https://finnhub.io/api/news?id=2da3af33aa4555aededcd0604efcbd3c46d26c9dc1ff162141907f83c6a5bf52"
    },
    {
-    "ts": 1788469980,
-    "headline": "Amazon vs. Microsoft: 1 Key Metric Identifies the Superior Artificial Intelligence (AI) Cloud Stock",
+    "ts": 1788536220,
+    "headline": "If a Bear Market Is Coming, Is VOO or VTI the Safer Investment?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3413ec929cf8b8d3bbeafd6ee9b96378ac8cfe451773cf8204bf8f5c4b564066"
+    "url": "https://finnhub.io/api/news?id=9281dc154c80e46bafd04390b7f7f130edf1a14791a97c01fa1fb4cb62596e83"
    },
    {
-    "ts": 1788469852,
-    "headline": "AI demand is 'exceptional,' but the supply chain is not: HPE CEO",
+    "ts": 1788536220,
+    "headline": "Jensen Huang's Nvidia Guided for 70% Revenue Growth in Fiscal 2028, Far Above the 44% Wall Street Expected, as Amazon Agreed to Buy 2 Million Nvidia GPUs. Is the Growth Forecast Be",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7dd8d8c83a7f90cc1509514c66ea36150e903f0b7a9e43959f31ae82ce104896"
+    "url": "https://finnhub.io/api/news?id=240d4ee70ffb68fb0651fcc4d1088bcde4454bb59f6da60166d1ea48f55dfb2d"
    },
    {
-    "ts": 1788469745,
-    "headline": "Cathie Wood Sold About $72.8 Million of AMD and Bought About $53 Million of Nvidia. What Changed?",
+    "ts": 1788536185,
+    "headline": "Why Sandisk Stock Rallied Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f6dc84d795cc9d3d49165b3b4119a584c5faa3b18b1d3fa3e69ccc261f25fe22"
+    "url": "https://finnhub.io/api/news?id=c1f02dc19328b5375b1b66dcdce93af411c45248cafc1783119e6ee737767d70"
    },
    {
-    "ts": 1788469320,
-    "headline": "Is Your 401(k) Balance Higher or Lower Than the Average 40-Year-Old's? Here's How to Find Out.",
+    "ts": 1788535756,
+    "headline": "Nvidia Is Eyeing a $2.5 Billion Bet on Mira Murati's AI Startup",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d731ebab93f2b6daa0663cd0a5a2e394ac9f42901f1af8436ef22434fe696302"
+    "url": "https://finnhub.io/api/news?id=21017fa01f34cb308af3b38b9aafed188600a37e96c60ec6d2791f59e88f0ba6"
    },
    {
-    "ts": 1788469020,
-    "headline": "Down 55% From Its High, Is Oracle a Buy?",
+    "ts": 1788535560,
+    "headline": "After an 80% Gain on the Year, Is Palo Alto Networks Stock a Buy on Its Recent Pullback as Revenue Surges?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9670d3afcb5006564077dd2e8090f83ed6a9ce7b6b8926c9763473a0ff0fd2b4"
+    "url": "https://finnhub.io/api/news?id=b47bdfc5792bdc3c9a7cc997e2a71e2adaf313285c158f6c171cca52f46b938a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-03T21:48:34Z",
+  "fetched_at": "2026-09-04T16:38:12Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,
