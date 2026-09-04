@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-04T19:11:40Z",
+ "generated_at": "2026-09-04T21:35:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:40Z",
-  "current": 230.13,
-  "change": 1.68,
-  "change_pct": 0.7354,
+  "fetched_at": "2026-09-04T21:35:57Z",
+  "current": 230.36,
+  "change": 1.91,
+  "change_pct": 0.8361,
   "high": 234.76,
-  "low": 229.82,
-  "open": 230.725,
+  "low": 229.63,
+  "open": 231.09,
   "prev_close": 228.45,
-  "ts": 1788549092
+  "ts": 1788552000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:40Z",
+  "fetched_at": "2026-09-04T21:35:57Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-04T19:11:44Z",
+  "fetched_at": "2026-09-04T21:35:58Z",
   "bars": [
    {
     "date": "2023-02-03",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-04",
-    "open": 231.11,
-    "high": 234.75,
-    "low": 229.85,
-    "close": 230.07,
-    "volume": 3184048.0
+    "open": 231.142,
+    "high": 234.75999,
+    "low": 229.63,
+    "close": 230.345,
+    "volume": 117203360.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:44Z",
+  "fetched_at": "2026-09-04T21:35:58Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-04T19:11:45Z",
+  "fetched_at": "2026-09-04T21:35:58Z",
   "analyst_target_mean": 327.12808,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.8854,
+  "forward_pe": 14.902219,
   "forward_eps": 15.4581,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
   "institutions_pct": 0.71487,
   "insiders_pct": 0.04007,
-  "beta": 2.215,
+  "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:45Z",
+  "fetched_at": "2026-09-04T21:35:58Z",
   "rows": [
    {
-    "ts": 1788545102,
-    "headline": "These S&P500 stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=1139f0a9b5cae48fa39f337dfe60d02ded1241a1ffee1eeb21cb4f8344a9d2ec"
-   },
-   {
-    "ts": 1788544800,
-    "headline": "Curious about the most active stocks on Friday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=0965cbef6e5ca065af901fa8d66ae793dbdf47f41bb943f1dd9bbc2ebef5e730"
-   },
-   {
-    "ts": 1788544371,
-    "headline": "Sector Update: Tech Stocks Gain Friday Afternoon",
+    "ts": 1788558766,
+    "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a19f332c2a2d77fa6234c51f30617ad1be86775febe7fb0fb3aa9dd70a728a2b"
+    "url": "https://finnhub.io/api/news?id=d03216108133aa4afcbdb834039cee863839189ba8da999efecd7e54466d934e"
    },
    {
-    "ts": 1788544320,
-    "headline": "NuScale Just Turned AI on Itself. Here's What That Means for the Stock.",
+    "ts": 1788557927,
+    "headline": "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=799bbffb04b884a240a42fc375fa1bf25527070ed707b0c3d6028c6cee2506f8"
+    "url": "https://finnhub.io/api/news?id=1d4bd0b4897745f3a22952da8fc4a48ef1e025aad70e9b517ea33bd0cb57526c"
    },
    {
-    "ts": 1788544200,
-    "headline": "1 Popular Cryptocurrency ARK Invest Expects to Surge by 1,480%",
+    "ts": 1788557280,
+    "headline": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=50784475cf089480379fa40d746964ddf381461a2c0f7c710916aed55cefa94d"
+    "url": "https://finnhub.io/api/news?id=a5780ce71208da929d7e94afc0f406ffd8b63c5bfa672682bba81e20d449bd34"
    },
    {
-    "ts": 1788543780,
-    "headline": "3 Top Quantum Computing Stocks to Buy in September",
+    "ts": 1788557272,
+    "headline": "Marvell Stock Had A Huge Year And Still Sits Well Below Its High",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=104844f80eb271625d2e54c8c47b5f7d5148609ad828342819f48866c9bf9f72"
+    "url": "https://finnhub.io/api/news?id=33a19c727a8e65adfa057a149bcbbd12eabac6a3f64ffc7c9bdb04767afab37c"
    },
    {
-    "ts": 1788543300,
-    "headline": "Down 84% From Its High, Is NuScale Power a Bargain Hiding in Plain Sight?",
+    "ts": 1788557220,
+    "headline": "SoundHound's Business Is Booming. Can the $7 Stock Double by September 2027?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ae997966ae0fc26b00f5357552f7f02a24e6cb088a5df3eb8b23f096ccea0728"
+    "url": "https://finnhub.io/api/news?id=e99fe2282671e4389f28787b46d64c10667620eb07a8c886e24880f9e7a8f733"
    },
    {
-    "ts": 1788543193,
-    "headline": "Here's How Rubrik Stock Gained 28.6% Last Month",
+    "ts": 1788556800,
+    "headline": "Why Anthropic May Let Early Investors Sell Shares, Unlike SpaceX and Cerebras",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0dfa37607ce4c964b8604a17eeb1ca1f54f12e5c3ff903bc67f4de36e806f308"
+    "url": "https://finnhub.io/api/news?id=2f66f74a00e5437e7270f9b92772ce0fe36a0f02249f9fcce496d8b5a3b51138"
+   },
+   {
+    "ts": 1788556604,
+    "headline": "Why The Trade Desk Stock Fell 5.7% Today",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e9d93eb8e2d4b9e11f7c931acd98ed9a1af9889c9501f656ee385e1575987447"
+   },
+   {
+    "ts": 1788555420,
+    "headline": "G42 eyes stake sale to secure critical AI chips",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=fe995ac60738c905e36ce438047086fd4d5469e7f0ed6741f7a4f7ebcce4304a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:45Z",
+  "fetched_at": "2026-09-04T21:35:58Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,

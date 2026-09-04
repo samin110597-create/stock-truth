@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-04T19:11:24Z",
+ "generated_at": "2026-09-04T21:35:48Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:24Z",
-  "current": 335.99,
-  "change": -3.09,
-  "change_pct": -0.9113,
+  "fetched_at": "2026-09-04T21:35:48Z",
+  "current": 335.31,
+  "change": -3.77,
+  "change_pct": -1.1118,
   "high": 340.18,
   "low": 333.75,
-  "open": 339.54,
+  "open": 339.18,
   "prev_close": 339.08,
-  "ts": 1788549069
+  "ts": 1788552000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:25Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-04T19:11:30Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "bars": [
    {
     "date": "2023-02-03",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-04",
-    "open": 339.205,
-    "high": 340.1,
-    "low": 333.79,
-    "close": 335.795,
-    "volume": 450132.0
+    "open": 339.20499,
+    "high": 340.17999,
+    "low": 333.75,
+    "close": 335.26999,
+    "volume": 10014173.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:30Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-04T19:11:31Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.622513,
+  "forward_pe": 22.573368,
   "forward_eps": 14.85423,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,8 +7463,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:31Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "rows": [
+   {
+    "ts": 1788556020,
+    "headline": "5-star analyst resets Broadcom stock price target",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8c2c1ec02ce244ebf7d821189eb20f805e144044ea63de5f675e58802b8bfdc9"
+   },
+   {
+    "ts": 1788551499,
+    "headline": "Magnificent Seven Flash Strong Signal Never Seen Before",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b5233f0911623a89d9322be5bb38695f7f12f28da35fd56f85114ec31be4dfaa"
+   },
+   {
+    "ts": 1788550726,
+    "headline": "Google Turns Three Everyday Apps Into Paid Gemini Microphones",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1c79ce61e96e1fd4c50dc3eba844595d97962a7653e3085a860372bcf553331c"
+   },
+   {
+    "ts": 1788549777,
+    "headline": "3 REITs Getting Paid as Big Tech Builds Out AI",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7e8844f96f7bd73e24adf663cb705ebe7ee0bbda5f1e3d14d4f81a9564192b13"
+   },
+   {
+    "ts": 1788548450,
+    "headline": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1bee371d9a95a42566efa671f28c5f6348ee766125af29e1ae54c50f8e240718"
+   },
+   {
+    "ts": 1788545912,
+    "headline": "Top 3 AI Stocks To Watch In September 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=fc6215a55b3ab9525805e471d0adcad1faf82fad0e378bcd30a22cd0d53ebb1d"
+   },
    {
     "ts": 1788544320,
     "headline": "NuScale Just Turned AI on Itself. Here's What That Means for the Stock.",
@@ -7476,49 +7512,13 @@
     "headline": "Commvault\u2019s (CVLT) AI Recovery Bet Meets A Margin Reality Check",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=d10f96c69ee941713b77f4ff428b35f11136def0273ea3599750456db5966a39"
-   },
-   {
-    "ts": 1788543780,
-    "headline": "3 Top Quantum Computing Stocks to Buy in September",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=104844f80eb271625d2e54c8c47b5f7d5148609ad828342819f48866c9bf9f72"
-   },
-   {
-    "ts": 1788543450,
-    "headline": "Should You Worry That IBM Has Gone Quiet On Its AI Total?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=850b2a681a98ba877b7c40fd138b1df0ce52202ebfe638f6767df7e9044d938a"
-   },
-   {
-    "ts": 1788542655,
-    "headline": "What Pays Adobe Stock Owners While The Freemium Bet Waits",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc75bd1d9d0440de3a70e25016ca9eb5c9533fff17e3b57e71af380079119ba6"
-   },
-   {
-    "ts": 1788542095,
-    "headline": "Does Google Stock's Cloud Margin Justify Its AI Bill?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=77b597620a3b8c1cf09178ef29572168c6c1942237f1e85b4ff309d4f88968e1"
-   },
-   {
-    "ts": 1788540098,
-    "headline": "Nvidia Is Backstopping AI Boom as 'Buyer of Last Resort,' Prominent Economist Tells 'Prof G'",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d65d1adeedd4511022a21834a39344518dd19db604ba7a91127d4ec13f6975eb"
-   },
-   {
-    "ts": 1788538825,
-    "headline": "What Are You Actually Buying In Aurora Innovation Stock?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8cc296c5f1b839bede185f5b2226317d8c3a484fd75d7d78db07c0766fed1f36"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T19:11:31Z",
+  "fetched_at": "2026-09-04T21:35:48Z",
   "error": "no insider filings in six months"
  },
  "peers": {
