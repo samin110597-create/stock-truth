@@ -1,32 +1,32 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-04T21:36:07Z",
+ "generated_at": "2026-09-07T17:58:43Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T21:36:07Z",
-  "current": 616.77,
-  "change": 6.09,
-  "change_pct": 0.9972,
+  "fetched_at": "2026-09-07T17:58:43Z",
+  "current": 616.81,
+  "change": 6.13,
+  "change_pct": 1.0038,
   "high": 617.46,
   "low": 605.27,
-  "open": 612.35,
+  "open": 612.36,
   "prev_close": 610.68,
   "ts": 1788552000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T21:36:07Z",
+  "fetched_at": "2026-09-07T17:58:43Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1558029257788.1086,
+  "mcap": 1571225339403.8027,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-04T21:36:08Z",
+  "fetched_at": "2026-09-07T17:58:44Z",
   "bars": [
    {
     "date": "2023-02-03",
@@ -7215,18 +7215,18 @@
    {
     "date": "2026-09-03",
     "open": 604.48999,
-    "high": 619.44,
+    "high": 619.46002,
     "low": 604.34998,
     "close": 610.67999,
-    "volume": 19692164.0
+    "volume": 19737100.0
    },
    {
     "date": "2026-09-04",
-    "open": 612.495,
+    "open": 612.34998,
     "high": 617.46002,
     "low": 605.27002,
-    "close": 616.75,
-    "volume": 11497022.0
+    "close": 616.77002,
+    "volume": 15942700.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-03T19:29:37Z",
+  "fetched_at": "2026-09-07T17:58:44Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1561239093248.0,
+  "mcap": 1571225468928.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.56,
+  "eps_ttm": 26.52,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 23.074171,
-  "forward_pe": 17.530205,
-  "pb": 5.977858,
-  "ps": 6.84013,
-  "peg": 0.7655,
-  "ev_ebitda": 13.974,
+  "pe": 23.256788,
+  "forward_pe": 17.642334,
+  "pb": 6.0160947,
+  "ps": 6.8838825,
+  "peg": 0.808,
+  "ev_ebitda": 14.53,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T21:36:08Z",
+  "fetched_at": "2026-09-07T17:58:44Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-04T21:36:08Z",
+  "fetched_at": "2026-09-07T17:58:45Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7465,69 +7465,69 @@
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
-  "institutions_pct": 0.79038,
+  "institutions_pct": 0.79115,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T21:36:08Z",
+  "fetched_at": "2026-09-07T17:58:45Z",
   "rows": [
    {
-    "ts": 1788556020,
-    "headline": "5-star analyst resets Broadcom stock price target",
+    "ts": 1788795657,
+    "headline": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8c2c1ec02ce244ebf7d821189eb20f805e144044ea63de5f675e58802b8bfdc9"
+    "url": "https://finnhub.io/api/news?id=ed58ccb2a6d417bdb7eafb56f307cb7f915d6a5ce939224d2e07ec6d5f917b32"
    },
    {
-    "ts": 1788551499,
-    "headline": "Magnificent Seven Flash Strong Signal Never Seen Before",
+    "ts": 1788792602,
+    "headline": "Alphabet May Be the Mag 7 Stock Investors Are Underestimating",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b5233f0911623a89d9322be5bb38695f7f12f28da35fd56f85114ec31be4dfaa"
+    "url": "https://finnhub.io/api/news?id=eac300c64a3a9a78cebf60cea3ed85304c066ace4b6e74247e3ebe481aef4821"
    },
    {
-    "ts": 1788550680,
-    "headline": "Meta Cuts AI Output Prices 95%--If Developers Share Their Work",
+    "ts": 1788786005,
+    "headline": "Here is What to Know Beyond Why Meta Platforms, Inc. (META) is a Trending Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cf23281cf46389bf155c44ea3a98747470f4e5371a5f94198600445c6e423949"
+    "url": "https://finnhub.io/api/news?id=723b6d5e2be061ee7dba61dc3ded4b24e32e135d73bb27b3fe442ea272df4370"
    },
    {
-    "ts": 1788550345,
-    "headline": "Energy stocks could be the biggest winners of the AI boom",
+    "ts": 1788784459,
+    "headline": "Nvidia, Tech Giants Flash Stunning Market Signal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1d12771fbf1ff18df84f822717c264e450fac5b8f1dcd995b30a2cc0a58cc8cb"
+    "url": "https://finnhub.io/api/news?id=1310e9180075f970c2c517c9fb196410fa7f00b17c9aedaa1d122cfebafd6117"
    },
    {
-    "ts": 1788549777,
-    "headline": "3 REITs Getting Paid as Big Tech Builds Out AI",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7e8844f96f7bd73e24adf663cb705ebe7ee0bbda5f1e3d14d4f81a9564192b13"
+    "ts": 1788780263,
+    "headline": "Inside The Magic Box: Earnings Are Strong, Just Not As Strong As They Look",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3bfb9d95157e0012c38ff2306d43a708fc1c35cbef32fff940127f0b95569249"
    },
    {
-    "ts": 1788548450,
-    "headline": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1bee371d9a95a42566efa671f28c5f6348ee766125af29e1ae54c50f8e240718"
+    "ts": 1788773400,
+    "headline": "AMD Is Now More Expensive Than Nvidia And Broadcom",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=468ca414ae5dd759343ad8e84d73fccf387a3544c952fe9adf7ce1e2f49cbd72"
    },
    {
-    "ts": 1788546060,
-    "headline": "Nvidia Is Acting Like an Underdog. OpenAI and Anthropic Should Be Worried.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eb92ad532d1ae7f88b6d29471b1ebc95f3265357da05d40b1e4e9d1a104da14c"
+    "ts": 1788762600,
+    "headline": "Bypassing RevenueBench To Buy The Feedback Loop",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e5b71ec0e5b840a4e1521eb586d233afa6d7e4341a89c21ae7f0b26648a929b2"
    },
    {
-    "ts": 1788544320,
-    "headline": "NuScale Just Turned AI on Itself. Here's What That Means for the Stock.",
+    "ts": 1788743773,
+    "headline": "Meta\u2019s $18 Billion Teen Safety Deal Puts the Pressure on TikTok and YouTube Next",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=799bbffb04b884a240a42fc375fa1bf25527070ed707b0c3d6028c6cee2506f8"
+    "url": "https://finnhub.io/api/news?id=13dfd6f695cca4f6776492e69d2af6375a4836c13cfcb6621751508bc0dde196"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-04T21:36:08Z",
+  "fetched_at": "2026-09-07T17:58:45Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,
@@ -7567,18 +7567,18 @@
  },
  "peers": {
   "source": "finnhub+yfinance",
-  "fetched_at": "2026-08-28T22:45:43Z",
+  "fetched_at": "2026-09-07T17:58:50Z",
   "peers": [
    {
     "symbol": "GOOGL",
     "name": "Alphabet Inc.",
-    "mcap": 4238773059584.0,
-    "pe": 17.390366,
-    "forward_pe": 23.374542,
-    "pb": 6.8097687,
-    "ps": 9.506832,
-    "ev_ebitda": 23.46,
-    "peg": 0.9232,
+    "mcap": 4139343675392.0,
+    "pe": 16.97392,
+    "forward_pe": 22.785429,
+    "pb": 6.650031,
+    "ps": 9.28383,
+    "ev_ebitda": 23.306,
+    "peg": 1.2663,
     "gross_margin": 0.60897,
     "op_margin": 0.34033,
     "net_margin": 0.54771,
@@ -7586,18 +7586,18 @@
     "roe": 0.48676,
     "debt_to_equity": 0.18859,
     "rev_growth": 0.242,
-    "fcf_yield": 0.005347066389589723
+    "fcf_yield": 0.005475505958768597
    },
    {
     "symbol": "RDDT",
     "name": "Reddit, Inc.",
-    "mcap": 29436665856.0,
-    "pe": 35.581394,
-    "forward_pe": 15.793564,
-    "pb": 8.955749,
-    "ps": 10.593172,
-    "ev_ebitda": 33.504,
-    "peg": 0.9953,
+    "mcap": 29717567488.0,
+    "pe": 36.004665,
+    "forward_pe": 15.944275,
+    "pb": 9.041208,
+    "ps": 10.694259,
+    "ev_ebitda": 33.626,
+    "peg": 0.7775,
     "gross_margin": 0.91442,
     "op_margin": 0.28788,
     "net_margin": 0.31348,
@@ -7605,18 +7605,18 @@
     "roe": 0.30712,
     "debt_to_equity": 0.00635,
     "rev_growth": 0.611,
-    "fcf_yield": 0.02303483483207698
+    "fcf_yield": 0.022817100904164018
    },
    {
     "symbol": "PINS",
     "name": "Pinterest, Inc.",
-    "mcap": 13132798976.0,
-    "pe": 68.20589,
-    "forward_pe": 9.645139,
-    "pb": 4.5319524,
-    "ps": 2.8827055,
-    "ev_ebitda": 40.685,
-    "peg": 0.356,
+    "mcap": 11552785408.0,
+    "pe": 60.0,
+    "forward_pe": 8.484727,
+    "pb": 3.9867108,
+    "ps": 2.5358856,
+    "ev_ebitda": 36.248,
+    "peg": 0.2842,
     "gross_margin": 0.79473,
     "op_margin": -0.03464,
     "net_margin": 0.054640003,
@@ -7624,18 +7624,18 @@
     "roe": 0.06461,
     "debt_to_equity": 0.41350000000000003,
     "rev_growth": 0.182,
-    "fcf_yield": 0.09110327221078146
+    "fcf_yield": 0.1035629865652569
    },
    {
     "symbol": "MTCH",
     "name": "Match Group, Inc.",
-    "mcap": 9699222528.0,
-    "pe": 14.744682,
-    "forward_pe": 9.083482,
-    "pb": -40.329777,
-    "ps": 2.7638469,
-    "ev_ebitda": 10.553,
-    "peg": 0.369,
+    "mcap": 9764537344.0,
+    "pe": 14.843972,
+    "forward_pe": 9.14465,
+    "pb": -40.601357,
+    "ps": 2.7824585,
+    "ev_ebitda": 10.676,
+    "peg": 0.3532,
     "gross_margin": 0.74872,
     "op_margin": 0.28771,
     "net_margin": 0.20169,
@@ -7643,17 +7643,17 @@
     "roe": null,
     "debt_to_equity": null,
     "rev_growth": -0.012,
-    "fcf_yield": 0.09595243302371215
+    "fcf_yield": 0.09531060891193822
    },
    {
     "symbol": "SNAP",
     "name": "Snap Inc.",
-    "mcap": 9183203328.0,
+    "mcap": 9250850816.0,
     "pe": null,
-    "forward_pe": 7.002295,
-    "pb": 4.7382197,
-    "ps": 1.4459269,
-    "ev_ebitda": -72.328,
+    "forward_pe": 7.0538774,
+    "pb": 4.7731237,
+    "ps": 1.4565783,
+    "ev_ebitda": -73.947,
     "peg": null,
     "gross_margin": 0.57333,
     "op_margin": -0.026400002,
@@ -7662,17 +7662,17 @@
     "roe": -0.15576,
     "debt_to_equity": 2.19281,
     "rev_growth": 0.189,
-    "fcf_yield": 0.07777873999829615
+    "fcf_yield": 0.07720997756926751
    },
    {
     "symbol": "RUM",
     "name": "RUM Group Inc.",
-    "mcap": 4452375552.0,
+    "mcap": 4263968000.0,
     "pe": null,
-    "forward_pe": -28.967741,
-    "pb": 2.6870136,
-    "ps": 37.841854,
-    "ev_ebitda": -45.783,
+    "forward_pe": -27.741936,
+    "pb": 2.5733094,
+    "ps": 36.240532,
+    "ev_ebitda": -42.128,
     "peg": null,
     "gross_margin": 0.078600004,
     "op_margin": -0.99171996,
@@ -7681,18 +7681,18 @@
     "roe": -0.18409,
     "debt_to_equity": 0.35194000000000003,
     "rev_growth": 0.609,
-    "fcf_yield": -0.03423092374396364
+    "fcf_yield": -0.03574345023227191
    },
    {
     "symbol": "CARG",
     "name": "CarGurus, Inc.",
-    "mcap": 3256526592.0,
-    "pe": 18.845362,
-    "forward_pe": 12.146947,
-    "pb": 13.858985,
-    "ps": 3.3667088,
-    "ev_ebitda": 12.1,
-    "peg": 1.0635,
+    "mcap": 3005339392.0,
+    "pe": 17.391752,
+    "forward_pe": 11.210011,
+    "pb": 12.789993,
+    "ps": 3.1070228,
+    "ev_ebitda": 11.245,
+    "peg": 0.7356,
     "gross_margin": 0.92375,
     "op_margin": 0.25275,
     "net_margin": 0.18189,
@@ -7700,17 +7700,17 @@
     "roe": 0.53470004,
     "debt_to_equity": 0.7003499999999999,
     "rev_growth": 0.131,
-    "fcf_yield": 0.07410372529824562
+    "fcf_yield": 0.08029733767919148
    },
    {
     "symbol": "PPLI",
     "name": "People Incorporated",
-    "mcap": 2914518016.0,
-    "pe": 6.6226735,
-    "forward_pe": 14.30953,
-    "pb": 0.57337904,
-    "ps": 1.2240125,
-    "ev_ebitda": 19.29,
+    "mcap": 2903348736.0,
+    "pe": 6.5972934,
+    "forward_pe": 14.254691,
+    "pb": 0.57118165,
+    "ps": 1.2193217,
+    "ev_ebitda": 19.145,
     "peg": null,
     "gross_margin": 0.66347003,
     "op_margin": -0.03297,
@@ -7719,17 +7719,17 @@
     "roe": 0.09043,
     "debt_to_equity": 0.27577,
     "rev_growth": -0.015,
-    "fcf_yield": 0.026227708176911814
+    "fcf_yield": 0.0263286070502555
    }
   ],
   "n": 8,
   "median": {
-   "pe": 18.117864,
-   "forward_pe": 10.896043,
-   "pb": 4.63508605,
-   "ps": 3.12470715,
-   "ev_ebitda": 15.695,
-   "peg": 0.9232,
+   "pe": 17.182836,
+   "forward_pe": 10.1773305,
+   "pb": 4.37991725,
+   "ps": 2.94474065,
+   "ev_ebitda": 15.195,
+   "peg": 0.7356,
    "gross_margin": 0.706095015,
    "op_margin": 0.11317499899999998,
    "net_margin": 0.16155999999999998,
@@ -7737,7 +7737,7 @@
    "roe": 0.09043,
    "debt_to_equity": 0.35194000000000003,
    "rev_growth": 0.1855,
-   "fcf_yield": 0.05016571673757872
+   "fcf_yield": 0.0517692923097615
   },
   "peer_symbols": [
    "GOOGL",
