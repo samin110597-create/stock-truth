@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-07T17:58:43Z",
+ "generated_at": "2026-09-07T20:58:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T17:58:43Z",
-  "current": 616.81,
-  "change": 6.13,
-  "change_pct": 1.0038,
+  "fetched_at": "2026-09-07T20:58:40Z",
+  "current": 616.77,
+  "change": 6.09,
+  "change_pct": 0.9972,
   "high": 617.46,
   "low": 605.27,
-  "open": 612.36,
+  "open": 612.35,
   "prev_close": 610.68,
   "ts": 1788552000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T17:58:43Z",
+  "fetched_at": "2026-09-07T20:58:40Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-07T17:58:44Z",
+  "fetched_at": "2026-09-07T20:58:40Z",
   "bars": [
    {
     "date": "2023-02-03",
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T17:58:44Z",
+  "fetched_at": "2026-09-07T20:58:41Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T17:58:45Z",
+  "fetched_at": "2026-09-07T20:58:41Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T17:58:45Z",
+  "fetched_at": "2026-09-07T20:58:41Z",
   "rows": [
    {
     "ts": 1788795657,
@@ -7511,23 +7511,23 @@
     "url": "https://finnhub.io/api/news?id=468ca414ae5dd759343ad8e84d73fccf387a3544c952fe9adf7ce1e2f49cbd72"
    },
    {
+    "ts": 1788764006,
+    "headline": "Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the \u2018Biggest Threat\u2019",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=7abce4d179c584a290d57f291ec59629cab396b92baf56269b73371ddb2c181a"
+   },
+   {
     "ts": 1788762600,
     "headline": "Bypassing RevenueBench To Buy The Feedback Loop",
     "source": "SeekingAlpha",
     "url": "https://finnhub.io/api/news?id=e5b71ec0e5b840a4e1521eb586d233afa6d7e4341a89c21ae7f0b26648a929b2"
-   },
-   {
-    "ts": 1788743773,
-    "headline": "Meta\u2019s $18 Billion Teen Safety Deal Puts the Pressure on TikTok and YouTube Next",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=13dfd6f695cca4f6776492e69d2af6375a4836c13cfcb6621751508bc0dde196"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T17:58:45Z",
+  "fetched_at": "2026-09-07T20:58:42Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,
