@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-07T20:58:06Z",
+ "generated_at": "2026-09-08T16:52:14Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:07Z",
-  "current": 258.51,
-  "change": -0.39,
-  "change_pct": -0.1506,
-  "high": 261.12,
-  "low": 255.29,
-  "open": 259.07,
-  "prev_close": 258.9,
-  "ts": 1788552000
+  "fetched_at": "2026-09-08T16:52:15Z",
+  "current": 257.45,
+  "change": -1.06,
+  "change_pct": -0.41,
+  "high": 257.69,
+  "low": 254.75,
+  "open": 257.0375,
+  "prev_close": 258.51,
+  "ts": 1788886314
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:07Z",
+  "fetched_at": "2026-09-08T16:52:15Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2788370083542.4517,
+  "mcap": 2788370254612.0005,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-07T20:58:08Z",
+  "fetched_at": "2026-09-08T16:52:17Z",
   "bars": [
-   {
-    "date": "2023-02-03",
-    "open": 105.26,
-    "high": 108.78,
-    "low": 102.52,
-    "close": 103.39,
-    "volume": 144374800.0
-   },
    {
     "date": "2023-02-06",
     "open": 102.93,
@@ -7227,10 +7219,18 @@
     "low": 255.28999,
     "close": 258.51001,
     "volume": 30698000.0
+   },
+   {
+    "date": "2026-09-08",
+    "open": 256.6,
+    "high": 257.63,
+    "low": 254.75,
+    "close": 257.25,
+    "volume": 617714.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-04",
+  "latest": "2026-09-08",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:08Z",
+  "fetched_at": "2026-09-08T16:52:17Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T20:58:09Z",
+  "fetched_at": "2026-09-08T16:52:18Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.855967,
+  "forward_pe": 24.735779,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
   "short_asof": 1786665600,
-  "institutions_pct": 0.68795997,
+  "institutions_pct": 0.68794996,
   "insiders_pct": 0.08866,
   "beta": 1.443,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:09Z",
+  "fetched_at": "2026-09-08T16:52:18Z",
   "rows": [
    {
-    "ts": 1788798000,
-    "headline": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
+    "ts": 1788882330,
+    "headline": "Top Midday Stories: GE Aerospace to Acquire Consolidated Precision Products; Qualcomm Issues Share Warrant to Amazon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=44dddb55bb0d7ed25552d7253c8bf8e890e65c33b8405b205c6779707d7fd853"
+    "url": "https://finnhub.io/api/news?id=2ae8a832851f7b2f5438b8a6af3fee6b2b8bd035b6bc97e978a449770023779d"
    },
    {
-    "ts": 1788796653,
-    "headline": "Bernie Sanders Wants to Ban Superintelligence. What It Means for Microsoft and Amazon",
+    "ts": 1788881640,
+    "headline": "Cloud Capex to Cash: AWS Wins This Way, Alphabet Wins Another Way",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0c382cbcde9ba4178268a50dcc2b63d7dbc8013a1e3fd61d2e9e43c49ce4ea8e"
+    "url": "https://finnhub.io/api/news?id=c588f34a8e9f80e88f5cae6e0e74a4bb8c20c640cbe9bdb650c8a2924df9469b"
    },
    {
-    "ts": 1788794119,
-    "headline": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
+    "ts": 1788881591,
+    "headline": "Update: Market Chatter: Amazon Prime Air Cargo Plane Crashes at Miami Airport, Killing at Least 5",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb0691a9cce468da03f653426f3bea8ca9143c1dd284f0365fe1f7bfe52756fc"
+    "url": "https://finnhub.io/api/news?id=cca74a37489e474de7e347b23e14a7011bf73d3c631c596a40ec5e1c33fee27b"
    },
    {
-    "ts": 1788792776,
-    "headline": "The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here\u2019s What That Means for Your Portfolio",
+    "ts": 1788881403,
+    "headline": "Prediction: This Megacap Stock Could Crush the S&P 500 Through 2030",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42fbcd571f4e0ff319ea17c0fe94bd2d9085859a6a211459ff345ebc0a878b0d"
+    "url": "https://finnhub.io/api/news?id=5ed7a9e4691afa3f20cb414bee41ac1070e94dd96319a22caaaf09ff5222f0a8"
    },
    {
-    "ts": 1788792005,
-    "headline": "Are Retail-Wholesale Stocks Lagging  Amazon.com (AMZN) This Year?",
+    "ts": 1788880030,
+    "headline": "What investors 'really' need to see from Oracle earnings this week",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=645bc31ee7bf59b926ae27a3fab502e63dfbde1d7da2e2829960510937f98c2a"
+    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
    },
    {
-    "ts": 1788789604,
-    "headline": "Amazon.com, Inc. (AMZN) is Attracting Investor Attention: Here is What You Should Know",
+    "ts": 1788879600,
+    "headline": "Antioch Raises $32M to Bring Software Speed to Physical AI Development",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e2a93b759c872d09805baf70de8dda19b5d250b22a2a62d75b9ec40211a79c1f"
+    "url": "https://finnhub.io/api/news?id=65f95fc69942befd3d08c74cf63d52982a9901feb58557948d97e1dfa02fc515"
    },
    {
-    "ts": 1788788593,
-    "headline": "Amazon Cargo Jet Crash Puts Its Air Network in the Spotlight",
+    "ts": 1788879391,
+    "headline": "Amazon Just Handed Qualcomm a Slice of AWS\u2019s AI Buildout",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d176c52e85ce02fe3b19b9908beac39e801840625880c6464ae0119f84ef2986"
+    "url": "https://finnhub.io/api/news?id=6703f40f92b84495e824392f737bdca98811e91e51b0824c555374dde63ca3e7"
    },
    {
-    "ts": 1788788460,
-    "headline": "Is MercadoLibre Becoming Latin America's Leading Fintech?",
+    "ts": 1788879153,
+    "headline": "QCOM Stock Jumps After Amazon Inks $60B \u2018Multi-Generation\u2019 AI Chip Deal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9c0dc94bcc6a0539979e16cf6d20be2fbf78d12b8ec66e2558d3465eb7e64540"
+    "url": "https://finnhub.io/api/news?id=4470cbe3e2ee891ade47faa196d2065dad7afb9c72220acee77e55d75e6ceb29"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:09Z",
+  "fetched_at": "2026-09-08T16:52:18Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

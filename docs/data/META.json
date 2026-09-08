@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-07T20:58:39Z",
+ "generated_at": "2026-09-08T16:52:48Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:40Z",
-  "current": 616.77,
-  "change": 6.09,
-  "change_pct": 0.9972,
-  "high": 617.46,
-  "low": 605.27,
-  "open": 612.35,
-  "prev_close": 610.68,
-  "ts": 1788552000
+  "fetched_at": "2026-09-08T16:52:48Z",
+  "current": 618.06,
+  "change": 1.29,
+  "change_pct": 0.2092,
+  "high": 623.22,
+  "low": 613.1025,
+  "open": 613.1025,
+  "prev_close": 616.77,
+  "ts": 1788886360
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:40Z",
+  "fetched_at": "2026-09-08T16:52:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1571225339403.8027,
+  "mcap": 1571225408004.0,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-07T20:58:40Z",
+  "fetched_at": "2026-09-08T16:52:49Z",
   "bars": [
-   {
-    "date": "2023-02-03",
-    "open": 183.47,
-    "high": 196.77,
-    "low": 182.89,
-    "close": 186.53,
-    "volume": 76809700.0
-   },
    {
     "date": "2023-02-06",
     "open": 186.53,
@@ -7227,10 +7219,18 @@
     "low": 605.27002,
     "close": 616.77002,
     "volume": 15942700.0
+   },
+   {
+    "date": "2026-09-08",
+    "open": 616.3,
+    "high": 623.04,
+    "low": 613.595,
+    "close": 618.03,
+    "volume": 360292.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-04",
+  "latest": "2026-09-08",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:41Z",
+  "fetched_at": "2026-09-08T16:52:49Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T20:58:41Z",
+  "fetched_at": "2026-09-08T16:52:49Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.642334,
+  "forward_pe": 17.710127,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
   "short_asof": 1786665600,
-  "institutions_pct": 0.79115,
+  "institutions_pct": 0.79103994,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:41Z",
+  "fetched_at": "2026-09-08T16:52:49Z",
   "rows": [
    {
-    "ts": 1788795657,
-    "headline": "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
+    "ts": 1788879903,
+    "headline": "Could Apple Face a $17 Billion Child Safety Settlement Like Meta?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ed58ccb2a6d417bdb7eafb56f307cb7f915d6a5ce939224d2e07ec6d5f917b32"
+    "url": "https://finnhub.io/api/news?id=f691e846b0364299e58b2bef4d5350616ec4ddb792183d747bf71ffcf1a6757f"
    },
    {
-    "ts": 1788792602,
-    "headline": "Alphabet May Be the Mag 7 Stock Investors Are Underestimating",
+    "ts": 1788878594,
+    "headline": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eac300c64a3a9a78cebf60cea3ed85304c066ace4b6e74247e3ebe481aef4821"
+    "url": "https://finnhub.io/api/news?id=a9194cd3ff43d8a90631914d48ac8fa05beba20f0ee18f9ba4ee12f0a7cf7e8f"
    },
    {
-    "ts": 1788786005,
-    "headline": "Here is What to Know Beyond Why Meta Platforms, Inc. (META) is a Trending Stock",
+    "ts": 1788878220,
+    "headline": "Qualcomm Stock Pops as Amazon Deal Ramps Up AI Ambitions",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=723b6d5e2be061ee7dba61dc3ded4b24e32e135d73bb27b3fe442ea272df4370"
+    "url": "https://finnhub.io/api/news?id=6c3b4f8f8a8f53b4b3d5260871a8cd175f6e151469b858166abe91b06d7c1041"
    },
    {
-    "ts": 1788784459,
-    "headline": "Nvidia, Tech Giants Flash Stunning Market Signal",
+    "ts": 1788877815,
+    "headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1310e9180075f970c2c517c9fb196410fa7f00b17c9aedaa1d122cfebafd6117"
+    "url": "https://finnhub.io/api/news?id=acaac3e231b219dead21cf35728ae4ba89f07213d32012fca0a667dddee6c654"
    },
    {
-    "ts": 1788780263,
-    "headline": "Inside The Magic Box: Earnings Are Strong, Just Not As Strong As They Look",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3bfb9d95157e0012c38ff2306d43a708fc1c35cbef32fff940127f0b95569249"
+    "ts": 1788876000,
+    "headline": "One Chip, One Datacenter: Meta and Panmnesia Extend Tight Coupling Beyond the Rack with CXL \u2014 Published by Invitation from Nature",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=adf92af5b21e30e203267aeec951828c2e3f325a6bfb3c10017f8c93886d06d2"
    },
    {
-    "ts": 1788773400,
-    "headline": "AMD Is Now More Expensive Than Nvidia And Broadcom",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=468ca414ae5dd759343ad8e84d73fccf387a3544c952fe9adf7ce1e2f49cbd72"
+    "ts": 1788876000,
+    "headline": "SanDisk Up Over 40% Past Month: Can the Rally Last?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=eeae82cc500d8a6551b3bd18241777e324c6dffcf2fcccc0088b50bb8ee91c86"
    },
    {
-    "ts": 1788764006,
-    "headline": "Dan Ives Warns 10%-15% of US Data Center Projects Could Be Cut as AI Boom Faces Political Backlash, Calls It the \u2018Biggest Threat\u2019",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=7abce4d179c584a290d57f291ec59629cab396b92baf56269b73371ddb2c181a"
+    "ts": 1788875104,
+    "headline": "Wall Street Keeps Asking How Much Meta Will Spend. The Better Question Is at What Price to Buy",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b74ceb69f8eba1ddbc5fd99ebf78ab3ae2385261777be309a5f7e9394ddb247d"
    },
    {
-    "ts": 1788762600,
-    "headline": "Bypassing RevenueBench To Buy The Feedback Loop",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e5b71ec0e5b840a4e1521eb586d233afa6d7e4341a89c21ae7f0b26648a929b2"
+    "ts": 1788872400,
+    "headline": "Christopher Larsson Joins Vertical Data as Head of Infrastructure",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f1dff3ec5feb34399646cf1041ac105f87bdd8d6330caca12c308cf8a686a3b7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:42Z",
+  "fetched_at": "2026-09-08T16:52:50Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,

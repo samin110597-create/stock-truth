@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-07T20:58:18Z",
+ "generated_at": "2026-09-08T16:52:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:18Z",
-  "current": 335.31,
-  "change": -3.77,
-  "change_pct": -1.1118,
-  "high": 340.18,
-  "low": 333.75,
-  "open": 339.18,
-  "prev_close": 339.08,
-  "ts": 1788552000
+  "fetched_at": "2026-09-08T16:52:27Z",
+  "current": 335.59,
+  "change": 0.28,
+  "change_pct": 0.0835,
+  "high": 335.79,
+  "low": 330.39,
+  "open": 333.465,
+  "prev_close": 335.31,
+  "ts": 1788886312
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:18Z",
+  "fetched_at": "2026-09-08T16:52:27Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,16 +26,8 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-07T20:58:19Z",
+  "fetched_at": "2026-09-08T16:52:28Z",
   "bars": [
-   {
-    "date": "2023-02-03",
-    "open": 103.51,
-    "high": 108.019997,
-    "low": 103.3,
-    "close": 105.22,
-    "volume": 36823400.0
-   },
    {
     "date": "2023-02-06",
     "open": 102.685,
@@ -7227,10 +7219,18 @@
     "low": 333.75,
     "close": 335.31,
     "volume": 12676800.0
+   },
+   {
+    "date": "2026-09-08",
+    "open": 332.04,
+    "high": 335.78,
+    "low": 330.39,
+    "close": 335.57,
+    "volume": 190307.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-04",
+  "latest": "2026-09-08",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:19Z",
+  "fetched_at": "2026-09-08T16:52:28Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T20:58:19Z",
+  "fetched_at": "2026-09-08T16:52:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.573368,
-  "forward_eps": 14.85423,
+  "forward_pe": 22.580069,
+  "forward_eps": 14.85403,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:19Z",
+  "fetched_at": "2026-09-08T16:52:29Z",
   "rows": [
    {
-    "ts": 1788798000,
-    "headline": "Jabil Rises 36.2% Year to Date: Should You Buy the Stock?",
+    "ts": 1788881896,
+    "headline": "Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=44dddb55bb0d7ed25552d7253c8bf8e890e65c33b8405b205c6779707d7fd853"
+    "url": "https://finnhub.io/api/news?id=dec137ef4c25da8482ea1cd63d0d4f8ef271e13599501be70af394059e5bab3d"
    },
    {
-    "ts": 1788794119,
-    "headline": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
+    "ts": 1788881640,
+    "headline": "Cloud Capex to Cash: AWS Wins This Way, Alphabet Wins Another Way",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb0691a9cce468da03f653426f3bea8ca9143c1dd284f0365fe1f7bfe52756fc"
+    "url": "https://finnhub.io/api/news?id=c588f34a8e9f80e88f5cae6e0e74a4bb8c20c640cbe9bdb650c8a2924df9469b"
    },
    {
-    "ts": 1788793200,
-    "headline": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
+    "ts": 1788881135,
+    "headline": "Google\u2019s revived nuclear power plant gets $1.9B loan from US government",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3ee56adc580aeb1cfdce31ba37534e7d5f9b8531f9126d2dfb8877003cf73321"
+    "url": "https://finnhub.io/api/news?id=960ffc39eda500c762bda45bb97b78371ee509ba8fc1b8698617cfaf8035df22"
    },
    {
-    "ts": 1788792695,
-    "headline": "Apple Just Made a Move Most Investors Overlooked. This Is Why I Keep Buying The Stock",
+    "ts": 1788880624,
+    "headline": "Uber Technologies Poised to Benefit From Long-Term Trend for Autonomous Vehicles, Wedbush Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa"
+    "url": "https://finnhub.io/api/news?id=f0b25f2d7e51951fe97cc5aca38261fc77293fb05326bb849467f32a182796a7"
    },
    {
-    "ts": 1788792602,
-    "headline": "Alphabet May Be the Mag 7 Stock Investors Are Underestimating",
+    "ts": 1788880030,
+    "headline": "What investors 'really' need to see from Oracle earnings this week",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eac300c64a3a9a78cebf60cea3ed85304c066ace4b6e74247e3ebe481aef4821"
+    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
    },
    {
-    "ts": 1788791932,
-    "headline": "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
+    "ts": 1788879903,
+    "headline": "Could Apple Face a $17 Billion Child Safety Settlement Like Meta?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=10cacaa0c276487f38fdc13443277bde152a7bc9aa6864dd73b60840f308cc19"
+    "url": "https://finnhub.io/api/news?id=f691e846b0364299e58b2bef4d5350616ec4ddb792183d747bf71ffcf1a6757f"
    },
    {
-    "ts": 1788786028,
-    "headline": "Why Apple May Be the Safest AI Stock Nobody Calls an AI Stock",
+    "ts": 1788878594,
+    "headline": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755"
+    "url": "https://finnhub.io/api/news?id=a9194cd3ff43d8a90631914d48ac8fa05beba20f0ee18f9ba4ee12f0a7cf7e8f"
    },
    {
-    "ts": 1788785701,
-    "headline": "Apple\u2019s Sept. 9 Event Could Change Everything",
+    "ts": 1788877815,
+    "headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7c46515f3e0360d092fa73827d57f18f53306c6242bdeedafe81ba35a78d0a87"
+    "url": "https://finnhub.io/api/news?id=acaac3e231b219dead21cf35728ae4ba89f07213d32012fca0a667dddee6c654"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:20Z",
+  "fetched_at": "2026-09-08T16:52:29Z",
   "error": "no insider filings in six months"
  },
  "peers": {

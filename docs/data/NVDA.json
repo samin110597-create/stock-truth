@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-07T20:58:29Z",
+ "generated_at": "2026-09-08T16:52:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:29Z",
-  "current": 230.36,
-  "change": 1.91,
-  "change_pct": 0.8361,
-  "high": 234.76,
-  "low": 229.63,
-  "open": 231.09,
-  "prev_close": 228.45,
-  "ts": 1788552000
+  "fetched_at": "2026-09-08T16:52:38Z",
+  "current": 225.84,
+  "change": -4.52,
+  "change_pct": -1.9621,
+  "high": 233.71,
+  "low": 225.55,
+  "open": 232.13,
+  "prev_close": 230.36,
+  "ts": 1788886337
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:29Z",
+  "fetched_at": "2026-09-08T16:52:38Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5551675925838.097,
+  "mcap": 5551676014709.0,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-07T20:58:30Z",
+  "fetched_at": "2026-09-08T16:52:39Z",
   "bars": [
-   {
-    "date": "2023-02-03",
-    "open": 21.0,
-    "high": 21.745,
-    "low": 20.789,
-    "close": 21.1,
-    "volume": 429366000.0
-   },
    {
     "date": "2023-02-06",
     "open": 20.806,
@@ -7227,10 +7219,18 @@
     "low": 229.63,
     "close": 230.36,
     "volume": 134946800.0
+   },
+   {
+    "date": "2026-09-08",
+    "open": 233.17,
+    "high": 233.69,
+    "low": 225.55,
+    "close": 225.8,
+    "volume": 2242994.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-04",
+  "latest": "2026-09-08",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:30Z",
+  "fetched_at": "2026-09-08T16:52:39Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T20:58:30Z",
+  "fetched_at": "2026-09-08T16:52:39Z",
   "analyst_target_mean": 327.12808,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.843682,
+  "forward_pe": 14.548883,
   "forward_eps": 15.51906,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
-  "institutions_pct": 0.71545,
+  "institutions_pct": 0.71542,
   "insiders_pct": 0.04007,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:30Z",
+  "fetched_at": "2026-09-08T16:52:39Z",
   "rows": [
    {
-    "ts": 1788799140,
-    "headline": "1 Stat That Makes Costco Hard to Ignore this September",
+    "ts": 1788882563,
+    "headline": "Novartis\u2019s Pipeline Just Lost Two Big Bets",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb18f714fda83bd60a692cbfddf9735cdf2cc14fe004910f1889b74157a4f418"
+    "url": "https://finnhub.io/api/news?id=b4b932738c5a2d72e7899af1221935800c1b44e1c20c624806861f6175f2eb60"
    },
    {
-    "ts": 1788799020,
-    "headline": "Up 26% in 2026, Is Coca-Cola a Buy Near an All-Time High?",
+    "ts": 1788881700,
+    "headline": "If I Could Invest $500 in Just 1 ETF in September, Here's What I'd Buy",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc58735c2e268622cdb2b60372b4b56194f0e75eaea492afd4473dc018f3cd58"
+    "url": "https://finnhub.io/api/news?id=ade20c3bb088369ffcc85b0510cfffe17122aa9e852ad9e3c2da54e1b94a089a"
    },
    {
-    "ts": 1788798300,
-    "headline": "What If the Clarity Act Doesn't Pass This Year? Here Are 3 Ways to Bulletproof Your Crypto Portfolio.",
+    "ts": 1788881679,
+    "headline": "Nvidia\u2019s New Partner Says Banks Want AI on Machines They Can Unplug",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=04cf90d6658bb59287c971a7ecbdea09a06259ea4b3739333c02f24ba9cf0d35"
+    "url": "https://finnhub.io/api/news?id=a2bd274efde77bd159c943f55af06f018f8e82ee5da6dcc35c419d38f8d35141"
    },
    {
-    "ts": 1788798001,
-    "headline": "What's Wrong With PepsiCo Stock?",
+    "ts": 1788881363,
+    "headline": "Why D-Wave Quantum Stock Popped Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f5605ef5323b02d2ef76dfd77a0ea86515c9486606a9079d3b9e296b5237daec"
+    "url": "https://finnhub.io/api/news?id=d00e77021a14c807377675495cc3b9de012b19cb52d48656f68be22d4204f3a1"
    },
    {
-    "ts": 1788797100,
-    "headline": "Caterpillar's Power Generation Backlog Just Hit $72 Billion. The Construction Cycle Barely Matters Anymore.",
+    "ts": 1788880800,
+    "headline": "Where Will CRISPR Therapeutics Stock Be in 5 Years?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4a729d7e3a6e8ca0e894aec5b980f5438d95f79edfd86290591b737842e5ffd0"
+    "url": "https://finnhub.io/api/news?id=688561018bcaa917b9a5a41e8f86658a16787de652ee84aece614728c020f4a0"
    },
    {
-    "ts": 1788796822,
-    "headline": "Everyone Is Watching Nvidia. But This Memory Stock Could Be the Next AI Winner",
+    "ts": 1788880212,
+    "headline": "Cramer Says It\u2019s Time To Buy The Dip on JNJ",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=609fd8dc7ca05cb32273a37e4bf4e411a5b7aaa02536fa011c5e01eb09f77ee1"
+    "url": "https://finnhub.io/api/news?id=1459d852c5cf1a923b01ee1ca27949ec1696499029b7a48c7884b7367c37778b"
    },
    {
-    "ts": 1788796201,
-    "headline": "Has Nike's Stock Bottomed Out?",
+    "ts": 1788880150,
+    "headline": "Rubis Turns Expensive Oil Into a Guidance Upgrade",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e975fd90f7b798480493cc314dccf3ca1f6659db1ed151380c8712c762c87b12"
+    "url": "https://finnhub.io/api/news?id=493ffe4f8c8d7621dd252f33eda6e541576fe19dd369b287d55eae70e75cd3fc"
    },
    {
-    "ts": 1788796200,
-    "headline": "Most People Asking \"What Should I Invest In?\" Are Overthinking It. Start With Index Funds and These 4 Stocks.",
+    "ts": 1788880030,
+    "headline": "What investors 'really' need to see from Oracle earnings this week",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=93180b1bc757d71d438da8407a077087cc59e9a4c91348a7be90023013e6e996"
+    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-07T20:58:30Z",
+  "fetched_at": "2026-09-08T16:52:39Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,
