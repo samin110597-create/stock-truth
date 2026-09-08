@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-08T19:38:15Z",
+ "generated_at": "2026-09-08T22:04:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:15Z",
-  "current": 225.7,
-  "change": -4.66,
-  "change_pct": -2.0229,
+  "fetched_at": "2026-09-08T22:04:02Z",
+  "current": 225.73,
+  "change": -4.63,
+  "change_pct": -2.0099,
   "high": 233.71,
-  "low": 225.25,
-  "open": 232.13,
+  "low": 224.85,
+  "open": 233.11,
   "prev_close": 230.36,
-  "ts": 1788896260
+  "ts": 1788897600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:15Z",
+  "fetched_at": "2026-09-08T22:04:02Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T19:38:15Z",
+  "fetched_at": "2026-09-08T22:04:03Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-08",
-    "open": 233.17,
-    "high": 233.69,
-    "low": 225.26,
-    "close": 225.66,
-    "volume": 3083350.0
+    "open": 233.21001,
+    "high": 233.71001,
+    "low": 224.85,
+    "close": 225.77,
+    "volume": 100374352.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:16Z",
+  "fetched_at": "2026-09-08T22:04:03Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T19:38:16Z",
+  "fetched_at": "2026-09-08T22:04:03Z",
   "analyst_target_mean": 327.12808,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.548883,
+  "forward_pe": 14.54534,
   "forward_eps": 15.51906,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:16Z",
+  "fetched_at": "2026-09-08T22:04:03Z",
   "rows": [
    {
-    "ts": 1788890700,
-    "headline": "Which S&P500 stocks are the most active on Tuesday?",
+    "ts": 1788896701,
+    "headline": "Why Nebius Stock Jumped Today",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=69a068883347b8c33063474d34f1561a1f9f6fca07abd60f84bf58fd58327c53"
+   },
+   {
+    "ts": 1788895501,
+    "headline": "NextEra Just Secured Up to $1.9 Billion to Restart Iowa's Only Nuclear Plant. Here's The Real Reason Why.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ce672e316b6159b0218699015d82a416416fc241c9199b85aa152fb4ebcf3a21"
+   },
+   {
+    "ts": 1788895200,
+    "headline": "Prediction: This Overlooked International ETF Will Outperform the S&P 500 Over the Next 20 Years",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=84c560a226e80ac3f5db91fa9f1d5e24b3b75f9dd72702aecaca34b330e7c7fa"
+   },
+   {
+    "ts": 1788894897,
+    "headline": "Why Broadcom Stock Rallied Tuesday Morning",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1456dbfd7d4bbf92713a586286d1a1659ac9bb2d58dae1518b25e3baf75de046"
+   },
+   {
+    "ts": 1788894604,
+    "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=71df634472679672cbba113b47bdb93092bfd0fa038e96e7e1e616b1bf5b7146"
+    "url": "https://finnhub.io/api/news?id=c0bbe00c3de9e1f537c499d1785bfb81b11a11392b437598f038f326339af575"
    },
    {
-    "ts": 1788890400,
-    "headline": "Curious about the most active stocks on Tuesday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=e7ff2c19b1ea0dd0b5fc7c743285265a03298aa5dceb13fe5ea04cab8325a641"
-   },
-   {
-    "ts": 1788889797,
-    "headline": "Does Michael Burry Have It Wrong? Nvidia Chips Retain Value, Data Shows",
+    "ts": 1788894600,
+    "headline": "Why Today's AI Boom Differs From the Internet Bubble",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a620b1afece6eac95e5ea96128771a32ec6085f430adeab8403f7c5d1b0bb56c"
+    "url": "https://finnhub.io/api/news?id=6b3967b90ac1c0647ab05789e0d02c1332e86091b1e5ddba7905106a004be673"
    },
    {
-    "ts": 1788888901,
-    "headline": "The Earnings Report That Could Move the Market",
+    "ts": 1788894000,
+    "headline": "James Altucher: Elon Musk's Next Move Could Eclipse Everything He's Ever Built, and It May Be His Last",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fe8f338510a9436ca464629f930125d69fbab8a9f51f1c7db990cde157ab9092"
+    "url": "https://finnhub.io/api/news?id=06fdad6af46f1bc9172ed7416615e908b6dde2340d9e2760b1de7415a7cb0c3c"
    },
    {
-    "ts": 1788888900,
-    "headline": "Forget Occidental Petroleum. Buy This Pipeline Stock in September Instead.",
+    "ts": 1788893820,
+    "headline": "1 No-Brainer ETF I'm Loading Up on in 2026 and Beyond",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d7b4b1d7a2a84e52d0b3f55ca76193f9b883d73bdc64d683d17fb5459e91c0a5"
-   },
-   {
-    "ts": 1788888627,
-    "headline": "Arm\u2019s Biggest Growth Driver May Not Be Smartphones Anymore",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a"
-   },
-   {
-    "ts": 1788887883,
-    "headline": "Jim Cramer picks Nvidia and Broadcom as OpenAI GPT-6 Astra winners",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a258fb0ecda1f0840b671c27b7dc5752eb762de96be049a9078992e2e1cb9ae4"
-   },
-   {
-    "ts": 1788887304,
-    "headline": "GinsGlobal: ITEK up 13% YTD as AI, cybersecurity and defence tech drive rotation",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=57bf5a79c5a0021c38c9128d74a797f39d326681f60ef64b7b05e191f2c5f45f"
+    "url": "https://finnhub.io/api/news?id=d465ab39b7d602358ab5e117aa5d8a3b70249991cadce3461f65593fe55c6124"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:16Z",
+  "fetched_at": "2026-09-08T22:04:03Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,

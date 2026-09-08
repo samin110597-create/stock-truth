@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-08T19:37:49Z",
+ "generated_at": "2026-09-08T22:03:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:37:50Z",
-  "current": 256.72,
-  "change": -1.79,
-  "change_pct": -0.6924,
+  "fetched_at": "2026-09-08T22:03:40Z",
+  "current": 256.97,
+  "change": -1.54,
+  "change_pct": -0.5957,
   "high": 257.99,
   "low": 254.75,
-  "open": 257.0375,
+  "open": 256.675,
   "prev_close": 258.51,
-  "ts": 1788896260
+  "ts": 1788897600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:37:50Z",
+  "fetched_at": "2026-09-08T22:03:40Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T19:37:50Z",
+  "fetched_at": "2026-09-08T22:03:41Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-08",
-    "open": 256.6,
+    "open": 256.76001,
     "high": 257.99,
     "low": 254.75,
-    "close": 256.695,
-    "volume": 922348.0
+    "close": 256.95999,
+    "volume": 21134008.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:37:50Z",
+  "fetched_at": "2026-09-08T22:03:41Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T19:37:51Z",
+  "fetched_at": "2026-09-08T22:03:42Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.67905,
+  "forward_pe": 24.707893,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:37:51Z",
+  "fetched_at": "2026-09-08T22:03:42Z",
   "rows": [
    {
-    "ts": 1788889306,
-    "headline": "Sector Update: Tech Stocks Gain Tuesday Afternoon",
+    "ts": 1788897072,
+    "headline": "Sector Update: Tech Stocks Rise Late Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=36fcd8baf08f803b3dfd780713c80799ffe2fc5d5abc3464db5d761d1a0c9975"
+    "url": "https://finnhub.io/api/news?id=2d497d3dd33abc83c11ee636ae98c94220ee63fa1e1879442691e4e523db3eff"
    },
    {
-    "ts": 1788889232,
-    "headline": "Sector Update: Consumer Stocks Decline in Afternoon Trading",
+    "ts": 1788895827,
+    "headline": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c648ec10819e8496d10ba91d4a241689a3d8decc35398cc956fa296935f71232"
+    "url": "https://finnhub.io/api/news?id=2f37a657654100ecfda7d8c506a3d76ffe1d4522e3bba0ce8983d49e4274f483"
    },
    {
-    "ts": 1788888648,
-    "headline": "Qualcomm Stock Soars -- Amazon Strikes Major AI Chip Partnership",
+    "ts": 1788894928,
+    "headline": "Will Direct TPU Sales Re-Rate Google Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=16b2f3f6aea6b463a60eb8e65bffc1c8ee54422bdac9d88303f0d2d486f5d59d"
+    "url": "https://finnhub.io/api/news?id=7bf7784ad8617d4e31f63060f58d78c9f9e32103074410916897c7df2cd07846"
    },
    {
-    "ts": 1788888231,
-    "headline": "Amazon's AI Buildout Is Starting to Show Up in Its Debt",
+    "ts": 1788894724,
+    "headline": "Boeing Trails Airbus in August Deliveries, Orders",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b242676873c9725814b1bbb1d482068a45ee0288aba0d08e69abc0cb02220871"
+    "url": "https://finnhub.io/api/news?id=f273e1c8a0da7ccf9e33dc9452b6c12f95a8c004d3bc69b88e9680a3e940ae82"
    },
    {
-    "ts": 1788887012,
-    "headline": "T, AMZN Stocks In Focus \u2014 AT&T, Amazon Leo Partner To Expand Satellite Broadband For Businesses",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d6fc5e09f0abc2e9a89105bf9a273cf915a182bb2146a3e24e640c1485f1b38c"
+    "ts": 1788894604,
+    "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=c0bbe00c3de9e1f537c499d1785bfb81b11a11392b437598f038f326339af575"
    },
    {
-    "ts": 1788886848,
-    "headline": "Qualcomm and Amazon ink deal for custom data center chips",
+    "ts": 1788893342,
+    "headline": "Qualcomm Stock Rises 6% on Multi-Generation Amazon Silicon Deal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9fd5e4e9fc139bb54e10af0d361566e09041813ac5afe8c7ce82f9aa3d63eb90"
+    "url": "https://finnhub.io/api/news?id=69bbc588039b26cd957a7bdda3f15d14b7fed1edb63ee180bd77f89f4dba8ee6"
    },
    {
-    "ts": 1788886662,
-    "headline": "Qualcomm to Supply Customized AI Chips to Amazon Web Services' Data Centers",
+    "ts": 1788893199,
+    "headline": "The Market Marked AMZN Stock Down. The Numbers Push Back",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dc7dc2c15897374819abc48efec0352649d625b86499c39c03f2a38fba03693e"
+    "url": "https://finnhub.io/api/news?id=5ce6f03196ffe44a15f11ff3a3b0856ac53674d6cffc3ff3dff881dd6b44e31b"
    },
    {
-    "ts": 1788886505,
-    "headline": "Best Small Towns To Retire In and More of Today\u2019s Top Money News",
+    "ts": 1788890572,
+    "headline": "Qualcomm Calls Amazon Pact a Landmark Deal, Backs $15B Data-Center Goal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a21317311fe8ad90f79ac7b85a44848e7e5b6849bd92702b8d6063902393f0e"
+    "url": "https://finnhub.io/api/news?id=eecb8b3c004775ffffd703b2eddf68bf67fdf85e15ce64d549ec486490dbead7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:37:51Z",
+  "fetched_at": "2026-09-08T22:03:42Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

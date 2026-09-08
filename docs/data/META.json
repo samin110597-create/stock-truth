@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-08T19:38:25Z",
+ "generated_at": "2026-09-08T22:04:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:25Z",
-  "current": 614.7,
-  "change": -2.07,
-  "change_pct": -0.3356,
+  "fetched_at": "2026-09-08T22:04:13Z",
+  "current": 613.48,
+  "change": -3.29,
+  "change_pct": -0.5334,
   "high": 624.8,
   "low": 609.74,
-  "open": 613.1025,
+  "open": 616.205,
   "prev_close": 616.77,
-  "ts": 1788896283
+  "ts": 1788897600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:25Z",
+  "fetched_at": "2026-09-08T22:04:13Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T19:38:26Z",
+  "fetched_at": "2026-09-08T22:04:13Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-08",
-    "open": 616.3,
-    "high": 624.77,
-    "low": 609.93,
-    "close": 614.585,
-    "volume": 726223.0
+    "open": 615.875,
+    "high": 624.79999,
+    "low": 609.73999,
+    "close": 613.31,
+    "volume": 13539897.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:26Z",
+  "fetched_at": "2026-09-08T22:04:14Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T19:38:26Z",
+  "fetched_at": "2026-09-08T22:04:14Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.58055,
+  "forward_pe": 17.548225,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,38 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:26Z",
+  "fetched_at": "2026-09-08T22:04:14Z",
   "rows": [
+   {
+    "ts": 1788897084,
+    "headline": "Meta stock wavers as Zuckerberg unveils \u2018Muse\u2019 autonomous AI assistant",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1a18e28e0ad74a3182d2261b4d375390276a96d49d30a873fe77ea86e6d98ab1"
+   },
+   {
+    "ts": 1788894928,
+    "headline": "Will Direct TPU Sales Re-Rate Google Stock?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7bf7784ad8617d4e31f63060f58d78c9f9e32103074410916897c7df2cd07846"
+   },
+   {
+    "ts": 1788893342,
+    "headline": "Qualcomm Stock Rises 6% on Multi-Generation Amazon Silicon Deal",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=69bbc588039b26cd957a7bdda3f15d14b7fed1edb63ee180bd77f89f4dba8ee6"
+   },
+   {
+    "ts": 1788893199,
+    "headline": "The Market Marked AMZN Stock Down. The Numbers Push Back",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5ce6f03196ffe44a15f11ff3a3b0856ac53674d6cffc3ff3dff881dd6b44e31b"
+   },
+   {
+    "ts": 1788892434,
+    "headline": "RUM Group Just Gained 33% in a Month: Take Profits, or Buy More?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1a507fc3056d39d53292ed7df9dc53cc65fc9901526aecafe22fc07743aa0a4a"
+   },
    {
     "ts": 1788887524,
     "headline": "Australia Targets Meta's Jugular: Hyper-Personal Social Feeds",
@@ -7491,43 +7521,13 @@
     "headline": "Could Apple Face a $17 Billion Child Safety Settlement Like Meta?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=f691e846b0364299e58b2bef4d5350616ec4ddb792183d747bf71ffcf1a6757f"
-   },
-   {
-    "ts": 1788878594,
-    "headline": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a9194cd3ff43d8a90631914d48ac8fa05beba20f0ee18f9ba4ee12f0a7cf7e8f"
-   },
-   {
-    "ts": 1788878220,
-    "headline": "Qualcomm Stock Pops as Amazon Deal Ramps Up AI Ambitions",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c3b4f8f8a8f53b4b3d5260871a8cd175f6e151469b858166abe91b06d7c1041"
-   },
-   {
-    "ts": 1788877815,
-    "headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=acaac3e231b219dead21cf35728ae4ba89f07213d32012fca0a667dddee6c654"
-   },
-   {
-    "ts": 1788876000,
-    "headline": "One Chip, One Datacenter: Meta and Panmnesia Extend Tight Coupling Beyond the Rack with CXL \u2014 Published by Invitation from Nature",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=adf92af5b21e30e203267aeec951828c2e3f325a6bfb3c10017f8c93886d06d2"
-   },
-   {
-    "ts": 1788876000,
-    "headline": "SanDisk Up Over 40% Past Month: Can the Rally Last?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eeae82cc500d8a6551b3bd18241777e324c6dffcf2fcccc0088b50bb8ee91c86"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T19:38:28Z",
+  "fetched_at": "2026-09-08T22:04:14Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,
