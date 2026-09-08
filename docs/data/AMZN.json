@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-08T16:52:14Z",
+ "generated_at": "2026-09-08T19:37:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:15Z",
-  "current": 257.45,
-  "change": -1.06,
-  "change_pct": -0.41,
-  "high": 257.69,
+  "fetched_at": "2026-09-08T19:37:50Z",
+  "current": 256.72,
+  "change": -1.79,
+  "change_pct": -0.6924,
+  "high": 257.99,
   "low": 254.75,
   "open": 257.0375,
   "prev_close": 258.51,
-  "ts": 1788886314
+  "ts": 1788896260
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:15Z",
+  "fetched_at": "2026-09-08T19:37:50Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T16:52:17Z",
+  "fetched_at": "2026-09-08T19:37:50Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-08",
     "open": 256.6,
-    "high": 257.63,
+    "high": 257.99,
     "low": 254.75,
-    "close": 257.25,
-    "volume": 617714.0
+    "close": 256.695,
+    "volume": 922348.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:17Z",
+  "fetched_at": "2026-09-08T19:37:50Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T16:52:18Z",
+  "fetched_at": "2026-09-08T19:37:51Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.735779,
+  "forward_pe": 24.67905,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:18Z",
+  "fetched_at": "2026-09-08T19:37:51Z",
   "rows": [
    {
-    "ts": 1788882330,
-    "headline": "Top Midday Stories: GE Aerospace to Acquire Consolidated Precision Products; Qualcomm Issues Share Warrant to Amazon",
+    "ts": 1788889306,
+    "headline": "Sector Update: Tech Stocks Gain Tuesday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2ae8a832851f7b2f5438b8a6af3fee6b2b8bd035b6bc97e978a449770023779d"
+    "url": "https://finnhub.io/api/news?id=36fcd8baf08f803b3dfd780713c80799ffe2fc5d5abc3464db5d761d1a0c9975"
    },
    {
-    "ts": 1788881640,
-    "headline": "Cloud Capex to Cash: AWS Wins This Way, Alphabet Wins Another Way",
+    "ts": 1788889232,
+    "headline": "Sector Update: Consumer Stocks Decline in Afternoon Trading",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c588f34a8e9f80e88f5cae6e0e74a4bb8c20c640cbe9bdb650c8a2924df9469b"
+    "url": "https://finnhub.io/api/news?id=c648ec10819e8496d10ba91d4a241689a3d8decc35398cc956fa296935f71232"
    },
    {
-    "ts": 1788881591,
-    "headline": "Update: Market Chatter: Amazon Prime Air Cargo Plane Crashes at Miami Airport, Killing at Least 5",
+    "ts": 1788888648,
+    "headline": "Qualcomm Stock Soars -- Amazon Strikes Major AI Chip Partnership",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cca74a37489e474de7e347b23e14a7011bf73d3c631c596a40ec5e1c33fee27b"
+    "url": "https://finnhub.io/api/news?id=16b2f3f6aea6b463a60eb8e65bffc1c8ee54422bdac9d88303f0d2d486f5d59d"
    },
    {
-    "ts": 1788881403,
-    "headline": "Prediction: This Megacap Stock Could Crush the S&P 500 Through 2030",
+    "ts": 1788888231,
+    "headline": "Amazon's AI Buildout Is Starting to Show Up in Its Debt",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5ed7a9e4691afa3f20cb414bee41ac1070e94dd96319a22caaaf09ff5222f0a8"
+    "url": "https://finnhub.io/api/news?id=b242676873c9725814b1bbb1d482068a45ee0288aba0d08e69abc0cb02220871"
    },
    {
-    "ts": 1788880030,
-    "headline": "What investors 'really' need to see from Oracle earnings this week",
+    "ts": 1788887012,
+    "headline": "T, AMZN Stocks In Focus \u2014 AT&T, Amazon Leo Partner To Expand Satellite Broadband For Businesses",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
+    "url": "https://finnhub.io/api/news?id=d6fc5e09f0abc2e9a89105bf9a273cf915a182bb2146a3e24e640c1485f1b38c"
    },
    {
-    "ts": 1788879600,
-    "headline": "Antioch Raises $32M to Bring Software Speed to Physical AI Development",
+    "ts": 1788886848,
+    "headline": "Qualcomm and Amazon ink deal for custom data center chips",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=65f95fc69942befd3d08c74cf63d52982a9901feb58557948d97e1dfa02fc515"
+    "url": "https://finnhub.io/api/news?id=9fd5e4e9fc139bb54e10af0d361566e09041813ac5afe8c7ce82f9aa3d63eb90"
    },
    {
-    "ts": 1788879391,
-    "headline": "Amazon Just Handed Qualcomm a Slice of AWS\u2019s AI Buildout",
+    "ts": 1788886662,
+    "headline": "Qualcomm to Supply Customized AI Chips to Amazon Web Services' Data Centers",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6703f40f92b84495e824392f737bdca98811e91e51b0824c555374dde63ca3e7"
+    "url": "https://finnhub.io/api/news?id=dc7dc2c15897374819abc48efec0352649d625b86499c39c03f2a38fba03693e"
    },
    {
-    "ts": 1788879153,
-    "headline": "QCOM Stock Jumps After Amazon Inks $60B \u2018Multi-Generation\u2019 AI Chip Deal",
+    "ts": 1788886505,
+    "headline": "Best Small Towns To Retire In and More of Today\u2019s Top Money News",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4470cbe3e2ee891ade47faa196d2065dad7afb9c72220acee77e55d75e6ceb29"
+    "url": "https://finnhub.io/api/news?id=0a21317311fe8ad90f79ac7b85a44848e7e5b6849bd92702b8d6063902393f0e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:18Z",
+  "fetched_at": "2026-09-08T19:37:51Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-08T16:52:38Z",
+ "generated_at": "2026-09-08T19:38:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:38Z",
-  "current": 225.84,
-  "change": -4.52,
-  "change_pct": -1.9621,
+  "fetched_at": "2026-09-08T19:38:15Z",
+  "current": 225.7,
+  "change": -4.66,
+  "change_pct": -2.0229,
   "high": 233.71,
-  "low": 225.55,
+  "low": 225.25,
   "open": 232.13,
   "prev_close": 230.36,
-  "ts": 1788886337
+  "ts": 1788896260
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:38Z",
+  "fetched_at": "2026-09-08T19:38:15Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T16:52:39Z",
+  "fetched_at": "2026-09-08T19:38:15Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-08",
     "open": 233.17,
     "high": 233.69,
-    "low": 225.55,
-    "close": 225.8,
-    "volume": 2242994.0
+    "low": 225.26,
+    "close": 225.66,
+    "volume": 3083350.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:39Z",
+  "fetched_at": "2026-09-08T19:38:16Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T16:52:39Z",
+  "fetched_at": "2026-09-08T19:38:16Z",
   "analyst_target_mean": 327.12808,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:39Z",
+  "fetched_at": "2026-09-08T19:38:16Z",
   "rows": [
    {
-    "ts": 1788882563,
-    "headline": "Novartis\u2019s Pipeline Just Lost Two Big Bets",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b4b932738c5a2d72e7899af1221935800c1b44e1c20c624806861f6175f2eb60"
+    "ts": 1788890700,
+    "headline": "Which S&P500 stocks are the most active on Tuesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=71df634472679672cbba113b47bdb93092bfd0fa038e96e7e1e616b1bf5b7146"
    },
    {
-    "ts": 1788881700,
-    "headline": "If I Could Invest $500 in Just 1 ETF in September, Here's What I'd Buy",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ade20c3bb088369ffcc85b0510cfffe17122aa9e852ad9e3c2da54e1b94a089a"
+    "ts": 1788890400,
+    "headline": "Curious about the most active stocks on Tuesday?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=e7ff2c19b1ea0dd0b5fc7c743285265a03298aa5dceb13fe5ea04cab8325a641"
    },
    {
-    "ts": 1788881679,
-    "headline": "Nvidia\u2019s New Partner Says Banks Want AI on Machines They Can Unplug",
+    "ts": 1788889797,
+    "headline": "Does Michael Burry Have It Wrong? Nvidia Chips Retain Value, Data Shows",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a2bd274efde77bd159c943f55af06f018f8e82ee5da6dcc35c419d38f8d35141"
+    "url": "https://finnhub.io/api/news?id=a620b1afece6eac95e5ea96128771a32ec6085f430adeab8403f7c5d1b0bb56c"
    },
    {
-    "ts": 1788881363,
-    "headline": "Why D-Wave Quantum Stock Popped Today",
+    "ts": 1788888901,
+    "headline": "The Earnings Report That Could Move the Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d00e77021a14c807377675495cc3b9de012b19cb52d48656f68be22d4204f3a1"
+    "url": "https://finnhub.io/api/news?id=fe8f338510a9436ca464629f930125d69fbab8a9f51f1c7db990cde157ab9092"
    },
    {
-    "ts": 1788880800,
-    "headline": "Where Will CRISPR Therapeutics Stock Be in 5 Years?",
+    "ts": 1788888900,
+    "headline": "Forget Occidental Petroleum. Buy This Pipeline Stock in September Instead.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=688561018bcaa917b9a5a41e8f86658a16787de652ee84aece614728c020f4a0"
+    "url": "https://finnhub.io/api/news?id=d7b4b1d7a2a84e52d0b3f55ca76193f9b883d73bdc64d683d17fb5459e91c0a5"
    },
    {
-    "ts": 1788880212,
-    "headline": "Cramer Says It\u2019s Time To Buy The Dip on JNJ",
+    "ts": 1788888627,
+    "headline": "Arm\u2019s Biggest Growth Driver May Not Be Smartphones Anymore",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1459d852c5cf1a923b01ee1ca27949ec1696499029b7a48c7884b7367c37778b"
+    "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a"
    },
    {
-    "ts": 1788880150,
-    "headline": "Rubis Turns Expensive Oil Into a Guidance Upgrade",
+    "ts": 1788887883,
+    "headline": "Jim Cramer picks Nvidia and Broadcom as OpenAI GPT-6 Astra winners",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=493ffe4f8c8d7621dd252f33eda6e541576fe19dd369b287d55eae70e75cd3fc"
+    "url": "https://finnhub.io/api/news?id=a258fb0ecda1f0840b671c27b7dc5752eb762de96be049a9078992e2e1cb9ae4"
    },
    {
-    "ts": 1788880030,
-    "headline": "What investors 'really' need to see from Oracle earnings this week",
+    "ts": 1788887304,
+    "headline": "GinsGlobal: ITEK up 13% YTD as AI, cybersecurity and defence tech drive rotation",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
+    "url": "https://finnhub.io/api/news?id=57bf5a79c5a0021c38c9128d74a797f39d326681f60ef64b7b05e191f2c5f45f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:39Z",
+  "fetched_at": "2026-09-08T19:38:16Z",
   "buys": 7,
   "sells": 62,
   "net_shares": -4687529.0,

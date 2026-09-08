@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-08T16:52:27Z",
+ "generated_at": "2026-09-08T19:38:00Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:27Z",
-  "current": 335.59,
-  "change": 0.28,
-  "change_pct": 0.0835,
-  "high": 335.79,
+  "fetched_at": "2026-09-08T19:38:00Z",
+  "current": 334.39,
+  "change": -0.92,
+  "change_pct": -0.2744,
+  "high": 336.48,
   "low": 330.39,
   "open": 333.465,
   "prev_close": 335.31,
-  "ts": 1788886312
+  "ts": 1788896259
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:27Z",
+  "fetched_at": "2026-09-08T19:38:00Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T16:52:28Z",
+  "fetched_at": "2026-09-08T19:38:04Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-08",
     "open": 332.04,
-    "high": 335.78,
+    "high": 336.46,
     "low": 330.39,
-    "close": 335.57,
-    "volume": 190307.0
+    "close": 334.34,
+    "volume": 349750.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:28Z",
+  "fetched_at": "2026-09-08T19:38:05Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T16:52:29Z",
+  "fetched_at": "2026-09-08T19:38:05Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.580069,
+  "forward_pe": 22.50837,
   "forward_eps": 14.85403,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,8 +7463,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:29Z",
+  "fetched_at": "2026-09-08T19:38:05Z",
   "rows": [
+   {
+    "ts": 1788887524,
+    "headline": "Australia Targets Meta's Jugular: Hyper-Personal Social Feeds",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=db0ef3bece498a5ad63500c9c0004aa8e188361f9963e0d93fd6a1041423e968"
+   },
+   {
+    "ts": 1788887514,
+    "headline": "Oracle stock rises as OpenAI launches ChatGPT-6 Astra",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c90b0876063229ec9db6a65cd85d9be3965171e467cf0265d8c49abf1b075def"
+   },
+   {
+    "ts": 1788884760,
+    "headline": "Is Alphabet Stock Undervalued?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7f0ecd7f096e2ca6f25f442723df0c9a5e2936fd0dea3e6f80b5b77e3535c2d9"
+   },
+   {
+    "ts": 1788884431,
+    "headline": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=851bd2b3e112a7b354693ac47a5704a453123785feaacd4a41cfc6b38780e345"
+   },
    {
     "ts": 1788881896,
     "headline": "Uber Stock Falls As Wall Street Sizes Up Tesla's Cybercab Rollout",
@@ -7488,37 +7512,13 @@
     "headline": "Uber Technologies Poised to Benefit From Long-Term Trend for Autonomous Vehicles, Wedbush Says",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=f0b25f2d7e51951fe97cc5aca38261fc77293fb05326bb849467f32a182796a7"
-   },
-   {
-    "ts": 1788880030,
-    "headline": "What investors 'really' need to see from Oracle earnings this week",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=34db42e3448575350d25d2202986ae48a28d403696ffcb85925d7e845adfdb2d"
-   },
-   {
-    "ts": 1788879903,
-    "headline": "Could Apple Face a $17 Billion Child Safety Settlement Like Meta?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f691e846b0364299e58b2bef4d5350616ec4ddb792183d747bf71ffcf1a6757f"
-   },
-   {
-    "ts": 1788878594,
-    "headline": "Beyond Social: Meta Is Buying the Future of Compute So I\u2019m Buying It",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a9194cd3ff43d8a90631914d48ac8fa05beba20f0ee18f9ba4ee12f0a7cf7e8f"
-   },
-   {
-    "ts": 1788877815,
-    "headline": "Alphabet Stock Is Pulling Back From Its High. Here\u2019s Why I\u2019d Buy the Dip.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=acaac3e231b219dead21cf35728ae4ba89f07213d32012fca0a667dddee6c654"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:29Z",
+  "fetched_at": "2026-09-08T19:38:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-08T16:52:48Z",
+ "generated_at": "2026-09-08T19:38:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:48Z",
-  "current": 618.06,
-  "change": 1.29,
-  "change_pct": 0.2092,
-  "high": 623.22,
-  "low": 613.1025,
+  "fetched_at": "2026-09-08T19:38:25Z",
+  "current": 614.7,
+  "change": -2.07,
+  "change_pct": -0.3356,
+  "high": 624.8,
+  "low": 609.74,
   "open": 613.1025,
   "prev_close": 616.77,
-  "ts": 1788886360
+  "ts": 1788896283
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:49Z",
+  "fetched_at": "2026-09-08T19:38:25Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T16:52:49Z",
+  "fetched_at": "2026-09-08T19:38:26Z",
   "bars": [
    {
     "date": "2023-02-06",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-08",
     "open": 616.3,
-    "high": 623.04,
-    "low": 613.595,
-    "close": 618.03,
-    "volume": 360292.0
+    "high": 624.77,
+    "low": 609.93,
+    "close": 614.585,
+    "volume": 726223.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:49Z",
+  "fetched_at": "2026-09-08T19:38:26Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T16:52:49Z",
+  "fetched_at": "2026-09-08T19:38:26Z",
   "analyst_target_mean": 754.77405,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 17.710127,
+  "forward_pe": 17.58055,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:49Z",
+  "fetched_at": "2026-09-08T19:38:26Z",
   "rows": [
+   {
+    "ts": 1788887524,
+    "headline": "Australia Targets Meta's Jugular: Hyper-Personal Social Feeds",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=db0ef3bece498a5ad63500c9c0004aa8e188361f9963e0d93fd6a1041423e968"
+   },
+   {
+    "ts": 1788886623,
+    "headline": "Meta Slips as Australia Offers an Algorithm Escape Hatch",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=4084f79a1e97906a71e049b8f2feb28e5a1f658d39c8a50a9ff94900fc43b973"
+   },
    {
     "ts": 1788879903,
     "headline": "Could Apple Face a $17 Billion Child Safety Settlement Like Meta?",
@@ -7509,25 +7521,13 @@
     "headline": "SanDisk Up Over 40% Past Month: Can the Rally Last?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=eeae82cc500d8a6551b3bd18241777e324c6dffcf2fcccc0088b50bb8ee91c86"
-   },
-   {
-    "ts": 1788875104,
-    "headline": "Wall Street Keeps Asking How Much Meta Will Spend. The Better Question Is at What Price to Buy",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b74ceb69f8eba1ddbc5fd99ebf78ab3ae2385261777be309a5f7e9394ddb247d"
-   },
-   {
-    "ts": 1788872400,
-    "headline": "Christopher Larsson Joins Vertical Data as Head of Infrastructure",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f1dff3ec5feb34399646cf1041ac105f87bdd8d6330caca12c308cf8a686a3b7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T16:52:50Z",
+  "fetched_at": "2026-09-08T19:38:28Z",
   "buys": 105,
   "sells": 193,
   "net_shares": 3218914.0,
