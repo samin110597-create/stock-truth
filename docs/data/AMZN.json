@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-08T22:03:40Z",
+ "generated_at": "2026-09-09T16:55:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:40Z",
-  "current": 256.97,
-  "change": -1.54,
-  "change_pct": -0.5957,
-  "high": 257.99,
-  "low": 254.75,
-  "open": 256.675,
-  "prev_close": 258.51,
-  "ts": 1788897600
+  "fetched_at": "2026-09-09T16:55:02Z",
+  "current": 252.14,
+  "change": -4.83,
+  "change_pct": -1.8796,
+  "high": 254.69,
+  "low": 250.65,
+  "open": 253.13,
+  "prev_close": 256.97,
+  "ts": 1788972879
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:40Z",
+  "fetched_at": "2026-09-09T16:55:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2788370254612.0005,
+  "mcap": 2771759329726.687,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T22:03:41Z",
+  "fetched_at": "2026-09-09T16:55:06Z",
   "bars": [
-   {
-    "date": "2023-02-06",
-    "open": 102.93,
-    "high": 103.95,
-    "low": 100.65,
-    "close": 102.18,
-    "volume": 81945200.0
-   },
    {
     "date": "2023-02-07",
     "open": 101.17,
@@ -7223,14 +7215,22 @@
    {
     "date": "2026-09-08",
     "open": 256.76001,
-    "high": 257.99,
+    "high": 257.98999,
     "low": 254.75,
-    "close": 256.95999,
-    "volume": 21134008.0
+    "close": 256.97,
+    "volume": 28792611.0
+   },
+   {
+    "date": "2026-09-09",
+    "open": 253.08,
+    "high": 254.47,
+    "low": 250.66,
+    "close": 252.05,
+    "volume": 837120.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-08",
+  "latest": "2026-09-09",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:41Z",
+  "fetched_at": "2026-09-09T16:55:07Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T22:03:42Z",
+  "fetched_at": "2026-09-09T16:55:07Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.707893,
+  "forward_pe": 24.235792,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
   "short_asof": 1786665600,
-  "institutions_pct": 0.68794996,
+  "institutions_pct": 0.68787,
   "insiders_pct": 0.08866,
   "beta": 1.443,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:42Z",
+  "fetched_at": "2026-09-09T16:55:07Z",
   "rows": [
    {
-    "ts": 1788897072,
-    "headline": "Sector Update: Tech Stocks Rise Late Afternoon",
+    "ts": 1788968246,
+    "headline": "Amazon and Oracle Are Extremely Anxious About The Upcoming Fed Meeting",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2d497d3dd33abc83c11ee636ae98c94220ee63fa1e1879442691e4e523db3eff"
+    "url": "https://finnhub.io/api/news?id=8a4afe8f0d68f1791e7388071cfff24c832e920589365d338c68d45c8da7bdd1"
    },
    {
-    "ts": 1788895827,
-    "headline": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
+    "ts": 1788967951,
+    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2f37a657654100ecfda7d8c506a3d76ffe1d4522e3bba0ce8983d49e4274f483"
+    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
    },
    {
-    "ts": 1788894928,
-    "headline": "Will Direct TPU Sales Re-Rate Google Stock?",
+    "ts": 1788967660,
+    "headline": "Qualcomm's Amazon Deal Supports AI Growth Outlook, RBC Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7bf7784ad8617d4e31f63060f58d78c9f9e32103074410916897c7df2cd07846"
+    "url": "https://finnhub.io/api/news?id=c8d4687c769eb446d83aa651a80d19b8b983cbe60a37c04e93a82148f8e0de8b"
    },
    {
-    "ts": 1788894724,
-    "headline": "Boeing Trails Airbus in August Deliveries, Orders",
+    "ts": 1788966840,
+    "headline": "Top 3 Streaming Stocks to Ride on Rising Ad and Viewing Trends",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f273e1c8a0da7ccf9e33dc9452b6c12f95a8c004d3bc69b88e9680a3e940ae82"
+    "url": "https://finnhub.io/api/news?id=937bc9d95bce308493491aa9aeb1a330f9ab41ed97c704309c25488f53ece07e"
    },
    {
-    "ts": 1788894604,
-    "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c0bbe00c3de9e1f537c499d1785bfb81b11a11392b437598f038f326339af575"
+    "ts": 1788966052,
+    "headline": "Oracle Stock: Wall Street Sees Massive Upside. Here\u2019s My Price Target",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=71422e7c4838613adddd6cfaeded9a1c9fd2ec13d23afb5b34d4ed860bdfce37"
    },
    {
-    "ts": 1788893342,
-    "headline": "Qualcomm Stock Rises 6% on Multi-Generation Amazon Silicon Deal",
+    "ts": 1788964625,
+    "headline": "Forget Smartphones: Qualcomm Just Landed a Massive AI Deal With Amazon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=69bbc588039b26cd957a7bdda3f15d14b7fed1edb63ee180bd77f89f4dba8ee6"
+    "url": "https://finnhub.io/api/news?id=c7fd5937ca73c8377b2ce1a19be0dd96f84972247149864c1295666a8a0166ec"
    },
    {
-    "ts": 1788893199,
-    "headline": "The Market Marked AMZN Stock Down. The Numbers Push Back",
+    "ts": 1788964165,
+    "headline": "Analyzing Amazon\u2019s (AMZN) Reinvestment Flywheel in the AI Era",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5ce6f03196ffe44a15f11ff3a3b0856ac53674d6cffc3ff3dff881dd6b44e31b"
+    "url": "https://finnhub.io/api/news?id=ce69f1ea071e731a9386a64c722bc2bb6b8a4e33b3dee721fc5f315dba9b754e"
    },
    {
-    "ts": 1788890572,
-    "headline": "Qualcomm Calls Amazon Pact a Landmark Deal, Backs $15B Data-Center Goal",
+    "ts": 1788962820,
+    "headline": "Qualcomm's new Amazon deal sent the stock soaring 9%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=eecb8b3c004775ffffd703b2eddf68bf67fdf85e15ce64d549ec486490dbead7"
+    "url": "https://finnhub.io/api/news?id=9a860cd89324604721827f94d1872ff12926e2f30bd0539b92d11b1b3019bcae"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:42Z",
+  "fetched_at": "2026-09-09T16:55:07Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

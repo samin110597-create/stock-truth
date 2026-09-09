@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-08T22:04:02Z",
+ "generated_at": "2026-09-09T16:55:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:04:02Z",
-  "current": 225.73,
-  "change": -4.63,
-  "change_pct": -2.0099,
-  "high": 233.71,
-  "low": 224.85,
-  "open": 233.11,
-  "prev_close": 230.36,
-  "ts": 1788897600
+  "fetched_at": "2026-09-09T16:55:33Z",
+  "current": 224.15,
+  "change": -1.58,
+  "change_pct": -0.7,
+  "high": 226.18,
+  "low": 223.51,
+  "open": 225.285,
+  "prev_close": 225.73,
+  "ts": 1788972926
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:04:02Z",
+  "fetched_at": "2026-09-09T16:55:34Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5551676014709.0,
+  "mcap": 5440093014413.363,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T22:04:03Z",
+  "fetched_at": "2026-09-09T16:55:35Z",
   "bars": [
-   {
-    "date": "2023-02-06",
-    "open": 20.806,
-    "high": 21.57,
-    "low": 20.786,
-    "close": 21.089001,
-    "volume": 452197000.0
-   },
    {
     "date": "2023-02-07",
     "open": 21.382,
@@ -7224,13 +7216,21 @@
     "date": "2026-09-08",
     "open": 233.21001,
     "high": 233.71001,
-    "low": 224.85,
-    "close": 225.77,
-    "volume": 100374352.0
+    "low": 224.85001,
+    "close": 225.73,
+    "volume": 118984635.0
+   },
+   {
+    "date": "2026-09-09",
+    "open": 225.275,
+    "high": 226.16,
+    "low": 223.51,
+    "close": 224.115,
+    "volume": 1585397.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-08",
+  "latest": "2026-09-09",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:04:03Z",
+  "fetched_at": "2026-09-09T16:55:35Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T22:04:03Z",
-  "analyst_target_mean": 327.12808,
+  "fetched_at": "2026-09-09T16:55:36Z",
+  "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.54534,
+  "forward_pe": 14.445507,
   "forward_eps": 15.51906,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
   "short_asof": 1786665600,
-  "institutions_pct": 0.71542,
+  "institutions_pct": 0.71533996,
   "insiders_pct": 0.04007,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:04:03Z",
+  "fetched_at": "2026-09-09T16:55:36Z",
   "rows": [
    {
-    "ts": 1788896701,
-    "headline": "Why Nebius Stock Jumped Today",
+    "ts": 1788969104,
+    "headline": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=69a068883347b8c33063474d34f1561a1f9f6fca07abd60f84bf58fd58327c53"
+    "url": "https://finnhub.io/api/news?id=42ad6c5802cf8f2ed0ab9e387b1dc17d5814c585b3d2faadc6f86782ccdfb19d"
    },
    {
-    "ts": 1788895501,
-    "headline": "NextEra Just Secured Up to $1.9 Billion to Restart Iowa's Only Nuclear Plant. Here's The Real Reason Why.",
+    "ts": 1788968580,
+    "headline": "NuScale Power: 1 Catalyst That Will Make or Break This Nuclear Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ce672e316b6159b0218699015d82a416416fc241c9199b85aa152fb4ebcf3a21"
+    "url": "https://finnhub.io/api/news?id=a91c1cbfc7904fda7b4e0d0475b774c8fcd984a41a0f34b51cd83827cddcae4c"
    },
    {
-    "ts": 1788895200,
-    "headline": "Prediction: This Overlooked International ETF Will Outperform the S&P 500 Over the Next 20 Years",
+    "ts": 1788968438,
+    "headline": "Michael Burry Sells NVDA, PLTR December 2026 Puts Amid Portfolio-Wide Cuts \u2013 Says He\u2019s \u2018Pulling Back\u2019 On Risk",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=84c560a226e80ac3f5db91fa9f1d5e24b3b75f9dd72702aecaca34b330e7c7fa"
+    "url": "https://finnhub.io/api/news?id=5026cd4b1083abf3f0ddc7462a40be2ad216f0cf7c950c35d59396b1c81f81c4"
    },
    {
-    "ts": 1788894897,
-    "headline": "Why Broadcom Stock Rallied Tuesday Morning",
+    "ts": 1788968436,
+    "headline": "Broadcom Stock Slipped While Its Revenue Schedule Got Longer",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1456dbfd7d4bbf92713a586286d1a1659ac9bb2d58dae1518b25e3baf75de046"
+    "url": "https://finnhub.io/api/news?id=606ccb2ee77f50e3dc91af4378ce180a4f1c808b6f5363178e77ad7185a1059a"
    },
    {
-    "ts": 1788894604,
-    "headline": "Stay informed with the top movers within the dow jones index on Tuesday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=c0bbe00c3de9e1f537c499d1785bfb81b11a11392b437598f038f326339af575"
+    "ts": 1788968352,
+    "headline": "Why Corning Stock Keeps Going Up",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c4e3ec6cb640712e044b3d76bb216bfb5e2760fc3f9ad84d9ff494abc0b8b219"
    },
    {
-    "ts": 1788894600,
-    "headline": "Why Today's AI Boom Differs From the Internet Bubble",
+    "ts": 1788968100,
+    "headline": "History Says This ETF Could Be the Safest Place to Invest During a Bear Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6b3967b90ac1c0647ab05789e0d02c1332e86091b1e5ddba7905106a004be673"
+    "url": "https://finnhub.io/api/news?id=fc4505e9a4dab19b5715e6d833dfb9f5b526cd8932c708627b137e558ba7299b"
    },
    {
-    "ts": 1788894000,
-    "headline": "James Altucher: Elon Musk's Next Move Could Eclipse Everything He's Ever Built, and It May Be His Last",
+    "ts": 1788967951,
+    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06fdad6af46f1bc9172ed7416615e908b6dde2340d9e2760b1de7415a7cb0c3c"
+    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
    },
    {
-    "ts": 1788893820,
-    "headline": "1 No-Brainer ETF I'm Loading Up on in 2026 and Beyond",
+    "ts": 1788967729,
+    "headline": "Why Chewy Stock Is Sinking Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d465ab39b7d602358ab5e117aa5d8a3b70249991cadce3461f65593fe55c6124"
+    "url": "https://finnhub.io/api/news?id=9dfcb815f02c6fb961b1e57ca4a90c13eef1b4d3d22f264462a14a7c4730f65c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:04:03Z",
-  "buys": 7,
+  "fetched_at": "2026-09-09T16:55:37Z",
+  "buys": 3,
   "sells": 62,
-  "net_shares": -4687529.0,
+  "net_shares": -4875721.0,
   "months": 6,
   "recent": [
    {

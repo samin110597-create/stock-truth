@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-08T22:03:51Z",
+ "generated_at": "2026-09-09T16:55:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:51Z",
-  "current": 335.38,
-  "change": 0.07,
-  "change_pct": 0.0209,
-  "high": 336.48,
-  "low": 330.39,
-  "open": 331.99,
-  "prev_close": 335.31,
-  "ts": 1788897600
+  "fetched_at": "2026-09-09T16:55:17Z",
+  "current": 327.93,
+  "change": -7.45,
+  "change_pct": -2.2214,
+  "high": 329.27,
+  "low": 325.63,
+  "open": 329.13,
+  "prev_close": 335.38,
+  "ts": 1788972903
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:51Z",
+  "fetched_at": "2026-09-09T16:55:17Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4139365800000.0,
+  "mcap": 4138142800000.0005,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-08T22:03:53Z",
+  "fetched_at": "2026-09-09T16:55:23Z",
   "bars": [
-   {
-    "date": "2023-02-06",
-    "open": 102.685,
-    "high": 104.7,
-    "low": 102.21,
-    "close": 103.47,
-    "volume": 25573000.0
-   },
    {
     "date": "2023-02-07",
     "open": 103.63,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-08",
-    "open": 331.98999,
+    "open": 331.94,
     "high": 336.47,
     "low": 330.39001,
     "close": 335.38,
     "volume": 13853543.0
+   },
+   {
+    "date": "2026-09-09",
+    "open": 329.13,
+    "high": 329.13,
+    "low": 325.66,
+    "close": 327.82,
+    "volume": 513194.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-08",
+  "latest": "2026-09-09",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:53Z",
+  "fetched_at": "2026-09-09T16:55:23Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-08T22:03:53Z",
+  "fetched_at": "2026-09-09T16:55:23Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.578384,
+  "forward_pe": 22.074137,
   "forward_eps": 14.85403,
   "short_pct_float": null,
   "short_ratio": 2.1,
   "short_asof": 1786665600,
-  "institutions_pct": 0.62248003,
+  "institutions_pct": 0.62242,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:53Z",
+  "fetched_at": "2026-09-09T16:55:24Z",
   "rows": [
    {
-    "ts": 1788895827,
-    "headline": "Google Cloud Boss Makes Bold Claim About AI Chip Business",
+    "ts": 1788969104,
+    "headline": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2f37a657654100ecfda7d8c506a3d76ffe1d4522e3bba0ce8983d49e4274f483"
+    "url": "https://finnhub.io/api/news?id=42ad6c5802cf8f2ed0ab9e387b1dc17d5814c585b3d2faadc6f86782ccdfb19d"
    },
    {
-    "ts": 1788894928,
-    "headline": "Will Direct TPU Sales Re-Rate Google Stock?",
+    "ts": 1788968760,
+    "headline": "Clay Raises $115M to be the AI Growth Engine for Every Company",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7bf7784ad8617d4e31f63060f58d78c9f9e32103074410916897c7df2cd07846"
+    "url": "https://finnhub.io/api/news?id=2d5f3a7a7c385635b770c7b8e71dde81a55e79c3ad08b44459abda1c9adf352c"
    },
    {
-    "ts": 1788894120,
-    "headline": "Alphabet Conference: Google Cloud Sees Surging AI Demand, Bigger Enterprise Deals",
+    "ts": 1788967951,
+    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5a8da63aff92fc3e18dc991e1a15b86a5bd1a1cb507960fea2b60a422976627a"
+    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
    },
    {
-    "ts": 1788893199,
-    "headline": "The Market Marked AMZN Stock Down. The Numbers Push Back",
+    "ts": 1788966840,
+    "headline": "Top 3 Streaming Stocks to Ride on Rising Ad and Viewing Trends",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5ce6f03196ffe44a15f11ff3a3b0856ac53674d6cffc3ff3dff881dd6b44e31b"
+    "url": "https://finnhub.io/api/news?id=937bc9d95bce308493491aa9aeb1a330f9ab41ed97c704309c25488f53ece07e"
    },
    {
-    "ts": 1788892294,
-    "headline": "Lucid Just Dropped 33% in a Month. Is It Time to Sell?",
+    "ts": 1788966000,
+    "headline": "SCTE TechExpo 2026 Brings the Executives & Technologists Shaping Content and Connectivity to Atlanta \u2014 Sept. 29\u2013Oct. 1",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=813c92f2358695ce46dad3d5d9fff0c561138d3ae1e67c997d878606983adc71"
+    "url": "https://finnhub.io/api/news?id=03a705c99ff74a7f15ba39d440d0f94f5f75e06adf5e557c8073cb46fbfee611"
    },
    {
-    "ts": 1788890835,
-    "headline": "Google degrades E.U. search results to comply with DMA rules",
+    "ts": 1788964320,
+    "headline": "Finalists Named for the AFP 2026 Pinnacle Awards: Bandwidth, Google, ServiceNow",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=86be0f6dc44f25522f3c90387cea67df935272a1c61d6b1be1570bb0dcfb0b68"
+    "url": "https://finnhub.io/api/news?id=5e1dbddb540c9a89228071832d900f3c982e23bb0ae7fbd48a616ae2e12396a8"
    },
    {
-    "ts": 1788889800,
-    "headline": "Billionaire Stanley Druckenmiller Has 2 Megacap Stocks Worth Watching (Hint: His Top Holding Isn't Amazon, Alphabet, or Nvidia)",
+    "ts": 1788964209,
+    "headline": "Prediction: This Could Be the Next AI Stock to Join the $5 Trillion Club",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7ce7ec29fe68a073d608d1a7ed9f45684fccb5dc6bd3707be2efe8410d5acc32"
+    "url": "https://finnhub.io/api/news?id=e9db8578466a1676ab663ce760e372c6c23ad12f6deb9951f6a2ce76c302a662"
    },
    {
-    "ts": 1788887524,
-    "headline": "Australia Targets Meta's Jugular: Hyper-Personal Social Feeds",
+    "ts": 1788963986,
+    "headline": "Alphabet (GOOG) Surges Over 20% Revenue Growth, Cloud Strength",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db0ef3bece498a5ad63500c9c0004aa8e188361f9963e0d93fd6a1041423e968"
+    "url": "https://finnhub.io/api/news?id=14b025b5ad006ddf664f63bd134129bd6f6ee15c8fd106e43fa04e5e39b95231"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-08T22:03:53Z",
+  "fetched_at": "2026-09-09T16:55:24Z",
   "error": "no insider filings in six months"
  },
  "peers": {
