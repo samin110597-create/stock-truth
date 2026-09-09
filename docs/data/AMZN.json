@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-09T16:55:01Z",
+ "generated_at": "2026-09-09T19:32:02Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:02Z",
-  "current": 252.14,
-  "change": -4.83,
-  "change_pct": -1.8796,
+  "fetched_at": "2026-09-09T19:32:02Z",
+  "current": 252.2,
+  "change": -4.77,
+  "change_pct": -1.8562,
   "high": 254.69,
   "low": 250.65,
   "open": 253.13,
   "prev_close": 256.97,
-  "ts": 1788972879
+  "ts": 1788982296
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:02Z",
+  "fetched_at": "2026-09-09T19:32:02Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T16:55:06Z",
+  "fetched_at": "2026-09-09T19:32:06Z",
   "bars": [
    {
     "date": "2023-02-07",
@@ -7225,8 +7225,8 @@
     "open": 253.08,
     "high": 254.47,
     "low": 250.66,
-    "close": 252.05,
-    "volume": 837120.0
+    "close": 252.135,
+    "volume": 1252366.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:07Z",
+  "fetched_at": "2026-09-09T19:32:07Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T16:55:07Z",
+  "fetched_at": "2026-09-09T19:32:07Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.235792,
+  "forward_pe": 24.23964,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:07Z",
+  "fetched_at": "2026-09-09T19:32:07Z",
   "rows": [
    {
-    "ts": 1788968246,
-    "headline": "Amazon and Oracle Are Extremely Anxious About The Upcoming Fed Meeting",
+    "ts": 1788975331,
+    "headline": "Amazon raises \u00a34.25 billion in debut sterling bond sale for AI",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8a4afe8f0d68f1791e7388071cfff24c832e920589365d338c68d45c8da7bdd1"
+    "url": "https://finnhub.io/api/news?id=5f2095fce057c6b95b82873b3a0d1ba3043f74c070653a3fb0413f30b91f2bba"
    },
    {
-    "ts": 1788967951,
-    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
+    "ts": 1788975270,
+    "headline": "Palantir Changed The Number It Wants You To Judge It By",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
+    "url": "https://finnhub.io/api/news?id=744977225f7d1f6aea4493a76236af91e6781e0013581bb2c1437b30e2eebce1"
    },
    {
-    "ts": 1788967660,
-    "headline": "Qualcomm's Amazon Deal Supports AI Growth Outlook, RBC Says",
+    "ts": 1788974781,
+    "headline": "AMZN And Wiwynn Are Scaling Up In Texas \u2014 What\u2019s Behind The $1.6B Investment?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c8d4687c769eb446d83aa651a80d19b8b983cbe60a37c04e93a82148f8e0de8b"
+    "url": "https://finnhub.io/api/news?id=bafaf2e85f60f5d981ab54fd9bd7a730f120d0678965a999259c3ce37d3c1bd5"
    },
    {
-    "ts": 1788966840,
-    "headline": "Top 3 Streaming Stocks to Ride on Rising Ad and Viewing Trends",
+    "ts": 1788974739,
+    "headline": "Cramer Says Qualcomm\u2019s Amazon Collaboration Gives Stalled Stock \u201cSomething Special\u201d to Point At",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=937bc9d95bce308493491aa9aeb1a330f9ab41ed97c704309c25488f53ece07e"
+    "url": "https://finnhub.io/api/news?id=e16e1ac7659c6bd4d3c4abc36224bb9a8ff6a108cf38ce8550cdfad5cefbe499"
    },
    {
-    "ts": 1788966052,
-    "headline": "Oracle Stock: Wall Street Sees Massive Upside. Here\u2019s My Price Target",
+    "ts": 1788974640,
+    "headline": "Why the Fragile Trump-Xi Truce Could Break Before the\u00a0U.S.-China D.C. Summit",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=71422e7c4838613adddd6cfaeded9a1c9fd2ec13d23afb5b34d4ed860bdfce37"
+    "url": "https://finnhub.io/api/news?id=70dfb9d108a02559239e686f69aaa4f65a90bbb7c54d410eba625ca59dc47eb6"
    },
    {
-    "ts": 1788964625,
-    "headline": "Forget Smartphones: Qualcomm Just Landed a Massive AI Deal With Amazon",
+    "ts": 1788973561,
+    "headline": "Jim Cramer Breaks Down Why Amazon (AMZN) Is a \u201cScreaming Buy\u201d on AI Potential",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c7fd5937ca73c8377b2ce1a19be0dd96f84972247149864c1295666a8a0166ec"
+    "url": "https://finnhub.io/api/news?id=74d35d01290c914aeb32e4fd7078c0b8ae5d39d9c2abe217c7527fae79fffa2a"
    },
    {
-    "ts": 1788964165,
-    "headline": "Analyzing Amazon\u2019s (AMZN) Reinvestment Flywheel in the AI Era",
+    "ts": 1788973500,
+    "headline": "Google Cloud Grew 82% Last Quarter -- Here's Why Amazon and Microsoft Investors Should Care",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ce69f1ea071e731a9386a64c722bc2bb6b8a4e33b3dee721fc5f315dba9b754e"
+    "url": "https://finnhub.io/api/news?id=810ef97349ea20bf45ac6145dbabede5d13ece39e80df2cf9c61d9c1c3fad2c0"
    },
    {
-    "ts": 1788962820,
-    "headline": "Qualcomm's new Amazon deal sent the stock soaring 9%",
+    "ts": 1788972634,
+    "headline": "Verizon and Corning Just Signed an 80 Million Mile Fiber Deal to Wire the AI Boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9a860cd89324604721827f94d1872ff12926e2f30bd0539b92d11b1b3019bcae"
+    "url": "https://finnhub.io/api/news?id=b23806c2fd5e45a9dbfaface3a141ad696057a69d999292d70f42ac2fe05d352"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:07Z",
+  "fetched_at": "2026-09-09T19:32:07Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

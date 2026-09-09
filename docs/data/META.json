@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-09T16:55:46Z",
+ "generated_at": "2026-09-09T19:32:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:46Z",
-  "current": 650.21,
-  "change": 36.73,
-  "change_pct": 5.9872,
+  "fetched_at": "2026-09-09T19:32:49Z",
+  "current": 655.15,
+  "change": 41.67,
+  "change_pct": 6.7924,
   "high": 657.86,
   "low": 638.56,
   "open": 648.65,
   "prev_close": 613.48,
-  "ts": 1788972925
+  "ts": 1788982344
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:46Z",
+  "fetched_at": "2026-09-09T19:32:49Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T16:55:48Z",
+  "fetched_at": "2026-09-09T19:32:50Z",
   "bars": [
    {
     "date": "2023-02-07",
@@ -7225,8 +7225,8 @@
     "open": 648.39,
     "high": 657.85,
     "low": 638.71,
-    "close": 650.22,
-    "volume": 832402.0
+    "close": 655.12,
+    "volume": 1175884.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:48Z",
+  "fetched_at": "2026-09-09T19:32:50Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T16:55:48Z",
+  "fetched_at": "2026-09-09T19:32:51Z",
   "analyst_target_mean": 754.15295,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 18.580416,
+  "forward_pe": 18.740456,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:49Z",
+  "fetched_at": "2026-09-09T19:32:51Z",
   "rows": [
    {
-    "ts": 1788969104,
-    "headline": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42ad6c5802cf8f2ed0ab9e387b1dc17d5814c585b3d2faadc6f86782ccdfb19d"
+    "ts": 1788977100,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a5660c5f55f29a62a647296a45344f416da2245c84fdb28af5dc79f76f039bab"
    },
    {
-    "ts": 1788968708,
-    "headline": "Cramer Hyped Anthropic\u2019s IPO, Then Its Own Researcher Put 10% Odds on AI Killing Us",
+    "ts": 1788974881,
+    "headline": "Meta Soars 6.6% as Muse Turns WhatsApp Into an AI Operator",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a72ddac16f044557c927e77879511d38bfc680520253accf575e32b5babce35f"
+    "url": "https://finnhub.io/api/news?id=0a9ea68b489880d0960d67eb15d45adad432e37dd0d1b085052b1345c6f84856"
    },
    {
-    "ts": 1788968436,
-    "headline": "Broadcom Stock Slipped While Its Revenue Schedule Got Longer",
+    "ts": 1788974520,
+    "headline": "Reddit Leans Into AI: Can Innovation Accelerate Revenue Growth?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=606ccb2ee77f50e3dc91af4378ce180a4f1c808b6f5363178e77ad7185a1059a"
+    "url": "https://finnhub.io/api/news?id=50a91e77105db1c5faa9110010020b97fca2d50adab3ee903f4cc3ec4b7ab971"
    },
    {
-    "ts": 1788968193,
-    "headline": "Top Midday Stories: Meta Launches Muse Personal AI Agent; Dow Said to Consider Exiting $20 Billion Chemicals JV With Saudi Aramco",
+    "ts": 1788973080,
+    "headline": "Stock Market Midday, Sept. 9: Stocks Slide as Oil Surges Past $100, While Meta Gains",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a05dc75992da201105b0856fd438064708f01b7d9dd59ff6d0adabb7d6f495f3"
+    "url": "https://finnhub.io/api/news?id=3ea2b040662a94dc836bdccd7e3729b9b67701decd08ff3e689a7710ecf4ebcb"
    },
    {
-    "ts": 1788967951,
-    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
+    "ts": 1788973080,
+    "headline": "ServiceTitan, Apple, Meta, Micron, Casey\u2019s, Jersey Mike\u2019s, and More Stocks That Explain Today\u2019s Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
+    "url": "https://finnhub.io/api/news?id=92bc2416bd7b505cf79dd5b12c8c2175885c8c6ee00ba471fee2b9f5f0a25a7a"
    },
    {
-    "ts": 1788966600,
-    "headline": "Mark Zuckerberg's Net Worth Jumped $13 Billion in a Week as Meta Stock Extended Its Rally",
+    "ts": 1788972634,
+    "headline": "Verizon and Corning Just Signed an 80 Million Mile Fiber Deal to Wire the AI Boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e4309ee8dd42ec5c4e57132c7ce1e93a9e424ac6e0b5c995ab491d889c09fbcb"
+    "url": "https://finnhub.io/api/news?id=b23806c2fd5e45a9dbfaface3a141ad696057a69d999292d70f42ac2fe05d352"
    },
    {
-    "ts": 1788966000,
-    "headline": "Adult film studio says a Meta exec torrented nearly 20K files on his home internet \u2014 wants it folded into a $446M case",
+    "ts": 1788972241,
+    "headline": "Meta's New AI Agent Just Gave Wall Street Something It Wanted",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=293185b40dafcee7dbfcd51a2afd361c3c6af03d89b849dd3b29b65a6b5d7a48"
+    "url": "https://finnhub.io/api/news?id=8ce9e63fdc9a2532a4c91ff92a27d12e3c6a78c9a10b8d67f9f98a1455dfd889"
    },
    {
-    "ts": 1788965121,
-    "headline": "AMD Rises 3% as CFO Lifts AI Chip Market Forecast Toward $3 Trillion; Intel Ticks Up",
+    "ts": 1788972073,
+    "headline": "Meta Stock Jumps 5% After New AI Agent Muse Takes Aim at Google",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6fd36e837660d73978d3db29bcd873d62e28fff7c505e2c3b5d11b979819a06d"
+    "url": "https://finnhub.io/api/news?id=83eb04d51657abaaaaa1bff2e3e8dede047d3f04344d163565718f0ee3dcce3d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:49Z",
+  "fetched_at": "2026-09-09T19:32:51Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

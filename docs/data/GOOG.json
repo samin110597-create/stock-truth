@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-09T16:55:16Z",
+ "generated_at": "2026-09-09T19:32:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:17Z",
-  "current": 327.93,
-  "change": -7.45,
-  "change_pct": -2.2214,
-  "high": 329.27,
+  "fetched_at": "2026-09-09T19:32:16Z",
+  "current": 328.52,
+  "change": -6.86,
+  "change_pct": -2.0454,
+  "high": 329.34,
   "low": 325.63,
   "open": 329.13,
   "prev_close": 335.38,
-  "ts": 1788972903
+  "ts": 1788982318
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:17Z",
+  "fetched_at": "2026-09-09T19:32:16Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T16:55:23Z",
+  "fetched_at": "2026-09-09T19:32:20Z",
   "bars": [
    {
     "date": "2023-02-07",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-09",
     "open": 329.13,
-    "high": 329.13,
+    "high": 329.31,
     "low": 325.66,
-    "close": 327.82,
-    "volume": 513194.0
+    "close": 328.475,
+    "volume": 772937.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:23Z",
+  "fetched_at": "2026-09-09T19:32:20Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T16:55:23Z",
+  "fetched_at": "2026-09-09T19:32:20Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.074137,
+  "forward_pe": 22.118242,
   "forward_eps": 14.85403,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:24Z",
+  "fetched_at": "2026-09-09T19:32:20Z",
   "rows": [
    {
-    "ts": 1788969104,
-    "headline": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
+    "ts": 1788975331,
+    "headline": "Amazon raises \u00a34.25 billion in debut sterling bond sale for AI",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42ad6c5802cf8f2ed0ab9e387b1dc17d5814c585b3d2faadc6f86782ccdfb19d"
+    "url": "https://finnhub.io/api/news?id=5f2095fce057c6b95b82873b3a0d1ba3043f74c070653a3fb0413f30b91f2bba"
    },
    {
-    "ts": 1788968760,
-    "headline": "Clay Raises $115M to be the AI Growth Engine for Every Company",
+    "ts": 1788975270,
+    "headline": "Palantir Changed The Number It Wants You To Judge It By",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2d5f3a7a7c385635b770c7b8e71dde81a55e79c3ad08b44459abda1c9adf352c"
+    "url": "https://finnhub.io/api/news?id=744977225f7d1f6aea4493a76236af91e6781e0013581bb2c1437b30e2eebce1"
    },
    {
-    "ts": 1788967951,
-    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
+    "ts": 1788975000,
+    "headline": "Verily Health Secures New Investment From NVIDIA and CU Healthcare Innovation Fund",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
+    "url": "https://finnhub.io/api/news?id=e90ea950ccaa2e363e2a06e87a79010ffb566c1da4c1808c1496304dfa42d2e9"
    },
    {
-    "ts": 1788966840,
-    "headline": "Top 3 Streaming Stocks to Ride on Rising Ad and Viewing Trends",
+    "ts": 1788973970,
+    "headline": "Jim Cramer on Alphabet (GOOGL): \u201cI Don\u2019t Care Where It Went, I Care Where It\u2019s Going\u201d",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=937bc9d95bce308493491aa9aeb1a330f9ab41ed97c704309c25488f53ece07e"
+    "url": "https://finnhub.io/api/news?id=9645efdfe4b887c1d31f6dd658bdb025810553c78c3fb8569ec65fa44e3ebe4f"
    },
    {
-    "ts": 1788966000,
-    "headline": "SCTE TechExpo 2026 Brings the Executives & Technologists Shaping Content and Connectivity to Atlanta \u2014 Sept. 29\u2013Oct. 1",
+    "ts": 1788973500,
+    "headline": "Google Cloud Grew 82% Last Quarter -- Here's Why Amazon and Microsoft Investors Should Care",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=03a705c99ff74a7f15ba39d440d0f94f5f75e06adf5e557c8073cb46fbfee611"
+    "url": "https://finnhub.io/api/news?id=810ef97349ea20bf45ac6145dbabede5d13ece39e80df2cf9c61d9c1c3fad2c0"
    },
    {
-    "ts": 1788964320,
-    "headline": "Finalists Named for the AFP 2026 Pinnacle Awards: Bandwidth, Google, ServiceNow",
+    "ts": 1788973318,
+    "headline": "AI-Native Alts Platform Raises $18.8M Series A",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5e1dbddb540c9a89228071832d900f3c982e23bb0ae7fbd48a616ae2e12396a8"
+    "url": "https://finnhub.io/api/news?id=04533fbbed6bbfdcc763d3a65748421f2222dad46d4fc902ab719dc9fc993b0c"
    },
    {
-    "ts": 1788964209,
-    "headline": "Prediction: This Could Be the Next AI Stock to Join the $5 Trillion Club",
+    "ts": 1788972586,
+    "headline": "Oracle\u2019s Disruptive Nature is Very Compelling",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e9db8578466a1676ab663ce760e372c6c23ad12f6deb9951f6a2ce76c302a662"
+    "url": "https://finnhub.io/api/news?id=c5b94b4dfcc242a16664c1243c5ed5607d1a12fff13c8269217b59d4b9f4885f"
    },
    {
-    "ts": 1788963986,
-    "headline": "Alphabet (GOOG) Surges Over 20% Revenue Growth, Cloud Strength",
+    "ts": 1788972276,
+    "headline": "Google Signs 22 Years of Nuclear to Power Finnish Data Centers",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=14b025b5ad006ddf664f63bd134129bd6f6ee15c8fd106e43fa04e5e39b95231"
+    "url": "https://finnhub.io/api/news?id=d98f0025564decc3fde914e84f39fd1db3f8d9a3baa610fa9e10d2e1ea8525a0"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:24Z",
+  "fetched_at": "2026-09-09T19:32:20Z",
   "error": "no insider filings in six months"
  },
  "peers": {

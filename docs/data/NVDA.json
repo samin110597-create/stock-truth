@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-09T16:55:33Z",
+ "generated_at": "2026-09-09T19:32:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:33Z",
-  "current": 224.15,
-  "change": -1.58,
-  "change_pct": -0.7,
+  "fetched_at": "2026-09-09T19:32:29Z",
+  "current": 224.22,
+  "change": -1.51,
+  "change_pct": -0.6689,
   "high": 226.18,
-  "low": 223.51,
+  "low": 223.46,
   "open": 225.285,
   "prev_close": 225.73,
-  "ts": 1788972926
+  "ts": 1788982318
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:34Z",
+  "fetched_at": "2026-09-09T19:32:29Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T16:55:35Z",
+  "fetched_at": "2026-09-09T19:32:39Z",
   "bars": [
    {
     "date": "2023-02-07",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-09",
     "open": 225.275,
     "high": 226.16,
-    "low": 223.51,
-    "close": 224.115,
-    "volume": 1585397.0
+    "low": 223.46,
+    "close": 224.155,
+    "volume": 2046383.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:35Z",
+  "fetched_at": "2026-09-09T19:32:39Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T16:55:36Z",
+  "fetched_at": "2026-09-09T19:32:39Z",
   "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.445507,
+  "forward_pe": 14.43644,
   "forward_eps": 15.51906,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:36Z",
+  "fetched_at": "2026-09-09T19:32:39Z",
   "rows": [
    {
-    "ts": 1788969104,
-    "headline": "Because Broadcom Monetizes Alphabet, Meta, and OpenAI at Scale I Buy Again and Again",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42ad6c5802cf8f2ed0ab9e387b1dc17d5814c585b3d2faadc6f86782ccdfb19d"
+    "ts": 1788977100,
+    "headline": "What's going on in today's session: S&P500 most active stocks",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a5660c5f55f29a62a647296a45344f416da2245c84fdb28af5dc79f76f039bab"
    },
    {
-    "ts": 1788968580,
-    "headline": "NuScale Power: 1 Catalyst That Will Make or Break This Nuclear Stock",
+    "ts": 1788976200,
+    "headline": "Is Netflix a Good Buy? After 10 Years of Covering NFLX, Here's My Honest Answer.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a91c1cbfc7904fda7b4e0d0475b774c8fcd984a41a0f34b51cd83827cddcae4c"
+    "url": "https://finnhub.io/api/news?id=48fe5d32221e8645ac03005b10b31cc0fe4cc84b1f53e1d862bfc204d109fae9"
    },
    {
-    "ts": 1788968438,
-    "headline": "Michael Burry Sells NVDA, PLTR December 2026 Puts Amid Portfolio-Wide Cuts \u2013 Says He\u2019s \u2018Pulling Back\u2019 On Risk",
+    "ts": 1788975598,
+    "headline": "Inditex Breaks Records and Still Gets Marked Down",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5026cd4b1083abf3f0ddc7462a40be2ad216f0cf7c950c35d59396b1c81f81c4"
+    "url": "https://finnhub.io/api/news?id=cd7bd47de9facf2e91986a80c9419c669d5f061b3ab721e8cfd568ddff9b7fd3"
    },
    {
-    "ts": 1788968436,
-    "headline": "Broadcom Stock Slipped While Its Revenue Schedule Got Longer",
+    "ts": 1788975366,
+    "headline": "Core & Main, Inc. Q2 2027 Earnings Call Summary",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=606ccb2ee77f50e3dc91af4378ce180a4f1c808b6f5363178e77ad7185a1059a"
+    "url": "https://finnhub.io/api/news?id=89fcc8c5bdffc880460c3d2396ef4c8b2fef6c087460549f8d0a24bcbc303490"
    },
    {
-    "ts": 1788968352,
-    "headline": "Why Corning Stock Keeps Going Up",
+    "ts": 1788975300,
+    "headline": "Bill Ackman Bets Big on Uber Stock. Should You Follow Him?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c4e3ec6cb640712e044b3d76bb216bfb5e2760fc3f9ad84d9ff494abc0b8b219"
+    "url": "https://finnhub.io/api/news?id=cd4ba00e05f5c23fd6b9ea5f47247752f24224098da8c74134409bde0f168b2f"
    },
    {
-    "ts": 1788968100,
-    "headline": "History Says This ETF Could Be the Safest Place to Invest During a Bear Market",
+    "ts": 1788975060,
+    "headline": "My Top Dividend Growth Stock to Buy in September and Hold Forever",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fc4505e9a4dab19b5715e6d833dfb9f5b526cd8932c708627b137e558ba7299b"
+    "url": "https://finnhub.io/api/news?id=f95a518f7660f6b88039e5dc9b1e82f3eb99cc288653aceb2e4edb8dfaf2734c"
    },
    {
-    "ts": 1788967951,
-    "headline": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
+    "ts": 1788975000,
+    "headline": "Verily Health Secures New Investment From NVIDIA and CU Healthcare Innovation Fund",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ba6f722e9f083b7789343e7aa59f2acc914fa8bab3dec9ef725aee2319c0d818"
+    "url": "https://finnhub.io/api/news?id=e90ea950ccaa2e363e2a06e87a79010ffb566c1da4c1808c1496304dfa42d2e9"
    },
    {
-    "ts": 1788967729,
-    "headline": "Why Chewy Stock Is Sinking Today",
+    "ts": 1788974701,
+    "headline": "'I am the house now': U.S. Treasury Secretary Scott Bessent Dares Investors to Short the Yen, as the Treasury Announces a Longer-Dated Bond Repurchase Up to $6 Billion",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9dfcb815f02c6fb961b1e57ca4a90c13eef1b4d3d22f264462a14a7c4730f65c"
+    "url": "https://finnhub.io/api/news?id=d9420c6a8b65c51b6b1be05a11e12ba72e34ddeee8ced7b5b1c600eb517f6e3c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T16:55:37Z",
+  "fetched_at": "2026-09-09T19:32:40Z",
   "buys": 3,
   "sells": 62,
   "net_shares": -4875721.0,
