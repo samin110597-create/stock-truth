@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-09T19:32:02Z",
+ "generated_at": "2026-09-09T22:01:21Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T19:32:02Z",
-  "current": 252.2,
-  "change": -4.77,
-  "change_pct": -1.8562,
+  "fetched_at": "2026-09-09T22:01:21Z",
+  "current": 252.4,
+  "change": -4.57,
+  "change_pct": -1.7784,
   "high": 254.69,
   "low": 250.65,
-  "open": 253.13,
+  "open": 253.12,
   "prev_close": 256.97,
-  "ts": 1788982296
+  "ts": 1788984000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T19:32:02Z",
+  "fetched_at": "2026-09-09T22:01:21Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T19:32:06Z",
+  "fetched_at": "2026-09-09T22:01:24Z",
   "bars": [
    {
     "date": "2023-02-07",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-09",
-    "open": 253.08,
-    "high": 254.47,
-    "low": 250.66,
-    "close": 252.135,
-    "volume": 1252366.0
+    "open": 253.12,
+    "high": 254.62,
+    "low": 250.64999,
+    "close": 252.48,
+    "volume": 26361942.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T19:32:07Z",
+  "fetched_at": "2026-09-09T22:01:24Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T19:32:07Z",
+  "fetched_at": "2026-09-09T22:01:25Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.23964,
+  "forward_pe": 24.268484,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T19:32:07Z",
+  "fetched_at": "2026-09-09T22:01:25Z",
   "rows": [
    {
-    "ts": 1788975331,
-    "headline": "Amazon raises \u00a34.25 billion in debut sterling bond sale for AI",
+    "ts": 1788982980,
+    "headline": "Optivels Launches New Integration Tools Connecting Shopify, Amazon, and Walmart Stores",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5f2095fce057c6b95b82873b3a0d1ba3043f74c070653a3fb0413f30b91f2bba"
+    "url": "https://finnhub.io/api/news?id=d00d5a7e823d5acd006a9829816c0024dbb21e83513b9146081b5abb9d3139e7"
    },
    {
-    "ts": 1788975270,
-    "headline": "Palantir Changed The Number It Wants You To Judge It By",
+    "ts": 1788982408,
+    "headline": "5 Takeaways From Today's Apple Event",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=744977225f7d1f6aea4493a76236af91e6781e0013581bb2c1437b30e2eebce1"
+    "url": "https://finnhub.io/api/news?id=650a85d692ef8014cd6be701834c6a8ace57a02b5e8780b6d183e30505835243"
    },
    {
-    "ts": 1788974781,
-    "headline": "AMZN And Wiwynn Are Scaling Up In Texas \u2014 What\u2019s Behind The $1.6B Investment?",
+    "ts": 1788981668,
+    "headline": "\u2018Somebody\u2019s Going to Sue Your Butt\u2019: Ramsey to Woman Renting Her Pool by the Hour",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bafaf2e85f60f5d981ab54fd9bd7a730f120d0678965a999259c3ce37d3c1bd5"
+    "url": "https://finnhub.io/api/news?id=58b07001bdee7a30c50bc1e29d12e7bab2c294edfb4a94ccc191a7c6e5c3cfe7"
    },
    {
-    "ts": 1788974739,
-    "headline": "Cramer Says Qualcomm\u2019s Amazon Collaboration Gives Stalled Stock \u201cSomething Special\u201d to Point At",
+    "ts": 1788981540,
+    "headline": "Shein rival confirms plans for major U.S. store expansion",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e16e1ac7659c6bd4d3c4abc36224bb9a8ff6a108cf38ce8550cdfad5cefbe499"
+    "url": "https://finnhub.io/api/news?id=f0676d17040a2ceb6e39c55ff69763843a9e241b0bc03c21d62e7ba4b9ae870a"
    },
    {
-    "ts": 1788974640,
-    "headline": "Why the Fragile Trump-Xi Truce Could Break Before the\u00a0U.S.-China D.C. Summit",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=70dfb9d108a02559239e686f69aaa4f65a90bbb7c54d410eba625ca59dc47eb6"
+    "ts": 1788981004,
+    "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=3f9396fd378945ab289f1fef5df0f06f15cd8f5cea04f043344d77ae53f1a0a4"
    },
    {
-    "ts": 1788973561,
-    "headline": "Jim Cramer Breaks Down Why Amazon (AMZN) Is a \u201cScreaming Buy\u201d on AI Potential",
+    "ts": 1788979804,
+    "headline": "Veteran Bank Revamps Qualcomm Price Target After Amazon AI Chip Deal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=74d35d01290c914aeb32e4fd7078c0b8ae5d39d9c2abe217c7527fae79fffa2a"
+    "url": "https://finnhub.io/api/news?id=ec770f25056b64e2749463de0cbe84e1e246c675dbcb190c28b649c610282732"
    },
    {
-    "ts": 1788973500,
-    "headline": "Google Cloud Grew 82% Last Quarter -- Here's Why Amazon and Microsoft Investors Should Care",
+    "ts": 1788978480,
+    "headline": "Meta\u2019s AI Agent for Consumers Has Arrived. Alphabet and Amazon Should Watch Out.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=810ef97349ea20bf45ac6145dbabede5d13ece39e80df2cf9c61d9c1c3fad2c0"
+    "url": "https://finnhub.io/api/news?id=5c624e85ccd34c84eed3eef82e0fe527cb98e6b61fdbe63f955002308481e0d5"
    },
    {
-    "ts": 1788972634,
-    "headline": "Verizon and Corning Just Signed an 80 Million Mile Fiber Deal to Wire the AI Boom",
+    "ts": 1788976320,
+    "headline": "Prediction: This Is What a $10,000 Investment in Amazon Will Be Worth by 2030",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b23806c2fd5e45a9dbfaface3a141ad696057a69d999292d70f42ac2fe05d352"
+    "url": "https://finnhub.io/api/news?id=4fe1aa1991f215a69be10ad452894057146fdf424111f7bca086a7fba8fd5ef1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T19:32:07Z",
+  "fetched_at": "2026-09-09T22:01:25Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
