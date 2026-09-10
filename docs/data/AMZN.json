@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-09T22:01:21Z",
+ "generated_at": "2026-09-10T16:42:58Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T22:01:21Z",
-  "current": 252.4,
-  "change": -4.57,
-  "change_pct": -1.7784,
-  "high": 254.69,
-  "low": 250.65,
-  "open": 253.12,
-  "prev_close": 256.97,
-  "ts": 1788984000
+  "fetched_at": "2026-09-10T16:42:58Z",
+  "current": 252.6,
+  "change": 0.2,
+  "change_pct": 0.0792,
+  "high": 253.06,
+  "low": 249.58,
+  "open": 250.12,
+  "prev_close": 252.4,
+  "ts": 1789058554
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T22:01:21Z",
+  "fetched_at": "2026-09-10T16:42:58Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2771759329726.687,
+  "mcap": 2722465780901.0635,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-09T22:01:24Z",
+  "fetched_at": "2026-09-10T16:43:01Z",
   "bars": [
-   {
-    "date": "2023-02-07",
-    "open": 101.17,
-    "high": 102.41,
-    "low": 98.080002,
-    "close": 102.11,
-    "volume": 119501300.0
-   },
    {
     "date": "2023-02-08",
     "open": 102.040001,
@@ -7210,27 +7202,35 @@
     "high": 261.12,
     "low": 255.28999,
     "close": 258.51001,
-    "volume": 30698000.0
+    "volume": 30749900.0
    },
    {
     "date": "2026-09-08",
-    "open": 256.76001,
+    "open": 256.67999,
     "high": 257.98999,
     "low": 254.75,
     "close": 256.97,
-    "volume": 28792611.0
+    "volume": 29398000.0
    },
    {
     "date": "2026-09-09",
     "open": 253.12,
-    "high": 254.62,
+    "high": 254.69,
     "low": 250.64999,
-    "close": 252.48,
-    "volume": 26361942.0
+    "close": 252.39999,
+    "volume": 33011800.0
+   },
+   {
+    "date": "2026-09-10",
+    "open": 250.05,
+    "high": 253.05,
+    "low": 249.6,
+    "close": 252.545,
+    "volume": 552982.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-09",
+  "latest": "2026-09-10",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T22:01:24Z",
+  "fetched_at": "2026-09-10T16:43:01Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-09T22:01:25Z",
+  "fetched_at": "2026-09-10T16:43:01Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.268484,
+  "forward_pe": 24.285791,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
   "short_asof": 1786665600,
-  "institutions_pct": 0.68787,
+  "institutions_pct": 0.68785006,
   "insiders_pct": 0.08866,
   "beta": 1.443,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T22:01:25Z",
+  "fetched_at": "2026-09-10T16:43:02Z",
   "rows": [
    {
-    "ts": 1788982980,
-    "headline": "Optivels Launches New Integration Tools Connecting Shopify, Amazon, and Walmart Stores",
+    "ts": 1789055758,
+    "headline": "Amazon Just Made Its Biggest ChatGPT Bet Yet",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d00d5a7e823d5acd006a9829816c0024dbb21e83513b9146081b5abb9d3139e7"
+    "url": "https://finnhub.io/api/news?id=dda1fa348447fdff18d54146a4f73f657200713d036fdbda99c6edaa46d822cf"
    },
    {
-    "ts": 1788982408,
-    "headline": "5 Takeaways From Today's Apple Event",
+    "ts": 1789055436,
+    "headline": "Traders Are Paying More to Bet on Oracle Than to Protect Against It. Here\u2019s Why That Is Backwards",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=650a85d692ef8014cd6be701834c6a8ace57a02b5e8780b6d183e30505835243"
+    "url": "https://finnhub.io/api/news?id=6be2870c778869772d3d4ddaffba63d65ec9d8659737e26e64ddafd52490bb6e"
    },
    {
-    "ts": 1788981668,
-    "headline": "\u2018Somebody\u2019s Going to Sue Your Butt\u2019: Ramsey to Woman Renting Her Pool by the Hour",
+    "ts": 1789054894,
+    "headline": "Top Midday Stories: Macy's Shares Fall Despite Strong Earnings; Amazon Reportedly Collaborates With OpenAI on ChatGPT Advertising",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=58b07001bdee7a30c50bc1e29d12e7bab2c294edfb4a94ccc191a7c6e5c3cfe7"
+    "url": "https://finnhub.io/api/news?id=9eb6838b8d45ba358fc71c72b976b1b187d057a99181e53329d9e4d71b330e26"
    },
    {
-    "ts": 1788981540,
-    "headline": "Shein rival confirms plans for major U.S. store expansion",
+    "ts": 1789054200,
+    "headline": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f0676d17040a2ceb6e39c55ff69763843a9e241b0bc03c21d62e7ba4b9ae870a"
+    "url": "https://finnhub.io/api/news?id=daa3209cb64e04e070beb2715ccc5e37aa9832d42758d496016d45d4044b0b79"
    },
    {
-    "ts": 1788981004,
-    "headline": "Stay informed with the top movers within the dow jones index on Wednesday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=3f9396fd378945ab289f1fef5df0f06f15cd8f5cea04f043344d77ae53f1a0a4"
+    "ts": 1789050032,
+    "headline": "Cramer Thinks the US Debt Market Is Saturated. Amazon Just Went to London to Borrow",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f26968ff9951c30a3b8dc8c401e973a29b2c041600a1e2b1e6fc1654f2c1aefd"
    },
    {
-    "ts": 1788979804,
-    "headline": "Veteran Bank Revamps Qualcomm Price Target After Amazon AI Chip Deal",
+    "ts": 1789049574,
+    "headline": "Anthropic Employees Say \u2018AI Could Kill All Humans!\u2019 Put Odds Above 10% This Decade",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ec770f25056b64e2749463de0cbe84e1e246c675dbcb190c28b649c610282732"
+    "url": "https://finnhub.io/api/news?id=5941cc7cd1546d9ed1b8bd5b4db6e62c6aa015f73b122ac870d29fe7a59306de"
    },
    {
-    "ts": 1788978480,
-    "headline": "Meta\u2019s AI Agent for Consumers Has Arrived. Alphabet and Amazon Should Watch Out.",
+    "ts": 1789048830,
+    "headline": "AI Companies\u2019 Debt Now Equals 68% of New Long-Term U.S. Treasury Borrowing This Year, JPMorgan Finds",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5c624e85ccd34c84eed3eef82e0fe527cb98e6b61fdbe63f955002308481e0d5"
+    "url": "https://finnhub.io/api/news?id=cddbf03067596903377b4e0f5858ae6f41167bef8ba0f331def9b10974f7ab95"
    },
    {
-    "ts": 1788976320,
-    "headline": "Prediction: This Is What a $10,000 Investment in Amazon Will Be Worth by 2030",
+    "ts": 1789048343,
+    "headline": "Why Is Netflix Growing Fastest And Falling Furthest?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4fe1aa1991f215a69be10ad452894057146fdf424111f7bca086a7fba8fd5ef1"
+    "url": "https://finnhub.io/api/news?id=34c98521f923e36f545bc631b1764180ed3a8c2cf45eea082a481f36295fb0de"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-09T22:01:25Z",
+  "fetched_at": "2026-09-10T16:43:02Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
