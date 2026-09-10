@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-10T19:19:19Z",
+ "generated_at": "2026-09-10T21:42:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:19Z",
-  "current": 330.0,
-  "change": 1.62,
-  "change_pct": 0.4933,
-  "high": 330.539,
+  "fetched_at": "2026-09-10T21:42:55Z",
+  "current": 330.39,
+  "change": 2.01,
+  "change_pct": 0.6121,
+  "high": 330.89,
   "low": 325.651,
-  "open": 326.09,
+  "open": 326.08,
   "prev_close": 328.38,
-  "ts": 1789067924
+  "ts": 1789070400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:19Z",
+  "fetched_at": "2026-09-10T21:42:55Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T19:19:30Z",
+  "fetched_at": "2026-09-10T21:42:56Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7218,15 +7218,15 @@
     "high": 329.34,
     "low": 325.63,
     "close": 328.38,
-    "volume": 19291000.0
+    "volume": 19326900.0
    },
    {
     "date": "2026-09-10",
-    "open": 326.155,
-    "high": 330.515,
-    "low": 325.7,
-    "close": 330.045,
-    "volume": 331318.0
+    "open": 326.079987,
+    "high": 330.89001,
+    "low": 325.651,
+    "close": 330.39001,
+    "volume": 15219012.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:31Z",
+  "fetched_at": "2026-09-10T21:42:56Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T19:19:31Z",
+  "fetched_at": "2026-09-10T21:42:56Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.181362,
+  "forward_pe": 22.212841,
   "forward_eps": 14.87383,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:31Z",
+  "fetched_at": "2026-09-10T21:42:56Z",
   "rows": [
    {
-    "ts": 1789062653,
-    "headline": "Alphabet Edges Higher as $15 Billion Nuclear Bet Locks In AI Power",
+    "ts": 1789069800,
+    "headline": "Nvidia Is One of the Most Profitable Businesses in the World. Here's Why the Stock Is Worth $311 a Share Right Now -- 39% More Than Its Share Price.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722"
+    "url": "https://finnhub.io/api/news?id=cf0eb83b11ec67dc48cc9e17dd47800583bf77278e9658f9050931b0d822a0f6"
    },
    {
-    "ts": 1789062464,
-    "headline": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
+    "ts": 1789068546,
+    "headline": "Why hardware will attract buyers to Apple's new lineup over AI features",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3a9604e87009b109a4093758319b74e6973ffb0b0b76b2b0c9d507478f176b55"
+    "url": "https://finnhub.io/api/news?id=de5bdc240768cd3beebc324f2c1f3704e8a329573e824e7e614954dea297dcdd"
    },
    {
-    "ts": 1789062060,
-    "headline": "Workday Names Sarah Kennedy Ellis Chief Marketing Officer",
+    "ts": 1789067580,
+    "headline": "AT&T CEO drops a hot take on the new Apple iPhone Duo",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc62b699ddea589c5ec174241205f0feffe8ea4a76a28f05487eaaece48751c0"
+    "url": "https://finnhub.io/api/news?id=b0fb1df122f34b7374a82f7dfd6ff7925b5f80c018ef848a1b7f62fa015a54ff"
    },
    {
-    "ts": 1789060696,
-    "headline": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
+    "ts": 1789066294,
+    "headline": "Google Just Made a Massive AI Bet Wall Street May Be Missing",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801"
+    "url": "https://finnhub.io/api/news?id=9dd5204daf584a58557545c8c3caf58c68dba573965da4f16a081b668dfdc9a3"
    },
    {
-    "ts": 1789060560,
-    "headline": "ADBE Rides on Acrobat AI Expansion: Can it Outpace MSFT & GOOGL?",
+    "ts": 1789065891,
+    "headline": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=05fc44c786cba8968665c4956dc8d4e5b2e26eddb2a47ea718f9da06d69f1b88"
+    "url": "https://finnhub.io/api/news?id=fde5b84f63a1e8dfca5eaf778d20ef7e2618aa2c3edc51cbde013b1414ec7cd4"
    },
    {
-    "ts": 1789059927,
-    "headline": "Six Days After Cramer Warned Nuclear Is Too Hard to Build, Google Signed Its First Nuclear Deal Ever",
+    "ts": 1789065290,
+    "headline": "Goldman Sachs Has Blunt Message for AI Stock Investors",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5a5c99aaf579f1fc73645536adcec9819f9e2fc25c855d0e7e9274d4d0988c50"
+    "url": "https://finnhub.io/api/news?id=abe77340f3cfeba3c5740cabc374c322b18b04d9d02adcaf91679762ea52ccdf"
    },
    {
-    "ts": 1789059136,
-    "headline": "Is Microsoft Stock Overvalued At 28x Earnings?",
+    "ts": 1789064820,
+    "headline": "Why Meta\u2019s Consumer AI Agent Is Good News for Shopify Stock",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cbe2dd1b61e65f6225b23b9613329430d5f754b5ebd6492b6f0b5d285d272499"
+    "url": "https://finnhub.io/api/news?id=8de64020fe5219adb9bb0d04c6875f57a1a017d0ff29bd421877ebff51d2aeb5"
    },
    {
-    "ts": 1789058511,
-    "headline": "Snap Adds Party Planning as It Argues It Isn't Social Media",
+    "ts": 1789064227,
+    "headline": "Marvell Technology vs. Broadcom: Comparing Revenue Trends Between These Artificial Intelligence Companies",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=182a1ccfa3a01fd845284eb0bce84cddb4a24a4278013bb29f366070f022eccc"
+    "url": "https://finnhub.io/api/news?id=e649459a66cef5d880c0b73b5ad92c514ef9f9e70d703bf837e45fa0f343c3f5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:31Z",
+  "fetched_at": "2026-09-10T21:42:56Z",
   "error": "no insider filings in six months"
  },
  "peers": {

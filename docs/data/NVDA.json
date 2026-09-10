@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-10T19:19:40Z",
+ "generated_at": "2026-09-10T21:43:05Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:40Z",
-  "current": 218.16,
-  "change": -5.51,
-  "change_pct": -2.4635,
+  "fetched_at": "2026-09-10T21:43:05Z",
+  "current": 218.36,
+  "change": -5.31,
+  "change_pct": -2.374,
   "high": 220.99,
   "low": 217.2,
-  "open": 220.535,
+  "open": 220.525,
   "prev_close": 223.67,
-  "ts": 1789067952
+  "ts": 1789070400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:40Z",
+  "fetched_at": "2026-09-10T21:43:05Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T19:19:43Z",
+  "fetched_at": "2026-09-10T21:43:06Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7218,15 +7218,15 @@
     "high": 226.17999,
     "low": 223.46001,
     "close": 223.67,
-    "volume": 82737000.0
+    "volume": 82955500.0
    },
    {
     "date": "2026-09-10",
-    "open": 220.525,
-    "high": 220.98,
-    "low": 217.21,
-    "close": 218.12,
-    "volume": 2494769.0
+    "open": 220.52499,
+    "high": 220.99001,
+    "low": 217.2,
+    "close": 218.36,
+    "volume": 100845811.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:44Z",
+  "fetched_at": "2026-09-10T21:43:06Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T19:19:44Z",
+  "fetched_at": "2026-09-10T21:43:07Z",
   "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.011343,
+  "forward_pe": 14.026631,
   "forward_eps": 15.56753,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:44Z",
+  "fetched_at": "2026-09-10T21:43:07Z",
   "rows": [
    {
-    "ts": 1789063501,
-    "headline": "Curious about the most active S&P500 stocks in today's session?",
+    "ts": 1789069800,
+    "headline": "Nvidia Is One of the Most Profitable Businesses in the World. Here's Why the Stock Is Worth $311 a Share Right Now -- 39% More Than Its Share Price.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=cf0eb83b11ec67dc48cc9e17dd47800583bf77278e9658f9050931b0d822a0f6"
+   },
+   {
+    "ts": 1789069595,
+    "headline": "Michael Burry Dumps Nvidia and Palantir Put Options in Fresh Risk Warning",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b141d636410a88a1ce54f7dca821f31d5ff3ef946df3567614080f1b64323148"
+   },
+   {
+    "ts": 1789069281,
+    "headline": "Jensen Huang Maps Nvidia's Next Two Growth Engines",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d2c9ce5253a156194db919978406e2d9b8fa0f6e2a2000e52a622563234e6057"
+   },
+   {
+    "ts": 1789068481,
+    "headline": "Prediction: Marvell Technology Stock Will Jump 150% in 5 Years. Here\u2019s the Math.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=72f4f87049e5b4543170150126c9e9dde0066de45d6e3d590dc55934451ad4e6"
+   },
+   {
+    "ts": 1789067407,
+    "headline": "Which dow jones stocks are moving on Thursday?",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=d79e4ece4f5c49cd64355fa3d1aaada4b9a461e3adc8108fd0435a2142c6f303"
+    "url": "https://finnhub.io/api/news?id=adf9fabb65fa1bdc0746c8cf7941b566bd25d62715d8b6fa00e9d6a2953470bc"
    },
    {
-    "ts": 1789063200,
-    "headline": "Most active stocks in Thursday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b020288d487e0277d80abd0df4829ed719ff51ab5723a3856502373d7fc82b56"
-   },
-   {
-    "ts": 1789061760,
-    "headline": "Where Will the Nasdaq Be in 2036? History Has Good and Bad News for Growth Investors.",
+    "ts": 1789067191,
+    "headline": "NVDA, CRWD, PANW, PLTR Stock In Focus \u2014 Nvidia's Huang Highlights Cybersecurity As Next AI Leg",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7b38c30613a91e406cb2868a305a7eaddbf67ef5770593a00b346c73d081f810"
+    "url": "https://finnhub.io/api/news?id=084b7abb337c0f152fa4fe8a742599e604483480b62be6becd320242144190e8"
    },
    {
-    "ts": 1789061567,
-    "headline": "Why Chewy Stock Is Plunging This Week",
+    "ts": 1789067038,
+    "headline": "Why Navan Stock Is Plummeting Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=87261d0489f7c8c17b361b7a8cb924d492e0d7029a671c9ab6d7e9046e027250"
+    "url": "https://finnhub.io/api/news?id=87d5d0f631ce835b77fc19a349cb6b245cef15750a1c6e2006c1f3d44d556eac"
    },
    {
-    "ts": 1789061443,
-    "headline": "Analog Devices Wants Robots to Think Without Nvidia | Is ADI the Next Big AI Stock?",
+    "ts": 1789066800,
+    "headline": "NVIDIA vs. AMD After Earnings: Which AI Stock Should You Buy Now?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d7de61613e5ab97840ead9e156538879338ba1e53cbaea09ba0fba24e2bfbbb2"
-   },
-   {
-    "ts": 1789061410,
-    "headline": "Got $10,000? Eli Lilly vs. Nvidia: The Better Buy For 2026",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=be3bacb593a16c63c5b7e86a008a5ce891e4258fdfe85d2e7db010e5d6ef3554"
-   },
-   {
-    "ts": 1789061319,
-    "headline": "Palantir Taps Nvidia for High-Stakes AI Push",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=29804e57a3410ca3759c35898e508b121dce0c95c57efd5ead2017395867b6e9"
-   },
-   {
-    "ts": 1789061160,
-    "headline": "An Nvidia Move Just Put AMD and Intel on the Defensive",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3c5c71e12ed2a7001ce14f1a7138094115f207f2f256a264a24ae40084536ace"
+    "url": "https://finnhub.io/api/news?id=dfa0631bc193375c2ca594b4b3dd5b99c37f897ccb776477753063c213adb582"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T19:19:44Z",
+  "fetched_at": "2026-09-10T21:43:07Z",
   "buys": 3,
   "sells": 60,
   "net_shares": -4575721.0,
