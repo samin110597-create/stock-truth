@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-10T16:43:35Z",
+ "generated_at": "2026-09-10T19:19:53Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:35Z",
-  "current": 651.06,
-  "change": -2.63,
-  "change_pct": -0.4023,
+  "fetched_at": "2026-09-10T19:19:53Z",
+  "current": 644.71,
+  "change": -8.98,
+  "change_pct": -1.3737,
   "high": 663.5,
   "low": 643.09,
   "open": 653.715,
   "prev_close": 653.69,
-  "ts": 1789058601
+  "ts": 1789067975
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:35Z",
+  "fetched_at": "2026-09-10T19:19:53Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T16:43:36Z",
+  "fetched_at": "2026-09-10T19:19:55Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7225,8 +7225,8 @@
     "open": 654.005,
     "high": 663.095,
     "low": 643.36,
-    "close": 650.86,
-    "volume": 417546.0
+    "close": 644.635,
+    "volume": 538914.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T17:58:44Z",
+  "fetched_at": "2026-09-10T19:19:56Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1571225468928.0,
+  "mcap": 1642377248768.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.52,
+  "eps_ttm": 26.54,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 23.256788,
-  "forward_pe": 17.642334,
-  "pb": 6.0160947,
-  "ps": 6.8838825,
-  "peg": 0.808,
-  "ev_ebitda": 14.53,
+  "pe": 24.291636,
+  "forward_pe": 18.441256,
+  "pb": 6.2885294,
+  "ps": 7.195614,
+  "peg": 0.8649,
+  "ev_ebitda": 15.388,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:36Z",
+  "fetched_at": "2026-09-10T19:19:56Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T16:43:37Z",
+  "fetched_at": "2026-09-10T19:19:56Z",
   "analyst_target_mean": 754.15295,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 18.620033,
+  "forward_pe": 18.441256,
   "forward_eps": 34.95966,
   "short_pct_float": 0.0127,
   "short_ratio": 1.73,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:37Z",
+  "fetched_at": "2026-09-10T19:19:56Z",
   "rows": [
+   {
+    "ts": 1789062464,
+    "headline": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3a9604e87009b109a4093758319b74e6973ffb0b0b76b2b0c9d507478f176b55"
+   },
+   {
+    "ts": 1789062300,
+    "headline": "India\u2019s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=36fd601787cffc1cbf8326c79dded9db2444c938c9333a43bf232b8efaff9daa"
+   },
+   {
+    "ts": 1789060696,
+    "headline": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801"
+   },
+   {
+    "ts": 1789058511,
+    "headline": "Snap Adds Party Planning as It Argues It Isn't Social Media",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=182a1ccfa3a01fd845284eb0bce84cddb4a24a4278013bb29f366070f022eccc"
+   },
+   {
+    "ts": 1789057055,
+    "headline": "Is It Ever Safe To Buy The Dip In Snap Stock?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=01bc286dbb7f0bbff16bbf3111d8e37077f9da3047e7961c811ab2ad7d3d4e88"
+   },
+   {
+    "ts": 1789057027,
+    "headline": "Meta Platforms' Weak Trust Score Could Limit Muse Adoption, Oppenheimer Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e45e1d3a30e70b9a3da5abe515b93150ea9e0beb566629edb3179edf6a12450a"
+   },
+   {
+    "ts": 1789056346,
+    "headline": "JPMorgan Lifts Meta to $820 as Muse Reaches Number Three",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3d7155b73e6b424036137b03b3cdb2aa1a109b61ec9e109be7076952c75c1eab"
+   },
    {
     "ts": 1789054259,
     "headline": "Cathie Wood Buys Meta, Sells Alphabet. Is She Buying High and Selling Low?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=696b4eaedd8f8193557d0c7468d4e3d9e6ae808b63f34b8c7f1c3da81a37b7b7"
-   },
-   {
-    "ts": 1789054232,
-    "headline": "Prediction: Broadcom Could Become One of the World\u2019s Most Valuable Tech Companies",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7ecbca565a76fcf53738335c361d756ffa9f8feb459e7ec373cd7e0404d75cdf"
-   },
-   {
-    "ts": 1789054200,
-    "headline": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=daa3209cb64e04e070beb2715ccc5e37aa9832d42758d496016d45d4044b0b79"
-   },
-   {
-    "ts": 1789053735,
-    "headline": "Morgan Stanley Sees 25% Meta Gain on AI Upside",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a3ae4d7738a4e116001c6d9b4952c0391bacf360e2d1d1efc01ca6f0ef25d2db"
-   },
-   {
-    "ts": 1789053664,
-    "headline": "3 Quality Compounders with Impressive Fundamentals",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1b09565d259ac9bfe618da32adb94625e41d949d1b28c9c53714134c2294b0d9"
-   },
-   {
-    "ts": 1789053267,
-    "headline": "Meta Stock Scores Wall Street Upgrade After Muse AI App Launch",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=321197512055f9d0904a12c197cbfebc3997b89feab8dbec5ccb9b3c2f193893"
-   },
-   {
-    "ts": 1789052418,
-    "headline": "Reddit Rises 6% as User Growth Hits Fastest Pace of the Year, Pinterest Ticks Up, Snap Barely Budges",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=82fc0a22b149d48881dba1431731f359a243082092fb6bb49ff85c1808f5c5e4"
-   },
-   {
-    "ts": 1789052400,
-    "headline": "U.S. Bank Scores Younger Demos With Mendoza",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=42ae3af3637cf4efe6126e7b5f3c97bea5b304712bbf5d784bd33c5a445fa712"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:37Z",
+  "fetched_at": "2026-09-10T19:19:56Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

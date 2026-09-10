@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-10T16:42:58Z",
+ "generated_at": "2026-09-10T19:18:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:42:58Z",
-  "current": 252.6,
-  "change": 0.2,
-  "change_pct": 0.0792,
-  "high": 253.06,
+  "fetched_at": "2026-09-10T19:18:59Z",
+  "current": 251.71,
+  "change": -0.69,
+  "change_pct": -0.2734,
+  "high": 253.15,
   "low": 249.58,
   "open": 250.12,
   "prev_close": 252.4,
-  "ts": 1789058554
+  "ts": 1789067906
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:42:58Z",
+  "fetched_at": "2026-09-10T19:18:59Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T16:43:01Z",
+  "fetched_at": "2026-09-10T19:19:09Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-10",
     "open": 250.05,
-    "high": 253.05,
+    "high": 253.11,
     "low": 249.6,
-    "close": 252.545,
-    "volume": 552982.0
+    "close": 251.68,
+    "volume": 745638.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T17:57:53Z",
+  "fetched_at": "2026-09-10T19:19:10Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2788369891328.0,
+  "mcap": 2713620578304.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.43,
+  "eps_ttm": 12.42,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 20.797264,
-  "forward_pe": 24.855967,
-  "pb": 5.0533667,
-  "ps": 3.5947423,
-  "peg": 1.5151,
-  "ev_ebitda": 17.269,
+  "pe": 20.256039,
+  "forward_pe": 24.18964,
+  "pb": 4.917898,
+  "ps": 3.4983761,
+  "peg": 1.4771,
+  "ev_ebitda": 16.879,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:01Z",
+  "fetched_at": "2026-09-10T19:19:10Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T16:43:01Z",
+  "fetched_at": "2026-09-10T19:19:10Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.285791,
+  "forward_pe": 24.18964,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0097,
   "short_ratio": 2.04,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:02Z",
+  "fetched_at": "2026-09-10T19:19:10Z",
   "rows": [
    {
-    "ts": 1789055758,
-    "headline": "Amazon Just Made Its Biggest ChatGPT Bet Yet",
+    "ts": 1789062464,
+    "headline": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dda1fa348447fdff18d54146a4f73f657200713d036fdbda99c6edaa46d822cf"
+    "url": "https://finnhub.io/api/news?id=3a9604e87009b109a4093758319b74e6973ffb0b0b76b2b0c9d507478f176b55"
    },
    {
-    "ts": 1789055436,
-    "headline": "Traders Are Paying More to Bet on Oracle Than to Protect Against It. Here\u2019s Why That Is Backwards",
+    "ts": 1789061744,
+    "headline": "Sector Update: Tech Stocks Decline Thursday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6be2870c778869772d3d4ddaffba63d65ec9d8659737e26e64ddafd52490bb6e"
+    "url": "https://finnhub.io/api/news?id=b1cc1a27f909b889f6cc0c64e0888d4c12abd2e1d77fee0cb3e54997851f8309"
    },
    {
-    "ts": 1789054894,
-    "headline": "Top Midday Stories: Macy's Shares Fall Despite Strong Earnings; Amazon Reportedly Collaborates With OpenAI on ChatGPT Advertising",
+    "ts": 1789060696,
+    "headline": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9eb6838b8d45ba358fc71c72b976b1b187d057a99181e53329d9e4d71b330e26"
+    "url": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801"
    },
    {
-    "ts": 1789054200,
-    "headline": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
+    "ts": 1789060426,
+    "headline": "Polymarket names Warren Jenson as its first CFO",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=daa3209cb64e04e070beb2715ccc5e37aa9832d42758d496016d45d4044b0b79"
+    "url": "https://finnhub.io/api/news?id=2cb2a5921a13b2a8ac3616cb555a8127b93159a7d007eca7e230c15faf76f229"
    },
    {
-    "ts": 1789050032,
-    "headline": "Cramer Thinks the US Debt Market Is Saturated. Amazon Just Went to London to Borrow",
+    "ts": 1789060140,
+    "headline": "Why Wall Street Is Buying Navan\u2019s Post-Earnings Selloff",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f26968ff9951c30a3b8dc8c401e973a29b2c041600a1e2b1e6fc1654f2c1aefd"
+    "url": "https://finnhub.io/api/news?id=d6e231007d66f5b64931105d3f5b4831adb626365e4babcee91cc94878d053d4"
    },
    {
-    "ts": 1789049574,
-    "headline": "Anthropic Employees Say \u2018AI Could Kill All Humans!\u2019 Put Odds Above 10% This Decade",
+    "ts": 1789059136,
+    "headline": "Is Microsoft Stock Overvalued At 28x Earnings?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5941cc7cd1546d9ed1b8bd5b4db6e62c6aa015f73b122ac870d29fe7a59306de"
+    "url": "https://finnhub.io/api/news?id=cbe2dd1b61e65f6225b23b9613329430d5f754b5ebd6492b6f0b5d285d272499"
    },
    {
-    "ts": 1789048830,
-    "headline": "AI Companies\u2019 Debt Now Equals 68% of New Long-Term U.S. Treasury Borrowing This Year, JPMorgan Finds",
+    "ts": 1789058940,
+    "headline": "Can Apple's Foldable iPhone Fuel the Next Growth Cycle for the Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cddbf03067596903377b4e0f5858ae6f41167bef8ba0f331def9b10974f7ab95"
+    "url": "https://finnhub.io/api/news?id=5675f64f0e93802bc86977e5a6469debb0e9102405cebf0282cd77591997c55e"
    },
    {
-    "ts": 1789048343,
-    "headline": "Why Is Netflix Growing Fastest And Falling Furthest?",
+    "ts": 1789058846,
+    "headline": "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=34c98521f923e36f545bc631b1764180ed3a8c2cf45eea082a481f36295fb0de"
+    "url": "https://finnhub.io/api/news?id=99deee5c61d3c5f9ffb432ef23936f9bea82db6fda343ce7c02352569e5469a3"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:02Z",
+  "fetched_at": "2026-09-10T19:19:10Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

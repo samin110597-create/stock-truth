@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-10T16:43:22Z",
+ "generated_at": "2026-09-10T19:19:40Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:23Z",
-  "current": 218.3,
-  "change": -5.37,
-  "change_pct": -2.4009,
+  "fetched_at": "2026-09-10T19:19:40Z",
+  "current": 218.16,
+  "change": -5.51,
+  "change_pct": -2.4635,
   "high": 220.99,
   "low": 217.2,
   "open": 220.535,
   "prev_close": 223.67,
-  "ts": 1789058578
+  "ts": 1789067952
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:23Z",
+  "fetched_at": "2026-09-10T19:19:40Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T16:43:25Z",
+  "fetched_at": "2026-09-10T19:19:43Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7225,8 +7225,8 @@
     "open": 220.525,
     "high": 220.98,
     "low": 217.21,
-    "close": 218.26,
-    "volume": 1890581.0
+    "close": 218.12,
+    "volume": 2494769.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T17:58:27Z",
+  "fetched_at": "2026-09-10T19:19:44Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5562502742016.0,
+  "mcap": 5266991480832.0,
   "shares": 24147000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 7.9,
+  "eps_ttm": 7.92,
   "bvps": 6.513976891539322,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7331,16 +7331,16 @@
   "cash": 62556000000.0,
   "tax_rate": 0.1511700247437257,
   "total_assets": 206803000000.0,
-  "total_liabilities": null,
+  "total_liabilities": 49510000000.0,
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 29.159492,
-  "forward_pe": 14.843682,
-  "pb": 24.291891,
-  "ps": 18.359913,
-  "peg": 0.5849,
-  "ev_ebitda": 27.466,
+  "pe": 27.540655,
+  "forward_pe": 14.011343,
+  "pb": 23.001371,
+  "ps": 17.384771,
+  "peg": 0.5682,
+  "ev_ebitda": 26.665,
   "payout": 0.0354,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:25Z",
+  "fetched_at": "2026-09-10T19:19:44Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T16:43:25Z",
+  "fetched_at": "2026-09-10T19:19:44Z",
   "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.017317,
+  "forward_pe": 14.011343,
   "forward_eps": 15.56753,
   "short_pct_float": 0.0123000005,
   "short_ratio": 2.35,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:25Z",
+  "fetched_at": "2026-09-10T19:19:44Z",
   "rows": [
    {
-    "ts": 1789055400,
-    "headline": "Where Will Rocket Lab Stock Be by This Time Next Year?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dc98edf48ea2fca2375272f19b3c6dace82affcdf04861db665cbb554f3b830b"
+    "ts": 1789063501,
+    "headline": "Curious about the most active S&P500 stocks in today's session?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=d79e4ece4f5c49cd64355fa3d1aaada4b9a461e3adc8108fd0435a2142c6f303"
    },
    {
-    "ts": 1789055366,
-    "headline": "Why Designer Brands Stock Was Moving Higher Today",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2c765255ebd981021586b3302d9d8930f5c0e34050daaab9b95ddff6cf25e91c"
+    "ts": 1789063200,
+    "headline": "Most active stocks in Thursday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=b020288d487e0277d80abd0df4829ed719ff51ab5723a3856502373d7fc82b56"
    },
    {
-    "ts": 1789055024,
-    "headline": "Nvidia and Palantir Launch New AI Stack for Supply Chains",
+    "ts": 1789061760,
+    "headline": "Where Will the Nasdaq Be in 2036? History Has Good and Bad News for Growth Investors.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b9bb6a57ca33db288f36e083409271487c8c42b14cbe47ea8b4ac38f7fd192e2"
+    "url": "https://finnhub.io/api/news?id=7b38c30613a91e406cb2868a305a7eaddbf67ef5770593a00b346c73d081f810"
    },
    {
-    "ts": 1789054800,
-    "headline": "Is PayPal Stock a Buy, Sell, or Hold at 80% Below Its Record High?",
+    "ts": 1789061567,
+    "headline": "Why Chewy Stock Is Plunging This Week",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bdb0ee36b5d9310f5bd9416d8697bac0930301d894375fa655ad9ba9cb1c25c1"
+    "url": "https://finnhub.io/api/news?id=87261d0489f7c8c17b361b7a8cb924d492e0d7029a671c9ab6d7e9046e027250"
    },
    {
-    "ts": 1789054534,
-    "headline": "IonQ\u2019s CEO Says \u2018Q-Day\u2019 Hits in 2028. The Stock Says Investors Stopped Listening",
+    "ts": 1789061443,
+    "headline": "Analog Devices Wants Robots to Think Without Nvidia | Is ADI the Next Big AI Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=64aec8df77ed6359189d8f93c6158209531707063ca2242ceae21770c0e7de40"
+    "url": "https://finnhub.io/api/news?id=d7de61613e5ab97840ead9e156538879338ba1e53cbaea09ba0fba24e2bfbbb2"
    },
    {
-    "ts": 1789054500,
-    "headline": "3 Unstoppable Value Stocks to Buy in September (1 Yields 7.3%)",
+    "ts": 1789061410,
+    "headline": "Got $10,000? Eli Lilly vs. Nvidia: The Better Buy For 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c891ccce04e5c555a13142533654003129853126fb88f56b75b6b044ad6b34f9"
+    "url": "https://finnhub.io/api/news?id=be3bacb593a16c63c5b7e86a008a5ce891e4258fdfe85d2e7db010e5d6ef3554"
    },
    {
-    "ts": 1789054232,
-    "headline": "Prediction: Broadcom Could Become One of the World\u2019s Most Valuable Tech Companies",
+    "ts": 1789061319,
+    "headline": "Palantir Taps Nvidia for High-Stakes AI Push",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7ecbca565a76fcf53738335c361d756ffa9f8feb459e7ec373cd7e0404d75cdf"
+    "url": "https://finnhub.io/api/news?id=29804e57a3410ca3759c35898e508b121dce0c95c57efd5ead2017395867b6e9"
    },
    {
-    "ts": 1789054200,
-    "headline": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
+    "ts": 1789061160,
+    "headline": "An Nvidia Move Just Put AMD and Intel on the Defensive",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=daa3209cb64e04e070beb2715ccc5e37aa9832d42758d496016d45d4044b0b79"
+    "url": "https://finnhub.io/api/news?id=3c5c71e12ed2a7001ce14f1a7138094115f207f2f256a264a24ae40084536ace"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:26Z",
+  "fetched_at": "2026-09-10T19:19:44Z",
   "buys": 3,
   "sells": 60,
   "net_shares": -4575721.0,

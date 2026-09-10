@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-10T16:43:11Z",
+ "generated_at": "2026-09-10T19:19:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:11Z",
-  "current": 328.66,
-  "change": 0.28,
-  "change_pct": 0.0853,
-  "high": 329.32,
+  "fetched_at": "2026-09-10T19:19:19Z",
+  "current": 330.0,
+  "change": 1.62,
+  "change_pct": 0.4933,
+  "high": 330.539,
   "low": 325.651,
   "open": 326.09,
   "prev_close": 328.38,
-  "ts": 1789058577
+  "ts": 1789067924
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:11Z",
+  "fetched_at": "2026-09-10T19:19:19Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T16:43:13Z",
+  "fetched_at": "2026-09-10T19:19:30Z",
   "bars": [
    {
     "date": "2023-02-08",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-10",
     "open": 326.155,
-    "high": 329.3,
+    "high": 330.515,
     "low": 325.7,
-    "close": 328.61,
-    "volume": 223203.0
+    "close": 330.045,
+    "volume": 331318.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-07T17:58:10Z",
+  "fetched_at": "2026-09-10T19:19:30Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4100819517440.0,
+  "mcap": 4034922283008.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.92,
+  "eps_ttm": 19.93,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 16.83283,
-  "forward_pe": 22.573368,
-  "pb": 6.5881405,
-  "ps": 9.197426,
-  "peg": 1.2538,
-  "ev_ebitda": 23.083,
+  "pe": 16.55403,
+  "forward_pe": 22.181362,
+  "pb": 6.482274,
+  "ps": 9.050129,
+  "peg": 1.2142,
+  "ev_ebitda": 22.594,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:13Z",
+  "fetched_at": "2026-09-10T19:19:31Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T16:43:13Z",
+  "fetched_at": "2026-09-10T19:19:31Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.091822,
+  "forward_pe": 22.181362,
   "forward_eps": 14.87383,
   "short_pct_float": null,
   "short_ratio": 2.1,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:13Z",
+  "fetched_at": "2026-09-10T19:19:31Z",
   "rows": [
    {
-    "ts": 1789055372,
-    "headline": "Alphabet's TPU Sales Could Drive Significant Google Cloud Upside, Oppenheimer Says",
+    "ts": 1789062653,
+    "headline": "Alphabet Edges Higher as $15 Billion Nuclear Bet Locks In AI Power",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=41fa43d05b253c797ffcc400a9aaf265d2c93c113991da46873e615aeb7289f2"
+    "url": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722"
    },
    {
-    "ts": 1789054259,
-    "headline": "Cathie Wood Buys Meta, Sells Alphabet. Is She Buying High and Selling Low?",
+    "ts": 1789062464,
+    "headline": "Google Is Buying Half a Nuclear Plant\u2019s Output Through 2049. Cheap Power Just Became the Real AI Moat.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=696b4eaedd8f8193557d0c7468d4e3d9e6ae808b63f34b8c7f1c3da81a37b7b7"
+    "url": "https://finnhub.io/api/news?id=3a9604e87009b109a4093758319b74e6973ffb0b0b76b2b0c9d507478f176b55"
    },
    {
-    "ts": 1789054232,
-    "headline": "Prediction: Broadcom Could Become One of the World\u2019s Most Valuable Tech Companies",
+    "ts": 1789062060,
+    "headline": "Workday Names Sarah Kennedy Ellis Chief Marketing Officer",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7ecbca565a76fcf53738335c361d756ffa9f8feb459e7ec373cd7e0404d75cdf"
+    "url": "https://finnhub.io/api/news?id=cc62b699ddea589c5ec174241205f0feffe8ea4a76a28f05487eaaece48751c0"
    },
    {
-    "ts": 1789054200,
-    "headline": "Nvidia Will Pay Its Next Cash Dividend on Oct. 1. Here's How Many Shares of Nvidia (NVDA) Stock You'd Need for $10,000 in Yearly Dividends.",
+    "ts": 1789060696,
+    "headline": "Should You Buy Meta Stock For Cash Flow It Plans To Spend?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=daa3209cb64e04e070beb2715ccc5e37aa9832d42758d496016d45d4044b0b79"
+    "url": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801"
    },
    {
-    "ts": 1789053192,
-    "headline": "Google commits \u20ac13bn for Finland AI infrastructure expansion",
+    "ts": 1789060560,
+    "headline": "ADBE Rides on Acrobat AI Expansion: Can it Outpace MSFT & GOOGL?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8dabd0da35fabf6f8eca2c2f0af76aba93641543e0753d93995dfbc455f8506f"
+    "url": "https://finnhub.io/api/news?id=05fc44c786cba8968665c4956dc8d4e5b2e26eddb2a47ea718f9da06d69f1b88"
    },
    {
-    "ts": 1789052418,
-    "headline": "Reddit Rises 6% as User Growth Hits Fastest Pace of the Year, Pinterest Ticks Up, Snap Barely Budges",
+    "ts": 1789059927,
+    "headline": "Six Days After Cramer Warned Nuclear Is Too Hard to Build, Google Signed Its First Nuclear Deal Ever",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=82fc0a22b149d48881dba1431731f359a243082092fb6bb49ff85c1808f5c5e4"
+    "url": "https://finnhub.io/api/news?id=5a5c99aaf579f1fc73645536adcec9819f9e2fc25c855d0e7e9274d4d0988c50"
    },
    {
-    "ts": 1789052400,
-    "headline": "Alianza Acquires Skribby to Extend Alianza Crux into Meeting Platforms",
+    "ts": 1789059136,
+    "headline": "Is Microsoft Stock Overvalued At 28x Earnings?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cc95b1847f8e39c62b318371b99ee60b294eb5355202e1952a6b3fc59f24c78b"
+    "url": "https://finnhub.io/api/news?id=cbe2dd1b61e65f6225b23b9613329430d5f754b5ebd6492b6f0b5d285d272499"
    },
    {
-    "ts": 1789051800,
-    "headline": "Coca-Cola Is Outperforming Broadcom and Every \"Magnificent Seven\" Stock in 2026. Is It Still a Top Dividend Stock to Buy in September?",
+    "ts": 1789058511,
+    "headline": "Snap Adds Party Planning as It Argues It Isn't Social Media",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5df5e2bd169a17df475fe927054b0799b420338b283c98540c53d1341ab7ea7b"
+    "url": "https://finnhub.io/api/news?id=182a1ccfa3a01fd845284eb0bce84cddb4a24a4278013bb29f366070f022eccc"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T16:43:13Z",
+  "fetched_at": "2026-09-10T19:19:31Z",
   "error": "no insider filings in six months"
  },
  "peers": {
