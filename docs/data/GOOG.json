@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-11T16:47:25Z",
+ "generated_at": "2026-09-11T19:20:28Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:26Z",
-  "current": 337.67,
-  "change": 7.28,
-  "change_pct": 2.2035,
+  "fetched_at": "2026-09-11T19:20:28Z",
+  "current": 336.01,
+  "change": 5.62,
+  "change_pct": 1.701,
   "high": 339.95,
   "low": 332.55,
   "open": 332.74,
   "prev_close": 330.39,
-  "ts": 1789145222
+  "ts": 1789154417
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:26Z",
+  "fetched_at": "2026-09-11T19:20:28Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T16:47:27Z",
+  "fetched_at": "2026-09-11T19:20:29Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7225,8 +7225,8 @@
     "open": 333.0,
     "high": 339.9,
     "low": 333.0,
-    "close": 337.705,
-    "volume": 243828.0
+    "close": 335.995,
+    "volume": 324851.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:27Z",
+  "fetched_at": "2026-09-11T19:20:29Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T16:47:27Z",
+  "fetched_at": "2026-09-11T19:20:30Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.697968,
+  "forward_pe": 22.584969,
   "forward_eps": 14.87383,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,8 +7463,26 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:28Z",
+  "fetched_at": "2026-09-11T19:20:30Z",
   "rows": [
+   {
+    "ts": 1789148611,
+    "headline": "\u2018The Largest IPO Ever, Surpassing SpaceX\u2019: Anthropic Is Up Next",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9c9199f50c109962720058e7e806a57b75ea1911f209f7cf451ca75dbb8cff37"
+   },
+   {
+    "ts": 1789142453,
+    "headline": "My Agentic AI Capital Is Going One Place Over and Over",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=29d348d5b0b94a18590a54d573d56666d0e3a82d7e858e2a43d461fbefc7d219"
+   },
+   {
+    "ts": 1789142242,
+    "headline": "Stop Wasting Money: How to Find and Cancel Unused Subscriptions in 15 Minutes or Less",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0470dacaae10db6a4414ac729c44faca082b09317d25c11b784ca9bc8392e127"
+   },
    {
     "ts": 1789141543,
     "headline": "Microsoft Vs. Alphabet: The Enterprise Fight No One Saw Coming",
@@ -7494,31 +7512,13 @@
     "headline": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=f430cf417cf1401531c3aed587e9654feea7260fb50f4d802a582a70771c1c6e"
-   },
-   {
-    "ts": 1789137463,
-    "headline": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=99cfefb61431c1649f87a2cb1939aa6331c87e5613b03d74ed3a0d69da344597"
-   },
-   {
-    "ts": 1789137240,
-    "headline": "Global AI MarTech Market Report 2026-2031; Market to Nearly Triple From $28B in 2025 to $74.3B by 2031 as Agentic AI, Platform Consolidation and Privacy-First Personalization Resha",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7f1a349ca1842e6e06ccd5aa941647028524d609612df17bde08ec8c69f80c74"
-   },
-   {
-    "ts": 1789137003,
-    "headline": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28744e068b38e19c3adbf062daea293cd096e5701a9106c59fb8c8f0ba806200"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:28Z",
+  "fetched_at": "2026-09-11T19:20:30Z",
   "error": "no insider filings in six months"
  },
  "peers": {

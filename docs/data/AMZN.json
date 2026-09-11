@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-11T16:47:12Z",
+ "generated_at": "2026-09-11T19:20:16Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:13Z",
-  "current": 255.99,
-  "change": 4.1,
-  "change_pct": 1.6277,
-  "high": 256.9118,
+  "fetched_at": "2026-09-11T19:20:17Z",
+  "current": 257.43,
+  "change": 5.54,
+  "change_pct": 2.1994,
+  "high": 257.44,
   "low": 253.14,
   "open": 254.1,
   "prev_close": 251.89,
-  "ts": 1789145219
+  "ts": 1789154389
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:14Z",
+  "fetched_at": "2026-09-11T19:20:17Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T16:47:14Z",
+  "fetched_at": "2026-09-11T19:20:17Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-11",
     "open": 254.24,
-    "high": 256.9,
+    "high": 257.43,
     "low": 253.29,
-    "close": 255.96,
-    "volume": 530592.0
+    "close": 257.31,
+    "volume": 784725.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:15Z",
+  "fetched_at": "2026-09-11T19:20:18Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T16:47:15Z",
+  "fetched_at": "2026-09-11T19:20:18Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.599453,
+  "forward_pe": 24.73594,
   "forward_eps": 10.40389,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,8 +7463,44 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:15Z",
+  "fetched_at": "2026-09-11T19:20:19Z",
   "rows": [
+   {
+    "ts": 1789148611,
+    "headline": "\u2018The Largest IPO Ever, Surpassing SpaceX\u2019: Anthropic Is Up Next",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9c9199f50c109962720058e7e806a57b75ea1911f209f7cf451ca75dbb8cff37"
+   },
+   {
+    "ts": 1789144807,
+    "headline": "These dow jones stocks are moving in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=351dbe4a5a27317483d3f3764ea2302d80cfc430baee9237ef8cd190abd6aa0c"
+   },
+   {
+    "ts": 1789144256,
+    "headline": "Prediction: This Could Be an Unexpected AI Winner Through 2030",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=85e842af17073719cc109d1280d0fc804d11ddd6128cc704791c148e5aef4a2f"
+   },
+   {
+    "ts": 1789142453,
+    "headline": "My Agentic AI Capital Is Going One Place Over and Over",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=29d348d5b0b94a18590a54d573d56666d0e3a82d7e858e2a43d461fbefc7d219"
+   },
+   {
+    "ts": 1789142452,
+    "headline": "The Next Growth Cycle Could Take Qualcomm to New Highs",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=33988f358193b06f9bab17b17fedcfa75842e8564c8e4e499d626aad60f09176"
+   },
+   {
+    "ts": 1789142242,
+    "headline": "Stop Wasting Money: How to Find and Cancel Unused Subscriptions in 15 Minutes or Less",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0470dacaae10db6a4414ac729c44faca082b09317d25c11b784ca9bc8392e127"
+   },
    {
     "ts": 1789141205,
     "headline": "Qualcomm\u2019s AWS Deal Takes Aim at Nvidia, But Comes With Fine Print",
@@ -7476,49 +7512,13 @@
     "headline": "Uber's AV Ambitions in Spain Gain Momentum: More Growth Ahead?",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=9792c3ee34f16fd1b0fd1cd39903dcfb83deb5fa9dee90f9d0a58009472a508f"
-   },
-   {
-    "ts": 1789139713,
-    "headline": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0fa43463da228a4a66897db859f34e3b7a74ba9623d5a364e06775366eb18f10"
-   },
-   {
-    "ts": 1789139537,
-    "headline": "Qualcomm\u2019s AI Ambitions Get a Boost From Amazon Partnership",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7001ae59ce31cacb4e3e5d607e1bd8ca8bc96498d91d1f178b68f4096bd71390"
-   },
-   {
-    "ts": 1789138828,
-    "headline": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f430cf417cf1401531c3aed587e9654feea7260fb50f4d802a582a70771c1c6e"
-   },
-   {
-    "ts": 1789137463,
-    "headline": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=99cfefb61431c1649f87a2cb1939aa6331c87e5613b03d74ed3a0d69da344597"
-   },
-   {
-    "ts": 1789137260,
-    "headline": "Amazon to invest $230m in Whole Foods staff benefits",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fceeb4b03d03eeef39cbb9371b74723ab04dbd3eae8c2b672b3f21478f94d270"
-   },
-   {
-    "ts": 1789135500,
-    "headline": "Forget the Capex Fears: Why Alphabet and Amazon Are Must-Buys",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c0c41d56fd7298809dc9459f0cd02f7ec93686c645c5ebdd1f2ad0bc944d8816"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:16Z",
+  "fetched_at": "2026-09-11T19:20:19Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

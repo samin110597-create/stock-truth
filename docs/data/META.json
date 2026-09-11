@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-11T16:47:49Z",
+ "generated_at": "2026-09-11T19:20:50Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:50Z",
-  "current": 649.2,
-  "change": 4.82,
-  "change_pct": 0.748,
+  "fetched_at": "2026-09-11T19:20:50Z",
+  "current": 650.45,
+  "change": 6.07,
+  "change_pct": 0.942,
   "high": 664.24,
-  "low": 647.71,
+  "low": 647.4,
   "open": 653.52,
   "prev_close": 644.38,
-  "ts": 1789145246
+  "ts": 1789154440
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:50Z",
+  "fetched_at": "2026-09-11T19:20:51Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T16:47:51Z",
+  "fetched_at": "2026-09-11T19:20:51Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-11",
     "open": 653.43,
     "high": 664.09,
-    "low": 647.8,
-    "close": 649.1,
-    "volume": 261848.0
+    "low": 647.49,
+    "close": 650.235,
+    "volume": 385241.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:51Z",
+  "fetched_at": "2026-09-11T19:20:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T16:47:52Z",
+  "fetched_at": "2026-09-11T19:20:52Z",
   "analyst_target_mean": 757.31085,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 18.550524,
+  "forward_pe": 18.61274,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,8 +7472,20 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:52Z",
+  "fetched_at": "2026-09-11T19:20:52Z",
   "rows": [
+   {
+    "ts": 1789147094,
+    "headline": "AppLovin vs. Meta Platforms: Which Technology Stock Is a Better Buy in 2026?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a1d65871757655e598a0c63df5bbd59626388a6df53a3204bacdde2dc30a651b"
+   },
+   {
+    "ts": 1789145185,
+    "headline": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=62bdb2341b18043e2f60d378b325e012379909ef308773e13a0cc85258e7ced0"
+   },
    {
     "ts": 1789139761,
     "headline": "Stock Market Falls On Soaring Oil Prices, Yields, But Finishes Strong; CPI Inflation, Apple, Oracle, Meta In Focus: Weekly Review",
@@ -7509,25 +7521,13 @@
     "headline": "Fidji Simo joins Nscale board ahead of IPO",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=72c319fd7ecbbeea7108b2672d695792b6245f83448511018fe28420d60f949c"
-   },
-   {
-    "ts": 1789133219,
-    "headline": "Meta at $645: Recent Momentum Makes One Thing Very Clear",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c90fb7508a2e51b16e0aea2a9b83725a5b42242a436cf0340d810619fc1c262"
-   },
-   {
-    "ts": 1789132829,
-    "headline": "Mark Zuckerberg\u2019s $100-a-Month Muse Bet Signals Meta\u2019s Desperate Pivot Away From Ads",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4650e1a1f64e66c629230f8fd70d7a7db9d0110200fe24224a738e61c7a342f4"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:53Z",
+  "fetched_at": "2026-09-11T19:20:53Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-11T16:47:37Z",
+ "generated_at": "2026-09-11T19:20:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:38Z",
-  "current": 219.19,
-  "change": 0.83,
-  "change_pct": 0.3801,
+  "fetched_at": "2026-09-11T19:20:39Z",
+  "current": 219.04,
+  "change": 0.68,
+  "change_pct": 0.3114,
   "high": 222.0,
   "low": 218.65,
   "open": 221.245,
   "prev_close": 218.36,
-  "ts": 1789145246
+  "ts": 1789154417
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:38Z",
+  "fetched_at": "2026-09-11T19:20:39Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T16:47:38Z",
+  "fetched_at": "2026-09-11T19:20:40Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7225,8 +7225,8 @@
     "open": 221.24,
     "high": 222.0,
     "low": 218.665,
-    "close": 219.155,
-    "volume": 1251049.0
+    "close": 218.985,
+    "volume": 1578705.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:39Z",
+  "fetched_at": "2026-09-11T19:20:40Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T16:47:40Z",
-  "analyst_target_mean": 327.17758,
+  "fetched_at": "2026-09-11T19:20:41Z",
+  "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
-  "analyst_count": 58.0,
+  "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.078021,
+  "forward_pe": 14.0687065,
   "forward_eps": 15.56753,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:40Z",
+  "fetched_at": "2026-09-11T19:20:41Z",
   "rows": [
    {
-    "ts": 1789141381,
-    "headline": "SpaceX Fell 3.9% on Its Third Lockup Release Since the IPO. I'd Wait to Buy the Stock.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=186c9afcdf2d61c26b40f22ef4338f2eb2c92dff09799f2895025dad5a00ac00"
+    "ts": 1789149902,
+    "headline": "Curious about the most active S&P500 stocks in today's session?",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=b1bf5bf7a8d8db24bb8397bc49b2a54acd3696ad4f4a84caf8c60fbaa16ce6cf"
    },
    {
-    "ts": 1789141205,
-    "headline": "Qualcomm\u2019s AWS Deal Takes Aim at Nvidia, But Comes With Fine Print",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ae03f3aa2cf27bf64944edc0c724f62ad65a535cc1bd99a0ca07f2b3e5fcb34"
+    "ts": 1789149600,
+    "headline": "These stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=0419247d2a477b92084aca4454634fa51efe70bbe4b6ca34d55b01ce8d98268c"
    },
    {
-    "ts": 1789140654,
-    "headline": "TSMC Price Prediction: One Number Could Define the Stock\u2019s Next Move",
+    "ts": 1789149000,
+    "headline": "CoreWeave Is My Top IPO Pick Right Now: Over 75% of Its Revenue Is Locked In Through Contracts",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cad5f41b0e3beb38e509b93847ab893861cfb3cecf827e37007c87a936498569"
+    "url": "https://finnhub.io/api/news?id=64b8989291ebd31fd3a9d7bf336b09021d406f1c69c2697b430f8da1cf9e40bf"
    },
    {
-    "ts": 1789140060,
-    "headline": "AI Capex Creates New Investment Cycle: NVIDIA & 2 Other Stocks to Buy",
+    "ts": 1789148406,
+    "headline": "Palantir Wants the AI Work OpenAI Cannot Touch. Nvidia Just Helped It Make the Pitch.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9f0e918dbca0d6b11e9960ae12253cbfe1ec4b8cadeaef1573d736682f2f1365"
+    "url": "https://finnhub.io/api/news?id=81bf6976a67e53a3c3869e60a1b98327572c7a4f577aec871a3f740e94fafc69"
    },
    {
-    "ts": 1789140000,
-    "headline": "If a Market Crash Is Coming, Here's the 1 Exact Move You Should Be Making Today, According to History",
+    "ts": 1789147801,
+    "headline": "TSMC Just Delivered Fantastic News for Nvidia Shareholders",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=88080d417ff6b2d3446bba3cf28737700749afb908dacbf03355552d248c1e1b"
+    "url": "https://finnhub.io/api/news?id=f9ceb3103364024d653b9b71abf36da5a3fc702a58fdb5cfe96974eabc659659"
    },
    {
-    "ts": 1789139713,
-    "headline": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
+    "ts": 1789147202,
+    "headline": "Could This New Opportunity Be Worth Billions for Novo Nordisk?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0fa43463da228a4a66897db859f34e3b7a74ba9623d5a364e06775366eb18f10"
+    "url": "https://finnhub.io/api/news?id=3b75fcea1ca46c2af82b9f48bbc153be269bc756ea226fbb82b7172134a0d940"
    },
    {
-    "ts": 1789139431,
-    "headline": "Renishaw Gets a Semiconductor Upgrade",
+    "ts": 1789147032,
+    "headline": "\u2018Apple and Microsoft Look Like Value Stocks\u2019: Morningstar on SanDisk\u2019s 2,107% Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=727e6a2424a0020091611cef2697f9366a7a7dcfdde0801e691548e21a045d33"
+    "url": "https://finnhub.io/api/news?id=c0aba12f8d1abf7f0d7cd411a5b5f82bd7fddf6e7419624caeac29c0dd5e8986"
    },
    {
-    "ts": 1789139386,
-    "headline": "Nvidia Rival Enflame  Soars 206% in Shanghai Debut",
+    "ts": 1789146549,
+    "headline": "China Could Absolutely Cripple Anthropic And OpenAI IPOs",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=255de72f24a65722d686f8ee229fde17557e5b5816ad12bad8d085acb6ea73bc"
+    "url": "https://finnhub.io/api/news?id=057450d8dcfa5a51b5b3a0c4b1c2603baa73ab57fb978537e953c0f68f5a4245"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T16:47:40Z",
+  "fetched_at": "2026-09-11T19:20:41Z",
   "buys": 3,
   "sells": 60,
   "net_shares": -4575721.0,
