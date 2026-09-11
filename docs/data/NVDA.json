@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-11T19:20:39Z",
+ "generated_at": "2026-09-11T21:48:09Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:39Z",
-  "current": 219.04,
-  "change": 0.68,
-  "change_pct": 0.3114,
+  "fetched_at": "2026-09-11T21:48:09Z",
+  "current": 218.29,
+  "change": -0.07,
+  "change_pct": -0.0321,
   "high": 222.0,
-  "low": 218.65,
-  "open": 221.245,
+  "low": 218.15,
+  "open": 221.235,
   "prev_close": 218.36,
-  "ts": 1789154417
+  "ts": 1789156800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:39Z",
+  "fetched_at": "2026-09-11T21:48:09Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T19:20:40Z",
+  "fetched_at": "2026-09-11T21:48:10Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7218,15 +7218,15 @@
     "high": 220.99001,
     "low": 217.2,
     "close": 218.36,
-    "volume": 105482000.0
+    "volume": 105768000.0
    },
    {
     "date": "2026-09-11",
-    "open": 221.24,
+    "open": 221.25,
     "high": 222.0,
-    "low": 218.665,
-    "close": 218.985,
-    "volume": 1578705.0
+    "low": 218.14999,
+    "close": 218.28999,
+    "volume": 86818741.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:40Z",
+  "fetched_at": "2026-09-11T21:48:10Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T19:20:41Z",
+  "fetched_at": "2026-09-11T21:48:10Z",
   "analyst_target_mean": 327.6544,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.0687065,
+  "forward_pe": 14.022135,
   "forward_eps": 15.56753,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:41Z",
+  "fetched_at": "2026-09-11T21:48:10Z",
   "rows": [
    {
-    "ts": 1789149902,
-    "headline": "Curious about the most active S&P500 stocks in today's session?",
+    "ts": 1789156252,
+    "headline": "SpaceX signs $1.1 billion-per month computing deal",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1214bd3ec7091c1b68dfa0161810dddc366b6b81df5b814bda393fa91276db16"
+   },
+   {
+    "ts": 1789155300,
+    "headline": "Kimberly Clark is Down 20% From Its 52-Week High. Is the Dip Worth Buying?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=40f8a5f2e1b84f1f606bc5ba78264b91bd95b6a6b5bfd818706aed83ae84839d"
+   },
+   {
+    "ts": 1789154760,
+    "headline": "Is SpaceX a Buy or a Trap for Retail Investors?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a17fbeef4d2140b9956ea628d37b5c4fe71b08d45a5e1d4be72ff041c73d8a7c"
+   },
+   {
+    "ts": 1789153981,
+    "headline": "Why Alphabet Stock Just Popped",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=af7eea28e0a2048677622eeac5018a77a4a0b00b41b959b79f36d26a7a671d9e"
+   },
+   {
+    "ts": 1789153805,
+    "headline": "Friday's session: top gainers and losers in the dow jones index",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b1bf5bf7a8d8db24bb8397bc49b2a54acd3696ad4f4a84caf8c60fbaa16ce6cf"
+    "url": "https://finnhub.io/api/news?id=d203da3fbc27c56f1bb176547ad99ad90d3267147090af2aa48d0f2d8febe0d4"
    },
    {
-    "ts": 1789149600,
-    "headline": "These stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=0419247d2a477b92084aca4454634fa51efe70bbe4b6ca34d55b01ce8d98268c"
-   },
-   {
-    "ts": 1789149000,
-    "headline": "CoreWeave Is My Top IPO Pick Right Now: Over 75% of Its Revenue Is Locked In Through Contracts",
+    "ts": 1789153081,
+    "headline": "Michael Burry Likes Lululemon Stock. But the Math Only Works If Sales Stop Shrinking.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=64b8989291ebd31fd3a9d7bf336b09021d406f1c69c2697b430f8da1cf9e40bf"
+    "url": "https://finnhub.io/api/news?id=dd83127da52106bc529c4485d64f87bbefdfa450c357d0813f0ebbc602faa157"
    },
    {
-    "ts": 1789148406,
-    "headline": "Palantir Wants the AI Work OpenAI Cannot Touch. Nvidia Just Helped It Make the Pitch.",
+    "ts": 1789152600,
+    "headline": "Joby Aviation Is Preparing For Commercial Flights in Dubai. Here's Why I'm Still Not Buying.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=81bf6976a67e53a3c3869e60a1b98327572c7a4f577aec871a3f740e94fafc69"
+    "url": "https://finnhub.io/api/news?id=3792791262c543a6f2f5fde4bd6a386a564149824da4d3ec0b38d0084049c610"
    },
    {
-    "ts": 1789147801,
-    "headline": "TSMC Just Delivered Fantastic News for Nvidia Shareholders",
+    "ts": 1789151442,
+    "headline": "Why NuScale Power Stock Just Crashed",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f9ceb3103364024d653b9b71abf36da5a3fc702a58fdb5cfe96974eabc659659"
-   },
-   {
-    "ts": 1789147202,
-    "headline": "Could This New Opportunity Be Worth Billions for Novo Nordisk?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3b75fcea1ca46c2af82b9f48bbc153be269bc756ea226fbb82b7172134a0d940"
-   },
-   {
-    "ts": 1789147032,
-    "headline": "\u2018Apple and Microsoft Look Like Value Stocks\u2019: Morningstar on SanDisk\u2019s 2,107% Year",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c0aba12f8d1abf7f0d7cd411a5b5f82bd7fddf6e7419624caeac29c0dd5e8986"
-   },
-   {
-    "ts": 1789146549,
-    "headline": "China Could Absolutely Cripple Anthropic And OpenAI IPOs",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=057450d8dcfa5a51b5b3a0c4b1c2603baa73ab57fb978537e953c0f68f5a4245"
+    "url": "https://finnhub.io/api/news?id=a2bd7e23af2f0056eb62752722cdafc69deaae808735f1c64d4943da4893d411"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:41Z",
+  "fetched_at": "2026-09-11T21:48:10Z",
   "buys": 3,
   "sells": 60,
   "net_shares": -4575721.0,

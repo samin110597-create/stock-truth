@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-11T19:20:28Z",
+ "generated_at": "2026-09-11T21:47:59Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:28Z",
-  "current": 336.01,
-  "change": 5.62,
-  "change_pct": 1.701,
+  "fetched_at": "2026-09-11T21:47:59Z",
+  "current": 335.45,
+  "change": 5.06,
+  "change_pct": 1.5315,
   "high": 339.95,
   "low": 332.55,
-  "open": 332.74,
+  "open": 332.73,
   "prev_close": 330.39,
-  "ts": 1789154417
+  "ts": 1789156800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:28Z",
+  "fetched_at": "2026-09-11T21:47:59Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T19:20:29Z",
+  "fetched_at": "2026-09-11T21:48:00Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7218,15 +7218,15 @@
     "high": 330.89001,
     "low": 325.651,
     "close": 330.39001,
-    "volume": 16392600.0
+    "volume": 16418900.0
    },
    {
     "date": "2026-09-11",
-    "open": 333.0,
-    "high": 339.9,
-    "low": 333.0,
-    "close": 335.995,
-    "volume": 324851.0
+    "open": 332.85901,
+    "high": 339.95001,
+    "low": 332.73999,
+    "close": 335.45001,
+    "volume": 15784276.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:29Z",
+  "fetched_at": "2026-09-11T21:48:00Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T19:20:30Z",
+  "fetched_at": "2026-09-11T21:48:00Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.584969,
+  "forward_pe": 22.553036,
   "forward_eps": 14.87383,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:30Z",
+  "fetched_at": "2026-09-11T21:48:00Z",
   "rows": [
+   {
+    "ts": 1789156252,
+    "headline": "SpaceX signs $1.1 billion-per month computing deal",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=1214bd3ec7091c1b68dfa0161810dddc366b6b81df5b814bda393fa91276db16"
+   },
+   {
+    "ts": 1789155254,
+    "headline": "How Far Could Alphabet Stock Move On You In A Year?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=56c01d8962cdc7aba6c4992cb2e44f66ae7a04283a851deb3e37b35b04fc11a6"
+   },
+   {
+    "ts": 1789154829,
+    "headline": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a65950d6bbedad0c0516d1d275a94837e9d85da8fdbfe5cd8d11db7d01607b10"
+   },
+   {
+    "ts": 1789154820,
+    "headline": "Evergreen Digital Media Corp. Partners With Adwave Digital Inc. in a Strategic Capital and Licensing Partnership",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=987ab1e9ae4dbab21f1e2024800d0c8d91f67a0bac1963a4b86242d4c6aed96c"
+   },
+   {
+    "ts": 1789153981,
+    "headline": "Why Alphabet Stock Just Popped",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=af7eea28e0a2048677622eeac5018a77a4a0b00b41b959b79f36d26a7a671d9e"
+   },
+   {
+    "ts": 1789151169,
+    "headline": "Cramer Warned Google Was Coming for Adobe, and Now Gemini Is Inside Hollywood\u2019s Editing Software",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5a1fdb3106dcda4d0761761fce697e737336b9b5fd63af86ad7dbd337a1448dd"
+   },
+   {
+    "ts": 1789150437,
+    "headline": "Can Apple Stock's Premium Survive The Memory Squeeze On Its Margin?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e9fbe6fec9e72f2765eca29d6daee2ad656a168a7798a81dc451603aa673a706"
+   },
    {
     "ts": 1789148611,
     "headline": "\u2018The Largest IPO Ever, Surpassing SpaceX\u2019: Anthropic Is Up Next",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=9c9199f50c109962720058e7e806a57b75ea1911f209f7cf451ca75dbb8cff37"
-   },
-   {
-    "ts": 1789142453,
-    "headline": "My Agentic AI Capital Is Going One Place Over and Over",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=29d348d5b0b94a18590a54d573d56666d0e3a82d7e858e2a43d461fbefc7d219"
-   },
-   {
-    "ts": 1789142242,
-    "headline": "Stop Wasting Money: How to Find and Cancel Unused Subscriptions in 15 Minutes or Less",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0470dacaae10db6a4414ac729c44faca082b09317d25c11b784ca9bc8392e127"
-   },
-   {
-    "ts": 1789141543,
-    "headline": "Microsoft Vs. Alphabet: The Enterprise Fight No One Saw Coming",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=87739fd41c0b1ac2e06c4226acd36afefd2c370fed087f2a3466617efd64a647"
-   },
-   {
-    "ts": 1789141061,
-    "headline": "Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=84c4c48c7dac3e3148e520f0e104cc0a7766295ade6f0c2389fed97f6078ae66"
-   },
-   {
-    "ts": 1789139713,
-    "headline": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0fa43463da228a4a66897db859f34e3b7a74ba9623d5a364e06775366eb18f10"
-   },
-   {
-    "ts": 1789139642,
-    "headline": "Google and Accenture Team Up to Accelerate Enterprise AI Adoption",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=83f2e82762eb1b0a59d61d0c81afcef5283fc38283bfe9de2ac839d89e54e32d"
-   },
-   {
-    "ts": 1789138828,
-    "headline": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f430cf417cf1401531c3aed587e9654feea7260fb50f4d802a582a70771c1c6e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:30Z",
+  "fetched_at": "2026-09-11T21:48:00Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-11T19:20:50Z",
+ "generated_at": "2026-09-11T21:48:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:50Z",
-  "current": 650.45,
-  "change": 6.07,
-  "change_pct": 0.942,
+  "fetched_at": "2026-09-11T21:48:19Z",
+  "current": 648.03,
+  "change": 3.65,
+  "change_pct": 0.5664,
   "high": 664.24,
-  "low": 647.4,
-  "open": 653.52,
+  "low": 646.2,
+  "open": 653.51,
   "prev_close": 644.38,
-  "ts": 1789154440
+  "ts": 1789156800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:51Z",
+  "fetched_at": "2026-09-11T21:48:19Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T19:20:51Z",
+  "fetched_at": "2026-09-11T21:48:20Z",
   "bars": [
    {
     "date": "2023-02-09",
@@ -7218,15 +7218,15 @@
     "high": 663.5,
     "low": 642.14001,
     "close": 644.38,
-    "volume": 21487500.0
+    "volume": 21531900.0
    },
    {
     "date": "2026-09-11",
-    "open": 653.43,
-    "high": 664.09,
-    "low": 647.49,
-    "close": 650.235,
-    "volume": 385241.0
+    "open": 653.02002,
+    "high": 664.23999,
+    "low": 646.20001,
+    "close": 648.030029,
+    "volume": 16862780.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:52Z",
+  "fetched_at": "2026-09-11T21:48:20Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T19:20:52Z",
+  "fetched_at": "2026-09-11T21:48:20Z",
   "analyst_target_mean": 757.31085,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 18.61274,
+  "forward_pe": 18.536509,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,8 +7472,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:52Z",
+  "fetched_at": "2026-09-11T21:48:20Z",
   "rows": [
+   {
+    "ts": 1789155575,
+    "headline": "Meta Muse Personal AI Agent Promising, But Near-Term Monetization Potential Likely Limited, Wedbush Says",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=af58ff715c0f1502375c06f6c39dcb24c651b8c2ffa2cf76f86268307c7acba8"
+   },
+   {
+    "ts": 1789155254,
+    "headline": "How Far Could Alphabet Stock Move On You In A Year?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=56c01d8962cdc7aba6c4992cb2e44f66ae7a04283a851deb3e37b35b04fc11a6"
+   },
+   {
+    "ts": 1789154829,
+    "headline": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a65950d6bbedad0c0516d1d275a94837e9d85da8fdbfe5cd8d11db7d01607b10"
+   },
+   {
+    "ts": 1789154820,
+    "headline": "Evergreen Digital Media Corp. Partners With Adwave Digital Inc. in a Strategic Capital and Licensing Partnership",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=987ab1e9ae4dbab21f1e2024800d0c8d91f67a0bac1963a4b86242d4c6aed96c"
+   },
    {
     "ts": 1789147094,
     "headline": "AppLovin vs. Meta Platforms: Which Technology Stock Is a Better Buy in 2026?",
@@ -7497,37 +7521,13 @@
     "headline": "Netflix Said It Was Different From Facebook. A New Lawsuit Says It Tracked Kids for Ads Anyway.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=20853665a7b896532d95a6252343956964291c91c5b288d1b71852a87de2853e"
-   },
-   {
-    "ts": 1789137957,
-    "headline": "Mark Zuckerberg May Have Found Meta\u2019s Next Hit. Would You Hand It Your Email and Passwords?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8e38b7b90cd5ba5ac7a57b67c962e74da7ead6a1c64588d6f4cd6074ea835008"
-   },
-   {
-    "ts": 1789137003,
-    "headline": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28744e068b38e19c3adbf062daea293cd096e5701a9106c59fb8c8f0ba806200"
-   },
-   {
-    "ts": 1789135721,
-    "headline": "Meta Meets With European Credit Investors in Non-Deal Roadshow",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cea0f3023bf70fb1195ebda3702948d7a728cd9f10709a4438f8139f7d328a54"
-   },
-   {
-    "ts": 1789134949,
-    "headline": "Fidji Simo joins Nscale board ahead of IPO",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=72c319fd7ecbbeea7108b2672d695792b6245f83448511018fe28420d60f949c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T19:20:53Z",
+  "fetched_at": "2026-09-11T21:48:20Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,
