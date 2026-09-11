@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-10T21:42:55Z",
+ "generated_at": "2026-09-11T16:47:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:55Z",
-  "current": 330.39,
-  "change": 2.01,
-  "change_pct": 0.6121,
-  "high": 330.89,
-  "low": 325.651,
-  "open": 326.08,
-  "prev_close": 328.38,
-  "ts": 1789070400
+  "fetched_at": "2026-09-11T16:47:26Z",
+  "current": 337.67,
+  "change": 7.28,
+  "change_pct": 2.2035,
+  "high": 339.95,
+  "low": 332.55,
+  "open": 332.74,
+  "prev_close": 330.39,
+  "ts": 1789145222
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:55Z",
+  "fetched_at": "2026-09-11T16:47:26Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4043849499999.9995,
+  "mcap": 4174465900000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T21:42:56Z",
+  "fetched_at": "2026-09-11T16:47:27Z",
   "bars": [
-   {
-    "date": "2023-02-08",
-    "open": 102.69,
-    "high": 103.58,
-    "low": 98.455,
-    "close": 100.0,
-    "volume": 73546000.0
-   },
    {
     "date": "2023-02-09",
     "open": 100.54,
@@ -7226,11 +7218,19 @@
     "high": 330.89001,
     "low": 325.651,
     "close": 330.39001,
-    "volume": 15219012.0
+    "volume": 16392600.0
+   },
+   {
+    "date": "2026-09-11",
+    "open": 333.0,
+    "high": 339.9,
+    "low": 333.0,
+    "close": 337.705,
+    "volume": 243828.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-10",
+  "latest": "2026-09-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-09-04T16:38:01Z",
+  "fetched_at": "2026-09-11T16:47:27Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:56Z",
+  "fetched_at": "2026-09-11T16:47:27Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T21:42:56Z",
+  "fetched_at": "2026-09-11T16:47:27Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.212841,
+  "forward_pe": 22.697968,
   "forward_eps": 14.87383,
   "short_pct_float": null,
-  "short_ratio": 2.1,
-  "short_asof": 1786665600,
-  "institutions_pct": 0.62242,
+  "short_ratio": 2.58,
+  "short_asof": 1788134400,
+  "institutions_pct": 0.62127995,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:56Z",
+  "fetched_at": "2026-09-11T16:47:28Z",
   "rows": [
    {
-    "ts": 1789069800,
-    "headline": "Nvidia Is One of the Most Profitable Businesses in the World. Here's Why the Stock Is Worth $311 a Share Right Now -- 39% More Than Its Share Price.",
+    "ts": 1789141543,
+    "headline": "Microsoft Vs. Alphabet: The Enterprise Fight No One Saw Coming",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cf0eb83b11ec67dc48cc9e17dd47800583bf77278e9658f9050931b0d822a0f6"
+    "url": "https://finnhub.io/api/news?id=87739fd41c0b1ac2e06c4226acd36afefd2c370fed087f2a3466617efd64a647"
    },
    {
-    "ts": 1789068546,
-    "headline": "Why hardware will attract buyers to Apple's new lineup over AI features",
+    "ts": 1789141061,
+    "headline": "Apple Advances 3% as First Foldable iPhone Arrives at Its Highest Price Ever; Skyworks Rallies 9%, Alphabet Ticks Up",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=de5bdc240768cd3beebc324f2c1f3704e8a329573e824e7e614954dea297dcdd"
+    "url": "https://finnhub.io/api/news?id=84c4c48c7dac3e3148e520f0e104cc0a7766295ade6f0c2389fed97f6078ae66"
    },
    {
-    "ts": 1789067580,
-    "headline": "AT&T CEO drops a hot take on the new Apple iPhone Duo",
+    "ts": 1789139713,
+    "headline": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b0fb1df122f34b7374a82f7dfd6ff7925b5f80c018ef848a1b7f62fa015a54ff"
+    "url": "https://finnhub.io/api/news?id=0fa43463da228a4a66897db859f34e3b7a74ba9623d5a364e06775366eb18f10"
    },
    {
-    "ts": 1789066294,
-    "headline": "Google Just Made a Massive AI Bet Wall Street May Be Missing",
+    "ts": 1789139642,
+    "headline": "Google and Accenture Team Up to Accelerate Enterprise AI Adoption",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9dd5204daf584a58557545c8c3caf58c68dba573965da4f16a081b668dfdc9a3"
+    "url": "https://finnhub.io/api/news?id=83f2e82762eb1b0a59d61d0c81afcef5283fc38283bfe9de2ac839d89e54e32d"
    },
    {
-    "ts": 1789065891,
-    "headline": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
+    "ts": 1789138828,
+    "headline": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fde5b84f63a1e8dfca5eaf778d20ef7e2618aa2c3edc51cbde013b1414ec7cd4"
+    "url": "https://finnhub.io/api/news?id=f430cf417cf1401531c3aed587e9654feea7260fb50f4d802a582a70771c1c6e"
    },
    {
-    "ts": 1789065290,
-    "headline": "Goldman Sachs Has Blunt Message for AI Stock Investors",
+    "ts": 1789137463,
+    "headline": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=abe77340f3cfeba3c5740cabc374c322b18b04d9d02adcaf91679762ea52ccdf"
+    "url": "https://finnhub.io/api/news?id=99cfefb61431c1649f87a2cb1939aa6331c87e5613b03d74ed3a0d69da344597"
    },
    {
-    "ts": 1789064820,
-    "headline": "Why Meta\u2019s Consumer AI Agent Is Good News for Shopify Stock",
+    "ts": 1789137240,
+    "headline": "Global AI MarTech Market Report 2026-2031; Market to Nearly Triple From $28B in 2025 to $74.3B by 2031 as Agentic AI, Platform Consolidation and Privacy-First Personalization Resha",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8de64020fe5219adb9bb0d04c6875f57a1a017d0ff29bd421877ebff51d2aeb5"
+    "url": "https://finnhub.io/api/news?id=7f1a349ca1842e6e06ccd5aa941647028524d609612df17bde08ec8c69f80c74"
    },
    {
-    "ts": 1789064227,
-    "headline": "Marvell Technology vs. Broadcom: Comparing Revenue Trends Between These Artificial Intelligence Companies",
+    "ts": 1789137003,
+    "headline": "Alphabet vs. Meta: One Magnificent Seven Stock Is the Better Buy",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e649459a66cef5d880c0b73b5ad92c514ef9f9e70d703bf837e45fa0f343c3f5"
+    "url": "https://finnhub.io/api/news?id=28744e068b38e19c3adbf062daea293cd096e5701a9106c59fb8c8f0ba806200"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:56Z",
+  "fetched_at": "2026-09-11T16:47:28Z",
   "error": "no insider filings in six months"
  },
  "peers": {

@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-10T21:42:43Z",
+ "generated_at": "2026-09-11T16:47:12Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:43Z",
-  "current": 251.89,
-  "change": -0.51,
-  "change_pct": -0.2021,
-  "high": 253.15,
-  "low": 249.58,
-  "open": 250.11,
-  "prev_close": 252.4,
-  "ts": 1789070400
+  "fetched_at": "2026-09-11T16:47:13Z",
+  "current": 255.99,
+  "change": 4.1,
+  "change_pct": 1.6277,
+  "high": 256.9118,
+  "low": 253.14,
+  "open": 254.1,
+  "prev_close": 251.89,
+  "ts": 1789145219
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:44Z",
+  "fetched_at": "2026-09-11T16:47:14Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2722465780901.0635,
+  "mcap": 2758815640990.714,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-10T21:42:44Z",
+  "fetched_at": "2026-09-11T16:47:14Z",
   "bars": [
-   {
-    "date": "2023-02-08",
-    "open": 102.040001,
-    "high": 102.67,
-    "low": 98.78,
-    "close": 100.050003,
-    "volume": 75878300.0
-   },
    {
     "date": "2023-02-09",
     "open": 101.32,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-10",
-    "open": 250.19,
+    "open": 250.11,
     "high": 253.14999,
     "low": 249.58,
     "close": 251.89,
-    "volume": 25371219.0
+    "volume": 25443300.0
+   },
+   {
+    "date": "2026-09-11",
+    "open": 254.24,
+    "high": 256.9,
+    "low": 253.29,
+    "close": 255.96,
+    "volume": 530592.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-10",
+  "latest": "2026-09-11",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-09-04T16:37:51Z",
+  "fetched_at": "2026-09-11T16:47:14Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:44Z",
+  "fetched_at": "2026-09-11T16:47:15Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T21:42:45Z",
+  "fetched_at": "2026-09-11T16:47:15Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.219446,
-  "forward_eps": 10.40032,
-  "short_pct_float": 0.0097,
-  "short_ratio": 2.04,
-  "short_asof": 1786665600,
-  "institutions_pct": 0.68785006,
+  "forward_pe": 24.599453,
+  "forward_eps": 10.40389,
+  "short_pct_float": 0.0094,
+  "short_ratio": 2.16,
+  "short_asof": 1788134400,
+  "institutions_pct": 0.68711,
   "insiders_pct": 0.08866,
   "beta": 1.443,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:45Z",
+  "fetched_at": "2026-09-11T16:47:15Z",
   "rows": [
    {
-    "ts": 1789069424,
-    "headline": "Anthropic Drops Stark AI Forecast for U.S. Economy",
+    "ts": 1789141205,
+    "headline": "Qualcomm\u2019s AWS Deal Takes Aim at Nvidia, But Comes With Fine Print",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e18218a63dd9f9377690c39bd531491d7973e88ae624fbf05f931093a5b7d227"
+    "url": "https://finnhub.io/api/news?id=6ae03f3aa2cf27bf64944edc0c724f62ad65a535cc1bd99a0ca07f2b3e5fcb34"
    },
    {
-    "ts": 1789068565,
-    "headline": "What Happens To Home Depot Stock If Shoppers Keep Visiting Less?",
+    "ts": 1789140960,
+    "headline": "Uber's AV Ambitions in Spain Gain Momentum: More Growth Ahead?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d5d0338a831b5b1caa33b0ad45d45d82c1e8a492ec5ef0bb68bdba4d5b611608"
+    "url": "https://finnhub.io/api/news?id=9792c3ee34f16fd1b0fd1cd39903dcfb83deb5fa9dee90f9d0a58009472a508f"
    },
    {
-    "ts": 1789067866,
-    "headline": "AMZN Is Betting Bigger On Whole Foods With $230M Investment \u2014 But Amazon\u2019s Physical Stores Are Losing Steam",
+    "ts": 1789139713,
+    "headline": "Morningstar Says Your Emerging Markets Fund and Your Value ETF Are Both AI Bets Now",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ce60885893e1428e238dc0ba35bfaec010118efa1e0bd9e42b8465e6b3714a52"
+    "url": "https://finnhub.io/api/news?id=0fa43463da228a4a66897db859f34e3b7a74ba9623d5a364e06775366eb18f10"
    },
    {
-    "ts": 1789067407,
-    "headline": "Which dow jones stocks are moving on Thursday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=adf9fabb65fa1bdc0746c8cf7941b566bd25d62715d8b6fa00e9d6a2953470bc"
+    "ts": 1789139537,
+    "headline": "Qualcomm\u2019s AI Ambitions Get a Boost From Amazon Partnership",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7001ae59ce31cacb4e3e5d607e1bd8ca8bc96498d91d1f178b68f4096bd71390"
    },
    {
-    "ts": 1789066800,
-    "headline": "Hyperscalers Bet on AI & Quantum: Watch GOOGL, AMZN, IBM in September",
+    "ts": 1789138828,
+    "headline": "Can Snowflake Stock Keep Climbing On The Work Its AI Tools Bring In?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=05bf89e2ad40453f7813c704283cc3ff58cf9a2ba8587c32e0dbcf3ce6d14029"
+    "url": "https://finnhub.io/api/news?id=f430cf417cf1401531c3aed587e9654feea7260fb50f4d802a582a70771c1c6e"
    },
    {
-    "ts": 1789065891,
-    "headline": "Barclays Hikes S&P 500 Target to 7,950 on Strong Earnings",
+    "ts": 1789137463,
+    "headline": "Has Oracle Become A Weaker Business, Or Just A Cheaper Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fde5b84f63a1e8dfca5eaf778d20ef7e2618aa2c3edc51cbde013b1414ec7cd4"
+    "url": "https://finnhub.io/api/news?id=99cfefb61431c1649f87a2cb1939aa6331c87e5613b03d74ed3a0d69da344597"
    },
    {
-    "ts": 1789065290,
-    "headline": "Goldman Sachs Has Blunt Message for AI Stock Investors",
+    "ts": 1789137260,
+    "headline": "Amazon to invest $230m in Whole Foods staff benefits",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=abe77340f3cfeba3c5740cabc374c322b18b04d9d02adcaf91679762ea52ccdf"
+    "url": "https://finnhub.io/api/news?id=fceeb4b03d03eeef39cbb9371b74723ab04dbd3eae8c2b672b3f21478f94d270"
    },
    {
-    "ts": 1789063604,
-    "headline": "Is The AI Capex Surge A Threat To Amazon Stock?",
+    "ts": 1789135500,
+    "headline": "Forget the Capex Fears: Why Alphabet and Amazon Are Must-Buys",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=48c9520fb49bcbd0e32a8e3325775f2a88e958a41b0db591ced3fb898250437a"
+    "url": "https://finnhub.io/api/news?id=c0c41d56fd7298809dc9459f0cd02f7ec93686c645c5ebdd1f2ad0bc944d8816"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-10T21:42:46Z",
+  "fetched_at": "2026-09-11T16:47:16Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
