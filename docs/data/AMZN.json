@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-11T21:47:48Z",
+ "generated_at": "2026-09-14T18:13:31Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T21:47:48Z",
-  "current": 256.78,
-  "change": 4.89,
-  "change_pct": 1.9413,
-  "high": 257.59,
-  "low": 253.14,
-  "open": 254.09,
-  "prev_close": 251.89,
-  "ts": 1789156800
+  "fetched_at": "2026-09-14T18:13:31Z",
+  "current": 255.46,
+  "change": -1.32,
+  "change_pct": -0.5141,
+  "high": 255.95,
+  "low": 250.74,
+  "open": 253.515,
+  "prev_close": 256.78,
+  "ts": 1789409584
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T21:47:48Z",
+  "fetched_at": "2026-09-14T18:13:31Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2758815640990.714,
+  "mcap": 2769709818561.971,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-11T21:47:49Z",
+  "fetched_at": "2026-09-14T18:13:32Z",
   "bars": [
-   {
-    "date": "2023-02-09",
-    "open": 101.32,
-    "high": 101.78,
-    "low": 97.57,
-    "close": 98.24,
-    "volume": 64622500.0
-   },
    {
     "date": "2023-02-10",
     "open": 97.56,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-11",
-    "open": 254.044998,
+    "open": 254.089996,
     "high": 257.59,
     "low": 253.14,
     "close": 256.78,
-    "volume": 26352379.0
+    "volume": 26682800.0
+   },
+   {
+    "date": "2026-09-14",
+    "open": 253.3,
+    "high": 255.93,
+    "low": 250.74,
+    "close": 255.405,
+    "volume": 884232.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-11",
+  "latest": "2026-09-14",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-10T19:19:10Z",
+  "fetched_at": "2026-09-14T18:13:33Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2713620578304.0,
+  "mcap": 2754662629376.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.42,
+  "eps_ttm": 12.43,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 20.256039,
-  "forward_pe": 24.18964,
-  "pb": 4.917898,
-  "ps": 3.4983761,
-  "peg": 1.4771,
-  "ev_ebitda": 16.879,
+  "pe": 20.545856,
+  "forward_pe": 24.54707,
+  "pb": 4.9922786,
+  "ps": 3.5512872,
+  "peg": 1.5027,
+  "ev_ebitda": 17.159,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T21:47:49Z",
+  "fetched_at": "2026-09-14T18:13:33Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-11T21:47:50Z",
+  "fetched_at": "2026-09-14T18:13:33Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.681154,
+  "forward_pe": 24.54707,
   "forward_eps": 10.40389,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T21:47:50Z",
+  "fetched_at": "2026-09-14T18:13:33Z",
   "rows": [
    {
-    "ts": 1789155694,
-    "headline": "EBAY Paid Holders $19 Billion While The Stock Trailed The Market",
+    "ts": 1789408198,
+    "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=377a42729a754b3ba1ddd3b37b86f1786ae7d6be65eab0789e3652934d90dd95"
+    "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
    },
    {
-    "ts": 1789155254,
-    "headline": "How Far Could Alphabet Stock Move On You In A Year?",
+    "ts": 1789407952,
+    "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=56c01d8962cdc7aba6c4992cb2e44f66ae7a04283a851deb3e37b35b04fc11a6"
+    "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
    },
    {
-    "ts": 1789154829,
-    "headline": "How Far Could Meta Stock Swing While Its Data Center Bill Climbs?",
+    "ts": 1789407235,
+    "headline": "Sector Update: Tech Stocks Fall Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a65950d6bbedad0c0516d1d275a94837e9d85da8fdbfe5cd8d11db7d01607b10"
+    "url": "https://finnhub.io/api/news?id=94f478efb64f9000925f16c934de2d4d10f02010f14841bccc509a0b03a3eb3a"
    },
    {
-    "ts": 1789154806,
-    "headline": "\u2018You Have a Marriage Problem\u2019: Ramsey to Mom Secretly Paying for Her Own Teens",
+    "ts": 1789406506,
+    "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1edc5ea0782d70d9224906969eafa8fc61a0c9a71e85c630eeade4687324e461"
+    "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
    },
    {
-    "ts": 1789154341,
-    "headline": "Astera Labs vs. Marvell Technology: Which AI-Driven Tech Stock Is a Better Buy in 2026?",
+    "ts": 1789405802,
+    "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=36f3949d2c2c45e9d567e731817d1e21a5445b5472516408dad8e175fe7208c2"
+    "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e"
    },
    {
-    "ts": 1789153805,
-    "headline": "Friday's session: top gainers and losers in the dow jones index",
+    "ts": 1789405160,
+    "headline": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8e51a1da517fa280715b226038bc4aac8f4ed68f69b4d3a84512a60a8e8adfa4"
+   },
+   {
+    "ts": 1789404006,
+    "headline": "Which dow jones stocks are moving on Monday?",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=d203da3fbc27c56f1bb176547ad99ad90d3267147090af2aa48d0f2d8febe0d4"
+    "url": "https://finnhub.io/api/news?id=a4a46ed189028f5d0b5269efcffe7ec00f634eacb536901a198d0d2f380e6248"
    },
    {
-    "ts": 1789153200,
-    "headline": "Is ORCL a Buy Following 121% IaaS Growth in Q1 Earnings?",
+    "ts": 1789402193,
+    "headline": "Amazon makes a major logistics move after Miami crash",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad8f5fe3bcfa1dc5f7dc7877dff40f73675e315e9c77511beb4b28b0496987aa"
-   },
-   {
-    "ts": 1789152240,
-    "headline": "Weekly Wrap: Rate Hike Expectations Pressure Crypto",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6a6154f01d9a6d28fdf136e38525f02e16eedd9da38a6a836c680614cd824cd3"
+    "url": "https://finnhub.io/api/news?id=12eb14073ed741250dd603397749f4bf50668fb34cc72e7e7652f27339cdc0fa"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-11T21:47:50Z",
+  "fetched_at": "2026-09-14T18:13:34Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
@@ -7558,18 +7558,18 @@
  },
  "peers": {
   "source": "finnhub+yfinance",
-  "fetched_at": "2026-09-07T17:58:00Z",
+  "fetched_at": "2026-09-14T18:13:39Z",
   "peers": [
    {
     "symbol": "EBAY",
     "name": "eBay Inc.",
-    "mcap": 46017449984.0,
-    "pe": 21.72479,
-    "forward_pe": 15.3589325,
-    "pb": 9.864543,
-    "ps": 3.832233,
-    "ev_ebitda": 16.101,
-    "peg": 1.5154,
+    "mcap": 48731951104.0,
+    "pe": 23.006302,
+    "forward_pe": 16.264933,
+    "pb": 10.446438,
+    "ps": 4.0601435,
+    "ev_ebitda": 16.725,
+    "peg": 1.5425,
     "gross_margin": 0.72052,
     "op_margin": 0.2157,
     "net_margin": 0.18571,
@@ -7577,18 +7577,18 @@
     "roe": 0.46611,
     "debt_to_equity": 1.53012,
     "rev_growth": 0.148,
-    "fcf_yield": 0.03432665131486483
+    "fcf_yield": 0.03241456424818463
    },
    {
     "symbol": "CPNG",
     "name": "Coupang, Inc.",
-    "mcap": 27483953152.0,
+    "mcap": 27150346240.0,
     "pe": null,
-    "forward_pe": 56.707336,
-    "pb": 9.172165,
-    "ps": 0.7750254,
-    "ev_ebitda": -587.108,
-    "peg": 1.2547,
+    "forward_pe": 55.514774,
+    "pb": 9.073185,
+    "ps": 0.765618,
+    "ev_ebitda": -580.465,
+    "peg": 1.2232,
     "gross_margin": 0.28354,
     "op_margin": -0.06278,
     "net_margin": -0.02163,
@@ -7596,17 +7596,17 @@
     "roe": -0.19995001,
     "debt_to_equity": 1.88584,
     "rev_growth": 0.039,
-    "fcf_yield": -0.008964322076865108
+    "fcf_yield": -0.009074470204620124
    },
    {
     "symbol": "DDS",
     "name": "Dillard's, Inc.",
-    "mcap": null,
-    "pe": 15.037555,
-    "forward_pe": 19.034492,
-    "pb": 4.830663,
-    "ps": null,
-    "ev_ebitda": 10.61,
+    "mcap": 10359287808.0,
+    "pe": 15.194272,
+    "forward_pe": 19.224058,
+    "pb": 4.88488,
+    "ps": 1.5697278,
+    "ev_ebitda": 10.503,
     "peg": null,
     "gross_margin": 0.41213,
     "op_margin": 0.08116999,
@@ -7615,18 +7615,18 @@
     "roe": 0.33753,
     "debt_to_equity": 0.21542000000000003,
     "rev_growth": -0.004,
-    "fcf_yield": null
+    "fcf_yield": 0.03799427521417503
    },
    {
     "symbol": "ETSY",
     "name": "Etsy, Inc.",
-    "mcap": 7022221312.0,
-    "pe": 24.212025,
-    "forward_pe": 11.101132,
-    "pb": -5.0658813,
-    "ps": 2.387085,
-    "ev_ebitda": 19.065,
-    "peg": 0.8971,
+    "mcap": 6858849792.0,
+    "pe": 23.648735,
+    "forward_pe": 10.842866,
+    "pb": -4.948024,
+    "ps": 2.3315496,
+    "ev_ebitda": 18.334,
+    "peg": 0.7957,
     "gross_margin": 0.71401,
     "op_margin": 0.18744,
     "net_margin": 0.07114,
@@ -7634,36 +7634,36 @@
     "roe": null,
     "debt_to_equity": null,
     "rev_growth": 0.062,
-    "fcf_yield": 0.024161211739377318
+    "fcf_yield": 0.024736709673667687
    },
    {
     "symbol": "M",
     "name": "Macy's Inc",
-    "mcap": 6063024640.0,
-    "pe": 9.524793,
-    "forward_pe": 9.726395,
-    "pb": 1.2534667,
-    "ps": 0.2668585,
-    "ev_ebitda": 7.016,
-    "peg": 2.9373,
-    "gross_margin": 0.40308,
-    "op_margin": 0.01758,
-    "net_margin": 0.029360002,
-    "fcf_margin": 0.032961047887323944,
-    "roe": 0.14363,
-    "debt_to_equity": 1.05623,
-    "rev_growth": 0.021,
-    "fcf_yield": 0.12351508569821679
+    "mcap": 6012286464.0,
+    "pe": 8.432235,
+    "forward_pe": 9.710704,
+    "pb": 1.222907,
+    "ps": 0.2639167,
+    "ev_ebitda": 6.83,
+    "peg": 2.8863,
+    "gross_margin": 0.40278998,
+    "op_margin": 0.03202,
+    "net_margin": 0.03292,
+    "fcf_margin": 0.02655721910795444,
+    "roe": 0.15993,
+    "debt_to_equity": 1.03267,
+    "rev_growth": 0.012,
+    "fcf_yield": 0.10062727443587093
    },
    {
     "symbol": "OLLI",
     "name": "Ollie's Bargain Outlet Holdings",
-    "mcap": 4548145152.0,
-    "pe": 17.128637,
-    "forward_pe": 15.493342,
-    "pb": 2.4567623,
-    "ps": 1.6283456,
-    "ev_ebitda": 13.635,
+    "mcap": 4627447296.0,
+    "pe": 17.427294,
+    "forward_pe": 15.763487,
+    "pb": 2.4471462,
+    "ps": 1.6567377,
+    "ev_ebitda": 13.156,
     "peg": null,
     "gross_margin": 0.40613997,
     "op_margin": 0.10815,
@@ -7672,17 +7672,17 @@
     "roe": 0.14862001,
     "debt_to_equity": 0.38281,
     "rev_growth": 0.091,
-    "fcf_yield": 0.026305916808171386
+    "fcf_yield": 0.02585510333168363
    },
    {
     "symbol": "PTRN",
     "name": "Pattern Group Inc. - Series A",
-    "mcap": 4021852416.0,
+    "mcap": 3985018368.0,
     "pe": null,
-    "forward_pe": 25.694843,
-    "pb": 5.519126,
-    "ps": 1.3347185,
-    "ev_ebitda": 54.163,
+    "forward_pe": 25.459518,
+    "pb": 5.468579,
+    "ps": 1.3224945,
+    "ev_ebitda": 53.725,
     "peg": null,
     "gross_margin": 0.43887,
     "op_margin": 0.04053,
@@ -7691,18 +7691,18 @@
     "roe": 0.049239997,
     "debt_to_equity": 0.07947,
     "rev_growth": 0.466,
-    "fcf_yield": 0.02151561396329467
+    "fcf_yield": 0.02171448560811251
    },
    {
     "symbol": "KSS",
     "name": "Kohl's Corporation",
-    "mcap": 2204038144.0,
-    "pe": 8.3433485,
-    "forward_pe": 12.414745,
-    "pb": 0.5270436,
-    "ps": 0.1428411,
-    "ev_ebitda": 6.542,
-    "peg": 2.1171,
+    "mcap": 1969915776.0,
+    "pe": 7.457082,
+    "forward_pe": 11.095998,
+    "pb": 0.47105873,
+    "ps": 0.1276679,
+    "ev_ebitda": 6.331,
+    "peg": 1.2721,
     "gross_margin": 0.40518,
     "op_margin": 0.0458,
     "net_margin": 0.0175,
@@ -7710,25 +7710,25 @@
     "roe": 0.06671,
     "debt_to_equity": 1.54055,
     "rev_growth": -0.009,
-    "fcf_yield": 0.3990402953752147
+    "fcf_yield": 0.44646580463752783
    }
   ],
   "n": 8,
   "median": {
-   "pe": 16.083096,
-   "forward_pe": 15.42613725,
-   "pb": 3.6437126500000003,
-   "ps": 1.3347185,
-   "ev_ebitda": 12.122499999999999,
-   "peg": 1.5154,
+   "pe": 16.310783,
+   "forward_pe": 16.01421,
+   "pb": 3.6660131,
+   "ps": 1.44611115,
+   "ev_ebitda": 11.8295,
+   "peg": 1.2721,
    "gross_margin": 0.409134985,
    "op_margin": 0.063484995,
-   "net_margin": 0.050250000999999996,
+   "net_margin": 0.05202999999999999,
    "fcf_margin": 0.049917240032467336,
-   "roe": 0.14363,
-   "debt_to_equity": 1.05623,
+   "roe": 0.14862001,
+   "debt_to_equity": 1.03267,
    "rev_growth": 0.0505,
-   "fcf_yield": 0.026305916808171386
+   "fcf_yield": 0.02913483378993413
   },
   "peer_symbols": [
    "EBAY",
