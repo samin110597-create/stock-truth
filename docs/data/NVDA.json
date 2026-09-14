@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-14T18:14:04Z",
+ "generated_at": "2026-09-14T21:55:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:14:04Z",
-  "current": 212.45,
-  "change": -5.84,
-  "change_pct": -2.6753,
+  "fetched_at": "2026-09-14T21:55:30Z",
+  "current": 210.96,
+  "change": -7.33,
+  "change_pct": -3.3579,
   "high": 212.77,
   "low": 208.93,
-  "open": 212.21,
+  "open": 211.24,
   "prev_close": 218.29,
-  "ts": 1789409632
+  "ts": 1789416000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:14:04Z",
+  "fetched_at": "2026-09-14T21:55:30Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T18:14:05Z",
+  "fetched_at": "2026-09-14T21:55:30Z",
   "bars": [
    {
     "date": "2023-02-10",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-14",
-    "open": 211.245,
-    "high": 212.745,
-    "low": 208.94,
-    "close": 212.4,
-    "volume": 1957511.0
+    "open": 211.080002,
+    "high": 212.77,
+    "low": 208.92999,
+    "close": 210.89,
+    "volume": 125972774.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:14:06Z",
+  "fetched_at": "2026-09-14T21:55:31Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:14:06Z",
+  "fetched_at": "2026-09-14T21:55:31Z",
   "analyst_target_mean": 327.17758,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.606884,
+  "forward_pe": 13.510182,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:14:06Z",
+  "fetched_at": "2026-09-14T21:55:31Z",
   "rows": [
    {
-    "ts": 1789404006,
-    "headline": "Which dow jones stocks are moving on Monday?",
+    "ts": 1789413005,
+    "headline": "Top dow jones movers in Monday's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a4a46ed189028f5d0b5269efcffe7ec00f634eacb536901a198d0d2f380e6248"
+    "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
    },
    {
-    "ts": 1789394151,
-    "headline": "Goldman Sachs Just Supercharged Its Humanoid Robot Prediction 5X to 6.5 Million by 2035",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=93897e63162e69d9e8cbfeb3efa296a83b4358b670ca0138b6a3a6c819e1d526"
+    "ts": 1789409101,
+    "headline": "These S&P500 stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=b2261b4dc5b59c3755bfea444dc6f7112e692fae63d3f795e7b1e23428244bca"
    },
    {
-    "ts": 1789393800,
-    "headline": "This Surprising Stock Has Been Stanley Druckenmiller's No. 1 Position for 8 Straight Quarters. Is It a No-Brainer Buy?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=66caab392619faafd5bd61b1be9b2f94ceb96e6c5227606ca0f99b6c39f24de0"
+    "ts": 1789408800,
+    "headline": "Most active stocks in Monday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=4d029fa0b74e496190e5a68ee91633099fb39904560f25b0dfd9b291822ff7ff"
    },
    {
-    "ts": 1789393699,
-    "headline": "S&P 500, Nasdaq fall on AI slowdown fears, oil price surge",
+    "ts": 1789408190,
+    "headline": "Corning Tumbles 12% on $2B At-the-Market Equity Offering; Coherent Sinks 11%, Lumentum Drops 9%, Fabrinet Slides 6%",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=974224a53a6369a8e1093dd54d291eeeb509f5423ff992e5abeeaaa3a3686da1"
+    "url": "https://finnhub.io/api/news?id=12a7d152d69368274062f1295fd27d17ab50c5b0392ff5563a0679785b3bd09a"
    },
    {
-    "ts": 1789393519,
-    "headline": "Chip stocks fall as oil prices gain, Treasury yields stay elevated: AlphaCheck",
+    "ts": 1789407630,
+    "headline": "Why Direxion Daily Semiconductor Bull 3X ETF Dropped Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0968e9161b39e39c017aa736b0f420444fbcaeb1018540d2a8591284bd75a2d1"
+    "url": "https://finnhub.io/api/news?id=6c715a69acf3ff2f46084db5b4babce9c6ea6cd44dbd3a60b9c6013a1186630d"
    },
    {
-    "ts": 1789393461,
-    "headline": "Stock Market Today: Dow Falls On Surging Oil; Nvidia, Micron, Sandisk Dive On AI Warning (Live Coverage)",
+    "ts": 1789407604,
+    "headline": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=160de41a8364515e7f0951692c50a3ac08d242ec8f47ef437d2321aa7628d409"
+    "url": "https://finnhub.io/api/news?id=f6a78e6d955f6a37eecc480087ec33c613d0b97aa4364bffe7e673442af27b2c"
    },
    {
-    "ts": 1789393440,
-    "headline": "NVIDIA vs. Marvell: Which AI Infrastructure Stock Is the Better Buy?",
+    "ts": 1789407474,
+    "headline": "Wall Street hit by tech sell-off after AI bosses push for slowdown",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3355bc0336358ea2fed0634245e794a10d11b93add22b39daf316f479a1cb99f"
+    "url": "https://finnhub.io/api/news?id=f0b447e2e97d68639dcdba9458e8dd1b3fec5747a79adbd5adbb2a313626cd48"
    },
    {
-    "ts": 1789392659,
-    "headline": "Tesla Could Be\u00a0Building Its Next\u00a0Trillion-Dollar Opportunity. Here\u2019s Where Its Headed",
+    "ts": 1789407457,
+    "headline": "Palantir, Nvidia, Booz Allen restrict Anthropic and OpenAI models",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3667580f89d93cf8dc00c8b98227f222c6213bd995776ef6120c8852bfa4483d"
+    "url": "https://finnhub.io/api/news?id=248b657ec28da438120b07529761197b455c0278d6b060333499f14124ef716e"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:14:06Z",
+  "fetched_at": "2026-09-14T21:55:31Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,

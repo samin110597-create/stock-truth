@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-14T18:13:48Z",
+ "generated_at": "2026-09-14T21:55:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:13:48Z",
-  "current": 345.84,
-  "change": 10.39,
-  "change_pct": 3.0973,
+  "fetched_at": "2026-09-14T21:55:19Z",
+  "current": 345.71,
+  "change": 10.26,
+  "change_pct": 3.0586,
   "high": 346.45,
-  "low": 336.055,
-  "open": 336.055,
+  "low": 338.74,
+  "open": 339.11,
   "prev_close": 335.45,
-  "ts": 1789409609
+  "ts": 1789416000
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:13:48Z",
+  "fetched_at": "2026-09-14T21:55:19Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T18:13:49Z",
+  "fetched_at": "2026-09-14T21:55:19Z",
   "bars": [
    {
     "date": "2023-02-10",
@@ -7222,11 +7222,11 @@
    },
    {
     "date": "2026-09-14",
-    "open": 339.54,
-    "high": 346.425,
-    "low": 339.0,
-    "close": 345.81,
-    "volume": 362340.0
+    "open": 339.10999,
+    "high": 346.44,
+    "low": 338.73999,
+    "close": 345.73999,
+    "volume": 17561315.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:13:50Z",
+  "fetched_at": "2026-09-14T21:55:20Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:13:50Z",
+  "fetched_at": "2026-09-14T21:55:20Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.244284,
+  "forward_pe": 23.242836,
   "forward_eps": 14.87383,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:13:50Z",
+  "fetched_at": "2026-09-14T21:55:20Z",
   "rows": [
    {
-    "ts": 1789392659,
-    "headline": "Tesla Could Be\u00a0Building Its Next\u00a0Trillion-Dollar Opportunity. Here\u2019s Where Its Headed",
+    "ts": 1789408198,
+    "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3667580f89d93cf8dc00c8b98227f222c6213bd995776ef6120c8852bfa4483d"
+    "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
    },
    {
-    "ts": 1789392614,
-    "headline": "This Analyst Says A Full Reversion to the Mean Would Take the S&P 500 From 7,000 to 2,500",
+    "ts": 1789407952,
+    "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c424328372014845c185e0dfa3561cff332d7d18ec07e17688ed80119d71517d"
+    "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
    },
    {
-    "ts": 1789390800,
-    "headline": "Flam Raises $40 Million Series B to Scale AI Interactive Content",
+    "ts": 1789407840,
+    "headline": "Is AI Leveling the Playing Field? Fintech AI Visibility Study Says Yes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=60081bab8011293c27feabeec3a4f10a479ee3f6bce447963d26e126d060422d"
+    "url": "https://finnhub.io/api/news?id=a798995f490db62e9e396abf33a54562addd5baa3e1fe7d12e860920cedbf42e"
    },
    {
-    "ts": 1789390800,
-    "headline": "Abacus Launches AI\u00b3 Initiative to Accelerate Enterprise AI Adoption for Regulated Industries",
+    "ts": 1789406506,
+    "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8c996a5246cf2fd7d1c9e0c92c2046f6493a819773ad91f1adb937bf18bcadb8"
+    "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
    },
    {
-    "ts": 1789389360,
-    "headline": "Architech Makes Fast Company's Best Workplaces for Innovators List in AI",
+    "ts": 1789405802,
+    "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=889e3c49c5c90a4a4a1121d2922fa808eb0fe983de47b38d9582433620387768"
+    "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e"
    },
    {
-    "ts": 1789389360,
-    "headline": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+    "ts": 1789405167,
+    "headline": "Stock Market Today: Dow Tries For A Gain, Trump Hits Out At AI Fears; This Fuel Play Clears Entry (Live Coverage)",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2ab8f82bc413d3693e5668999f054f2bfafeecc817566009cee5e30b9ac36cb6"
+    "url": "https://finnhub.io/api/news?id=79d38bc87ad6bdb302b2ea3901463f3864d6c1b4c136b230ca04d20b9523e219"
    },
    {
-    "ts": 1789388340,
-    "headline": "Baron Global Opportunity Fund Q2 2026 Portfolio Activity",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c8785df4f7899efef2abb19514bd0dd756d78a264c63cb00667c004349c7477e"
+    "ts": 1789405160,
+    "headline": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=8e51a1da517fa280715b226038bc4aac8f4ed68f69b4d3a84512a60a8e8adfa4"
    },
    {
-    "ts": 1789388340,
-    "headline": "2 Numbers Matter More to Alphabet Stock's Performance Than Anything Else Right Now",
+    "ts": 1789404540,
+    "headline": "The Winners and Losers in an AI Slowdown",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9c766b13fedc70e3908f326ea0e9f19a67a3111393fc953e05bd9b4393b3229f"
+    "url": "https://finnhub.io/api/news?id=47ed07e715ddd1efae7666f958acc3b3ed757dbe454fcc8bcdee4dd5cb0010ed"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T18:13:50Z",
+  "fetched_at": "2026-09-14T21:55:20Z",
   "error": "no insider filings in six months"
  },
  "peers": {
