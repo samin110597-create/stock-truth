@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-14T21:55:29Z",
+ "generated_at": "2026-09-15T17:20:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:30Z",
-  "current": 210.96,
-  "change": -7.33,
-  "change_pct": -3.3579,
-  "high": 212.77,
-  "low": 208.93,
-  "open": 211.24,
-  "prev_close": 218.29,
-  "ts": 1789416000
+  "fetched_at": "2026-09-15T17:20:15Z",
+  "current": 211.49,
+  "change": 0.53,
+  "change_pct": 0.2512,
+  "high": 213.94,
+  "low": 211.27,
+  "open": 212.4875,
+  "prev_close": 210.96,
+  "ts": 1789492792
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:30Z",
+  "fetched_at": "2026-09-15T17:20:15Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5260789014704.283,
+  "mcap": 5084135843629.247,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T21:55:30Z",
+  "fetched_at": "2026-09-15T17:20:15Z",
   "bars": [
-   {
-    "date": "2023-02-10",
-    "open": 21.69,
-    "high": 22.077999,
-    "low": 20.811,
-    "close": 21.265,
-    "volume": 550737000.0
-   },
    {
     "date": "2023-02-13",
     "open": 21.538,
@@ -7218,19 +7210,27 @@
     "high": 222.0,
     "low": 218.14999,
     "close": 218.28999,
-    "volume": 88804100.0
+    "volume": 89060100.0
    },
    {
     "date": "2026-09-14",
-    "open": 211.080002,
+    "open": 211.24001,
     "high": 212.77,
     "low": 208.92999,
-    "close": 210.89,
-    "volume": 125972774.0
+    "close": 210.96001,
+    "volume": 131942300.0
+   },
+   {
+    "date": "2026-09-15",
+    "open": 213.285,
+    "high": 213.935,
+    "low": 211.28,
+    "close": 211.45,
+    "volume": 1453504.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-14",
+  "latest": "2026-09-15",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:31Z",
+  "fetched_at": "2026-09-15T17:20:16Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T21:55:31Z",
-  "analyst_target_mean": 327.17758,
+  "fetched_at": "2026-09-15T17:20:16Z",
+  "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.510182,
+  "forward_pe": 13.55405,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
   "short_asof": 1788134400,
   "institutions_pct": 0.71410006,
-  "insiders_pct": 0.04007,
+  "insiders_pct": 0.04008,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:31Z",
+  "fetched_at": "2026-09-15T17:20:16Z",
   "rows": [
    {
-    "ts": 1789413005,
-    "headline": "Top dow jones movers in Monday's session",
+    "ts": 1789490405,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
+    "url": "https://finnhub.io/api/news?id=f01de47da9ecb6ffbb670635ec847d02217017e49e51ce48b43d44b20d656cc7"
    },
    {
-    "ts": 1789409101,
-    "headline": "These S&P500 stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=b2261b4dc5b59c3755bfea444dc6f7112e692fae63d3f795e7b1e23428244bca"
-   },
-   {
-    "ts": 1789408800,
-    "headline": "Most active stocks in Monday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=4d029fa0b74e496190e5a68ee91633099fb39904560f25b0dfd9b291822ff7ff"
-   },
-   {
-    "ts": 1789408190,
-    "headline": "Corning Tumbles 12% on $2B At-the-Market Equity Offering; Coherent Sinks 11%, Lumentum Drops 9%, Fabrinet Slides 6%",
+    "ts": 1789477560,
+    "headline": "Announcing Koa: Salesforce\u2019s First CRM Reasoning Model, Built on NVIDIA Nemotron",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=12a7d152d69368274062f1295fd27d17ab50c5b0392ff5563a0679785b3bd09a"
+    "url": "https://finnhub.io/api/news?id=a7f14d2c95b607fa90540651fa71b562dec0a5463e35f387b5fcd9f5fdfbca52"
    },
    {
-    "ts": 1789407630,
-    "headline": "Why Direxion Daily Semiconductor Bull 3X ETF Dropped Today",
+    "ts": 1789477200,
+    "headline": "Vertical Data Secures $192 Million AI Infrastructure Commitment for Global AI Developer",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c715a69acf3ff2f46084db5b4babce9c6ea6cd44dbd3a60b9c6013a1186630d"
+    "url": "https://finnhub.io/api/news?id=cfa85012d3122322a53e7891cc876ffea5f7bf48ee54c5edf77a996be7ece841"
    },
    {
-    "ts": 1789407604,
-    "headline": "Bitcoin Climbs as AI Slowdown Calls Sink Nvidia, Intel and Other Chip Stocks",
+    "ts": 1789476738,
+    "headline": "Stock Market Today: Dow Falls As Yields, Oil Prices Rise Ahead Of Fed Meeting; Nvidia Set To Rebound (Live Coverage)",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f6a78e6d955f6a37eecc480087ec33c613d0b97aa4364bffe7e673442af27b2c"
+    "url": "https://finnhub.io/api/news?id=a759b36acdc088d789e0bb7d0d9fef082b5e693bf696fea6a6e2053615ebeb1d"
    },
    {
-    "ts": 1789407474,
-    "headline": "Wall Street hit by tech sell-off after AI bosses push for slowdown",
+    "ts": 1789476503,
+    "headline": "Hedge Fund That Nearly Collapsed Bets Big on AMD Again",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f0b447e2e97d68639dcdba9458e8dd1b3fec5747a79adbd5adbb2a313626cd48"
+    "url": "https://finnhub.io/api/news?id=709458aa7fd12808444c9dba7f46d1f4d3fd2b0d7e0d40290a2b3b2f336ded34"
    },
    {
-    "ts": 1789407457,
-    "headline": "Palantir, Nvidia, Booz Allen restrict Anthropic and OpenAI models",
+    "ts": 1789475876,
+    "headline": "Anthropic moving forward with $2 trillion IPO on Nasdaq",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=248b657ec28da438120b07529761197b455c0278d6b060333499f14124ef716e"
+    "url": "https://finnhub.io/api/news?id=7696b79296a1168bd26548b705a9ea0e49905fbba3c2308ba00f4c518583fa27"
+   },
+   {
+    "ts": 1789475700,
+    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
+   },
+   {
+    "ts": 1789475520,
+    "headline": "How Deep Does the AI Doom and Gloom Run? \u2018We Don\u2019t Know\u2019 Is the Only Sure Answer.",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c844b87f27d414f1492190d889ec5b83177c0605d6954a3dfbbf151384c99746"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:31Z",
+  "fetched_at": "2026-09-15T17:20:16Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,

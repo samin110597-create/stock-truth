@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-14T21:55:18Z",
+ "generated_at": "2026-09-15T17:20:04Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:19Z",
-  "current": 345.71,
-  "change": 10.26,
-  "change_pct": 3.0586,
-  "high": 346.45,
-  "low": 338.74,
-  "open": 339.11,
-  "prev_close": 335.45,
-  "ts": 1789416000
+  "fetched_at": "2026-09-15T17:20:05Z",
+  "current": 339.62,
+  "change": -6.09,
+  "change_pct": -1.7616,
+  "high": 344.36,
+  "low": 339.44,
+  "open": 342.665,
+  "prev_close": 345.71,
+  "ts": 1789492792
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:19Z",
+  "fetched_at": "2026-09-15T17:20:05Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4139855000000.0,
+  "mcap": 4273039700000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T21:55:19Z",
+  "fetched_at": "2026-09-15T17:20:05Z",
   "bars": [
-   {
-    "date": "2023-02-10",
-    "open": 95.74,
-    "high": 97.019997,
-    "low": 94.53,
-    "close": 94.86,
-    "volume": 49325300.0
-   },
    {
     "date": "2023-02-13",
     "open": 95.010002,
@@ -7218,19 +7210,27 @@
     "high": 339.95001,
     "low": 332.54999,
     "close": 335.45001,
-    "volume": 15792800.0
+    "volume": 15820700.0
    },
    {
     "date": "2026-09-14",
     "open": 339.10999,
-    "high": 346.44,
+    "high": 346.45001,
     "low": 338.73999,
-    "close": 345.73999,
-    "volume": 17561315.0
+    "close": 345.70999,
+    "volume": 22441500.0
+   },
+   {
+    "date": "2026-09-15",
+    "open": 343.155,
+    "high": 344.28,
+    "low": 339.5,
+    "close": 339.65,
+    "volume": 150475.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-14",
+  "latest": "2026-09-15",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:20Z",
+  "fetched_at": "2026-09-15T17:20:05Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T21:55:20Z",
+  "fetched_at": "2026-09-15T17:20:06Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.242836,
-  "forward_eps": 14.87383,
+  "forward_pe": 22.864906,
+  "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
   "short_asof": 1788134400,
-  "institutions_pct": 0.62104,
+  "institutions_pct": 0.62123,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:20Z",
+  "fetched_at": "2026-09-15T17:20:06Z",
   "rows": [
    {
-    "ts": 1789408198,
-    "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+    "ts": 1789480147,
+    "headline": "OpenAI acquires Glass Imaging camera startup for $300 million",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
+    "url": "https://finnhub.io/api/news?id=c764597e8c9f63ce2cc2351407b3f133587dff293c9e1211f1db5212c326b706"
    },
    {
-    "ts": 1789407952,
-    "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+    "ts": 1789478394,
+    "headline": "Is The Trade Desk's Cash Worth More Than Its Lost Growth?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
+    "url": "https://finnhub.io/api/news?id=10a35634d2108db8a68f4e9987d04cd9b6b662800d111e600d21936fb3d763a1"
    },
    {
-    "ts": 1789407840,
-    "headline": "Is AI Leveling the Playing Field? Fintech AI Visibility Study Says Yes",
+    "ts": 1789477500,
+    "headline": "Cloudflare Helps End the Search-or-AI-Training Tradeoff",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a798995f490db62e9e396abf33a54562addd5baa3e1fe7d12e860920cedbf42e"
+    "url": "https://finnhub.io/api/news?id=31af626f571a764639c9cfd51914f100af34eb8cbecb6bde72cad6b932a3cad6"
    },
    {
-    "ts": 1789406506,
-    "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+    "ts": 1789477200,
+    "headline": "Cirrascale Cloud Services Launches Production Release of the Cirrascale Inference Platform, Delivering a Complete Enterprise AI Inference Stack",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
+    "url": "https://finnhub.io/api/news?id=bc5bc22ed2cc77683b3273e4397f7e3e52841495496a857cf79c9e9dfd432670"
    },
    {
-    "ts": 1789405802,
-    "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+    "ts": 1789475874,
+    "headline": "Latest News In Cloud AI - Bitdeer AI Expands With New AI Cloud Data Center",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e"
+    "url": "https://finnhub.io/api/news?id=5fd4972db095df5b72f6c169e2b9c6e01bee0f87d32a4a314d1b8a6f3f164448"
    },
    {
-    "ts": 1789405167,
-    "headline": "Stock Market Today: Dow Tries For A Gain, Trump Hits Out At AI Fears; This Fuel Play Clears Entry (Live Coverage)",
+    "ts": 1789475700,
+    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=79d38bc87ad6bdb302b2ea3901463f3864d6c1b4c136b230ca04d20b9523e219"
+    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
    },
    {
-    "ts": 1789405160,
-    "headline": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+    "ts": 1789474782,
+    "headline": "Cathie Wood Makes Striking Switch Between AI Stock Giants",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8e51a1da517fa280715b226038bc4aac8f4ed68f69b4d3a84512a60a8e8adfa4"
+    "url": "https://finnhub.io/api/news?id=1c5345c0c7644084504aa9d4e7276ff3c09d19ab450e9dd3e8cfb205aeedc9c2"
    },
    {
-    "ts": 1789404540,
-    "headline": "The Winners and Losers in an AI Slowdown",
+    "ts": 1789473900,
+    "headline": "Palantir's CEO Revealed the Biggest Opportunity in Its Future. And It Has Little to Do with AI Models",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47ed07e715ddd1efae7666f958acc3b3ed757dbe454fcc8bcdee4dd5cb0010ed"
+    "url": "https://finnhub.io/api/news?id=28259ee6f958c93947dd89312674e1ed7c4a65baf608c23e056c0c8b4d38bd61"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:20Z",
+  "fetched_at": "2026-09-15T17:20:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {

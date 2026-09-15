@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-14T21:55:40Z",
+ "generated_at": "2026-09-15T17:20:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:41Z",
-  "current": 665.6,
-  "change": 17.57,
-  "change_pct": 2.7113,
-  "high": 668.6,
-  "low": 649.22,
-  "open": 657.83,
-  "prev_close": 648.03,
-  "ts": 1789416000
+  "fetched_at": "2026-09-15T17:20:25Z",
+  "current": 665.18,
+  "change": -0.42,
+  "change_pct": -0.0631,
+  "high": 678.87,
+  "low": 656.2,
+  "open": 659.435,
+  "prev_close": 665.6,
+  "ts": 1789492791
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:41Z",
+  "fetched_at": "2026-09-15T17:20:25Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1650860412505.4463,
+  "mcap": 1695620159427.385,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T21:55:41Z",
+  "fetched_at": "2026-09-15T17:20:25Z",
   "bars": [
-   {
-    "date": "2023-02-10",
-    "open": 176.35001,
-    "high": 178.89,
-    "low": 173.35001,
-    "close": 174.14999,
-    "volume": 33433600.0
-   },
    {
     "date": "2023-02-13",
     "open": 178.22,
@@ -7218,19 +7210,27 @@
     "high": 664.23999,
     "low": 646.20001,
     "close": 648.030029,
-    "volume": 16908400.0
+    "volume": 16925000.0
    },
    {
     "date": "2026-09-14",
-    "open": 657.62,
+    "open": 657.83002,
     "high": 668.59998,
-    "low": 649.25,
-    "close": 665.71002,
-    "volume": 16246860.0
+    "low": 649.21997,
+    "close": 665.59998,
+    "volume": 19300300.0
+   },
+   {
+    "date": "2026-09-15",
+    "open": 658.64,
+    "high": 678.8,
+    "low": 656.47,
+    "close": 665.25,
+    "volume": 443873.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-14",
+  "latest": "2026-09-15",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:41Z",
+  "fetched_at": "2026-09-15T17:20:25Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T21:55:42Z",
+  "fetched_at": "2026-09-15T17:20:26Z",
   "analyst_target_mean": 758.2758,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.039085,
+  "forward_pe": 19.02879,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
   "short_asof": 1788134400,
-  "institutions_pct": 0.7902,
+  "institutions_pct": 0.79022,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:42Z",
+  "fetched_at": "2026-09-15T17:20:26Z",
   "rows": [
    {
-    "ts": 1789404780,
-    "headline": "Alger Russell Innovation Index Updates for Third Quarter 2026",
+    "ts": 1789474782,
+    "headline": "Cathie Wood Makes Striking Switch Between AI Stock Giants",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4536d075d900463d79c886b57ebb51963b33d201d6f85976796ed4f09bf19001"
+    "url": "https://finnhub.io/api/news?id=1c5345c0c7644084504aa9d4e7276ff3c09d19ab450e9dd3e8cfb205aeedc9c2"
    },
    {
-    "ts": 1789404540,
-    "headline": "The Winners and Losers in an AI Slowdown",
+    "ts": 1789473643,
+    "headline": "Fifty-Five Analysts Cover Meta and None Say Sell",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47ed07e715ddd1efae7666f958acc3b3ed757dbe454fcc8bcdee4dd5cb0010ed"
+    "url": "https://finnhub.io/api/news?id=47b122dc86633a9de389113a6e8a07f4670e259525ab0f13c8fb404bdeac1056"
    },
    {
-    "ts": 1789404299,
-    "headline": "Stock Market Midday, Sept. 14: Tech Stocks Slide on Dire AI Warnings, Micron Drops 5%",
+    "ts": 1789471798,
+    "headline": "Meta\u2019s (META) Muse Math: 10 Million Paying Users Could Mean $2.4 Billion a Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9c3a7f6df902153201ddaa417045b4c76713a7f0f97f8a3aee05d22f18d2bf26"
+    "url": "https://finnhub.io/api/news?id=782391bdb227ee68ba7399f9356f0276f75fc1de575834954c32ffa61d9fee9e"
    },
    {
-    "ts": 1789402519,
-    "headline": "Forget the Magnificent 7. This Duo Says Broadcom, Not Nvidia, Wins the Next Leg of AI.",
+    "ts": 1789470959,
+    "headline": "AMD Is Eating Intel\u2019s Lunch",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1860686573830edc55e328c0cc8d45b2a43b5f130057ad6b815de60aaeb4621e"
+    "url": "https://finnhub.io/api/news?id=949e3443f330ecc33392d77b0b35a5a42fba5647548d2656aaa1a6166d077ce8"
    },
    {
-    "ts": 1789401611,
-    "headline": "Prediction: Meta Stock Has\u00a0More Upside Than\u00a0Its Valuation Suggests",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d17c266c8d7dac2f0efc85badae5b051d4519375ec76457b3eb512e7d966ef6c"
+    "ts": 1789470204,
+    "headline": "Meta Introduces Meta One; Meta One Plans Now Available Globally; Meta One Pricing Starts At $2.99/Month For Single Products, $7.99/Month For Individual Bundles, $14.99/Month For Cr",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=9ff37dbeeeee4d4f4f352c6403176bffcdc976db5bd044611023d88f610120bf"
    },
    {
-    "ts": 1789400005,
-    "headline": "Cathie Wood buys $27.9 million of surging megacap stock",
+    "ts": 1789468365,
+    "headline": "Sam Altman Warns AI Race With China Can\u2019t Justify \u2018Recklessness\u2019\u2014\u2018No Reason Any of Us Should Come to Work\u2019 Without Safety Accountability",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc6c48799c1101cdb32ada40cc3ca23aceb06d5b58b647ed622b4be7767910c2"
+    "url": "https://finnhub.io/api/news?id=895bf22cd6039833446c6a2857717b23d4da35f110ac0d741cc83e88fa97453e"
    },
    {
-    "ts": 1789399323,
-    "headline": "Meta Platforms: AI Spending Is Starting To Pay Off",
+    "ts": 1789467271,
+    "headline": "'Meta Touts the Cost-Saving Benefits of Latest In-House AI Chips' - Bloomberg",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=a5ee50d7d26424f91a4682c1be5b0b260d3b173c9ce9d677eb329d3c5cb9802d"
+   },
+   {
+    "ts": 1789466415,
+    "headline": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=fa202e9a244245e58886ce186e080b843d63582da90d579f12d3e1318808e7a6"
-   },
-   {
-    "ts": 1789396884,
-    "headline": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d4cca1d9fadc50213ac953e397544b17e7901d32047c6989eb78cb61ba09917a"
+    "url": "https://finnhub.io/api/news?id=5eae948ae5aeaa116279f0565caba92a404bd6de640c65ca61f3afa98349b221"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:42Z",
+  "fetched_at": "2026-09-15T17:20:26Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

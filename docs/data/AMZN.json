@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-14T21:55:07Z",
+ "generated_at": "2026-09-15T17:19:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:07Z",
-  "current": 253.54,
-  "change": -3.24,
-  "change_pct": -1.2618,
-  "high": 255.95,
-  "low": 250.74,
-  "open": 253.15,
-  "prev_close": 256.78,
-  "ts": 1789416000
+  "fetched_at": "2026-09-15T17:19:54Z",
+  "current": 248.82,
+  "change": -4.72,
+  "change_pct": -1.8616,
+  "high": 253.27,
+  "low": 248.435,
+  "open": 252.415,
+  "prev_close": 253.54,
+  "ts": 1789492768
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:08Z",
+  "fetched_at": "2026-09-15T17:19:54Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2769709818561.971,
+  "mcap": 2734762153445.0063,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-14T21:55:08Z",
+  "fetched_at": "2026-09-15T17:19:55Z",
   "bars": [
-   {
-    "date": "2023-02-10",
-    "open": 97.56,
-    "high": 98.82,
-    "low": 96.23,
-    "close": 97.61,
-    "volume": 52740100.0
-   },
    {
     "date": "2023-02-13",
     "open": 97.85,
@@ -7218,19 +7210,27 @@
     "high": 257.59,
     "low": 253.14,
     "close": 256.78,
-    "volume": 26682800.0
+    "volume": 26724100.0
    },
    {
     "date": "2026-09-14",
-    "open": 253.375,
+    "open": 253.14999,
     "high": 255.95,
-    "low": 250.74,
-    "close": 253.56,
-    "volume": 28853346.0
+    "low": 250.74001,
+    "close": 253.53999,
+    "volume": 34292800.0
+   },
+   {
+    "date": "2026-09-15",
+    "open": 252.375,
+    "high": 253.25,
+    "low": 248.46,
+    "close": 248.775,
+    "volume": 827778.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-14",
+  "latest": "2026-09-15",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:08Z",
+  "fetched_at": "2026-09-15T17:19:55Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T21:55:09Z",
+  "fetched_at": "2026-09-15T17:19:55Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.369732,
-  "forward_eps": 10.40389,
+  "forward_pe": 23.92811,
+  "forward_eps": 10.40032,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
   "short_asof": 1788134400,
-  "institutions_pct": 0.68711,
+  "institutions_pct": 0.68711996,
   "insiders_pct": 0.08866,
   "beta": 1.443,
   "next_earnings": 1785441600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:09Z",
+  "fetched_at": "2026-09-15T17:19:55Z",
   "rows": [
    {
-    "ts": 1789413005,
-    "headline": "Top dow jones movers in Monday's session",
+    "ts": 1789490405,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a582f12a39d548a360c2fd563324d739fe0187dbabf02574fc36af5ad1f665b3"
+    "url": "https://finnhub.io/api/news?id=f01de47da9ecb6ffbb670635ec847d02217017e49e51ce48b43d44b20d656cc7"
    },
    {
-    "ts": 1789408198,
-    "headline": "Sector Update: Consumer Stocks Advance Monday Afternoon",
+    "ts": 1789479002,
+    "headline": "Is It Worth Investing in Amazon (AMZN) Based on Wall Street's Bullish Views?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=edeef2b993df23a327f3d62afd3209879774805a0d66a6c6f74ceb40a6314283"
+    "url": "https://finnhub.io/api/news?id=0190228620167d9ce80b13567fff0af681c620dd2bb5143b1d17bc8f0bfc6601"
    },
    {
-    "ts": 1789407952,
-    "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+    "ts": 1789478965,
+    "headline": "Amazon AWS Says Access Cannot Be Restored to Bahrain Facility After War Damage",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9"
+    "url": "https://finnhub.io/api/news?id=33c9ef0ef01ca5bfeb45c939cd1e215e5c6ef5e2da5932389ea5077f7810124c"
    },
    {
-    "ts": 1789407235,
-    "headline": "Sector Update: Tech Stocks Fall Monday Afternoon",
+    "ts": 1789478394,
+    "headline": "Is The Trade Desk's Cash Worth More Than Its Lost Growth?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=94f478efb64f9000925f16c934de2d4d10f02010f14841bccc509a0b03a3eb3a"
+    "url": "https://finnhub.io/api/news?id=10a35634d2108db8a68f4e9987d04cd9b6b662800d111e600d21936fb3d763a1"
    },
    {
-    "ts": 1789406506,
-    "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+    "ts": 1789476093,
+    "headline": "Amazon Gains 1.6% as Its $53 Billion Anthropic Windfall Meets a Weapons Test",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2"
+    "url": "https://finnhub.io/api/news?id=5b5373265ac821768d2ecb08a24af7c6bc51002d64acbd51cfe5a74d4a3901d6"
    },
    {
-    "ts": 1789405802,
-    "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+    "ts": 1789475700,
+    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e"
+    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
    },
    {
-    "ts": 1789405160,
-    "headline": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+    "ts": 1789472100,
+    "headline": "The AI Company You Haven't Heard of -- But Should Keep on Your Radar",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8e51a1da517fa280715b226038bc4aac8f4ed68f69b4d3a84512a60a8e8adfa4"
+    "url": "https://finnhub.io/api/news?id=d6a6fe552a66d0b4f219b34e05ca02e26a128d71fc613a0c91d6bf71534c0136"
    },
    {
-    "ts": 1789404006,
-    "headline": "Which dow jones stocks are moving on Monday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a4a46ed189028f5d0b5269efcffe7ec00f634eacb536901a198d0d2f380e6248"
+    "ts": 1789466400,
+    "headline": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=169271da2e27f46562b4edb1a7d5941478ba9c1a10a9ae65657a66c0c5320e1c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-14T21:55:09Z",
+  "fetched_at": "2026-09-15T17:19:55Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
