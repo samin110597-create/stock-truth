@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-15T17:19:54Z",
+ "generated_at": "2026-09-15T20:18:45Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:19:54Z",
-  "current": 248.82,
-  "change": -4.72,
-  "change_pct": -1.8616,
+  "fetched_at": "2026-09-15T20:18:45Z",
+  "current": 248.42,
+  "change": -5.12,
+  "change_pct": -2.0194,
   "high": 253.27,
-  "low": 248.435,
-  "open": 252.415,
+  "low": 247.22,
+  "open": 252.24,
   "prev_close": 253.54,
-  "ts": 1789492768
+  "ts": 1789502400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:19:54Z",
+  "fetched_at": "2026-09-15T20:18:45Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T17:19:55Z",
+  "fetched_at": "2026-09-15T20:18:46Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-15",
     "open": 252.375,
     "high": 253.25,
-    "low": 248.46,
-    "close": 248.775,
-    "volume": 827778.0
+    "low": 247.22,
+    "close": 248.45,
+    "volume": 1464383.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:19:55Z",
+  "fetched_at": "2026-09-15T20:18:46Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T17:19:55Z",
+  "fetched_at": "2026-09-15T20:18:47Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.92811,
+  "forward_pe": 23.885803,
   "forward_eps": 10.40032,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:19:55Z",
+  "fetched_at": "2026-09-15T20:18:47Z",
   "rows": [
+   {
+    "ts": 1789499406,
+    "headline": "Discover which dow jones stocks are making waves on Tuesday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a2fd6ceef859ea3281feda9ce6737beeb691937977ad1252cfc372c6ed60226b"
+   },
+   {
+    "ts": 1789495500,
+    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=0584841adf1dbf70c8f50793d7796a06d8f19910a7ddba0df8f06a55f988dae6"
+   },
+   {
+    "ts": 1789493459,
+    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
+   },
+   {
+    "ts": 1789492169,
+    "headline": "CSCO, NVDA Stock Inch Higher \u2014 Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9c6457795d0afc5861889af2a37e8e742284d5649309e336147b7319ef810bf2"
+   },
+   {
+    "ts": 1789491747,
+    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
+   },
+   {
+    "ts": 1789491333,
+    "headline": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e485e125aac2c0892310b29c48014eee7c31b9422b3044c44a41584dbd81dfe5"
+   },
+   {
+    "ts": 1789491131,
+    "headline": "Stock Market Today: Dow Dives, Oil Play Tests New Entry; Bitcoin Falls Ahead Of Clarity Act Vote (Live Coverage)",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d0e55a06719d75016cc5f55ca7ee7739c6274853200b90ecac0f07d6f4ff1684"
+   },
    {
     "ts": 1789490405,
     "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=f01de47da9ecb6ffbb670635ec847d02217017e49e51ce48b43d44b20d656cc7"
-   },
-   {
-    "ts": 1789479002,
-    "headline": "Is It Worth Investing in Amazon (AMZN) Based on Wall Street's Bullish Views?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0190228620167d9ce80b13567fff0af681c620dd2bb5143b1d17bc8f0bfc6601"
-   },
-   {
-    "ts": 1789478965,
-    "headline": "Amazon AWS Says Access Cannot Be Restored to Bahrain Facility After War Damage",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=33c9ef0ef01ca5bfeb45c939cd1e215e5c6ef5e2da5932389ea5077f7810124c"
-   },
-   {
-    "ts": 1789478394,
-    "headline": "Is The Trade Desk's Cash Worth More Than Its Lost Growth?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=10a35634d2108db8a68f4e9987d04cd9b6b662800d111e600d21936fb3d763a1"
-   },
-   {
-    "ts": 1789476093,
-    "headline": "Amazon Gains 1.6% as Its $53 Billion Anthropic Windfall Meets a Weapons Test",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5b5373265ac821768d2ecb08a24af7c6bc51002d64acbd51cfe5a74d4a3901d6"
-   },
-   {
-    "ts": 1789475700,
-    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
-   },
-   {
-    "ts": 1789472100,
-    "headline": "The AI Company You Haven't Heard of -- But Should Keep on Your Radar",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d6a6fe552a66d0b4f219b34e05ca02e26a128d71fc613a0c91d6bf71534c0136"
-   },
-   {
-    "ts": 1789466400,
-    "headline": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=169271da2e27f46562b4edb1a7d5941478ba9c1a10a9ae65657a66c0c5320e1c"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:19:55Z",
+  "fetched_at": "2026-09-15T20:18:48Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

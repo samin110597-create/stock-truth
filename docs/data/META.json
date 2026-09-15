@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-15T17:20:25Z",
+ "generated_at": "2026-09-15T20:19:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:25Z",
-  "current": 665.18,
-  "change": -0.42,
-  "change_pct": -0.0631,
+  "fetched_at": "2026-09-15T20:19:18Z",
+  "current": 670.24,
+  "change": 4.64,
+  "change_pct": 0.6971,
   "high": 678.87,
   "low": 656.2,
-  "open": 659.435,
+  "open": 659.3,
   "prev_close": 665.6,
-  "ts": 1789492791
+  "ts": 1789502400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:25Z",
+  "fetched_at": "2026-09-15T20:19:18Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T17:20:25Z",
+  "fetched_at": "2026-09-15T20:19:19Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7225,8 +7225,8 @@
     "open": 658.64,
     "high": 678.8,
     "low": 656.47,
-    "close": 665.25,
-    "volume": 443873.0
+    "close": 670.49,
+    "volume": 748224.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:25Z",
+  "fetched_at": "2026-09-15T20:19:19Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T17:20:26Z",
+  "fetched_at": "2026-09-15T20:19:19Z",
   "analyst_target_mean": 758.2758,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.02879,
+  "forward_pe": 19.171812,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:26Z",
+  "fetched_at": "2026-09-15T20:19:19Z",
   "rows": [
    {
-    "ts": 1789474782,
-    "headline": "Cathie Wood Makes Striking Switch Between AI Stock Giants",
+    "ts": 1789494706,
+    "headline": "Meta One subscriptions launch with AI and creator tiers",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1c5345c0c7644084504aa9d4e7276ff3c09d19ab450e9dd3e8cfb205aeedc9c2"
+    "url": "https://finnhub.io/api/news?id=c4c9857d67e5597d99e2b94f700b35626f89d19e571f270742fd27b6b865ba65"
    },
    {
-    "ts": 1789473643,
-    "headline": "Fifty-Five Analysts Cover Meta and None Say Sell",
+    "ts": 1789493459,
+    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=47b122dc86633a9de389113a6e8a07f4670e259525ab0f13c8fb404bdeac1056"
+    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
    },
    {
-    "ts": 1789471798,
-    "headline": "Meta\u2019s (META) Muse Math: 10 Million Paying Users Could Mean $2.4 Billion a Year",
+    "ts": 1789493431,
+    "headline": "AI Selloff Is \u2018Panic,\u2019 Meta May Be The Best Stock To Buy, Joseph Carlson Says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=782391bdb227ee68ba7399f9356f0276f75fc1de575834954c32ffa61d9fee9e"
+    "url": "https://finnhub.io/api/news?id=efef76fd182bc8e805747a5bb32d47d2c13ac93ec62e495941075ebb554a0439"
    },
    {
-    "ts": 1789470959,
-    "headline": "AMD Is Eating Intel\u2019s Lunch",
+    "ts": 1789493191,
+    "headline": "Meta Launches Meta One Subscription Armed With AI Tools For Content Creators \u2014 META Stock Gains",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=949e3443f330ecc33392d77b0b35a5a42fba5647548d2656aaa1a6166d077ce8"
+    "url": "https://finnhub.io/api/news?id=2ed9ccb89842ec571106253c2dc586ff4c79700a372a561bbab1ca6d306b6f70"
    },
    {
-    "ts": 1789470204,
-    "headline": "Meta Introduces Meta One; Meta One Plans Now Available Globally; Meta One Pricing Starts At $2.99/Month For Single Products, $7.99/Month For Individual Bundles, $14.99/Month For Cr",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=9ff37dbeeeee4d4f4f352c6403176bffcdc976db5bd044611023d88f610120bf"
-   },
-   {
-    "ts": 1789468365,
-    "headline": "Sam Altman Warns AI Race With China Can\u2019t Justify \u2018Recklessness\u2019\u2014\u2018No Reason Any of Us Should Come to Work\u2019 Without Safety Accountability",
+    "ts": 1789492531,
+    "headline": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=895bf22cd6039833446c6a2857717b23d4da35f110ac0d741cc83e88fa97453e"
+    "url": "https://finnhub.io/api/news?id=5d72d95b9329f2f78fbfe1b1675882caeec92a4007752adee786052b14085667"
    },
    {
-    "ts": 1789467271,
-    "headline": "'Meta Touts the Cost-Saving Benefits of Latest In-House AI Chips' - Bloomberg",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=a5ee50d7d26424f91a4682c1be5b0b260d3b173c9ce9d677eb329d3c5cb9802d"
+    "ts": 1789491924,
+    "headline": "Meta expands subscription push with new AI-focused plans",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=db4db64e2c0cd0ac76b0866b2d7cee35964c8a9abec609396a7a0c792f3532dc"
    },
    {
-    "ts": 1789466415,
-    "headline": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=5eae948ae5aeaa116279f0565caba92a404bd6de640c65ca61f3afa98349b221"
+    "ts": 1789491747,
+    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
+   },
+   {
+    "ts": 1789491333,
+    "headline": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=e485e125aac2c0892310b29c48014eee7c31b9422b3044c44a41584dbd81dfe5"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:26Z",
+  "fetched_at": "2026-09-15T20:19:20Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

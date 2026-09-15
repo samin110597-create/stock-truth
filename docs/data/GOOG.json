@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-15T17:20:04Z",
+ "generated_at": "2026-09-15T20:18:57Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:05Z",
-  "current": 339.62,
-  "change": -6.09,
-  "change_pct": -1.7616,
+  "fetched_at": "2026-09-15T20:18:57Z",
+  "current": 341.43,
+  "change": -4.28,
+  "change_pct": -1.238,
   "high": 344.36,
-  "low": 339.44,
-  "open": 342.665,
+  "low": 339.18,
+  "open": 343.34,
   "prev_close": 345.71,
-  "ts": 1789492792
+  "ts": 1789502400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:05Z",
+  "fetched_at": "2026-09-15T20:18:57Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T17:20:05Z",
+  "fetched_at": "2026-09-15T20:18:57Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-15",
     "open": 343.155,
     "high": 344.28,
-    "low": 339.5,
-    "close": 339.65,
-    "volume": 150475.0
+    "low": 339.21,
+    "close": 341.41,
+    "volume": 280306.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:05Z",
+  "fetched_at": "2026-09-15T20:18:58Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T17:20:06Z",
+  "fetched_at": "2026-09-15T20:18:58Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.864906,
+  "forward_pe": 22.98135,
   "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:06Z",
+  "fetched_at": "2026-09-15T20:18:58Z",
   "rows": [
    {
-    "ts": 1789480147,
-    "headline": "OpenAI acquires Glass Imaging camera startup for $300 million",
+    "ts": 1789493459,
+    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c764597e8c9f63ce2cc2351407b3f133587dff293c9e1211f1db5212c326b706"
+    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
    },
    {
-    "ts": 1789478394,
-    "headline": "Is The Trade Desk's Cash Worth More Than Its Lost Growth?",
+    "ts": 1789493160,
+    "headline": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=10a35634d2108db8a68f4e9987d04cd9b6b662800d111e600d21936fb3d763a1"
+    "url": "https://finnhub.io/api/news?id=f88de3f58a307ca4db158868a458fb82d2621aaa7dc44783060b61992768ab7a"
    },
    {
-    "ts": 1789477500,
-    "headline": "Cloudflare Helps End the Search-or-AI-Training Tradeoff",
+    "ts": 1789492531,
+    "headline": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=31af626f571a764639c9cfd51914f100af34eb8cbecb6bde72cad6b932a3cad6"
+    "url": "https://finnhub.io/api/news?id=5d72d95b9329f2f78fbfe1b1675882caeec92a4007752adee786052b14085667"
    },
    {
-    "ts": 1789477200,
-    "headline": "Cirrascale Cloud Services Launches Production Release of the Cirrascale Inference Platform, Delivering a Complete Enterprise AI Inference Stack",
+    "ts": 1789492020,
+    "headline": "RDDT vs. GOOGL: Which Digital Advertising Stock Has an Edge Right Now?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=bc5bc22ed2cc77683b3273e4397f7e3e52841495496a857cf79c9e9dfd432670"
+    "url": "https://finnhub.io/api/news?id=1f0963ca2a2853600aa9379a792c9a462c983d7100c114d41640415b9212c08c"
    },
    {
-    "ts": 1789475874,
-    "headline": "Latest News In Cloud AI - Bitdeer AI Expands With New AI Cloud Data Center",
+    "ts": 1789491747,
+    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5fd4972db095df5b72f6c169e2b9c6e01bee0f87d32a4a314d1b8a6f3f164448"
+    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
    },
    {
-    "ts": 1789475700,
-    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
+    "ts": 1789490249,
+    "headline": "Alibaba\u2019s (BABA) Short-Term Capex Drag Creates a 30% Valuation Discount",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
+    "url": "https://finnhub.io/api/news?id=780c11e130303565ee0b87ac0bb14bc547a4614cba035601cb6ff38262412366"
    },
    {
-    "ts": 1789474782,
-    "headline": "Cathie Wood Makes Striking Switch Between AI Stock Giants",
+    "ts": 1789489602,
+    "headline": "Why Alluvium Bought Copart (CPRT) Despite the Long-Term Autonomous Driving Risk",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1c5345c0c7644084504aa9d4e7276ff3c09d19ab450e9dd3e8cfb205aeedc9c2"
+    "url": "https://finnhub.io/api/news?id=6489689e06d3ead04e7dbd5aa02bab9f68d1b629fad50271b828344ec0a7082c"
    },
    {
-    "ts": 1789473900,
-    "headline": "Palantir's CEO Revealed the Biggest Opportunity in Its Future. And It Has Little to Do with AI Models",
+    "ts": 1789488301,
+    "headline": "Warren Buffett Bought Alphabet Stock About a Year Ago. 3 Reasons It\u2019s Still a Buy Today",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28259ee6f958c93947dd89312674e1ed7c4a65baf608c23e056c0c8b4d38bd61"
+    "url": "https://finnhub.io/api/news?id=fc9f1a2f406e58f09b56576d6d108dea818de09ab6ff71d850a09bb631efd912"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:06Z",
+  "fetched_at": "2026-09-15T20:18:58Z",
   "error": "no insider filings in six months"
  },
  "peers": {

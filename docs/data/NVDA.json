@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-15T17:20:15Z",
+ "generated_at": "2026-09-15T20:19:07Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:15Z",
-  "current": 211.49,
-  "change": 0.53,
-  "change_pct": 0.2512,
+  "fetched_at": "2026-09-15T20:19:07Z",
+  "current": 212.17,
+  "change": 1.21,
+  "change_pct": 0.5736,
   "high": 213.94,
-  "low": 211.27,
-  "open": 212.4875,
+  "low": 211.16,
+  "open": 213.375,
   "prev_close": 210.96,
-  "ts": 1789492792
+  "ts": 1789502400
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:15Z",
+  "fetched_at": "2026-09-15T20:19:08Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T17:20:15Z",
+  "fetched_at": "2026-09-15T20:19:08Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-15",
     "open": 213.285,
     "high": 213.935,
-    "low": 211.28,
-    "close": 211.45,
-    "volume": 1453504.0
+    "low": 211.16,
+    "close": 212.165,
+    "volume": 2272724.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:16Z",
+  "fetched_at": "2026-09-15T20:19:08Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T17:20:16Z",
+  "fetched_at": "2026-09-15T20:19:09Z",
   "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.55405,
+  "forward_pe": 13.587671,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:16Z",
+  "fetched_at": "2026-09-15T20:19:09Z",
   "rows": [
    {
-    "ts": 1789490405,
-    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "ts": 1789499406,
+    "headline": "Discover which dow jones stocks are making waves on Tuesday.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=f01de47da9ecb6ffbb670635ec847d02217017e49e51ce48b43d44b20d656cc7"
+    "url": "https://finnhub.io/api/news?id=a2fd6ceef859ea3281feda9ce6737beeb691937977ad1252cfc372c6ed60226b"
    },
    {
-    "ts": 1789477560,
-    "headline": "Announcing Koa: Salesforce\u2019s First CRM Reasoning Model, Built on NVIDIA Nemotron",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a7f14d2c95b607fa90540651fa71b562dec0a5463e35f387b5fcd9f5fdfbca52"
+    "ts": 1789495500,
+    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=0584841adf1dbf70c8f50793d7796a06d8f19910a7ddba0df8f06a55f988dae6"
    },
    {
-    "ts": 1789477200,
-    "headline": "Vertical Data Secures $192 Million AI Infrastructure Commitment for Global AI Developer",
+    "ts": 1789494600,
+    "headline": "I Like SpaceX, But I'm Not Buying the Stock for One Simple Reason",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cfa85012d3122322a53e7891cc876ffea5f7bf48ee54c5edf77a996be7ece841"
+    "url": "https://finnhub.io/api/news?id=c65b6becfa2bed11789e4db247b0f7c0bb4a54127fd94beb030205ccfc4bbc23"
    },
    {
-    "ts": 1789476738,
-    "headline": "Stock Market Today: Dow Falls As Yields, Oil Prices Rise Ahead Of Fed Meeting; Nvidia Set To Rebound (Live Coverage)",
+    "ts": 1789494332,
+    "headline": "Nvidia Just Invited a Rival Chipmaker Into Its Own Racks. Here\u2019s Why",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a759b36acdc088d789e0bb7d0d9fef082b5e693bf696fea6a6e2053615ebeb1d"
+    "url": "https://finnhub.io/api/news?id=561bdb0ff95aaab6d001add22053cba687c8cba994898113f88b8ab21fbefcbf"
    },
    {
-    "ts": 1789476503,
-    "headline": "Hedge Fund That Nearly Collapsed Bets Big on AMD Again",
+    "ts": 1789494240,
+    "headline": "3 Absurdly Cheap Growth Stocks to Buy Before the End of 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=709458aa7fd12808444c9dba7f46d1f4d3fd2b0d7e0d40290a2b3b2f336ded34"
+    "url": "https://finnhub.io/api/news?id=66f3855963904bdb24793acbe8c257903117f3dccc8f637df622f0a4ff8eb598"
    },
    {
-    "ts": 1789475876,
-    "headline": "Anthropic moving forward with $2 trillion IPO on Nasdaq",
+    "ts": 1789494000,
+    "headline": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7696b79296a1168bd26548b705a9ea0e49905fbba3c2308ba00f4c518583fa27"
+    "url": "https://finnhub.io/api/news?id=596e206a8275549b0287e1e47b8728205b97bb4f592b3c041de6b4c9daf673fd"
    },
    {
-    "ts": 1789475700,
-    "headline": "2 Stocks That Will Cash In When Anthropic Goes Public",
+    "ts": 1789493986,
+    "headline": "Trustpilot Gets a One-Star Review From Investors",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=92bb2d8290c0d3c6b683907386cac15f8b2ab51c39e8227b15612155a6088417"
+    "url": "https://finnhub.io/api/news?id=1fbe2e59d1323f57e455a28662fe43fc236083b421fa91041756a103b47ef00e"
    },
    {
-    "ts": 1789475520,
-    "headline": "How Deep Does the AI Doom and Gloom Run? \u2018We Don\u2019t Know\u2019 Is the Only Sure Answer.",
+    "ts": 1789493700,
+    "headline": "Analysts Think Green Thumb Industries Will Double Over the Next 12 Months. Here's Why They're Probably Wrong",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c844b87f27d414f1492190d889ec5b83177c0605d6954a3dfbbf151384c99746"
+    "url": "https://finnhub.io/api/news?id=f2e804992612b467ac6ee6d42ba29cc7b65ab3ed2834e0b2a3d7fe79669f596f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T17:20:16Z",
+  "fetched_at": "2026-09-15T20:19:09Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,
