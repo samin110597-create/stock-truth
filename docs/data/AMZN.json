@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-15T20:18:45Z",
+ "generated_at": "2026-09-15T22:58:55Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:45Z",
+  "fetched_at": "2026-09-15T22:58:56Z",
   "current": 248.42,
   "change": -5.12,
   "change_pct": -2.0194,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:45Z",
+  "fetched_at": "2026-09-15T22:58:56Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T20:18:46Z",
+  "fetched_at": "2026-09-15T22:58:56Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7218,15 +7218,15 @@
     "high": 255.95,
     "low": 250.74001,
     "close": 253.53999,
-    "volume": 34292800.0
+    "volume": 34352800.0
    },
    {
     "date": "2026-09-15",
     "open": 252.375,
-    "high": 253.25,
+    "high": 253.27,
     "low": 247.22,
-    "close": 248.45,
-    "volume": 1464383.0
+    "close": 248.42,
+    "volume": 35783529.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:46Z",
+  "fetched_at": "2026-09-15T22:58:56Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T20:18:47Z",
+  "fetched_at": "2026-09-15T22:58:58Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:47Z",
+  "fetched_at": "2026-09-15T22:58:58Z",
   "rows": [
    {
-    "ts": 1789499406,
-    "headline": "Discover which dow jones stocks are making waves on Tuesday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a2fd6ceef859ea3281feda9ce6737beeb691937977ad1252cfc372c6ed60226b"
-   },
-   {
-    "ts": 1789495500,
-    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=0584841adf1dbf70c8f50793d7796a06d8f19910a7ddba0df8f06a55f988dae6"
-   },
-   {
-    "ts": 1789493459,
-    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
+    "ts": 1789508704,
+    "headline": "Amazon (AMZN) Dips More Than Broader Market: What You Should Know",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
+    "url": "https://finnhub.io/api/news?id=e2c40f2d2a69a8ff231d2ef64bd1a44afebd750f007011ca9119bb44abc7191e"
    },
    {
-    "ts": 1789492169,
-    "headline": "CSCO, NVDA Stock Inch Higher \u2014 Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers",
+    "ts": 1789505100,
+    "headline": "Amazon sells luxury solar-powered watches from brands like Seiko and Citizen starting at $210",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9c6457795d0afc5861889af2a37e8e742284d5649309e336147b7319ef810bf2"
+    "url": "https://finnhub.io/api/news?id=20b8abb945f1bc160f11fd987c7bc0f2ac4780df292f667a7d01dd82440d7f93"
    },
    {
-    "ts": 1789491747,
-    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "ts": 1789504690,
+    "headline": "Stock Market Today: Dow Dives With Fed Seen Doing This; Senate Vote Hits These Crypto Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
+    "url": "https://finnhub.io/api/news?id=a95b23d9616d1f85988b1597674f2c01d32653ec2a16a42c86f1b8ec2f49cec7"
    },
    {
-    "ts": 1789491333,
-    "headline": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
+    "ts": 1789503207,
+    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e485e125aac2c0892310b29c48014eee7c31b9422b3044c44a41584dbd81dfe5"
+    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
    },
    {
-    "ts": 1789491131,
-    "headline": "Stock Market Today: Dow Dives, Oil Play Tests New Entry; Bitcoin Falls Ahead Of Clarity Act Vote (Live Coverage)",
+    "ts": 1789502988,
+    "headline": "AMZN Stock Slips 2%: Amazon Unable To Recover Data Lost From Middle East Centers Affected By Iran War",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d0e55a06719d75016cc5f55ca7ee7739c6274853200b90ecac0f07d6f4ff1684"
+    "url": "https://finnhub.io/api/news?id=f2bd1f0695d683e92d35cc60fe6f1d433f544d34870a265045ab49ae4eb1ed4c"
    },
    {
-    "ts": 1789490405,
-    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=f01de47da9ecb6ffbb670635ec847d02217017e49e51ce48b43d44b20d656cc7"
+    "ts": 1789502421,
+    "headline": "Netflix Options Call A One-Third Drop Ordinary, So How Much Stock Should You Hold?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d634cb229e11fe66344cd56f723b9e4ceb5da9a6bcf7c72f4e744d802933a87a"
+   },
+   {
+    "ts": 1789501997,
+    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b60a93f6bf75591d6c630302db338d6965e7761e0523cce971a290a767f8fd0d"
+   },
+   {
+    "ts": 1789500904,
+    "headline": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a09085e1224b7d222fe74b90a81b30fc3fdcde863033b121dbdac60706468a9a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:48Z",
+  "fetched_at": "2026-09-15T22:58:59Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

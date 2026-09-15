@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-15T20:19:18Z",
+ "generated_at": "2026-09-15T22:59:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:18Z",
+  "fetched_at": "2026-09-15T22:59:29Z",
   "current": 670.24,
   "change": 4.64,
   "change_pct": 0.6971,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:18Z",
+  "fetched_at": "2026-09-15T22:59:29Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T20:19:19Z",
+  "fetched_at": "2026-09-15T22:59:30Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7218,15 +7218,15 @@
     "high": 668.59998,
     "low": 649.21997,
     "close": 665.59998,
-    "volume": 19300300.0
+    "volume": 19332300.0
    },
    {
     "date": "2026-09-15",
-    "open": 658.64,
-    "high": 678.8,
-    "low": 656.47,
-    "close": 670.49,
-    "volume": 748224.0
+    "open": 659.29999,
+    "high": 678.87,
+    "low": 656.20001,
+    "close": 670.23999,
+    "volume": 18598822.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:19Z",
+  "fetched_at": "2026-09-15T22:59:30Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T20:19:19Z",
+  "fetched_at": "2026-09-15T22:59:30Z",
   "analyst_target_mean": 758.2758,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:19Z",
+  "fetched_at": "2026-09-15T22:59:30Z",
   "rows": [
    {
-    "ts": 1789494706,
-    "headline": "Meta One subscriptions launch with AI and creator tiers",
+    "ts": 1789508725,
+    "headline": "Meta Launches Creator Marketing Hub, IG Live Video Ads",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c4c9857d67e5597d99e2b94f700b35626f89d19e571f270742fd27b6b865ba65"
+    "url": "https://finnhub.io/api/news?id=b0d381a388807a7dac4de2ba471589c7568d04c9651e97316e90abc96b781635"
    },
    {
-    "ts": 1789493459,
-    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
+    "ts": 1789506728,
+    "headline": "Meta is making a bigger AI chip move to cut costs",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
+    "url": "https://finnhub.io/api/news?id=27d7bd9c0d9f5c3bf1c2c8fa99d797b8a4d6e9e0e100bf0a93ffb7e533def71f"
    },
    {
-    "ts": 1789493431,
-    "headline": "AI Selloff Is \u2018Panic,\u2019 Meta May Be The Best Stock To Buy, Joseph Carlson Says",
+    "ts": 1789506627,
+    "headline": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=efef76fd182bc8e805747a5bb32d47d2c13ac93ec62e495941075ebb554a0439"
+    "url": "https://finnhub.io/api/news?id=9d1c89743fe7b8b4a4d7af558f1d566c955cd8c924558d874d0b664470e7d465"
    },
    {
-    "ts": 1789493191,
-    "headline": "Meta Launches Meta One Subscription Armed With AI Tools For Content Creators \u2014 META Stock Gains",
+    "ts": 1789506068,
+    "headline": "Meta Rises Despite Europe's Under-15 Ban Threat",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=2ed9ccb89842ec571106253c2dc586ff4c79700a372a561bbab1ca6d306b6f70"
+    "url": "https://finnhub.io/api/news?id=b2117016e1ea8a366c4696786cd1fc362080e8d693cc9106955bc5d65f985f3a"
    },
    {
-    "ts": 1789492531,
-    "headline": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
+    "ts": 1789505412,
+    "headline": "Meta Platforms Makes Big Move to Cut Cost of AI Boom",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5d72d95b9329f2f78fbfe1b1675882caeec92a4007752adee786052b14085667"
+    "url": "https://finnhub.io/api/news?id=73a8da46b090f912b47f5da4c57bb2fc4bd1498aab15dbaf67257cec0011cd01"
    },
    {
-    "ts": 1789491924,
-    "headline": "Meta expands subscription push with new AI-focused plans",
+    "ts": 1789503207,
+    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=db4db64e2c0cd0ac76b0866b2d7cee35964c8a9abec609396a7a0c792f3532dc"
+    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
    },
    {
-    "ts": 1789491747,
-    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "ts": 1789502784,
+    "headline": "Meta Platforms (META) Shares Just Moved, So What Is Going On?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
+    "url": "https://finnhub.io/api/news?id=9d3d1b58c14e5d47d74c4c020fbe4acdd5c722851d253fe5043a8bea42b3db2d"
    },
    {
-    "ts": 1789491333,
-    "headline": "I\u2019ve Started Accumulating Qualcomm and It Isn\u2019t Because of Amazon and Meta",
+    "ts": 1789501997,
+    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e485e125aac2c0892310b29c48014eee7c31b9422b3044c44a41584dbd81dfe5"
+    "url": "https://finnhub.io/api/news?id=b60a93f6bf75591d6c630302db338d6965e7761e0523cce971a290a767f8fd0d"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:20Z",
+  "fetched_at": "2026-09-15T22:59:31Z",
   "buys": 105,
   "sells": 188,
   "net_shares": 3220469.0,

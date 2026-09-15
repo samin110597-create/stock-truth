@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-15T20:19:07Z",
+ "generated_at": "2026-09-15T22:59:18Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:07Z",
+  "fetched_at": "2026-09-15T22:59:18Z",
   "current": 212.17,
   "change": 1.21,
   "change_pct": 0.5736,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:08Z",
+  "fetched_at": "2026-09-15T22:59:19Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T20:19:08Z",
+  "fetched_at": "2026-09-15T22:59:19Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7218,15 +7218,15 @@
     "high": 212.77,
     "low": 208.92999,
     "close": 210.96001,
-    "volume": 131942300.0
+    "volume": 132267200.0
    },
    {
     "date": "2026-09-15",
-    "open": 213.285,
-    "high": 213.935,
+    "open": 213.089996,
+    "high": 213.94,
     "low": 211.16,
-    "close": 212.165,
-    "volume": 2272724.0
+    "close": 212.17,
+    "volume": 85131691.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:08Z",
+  "fetched_at": "2026-09-15T22:59:19Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T20:19:09Z",
+  "fetched_at": "2026-09-15T22:59:20Z",
   "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:09Z",
+  "fetched_at": "2026-09-15T22:59:20Z",
   "rows": [
    {
-    "ts": 1789499406,
-    "headline": "Discover which dow jones stocks are making waves on Tuesday.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a2fd6ceef859ea3281feda9ce6737beeb691937977ad1252cfc372c6ed60226b"
-   },
-   {
-    "ts": 1789495500,
-    "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=0584841adf1dbf70c8f50793d7796a06d8f19910a7ddba0df8f06a55f988dae6"
-   },
-   {
-    "ts": 1789494600,
-    "headline": "I Like SpaceX, But I'm Not Buying the Stock for One Simple Reason",
+    "ts": 1789509241,
+    "headline": "Why Rule Breakers Dig Stocks With Multiple Futures",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c65b6becfa2bed11789e4db247b0f7c0bb4a54127fd94beb030205ccfc4bbc23"
+    "url": "https://finnhub.io/api/news?id=466e78ea50f8b3e6ddd1e4737a81d9ece024ea527a25cbf5b74dce7a108c442d"
    },
    {
-    "ts": 1789494332,
-    "headline": "Nvidia Just Invited a Rival Chipmaker Into Its Own Racks. Here\u2019s Why",
+    "ts": 1789508907,
+    "headline": "TSMC\u2019s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=561bdb0ff95aaab6d001add22053cba687c8cba994898113f88b8ab21fbefcbf"
+    "url": "https://finnhub.io/api/news?id=86105b30bc518a119ef014f8b7c80f7f22eae6554c40f68f5a512b72d3a97b49"
    },
    {
-    "ts": 1789494240,
-    "headline": "3 Absurdly Cheap Growth Stocks to Buy Before the End of 2026",
+    "ts": 1789507920,
+    "headline": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=66f3855963904bdb24793acbe8c257903117f3dccc8f637df622f0a4ff8eb598"
+    "url": "https://finnhub.io/api/news?id=29e1a877db5d1cab280a1b2138a1b0719b33ff2eaa5d332ed85debe811c8eb94"
    },
    {
-    "ts": 1789494000,
-    "headline": "Nvidia Will Still Beat AMD Through 2028. Here's the Data Behind My Conviction.",
+    "ts": 1789507793,
+    "headline": "China\u2019s State Media Calls AI Slowdown a \u201cCold War\u201d Tactic. Z.AI Is Raising $5 Billion to Do the Opposite",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=596e206a8275549b0287e1e47b8728205b97bb4f592b3c041de6b4c9daf673fd"
+    "url": "https://finnhub.io/api/news?id=379e5f5b1acd9adbfd808ef78e623dfee9c7565db162fb8a37e868f92d162581"
    },
    {
-    "ts": 1789493986,
-    "headline": "Trustpilot Gets a One-Star Review From Investors",
+    "ts": 1789506958,
+    "headline": "NVIDIA (NVDA) Gets A Fresh Platform Test After Salesforce Deal Sparks Undervalued View",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1fbe2e59d1323f57e455a28662fe43fc236083b421fa91041756a103b47ef00e"
+    "url": "https://finnhub.io/api/news?id=6a740db073e65b758284a46c3b47fbb8f82ef2de169baf77c3457fe3f490655f"
    },
    {
-    "ts": 1789493700,
-    "headline": "Analysts Think Green Thumb Industries Will Double Over the Next 12 Months. Here's Why They're Probably Wrong",
+    "ts": 1789506953,
+    "headline": "Still Holding the Mutual Fund You Bought in 1998? The Fee Is 10 Times What an ETF Charges and These 3 ETFs Are Your Exit Plan",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f2e804992612b467ac6ee6d42ba29cc7b65ab3ed2834e0b2a3d7fe79669f596f"
+    "url": "https://finnhub.io/api/news?id=d05a6d45af94feedb433101fcd108510f09fee5a3645666bec2c41a637fca613"
+   },
+   {
+    "ts": 1789506870,
+    "headline": "Trump stuns Nvidia's Jensen Huang with an unexpected AI remark",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=6cb217ca7c7bc4daf51a019f4b6eca553d75dd5af78815a7d72387bfef870020"
+   },
+   {
+    "ts": 1789506728,
+    "headline": "Meta is making a bigger AI chip move to cut costs",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=27d7bd9c0d9f5c3bf1c2c8fa99d797b8a4d6e9e0e100bf0a93ffb7e533def71f"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:19:09Z",
+  "fetched_at": "2026-09-15T22:59:20Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,

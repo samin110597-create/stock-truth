@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-15T20:18:57Z",
+ "generated_at": "2026-09-15T22:59:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:57Z",
+  "fetched_at": "2026-09-15T22:59:08Z",
   "current": 341.43,
   "change": -4.28,
   "change_pct": -1.238,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:57Z",
+  "fetched_at": "2026-09-15T22:59:08Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T20:18:57Z",
+  "fetched_at": "2026-09-15T22:59:09Z",
   "bars": [
    {
     "date": "2023-02-13",
@@ -7218,15 +7218,15 @@
     "high": 346.45001,
     "low": 338.73999,
     "close": 345.70999,
-    "volume": 22441500.0
+    "volume": 22484400.0
    },
    {
     "date": "2026-09-15",
     "open": 343.155,
-    "high": 344.28,
-    "low": 339.21,
-    "close": 341.41,
-    "volume": 280306.0
+    "high": 344.35999,
+    "low": 339.17999,
+    "close": 341.42999,
+    "volume": 12407733.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:58Z",
+  "fetched_at": "2026-09-15T22:59:09Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T20:18:58Z",
+  "fetched_at": "2026-09-15T22:59:09Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:58Z",
+  "fetched_at": "2026-09-15T22:59:09Z",
   "rows": [
    {
-    "ts": 1789493459,
-    "headline": "One Magnificent Seven Stock Could Outperform the Rest in 2026",
+    "ts": 1789508907,
+    "headline": "TSMC\u2019s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5808f0a00d31c88edb133a22a698868b4b13f67dc386c365b33745a434025196"
+    "url": "https://finnhub.io/api/news?id=86105b30bc518a119ef014f8b7c80f7f22eae6554c40f68f5a512b72d3a97b49"
    },
    {
-    "ts": 1789493160,
-    "headline": "Did Greg Abel Already Make His First Big Mistake as Berkshire Hathaway CEO?",
+    "ts": 1789503242,
+    "headline": "Tesla\u2019s Cybercab Launch Fizzles, Leaving Waymo as the Robotaxi Leader",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f88de3f58a307ca4db158868a458fb82d2621aaa7dc44783060b61992768ab7a"
+    "url": "https://finnhub.io/api/news?id=9231f48a7c00085aa9b15352d407dbbaf097aba859212518d0ef744e29f7455d"
    },
    {
-    "ts": 1789492531,
-    "headline": "Why Meta\u2019s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
+    "ts": 1789503207,
+    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5d72d95b9329f2f78fbfe1b1675882caeec92a4007752adee786052b14085667"
+    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
    },
    {
-    "ts": 1789492020,
-    "headline": "RDDT vs. GOOGL: Which Digital Advertising Stock Has an Edge Right Now?",
+    "ts": 1789502437,
+    "headline": "There Is One Thing ASML\u2019s $400 Million Machine Still Cannot Do. AI Chips Keep Making It Worse.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=1f0963ca2a2853600aa9379a792c9a462c983d7100c114d41640415b9212c08c"
+    "url": "https://finnhub.io/api/news?id=3ce699436503b8e3860dd28f3bd804b1ccb3f8aa0d648c781f7fd1f4a0fac06d"
    },
    {
-    "ts": 1789491747,
-    "headline": "What Happens To Alphabet Stock If Free Cash Flow Stays Negative?",
+    "ts": 1789498800,
+    "headline": "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=023fb1b377234f01c269732a7d0c0e91df3a5c3ae2f8abf0790609439cd6d97b"
+    "url": "https://finnhub.io/api/news?id=6ab9827c04d064f8f601443d581cf29d696c6bd51e3c3028bdf270d1edfd93e2"
    },
    {
-    "ts": 1789490249,
-    "headline": "Alibaba\u2019s (BABA) Short-Term Capex Drag Creates a 30% Valuation Discount",
+    "ts": 1789498090,
+    "headline": "Stripe\u2019s Shared Payment Token Is Quietly Becoming the Default Money Layer for Agent Commerce",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=780c11e130303565ee0b87ac0bb14bc547a4614cba035601cb6ff38262412366"
+    "url": "https://finnhub.io/api/news?id=49e89f85c2b1bb75d4ded4509b955f0ae42d50d7b5d582a0536738a75d10a903"
    },
    {
-    "ts": 1789489602,
-    "headline": "Why Alluvium Bought Copart (CPRT) Despite the Long-Term Autonomous Driving Risk",
+    "ts": 1789496960,
+    "headline": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6489689e06d3ead04e7dbd5aa02bab9f68d1b629fad50271b828344ec0a7082c"
+    "url": "https://finnhub.io/api/news?id=243fbddb2874734e194399200443b45817e7df18343f568a96bc34af0e91dd33"
    },
    {
-    "ts": 1789488301,
-    "headline": "Warren Buffett Bought Alphabet Stock About a Year Ago. 3 Reasons It\u2019s Still a Buy Today",
+    "ts": 1789495838,
+    "headline": "Senate\u2019s Proposed AI Kill Switch Could Give Washington Veto Power Over Google\u2019s Frontier Models",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=fc9f1a2f406e58f09b56576d6d108dea818de09ab6ff71d850a09bb631efd912"
+    "url": "https://finnhub.io/api/news?id=6177bb7089f02866b538cb7e83daaf306639e70a547ab4103598168c5215cfad"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T20:18:58Z",
+  "fetched_at": "2026-09-15T22:59:09Z",
   "error": "no insider filings in six months"
  },
  "peers": {
