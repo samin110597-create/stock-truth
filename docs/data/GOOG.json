@@ -1,9 +1,9 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-16T20:16:34Z",
+ "generated_at": "2026-09-16T23:03:27Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:34Z",
+  "fetched_at": "2026-09-16T23:03:27Z",
   "current": 339.36,
   "change": -2.07,
   "change_pct": -0.6063,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:34Z",
+  "fetched_at": "2026-09-16T23:03:27Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T20:16:35Z",
+  "fetched_at": "2026-09-16T23:03:29Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7218,15 +7218,15 @@
     "high": 344.35999,
     "low": 339.17999,
     "close": 341.42999,
-    "volume": 13341600.0
+    "volume": 13361000.0
    },
    {
     "date": "2026-09-16",
-    "open": 343.46,
-    "high": 344.615,
-    "low": 337.48,
-    "close": 339.43,
-    "volume": 383808.0
+    "open": 343.51001,
+    "high": 344.70001,
+    "low": 337.45001,
+    "close": 339.35999,
+    "volume": 12797074.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:35Z",
+  "fetched_at": "2026-09-16T23:03:29Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T20:16:35Z",
+  "fetched_at": "2026-09-16T23:03:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:35Z",
+  "fetched_at": "2026-09-16T23:03:30Z",
   "rows": [
    {
     "ts": 1789580560,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:36Z",
+  "fetched_at": "2026-09-16T23:03:30Z",
   "error": "no insider filings in six months"
  },
  "peers": {

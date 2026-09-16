@@ -1,9 +1,9 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-16T20:16:45Z",
+ "generated_at": "2026-09-16T23:03:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:45Z",
+  "fetched_at": "2026-09-16T23:03:39Z",
   "current": 213.9,
   "change": 1.73,
   "change_pct": 0.8154,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:45Z",
+  "fetched_at": "2026-09-16T23:03:39Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T20:16:45Z",
+  "fetched_at": "2026-09-16T23:03:41Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7218,15 +7218,15 @@
     "high": 213.94,
     "low": 211.16,
     "close": 212.17,
-    "volume": 87726200.0
+    "volume": 88059700.0
    },
    {
     "date": "2026-09-16",
-    "open": 214.16,
-    "high": 216.76,
+    "open": 214.14,
+    "high": 216.75999,
     "low": 212.5,
-    "close": 213.79,
-    "volume": 2727561.0
+    "close": 213.89999,
+    "volume": 95821454.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:46Z",
+  "fetched_at": "2026-09-16T23:03:41Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T20:16:46Z",
+  "fetched_at": "2026-09-16T23:03:41Z",
   "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:46Z",
+  "fetched_at": "2026-09-16T23:03:41Z",
   "rows": [
    {
     "ts": 1789585806,
@@ -7485,6 +7485,12 @@
     "headline": "These S&P500 stocks are the most active in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=3d20960e9c2cadfe673a46daeed5f890004d55a06e129bf7d23e901b6ea94793"
+   },
+   {
+    "ts": 1789581898,
+    "headline": "Micron Technology Has Just Shared Great News",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e916b4f9f5e4f5c515a8f8f4239a819302b19537016ce0e09f3e7203335ca45b"
    },
    {
     "ts": 1789581000,
@@ -7515,19 +7521,13 @@
     "headline": "Palantir, Microsoft\u2019s biggest warning gets real for AI stocks",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=14c1e2078390422fca4e2fa88021031f98025dbf67eb4cb594379fa988dd3f08"
-   },
-   {
-    "ts": 1789579681,
-    "headline": "Cerebras Stock Has Been Cut in Half. It Still Costs About 145 Times Next Year's Estimated Earnings.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=feacee13376bb6192145f0801187dd2595c205dfebd398263eb20ca0194c0f24"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:46Z",
+  "fetched_at": "2026-09-16T23:03:42Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,

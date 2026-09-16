@@ -1,9 +1,9 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-16T20:16:55Z",
+ "generated_at": "2026-09-16T23:03:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:55Z",
+  "fetched_at": "2026-09-16T23:03:51Z",
   "current": 673.31,
   "change": 3.07,
   "change_pct": 0.458,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:55Z",
+  "fetched_at": "2026-09-16T23:03:51Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T20:16:56Z",
+  "fetched_at": "2026-09-16T23:03:52Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7218,15 +7218,15 @@
     "high": 678.87,
     "low": 656.20001,
     "close": 670.23999,
-    "volume": 19485700.0
+    "volume": 19502800.0
    },
    {
     "date": "2026-09-16",
     "open": 679.75,
-    "high": 685.21,
-    "low": 672.01,
-    "close": 673.59,
-    "volume": 579986.0
+    "high": 685.31,
+    "low": 671.91418,
+    "close": 673.31,
+    "volume": 17135807.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:56Z",
+  "fetched_at": "2026-09-16T23:03:52Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,7 +7454,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T20:16:56Z",
+  "fetched_at": "2026-09-16T23:03:53Z",
   "analyst_target_mean": 758.2758,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:56Z",
+  "fetched_at": "2026-09-16T23:03:53Z",
   "rows": [
    {
     "ts": 1789578516,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T20:16:58Z",
+  "fetched_at": "2026-09-16T23:03:53Z",
   "buys": 105,
   "sells": 182,
   "net_shares": 3222604.0,
