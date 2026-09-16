@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-15T22:59:29Z",
+ "generated_at": "2026-09-16T17:19:39Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:29Z",
-  "current": 670.24,
-  "change": 4.64,
-  "change_pct": 0.6971,
-  "high": 678.87,
-  "low": 656.2,
-  "open": 659.3,
-  "prev_close": 665.6,
-  "ts": 1789502400
+  "fetched_at": "2026-09-16T17:19:39Z",
+  "current": 676.77,
+  "change": 6.53,
+  "change_pct": 0.9743,
+  "high": 685.31,
+  "low": 674.2901,
+  "open": 676.0425,
+  "prev_close": 670.24,
+  "ts": 1789579163
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:29Z",
+  "fetched_at": "2026-09-16T17:19:39Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1695620159427.385,
+  "mcap": 1707440448603.0466,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T22:59:30Z",
+  "fetched_at": "2026-09-16T17:19:40Z",
   "bars": [
-   {
-    "date": "2023-02-13",
-    "open": 178.22,
-    "high": 181.0,
-    "low": 175.82001,
-    "close": 179.42999,
-    "volume": 31463200.0
-   },
    {
     "date": "2023-02-14",
     "open": 177.16,
@@ -7226,11 +7218,19 @@
     "high": 678.87,
     "low": 656.20001,
     "close": 670.23999,
-    "volume": 18598822.0
+    "volume": 19485700.0
+   },
+   {
+    "date": "2026-09-16",
+    "open": 679.75,
+    "high": 685.21,
+    "low": 674.57,
+    "close": 676.8,
+    "volume": 287245.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-15",
+  "latest": "2026-09-16",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:30Z",
+  "fetched_at": "2026-09-16T17:19:40Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T22:59:30Z",
+  "fetched_at": "2026-09-16T17:19:40Z",
   "analyst_target_mean": 758.2758,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 57.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.171812,
+  "forward_pe": 19.357454,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
   "short_asof": 1788134400,
-  "institutions_pct": 0.79022,
+  "institutions_pct": 0.79015,
   "insiders_pct": 0.00148,
   "beta": 1.243,
   "next_earnings": 1785355200
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:30Z",
+  "fetched_at": "2026-09-16T17:19:40Z",
   "rows": [
    {
-    "ts": 1789508725,
-    "headline": "Meta Launches Creator Marketing Hub, IG Live Video Ads",
+    "ts": 1789572328,
+    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b0d381a388807a7dac4de2ba471589c7568d04c9651e97316e90abc96b781635"
+    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
    },
    {
-    "ts": 1789506728,
-    "headline": "Meta is making a bigger AI chip move to cut costs",
+    "ts": 1789571499,
+    "headline": "OpenAI\u2019s CFO Just Explained Why Nvidia Is No Longer the Only Option",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=27d7bd9c0d9f5c3bf1c2c8fa99d797b8a4d6e9e0e100bf0a93ffb7e533def71f"
+    "url": "https://finnhub.io/api/news?id=386503685a06dad2bb67e4e89421edacc8c9b64c954cb942e26815b28501e35e"
    },
    {
-    "ts": 1789506627,
-    "headline": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
+    "ts": 1789571303,
+    "headline": "Dan Niles Warns The the 10-Year Treasury Is Headed to 6%, A Level Not Seen Since The Height Of The Dot-Com Bubble",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9d1c89743fe7b8b4a4d7af558f1d566c955cd8c924558d874d0b664470e7d465"
+    "url": "https://finnhub.io/api/news?id=25e1e7f855179edacc2de81edbe306ba15c517d8ff5738298587f0797c7ecc48"
    },
    {
-    "ts": 1789506068,
-    "headline": "Meta Rises Despite Europe's Under-15 Ban Threat",
+    "ts": 1789570834,
+    "headline": "This AI Stock Could Be Worth Far More Than Investors Think",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b2117016e1ea8a366c4696786cd1fc362080e8d693cc9106955bc5d65f985f3a"
+    "url": "https://finnhub.io/api/news?id=cb3a2d8f86dbf377efe06c5d0ee8caccd378740882cd101148e1ae45bc2f1d07"
    },
    {
-    "ts": 1789505412,
-    "headline": "Meta Platforms Makes Big Move to Cut Cost of AI Boom",
+    "ts": 1789570170,
+    "headline": "Zuckerberg just picked a side in the AI slowdown fight",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73a8da46b090f912b47f5da4c57bb2fc4bd1498aab15dbaf67257cec0011cd01"
+    "url": "https://finnhub.io/api/news?id=d83abf4bd90c9503fd8c78ebeee8bdd1026ad8a213b501b63005ce4130fe76de"
    },
    {
-    "ts": 1789503207,
-    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
+    "ts": 1789569960,
+    "headline": "Inverse Equity ETFs to Consider Amid Rising Market Risks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
+    "url": "https://finnhub.io/api/news?id=6f766fbb970489396013894608857b215499e25961201496d5f0256e3157151d"
    },
    {
-    "ts": 1789502784,
-    "headline": "Meta Platforms (META) Shares Just Moved, So What Is Going On?",
+    "ts": 1789569277,
+    "headline": "Zuckerberg Says Labs Don't Need Permission to Slow Down",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9d3d1b58c14e5d47d74c4c020fbe4acdd5c722851d253fe5043a8bea42b3db2d"
+    "url": "https://finnhub.io/api/news?id=94bab40be32f3d51ca25e7939499fc8ea7d669b3c9ce0bb5839d57b2a8150a21"
    },
    {
-    "ts": 1789501997,
-    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+    "ts": 1789567020,
+    "headline": "Why Nvidia Stock Is Rising as Meta\u2019s Zuckerberg Weighs In on AI Safety",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b60a93f6bf75591d6c630302db338d6965e7761e0523cce971a290a767f8fd0d"
+    "url": "https://finnhub.io/api/news?id=233b1beda2860ffd8a0451e547650fed441ae9ebbf4a773ace2b7f50728e94ea"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:31Z",
+  "fetched_at": "2026-09-16T17:19:40Z",
   "buys": 105,
-  "sells": 188,
-  "net_shares": 3220469.0,
+  "sells": 182,
+  "net_shares": 3222604.0,
   "months": 6,
   "recent": [
    {

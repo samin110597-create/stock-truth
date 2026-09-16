@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-15T22:58:55Z",
+ "generated_at": "2026-09-16T17:19:08Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:58:56Z",
-  "current": 248.42,
-  "change": -5.12,
-  "change_pct": -2.0194,
-  "high": 253.27,
-  "low": 247.22,
-  "open": 252.24,
-  "prev_close": 253.54,
-  "ts": 1789502400
+  "fetched_at": "2026-09-16T17:19:08Z",
+  "current": 247.57,
+  "change": -0.85,
+  "change_pct": -0.3422,
+  "high": 249.26,
+  "low": 246.69,
+  "open": 248.305,
+  "prev_close": 248.42,
+  "ts": 1789579140
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:58:56Z",
+  "fetched_at": "2026-09-16T17:19:08Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2734762153445.0063,
+  "mcap": 2679536165489.4194,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T22:58:56Z",
+  "fetched_at": "2026-09-16T17:19:09Z",
   "bars": [
-   {
-    "date": "2023-02-13",
-    "open": 97.85,
-    "high": 99.68,
-    "low": 96.91,
-    "close": 99.54,
-    "volume": 52841500.0
-   },
    {
     "date": "2023-02-14",
     "open": 98.41,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-15",
-    "open": 252.375,
+    "open": 252.24001,
     "high": 253.27,
     "low": 247.22,
     "close": 248.42,
-    "volume": 35783529.0
+    "volume": 36199500.0
+   },
+   {
+    "date": "2026-09-16",
+    "open": 248.3,
+    "high": 249.26,
+    "low": 246.73,
+    "close": 247.505,
+    "volume": 764294.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-15",
+  "latest": "2026-09-16",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:58:56Z",
+  "fetched_at": "2026-09-16T17:19:09Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,14 +7445,14 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T22:58:58Z",
+  "fetched_at": "2026-09-16T17:19:09Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.885803,
-  "forward_eps": 10.40032,
+  "forward_pe": 23.857763,
+  "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
   "short_asof": 1788134400,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:58:58Z",
+  "fetched_at": "2026-09-16T17:19:09Z",
   "rows": [
    {
-    "ts": 1789508704,
-    "headline": "Amazon (AMZN) Dips More Than Broader Market: What You Should Know",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e2c40f2d2a69a8ff231d2ef64bd1a44afebd750f007011ca9119bb44abc7191e"
+    "ts": 1789576805,
+    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a7f4a33ec0874d76807fce9f33e2df62237dd14cd3496691d1338c9a8a2f7b1a"
    },
    {
-    "ts": 1789505100,
-    "headline": "Amazon sells luxury solar-powered watches from brands like Seiko and Citizen starting at $210",
+    "ts": 1789572970,
+    "headline": "Tesla must prove Cybercab is legal to sell, NHTSA says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=20b8abb945f1bc160f11fd987c7bc0f2ac4780df292f667a7d01dd82440d7f93"
+    "url": "https://finnhub.io/api/news?id=7e90b16b207ae836550290e241525e59cc1c871b5c3aa6997353370c0d5a5ccf"
    },
    {
-    "ts": 1789504690,
-    "headline": "Stock Market Today: Dow Dives With Fed Seen Doing This; Senate Vote Hits These Crypto Stocks",
+    "ts": 1789572600,
+    "headline": "Amazon announced the return of Prime Big Deal Days with early savings up to 72% off",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a95b23d9616d1f85988b1597674f2c01d32653ec2a16a42c86f1b8ec2f49cec7"
+    "url": "https://finnhub.io/api/news?id=b99c1c0cf4bdf8ed8c75d8e3d81c2a7410d53ad40b4dd1141e596bf0663c14a7"
    },
    {
-    "ts": 1789503207,
-    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
+    "ts": 1789572328,
+    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
+    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
    },
    {
-    "ts": 1789502988,
-    "headline": "AMZN Stock Slips 2%: Amazon Unable To Recover Data Lost From Middle East Centers Affected By Iran War",
+    "ts": 1789572200,
+    "headline": "Amazon's AWS Unable to Restore Services in UAE, Bahrain Zones Six Months After Drone Strikes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f2bd1f0695d683e92d35cc60fe6f1d433f544d34870a265045ab49ae4eb1ed4c"
+    "url": "https://finnhub.io/api/news?id=3b315b5e6358eb9200979aaa3c9880ece726617422ea513780e65f808dc91344"
    },
    {
-    "ts": 1789502421,
-    "headline": "Netflix Options Call A One-Third Drop Ordinary, So How Much Stock Should You Hold?",
+    "ts": 1789572000,
+    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d634cb229e11fe66344cd56f723b9e4ceb5da9a6bcf7c72f4e744d802933a87a"
+    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
    },
    {
-    "ts": 1789501997,
-    "headline": "Sector Update: Tech Stocks Mixed Late Afternoon",
+    "ts": 1789571492,
+    "headline": "Amazon Stock in Spotlight After AWS Reports Irrecoverable Data Loss",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b60a93f6bf75591d6c630302db338d6965e7761e0523cce971a290a767f8fd0d"
+    "url": "https://finnhub.io/api/news?id=9e036c646e94c4ef4961071c1819851ec16ca4acb4ad8e023026777e88202ec2"
    },
    {
-    "ts": 1789500904,
-    "headline": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
+    "ts": 1789570700,
+    "headline": "Amazon Just Learned a Hard Lesson About the Cloud",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a09085e1224b7d222fe74b90a81b30fc3fdcde863033b121dbdac60706468a9a"
+    "url": "https://finnhub.io/api/news?id=28352cb886799f9b6ec5525cad32fee2721bf6255311fbfdabfd4782f8e6cea7"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:58:59Z",
+  "fetched_at": "2026-09-16T17:19:10Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

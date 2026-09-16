@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-15T22:59:08Z",
+ "generated_at": "2026-09-16T17:19:19Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:08Z",
-  "current": 341.43,
-  "change": -4.28,
-  "change_pct": -1.238,
-  "high": 344.36,
-  "low": 339.18,
-  "open": 343.34,
-  "prev_close": 345.71,
-  "ts": 1789502400
+  "fetched_at": "2026-09-16T17:19:19Z",
+  "current": 341.86,
+  "change": 0.43,
+  "change_pct": 0.1259,
+  "high": 344.7,
+  "low": 340.12,
+  "open": 342.345,
+  "prev_close": 341.43,
+  "ts": 1789579135
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:08Z",
+  "fetched_at": "2026-09-16T17:19:19Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4273039700000.0,
+  "mcap": 4219105400000.0005,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T22:59:09Z",
+  "fetched_at": "2026-09-16T17:19:20Z",
   "bars": [
-   {
-    "date": "2023-02-13",
-    "open": 95.010002,
-    "high": 95.35,
-    "low": 94.050003,
-    "close": 95.0,
-    "volume": 43116600.0
-   },
    {
     "date": "2023-02-14",
     "open": 94.66,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-15",
-    "open": 343.155,
+    "open": 343.34,
     "high": 344.35999,
     "low": 339.17999,
     "close": 341.42999,
-    "volume": 12407733.0
+    "volume": 13341600.0
+   },
+   {
+    "date": "2026-09-16",
+    "open": 343.46,
+    "high": 344.615,
+    "low": 340.23,
+    "close": 341.795,
+    "volume": 218712.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-15",
+  "latest": "2026-09-16",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:09Z",
+  "fetched_at": "2026-09-16T17:19:20Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T22:59:09Z",
+  "fetched_at": "2026-09-16T17:19:20Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.98135,
+  "forward_pe": 23.006254,
   "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
   "short_asof": 1788134400,
-  "institutions_pct": 0.62123,
+  "institutions_pct": 0.62124,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:09Z",
+  "fetched_at": "2026-09-16T17:19:20Z",
   "rows": [
    {
-    "ts": 1789508907,
-    "headline": "TSMC\u2019s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table",
+    "ts": 1789572970,
+    "headline": "Tesla must prove Cybercab is legal to sell, NHTSA says",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=86105b30bc518a119ef014f8b7c80f7f22eae6554c40f68f5a512b72d3a97b49"
+    "url": "https://finnhub.io/api/news?id=7e90b16b207ae836550290e241525e59cc1c871b5c3aa6997353370c0d5a5ccf"
    },
    {
-    "ts": 1789503242,
-    "headline": "Tesla\u2019s Cybercab Launch Fizzles, Leaving Waymo as the Robotaxi Leader",
+    "ts": 1789572433,
+    "headline": "May Mobility is going public in a $1.4B SPAC deal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9231f48a7c00085aa9b15352d407dbbaf097aba859212518d0ef744e29f7455d"
+    "url": "https://finnhub.io/api/news?id=45ef9772b97bcd0b99444535a4ca215287002c34d56a9691f8e204dd10226b0d"
    },
    {
-    "ts": 1789503207,
-    "headline": "Magnificent Seven Stocks Eye Breakout After Sideways 2026",
+    "ts": 1789572328,
+    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8f0e7e0444665517404a63f82eb6b66a13f6e613940eec278de1606c190932eb"
+    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
    },
    {
-    "ts": 1789502437,
-    "headline": "There Is One Thing ASML\u2019s $400 Million Machine Still Cannot Do. AI Chips Keep Making It Worse.",
+    "ts": 1789572000,
+    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3ce699436503b8e3860dd28f3bd804b1ccb3f8aa0d648c781f7fd1f4a0fac06d"
+    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
    },
    {
-    "ts": 1789498800,
-    "headline": "AI Slowdown Fears Rise: Buy NVIDIA, HPE That Connect AI and Quantum",
+    "ts": 1789571502,
+    "headline": "Alphabet (GOOGL) Faces Fresh AI Pressure After Industry Leaders Urge Slowdown",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ab9827c04d064f8f601443d581cf29d696c6bd51e3c3028bdf270d1edfd93e2"
+    "url": "https://finnhub.io/api/news?id=3e5b8dc21fbcc230d7a34dcdf8ba32254561f5555d782ae84746d9b5f5f13c65"
    },
    {
-    "ts": 1789498090,
-    "headline": "Stripe\u2019s Shared Payment Token Is Quietly Becoming the Default Money Layer for Agent Commerce",
+    "ts": 1789570834,
+    "headline": "This AI Stock Could Be Worth Far More Than Investors Think",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=49e89f85c2b1bb75d4ded4509b955f0ae42d50d7b5d582a0536738a75d10a903"
+    "url": "https://finnhub.io/api/news?id=cb3a2d8f86dbf377efe06c5d0ee8caccd378740882cd101148e1ae45bc2f1d07"
    },
    {
-    "ts": 1789496960,
-    "headline": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+    "ts": 1789570800,
+    "headline": "Garbutt Joins Brandtech As Global CCO, Leads AI-Produced Advertising",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=243fbddb2874734e194399200443b45817e7df18343f568a96bc34af0e91dd33"
+    "url": "https://finnhub.io/api/news?id=b6866bc068c380ee83232e07babfec5bc288e1ba776b7b3c7eba0d9a80b68543"
    },
    {
-    "ts": 1789495838,
-    "headline": "Senate\u2019s Proposed AI Kill Switch Could Give Washington Veto Power Over Google\u2019s Frontier Models",
+    "ts": 1789570620,
+    "headline": "Salesforce and Google Service Outages Strike on Day 2 of Dreamforce Conference",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6177bb7089f02866b538cb7e83daaf306639e70a547ab4103598168c5215cfad"
+    "url": "https://finnhub.io/api/news?id=0f455504ef2bd3963b94377867265406ef246757a3e73c6cfbe64827f5112f44"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:09Z",
+  "fetched_at": "2026-09-16T17:19:20Z",
   "error": "no insider filings in six months"
  },
  "peers": {

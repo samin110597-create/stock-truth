@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-15T22:59:18Z",
+ "generated_at": "2026-09-16T17:19:29Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:18Z",
-  "current": 212.17,
-  "change": 1.21,
-  "change_pct": 0.5736,
-  "high": 213.94,
-  "low": 211.16,
-  "open": 213.375,
-  "prev_close": 210.96,
-  "ts": 1789502400
+  "fetched_at": "2026-09-16T17:19:29Z",
+  "current": 215.65,
+  "change": 3.48,
+  "change_pct": 1.6402,
+  "high": 216.76,
+  "low": 213.31,
+  "open": 213.945,
+  "prev_close": 212.17,
+  "ts": 1789579140
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:19Z",
+  "fetched_at": "2026-09-16T17:19:29Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5084135843629.247,
+  "mcap": 5113297162732.056,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-15T22:59:19Z",
+  "fetched_at": "2026-09-16T17:19:30Z",
   "bars": [
-   {
-    "date": "2023-02-13",
-    "open": 21.538,
-    "high": 22.048,
-    "low": 20.962,
-    "close": 21.788,
-    "volume": 474919000.0
-   },
    {
     "date": "2023-02-14",
     "open": 21.578,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-15",
-    "open": 213.089996,
+    "open": 213.38,
     "high": 213.94,
     "low": 211.16,
     "close": 212.17,
-    "volume": 85131691.0
+    "volume": 87726200.0
+   },
+   {
+    "date": "2026-09-16",
+    "open": 214.16,
+    "high": 216.76,
+    "low": 213.32,
+    "close": 215.62,
+    "volume": 1466270.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-15",
+  "latest": "2026-09-16",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:19Z",
+  "fetched_at": "2026-09-16T17:19:30Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,80 +7454,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-15T22:59:20Z",
+  "fetched_at": "2026-09-16T17:19:30Z",
   "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.587671,
+  "forward_pe": 13.803811,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
   "short_asof": 1788134400,
-  "institutions_pct": 0.71410006,
+  "institutions_pct": 0.71409,
   "insiders_pct": 0.04008,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:20Z",
+  "fetched_at": "2026-09-16T17:19:30Z",
   "rows": [
    {
-    "ts": 1789509241,
-    "headline": "Why Rule Breakers Dig Stocks With Multiple Futures",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=466e78ea50f8b3e6ddd1e4737a81d9ece024ea527a25cbf5b74dce7a108c442d"
+    "ts": 1789576805,
+    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=a7f4a33ec0874d76807fce9f33e2df62237dd14cd3496691d1338c9a8a2f7b1a"
    },
    {
-    "ts": 1789508907,
-    "headline": "TSMC\u2019s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table",
+    "ts": 1789573800,
+    "headline": "I've Held Microsoft for 10 Years. Here's Why I'm Not Selling a Single Share.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=86105b30bc518a119ef014f8b7c80f7f22eae6554c40f68f5a512b72d3a97b49"
+    "url": "https://finnhub.io/api/news?id=44ba85278a327b13d8c98453132ad83bcede9c359f29149166ff24c091d41500"
    },
    {
-    "ts": 1789507920,
-    "headline": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
+    "ts": 1789572900,
+    "headline": "5 Reasons Intel's CEO Just Made This Stock Worth Buying",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=29e1a877db5d1cab280a1b2138a1b0719b33ff2eaa5d332ed85debe811c8eb94"
+    "url": "https://finnhub.io/api/news?id=a83e84f257da5517ef6e504cf053fd75602560965a846dec4c532517494b9533"
    },
    {
-    "ts": 1789507793,
-    "headline": "China\u2019s State Media Calls AI Slowdown a \u201cCold War\u201d Tactic. Z.AI Is Raising $5 Billion to Do the Opposite",
+    "ts": 1789572374,
+    "headline": "Intel Stock Investors Should Pay Attention to This Potential SK Hynix Deal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=379e5f5b1acd9adbfd808ef78e623dfee9c7565db162fb8a37e868f92d162581"
+    "url": "https://finnhub.io/api/news?id=7dcf7e24c08cf5be41d8efe2e839bb4298eb1c7bd23210b12df26457d69c618d"
    },
    {
-    "ts": 1789506958,
-    "headline": "NVIDIA (NVDA) Gets A Fresh Platform Test After Salesforce Deal Sparks Undervalued View",
+    "ts": 1789572329,
+    "headline": "Apple Reportedly Taps Nvidia For M8 Ultra AI Servers In Enterprise Comeback Push",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6a740db073e65b758284a46c3b47fbb8f82ef2de169baf77c3457fe3f490655f"
+    "url": "https://finnhub.io/api/news?id=98273805b3b023cdc89da40fe25897c0416b936aeabb93debd52243389a3a9b6"
    },
    {
-    "ts": 1789506953,
-    "headline": "Still Holding the Mutual Fund You Bought in 1998? The Fee Is 10 Times What an ETF Charges and These 3 ETFs Are Your Exit Plan",
+    "ts": 1789572000,
+    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d05a6d45af94feedb433101fcd108510f09fee5a3645666bec2c41a637fca613"
+    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
    },
    {
-    "ts": 1789506870,
-    "headline": "Trump stuns Nvidia's Jensen Huang with an unexpected AI remark",
+    "ts": 1789571499,
+    "headline": "OpenAI\u2019s CFO Just Explained Why Nvidia Is No Longer the Only Option",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6cb217ca7c7bc4daf51a019f4b6eca553d75dd5af78815a7d72387bfef870020"
+    "url": "https://finnhub.io/api/news?id=386503685a06dad2bb67e4e89421edacc8c9b64c954cb942e26815b28501e35e"
    },
    {
-    "ts": 1789506728,
-    "headline": "Meta is making a bigger AI chip move to cut costs",
+    "ts": 1789571443,
+    "headline": "Stock Market Today: Nasdaq, S&P 500 Up With Fed Decision Looming; Intel, Micron, Sandisk Rise (Live Coverage)",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=27d7bd9c0d9f5c3bf1c2c8fa99d797b8a4d6e9e0e100bf0a93ffb7e533def71f"
+    "url": "https://finnhub.io/api/news?id=d394a8597b71e161a5020ce95b0bbe15c7f575bc97368a08f44a10bce8eed3e2"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-15T22:59:20Z",
+  "fetched_at": "2026-09-16T17:19:30Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,
