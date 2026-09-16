@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-16T17:19:08Z",
+ "generated_at": "2026-09-16T20:16:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:08Z",
-  "current": 247.57,
-  "change": -0.85,
-  "change_pct": -0.3422,
+  "fetched_at": "2026-09-16T20:16:23Z",
+  "current": 245.96,
+  "change": -2.46,
+  "change_pct": -0.9903,
   "high": 249.26,
-  "low": 246.69,
-  "open": 248.305,
+  "low": 244.3,
+  "open": 248.1,
   "prev_close": 248.42,
-  "ts": 1789579140
+  "ts": 1789588800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:08Z",
+  "fetched_at": "2026-09-16T20:16:23Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T17:19:09Z",
+  "fetched_at": "2026-09-16T20:16:24Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-16",
     "open": 248.3,
     "high": 249.26,
-    "low": 246.73,
-    "close": 247.505,
-    "volume": 764294.0
+    "low": 244.3,
+    "close": 245.96,
+    "volume": 1346087.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:09Z",
+  "fetched_at": "2026-09-16T20:16:24Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T17:19:09Z",
+  "fetched_at": "2026-09-16T20:16:24Z",
   "analyst_target_mean": 328.1707,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 60.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.857763,
+  "forward_pe": 23.70692,
   "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:09Z",
+  "fetched_at": "2026-09-16T20:16:24Z",
   "rows": [
    {
-    "ts": 1789576805,
-    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "ts": 1789581900,
+    "headline": "These S&P500 stocks are the most active in today's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a7f4a33ec0874d76807fce9f33e2df62237dd14cd3496691d1338c9a8a2f7b1a"
+    "url": "https://finnhub.io/api/news?id=3d20960e9c2cadfe673a46daeed5f890004d55a06e129bf7d23e901b6ea94793"
    },
    {
-    "ts": 1789572970,
-    "headline": "Tesla must prove Cybercab is legal to sell, NHTSA says",
+    "ts": 1789581340,
+    "headline": "Costco expands Uber Eats delivery to 47 states",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7e90b16b207ae836550290e241525e59cc1c871b5c3aa6997353370c0d5a5ccf"
+    "url": "https://finnhub.io/api/news?id=c9d7f808c9c43ff12a6dd796de6bd7dd50858474d53bb9745af938ed4c91a03d"
    },
    {
-    "ts": 1789572600,
-    "headline": "Amazon announced the return of Prime Big Deal Days with early savings up to 72% off",
+    "ts": 1789580585,
+    "headline": "Amazon raises starting pay to $20 an hour and adds Whole Foods discount",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b99c1c0cf4bdf8ed8c75d8e3d81c2a7410d53ad40b4dd1141e596bf0663c14a7"
+    "url": "https://finnhub.io/api/news?id=0a610c6958b8a064ce32323dd0528e839308027c83d609aac9dda27a74f39de6"
    },
    {
-    "ts": 1789572328,
-    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
+    "ts": 1789579893,
+    "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
+    "url": "https://finnhub.io/api/news?id=0078e1032fb647f22424aca113b33ff13e324bfa087dec12eebd65031470726b"
    },
    {
-    "ts": 1789572200,
-    "headline": "Amazon's AWS Unable to Restore Services in UAE, Bahrain Zones Six Months After Drone Strikes",
+    "ts": 1789579080,
+    "headline": "Shopify Plunges 13% in a Month: Buy, Sell or Hold the Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3b315b5e6358eb9200979aaa3c9880ece726617422ea513780e65f808dc91344"
+    "url": "https://finnhub.io/api/news?id=43e903d58835c120cdb55ecf049eab2e060056e7e68898834e34e4bebb8da611"
    },
    {
-    "ts": 1789572000,
-    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
+    "ts": 1789579033,
+    "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
+    "url": "https://finnhub.io/api/news?id=f4cc2d0d3f7e3bbb7184938d40072a9180e59e71b97031f05e648821209947a6"
    },
    {
-    "ts": 1789571492,
-    "headline": "Amazon Stock in Spotlight After AWS Reports Irrecoverable Data Loss",
+    "ts": 1789578024,
+    "headline": "Amazon, Walmart Among 6 Companies Returning Tariff Savings \u2014 How It Impacts Your Budget",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9e036c646e94c4ef4961071c1819851ec16ca4acb4ad8e023026777e88202ec2"
+    "url": "https://finnhub.io/api/news?id=5455af72eaab4836c10544077ad2b5515811a4c60689364c2412434d678b8e01"
    },
    {
-    "ts": 1789570700,
-    "headline": "Amazon Just Learned a Hard Lesson About the Cloud",
+    "ts": 1789577704,
+    "headline": "Amazon raises minimum pay for warehouse workers to $20/hour",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=28352cb886799f9b6ec5525cad32fee2721bf6255311fbfdabfd4782f8e6cea7"
+    "url": "https://finnhub.io/api/news?id=191fcc92c0a1e5714ef1cd9d94a5bcc56248b350968df841c7c3d3aa5342bcf1"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:10Z",
+  "fetched_at": "2026-09-16T20:16:25Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

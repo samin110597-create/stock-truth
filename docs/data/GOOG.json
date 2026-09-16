@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-16T17:19:19Z",
+ "generated_at": "2026-09-16T20:16:34Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:19Z",
-  "current": 341.86,
-  "change": 0.43,
-  "change_pct": 0.1259,
+  "fetched_at": "2026-09-16T20:16:34Z",
+  "current": 339.36,
+  "change": -2.07,
+  "change_pct": -0.6063,
   "high": 344.7,
-  "low": 340.12,
-  "open": 342.345,
+  "low": 337.45,
+  "open": 343.36,
   "prev_close": 341.43,
-  "ts": 1789579135
+  "ts": 1789588800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:19Z",
+  "fetched_at": "2026-09-16T20:16:34Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T17:19:20Z",
+  "fetched_at": "2026-09-16T20:16:35Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-16",
     "open": 343.46,
     "high": 344.615,
-    "low": 340.23,
-    "close": 341.795,
-    "volume": 218712.0
+    "low": 337.48,
+    "close": 339.43,
+    "volume": 383808.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:20Z",
+  "fetched_at": "2026-09-16T20:16:35Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T17:19:20Z",
+  "fetched_at": "2026-09-16T20:16:35Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.006254,
+  "forward_pe": 22.842018,
   "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:20Z",
+  "fetched_at": "2026-09-16T20:16:35Z",
   "rows": [
+   {
+    "ts": 1789580560,
+    "headline": "Google Delays Thompson Center Opening To 2028, Releases New Renderings",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f5c5d42dcd827c0c2d61ee5d8ae8280bb9e97dadcc664de4b4e1350eba18b06b"
+   },
+   {
+    "ts": 1789579893,
+    "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=0078e1032fb647f22424aca113b33ff13e324bfa087dec12eebd65031470726b"
+   },
+   {
+    "ts": 1789578023,
+    "headline": "DTE Is Sitting on an AI-Era Power Opportunity",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9f2308db1411dc05a679bdca7399a021b044af283ecc6fb6c8b559f0a24cb92f"
+   },
+   {
+    "ts": 1789577719,
+    "headline": "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=182e54a83513daa03852aa35a9c9148d33ce1ec791850d8f216ea97fa8c69495"
+   },
+   {
+    "ts": 1789577400,
+    "headline": "31% of Berkshire Hathaway's Portfolio Is Riding on These 2 AI Stocks Under Greg Abel",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3c93a85467c3aad1773279abe5d3868c778e8d2e92e60095733db1c9525c6a71"
+   },
+   {
+    "ts": 1789575291,
+    "headline": "Alphabet (GOOGL) Secures Carbon Credit Deal With Google, Is It Still Overvalued?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=096ea807178d1f83c267bc98a5ffd95d2f0a5d9ae1e167c341317f4d23a2ab0e"
+   },
+   {
+    "ts": 1789573854,
+    "headline": "I Keep Buying Alphabet Hand Over Fist Becuase The Skeptics Are Wrong",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=724bd98ca6f076a95d0d71456fa887ea9c15a03a051af3e4e4d773e6823098c9"
+   },
    {
     "ts": 1789572970,
     "headline": "Tesla must prove Cybercab is legal to sell, NHTSA says",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=7e90b16b207ae836550290e241525e59cc1c871b5c3aa6997353370c0d5a5ccf"
-   },
-   {
-    "ts": 1789572433,
-    "headline": "May Mobility is going public in a $1.4B SPAC deal",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=45ef9772b97bcd0b99444535a4ca215287002c34d56a9691f8e204dd10226b0d"
-   },
-   {
-    "ts": 1789572328,
-    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
-   },
-   {
-    "ts": 1789572000,
-    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
-   },
-   {
-    "ts": 1789571502,
-    "headline": "Alphabet (GOOGL) Faces Fresh AI Pressure After Industry Leaders Urge Slowdown",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3e5b8dc21fbcc230d7a34dcdf8ba32254561f5555d782ae84746d9b5f5f13c65"
-   },
-   {
-    "ts": 1789570834,
-    "headline": "This AI Stock Could Be Worth Far More Than Investors Think",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cb3a2d8f86dbf377efe06c5d0ee8caccd378740882cd101148e1ae45bc2f1d07"
-   },
-   {
-    "ts": 1789570800,
-    "headline": "Garbutt Joins Brandtech As Global CCO, Leads AI-Produced Advertising",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b6866bc068c380ee83232e07babfec5bc288e1ba776b7b3c7eba0d9a80b68543"
-   },
-   {
-    "ts": 1789570620,
-    "headline": "Salesforce and Google Service Outages Strike on Day 2 of Dreamforce Conference",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0f455504ef2bd3963b94377867265406ef246757a3e73c6cfbe64827f5112f44"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:20Z",
+  "fetched_at": "2026-09-16T20:16:36Z",
   "error": "no insider filings in six months"
  },
  "peers": {

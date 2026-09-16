@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-16T17:19:29Z",
+ "generated_at": "2026-09-16T20:16:45Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:29Z",
-  "current": 215.65,
-  "change": 3.48,
-  "change_pct": 1.6402,
+  "fetched_at": "2026-09-16T20:16:45Z",
+  "current": 213.9,
+  "change": 1.73,
+  "change_pct": 0.8154,
   "high": 216.76,
-  "low": 213.31,
-  "open": 213.945,
+  "low": 212.5,
+  "open": 214.14,
   "prev_close": 212.17,
-  "ts": 1789579140
+  "ts": 1789588800
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:29Z",
+  "fetched_at": "2026-09-16T20:16:45Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T17:19:30Z",
+  "fetched_at": "2026-09-16T20:16:45Z",
   "bars": [
    {
     "date": "2023-02-14",
@@ -7224,9 +7224,9 @@
     "date": "2026-09-16",
     "open": 214.16,
     "high": 216.76,
-    "low": 213.32,
-    "close": 215.62,
-    "volume": 1466270.0
+    "low": 212.5,
+    "close": 213.79,
+    "volume": 2727561.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:30Z",
+  "fetched_at": "2026-09-16T20:16:46Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T17:19:30Z",
+  "fetched_at": "2026-09-16T20:16:46Z",
   "analyst_target_mean": 328.66034,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.803811,
+  "forward_pe": 13.698463,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:30Z",
+  "fetched_at": "2026-09-16T20:16:46Z",
   "rows": [
    {
-    "ts": 1789576805,
-    "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
+    "ts": 1789585806,
+    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=a7f4a33ec0874d76807fce9f33e2df62237dd14cd3496691d1338c9a8a2f7b1a"
+    "url": "https://finnhub.io/api/news?id=ee741aaaf6d4c596298525d052f23bfe3d78b5929e852d5db39941de9f83365c"
    },
    {
-    "ts": 1789573800,
-    "headline": "I've Held Microsoft for 10 Years. Here's Why I'm Not Selling a Single Share.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=44ba85278a327b13d8c98453132ad83bcede9c359f29149166ff24c091d41500"
+    "ts": 1789581900,
+    "headline": "These S&P500 stocks are the most active in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=3d20960e9c2cadfe673a46daeed5f890004d55a06e129bf7d23e901b6ea94793"
    },
    {
-    "ts": 1789572900,
-    "headline": "5 Reasons Intel's CEO Just Made This Stock Worth Buying",
+    "ts": 1789581000,
+    "headline": "The 1 Metric That Separates Joby From Archer in the Race to FAA Certification",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a83e84f257da5517ef6e504cf053fd75602560965a846dec4c532517494b9533"
+    "url": "https://finnhub.io/api/news?id=cf902f471db8355986d89a19ac5ee8684a51f9272c8007cc9d6c3763c3bb11d0"
    },
    {
-    "ts": 1789572374,
-    "headline": "Intel Stock Investors Should Pay Attention to This Potential SK Hynix Deal",
+    "ts": 1789580707,
+    "headline": "Sector Update: Tech Stocks Gain Wednesday Afternoon",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7dcf7e24c08cf5be41d8efe2e839bb4298eb1c7bd23210b12df26457d69c618d"
+    "url": "https://finnhub.io/api/news?id=4bcf1825de5549b624e89b64a8a7c7c17500d0ee77cd3ac6fb7c038a7af8f949"
    },
    {
-    "ts": 1789572329,
-    "headline": "Apple Reportedly Taps Nvidia For M8 Ultra AI Servers In Enterprise Comeback Push",
+    "ts": 1789580661,
+    "headline": "The Dow, S&P 500, and Nasdaq Split Ahead of a Near-Certain Rate Hike",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=98273805b3b023cdc89da40fe25897c0416b936aeabb93debd52243389a3a9b6"
+    "url": "https://finnhub.io/api/news?id=b0e34f9fc2f511ba8bf01e27667dd0601c1cb63bc22c496a10b3a6dbfc3522cc"
    },
    {
-    "ts": 1789572000,
-    "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
+    "ts": 1789580520,
+    "headline": "September Effect: 2 Memory Stocks to Buy on a Potential Market Dip",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142"
+    "url": "https://finnhub.io/api/news?id=5fb1a59efecbb2997177e2883b92db18bbf88e4dafa90f3ae3a47efc32433ec4"
    },
    {
-    "ts": 1789571499,
-    "headline": "OpenAI\u2019s CFO Just Explained Why Nvidia Is No Longer the Only Option",
+    "ts": 1789579980,
+    "headline": "Palantir, Microsoft\u2019s biggest warning gets real for AI stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=386503685a06dad2bb67e4e89421edacc8c9b64c954cb942e26815b28501e35e"
+    "url": "https://finnhub.io/api/news?id=14c1e2078390422fca4e2fa88021031f98025dbf67eb4cb594379fa988dd3f08"
    },
    {
-    "ts": 1789571443,
-    "headline": "Stock Market Today: Nasdaq, S&P 500 Up With Fed Decision Looming; Intel, Micron, Sandisk Rise (Live Coverage)",
+    "ts": 1789579681,
+    "headline": "Cerebras Stock Has Been Cut in Half. It Still Costs About 145 Times Next Year's Estimated Earnings.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d394a8597b71e161a5020ce95b0bbe15c7f575bc97368a08f44a10bce8eed3e2"
+    "url": "https://finnhub.io/api/news?id=feacee13376bb6192145f0801187dd2595c205dfebd398263eb20ca0194c0f24"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T17:19:30Z",
+  "fetched_at": "2026-09-16T20:16:46Z",
   "buys": 3,
   "sells": 59,
   "net_shares": -4572717.0,
