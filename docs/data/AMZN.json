@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-17T17:18:36Z",
+ "generated_at": "2026-09-17T20:24:25Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:37Z",
-  "current": 251.4,
-  "change": 5.44,
-  "change_pct": 2.2117,
+  "fetched_at": "2026-09-17T20:24:26Z",
+  "current": 251.19,
+  "change": 5.23,
+  "change_pct": 2.1264,
   "high": 252.73,
   "low": 249.24,
-  "open": 249.9325,
+  "open": 251.065,
   "prev_close": 245.96,
-  "ts": 1789665489
+  "ts": 1789675200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:37Z",
+  "fetched_at": "2026-09-17T20:24:26Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T17:18:46Z",
+  "fetched_at": "2026-09-17T20:24:27Z",
   "bars": [
    {
     "date": "2023-02-15",
@@ -7225,8 +7225,8 @@
     "open": 250.765,
     "high": 252.71,
     "low": 249.26,
-    "close": 251.32,
-    "volume": 706246.0
+    "close": 251.12,
+    "volume": 1029602.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:13:33Z",
+  "fetched_at": "2026-09-17T20:24:28Z",
   "is_etf": false,
   "name": "Amazon.com, Inc.",
   "sector": "Consumer Cyclical",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 2754662629376.0,
+  "mcap": 2709413953536.0,
   "shares": 10786313572.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 716924000000.0,
   "net_income": 77670000000.0,
   "ebit": 79975000000.0,
-  "eps_ttm": 12.43,
+  "eps_ttm": 12.42,
   "bvps": 38.10986925756325,
   "fcf_latest": 7695000000.0,
   "fcf_base": 20286500000.0,
@@ -7326,12 +7326,12 @@
   "capex": 131819000000.0,
   "ocf": 139514000000.0,
   "buyback": null,
-  "pe": 20.545856,
-  "forward_pe": 24.54707,
-  "pb": 4.9922786,
-  "ps": 3.5512872,
-  "peg": 1.5027,
-  "ev_ebitda": 17.159,
+  "pe": 20.224638,
+  "forward_pe": 24.211016,
+  "pb": 4.9102745,
+  "ps": 3.492953,
+  "peg": 1.4394,
+  "ev_ebitda": 16.468,
   "payout": 0.0,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:46Z",
+  "fetched_at": "2026-09-17T20:24:28Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T17:18:46Z",
+  "fetched_at": "2026-09-17T20:24:28Z",
   "analyst_target_mean": 328.2244,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.21005,
+  "forward_pe": 24.211016,
   "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,13 +7463,25 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:46Z",
+  "fetched_at": "2026-09-17T20:24:28Z",
   "rows": [
+   {
+    "ts": 1789672206,
+    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+   },
    {
     "ts": 1789663206,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
+   },
+   {
+    "ts": 1789650931,
+    "headline": "Generac: Amazon Just Added 57% Of A Year's Revenue",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=b5bc9c40bb806ad44bbed209f95dad87bd62917060f43b1230d85b704745617f"
    },
    {
     "ts": 1789647078,
@@ -7500,25 +7512,13 @@
     "headline": "Generac Stock Surges 35% on Amazon Data Center Deal. Why It\u2019s a Game-Changer.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=84897bf1bae338c87456a9ecff87679c12046ca66a5e7248ecbd5e894716a234"
-   },
-   {
-    "ts": 1789641924,
-    "headline": "Why Is Snap Stock Trading Higher on Thursday?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a41403a36f9d3c2b8b1d1c79e23429e580ce283652f29fcb801d753ff8d3ece6"
-   },
-   {
-    "ts": 1789641480,
-    "headline": "AMD, Intel, Amazon, Generac, Lennar, and More Stocks That Explain Today\u2019s Market",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=721cef13b31d6fcbac4472fc08df8bef7fa5a58431a8eb120a9f25c459b69353"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:47Z",
+  "fetched_at": "2026-09-17T20:24:29Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

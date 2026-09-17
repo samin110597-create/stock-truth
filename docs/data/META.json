@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-17T17:19:42Z",
+ "generated_at": "2026-09-17T20:25:01Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:42Z",
-  "current": 678.31,
-  "change": 5.0,
-  "change_pct": 0.7426,
+  "fetched_at": "2026-09-17T20:25:01Z",
+  "current": 682.31,
+  "change": 9.0,
+  "change_pct": 1.3367,
   "high": 683.2,
   "low": 667.05,
-  "open": 681.495,
+  "open": 682.44,
   "prev_close": 673.31,
-  "ts": 1789665558
+  "ts": 1789675200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:42Z",
+  "fetched_at": "2026-09-17T20:25:01Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T17:19:46Z",
+  "fetched_at": "2026-09-17T20:25:02Z",
   "bars": [
    {
     "date": "2023-02-15",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-17",
     "open": 682.47,
-    "high": 682.615,
+    "high": 683.2,
     "low": 667.13,
-    "close": 678.32,
-    "volume": 352072.0
+    "close": 682.39,
+    "volume": 521002.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:14:22Z",
+  "fetched_at": "2026-09-17T20:25:02Z",
   "is_etf": false,
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 5,
   "currency": "USD",
-  "mcap": 1697237696512.0,
+  "mcap": 1738188914688.0,
   "shares": 2205128509.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 200966000000.0,
   "net_income": 60458000000.0,
   "ebit": 83276000000.0,
-  "eps_ttm": 26.57,
+  "eps_ttm": 26.53,
   "bvps": 98.51716084271078,
   "fcf_latest": 46109000000.0,
   "fcf_base": 50090500000.0,
@@ -7335,12 +7335,12 @@
   "capex": 69691000000.0,
   "ocf": 115800000000.0,
   "buyback": -26248000000.0,
-  "pe": 25.074709,
-  "forward_pe": 19.057251,
-  "pb": 6.4985857,
-  "ps": 7.435914,
-  "peg": 0.8574,
-  "ev_ebitda": 15.256,
+  "pe": 25.718431,
+  "forward_pe": 19.517067,
+  "pb": 6.6553845,
+  "ps": 7.6153855,
+  "peg": 0.8909,
+  "ev_ebitda": 15.844,
   "payout": 0.0791,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:46Z",
+  "fetched_at": "2026-09-17T20:25:03Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T17:19:46Z",
+  "fetched_at": "2026-09-17T20:25:03Z",
   "analyst_target_mean": 755.2807,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 56.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.40508,
+  "forward_pe": 19.517067,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,7 +7472,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:46Z",
+  "fetched_at": "2026-09-17T20:25:03Z",
   "rows": [
    {
     "ts": 1789650035,
@@ -7527,7 +7527,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:47Z",
+  "fetched_at": "2026-09-17T20:25:03Z",
   "buys": 105,
   "sells": 182,
   "net_shares": 3222604.0,

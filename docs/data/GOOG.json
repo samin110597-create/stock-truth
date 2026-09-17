@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-17T17:18:56Z",
+ "generated_at": "2026-09-17T20:24:38Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:56Z",
-  "current": 342.02,
-  "change": 2.66,
-  "change_pct": 0.7838,
+  "fetched_at": "2026-09-17T20:24:38Z",
+  "current": 343.68,
+  "change": 4.32,
+  "change_pct": 1.273,
   "high": 345.965,
   "low": 340.5,
-  "open": 343.585,
+  "open": 345.0,
   "prev_close": 339.36,
-  "ts": 1789665508
+  "ts": 1789675200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:18:56Z",
+  "fetched_at": "2026-09-17T20:24:38Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T17:19:06Z",
+  "fetched_at": "2026-09-17T20:24:38Z",
   "bars": [
    {
     "date": "2023-02-15",
@@ -7225,8 +7225,8 @@
     "open": 345.055,
     "high": 345.83,
     "low": 340.53,
-    "close": 341.98,
-    "volume": 304625.0
+    "close": 343.76,
+    "volume": 510156.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:13:50Z",
+  "fetched_at": "2026-09-17T20:24:39Z",
   "is_etf": false,
   "name": "Alphabet Inc.",
   "sector": "Communication Services",
@@ -7254,7 +7254,7 @@
   "period": "2025",
   "years": 4,
   "currency": "USD",
-  "mcap": 4228273930240.0,
+  "mcap": 4203184128000.0,
   "shares": 5527000000.0,
   "annual": [
    {
@@ -7297,7 +7297,7 @@
   "revenue": 402836000000.0,
   "net_income": 132170000000.0,
   "ebit": 129039000000.0,
-  "eps_ttm": 19.93,
+  "eps_ttm": 19.92,
   "bvps": 75.1338881852723,
   "fcf_latest": 73266000000.0,
   "fcf_base": 73015000000.0,
@@ -7326,12 +7326,12 @@
   "capex": 91447000000.0,
   "ocf": 164713000000.0,
   "buyback": -45709000000.0,
-  "pe": 17.34729,
-  "forward_pe": 23.244284,
-  "pb": 6.7929015,
-  "ps": 9.483284,
-  "peg": 1.1988,
-  "ev_ebitda": 23.093,
+  "pe": 17.253012,
+  "forward_pe": 23.132795,
+  "pb": 6.7525935,
+  "ps": 9.427012,
+  "peg": 1.2128,
+  "ev_ebitda": 23.369,
   "payout": 0.042600002,
   "attempts": [],
   "fallback_used": false
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:06Z",
+  "fetched_at": "2026-09-17T20:24:39Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T17:19:06Z",
+  "fetched_at": "2026-09-17T20:24:40Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.016014,
+  "forward_pe": 23.132795,
   "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,7 +7463,7 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:06Z",
+  "fetched_at": "2026-09-17T20:24:40Z",
   "rows": [
    {
     "ts": 1789650060,
@@ -7518,7 +7518,7 @@
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:06Z",
+  "fetched_at": "2026-09-17T20:24:40Z",
   "error": "no insider filings in six months"
  },
  "peers": {

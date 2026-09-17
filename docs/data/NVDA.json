@@ -1,21 +1,21 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-17T17:19:15Z",
+ "generated_at": "2026-09-17T20:24:49Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:16Z",
-  "current": 218.86,
-  "change": 4.96,
-  "change_pct": 2.3188,
-  "high": 219.87,
+  "fetched_at": "2026-09-17T20:24:49Z",
+  "current": 219.34,
+  "change": 5.44,
+  "change_pct": 2.5432,
+  "high": 219.905,
   "low": 217.145,
-  "open": 217.3875,
+  "open": 218.375,
   "prev_close": 213.9,
-  "ts": 1789665536
+  "ts": 1789675200
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:16Z",
+  "fetched_at": "2026-09-17T20:24:49Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T17:19:32Z",
+  "fetched_at": "2026-09-17T20:24:50Z",
   "bars": [
    {
     "date": "2023-02-15",
@@ -7223,10 +7223,10 @@
    {
     "date": "2026-09-17",
     "open": 218.37,
-    "high": 219.87,
+    "high": 219.9,
     "low": 217.145,
-    "close": 218.84,
-    "volume": 1953738.0
+    "close": 219.37,
+    "volume": 2983204.0
    }
   ],
   "n": 900,
@@ -7245,7 +7245,7 @@
  },
  "fundamentals": {
   "source": "yfinance",
-  "fetched_at": "2026-09-14T18:14:06Z",
+  "fetched_at": "2026-09-17T20:24:51Z",
   "is_etf": false,
   "name": "NVIDIA Corporation",
   "sector": "Technology",
@@ -7254,7 +7254,7 @@
   "period": "2026",
   "years": 5,
   "currency": "USD",
-  "mcap": 5130513022976.0,
+  "mcap": 5296402989056.0,
   "shares": 24147000000.0,
   "annual": [
    {
@@ -7306,7 +7306,7 @@
   "revenue": 215938000000.0,
   "net_income": 120067000000.0,
   "ebit": 130387000000.0,
-  "eps_ttm": 7.9,
+  "eps_ttm": 7.91,
   "bvps": 6.513976891539322,
   "fcf_latest": 96676000000.0,
   "fcf_base": 78764500000.0,
@@ -7331,16 +7331,16 @@
   "cash": 62556000000.0,
   "tax_rate": 0.1511700247437257,
   "total_assets": 206803000000.0,
-  "total_liabilities": 49510000000.0,
+  "total_liabilities": null,
   "capex": 6042000000.0,
   "ocf": 102718000000.0,
   "buyback": -40086000000.0,
-  "pe": 26.894936,
-  "forward_pe": 13.606884,
-  "pb": 22.405357,
-  "ps": 16.934063,
-  "peg": 0.4637,
-  "ev_ebitda": 26.021,
+  "pe": 27.729456,
+  "forward_pe": 14.046848,
+  "pb": 23.129812,
+  "ps": 17.481607,
+  "peg": 0.4544,
+  "ev_ebitda": 25.496,
   "payout": 0.0354,
   "attempts": [],
   "fallback_used": false
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:32Z",
+  "fetched_at": "2026-09-17T20:24:51Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T17:19:33Z",
+  "fetched_at": "2026-09-17T20:24:51Z",
   "analyst_target_mean": 328.4879,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.016749,
+  "forward_pe": 14.046848,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
@@ -7472,13 +7472,37 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:33Z",
+  "fetched_at": "2026-09-17T20:24:51Z",
   "rows": [
+   {
+    "ts": 1789672206,
+    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+   },
+   {
+    "ts": 1789668300,
+    "headline": "Most active S&P500 stocks in Thursday's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=0d852bd60c8de3c6239685cf2705b7e360785db1df8879cd5d21e530331f5afd"
+   },
    {
     "ts": 1789663206,
     "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
+   },
+   {
+    "ts": 1789660965,
+    "headline": "Palantir\u00a0Stock:\u00a0The AI Token Boom Is Hiding A Bigger\u00a0Opportunity",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=a7c3a965b417831579c2e300db6fcb4cf5bd3b1d162242246505248f06a7b5a1"
+   },
+   {
+    "ts": 1789653988,
+    "headline": "Nebius: You Don't Raise Prices Into A Slowdown",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=09eaf33cb240fc920c3286d95f68b6c0c1fc399a616d3eb99dd6476d714abc91"
    },
    {
     "ts": 1789652729,
@@ -7497,37 +7521,13 @@
     "headline": "Bill Ackman's Pershing Square Took a New Stake in Netflix in 2026, Years After a Money-Losing Bet on the Stock. Why He Says This Time Is Different.",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=6f962f6fc486fc7d539e57dbf56f6a4806be83a6b78af1e35379b3ebd9c281bc"
-   },
-   {
-    "ts": 1789651700,
-    "headline": "Nebius Stock Jumps On Cloud Computing Price Hikes",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7ee30d2e981fec9257bea5fdd23fee43371a3394a875c5f79891f93ddff4ba3c"
-   },
-   {
-    "ts": 1789651595,
-    "headline": "Salesforce sets $63 billion revenue target as AI reshapes growth",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a8cd86d22e3cb1981a7e067c4b47081fcef61313918e7f4b9e72f5b39b764913"
-   },
-   {
-    "ts": 1789651473,
-    "headline": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a0ff60c1bca66d9dcc49d24521bdbaa5ed7e865a1cb4df4318ab4f73a828bbad"
-   },
-   {
-    "ts": 1789651349,
-    "headline": "Nebius stock jumps 9% as reported compute price hikes boost AI cloud peers",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d7a3d2a0bc6a3829a274a817f409735717d64b0b441073ae374abb49fe80b1cf"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T17:19:33Z",
+  "fetched_at": "2026-09-17T20:24:52Z",
   "buys": 3,
   "sells": 58,
   "net_shares": -4572187.0,
