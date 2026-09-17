@@ -1,9 +1,9 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-17T20:24:25Z",
+ "generated_at": "2026-09-17T22:55:33Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T20:24:26Z",
+  "fetched_at": "2026-09-17T22:55:33Z",
   "current": 251.19,
   "change": 5.23,
   "change_pct": 2.1264,
@@ -15,7 +15,7 @@
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T20:24:26Z",
+  "fetched_at": "2026-09-17T22:55:33Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T20:24:27Z",
+  "fetched_at": "2026-09-17T22:55:34Z",
   "bars": [
    {
     "date": "2023-02-15",
@@ -7218,15 +7218,15 @@
     "high": 249.25999,
     "low": 244.3,
     "close": 245.96001,
-    "volume": 33318500.0
+    "volume": 33488500.0
    },
    {
     "date": "2026-09-17",
-    "open": 250.765,
-    "high": 252.71,
-    "low": 249.26,
-    "close": 251.12,
-    "volume": 1029602.0
+    "open": 251.13,
+    "high": 252.73,
+    "low": 249.24001,
+    "close": 251.19,
+    "volume": 29639613.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T20:24:28Z",
+  "fetched_at": "2026-09-17T22:55:34Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,7 +7445,7 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T20:24:28Z",
+  "fetched_at": "2026-09-17T22:55:34Z",
   "analyst_target_mean": 328.2244,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
@@ -7463,13 +7463,19 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T20:24:28Z",
+  "fetched_at": "2026-09-17T22:55:34Z",
   "rows": [
    {
     "ts": 1789672206,
     "headline": "Discover which dow jones stocks are making waves on Thursday.",
     "source": "ChartMill",
     "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+   },
+   {
+    "ts": 1789667400,
+    "headline": "Wall Street Breakfast With Steven Cress (Generac, Amazon, Powell, Kroger)",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=3c31abe1f83ec660d5bd379baca449bf1ab93f6234e714b3027b0eb34d80871b"
    },
    {
     "ts": 1789663206,
@@ -7506,19 +7512,13 @@
     "headline": "22.4% of Billionaire Bill Ackman\u2019s Pershing Square Capital Management Is Invested in These 2 Artificial Intelligence (AI) Stocks",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=6ed92433bdbd002888e13442151331b71c65ef947c8c5c9ac960f5f188a0efb5"
-   },
-   {
-    "ts": 1789643760,
-    "headline": "Generac Stock Surges 35% on Amazon Data Center Deal. Why It\u2019s a Game-Changer.",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=84897bf1bae338c87456a9ecff87679c12046ca66a5e7248ecbd5e894716a234"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T20:24:29Z",
+  "fetched_at": "2026-09-17T22:55:34Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,
