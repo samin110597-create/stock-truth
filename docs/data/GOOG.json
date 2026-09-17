@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-16T23:03:27Z",
+ "generated_at": "2026-09-17T17:18:56Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:27Z",
-  "current": 339.36,
-  "change": -2.07,
-  "change_pct": -0.6063,
-  "high": 344.7,
-  "low": 337.45,
-  "open": 343.36,
-  "prev_close": 341.43,
-  "ts": 1789588800
+  "fetched_at": "2026-09-17T17:18:56Z",
+  "current": 342.02,
+  "change": 2.66,
+  "change_pct": 0.7838,
+  "high": 345.965,
+  "low": 340.5,
+  "open": 343.585,
+  "prev_close": 339.36,
+  "ts": 1789665508
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:27Z",
+  "fetched_at": "2026-09-17T17:18:56Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4219105400000.0005,
+  "mcap": 4193300100000.0,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T23:03:29Z",
+  "fetched_at": "2026-09-17T17:19:06Z",
   "bars": [
-   {
-    "date": "2023-02-14",
-    "open": 94.66,
-    "high": 95.175,
-    "low": 92.65,
-    "close": 94.95,
-    "volume": 42513100.0
-   },
    {
     "date": "2023-02-15",
     "open": 94.74,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-16",
-    "open": 343.51001,
+    "open": 343.35999,
     "high": 344.70001,
     "low": 337.45001,
     "close": 339.35999,
-    "volume": 12797074.0
+    "volume": 12823900.0
+   },
+   {
+    "date": "2026-09-17",
+    "open": 345.055,
+    "high": 345.83,
+    "low": 340.53,
+    "close": 341.98,
+    "volume": 304625.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:29Z",
+  "fetched_at": "2026-09-17T17:19:06Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T23:03:29Z",
+  "fetched_at": "2026-09-17T17:19:06Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 22.842018,
+  "forward_pe": 23.016014,
   "forward_eps": 14.85683,
   "short_pct_float": null,
   "short_ratio": 2.58,
   "short_asof": 1788134400,
-  "institutions_pct": 0.62124,
+  "institutions_pct": 0.62126,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:30Z",
+  "fetched_at": "2026-09-17T17:19:06Z",
   "rows": [
    {
-    "ts": 1789580560,
-    "headline": "Google Delays Thompson Center Opening To 2028, Releases New Renderings",
+    "ts": 1789650060,
+    "headline": "Battery Storage-Shift Pilot Demonstrates How Hourly Renewable Certificates Can Power the Next Phase of Corporate Clean-Energy Goals",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f5c5d42dcd827c0c2d61ee5d8ae8280bb9e97dadcc664de4b4e1350eba18b06b"
+    "url": "https://finnhub.io/api/news?id=c35c8748d7078429d28f80ce73dac09b2a80f0cb76fa1407607af882d2513501"
    },
    {
-    "ts": 1789579893,
-    "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
+    "ts": 1789650000,
+    "headline": "Vitality and Google Expand Technology Partnership to Bring AI-Driven Health Platform to the United States to Incentivize Healthier Behaviors",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0078e1032fb647f22424aca113b33ff13e324bfa087dec12eebd65031470726b"
+    "url": "https://finnhub.io/api/news?id=e8c22a81962b30d3c4c29e97d0451346c8f4144a1f4323806f36bd7421ec9238"
    },
    {
-    "ts": 1789578023,
-    "headline": "DTE Is Sitting on an AI-Era Power Opportunity",
+    "ts": 1789650000,
+    "headline": "Should You Rotate to Telecom & Software ETFs Now?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=9f2308db1411dc05a679bdca7399a021b044af283ecc6fb6c8b559f0a24cb92f"
+    "url": "https://finnhub.io/api/news?id=73eb6ceda7da317bb33307df6e8c3a339d66c002e6db00fb5567c8492bf8f197"
    },
    {
-    "ts": 1789577719,
-    "headline": "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst",
+    "ts": 1789649714,
+    "headline": "Investors Want to Know When Broadcom\u2019s Custom Hyperscaler Chips Will Move Share Prices",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=182e54a83513daa03852aa35a9c9148d33ce1ec791850d8f216ea97fa8c69495"
+    "url": "https://finnhub.io/api/news?id=a729b9ee706afbcfbb75d7af45b2d3f8ab29cb4b211da9d5f3733bd2ffcd4109"
    },
    {
-    "ts": 1789577400,
-    "headline": "31% of Berkshire Hathaway's Portfolio Is Riding on These 2 AI Stocks Under Greg Abel",
+    "ts": 1789648202,
+    "headline": "The Biggest Catalyst for Alphabet Stock May Not Be Search",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=3c93a85467c3aad1773279abe5d3868c778e8d2e92e60095733db1c9525c6a71"
+    "url": "https://finnhub.io/api/news?id=f7cab9bff59218343e1e95852ef58534a226c93709d20f820e46184d71a81f9b"
    },
    {
-    "ts": 1789575291,
-    "headline": "Alphabet (GOOGL) Secures Carbon Credit Deal With Google, Is It Still Overvalued?",
+    "ts": 1789647389,
+    "headline": "What's Happening With NBIS Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=096ea807178d1f83c267bc98a5ffd95d2f0a5d9ae1e167c341317f4d23a2ab0e"
+    "url": "https://finnhub.io/api/news?id=60cf3b5ef4d805d139cf33ca0fe1b4de517b3f0f6e4b8441477a8609d8bcd86b"
    },
    {
-    "ts": 1789573854,
-    "headline": "I Keep Buying Alphabet Hand Over Fist Becuase The Skeptics Are Wrong",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=724bd98ca6f076a95d0d71456fa887ea9c15a03a051af3e4e4d773e6823098c9"
+    "ts": 1789647213,
+    "headline": "SpaceX: A $3.2 Trillion Inflection Is Closer Than It Looks",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=e59c4b8f9801ea000af134d61b1ba62c935cc0acdc7e49c4dc0d021740d99a09"
    },
    {
-    "ts": 1789572970,
-    "headline": "Tesla must prove Cybercab is legal to sell, NHTSA says",
+    "ts": 1789647114,
+    "headline": "Alphabet\u2019s Core Business Is Printing Cash Faster Than Regulators Can Write Fines",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7e90b16b207ae836550290e241525e59cc1c871b5c3aa6997353370c0d5a5ccf"
+    "url": "https://finnhub.io/api/news?id=8ea4b22479022b3bdac72e4ed7aa34d40dbe08ac11ecb6f778263a10d6866f45"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:30Z",
+  "fetched_at": "2026-09-17T17:19:06Z",
   "error": "no insider filings in six months"
  },
  "peers": {

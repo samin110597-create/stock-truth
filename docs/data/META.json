@@ -1,41 +1,33 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-16T23:03:51Z",
+ "generated_at": "2026-09-17T17:19:42Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:51Z",
-  "current": 673.31,
-  "change": 3.07,
-  "change_pct": 0.458,
-  "high": 685.31,
-  "low": 671.9142,
-  "open": 679.905,
-  "prev_close": 670.24,
-  "ts": 1789588800
+  "fetched_at": "2026-09-17T17:19:42Z",
+  "current": 678.31,
+  "change": 5.0,
+  "change_pct": 0.7426,
+  "high": 683.2,
+  "low": 667.05,
+  "open": 681.495,
+  "prev_close": 673.31,
+  "ts": 1789665558
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:51Z",
+  "fetched_at": "2026-09-17T17:19:42Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 1707440448603.0466,
+  "mcap": 1715261330070.3306,
   "ipo": "2012-05-18",
   "web": "https://www.meta.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T23:03:52Z",
+  "fetched_at": "2026-09-17T17:19:46Z",
   "bars": [
-   {
-    "date": "2023-02-14",
-    "open": 177.16,
-    "high": 181.50999,
-    "low": 175.88,
-    "close": 179.48,
-    "volume": 24034600.0
-   },
    {
     "date": "2023-02-15",
     "open": 176.42,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-16",
-    "open": 679.75,
+    "open": 679.90997,
     "high": 685.31,
-    "low": 671.91418,
+    "low": 671.90997,
     "close": 673.31,
-    "volume": 17135807.0
+    "volume": 17168100.0
+   },
+   {
+    "date": "2026-09-17",
+    "open": 682.47,
+    "high": 682.615,
+    "low": 667.13,
+    "close": 678.32,
+    "volume": 352072.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:52Z",
+  "fetched_at": "2026-09-17T17:19:46Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T23:03:53Z",
-  "analyst_target_mean": 758.2758,
+  "fetched_at": "2026-09-17T17:19:46Z",
+  "analyst_target_mean": 755.2807,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
-  "analyst_count": 57.0,
+  "analyst_count": 56.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.259626,
+  "forward_pe": 19.40508,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:53Z",
+  "fetched_at": "2026-09-17T17:19:46Z",
   "rows": [
    {
-    "ts": 1789578516,
-    "headline": "Mark Zuckerberg addresses panic about killer AI \u2013\u00a0and gives warning to rival companies",
+    "ts": 1789650035,
+    "headline": "Big Wall Street Insider Says Buy META Before September 23",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c2e5c255060443327a453a729462f9e733d40659b630d044d03584aa7e29c739"
+    "url": "https://finnhub.io/api/news?id=1b404f911b745585bf9efd0c4e2abd38e41fb6f456e5e1408dedb6a168b93fa0"
    },
    {
-    "ts": 1789577449,
-    "headline": "Apex Clean Energy Signs PPA with Meta for Solar Power from Texas Project",
+    "ts": 1789650000,
+    "headline": "Should You Rotate to Telecom & Software ETFs Now?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=738d8766890a32e92342a11c7507548748ef5f9b5792774f56087daf98050952"
+    "url": "https://finnhub.io/api/news?id=73eb6ceda7da317bb33307df6e8c3a339d66c002e6db00fb5567c8492bf8f197"
    },
    {
-    "ts": 1789576629,
-    "headline": "Shopify Merchants Could Get AI Orders Without Shoppers Visiting Their Websites",
+    "ts": 1789649839,
+    "headline": "Meta plans smartglasses without camera after \u2018pervert\u2019 backlash",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6def5ba2cc83b73135cdaf19bd5ef2c93a01455e52dced1869db6c7106871562"
+    "url": "https://finnhub.io/api/news?id=3694e53f93ec01777017c2db88674a4d66f954f10accafdfc4de487673111c86"
    },
    {
-    "ts": 1789574719,
-    "headline": "AMD, IBD Stock Of The Day, Gains As Heavyweights Dismiss AI Slowdown",
+    "ts": 1789649714,
+    "headline": "Investors Want to Know When Broadcom\u2019s Custom Hyperscaler Chips Will Move Share Prices",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e56f083b7983d43276a761b432e32d96322fe100c42681752cc6346b8065acb2"
+    "url": "https://finnhub.io/api/news?id=a729b9ee706afbcfbb75d7af45b2d3f8ab29cb4b211da9d5f3733bd2ffcd4109"
    },
    {
-    "ts": 1789574400,
-    "headline": "FloQast Introduces New AI Accounting Innovations at TakeControl 2026 and Names COSO Chair Lucia Wind as SVP of Risk & Audit Advisory",
+    "ts": 1789647389,
+    "headline": "What's Happening With NBIS Stock?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=63681ff20e3d679534fd3e866bab5f252937b7396368a69c72435e5acff9ff5e"
+    "url": "https://finnhub.io/api/news?id=60cf3b5ef4d805d139cf33ca0fe1b4de517b3f0f6e4b8441477a8609d8bcd86b"
    },
    {
-    "ts": 1789573854,
-    "headline": "I Keep Buying Alphabet Hand Over Fist Becuase The Skeptics Are Wrong",
+    "ts": 1789647114,
+    "headline": "Alphabet\u2019s Core Business Is Printing Cash Faster Than Regulators Can Write Fines",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=724bd98ca6f076a95d0d71456fa887ea9c15a03a051af3e4e4d773e6823098c9"
+    "url": "https://finnhub.io/api/news?id=8ea4b22479022b3bdac72e4ed7aa34d40dbe08ac11ecb6f778263a10d6866f45"
    },
    {
-    "ts": 1789572328,
-    "headline": "Should You Buy Amazon Stock For The Demand AWS Cannot Yet Serve?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ad5b4028cebaf4a5631bb267f2b2a9d65ac41a16a03623c1032f1267d7e783eb"
+    "ts": 1789647078,
+    "headline": "Lagging The S&P 500? I Don't Care, And Neither Should You",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00"
    },
    {
-    "ts": 1789571499,
-    "headline": "OpenAI\u2019s CFO Just Explained Why Nvidia Is No Longer the Only Option",
+    "ts": 1789646700,
+    "headline": "Most Arguments In Favor of Buying Meta Now Miss One Powerful Catalyst",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=386503685a06dad2bb67e4e89421edacc8c9b64c954cb942e26815b28501e35e"
+    "url": "https://finnhub.io/api/news?id=c21735dbfcd7b85f016a9834dd2744bfd05d56896a196f7fa95e1155ffadd32a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:53Z",
+  "fetched_at": "2026-09-17T17:19:47Z",
   "buys": 105,
   "sells": 182,
   "net_shares": 3222604.0,

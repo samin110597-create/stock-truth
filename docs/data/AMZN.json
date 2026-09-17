@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-16T23:03:14Z",
+ "generated_at": "2026-09-17T17:18:36Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:15Z",
-  "current": 245.96,
-  "change": -2.46,
-  "change_pct": -0.9903,
-  "high": 249.26,
-  "low": 244.3,
-  "open": 248.1,
-  "prev_close": 248.42,
-  "ts": 1789588800
+  "fetched_at": "2026-09-17T17:18:37Z",
+  "current": 251.4,
+  "change": 5.44,
+  "change_pct": 2.2117,
+  "high": 252.73,
+  "low": 249.24,
+  "open": 249.9325,
+  "prev_close": 245.96,
+  "ts": 1789665489
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:15Z",
+  "fetched_at": "2026-09-17T17:18:37Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2679536165489.4194,
+  "mcap": 2653001883335.8916,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T23:03:16Z",
+  "fetched_at": "2026-09-17T17:18:46Z",
   "bars": [
-   {
-    "date": "2023-02-14",
-    "open": 98.41,
-    "high": 100.92,
-    "low": 97.52,
-    "close": 99.7,
-    "volume": 56202900.0
-   },
    {
     "date": "2023-02-15",
     "open": 99.089996,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-16",
-    "open": 248.2,
+    "open": 248.10001,
     "high": 249.25999,
     "low": 244.3,
     "close": 245.96001,
-    "volume": 32895349.0
+    "volume": 33318500.0
+   },
+   {
+    "date": "2026-09-17",
+    "open": 250.765,
+    "high": 252.71,
+    "low": 249.26,
+    "close": 251.32,
+    "volume": 706246.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:16Z",
+  "fetched_at": "2026-09-17T17:18:46Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T23:03:18Z",
-  "analyst_target_mean": 328.1707,
+  "fetched_at": "2026-09-17T17:18:46Z",
+  "analyst_target_mean": 328.2244,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
-  "analyst_count": 60.0,
+  "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.70692,
+  "forward_pe": 24.21005,
   "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:18Z",
+  "fetched_at": "2026-09-17T17:18:46Z",
   "rows": [
    {
-    "ts": 1789581900,
-    "headline": "These S&P500 stocks are the most active in today's session",
+    "ts": 1789663206,
+    "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=3d20960e9c2cadfe673a46daeed5f890004d55a06e129bf7d23e901b6ea94793"
+    "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
    },
    {
-    "ts": 1789581340,
-    "headline": "Costco expands Uber Eats delivery to 47 states",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c9d7f808c9c43ff12a6dd796de6bd7dd50858474d53bb9745af938ed4c91a03d"
+    "ts": 1789647078,
+    "headline": "Lagging The S&P 500? I Don't Care, And Neither Should You",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00"
    },
    {
-    "ts": 1789580585,
-    "headline": "Amazon raises starting pay to $20 an hour and adds Whole Foods discount",
+    "ts": 1789644650,
+    "headline": "Oracle\u2019s 2026 Cratering: This Pro Is Sure It Will Nearly Triple in the Next 12 Months",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0a610c6958b8a064ce32323dd0528e839308027c83d609aac9dda27a74f39de6"
+    "url": "https://finnhub.io/api/news?id=dc2c9634a3fbc2361efb918f0b73df9baa621d16810dd0b656b6962b52f05918"
    },
    {
-    "ts": 1789579893,
-    "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
+    "ts": 1789644385,
+    "headline": "Generac Gets $100 Target Hike From Canaccord \u2014 Amazon Deal Could Unlock Up To $8B In Orders, Says Analyst",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=0078e1032fb647f22424aca113b33ff13e324bfa087dec12eebd65031470726b"
+    "url": "https://finnhub.io/api/news?id=ea0eee0beb2a3c2f8ce81ea63019c3b744fd098b413cccef55caff0591e1bace"
    },
    {
-    "ts": 1789579080,
-    "headline": "Shopify Plunges 13% in a Month: Buy, Sell or Hold the Stock?",
+    "ts": 1789644001,
+    "headline": "22.4% of Billionaire Bill Ackman\u2019s Pershing Square Capital Management Is Invested in These 2 Artificial Intelligence (AI) Stocks",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=43e903d58835c120cdb55ecf049eab2e060056e7e68898834e34e4bebb8da611"
+    "url": "https://finnhub.io/api/news?id=6ed92433bdbd002888e13442151331b71c65ef947c8c5c9ac960f5f188a0efb5"
    },
    {
-    "ts": 1789579033,
-    "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+    "ts": 1789643760,
+    "headline": "Generac Stock Surges 35% on Amazon Data Center Deal. Why It\u2019s a Game-Changer.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f4cc2d0d3f7e3bbb7184938d40072a9180e59e71b97031f05e648821209947a6"
+    "url": "https://finnhub.io/api/news?id=84897bf1bae338c87456a9ecff87679c12046ca66a5e7248ecbd5e894716a234"
    },
    {
-    "ts": 1789578024,
-    "headline": "Amazon, Walmart Among 6 Companies Returning Tariff Savings \u2014 How It Impacts Your Budget",
+    "ts": 1789641924,
+    "headline": "Why Is Snap Stock Trading Higher on Thursday?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5455af72eaab4836c10544077ad2b5515811a4c60689364c2412434d678b8e01"
+    "url": "https://finnhub.io/api/news?id=a41403a36f9d3c2b8b1d1c79e23429e580ce283652f29fcb801d753ff8d3ece6"
    },
    {
-    "ts": 1789577704,
-    "headline": "Amazon raises minimum pay for warehouse workers to $20/hour",
+    "ts": 1789641480,
+    "headline": "AMD, Intel, Amazon, Generac, Lennar, and More Stocks That Explain Today\u2019s Market",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=191fcc92c0a1e5714ef1cd9d94a5bcc56248b350968df841c7c3d3aa5342bcf1"
+    "url": "https://finnhub.io/api/news?id=721cef13b31d6fcbac4472fc08df8bef7fa5a58431a8eb120a9f25c459b69353"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:18Z",
+  "fetched_at": "2026-09-17T17:18:47Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

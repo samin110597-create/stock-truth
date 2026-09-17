@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-16T23:03:39Z",
+ "generated_at": "2026-09-17T17:19:15Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:39Z",
-  "current": 213.9,
-  "change": 1.73,
-  "change_pct": 0.8154,
-  "high": 216.76,
-  "low": 212.5,
-  "open": 214.14,
-  "prev_close": 212.17,
-  "ts": 1789588800
+  "fetched_at": "2026-09-17T17:19:16Z",
+  "current": 218.86,
+  "change": 4.96,
+  "change_pct": 2.3188,
+  "high": 219.87,
+  "low": 217.145,
+  "open": 217.3875,
+  "prev_close": 213.9,
+  "ts": 1789665536
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:39Z",
+  "fetched_at": "2026-09-17T17:19:16Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5113297162732.056,
+  "mcap": 5154989955512.188,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-16T23:03:41Z",
+  "fetched_at": "2026-09-17T17:19:32Z",
   "bars": [
-   {
-    "date": "2023-02-14",
-    "open": 21.578,
-    "high": 23.049,
-    "low": 21.366,
-    "close": 22.971,
-    "volume": 675474000.0
-   },
    {
     "date": "2023-02-15",
     "open": 22.549,
@@ -7226,11 +7218,19 @@
     "high": 216.75999,
     "low": 212.5,
     "close": 213.89999,
-    "volume": 95821454.0
+    "volume": 96079300.0
+   },
+   {
+    "date": "2026-09-17",
+    "open": 218.37,
+    "high": 219.87,
+    "low": 217.145,
+    "close": 218.84,
+    "volume": 1953738.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-16",
+  "latest": "2026-09-17",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:41Z",
+  "fetched_at": "2026-09-17T17:19:32Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-16T23:03:41Z",
-  "analyst_target_mean": 328.66034,
+  "fetched_at": "2026-09-17T17:19:33Z",
+  "analyst_target_mean": 328.4879,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 13.698463,
+  "forward_pe": 14.016749,
   "forward_eps": 15.61489,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
   "short_asof": 1788134400,
-  "institutions_pct": 0.71409,
+  "institutions_pct": 0.71410006,
   "insiders_pct": 0.04008,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:41Z",
+  "fetched_at": "2026-09-17T17:19:33Z",
   "rows": [
    {
-    "ts": 1789585806,
-    "headline": "Uncover the latest developments among dow jones stocks in today's session.",
+    "ts": 1789663206,
+    "headline": "These dow jones stocks are moving in today's session",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=ee741aaaf6d4c596298525d052f23bfe3d78b5929e852d5db39941de9f83365c"
+    "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
    },
    {
-    "ts": 1789581900,
-    "headline": "These S&P500 stocks are the most active in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=3d20960e9c2cadfe673a46daeed5f890004d55a06e129bf7d23e901b6ea94793"
-   },
-   {
-    "ts": 1789581898,
-    "headline": "Micron Technology Has Just Shared Great News",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e916b4f9f5e4f5c515a8f8f4239a819302b19537016ce0e09f3e7203335ca45b"
-   },
-   {
-    "ts": 1789581000,
-    "headline": "The 1 Metric That Separates Joby From Archer in the Race to FAA Certification",
+    "ts": 1789652729,
+    "headline": "Arm\u2019s CEO Says Demand Is \u2018Off the Charts.\u2019 The Problem Is Nobody Can Build Chips Fast Enough",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=cf902f471db8355986d89a19ac5ee8684a51f9272c8007cc9d6c3763c3bb11d0"
+    "url": "https://finnhub.io/api/news?id=f46086f78b26ca4653489c57be690d52c9c36258ecad07adb12416985611277d"
    },
    {
-    "ts": 1789580707,
-    "headline": "Sector Update: Tech Stocks Gain Wednesday Afternoon",
+    "ts": 1789652648,
+    "headline": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=4bcf1825de5549b624e89b64a8a7c7c17500d0ee77cd3ac6fb7c038a7af8f949"
+    "url": "https://finnhub.io/api/news?id=ff0975d5493a70beeb0ece2c57bb502fb6e36f4018b49349a2fb83fc447db0de"
    },
    {
-    "ts": 1789580661,
-    "headline": "The Dow, S&P 500, and Nasdaq Split Ahead of a Near-Certain Rate Hike",
+    "ts": 1789652400,
+    "headline": "Bill Ackman's Pershing Square Took a New Stake in Netflix in 2026, Years After a Money-Losing Bet on the Stock. Why He Says This Time Is Different.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=b0e34f9fc2f511ba8bf01e27667dd0601c1cb63bc22c496a10b3a6dbfc3522cc"
+    "url": "https://finnhub.io/api/news?id=6f962f6fc486fc7d539e57dbf56f6a4806be83a6b78af1e35379b3ebd9c281bc"
    },
    {
-    "ts": 1789580520,
-    "headline": "September Effect: 2 Memory Stocks to Buy on a Potential Market Dip",
+    "ts": 1789651700,
+    "headline": "Nebius Stock Jumps On Cloud Computing Price Hikes",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=5fb1a59efecbb2997177e2883b92db18bbf88e4dafa90f3ae3a47efc32433ec4"
+    "url": "https://finnhub.io/api/news?id=7ee30d2e981fec9257bea5fdd23fee43371a3394a875c5f79891f93ddff4ba3c"
    },
    {
-    "ts": 1789579980,
-    "headline": "Palantir, Microsoft\u2019s biggest warning gets real for AI stocks",
+    "ts": 1789651595,
+    "headline": "Salesforce sets $63 billion revenue target as AI reshapes growth",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=14c1e2078390422fca4e2fa88021031f98025dbf67eb4cb594379fa988dd3f08"
+    "url": "https://finnhub.io/api/news?id=a8cd86d22e3cb1981a7e067c4b47081fcef61313918e7f4b9e72f5b39b764913"
+   },
+   {
+    "ts": 1789651473,
+    "headline": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a0ff60c1bca66d9dcc49d24521bdbaa5ed7e865a1cb4df4318ab4f73a828bbad"
+   },
+   {
+    "ts": 1789651349,
+    "headline": "Nebius stock jumps 9% as reported compute price hikes boost AI cloud peers",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d7a3d2a0bc6a3829a274a817f409735717d64b0b441073ae374abb49fe80b1cf"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-16T23:03:42Z",
+  "fetched_at": "2026-09-17T17:19:33Z",
   "buys": 3,
-  "sells": 59,
-  "net_shares": -4572717.0,
+  "sells": 58,
+  "net_shares": -4572187.0,
   "months": 6,
   "recent": [
    {
