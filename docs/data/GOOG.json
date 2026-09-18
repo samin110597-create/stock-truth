@@ -1,21 +1,21 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-18T16:45:44Z",
+ "generated_at": "2026-09-18T19:15:28Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T16:45:44Z",
-  "current": 346.09,
-  "change": 2.41,
-  "change_pct": 0.7012,
+  "fetched_at": "2026-09-18T19:15:28Z",
+  "current": 347.64,
+  "change": 3.96,
+  "change_pct": 1.1522,
   "high": 355.13,
   "low": 344.95,
   "open": 350.365,
   "prev_close": 343.68,
-  "ts": 1789749924
+  "ts": 1789758901
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T16:45:44Z",
+  "fetched_at": "2026-09-18T19:15:28Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-18T16:45:45Z",
+  "fetched_at": "2026-09-18T19:15:28Z",
   "bars": [
    {
     "date": "2023-02-16",
@@ -7225,8 +7225,8 @@
     "open": 351.22,
     "high": 355.08,
     "low": 344.99,
-    "close": 346.07,
-    "volume": 329172.0
+    "close": 347.605,
+    "volume": 409774.0
    }
   ],
   "n": 900,
@@ -7338,7 +7338,7 @@
  },
  "earnings": {
   "source": "alphavantage",
-  "fetched_at": "2026-09-11T16:47:27Z",
+  "fetched_at": "2026-09-18T19:15:28Z",
   "rows": [
    {
     "period": "2026-06-30",
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T16:45:45Z",
+  "fetched_at": "2026-09-18T19:15:28Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-18T16:45:45Z",
+  "fetched_at": "2026-09-18T19:15:29Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.318192,
+  "forward_pe": 23.415873,
   "forward_eps": 14.84399,
   "short_pct_float": null,
   "short_ratio": 2.58,
@@ -7463,8 +7463,14 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T16:45:45Z",
+  "fetched_at": "2026-09-18T19:15:29Z",
   "rows": [
+   {
+    "ts": 1789739100,
+    "headline": "The Latest On The AI Trade: What Actually Changed, And What Didn't",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=677f7ccab8f547201c8bcdd02a1e04f859802f40e6fccef7c61ecfc774fe0114"
+   },
    {
     "ts": 1789738120,
     "headline": "2 Volatile Stocks on Our Watchlist and 1 We Question",
@@ -7506,19 +7512,13 @@
     "headline": "Why Meta Could\u00a0Keep Surprising Wall\u00a0Street",
     "source": "Yahoo",
     "url": "https://finnhub.io/api/news?id=f4b133308e226cde0a572987734cc2d415f68719e5d424acc0a74721ce3e9d5e"
-   },
-   {
-    "ts": 1789732467,
-    "headline": "Rates Could Reach 4.5% On AI Spending, And Semiconductors Get Paid First",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f04479a0d80616a98969ab04c76aeb7c4a6fbb2d9e4ad2bcf5e0391c8be6c99a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T16:45:45Z",
+  "fetched_at": "2026-09-18T19:15:29Z",
   "error": "no insider filings in six months"
  },
  "peers": {
