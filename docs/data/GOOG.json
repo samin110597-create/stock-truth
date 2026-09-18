@@ -1,41 +1,33 @@
 {
  "symbol": "GOOG",
- "generated_at": "2026-09-17T22:55:43Z",
+ "generated_at": "2026-09-18T16:45:44Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:43Z",
-  "current": 343.68,
-  "change": 4.32,
-  "change_pct": 1.273,
-  "high": 345.965,
-  "low": 340.5,
-  "open": 345.0,
-  "prev_close": 339.36,
-  "ts": 1789675200
+  "fetched_at": "2026-09-18T16:45:44Z",
+  "current": 346.09,
+  "change": 2.41,
+  "change_pct": 0.7012,
+  "high": 355.13,
+  "low": 344.95,
+  "open": 350.365,
+  "prev_close": 343.68,
+  "ts": 1789749924
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:43Z",
+  "fetched_at": "2026-09-18T16:45:44Z",
   "name": "Alphabet Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 4193300100000.0,
+  "mcap": 4247845899999.9995,
   "ipo": "2004-08-19",
   "web": "https://abc.xyz/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T22:55:44Z",
+  "fetched_at": "2026-09-18T16:45:45Z",
   "bars": [
-   {
-    "date": "2023-02-15",
-    "open": 94.74,
-    "high": 97.34,
-    "low": 94.36,
-    "close": 97.099998,
-    "volume": 36964500.0
-   },
    {
     "date": "2023-02-16",
     "open": 95.54,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-17",
-    "open": 344.91,
+    "open": 345.0,
     "high": 345.965,
     "low": 340.5,
     "close": 343.67999,
-    "volume": 14669379.0
+    "volume": 15287100.0
+   },
+   {
+    "date": "2026-09-18",
+    "open": 351.22,
+    "high": 355.08,
+    "low": 344.99,
+    "close": 346.07,
+    "volume": 329172.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-17",
+  "latest": "2026-09-18",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:44Z",
+  "fetched_at": "2026-09-18T16:45:45Z",
   "trends": [
    {
     "symbol": "GOOGL",
@@ -7445,80 +7445,80 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T22:55:44Z",
+  "fetched_at": "2026-09-18T16:45:45Z",
   "analyst_target_mean": 422.336,
   "analyst_target_low": 340.0,
   "analyst_target_high": 475.0,
   "analyst_count": 15.0,
   "recommendation": "strong_buy",
-  "forward_pe": 23.132795,
-  "forward_eps": 14.85683,
+  "forward_pe": 23.318192,
+  "forward_eps": 14.84399,
   "short_pct_float": null,
   "short_ratio": 2.58,
   "short_asof": 1788134400,
-  "institutions_pct": 0.62126,
+  "institutions_pct": 0.6213,
   "insiders_pct": 0.00522,
   "beta": 1.225,
   "next_earnings": 1784750400
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:44Z",
+  "fetched_at": "2026-09-18T16:45:45Z",
   "rows": [
    {
-    "ts": 1789650060,
-    "headline": "Battery Storage-Shift Pilot Demonstrates How Hourly Renewable Certificates Can Power the Next Phase of Corporate Clean-Energy Goals",
+    "ts": 1789738120,
+    "headline": "2 Volatile Stocks on Our Watchlist and 1 We Question",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=c35c8748d7078429d28f80ce73dac09b2a80f0cb76fa1407607af882d2513501"
+    "url": "https://finnhub.io/api/news?id=059ba9ee9a58169c05bf90c0b594513e97a1883533a7b8bce299194e401b23a2"
    },
    {
-    "ts": 1789650000,
-    "headline": "Vitality and Google Expand Technology Partnership to Bring AI-Driven Health Platform to the United States to Incentivize Healthier Behaviors",
+    "ts": 1789737210,
+    "headline": "What Did Microsoft Tell You Before Its Stock Ran?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=e8c22a81962b30d3c4c29e97d0451346c8f4144a1f4323806f36bd7421ec9238"
+    "url": "https://finnhub.io/api/news?id=aae908a06a0eb196c56678b6dd1361d5bb07deb93abe65b8701347d3eb3754db"
    },
    {
-    "ts": 1789650000,
-    "headline": "Should You Rotate to Telecom & Software ETFs Now?",
+    "ts": 1789736407,
+    "headline": "Prediction: Alphabet\u2019s Best Days\u00a0May Still Be\u00a0Ahead",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=73eb6ceda7da317bb33307df6e8c3a339d66c002e6db00fb5567c8492bf8f197"
+    "url": "https://finnhub.io/api/news?id=fc3aee8596a9cf2a71360f2920efceff82986905301b07bb84822f5f66aeb81d"
    },
    {
-    "ts": 1789649714,
-    "headline": "Investors Want to Know When Broadcom\u2019s Custom Hyperscaler Chips Will Move Share Prices",
+    "ts": 1789735620,
+    "headline": "Apple, Nvidia, Microsoft, Alphabet, and Amazon: I Ranked the 5 Largest Companies by Market Cap, and 1 Stands Above the Rest",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a729b9ee706afbcfbb75d7af45b2d3f8ab29cb4b211da9d5f3733bd2ffcd4109"
+    "url": "https://finnhub.io/api/news?id=54f0183b818e3fb4fb8de3fca140ff172eed4e4165c263693fe7a784031a06aa"
    },
    {
-    "ts": 1789648202,
-    "headline": "The Biggest Catalyst for Alphabet Stock May Not Be Search",
+    "ts": 1789735076,
+    "headline": "Cloud AI Update - Expanse Revolutionizes AI Efficiency With Precise Resource Allocation",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f7cab9bff59218343e1e95852ef58534a226c93709d20f820e46184d71a81f9b"
+    "url": "https://finnhub.io/api/news?id=bf13ed483777f8b8aa099fca69696d497973d2285bb1f6835fdd2a78de7b0c1c"
    },
    {
-    "ts": 1789647389,
-    "headline": "What's Happening With NBIS Stock?",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=60cf3b5ef4d805d139cf33ca0fe1b4de517b3f0f6e4b8441477a8609d8bcd86b"
+    "ts": 1789734900,
+    "headline": "Top S&P500 movers in Friday's pre-market session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=22202a1c3b3db791efb6be9d5dde6ef4262d339064af13f5b47ade0f9a2e5171"
    },
    {
-    "ts": 1789647213,
-    "headline": "SpaceX: A $3.2 Trillion Inflection Is Closer Than It Looks",
+    "ts": 1789732853,
+    "headline": "Why Meta Could\u00a0Keep Surprising Wall\u00a0Street",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=f4b133308e226cde0a572987734cc2d415f68719e5d424acc0a74721ce3e9d5e"
+   },
+   {
+    "ts": 1789732467,
+    "headline": "Rates Could Reach 4.5% On AI Spending, And Semiconductors Get Paid First",
     "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=e59c4b8f9801ea000af134d61b1ba62c935cc0acdc7e49c4dc0d021740d99a09"
-   },
-   {
-    "ts": 1789647114,
-    "headline": "Alphabet\u2019s Core Business Is Printing Cash Faster Than Regulators Can Write Fines",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=8ea4b22479022b3bdac72e4ed7aa34d40dbe08ac11ecb6f778263a10d6866f45"
+    "url": "https://finnhub.io/api/news?id=f04479a0d80616a98969ab04c76aeb7c4a6fbb2d9e4ad2bcf5e0391c8be6c99a"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:44Z",
+  "fetched_at": "2026-09-18T16:45:45Z",
   "error": "no insider filings in six months"
  },
  "peers": {

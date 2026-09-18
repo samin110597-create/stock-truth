@@ -1,41 +1,33 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-17T22:55:33Z",
+ "generated_at": "2026-09-18T16:45:32Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:33Z",
-  "current": 251.19,
-  "change": 5.23,
-  "change_pct": 2.1264,
-  "high": 252.73,
-  "low": 249.24,
-  "open": 251.065,
-  "prev_close": 245.96,
-  "ts": 1789675200
+  "fetched_at": "2026-09-18T16:45:32Z",
+  "current": 253.62,
+  "change": 2.43,
+  "change_pct": 0.9674,
+  "high": 255.43,
+  "low": 251.88,
+  "open": 252.655,
+  "prev_close": 251.19,
+  "ts": 1789749901
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:33Z",
+  "fetched_at": "2026-09-18T16:45:33Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 2653001883335.8916,
+  "mcap": 2709414401438.72,
   "ipo": "1997-05-15",
   "web": "https://www.amazon.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T22:55:34Z",
+  "fetched_at": "2026-09-18T16:45:33Z",
   "bars": [
-   {
-    "date": "2023-02-15",
-    "open": 99.089996,
-    "high": 101.17,
-    "low": 98.45,
-    "close": 101.16,
-    "volume": 47957600.0
-   },
    {
     "date": "2023-02-16",
     "open": 99.21,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-17",
-    "open": 251.13,
+    "open": 251.070007,
     "high": 252.73,
     "low": 249.24001,
     "close": 251.19,
-    "volume": 29639613.0
+    "volume": 30336700.0
+   },
+   {
+    "date": "2026-09-18",
+    "open": 252.92,
+    "high": 255.405,
+    "low": 251.885,
+    "close": 253.59,
+    "volume": 772822.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-17",
+  "latest": "2026-09-18",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:34Z",
+  "fetched_at": "2026-09-18T16:45:34Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T22:55:34Z",
+  "fetched_at": "2026-09-18T16:45:34Z",
   "analyst_target_mean": 328.2244,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.211016,
+  "forward_pe": 24.442822,
   "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,62 +7463,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:34Z",
+  "fetched_at": "2026-09-18T16:45:34Z",
   "rows": [
    {
-    "ts": 1789672206,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "ts": 1789732467,
+    "headline": "Rates Could Reach 4.5% On AI Spending, And Semiconductors Get Paid First",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=f04479a0d80616a98969ab04c76aeb7c4a6fbb2d9e4ad2bcf5e0391c8be6c99a"
+   },
+   {
+    "ts": 1789729200,
+    "headline": "Prysmian and Rio Tinto Announce First Electrical Cables Made with ELYSIS(R) Technology Aluminum Contracted for Installation at Amazon Data Center",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=7202539dbf0c4ab8b8a24e51e97cd98b917c0d25c012a05357b911a1b5205094"
+   },
+   {
+    "ts": 1789728313,
+    "headline": "\u2018Big Short\u2019 Investor Michael Burry Blasts Economic \u2018Bubbles\u2019 Enriching the Few at \u2018Obscene Rates\u2019",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d4bb671d8a603a6881691f4cf6aed2804cd6dc55c11424e9c75811351a589534"
+   },
+   {
+    "ts": 1789725154,
+    "headline": "AI Capex Boom Risks 'Massive Capital Destruction' in the US, Warns Veteran Market Strategist: 'You Could Get Some News Item That Suddenly\u2026'",
+    "source": "Benzinga",
+    "url": "https://finnhub.io/api/news?id=d9666453f9b9939966f0d0496d4bc9aade63cd9fe56afd16c76da8eef80a98c7"
+   },
+   {
+    "ts": 1789722508,
+    "headline": "Generac: Data Center Business Takes Off After Amazon Deal",
+    "source": "SeekingAlpha",
+    "url": "https://finnhub.io/api/news?id=674a2912ca3a3e7fb372d9d42603708ab223696552dd5cade4d96839896d6842"
+   },
+   {
+    "ts": 1789721410,
+    "headline": "GNRC Stock Heads For Best Week Since May: Amazon Deal Sparks Fresh Data Center Growth Bets, Analysts Say Generac Is Trading Cheap",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=376d4182c0a36ced64a68ed841a3bb947b0011951d328b5d8068fca7e995f0e3"
+   },
+   {
+    "ts": 1789719781,
+    "headline": "The \u201cMagnificent Seven\u201d Stocks Have Seen Valuations Tumble. Stocks to Avoid or Once-in-a-Decade Buying Opportunity?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c6e0bb84d12da2d2061a195b3987f21883cab0a4385568c3396148a4175c107e"
+   },
+   {
+    "ts": 1789719201,
+    "headline": "Relief Rally: Wall Street Decides a Hawkish Fed It Understands Beats a Fed It Doesn't",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
-   },
-   {
-    "ts": 1789667400,
-    "headline": "Wall Street Breakfast With Steven Cress (Generac, Amazon, Powell, Kroger)",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=3c31abe1f83ec660d5bd379baca449bf1ab93f6234e714b3027b0eb34d80871b"
-   },
-   {
-    "ts": 1789663206,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
-   },
-   {
-    "ts": 1789650931,
-    "headline": "Generac: Amazon Just Added 57% Of A Year's Revenue",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=b5bc9c40bb806ad44bbed209f95dad87bd62917060f43b1230d85b704745617f"
-   },
-   {
-    "ts": 1789647078,
-    "headline": "Lagging The S&P 500? I Don't Care, And Neither Should You",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=38511e139416253ef546439f35b4217c6fbb4d237681ab3a96555c3fa10e6d00"
-   },
-   {
-    "ts": 1789644650,
-    "headline": "Oracle\u2019s 2026 Cratering: This Pro Is Sure It Will Nearly Triple in the Next 12 Months",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=dc2c9634a3fbc2361efb918f0b73df9baa621d16810dd0b656b6962b52f05918"
-   },
-   {
-    "ts": 1789644385,
-    "headline": "Generac Gets $100 Target Hike From Canaccord \u2014 Amazon Deal Could Unlock Up To $8B In Orders, Says Analyst",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ea0eee0beb2a3c2f8ce81ea63019c3b744fd098b413cccef55caff0591e1bace"
-   },
-   {
-    "ts": 1789644001,
-    "headline": "22.4% of Billionaire Bill Ackman\u2019s Pershing Square Capital Management Is Invested in These 2 Artificial Intelligence (AI) Stocks",
-    "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6ed92433bdbd002888e13442151331b71c65ef947c8c5c9ac960f5f188a0efb5"
+    "url": "https://finnhub.io/api/news?id=ba02b2fc907acb035fced53dacc1e5cef6255a6e9bb64f62e530af3ea559ceb8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:34Z",
+  "fetched_at": "2026-09-18T16:45:35Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

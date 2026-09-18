@@ -1,41 +1,33 @@
 {
  "symbol": "NVDA",
- "generated_at": "2026-09-17T22:55:53Z",
+ "generated_at": "2026-09-18T16:45:54Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:53Z",
-  "current": 219.34,
-  "change": 5.44,
-  "change_pct": 2.5432,
-  "high": 219.905,
-  "low": 217.145,
-  "open": 218.375,
-  "prev_close": 213.9,
-  "ts": 1789675200
+  "fetched_at": "2026-09-18T16:45:55Z",
+  "current": 219.58,
+  "change": 0.24,
+  "change_pct": 0.1094,
+  "high": 220.89,
+  "low": 218.03,
+  "open": 220.38,
+  "prev_close": 219.34,
+  "ts": 1789749948
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:53Z",
+  "fetched_at": "2026-09-18T16:45:55Z",
   "name": "NVIDIA Corp",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
   "country": "US",
-  "mcap": 5154989955512.188,
+  "mcap": 5286093849164.015,
   "ipo": "1999-01-22",
   "web": "https://www.nvidia.com/"
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-17T22:55:54Z",
+  "fetched_at": "2026-09-18T16:45:55Z",
   "bars": [
-   {
-    "date": "2023-02-15",
-    "open": 22.549,
-    "high": 22.855,
-    "low": 22.106,
-    "close": 22.764,
-    "volume": 420575000.0
-   },
    {
     "date": "2023-02-16",
     "open": 22.133,
@@ -7222,15 +7214,23 @@
    },
    {
     "date": "2026-09-17",
-    "open": 218.388,
-    "high": 219.89999,
-    "low": 217.145,
+    "open": 218.38,
+    "high": 219.91,
+    "low": 217.14999,
     "close": 219.34,
-    "volume": 92845751.0
+    "volume": 93960500.0
+   },
+   {
+    "date": "2026-09-18",
+    "open": 219.2,
+    "high": 220.88,
+    "low": 218.03,
+    "close": 219.54,
+    "volume": 1608085.0
    }
   ],
   "n": 900,
-  "latest": "2026-09-17",
+  "latest": "2026-09-18",
   "cross_check": {
    "checked": 12,
    "worst": 0.0,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:54Z",
+  "fetched_at": "2026-09-18T16:45:55Z",
   "trends": [
    {
     "symbol": "NVDA",
@@ -7454,83 +7454,83 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-17T22:55:54Z",
+  "fetched_at": "2026-09-18T16:45:56Z",
   "analyst_target_mean": 328.4879,
   "analyst_target_low": 180.0,
   "analyst_target_high": 515.0,
   "analyst_count": 58.0,
   "recommendation": "strong_buy",
-  "forward_pe": 14.046848,
-  "forward_eps": 15.61489,
+  "forward_pe": 13.998927,
+  "forward_eps": 15.68263,
   "short_pct_float": 0.0128999995,
   "short_ratio": 2.33,
   "short_asof": 1788134400,
-  "institutions_pct": 0.71410006,
+  "institutions_pct": 0.71411,
   "insiders_pct": 0.04008,
   "beta": 2.217,
   "next_earnings": 1794945600
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:54Z",
+  "fetched_at": "2026-09-18T16:45:56Z",
   "rows": [
    {
-    "ts": 1789672206,
-    "headline": "Discover which dow jones stocks are making waves on Thursday.",
+    "ts": 1789735854,
+    "headline": "NVIDIA (NASDAQ:NVDA): High-Growth Leadership and Strong Momentum",
     "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=dfb76a66e1436e85948b341453048bdf27d660ffca2da6ee1a728671127df0b6"
+    "url": "https://finnhub.io/api/news?id=b1cdd6c4cf40fa973147fcd5c8919a22f68e2178cacc9cf8f3dae63d41f1c770"
    },
    {
-    "ts": 1789668300,
-    "headline": "Most active S&P500 stocks in Thursday's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=0d852bd60c8de3c6239685cf2705b7e360785db1df8879cd5d21e530331f5afd"
-   },
-   {
-    "ts": 1789663206,
-    "headline": "These dow jones stocks are moving in today's session",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=19743c4c516fff44e17aef6ad8aee7e45aa5ec507e86f2f5d35e75dfae85174e"
-   },
-   {
-    "ts": 1789660965,
-    "headline": "Palantir\u00a0Stock:\u00a0The AI Token Boom Is Hiding A Bigger\u00a0Opportunity",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=a7c3a965b417831579c2e300db6fcb4cf5bd3b1d162242246505248f06a7b5a1"
-   },
-   {
-    "ts": 1789653988,
-    "headline": "Nebius: You Don't Raise Prices Into A Slowdown",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=09eaf33cb240fc920c3286d95f68b6c0c1fc399a616d3eb99dd6476d714abc91"
-   },
-   {
-    "ts": 1789652729,
-    "headline": "Arm\u2019s CEO Says Demand Is \u2018Off the Charts.\u2019 The Problem Is Nobody Can Build Chips Fast Enough",
+    "ts": 1789734960,
+    "headline": "Step Aside, Nvidia: 1 Reason Why Meta Platforms Could Be the Best AI Stock to Buy in 2026.",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f46086f78b26ca4653489c57be690d52c9c36258ecad07adb12416985611277d"
+    "url": "https://finnhub.io/api/news?id=8a9685787b7ed25da2d03702cb226ab16ae1452dc02296b486215597dd7bac65"
    },
    {
-    "ts": 1789652648,
-    "headline": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+    "ts": 1789734659,
+    "headline": "Prediction: This Is Where Nvidia Stock Could Be by the End of Next Year",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ff0975d5493a70beeb0ece2c57bb502fb6e36f4018b49349a2fb83fc447db0de"
+    "url": "https://finnhub.io/api/news?id=035567a326efdf5c5c693b7714fa844628accbd01f71161b0a95eeea6d106bea"
    },
    {
-    "ts": 1789652400,
-    "headline": "Bill Ackman's Pershing Square Took a New Stake in Netflix in 2026, Years After a Money-Losing Bet on the Stock. Why He Says This Time Is Different.",
+    "ts": 1789734360,
+    "headline": "Jensen Huang just gave Nvidia investors a massive 2027 signal",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=6f962f6fc486fc7d539e57dbf56f6a4806be83a6b78af1e35379b3ebd9c281bc"
+    "url": "https://finnhub.io/api/news?id=f2b9f4964bb2cb7be797fd6da07a62fbaa860e110cff1ce28fed983d460ca530"
+   },
+   {
+    "ts": 1789734360,
+    "headline": "If a Recession Is Coming, History Says This 1 No-Brainer ETF Is the Smartest Buy Right Now",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=c673039233b478e23bba07fd14c687866878b51d10e3b82794b2d8514bf3f27f"
+   },
+   {
+    "ts": 1789734000,
+    "headline": "I Don't Plan to Claim Social Security at 62, but This 1 Thing Could Change My Mind",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b27f61ff939a4041b1637e6fc60d40237ade960807dd8aedc5eaa94d41f5984e"
+   },
+   {
+    "ts": 1789733951,
+    "headline": "Here\u2019s When Nividia\u2019s Dominance Fades, Opening Broadcom\u2019s Era of Dominance",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=20247d906545b87ad0ff00906d5d206158c21068a623438c5e3701d9f556ee42"
+   },
+   {
+    "ts": 1789733859,
+    "headline": "Karp Says AI Labs May Need Nationalizing to Escape Lawsuits",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a630fe82f36a321857f10837cfedd3dbfbe882c434cb353aab3ea1598791d4db"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-17T22:55:54Z",
-  "buys": 3,
-  "sells": 58,
-  "net_shares": -4572187.0,
+  "fetched_at": "2026-09-18T16:45:56Z",
+  "buys": 2,
+  "sells": 47,
+  "net_shares": -3551994.0,
   "months": 6,
   "recent": [
    {
