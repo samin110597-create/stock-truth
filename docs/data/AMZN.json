@@ -1,21 +1,21 @@
 {
  "symbol": "AMZN",
- "generated_at": "2026-09-18T19:15:18Z",
+ "generated_at": "2026-09-18T21:44:51Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:18Z",
-  "current": 254.33,
-  "change": 3.14,
-  "change_pct": 1.25,
+  "fetched_at": "2026-09-18T21:44:51Z",
+  "current": 253.71,
+  "change": 2.52,
+  "change_pct": 1.0032,
   "high": 255.43,
   "low": 251.88,
-  "open": 252.655,
+  "open": 252.92,
   "prev_close": 251.19,
-  "ts": 1789758902
+  "ts": 1789761600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:18Z",
+  "fetched_at": "2026-09-18T21:44:51Z",
   "name": "Amazon.com Inc",
   "industry": "Retail",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-18T19:15:18Z",
+  "fetched_at": "2026-09-18T21:44:52Z",
   "bars": [
    {
     "date": "2023-02-16",
@@ -7218,15 +7218,15 @@
     "high": 252.73,
     "low": 249.24001,
     "close": 251.19,
-    "volume": 30336700.0
+    "volume": 30438800.0
    },
    {
     "date": "2026-09-18",
-    "open": 252.92,
-    "high": 255.405,
-    "low": 251.885,
-    "close": 254.29,
-    "volume": 906618.0
+    "open": 252.86,
+    "high": 255.42999,
+    "low": 251.88,
+    "close": 253.71001,
+    "volume": 52017136.0
    }
   ],
   "n": 900,
@@ -7403,7 +7403,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:18Z",
+  "fetched_at": "2026-09-18T21:44:52Z",
   "trends": [
    {
     "symbol": "AMZN",
@@ -7445,13 +7445,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-18T19:15:19Z",
+  "fetched_at": "2026-09-18T21:44:52Z",
   "analyst_target_mean": 328.2244,
   "analyst_target_low": 230.0,
   "analyst_target_high": 405.0,
   "analyst_count": 59.0,
   "recommendation": "strong_buy",
-  "forward_pe": 24.509329,
+  "forward_pe": 24.453907,
   "forward_eps": 10.37503,
   "short_pct_float": 0.0094,
   "short_ratio": 2.16,
@@ -7463,8 +7463,32 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:19Z",
+  "fetched_at": "2026-09-18T21:44:52Z",
   "rows": [
+   {
+    "ts": 1789760126,
+    "headline": "Goldman Sachs Sends Stark Warning on S&P 500 Earnings",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=b2e1130de4a9258488eadedb5e1b1cd99757d7a229b9434160b946aa2ff062d8"
+   },
+   {
+    "ts": 1789759477,
+    "headline": "Where AAPL Stock's $510 Billion Of Shareholder Cash Came From",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=d619fe748ffe6a8da06b527c53226697c45a0fcaeed9b1a21108d818d1ebe057"
+   },
+   {
+    "ts": 1789758607,
+    "headline": "These dow jones stocks are moving in today's session",
+    "source": "ChartMill",
+    "url": "https://finnhub.io/api/news?id=19132d3174e5558af2ee7f4aa0e4f2c65ea769710042cfdf42f6819a521901ef"
+   },
+   {
+    "ts": 1789754827,
+    "headline": "Oracle Falls 3% While Cloud Rivals Hold Their Ground; Microsoft Dips, Amazon Nudges Higher",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=a096c5d06025b5ca49a7b9827f4c34d7e8b736f61fbbd72325babed2d7a6504e"
+   },
    {
     "ts": 1789754700,
     "headline": "Explore the S&P500 index on Friday and find out which stocks are the most active in today's session.",
@@ -7472,53 +7496,29 @@
     "url": "https://finnhub.io/api/news?id=4ac00e1b4de60d09d4acbd32e9f56adbe79b0efb09edf3ad06a8332151385298"
    },
    {
-    "ts": 1789749606,
-    "headline": "Which dow jones stocks are moving on Friday?",
-    "source": "ChartMill",
-    "url": "https://finnhub.io/api/news?id=998b7fb86800193462b3eb80f7221c5994067abd591695b8f964263732a61396"
-   },
-   {
-    "ts": 1789732467,
-    "headline": "Rates Could Reach 4.5% On AI Spending, And Semiconductors Get Paid First",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f04479a0d80616a98969ab04c76aeb7c4a6fbb2d9e4ad2bcf5e0391c8be6c99a"
-   },
-   {
-    "ts": 1789729200,
-    "headline": "Prysmian and Rio Tinto Announce First Electrical Cables Made with ELYSIS(R) Technology Aluminum Contracted for Installation at Amazon Data Center",
+    "ts": 1789754441,
+    "headline": "Is Palantir's Lead Over Its Peers Already Priced In?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=7202539dbf0c4ab8b8a24e51e97cd98b917c0d25c012a05357b911a1b5205094"
+    "url": "https://finnhub.io/api/news?id=57f9a3b6fc72eb72004070beb9320997935226a41fa261a3a9160d4d02974797"
    },
    {
-    "ts": 1789728313,
-    "headline": "\u2018Big Short\u2019 Investor Michael Burry Blasts Economic \u2018Bubbles\u2019 Enriching the Few at \u2018Obscene Rates\u2019",
+    "ts": 1789751465,
+    "headline": "Time to Build Better Corporate Governance at BETR",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=d4bb671d8a603a6881691f4cf6aed2804cd6dc55c11424e9c75811351a589534"
+    "url": "https://finnhub.io/api/news?id=a7b3ea6ea355a1dacb90eab60b1aa5b9d71a3a5031b121887625ab5556587d64"
    },
    {
-    "ts": 1789725154,
-    "headline": "AI Capex Boom Risks 'Massive Capital Destruction' in the US, Warns Veteran Market Strategist: 'You Could Get Some News Item That Suddenly\u2026'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d9666453f9b9939966f0d0496d4bc9aade63cd9fe56afd16c76da8eef80a98c7"
-   },
-   {
-    "ts": 1789722508,
-    "headline": "Generac: Data Center Business Takes Off After Amazon Deal",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=674a2912ca3a3e7fb372d9d42603708ab223696552dd5cade4d96839896d6842"
-   },
-   {
-    "ts": 1789722001,
-    "headline": "The U.S. says China's AI progress is down to 'distillation.' But is it that clear cut?",
-    "source": "CNBC",
-    "url": "https://finnhub.io/api/news?id=c08e6786bcc52bb238da91d47d85f69cf382ea65dac01efab1ca68e922fc6c6f"
+    "ts": 1789751382,
+    "headline": "Should You Buy Home Depot Stock Near Its Lowest Price-To-Sales In Ten Years?",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ea1c5043a64f554383b8d7f3e4026b2597b7da8daac9d865038e2bc5250760e8"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:19Z",
+  "fetched_at": "2026-09-18T21:44:52Z",
   "buys": 37,
   "sells": 96,
   "net_shares": -2515315.0,

@@ -1,21 +1,21 @@
 {
  "symbol": "META",
- "generated_at": "2026-09-18T19:15:48Z",
+ "generated_at": "2026-09-18T21:45:23Z",
  "quote": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:48Z",
-  "current": 672.35,
-  "change": -9.96,
-  "change_pct": -1.4597,
+  "fetched_at": "2026-09-18T21:45:23Z",
+  "current": 665.75,
+  "change": -16.56,
+  "change_pct": -2.427,
   "high": 690.15,
-  "low": 668.4906,
-  "open": 687.17,
+  "low": 660.8,
+  "open": 688.62,
   "prev_close": 682.31,
-  "ts": 1789758924
+  "ts": 1789761600
  },
  "profile": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:48Z",
+  "fetched_at": "2026-09-18T21:45:23Z",
   "name": "Meta Platforms Inc",
   "industry": "Media",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
@@ -26,7 +26,7 @@
  },
  "candles": {
   "source": "twelvedata",
-  "fetched_at": "2026-09-18T19:15:48Z",
+  "fetched_at": "2026-09-18T21:45:23Z",
   "bars": [
    {
     "date": "2023-02-16",
@@ -7218,15 +7218,15 @@
     "high": 683.20001,
     "low": 667.049988,
     "close": 682.31,
-    "volume": 15888400.0
+    "volume": 15928000.0
    },
    {
     "date": "2026-09-18",
-    "open": 687.92,
-    "high": 690.07,
-    "low": 668.67,
-    "close": 672.24,
-    "volume": 461120.0
+    "open": 686.82001,
+    "high": 690.15002,
+    "low": 660.79999,
+    "close": 665.75,
+    "volume": 27394770.0
    }
   ],
   "n": 900,
@@ -7412,7 +7412,7 @@
  },
  "analysts": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:49Z",
+  "fetched_at": "2026-09-18T21:45:24Z",
   "trends": [
    {
     "symbol": "META",
@@ -7454,13 +7454,13 @@
  },
  "extras": {
   "source": "yfinance",
-  "fetched_at": "2026-09-18T19:15:49Z",
+  "fetched_at": "2026-09-18T21:45:24Z",
   "analyst_target_mean": 755.2807,
   "analyst_target_low": 580.0,
   "analyst_target_high": 1000.0,
   "analyst_count": 56.0,
   "recommendation": "strong_buy",
-  "forward_pe": 19.220726,
+  "forward_pe": 19.043377,
   "forward_eps": 34.95966,
   "short_pct_float": 0.013099999,
   "short_ratio": 1.77,
@@ -7472,62 +7472,62 @@
  },
  "news": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:49Z",
+  "fetched_at": "2026-09-18T21:45:24Z",
   "rows": [
    {
-    "ts": 1789736400,
-    "headline": "Serial Entrepreneurs Mike and Kass Lazerow Buy Merraine Group and Launch Merraine Growth to Help Venture-backed Companies Land Critical Talent",
+    "ts": 1789760126,
+    "headline": "Goldman Sachs Sends Stark Warning on S&P 500 Earnings",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ec989d52cf1b551f693f2ea5099a8a4d0eec16c5462415dfa61bdada48bb0cce"
+    "url": "https://finnhub.io/api/news?id=b2e1130de4a9258488eadedb5e1b1cd99757d7a229b9434160b946aa2ff062d8"
    },
    {
-    "ts": 1789733859,
-    "headline": "Karp Says AI Labs May Need Nationalizing to Escape Lawsuits",
+    "ts": 1789757259,
+    "headline": "Meta Platforms Just Ripped 23% in a Month: Take Profits, or Buy More?",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=a630fe82f36a321857f10837cfedd3dbfbe882c434cb353aab3ea1598791d4db"
+    "url": "https://finnhub.io/api/news?id=b4237aed203be0c620e7289de3cb158b667819295c160a3fb1e1fa38bc390e3d"
    },
    {
-    "ts": 1789732853,
-    "headline": "Why Meta Could\u00a0Keep Surprising Wall\u00a0Street",
+    "ts": 1789755496,
+    "headline": "Meta-Tied Data Center Draws Blowout Demand for Debut Junk Bond",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=f4b133308e226cde0a572987734cc2d415f68719e5d424acc0a74721ce3e9d5e"
+    "url": "https://finnhub.io/api/news?id=a6ee331efd35c6dc1d7a8ddc3cb11aa286829153a3f9ceca42c1cf567389fdef"
    },
    {
-    "ts": 1789731911,
-    "headline": "Manus Eyes $4 Billion Valuation in First Round Since Beijing Forced Meta to Walk Away",
+    "ts": 1789755298,
+    "headline": "Aptos SVP warns quantum threat is closer than you think",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=44d952d0d9094d6052dbfdbdeb9c70a58788b9c27e06f3fd7f76808b762315a1"
+    "url": "https://finnhub.io/api/news?id=b482427ebe72c69b976c5b0c1cfcbc70e5be290655fe37f11ab5dd64db8d3228"
    },
    {
-    "ts": 1789730119,
-    "headline": "Meta Vs. Oracle: The Laggards of AI Capex Payback Velocity",
+    "ts": 1789754290,
+    "headline": "Manus AI seeks $500 million, weighs Hong Kong IPO after Meta split",
     "source": "Yahoo",
-    "url": "https://finnhub.io/api/news?id=ba3b7bc83aba24868f837ac223c7c588f138e08f6cb62dea4bdef74a9dd5b190"
+    "url": "https://finnhub.io/api/news?id=929b501c6b21ebeb6f031b6891751fbb645d36bb7b01ed9abcf0cc352af6e874"
    },
    {
-    "ts": 1789730100,
-    "headline": "BUZZ Investing: Rising Oil Prices And Treasury Yields Pressure Equities",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=c3ca3dc5987e7d6a378a62ad938c2434609b2581ee87556d3ed701fd6e7043a7"
+    "ts": 1789753160,
+    "headline": "The Asia Agent Wave \u2013 Manus, Enhans, and Huawei All Moved This Week",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=3db5411cead269dbd047f8ac9fc128f9cab2287e19a54ef59523fb5de2100538"
    },
    {
-    "ts": 1789728913,
-    "headline": "Meta's Muse Will Be A Game Changer",
-    "source": "SeekingAlpha",
-    "url": "https://finnhub.io/api/news?id=f38eedb7d3f59bbab046549b7a49a85572c9cd517dbedcbdc200596b29f015ea"
+    "ts": 1789752900,
+    "headline": "Sector Update: Tech Stocks Edge Higher Friday Afternoon",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=9ca832e00c6e363662783a02aff119a7a4c36d236a639bbd6a3fe300a0b71ee3"
    },
    {
-    "ts": 1789725154,
-    "headline": "AI Capex Boom Risks 'Massive Capital Destruction' in the US, Warns Veteran Market Strategist: 'You Could Get Some News Item That Suddenly\u2026'",
-    "source": "Benzinga",
-    "url": "https://finnhub.io/api/news?id=d9666453f9b9939966f0d0496d4bc9aade63cd9fe56afd16c76da8eef80a98c7"
+    "ts": 1789752680,
+    "headline": "Disney names Karandeep Anand as first-ever CTO",
+    "source": "Yahoo",
+    "url": "https://finnhub.io/api/news?id=ab9199b229ae69006871dca580ad6c862f32f944c6d4cbec1fe8d7776cd89280"
    }
   ],
   "days": 14
  },
  "insiders": {
   "source": "finnhub",
-  "fetched_at": "2026-09-18T19:15:49Z",
+  "fetched_at": "2026-09-18T21:45:24Z",
   "buys": 105,
   "sells": 182,
   "net_shares": 3222604.0,
